@@ -4,7 +4,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0">
     <xsl:param name="project_title">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</xsl:param>
     <xsl:param name="project_short_title">Schnitzler-Bahr</xsl:param>
-    <xsl:param name="github_url">https://github.com/acdh-oeaw/bahr-static</xsl:param>
+    <xsl:param name="github_url">https://github.com/arthur-schnitzler/schnitzler-bahr-static</xsl:param>
     <xsl:param name="html_title">Schnitzler-Bahr</xsl:param>
     <xsl:param name="project_logo">dist/fundament/images/fundament_logo.svg</xsl:param>
     <xsl:param name="base_url">https://schnitzler-bahr.acdh.oeaw.ac.at</xsl:param>

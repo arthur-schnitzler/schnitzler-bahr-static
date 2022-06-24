@@ -11,7 +11,7 @@
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
-            <xsl:value-of select=".//tei:title[@type='main'][1]/text()"/>
+            <xsl:value-of select=".//tei:title[@type='a'][1]/text()"/>
         </xsl:variable>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
@@ -61,15 +61,15 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Das Tagebuch in Kalenderansicht</h5>
+                                    <h5 class="modal-title">Kalenderansicht der Texte</h5>
                                 </div>
                                 <div class="modal-body">
                                     <p>
-                                        Fünfzig Jahre lang legte Schnitzler nahezu täglich Einträge an. Über den Kalender können bestimmte Tage direkt aufgefunden werden.
+                                        Über den Kalender können Texte nach dem Erscheinungstag aufgefunden werden.
                                     </p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
                                 </div>
                             </div>
                         </div>
