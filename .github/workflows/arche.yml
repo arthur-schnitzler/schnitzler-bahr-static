@@ -1,0 +1,41 @@
+name: ARCHE
+
+on:
+  workflow_dispatch
+
+jobs:
+  build_pages_and_ingest:
+    name: ARCHE Ingest
+    runs-on: ubuntu-latest
+    steps:
+    - name: get data
+      run: |
+        echo "do something to get your data"
+    - name: Perform Checkout
+      uses: actions/checkout@v2
+    - name: install python packages
+      run: |
+        pip install acdh-tei-pyutils
+    - name: Install Saxon and ANT
+      run: |
+        apt-get update && apt-get install openjdk-11-jre-headless ant -y --no-install-recommend
+        echo "downloading saxon"
+        wget https://sourceforge.net/projects/saxon/files/Saxon-HE/9.9/SaxonHE9-9-1-7J.zip/download && unzip download -d saxon && rm -rf download
+    - name: Fetch Data
+      run: |
+        ./transform.sh
+    - name: ingestion dependencies
+      run: |
+        composer require "acdh-oeaw/arche-ingest:^1"
+    - name: ingest arche-md
+      run: |
+        vendor/bin/arche-import-metadata html/arche.rdf https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}}
+    - name: Copy XML Files to to_ingest 
+      run: |
+        mkdir $PWD/to_ingest
+        find -path "./data/editions/*.xml" -exec cp -prv '{}' './to_ingest' ';'
+        find -path "./data/indices/*.xml" -exec cp -prv '{}' './to_ingest' ';'
+        cp title-img.jpg ./to_ingest/ 
+    - name: ingest binaries
+      run: |
+        vendor/bin/arche-import-binary to_ingest https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler https://arche.acdh.oeaw.ac.at/api ${{secrets.ARCHE_LOGIN}} ${{secrets.ARCHE_PASSWORD}} --skip not_exist
