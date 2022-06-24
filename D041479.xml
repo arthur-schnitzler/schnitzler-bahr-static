@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041479.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041478.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041480.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 23. 9. 1905</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="479"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89F8-0</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2088 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT4">
+                  <monogr>
+                     <title level="m">1904–1905</title>
+                     <editor>Bearbeitet von Lukas Mayerhofer und Helene Zand</editor>
+                     <imprint>
+                        <date when="2000">2000</date>
+                     </imprint>
+                     <biblScope unit="pp">430</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">IV</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="2016-01-11">angelegt</change>
+         <change who="KI MAM" when="2016-02-04">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="1905-09-23" n="01">23.</date> Mein <rs type="work" subtype="implied" ref="#pmb31179">Artikel</rs> über <rs type="work" ref="#pmb29955">Rosmersholm</rs>.</p>
+            <p>Correctur des »<rs type="work" ref="#pmb29907">Club der Erlöser</rs>« an <rs type="person" ref="#pmb3638">Drugulin</rs> geschickt.</p>
+            <p>
+               <rs type="place" ref="#pmb14">Burgtheater</rs>, <rs type="work" ref="#pmb31181">Fiesco</rs> mit <rs type="person" ref="#pmb12948">Thimig</rs> als Mohren.</p>
+            <p>Die Woche gelesen: <rs type="person" ref="#pmb2121">Schnitzlers</rs> »<rs type="work" ref="#pmb29905">Ruf des Lebens</rs>« und »<rs type="work" ref="#pmb29903">Zwischenspiel</rs>«, in <rs type="person" ref="#pmb12668">Friedrich Schlegels</rs> »<rs type="work" ref="#pmb31183">Fragmenten</rs>«, <rs type="person" ref="#pmb3641">Lagarde</rs>, <rs type="person" ref="#pmb12323">Mörike</rs>, <rs type="person" ref="#pmb3644">Alexander Marwitz</rs>.</p>
+         </div>
+      </body>
+   </text>
+   <back>
+      <listPerson>
+         <person xml:id="pmb10815">
+            <persName>
+               <forename>Hermann</forename>
+               <surname>Bahr</surname>
+            </persName>
+            <birth>
+               <date when="1863-07-19">19.07.1863</date>
+               <settlement ref="pmb332">
+                  <placeName type="pref">Linz</placeName>
+                  <location>
+                     <geo>48,3 14,28333</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1934-01-15">15.01.1934</date>
+               <settlement ref="pmb45258">
+                  <placeName type="pref">München</placeName>
+                  <location>
+                     <geo>48,13743 11,57549</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+         </person>
+         <person xml:id="pmb3638">
+            <persName>
+               <forename>Egbert Johannes</forename>
+               <surname>Drugulin</surname>
+            </persName>
+            <birth>
+               <date when="1858-01-01">1858</date>
+               <settlement ref="pmb918">
+                  <placeName type="pref">Magdeburg</placeName>
+                  <location>
+                     <geo>52,14167 11,64444</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1945-01-01">1945</date>
+               <settlement ref="pmb864">
+                  <placeName type="pref">Leipzig</placeName>
+                  <location>
+                     <geo>51,33962 12,37129</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb161">Druckereibesitzer/Druckereibesitzerin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116034521</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3638</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3638</idno>
+         </person>
+         <person xml:id="pmb12948">
+            <persName>
+               <forename>Hugo</forename>
+               <surname>Thimig</surname>
+            </persName>
+            <birth>
+               <date when="1854-06-16">16.06.1854</date>
+               <settlement ref="pmb866">
+                  <placeName type="pref">Dresden</placeName>
+                  <location>
+                     <geo>51,0833 13,7666</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1944-09-24">24.09.1944</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20714</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11875713X</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12948</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12948</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12948</idno>
+         </person>
+         <person xml:id="pmb2121">
+            <persName>
+               <forename>Arthur</forename>
+               <surname>Schnitzler</surname>
+            </persName>
+            <birth>
+               <date when="1862-05-15">15.05.1862</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1931-10-21">21.10.1931</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+         </person>
+         <person xml:id="pmb12668">
+            <persName>
+               <forename>Friedrich von</forename>
+               <surname>Schlegel</surname>
+            </persName>
+            <birth>
+               <date when="1772-03-10">10.03.1772</date>
+               <settlement ref="pmb890">
+                  <placeName type="pref">Hannover</placeName>
+                  <location>
+                     <geo>52,37052 9,73322</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1829-01-12">12.01.1829</date>
+               <settlement ref="pmb866">
+                  <placeName type="pref">Dresden</placeName>
+                  <location>
+                     <geo>51,0833 13,7666</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19717</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118607987</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12668</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12668</idno>
+         </person>
+         <person xml:id="pmb3641">
+            <persName>
+               <forename>Paul Anton de</forename>
+               <surname>Lagarde</surname>
+            </persName>
+            <persName type="geburtsname_vorname">Paul Anton</persName>
+            <persName type="geburtsname_nachname">Bötticher</persName>
+            <birth>
+               <date when="1827-11-02">1827-11-02</date>
+               <settlement ref="pmb168">
+                  <placeName type="pref">Berlin</placeName>
+                  <location>
+                     <geo>52,52437 13,41053</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1891-12-22">1891-12-22</date>
+               <settlement ref="pmb42325">
+                  <placeName type="pref">Göttingen</placeName>
+                  <location>
+                     <geo>51,53443 9,93228</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb195">Philosoph/Philosophin &gt;&gt; Kulturphilosoph/Kulturphilosophin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118725971</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3641</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3641</idno>
+         </person>
+         <person xml:id="pmb12323">
+            <persName>
+               <forename>Eduard</forename>
+               <surname>Mörike</surname>
+            </persName>
+            <birth>
+               <date when="1804-09-08">08.09.1804</date>
+               <settlement ref="pmb56124">
+                  <placeName type="pref">Ludwigsburg</placeName>
+                  <location>
+                     <geo>48,89731 9,19161</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1875-06-04">04.06.1875</date>
+               <settlement ref="pmb872">
+                  <placeName type="pref">Stuttgart</placeName>
+                  <location>
+                     <geo>48,78232 9,17702</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="not-set"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb513">Pfarrer/Pfarrerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18204</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118583107</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12323</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12323</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb12323.html</idno>
+         </person>
+         <person xml:id="pmb3644">
+            <persName>
+               <forename>Alexander von der</forename>
+               <surname>Marwitz</surname>
+            </persName>
+            <birth>
+               <date when="1787-01-01">1787</date>
+               <settlement ref="pmb168">
+                  <placeName type="pref">Berlin</placeName>
+                  <location>
+                     <geo>52,52437 13,41053</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1814-01-01">1814</date>
+               <settlement ref="pmb48653">
+                  <placeName type="pref">Montmirail</placeName>
+                  <location>
+                     <geo>48,87214 3,53797</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb198">Gutsbesitzer/Gutsbesitzerin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118578464</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3644</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3644</idno>
+         </person>
+      </listPerson>
+      <listBibl>
+         <bibl xml:id="pmb31179">
+            <title>Rosmersholm. Schauspiel in vier Akten von Henrik Ibsen. Neu inszeniert im Deutschen Volkstheater am 21. September 1905</title>
+            <note type="bibliografische_angabe">Neues Wiener Tagblatt, 23. 9. 1905</note>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date when="1905-09-23">23.09.1905</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31179</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31179</idno>
+            <note type="work_kind">Rezension</note>
+         </bibl>
+         <bibl xml:id="pmb29955">
+            <title>Rosmersholm</title>
+            <author ref="pmbperson__11798" role="hat-geschaffen">Ibsen, Henrik</author>
+            <date notBefore="1886-01-01" when="1886-07-02">1886</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29955</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29955</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29955</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29955.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb29907">
+            <title>Der Klub der Erlöser</title>
+            <note type="bibliografische_angabe">Die neue Rundschau, Jg. 17, H. 3, März 1906</note>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date when="1906-03-01">01.03.1906</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29907</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29907</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29907</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29907.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Einakter</note>
+         </bibl>
+         <bibl xml:id="pmb31181">
+            <title>Die Verschwörung des Fiesko zu Genua</title>
+            <title type="legacy-name-merge">Die Verschwörung des Fiesco zu Genua</title>
+            <author ref="pmbperson__12654" role="hat-geschaffen">Schiller, Friedrich von</author>
+            <author ref="pmbperson__12654" role="hat-geschaffen">Schiller, Friedrich von</author>
+            <date when="1783-01-01">1783</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31181</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32472</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31181</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32472</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31181.html</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
+         <bibl xml:id="pmb29905">
+            <title>Der Ruf des Lebens. Schauspiel in drei Akten</title>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Ruf_des_Lebens</idno>
+            <note type="uri_worklink">http://www.literature.at/viewer.alo?objid=12117&amp;page=1&amp;viewmode=fullscreen</note>
+            <title type="arbeitstitel">Vatermörderin</title>
+            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <date when="1906-02-20">1906-02-20</date>
+            <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.12</idno>
+            <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1196563</idno>
+            <idno type="URL" subtype="theadok">https://theadok.at/work/38153</idno>
+            <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12117&amp;page=1&amp;viewmode=fullscreen</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29905</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29905</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29905</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29905.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb29903">
+            <title>Zwischenspiel. Komödie in drei Akten</title>
+            <title type="arbeitstitel">Neue Ehe</title>
+            <title type="arbeitstitel">Das leichte Leben</title>
+            <title type="arbeitstitel">Cäcilie Adams</title>
+            <title type="arbeitstitel">„Nicht mehr zu dir zu gehn …“</title>
+            <title type="arbeitstitel">Adagio</title>
+            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <date>1905-10-12  – 1905-10-12</date>
+            <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.35</idno>
+            <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q245055</idno>
+            <idno type="URL" subtype="theadok">https://theadok.at/work/38158</idno>
+            <idno type="URL" subtype="literature">http://www.literature.at/viewer.alo?objid=12124&amp;page=1&amp;viewmode=fullscreen</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29903</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29903</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29903</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29903.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb31183">
+            <title>Fragmente und Ideen</title>
+            <author ref="pmbperson__12668" role="hat-geschaffen">Schlegel, Friedrich von</author>
+            <date when="1905-01-01">1905</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31183</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31183</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
+      </listBibl>
+      <listPlace>
+         <place xml:id="pmb14">
+            <placeName>Burgtheater</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>48,210333 16,361139</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <geo>48,20769 16,37049</geo>
+            </location>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Burgtheater+%28Gebäude</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+         </place>
+      </listPlace>
+   </back>
+</TEI>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030016.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030014.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030017.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" ref="pmb32077">Hermann Bahr: Theater und Kunst [Liebelei im Burgtheater], 26. 11. 1899</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="016"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A7E-A</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="1899-11-26" n="1">26. 11. 1899</origDate>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="pmb32077">Theater und Kunst [Liebelei im Burgtheater]</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="pmb29421">Österreichische Volks-Zeitung</title>
+                     <imprint>
+                        <date when="1899-11-26" n="1">26. 11. 1899</date>
+                     </imprint>
+                     <biblScope unit="jg">45</biblScope>
+                     <biblScope unit="nr">326</biblScope>
+                     <biblScope unit="pp">17</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="2016-02-18" who="MAM">Anriss</change>
+         <change when="2016-02-24" who="MAM">Angelegt aus 2-Kreuzer-Ausgabe</change>
+         <change when="2016-02-25" who="MAM">Kollationiert mit großer Ausgabe</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <head>Theater und Kunst.</head>
+            <head type="sub">
+               <rs type="place" ref="#pmb14">Burgtheater</rs>.</head>
+            <p part="N">Als Fritz Lobheimer in der »<rs type="work" ref="#pmb29917">
+                  <hi rend="spaced_out">Liebelei</hi>
+               </rs>« hat Herr <rs type="person" ref="#pmb2249">
+                  <hi rend="spaced_out">Korff</hi>
+               </rs> sehr gefallen. In den heiteren Szenen hat er eine reizende Art, <rs type="place" ref="#pmb50">wienerisch</rs> nonchalant zu sein, ohne doch auch nur ein Wort fallen zu lassen; in der Szene mit dem Herrn eine kurze athemlose Nervosität, die packt. Im zweiten Akte wird er ein bischen gar zu sentimental, und wo er herzlich sein soll, klingt es nicht ganz echt. Zum <rs type="work" subtype="implied" ref="#pmb31727">Paul Wedding</rs> in <rs type="person" ref="#pmb10905">Bernstein</rs>’s »<rs type="work" ref="#pmb31727">
+                  <hi rend="spaced_out">Blau</hi>
+               </rs>« reicht seine Laune nicht aus, dazu ist sie nicht breit und behaglich genug. Es fehlt ihm da wieder, wie schon neulich bei seinem <rs type="work" subtype="implied" ref="#pmb31729">Bolz</rs>, das Sprudelnde, das <rs type="person" ref="#pmb12265">Mitterwurzer</rs> in solchen Stellen hatte, die hinreißende, fortwirbelnde Bravour und die eigene Freude an der Teufelei. Er scheint das selbst zu fühlen und will nachhelfen, indem er bald ein wenig <rs type="person" ref="#pmb12265">Mitterwurzer</rs> im Tone, bald mit den Händen Herrn <rs type="person" ref="#pmb11610">Hartmann</rs> kopirt, was nicht eben angenehm wirkt. Charmant ist in dem Stückchen Fräulein <rs type="person" ref="#pmb27259">
+                  <hi rend="spaced_out">Witt</hi>
+               </rs>; den Onkel gibt Herr <rs type="person" ref="#pmb12971">
+                  <hi rend="spaced_out">Treßler</hi>
+               </rs> mit feinstem Humor, man wird ihm manche Rolle des Herrn <rs type="person" ref="#pmb12746">Schöne</rs> getrost anvertrauen können. <signed>
+                  <hi rend="antiqua">H. B.</hi>
+               </signed>
+            </p>
+         </div>
+      </body>
+   </text>
+   <back>
+      <listPerson>
+         <person xml:id="pmb10815">
+            <persName>
+               <forename>Hermann</forename>
+               <surname>Bahr</surname>
+            </persName>
+            <birth>
+               <date when="1863-07-19">19.07.1863</date>
+               <settlement ref="pmb332">
+                  <placeName type="pref">Linz</placeName>
+                  <location>
+                     <geo>48,3 14,28333</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1934-01-15">15.01.1934</date>
+               <settlement ref="pmb45258">
+                  <placeName type="pref">München</placeName>
+                  <location>
+                     <geo>48,13743 11,57549</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+         </person>
+         <person xml:id="pmb2249">
+            <persName>
+               <forename>Arnold</forename>
+               <surname>Korff</surname>
+            </persName>
+            <persName type="geburtsname_nachname">Kirsch</persName>
+            <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Arnold_Korff</persName>
+            <birth>
+               <date when="1868-08-02">02.08.1868</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1944-06-02">02.06.1944</date>
+               <settlement ref="pmb44053">
+                  <placeName type="pref">New York City</placeName>
+                  <location>
+                     <geo>40,71427 -74,00597</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/101334071X</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17046</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2249</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2249</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2249</idno>
+         </person>
+         <person xml:id="pmb10905">
+            <persName>
+               <forename>Max</forename>
+               <surname>Bernstein</surname>
+            </persName>
+            <birth>
+               <date when="1854-05-12">12.05.1854</date>
+               <settlement ref="pmb40508">
+                  <placeName type="pref">Fürth</placeName>
+                  <location>
+                     <geo>49,47593 10,98856</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1925-03-08">08.03.1925</date>
+               <settlement ref="pmb45258">
+                  <placeName type="pref">München</placeName>
+                  <location>
+                     <geo>48,13743 11,57549</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="pmb106">Rechtsanwalt/Rechtsanwältin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13682</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119257408</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10905</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10905</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10905</idno>
+         </person>
+         <person xml:id="pmb12265">
+            <persName>
+               <forename>Friedrich</forename>
+               <surname>Mitterwurzer</surname>
+            </persName>
+            <birth>
+               <date when="1844-10-16">16.10.1844</date>
+               <settlement ref="pmb866">
+                  <placeName type="pref">Dresden</placeName>
+                  <location>
+                     <geo>51,0833 13,7666</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1897-02-13">13.02.1897</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18190</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117064858</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12265</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12265</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12265</idno>
+         </person>
+         <person xml:id="pmb11610">
+            <persName>
+               <forename>Ernst</forename>
+               <surname>Hartmann</surname>
+            </persName>
+            <birth>
+               <date when="1844-01-08">08.01.1844</date>
+               <settlement ref="pmb506">
+                  <placeName type="pref">Hamburg</placeName>
+                  <location>
+                     <geo>53,57532 10,01534</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1911-10-10">10.10.1911</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15944</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116491736</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11610</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11610</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11610</idno>
+         </person>
+         <person xml:id="pmb27259">
+            <persName>
+               <forename>Lotte</forename>
+               <surname>Witt</surname>
+            </persName>
+            <persName type="ehename">Borotha</persName>
+            <birth>
+               <date when="1870-04-24">24.04.1870</date>
+               <settlement ref="pmb168">
+                  <placeName type="pref">Berlin</placeName>
+                  <location>
+                     <geo>52,52437 13,41053</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1938-12-28">28.12.1938</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="female"/>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21403</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb27259</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/27259</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb27259</idno>
+         </person>
+         <person xml:id="pmb12971">
+            <persName>
+               <forename>Otto</forename>
+               <surname>Tressler</surname>
+            </persName>
+            <persName type="namensvariante">Mayer</persName>
+            <birth>
+               <date when="1871-04-13">13.04.1871</date>
+               <settlement ref="pmb872">
+                  <placeName type="pref">Stuttgart</placeName>
+                  <location>
+                     <geo>48,78232 9,17702</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1965-04-27">27.04.1965</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="pmb150">Bildender Künstler/Bildende Künstlerin &gt;&gt; Bildhauer/Bildhauerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20803</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117414719</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12971</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12971</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12971</idno>
+         </person>
+         <person xml:id="pmb12746">
+            <persName>
+               <forename>Hermann</forename>
+               <surname>Schöne</surname>
+            </persName>
+            <birth>
+               <date when="1836-10-02">02.10.1836</date>
+               <settlement ref="pmb866">
+                  <placeName type="pref">Dresden</placeName>
+                  <location>
+                     <geo>51,0833 13,7666</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1902-12-09">09.12.1902</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19848</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116867272</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12746</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12746</idno>
+         </person>
+      </listPerson>
+      <listBibl>
+         <bibl xml:id="pmb29917">
+            <title>Liebelei. Schauspiel in drei Akten</title>
+            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <date when="1895-10-09">9.10.1895</date>
+            <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
+            <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1823758</idno>
+            <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-liebelei</idno>
+            <idno type="URL" subtype="theadok">https://theadok.at/work/31062</idno>
+            <idno type="URL" subtype="deutschestextarchiv">http://www.deutschestextarchiv.de/book/show/schnitzler_liebelei_1896</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29917</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29917</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29917</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29917.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb31727">
+            <title>Blau</title>
+            <author ref="pmbperson__10905" role="hat-geschaffen">Bernstein, Max</author>
+            <date when="1894-01-01">1894</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31727</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31727</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
+         <bibl xml:id="pmb31729">
+            <title>Die Journalisten</title>
+            <author ref="pmbperson__11377" role="hat-geschaffen">Freytag, Gustav</author>
+            <date notBefore="1852-01-01" when="1852-07-01">1852</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31729</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31729</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31729.html</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
+         <bibl xml:id="pmb32077">
+            <title>Theater und Kunst [Liebelei]</title>
+            <note type="bibliografische_angabe">Österreichische Volks-Zeitung, 26. 11. 1899</note>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date when="1899-11-26">26.11.1899</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32077</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32077</idno>
+            <note type="work_kind">Rezension</note>
+         </bibl>
+         <error type="bibl">29421</error>
+      </listBibl>
+      <listPlace>
+         <place xml:id="pmb14">
+            <placeName>Burgtheater</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>48,210333 16,361139</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <geo>48,20769 16,37049</geo>
+            </location>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Burgtheater+%28Gebäude</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb14</idno>
+         </place>
+         <place xml:id="pmb50">
+            <placeName>Wien</placeName>
+            <placeName type="alternative-name">K.K. Reichshaupt- und Residenzstadt Wien</placeName>
+            <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4066009-6</placeName>
+            <placeName type="alternative-name">Bécs</placeName>
+            <placeName type="alternative-name">Land Wien</placeName>
+            <placeName type="alternative-name">Vídeň</placeName>
+            <placeName type="alternative-name">Wenia</placeName>
+            <placeName type="alternative-name">Beč</placeName>
+            <placeName type="alternative-name">Vindobona (Wien)</placeName>
+            <placeName type="legacy-name-merge">Vindobona</placeName>
+            <placeName type="alternative-name">Vienna</placeName>
+            <placeName type="legacy-name-merge">Wien?</placeName>
+            <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+            <desc type="entity_type_id">14</desc>
+            <location type="coords">
+               <geo>48,2066 16,37341</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb41240">Österreich</placeName>
+               <geo>47,33333 13,33333</geo>
+            </location>
+            <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+            <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+            <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+         </place>
+      </listPlace>
+   </back>
+</TEI>

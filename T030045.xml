@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030045.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030044.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030046.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" ref="pmb30071">[Aufruf für Hermann Bahr], Fremden-Blatt, 22. 4. 1913</title>
+            <author/>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="045"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A9B-8</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="1913-04-22" n="1">22. 4. 1913</origDate>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="pmb30071">[Aufruf für Bahr]</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="pmb29600">Fremden-Blatt</title>
+                     <imprint>
+                        <date when="1913-04-22">22. 4. 1913</date>
+                     </imprint>
+                     <biblScope unit="jg">67</biblScope>
+                     <biblScope unit="nr">109</biblScope>
+                     <biblScope unit="pp">18</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="2016-09-09" who="MAM">Angelegt</change>
+         <change who="KI MAM" when="2016-09-20">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div>
+            <p part="N">– Einem von <rs type="person" ref="#pmb11617">Gerhard <hi rend="spaced_out">Hauptmann</hi>
+               </rs>, Baron <rs type="person" ref="#pmb28808">zu <hi rend="spaced_out">Putlitz</hi>
+               </rs>, Dr. <rs type="person" ref="#pmb2121">Artur <hi rend="spaced_out">Schnitzler</hi>
+               </rs>, Graf <rs type="person" ref="#pmb12759">Nikolaus von <hi rend="spaced_out">Seebach</hi>
+               </rs>, Dr. <rs type="person" ref="#pmb12870">Richard <hi rend="spaced_out">Strauß</hi>
+               </rs>, <rs type="person" ref="#pmb13068">Frank <hi rend="spaced_out">Wedekind</hi>
+               </rs> und <rs type="person" ref="#pmb13212">Stephan <hi rend="spaced_out">Zweig</hi>
+               </rs> an alle Theater gerichteten Aufruf folgend, hat eine Reihe von Bühnenleitern sich entschlossen, zur Vorfeier von <rs type="person" ref="#pmb10815">Hermann <hi rend="spaced_out">Bahrs</hi>
+               </rs> fünfzigstem Geburtstag festliche Aufführungen seiner dramatischen Werke zu veranstalten. Das <rs type="place" ref="#pmb18">Lessing-Theater</rs> ging mit einer Neuinszenierung des Lustspiels »<rs type="work" ref="#pmb29933">
+                  <hi rend="spaced_out">Das Konzert</hi>
+               </rs>« und der Wiederaufnahme von <rs type="person" ref="#pmb10815">Bahr</rs>s letztem Lustspiel »<rs type="work" ref="#pmb30375">
+                  <hi rend="spaced_out">Das Prinzip</hi>
+               </rs>« voran. Die <rs type="place" ref="#pmb784">königlichen Schauspiele in Berlin</rs> feiern <rs type="person" ref="#pmb10815">Bahr</rs> mit einer Aufführung von »<rs type="work" ref="#pmb29881">
+                  <hi rend="spaced_out">Der Krampus</hi>
+               </rs>«, das <rs type="place" ref="#pmb9">Hof- und Nationaltheater in München</rs>, sowie die <rs type="place" ref="#pmb783">Hoftheater in Stuttgart</rs> und <rs type="place" ref="#pmb782">Neustrelitz</rs> mit Aufführungen von »<rs type="work" ref="#pmb29933">Das Konzert</rs>«. Mit dem zuletztgenannten Lustspiel beteiligen sich auch das <rs type="place" ref="#pmb781">Stadttheater in Dortmund</rs>, das <rs type="place" ref="#pmb780">Thaliatheater in Hamburg</rs>, das <rs type="place" ref="#pmb779">Deutsche Theater in Hannover</rs> an der Ehrung <rs type="person" ref="#pmb10815">Hermann Bahrs</rs>, wahrend das <rs type="place" ref="#pmb20">
+                  <hi rend="spaced_out">Deutsche Volkstheater</hi> in Wien</rs> »<rs type="work" ref="#pmb29885">Wienerinnen</rs>« und das <rs type="place" ref="#pmb40">
+                  <hi rend="spaced_out">Theater in der Josefstadt</hi>
+               </rs> »<rs type="work" ref="#pmb29983">Der Meister</rs>«, das <rs type="place" ref="#pmb778">Stadttheater in Lübeck</rs> »<rs type="work" ref="#pmb30137">Josefine</rs>« zur Aufführung bringen werden. Die <rs type="place" ref="#pmb43435">Schweiz</rs> hat ihre <rs type="person" ref="#pmb10815">Bahr</rs>feier schon gehabt, da das <rs type="place" ref="#pmb777">Stadttheater in Zürich</rs> gleichzeitig mit dem <rs type="place" ref="#pmb18">Lessing-Theater</rs> »<rs type="work" ref="#pmb29933">Das Konzert</rs>« als Festvorstellung gab. Eine große Anzahl Bühnen hat sich entschlossen, <rs type="person" ref="#pmb10815">Hermann Bahr</rs> mit Aufführungen seiner Werke im kommenden Herbst zu ehren.</p>
+         </div>
+      </body>
+   </text>
+   <back>
+      <listPerson>
+         <person xml:id="pmb11617">
+            <persName>
+               <forename>Gerhart</forename>
+               <surname>Hauptmann</surname>
+            </persName>
+            <birth>
+               <date when="1862-11-15">15.11.1862</date>
+               <settlement ref="pmb64427">
+                  <placeName type="pref">Szczawno-Zdrój</placeName>
+                  <location>
+                     <geo>50,79512 16,22375</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1946-06-06">06.06.1946</date>
+               <settlement ref="pmb735">
+                  <placeName type="pref">Agnetendorf</placeName>
+                  <location>
+                     <geo>50,816944 15,609444</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15980</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118546937</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11617</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11617</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11617</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11617.html</idno>
+         </person>
+         <person xml:id="pmb28808">
+            <persName>
+               <forename>Joachim Gans zu</forename>
+               <surname>Putlitz</surname>
+            </persName>
+            <birth>
+               <date when="1861-05-07">1861-05-07</date>
+               <settlement ref="pmb65658">
+                  <placeName type="pref">Retzin</placeName>
+                  <location>
+                     <geo>53,11414 11,99481</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1922-03-09">1922-03-09</date>
+               <settlement ref="pmb872">
+                  <placeName type="pref">Stuttgart</placeName>
+                  <location>
+                     <geo>48,78232 9,17702</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb280">Theaterintendant/Theaterintendantin</occupation>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb28808</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28808</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb28808</idno>
+         </person>
+         <person xml:id="pmb2121">
+            <persName>
+               <forename>Arthur</forename>
+               <surname>Schnitzler</surname>
+            </persName>
+            <birth>
+               <date when="1862-05-15">15.05.1862</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1931-10-21">21.10.1931</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+         </person>
+         <person xml:id="pmb12759">
+            <persName>
+               <forename>Nikolaus von</forename>
+               <surname>Seebach</surname>
+            </persName>
+            <birth>
+               <date when="1854-02-09">09.02.1854</date>
+               <settlement ref="pmb182">
+                  <placeName type="pref">Paris</placeName>
+                  <location>
+                     <geo>48,85341 2,3488</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1930-01-14">14.01.1930</date>
+               <settlement ref="pmb866">
+                  <placeName type="pref">Dresden</placeName>
+                  <location>
+                     <geo>51,0833 13,7666</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="not-set"/>
+            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20011</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11744037X</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12759</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12759</idno>
+         </person>
+         <person xml:id="pmb12870">
+            <persName>
+               <forename>Richard</forename>
+               <surname>Strauss</surname>
+            </persName>
+            <birth>
+               <date when="1864-06-11">11.06.1864</date>
+               <settlement ref="pmb45258">
+                  <placeName type="pref">München</placeName>
+                  <location>
+                     <geo>48,13743 11,57549</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1949-09-08">08.09.1949</date>
+               <settlement ref="pmb667">
+                  <placeName type="pref">Garmisch-Partenkirchen</placeName>
+                  <location>
+                     <geo>47,49209 11,09576</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="pmb129">Komponist/Komponistin</occupation>
+            <occupation ref="pmb131">Dirigent/Dirigentin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20509</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11861911X</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12870</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12870</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12870</idno>
+         </person>
+         <person xml:id="pmb13068">
+            <persName>
+               <forename>Frank</forename>
+               <surname>Wedekind</surname>
+            </persName>
+            <birth>
+               <date when="1864-07-24">24.07.1864</date>
+               <settlement ref="pmb890">
+                  <placeName type="pref">Hannover</placeName>
+                  <location>
+                     <geo>52,37052 9,73322</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1918-03-09">09.03.1918</date>
+               <settlement ref="pmb45258">
+                  <placeName type="pref">München</placeName>
+                  <location>
+                     <geo>48,13743 11,57549</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21130</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118629867</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb13068</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13068</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13068</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13068.html</idno>
+         </person>
+         <person xml:id="pmb13212">
+            <persName>
+               <forename>Stefan</forename>
+               <surname>Zweig</surname>
+            </persName>
+            <birth>
+               <date when="1881-11-28">28.11.1881</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1942-02-23">23.02.1942</date>
+               <settlement ref="pmb46774">
+                  <placeName type="pref">Petrópolis</placeName>
+                  <location>
+                     <geo>-22,505 -43,17861</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21614</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118637479</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb13212</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13212</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13212</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13212.html</idno>
+         </person>
+         <person xml:id="pmb10815">
+            <persName>
+               <forename>Hermann</forename>
+               <surname>Bahr</surname>
+            </persName>
+            <birth>
+               <date when="1863-07-19">19.07.1863</date>
+               <settlement ref="pmb332">
+                  <placeName type="pref">Linz</placeName>
+                  <location>
+                     <geo>48,3 14,28333</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1934-01-15">15.01.1934</date>
+               <settlement ref="pmb45258">
+                  <placeName type="pref">München</placeName>
+                  <location>
+                     <geo>48,13743 11,57549</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+         </person>
+      </listPerson>
+      <listBibl>
+         <bibl xml:id="pmb29933">
+            <title>Das Konzert. Lustspiel in drei Akten</title>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date notBefore="1909-01-01" when="1909-07-02">1909</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29933</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29933</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29933</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29933.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb30375">
+            <title>Das Prinzip</title>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date notBefore="1912-01-01" when="1912-07-01">1912</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30375</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30375</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30375.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb29881">
+            <title>Der Krampus</title>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date notBefore="1901-01-01" when="1901-07-02">1901</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29881</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29881</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29881</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb29881.html</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29881.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb29885">
+            <title>Wienerinnen</title>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date notBefore="1900-01-01" when="1900-07-02">1900</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29885</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29885</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29885</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29885.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb29983">
+            <title>Der Meister</title>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date notBefore="1903-01-01" when="1903-07-02">1903</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29983</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29983</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29983</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29983.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
+         </bibl>
+         <bibl xml:id="pmb30137">
+            <title>Josephine</title>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date when="1897-01-01">1897</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30137</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30137</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30137.html</idno>
+            <note type="work_kind">Drama</note>
+         </bibl>
+         <bibl xml:id="pmb30071">
+            <title>[Aufruf für Bahr]</title>
+            <note type="bibliografische_angabe">Fremden-Blatt, 22. 4. 1913, S. 18</note>
+            <date when="1913-04-22">22.04.1913</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30071</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30071</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
+         <error type="bibl">29600</error>
+      </listBibl>
+      <listPlace>
+         <place xml:id="pmb18">
+            <placeName>Lessing-Theater</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Lessingtheater_(Berlin)</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>52,5225 13,376389</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb168">Berlin</placeName>
+               <geo>52,52437 13,41053</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb34999">Kapelle-Ufer</placeName>
+               <geo>52,52315 13,374789</geo>
+            </location>
+            <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q261757</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb18</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb18</idno>
+         </place>
+         <place xml:id="pmb784">
+            <placeName>Schauspielhaus</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Schauspielhaus_(Berlin)</placeName>
+            <placeName type="fruherer_ortsname">Hofbühne Berlin</placeName>
+            <placeName type="fruherer_ortsname">Preußisches Staatstheater</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>52,513611 13,392222</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb168">Berlin</placeName>
+               <geo>52,52437 13,41053</geo>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb143</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb784</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/143</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/784</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1155</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb784</idno>
+         </place>
+         <place xml:id="pmb9">
+            <placeName>Königlich Bayerische Hoftheater</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>48,139944 11,578786</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb45258">München</placeName>
+               <geo>48,13743 11,57549</geo>
+            </location>
+            <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q812446</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb9</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/9</idno>
+         </place>
+         <place xml:id="pmb783">
+            <placeName>Hoftheater Stuttgart</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Staatstheater_Stuttgart</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>48,780278 9,185</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb872">Stuttgart</placeName>
+               <geo>48,78232 9,17702</geo>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb783</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/783</idno>
+         </place>
+         <place xml:id="pmb782">
+            <placeName>Neustrelitz</placeName>
+            <desc type="entity_type">Besiedelter Ort (A.BSO)</desc>
+            <desc type="entity_type_id">14</desc>
+            <location type="coords">
+               <geo>53,3613 13,07292</geo>
+            </location>
+            <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q20352</idno>
+            <idno type="URL" subtype="geonames">http://sws.geonames.org/2864005/</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb782</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/782</idno>
+         </place>
+         <place xml:id="pmb781">
+            <placeName>Stadttheater</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Theater_Dortmund</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>51,511111 7,461667</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb915">Dortmund</placeName>
+               <geo>51,52444 7,47389</geo>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb781</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/781</idno>
+         </place>
+         <place xml:id="pmb780">
+            <placeName>Thalia-Theater</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Thalia_Theater_(Hamburg)</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>53,551972 9,998278</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb506">Hamburg</placeName>
+               <geo>53,57532 10,01534</geo>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb780</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/780</idno>
+         </place>
+         <place xml:id="pmb779">
+            <placeName>Deutsches Theater Hannover</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>52,37481 9,73093</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb890">Hannover</placeName>
+               <geo>52,37052 9,73322</geo>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb779</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/779</idno>
+         </place>
+         <place xml:id="pmb20">
+            <placeName>Volkstheater</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Volkstheater_(Wien)</placeName>
+            <placeName type="namensvariante">Deutsches Volkstheater</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>48,205142 16,3566</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb57">VII., Neubau</placeName>
+               <geo>48,2 16,35</geo>
+            </location>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Volkstheater</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb20</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb20</idno>
+         </place>
+         <place xml:id="pmb40">
+            <placeName>Theater in der Josefstadt</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Theater_in_der_Josefstadt</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>48,209583 16,351111</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb58">VIII., Josefstadt</placeName>
+               <geo>48,21126 16,34706</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb51915">Josefstädter Straße</placeName>
+               <geo>48,20995865037859 16,347448769410484</geo>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb40</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40</idno>
+            <note type="apis_dates">
+               <date when="1788-01-01">1788</date>
+            </note>
+         </place>
+         <place xml:id="pmb778">
+            <placeName>Stadttheater</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Theater_L%C3%BCbeck</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>53,869722 10,686389</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb884">Lübeck</placeName>
+               <geo>53,86893 10,68729</geo>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb778</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/778</idno>
+         </place>
+         <place xml:id="pmb43435">
+            <placeName>Schweiz</placeName>
+            <placeName type="alternative-name">Schweizerische Eidgenossenschaft</placeName>
+            <placeName type="legacy-uri-merge">https://schnitzler-briefe.acdh.oeaw.ac.at/A000407</placeName>
+            <placeName type="legacy-uri-merge">https://www.wikidata.org/wiki/Q39</placeName>
+            <placeName type="legacy-uri-merge">https://www.geonames.org/2658434</placeName>
+            <desc type="entity_type">https://www.geonames.org/ontology#A.PCLI</desc>
+            <desc type="entity_type_id">1411</desc>
+            <location type="coords">
+               <geo>47,00016 8,01427</geo>
+            </location>
+            <idno type="URL" subtype="geonames">http://sws.geonames.org/2658434/</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb34006</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43435/</idno>
+            <idno type="URL" subtype="geonames">https://sws.geonames.org/2658434/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/34006</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43435</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43435</idno>
+         </place>
+         <place xml:id="pmb777">
+            <placeName>Stadttheater</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Opernhaus_Z%C3%BCrich</placeName>
+            <desc type="entity_type">Theater (K.THE)</desc>
+            <desc type="entity_type_id">4</desc>
+            <location type="coords">
+               <geo>47,365 8,546944</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb484">Zürich</placeName>
+               <geo>47,37174 8,54226</geo>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb777</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/777</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb777</idno>
+         </place>
+      </listPlace>
+   </back>
+</TEI>

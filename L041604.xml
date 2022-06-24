@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041604.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041603.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041605.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Adele Sandrock an Hermann Bahr, [um den 4. 2. 1895?]</title>
+            <author ref="pmb12618">Sandrock, Adele</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="604"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87CD-3</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb12618">Sandrock, Adele</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <!--<placeSender><placeName key="pmb50">Wien</placeName></placeSender><placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="1895-02-04" n="1">[um den 4. 2. 1895?]</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 22932 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 4 S., Bleistift. Undatiert; durch inhaltliche Nähe zu den Briefen in <bibl>
+                              <workName>Bw</workName> Schnitzler/Sandrock</bibl> gereiht.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="2016-06-01">Angelegt</change>
+         <change who="KI MAM" when="2016-06-01">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <salute>Lieber guter Hermann.</salute>
+            </opener>
+            <p>Siehst Du mein Freund – daß Verhängniß ist doch stärker als ich – bis gestern habe ich mich mit einer übermenschlichen Kraft aufrecht zu erhalten versucht – heute Nacht bin ich erkrankt – <hi rend="underline" n="1">ich</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">kann</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">nicht</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">mehr</hi> – ich fühle meine Ohnmacht – mein Herz ist vollständig gebrochen! – hätte ich dem <rs type="person" subtype="implied" ref="#pmb2121">Mann</rs> sein <hi rend="underline" n="1">Liebstes</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">gemordet</hi> – er hätte mich nicht mehr <hi rend="underline" n="1">strafen</hi> können – was<pb/> ich durch ihn diese Tage gelitten ist <hi rend="underline" n="2">reichlich</hi> reichlich – tausendfach vergolten! – Gebe <hi rend="underline" n="1">Gott</hi> – und stündlich bitte ich ihn darum – daß es Deinen unermüdlichen Versuchen <add place="above">ge</add>lingen wird mich wieder mit ihm zu versöhnen, so viel weiß ich aber schon heute – <hi rend="underline" n="1">gut</hi> – geht diese Sache nicht aus – ich habe so haarsträubend viel gelitten im leben – jetzt muß für mich eine Zeit der Freuden kommen – und –<pb/> ist der <rs type="person" subtype="implied" ref="#pmb2121">Mann</rs>, den ich doch so haarsträubend liebe – dem ich zu Füßen lag wie ein treuer Hund – nun durchaus nicht zu versöhnen – dann soll er nur trotzen aber <hi rend="underline" n="1">mich</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">treibt</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">er</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">dann</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">in</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">den</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">Todt</hi>. <hi rend="underline" n="1">Ich</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">kann</hi> nicht so daß Liebste hergeben ohne ein Wort reden – sagen zu dürfen – ich bin ja halb <hi rend="underline" n="3">wahnsinnig</hi> ich bin ja nicht mehr zurechnungsfähig –<pb/>
+               <space unit="chars" quantity="1"/>
+               <hi rend="latintype">Hermann</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="2">verlaß</hi> mich nicht – – stehe mir bei – ich bin schwer erkrankt – – – was ist aus mir geworden? – </p>
+            <p>Ich bitte Dich zeige den Brief nicht dem <hi rend="underline" n="1">
+                  <rs type="person" ref="#pmb2121">Arthur</rs>
+               </hi>–! </p>
+            <closer>Ich grüße Dich innig<lb/>Deine ewig ewig dankbare<lb/>
+               <signed>Dilly</signed>
+            </closer>
+            <postscript>
+               <p>Verbrenn <hi rend="underline" n="1">sogleich</hi> den Brief.</p>
+               <p>
+                  <hi rend="underline" n="1">Hermann</hi> – <hi rend="underline" n="2">hilf</hi> mir – ich bitte Dich.</p>
+               <p>
+                  <anchor type="textConst" xml:id="TL604-1">Schreib mir zwei Worte des Trostes.</anchor>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+   <back>
+      <listPerson>
+         <person xml:id="pmb12618">
+            <persName>
+               <forename>Adele</forename>
+               <surname>Sandrock</surname>
+            </persName>
+            <persName type="rufname">Dilly</persName>
+            <birth>
+               <date when="1863-08-19">19.08.1863</date>
+               <settlement ref="pmb44303">
+                  <placeName type="pref">Rotterdam</placeName>
+                  <location>
+                     <geo>51,9225 4,47917</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1937-08-30">30.08.1937</date>
+               <settlement ref="pmb168">
+                  <placeName type="pref">Berlin</placeName>
+                  <location>
+                     <geo>52,52437 13,41053</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="female"/>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19564</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118605429</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12618</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12618</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12618</idno>
+         </person>
+         <person xml:id="pmb10815">
+            <persName>
+               <forename>Hermann</forename>
+               <surname>Bahr</surname>
+            </persName>
+            <birth>
+               <date when="1863-07-19">19.07.1863</date>
+               <settlement ref="pmb332">
+                  <placeName type="pref">Linz</placeName>
+                  <location>
+                     <geo>48,3 14,28333</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1934-01-15">15.01.1934</date>
+               <settlement ref="pmb45258">
+                  <placeName type="pref">München</placeName>
+                  <location>
+                     <geo>48,13743 11,57549</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+         </person>
+         <person xml:id="pmb2121">
+            <persName>
+               <forename>Arthur</forename>
+               <surname>Schnitzler</surname>
+            </persName>
+            <birth>
+               <date when="1862-05-15">15.05.1862</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1931-10-21">21.10.1931</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+         </person>
+      </listPerson>
+   </back>
+</TEI>

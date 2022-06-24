@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030053.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030052.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030054.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" ref="pmb30981">Arthur Schnitzler: Künstler–Literat, [7. 8. 1904?]</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="053"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AA3-E</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="1904-08-07" n="1">[7. August 1904?]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach/Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.71</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">ms., 3 S.; in der gleichen Mappe 3 Durchschläge, bei einem davon von unbek. Hand »<quote>
+                              <workName ref="pmb30065">Dialog vom Marsyas</workName>. [Ein Gespräch über Kunst.] <placeName ref="pmb168">
+                                 <settlement>Berlin</settlement>
+                              </placeName> 1905.</quote>« ergänzt und unbedeutende Korrekturen (z. B. Vereinheitlichung von »<quote>Literat</quote>« und »<quote>Litterat</quote>«) vorgenommen.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="2016-04-11" who="MAM">Angelegt nach Original-Scan</change>
+         <change when="2016-04-11" who="KI MAM">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body>
+         <div>
+            <seg rend="right">
+               <anchor type="textConst" xml:id="TT053-1">907</anchor>
+            </seg>
+            <head>Kuenstler-Literat</head>
+            <p part="N">Anlaesslich des <rs type="work" ref="#pmb30065">Marsyas</rs>. (Von <rs type="person" ref="#pmb10815">Bahr</rs>),</p>
+            <p part="N">Es gibt keinen Gegensatz zwischen Kuenstler und anstaendigen Menschen (:wie er in diesem Aufsatz <anchor type="commentary" xml:id="KT053-1">einmal angedeutet</anchor> wird:), sondern nur zwischen anstaendigen Kuenstlern und unanstaendigen Kuenstlern. Aber gerade unanstaendige Kuenstler sind solche, bei denen ein wirkliches Verhaeltnis zwischen dem, was sie schaffen, und dem, was sie leben, nicht besteht, sondern ein solcher Zusammenhang nur vorgelogen, vorgeschwindelt wird.</p>
+            <p part="N">Beispiele allerorten.</p>
+            <p part="N">Mir ist nicht der unbegabte anstaendige Mensch, sondern der begabte anstaendige Mensch lieber als der unanstaendige Kuenstler.</p>
+            <p part="N">Die landlaeufige <anchor type="textConst" xml:id="TT053-2">Anstaendigkeit</anchor> ist eine in jedem Betracht gleichgiltige Sache.</p>
+            <p part="N">Ich habe keinen Ekel vor den Kuenstlern, sondern vor den Literaten.</p>
+            <p part="N">Die es natuerlich in jeder Kunst gibt, auch in der Musik.<pb/>
+            </p>
+            <p part="N">Mit Literaten kann man denjenigen Menschen bezeichnen, dessen Existenz in der Lebens- und in der Kunstlinie in zwei Linien dahingeht, die er selbst fuer identisch halten mag, mindestens fuer parallel, waehrend sie zuweilen auseinandergehen, sich kreuzen u. s. w.</p>
+            <p part="N">Das Leben des Kuenstlers ist eine einfache Linie, die sich in schlimmen Perioden spalten kann, unrein wird, in Nebeln hinlaeuft, zittert;– aber er lebt, weil er schafft; schafft, weil er lebt.</p>
+            <p part="N">Die <hi rend="underline" n="1">Kunst</hi>linie des Literaten kann gelegentlich staerker gezogen sein als die <hi rend="underline" n="1">Lebens</hi>linie des Kuenstlers. Der Literat unterscheidet sich nicht nur vom Kuenstler sondern von allen Menschen dadurch, dass <del rend="strikethrough">ausser</del> neben der Linie seines Lebens eine zweite Linie laeuft, die nicht in festem Zusammenhang, sondern nur in wechselndem Beziehungen zur Linie seines Lebens steht und den Verlauf seiner kuenstlerischen Bestrebungen bezeichnet.</p>
+            <p part="N">Diese Linie nenne ich Schaffenslinie. Sie kann seiner Lebenslinie nah oder fern sein, paralle<supplied>l</supplied>, oder sich ihr naehernd und von ihr entfernend; sie<pb/> kann vielleicht in irgend einem hohen Moment seine Lebenslinie kreuzen; die beiden Linien koennen sich so nahe kommen, dass sie ein schlechter Beobachter fuer identisch halten mag.</p>
+            <p part="N">Der Litterat selbst kann sich der Taeuschung hingeben, dass eine Identitaet vorliegt, oder er kann wissen, dass diese Identitaet nicht besteht.</p>
+            <p part="N">Bestreben mancher Litteraten, die beiden Linien zu vereinigen. Unmoeglichkeit. Naturgemaess.</p>
+            <p part="N">Andere optische Fehler. Die einfache Linie des Kuenstlers/ Lebens- und Schaffenslinie in einem/ kann fuer schlechte Augen/ fuer doppelt sehende/ den Eindruck einer Doppellinie machen.</p>
+            <p part="N">Das Characteristische ist nicht das geringere oder das groessere Mass der Begabung; es gibt Litteraten von grossem, Kuenstler von geringem Talent.</p>
+            <p part="N">Der Kuenstler ist nicht an sich ein wertvollerer Mensch als der Litterat.</p>
+            <p part="N">Die einfache Lebenslinie an andern guten Menschen nachzuweisen; am Arzt, am Kaufmann.</p>
+            <p part="N">Entsprechende Spielarten des Litteraten auch in andern Berufen.</p>
+            <p part="N">(:Der Sekundararzt in den »<rs type="work" ref="#pmb29877">Letzten Masken</rs>«:).</p>
+         </div>
+      </body>
+   </text>
+   <back>
+      <listPerson>
+         <person xml:id="pmb2121">
+            <persName>
+               <forename>Arthur</forename>
+               <surname>Schnitzler</surname>
+            </persName>
+            <birth>
+               <date when="1862-05-15">15.05.1862</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1931-10-21">21.10.1931</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
+         </person>
+         <person xml:id="pmb10815">
+            <persName>
+               <forename>Hermann</forename>
+               <surname>Bahr</surname>
+            </persName>
+            <birth>
+               <date when="1863-07-19">19.07.1863</date>
+               <settlement ref="pmb332">
+                  <placeName type="pref">Linz</placeName>
+                  <location>
+                     <geo>48,3 14,28333</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1934-01-15">15.01.1934</date>
+               <settlement ref="pmb45258">
+                  <placeName type="pref">München</placeName>
+                  <location>
+                     <geo>48,13743 11,57549</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+         </person>
+      </listPerson>
+      <listBibl>
+         <bibl xml:id="pmb30065">
+            <title>Dialog vom Marsyas</title>
+            <note type="bibliografische_angabe">Die neue Rundschau, Jg. 15, H. 10, Oktober 1904</note>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date when="1904-10-01">01.10.1904</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30065</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30065</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30065</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30065.html</idno>
+            <note type="work_kind">Dialog</note>
+         </bibl>
+         <bibl xml:id="pmb29877">
+            <title>Die letzten Masken</title>
+            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <date when="1901-01-01">1901</date>
+            <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.17</idno>
+            <idno type="URL" subtype="theadok">https://theadok.at/work/31483</idno>
+            <idno type="URL" subtype="zeno">http://www.zeno.org/Literatur/M/Schnitzler,+Arthur/Dramen/Lebendige+Stunden/III.+Die+letzten+Masken</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29877</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29877</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29877</idno>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29877.html</idno>
+            <note type="work_kind">Drama &gt;&gt; Einakter</note>
+         </bibl>
+      </listBibl>
+      <listPlace>
+         <place xml:id="pmb168">
+            <placeName>Berlin</placeName>
+            <placeName type="legacy-uri-merge">http://sws.geonames.org/2950159/</placeName>
+            <placeName type="alternative-name">Hauptstadt Berlin</placeName>
+            <placeName type="legacy-uri-merge">http://d-nb.info/gnd/4005728-8</placeName>
+            <placeName type="alternative-name">Barlīn</placeName>
+            <placeName type="alternative-name">Reichshauptstadt Berlin</placeName>
+            <placeName type="alternative-name">Berolino</placeName>
+            <desc type="entity_type">https://www.geonames.org/ontology#P.PPLC</desc>
+            <desc type="entity_type_id">1418</desc>
+            <location type="coords">
+               <geo>52,52437 13,41053</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb151">Deutschland</placeName>
+               <geo>51,5 10,5</geo>
+            </location>
+            <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+         </place>
+      </listPlace>
+   </back>
+</TEI>
