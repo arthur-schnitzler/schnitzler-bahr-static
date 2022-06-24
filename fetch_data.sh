@@ -5,5 +5,5 @@ wget https://github.com/arthur-schnitzler/schnitzler-bahr-data/archive/refs/head
 unzip main
 
 mv ./schnitzler-bahr-data-main/data .
-rm -rf ./schnitzler-bahr-data-main
 rm main.zip
+rm -rf ./schnitzler-bahr-data-main
