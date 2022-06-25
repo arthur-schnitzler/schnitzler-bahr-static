@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Tagebuch von Arthur Schnitzler, 21. 8. 1896</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1896-08-21</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -50,7 +51,7 @@
             <listBibl>
                <biblStruct corresp="ASTB">
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Tagebuch 1893–1902</title>
                      <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
                      <imprint>
@@ -80,15 +81,30 @@
                <space unit="chars" quantity="1"/>
                <rs type="place" ref="#pmb958">Skodsborg</rs>.– <rs type="place" ref="#pmb36300">Kopenhagen</rs>.– <rs type="place" ref="#pmb121">Ny Carlsberg Glyptothek</rs>.– <rs type="place" ref="#pmb122">Zool. Garten</rs>.– Bei <rs type="person" ref="#pmb10992">Brandes</rs> Nachmittag.– Über seine Stellung hier.– Allein.– Ich: Warum da Sie so frei sind, nicht fort von hier?– Er: Ists nicht gleichgiltig – wo man lebt – das Leben ist überall traurig (auf meine Einwendung:) freilich immer noch besser als das Todtsein. Aber ich bete die <rs type="place" ref="#pmb43570">dänische</rs> Sprache an – und <hi rend="italic">hasse</hi> alle andern, besonders die deutsche.– Mit 50 Jahren ist man allein – Sie werden auch allein sein.– Über den Hof. Der <rs type="person" subtype="implied" ref="#pmb2919">Kronprinz</rs> hat ihn früher oft zu sich berufen, nur, um zu thun, als ob er liberal wäre;– er (<rs type="person" ref="#pmb10992">Br.</rs>) erzählt mir ein Beispiel von der Gedankenlosigkeit des <rs type="person" subtype="implied" ref="#pmb2919">Kronprinzen</rs> und Zerstreutheit. Wie er (<rs type="person" ref="#pmb10992">Br.</rs>) über einen Schauspieler sagt: man merkt, dass in dem und dem Stück nicht der isländische König, sondern der Schauspieler auf die Bühne tritt,– und der <rs type="person" subtype="implied" ref="#pmb2919">Kronprinz</rs> am nächsten Tag dem Hof erzählt, der X sei nicht isl. König sondern Schauspieler gewesen.–</p>
             <p>
-               <note type="introduction">Bei <rs type="person" ref="#pmb10992">Georg Brandes</rs> in <rs type="place" ref="#pmb36300">Kopenhagen</rs>.</note>Seine Bücher, zeigt sie mir, 30 dicke Bände, deutsche Verleger. Solche, die im Zuchthaus waren und solche, die drin sein sollten.– <anchor type="commentary" xml:id="KD163-1">
-                  <rs type="person" ref="#pmb10815">Bahrs</rs> letzter Artikel über den <rs type="work" subtype="implied" ref="#pmb30459">düstern <rs type="person" ref="#pmb2412">Shakespeare</rs>
-                  </rs>
-               </anchor>. »So dumm – das ist überhaupt ein Affe.–« <rs type="person" ref="#pmb11148">Richard Dehmel</rs> hat dem <rs type="person" ref="#pmb10992">Br.</rs> Gedichte geschickt; <rs type="person" ref="#pmb10992">Br.</rs> einige Ausstellungen – <rs type="person" ref="#pmb11148">Dehmel</rs> einen beinah groben Brief.– <rs type="person" ref="#pmb27849">Dauthendey</rs>, <rs type="person" ref="#pmb2891">Przybyszewski</rs> unwahr, ich hasse diese Leute – vor allem verlang ich dass einer nicht posirt – Die Leute wollten mich besuchen, ich hab sie nicht empfangen, ich kann solche Leute nicht sehn; jetzt schimpfen sie auf mich. Die sind übrigens hergekommen,– weil man ihnen erzählt hat, die jungen Dichter seien hier alle Paederasten! Waren erstaunt, wie man sie aufklärte! Der kleine <rs type="person" ref="#pmb2357">Nansen</rs> ein Paederast!–</p>
+               <note type="introduction">Bei <rs type="person" ref="#pmb10992">Georg Brandes</rs> in <rs type="place" ref="#pmb36300">Kopenhagen</rs>.</note>Seine Bücher, zeigt sie mir, 30 dicke Bände, deutsche Verleger. Solche, die im Zuchthaus waren und solche, die drin sein sollten.– <anchor type="commentary" xml:id="KD163-1"/>
+               <rs type="person" ref="#pmb10815">Bahrs</rs> letzter Artikel über den <rs type="work" subtype="implied" ref="#pmb30459">düstern <rs type="person" ref="#pmb2412">Shakespeare</rs>
+               </rs>
+               <note type="commentary" xml:id="KD163-1h">
+                  <p>Zwei Texte <rs type="person" ref="#pmb10815">Bahrs</rs> beschäftigen sich mit <rs type="person" ref="#pmb10992">Brandes</rs>’ voluminöser Studie <rs type="work" ref="#pmb32159">William Shakespeare</rs> (<bibl>Paris, Leipzig: <rs type="org" ref="#pmb29654">Albert Langen</rs>
+                     </bibl>), die in zwölf Einzellieferungen ab <date>1895</date> erschien und seit
+               kurzem vollständig vorlag. Zuerst <rs type="work" ref="#pmb30459">Der düstere
+                  Shakespeare</rs> (<bibl>
+                        <rs type="org" ref="#pmb29209">Die Zeit</rs>, Bd. 8, H. 92, <date>4. 7.
+                     1896</date>, S. 12–13</bibl>), dann, nach einer Antwort von <rs type="person" ref="#pmb10883">Alfred von Berger</rs> (<bibl>
+                        <rs type="work" ref="#pmb32734">Der düstere Shakespeare</rs>, H. 93,
+                  S. 27–28</bibl>), <rs type="work" ref="#pmb32736">Othello</rs>, erschienen am
+                  <date>4. 8.</date> (<bibl>H. 96, S. 76–77</bibl>).</p>
+               </note>. »So dumm – das ist überhaupt ein Affe.–« <rs type="person" ref="#pmb11148">Richard Dehmel</rs> hat dem <rs type="person" ref="#pmb10992">Br.</rs> Gedichte geschickt; <rs type="person" ref="#pmb10992">Br.</rs> einige Ausstellungen – <rs type="person" ref="#pmb11148">Dehmel</rs> einen beinah groben Brief.– <rs type="person" ref="#pmb27849">Dauthendey</rs>, <rs type="person" ref="#pmb2891">Przybyszewski</rs> unwahr, ich hasse diese Leute – vor allem verlang ich dass einer nicht posirt – Die Leute wollten mich besuchen, ich hab sie nicht empfangen, ich kann solche Leute nicht sehn; jetzt schimpfen sie auf mich. Die sind übrigens hergekommen,– weil man ihnen erzählt hat, die jungen Dichter seien hier alle Paederasten! Waren erstaunt, wie man sie aufklärte! Der kleine <rs type="person" ref="#pmb2357">Nansen</rs> ein Paederast!–</p>
             <p>»Was sind die Ideale der jungen Leute von 25 J. in <rs type="place" ref="#pmb50">Wien</rs>?« fragte er mich u. a. »Fühlen sie sich verbrüdert mit den jungen Künstlern in <rs type="place" ref="#pmb151">Deutschland</rs>?–« Über <rs type="person" ref="#pmb11851">Kainz</rs>, <rs type="person" ref="#pmb10986">Brahm</rs> (dessen Häßlichkeit »wie eine Kröte!«) –</p>
             <p>Freute mich, dass er geradezu dieselben Ansichten über alle liter. Dinge hat wie ich.– Auch <rs type="person" ref="#pmb11640">Heine</rs>; man wird kühler gegen ihn.–</p>
-            <p>»Bilden Sie eine Gruppe in <rs type="place" ref="#pmb50">Wien</rs>?« Nein. Ich machte ihn auf <rs type="person" ref="#pmb11740">Hugo</rs> aufmerksam.– »Ah – hat nicht <rs type="person" ref="#pmb10815">Bahr</rs> einmal einen lobenden <anchor type="commentary" xml:id="KD163-2">
-                  <rs type="work" subtype="implied" ref="#pmb30259">Artikel</rs>
-               </anchor> über ihn geschrieben?« Der <rs type="person" subtype="implied" ref="#pmb27717">Franzose</rs> von neulich fragte <rs type="person" ref="#pmb10992">Br.</rs> heute (erzählt mir <rs type="person" ref="#pmb10992">B.</rs>) – ob er neulich frei zu uns gesprochen oder sich – vorher Notizen gemacht!–</p>
+            <p>»Bilden Sie eine Gruppe in <rs type="place" ref="#pmb50">Wien</rs>?« Nein. Ich machte ihn auf <rs type="person" ref="#pmb11740">Hugo</rs> aufmerksam.– »Ah – hat nicht <rs type="person" ref="#pmb10815">Bahr</rs> einmal einen lobenden <anchor type="commentary" xml:id="KD163-2"/>
+               <rs type="work" subtype="implied" ref="#pmb30259">Artikel</rs>
+               <note type="commentary" xml:id="KD163-2h">
+                  <p>
+                     <bibl>
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb30259">Loris</rs>. In: <rs type="org" ref="#pmb29212">Freie
+                  Bühne</rs>, Jg. 3, H. 1, <date>1. 1. 1892</date>, S. 94–98</bibl>.</p>
+               </note> über ihn geschrieben?« Der <rs type="person" subtype="implied" ref="#pmb27717">Franzose</rs> von neulich fragte <rs type="person" ref="#pmb10992">Br.</rs> heute (erzählt mir <rs type="person" ref="#pmb10992">B.</rs>) – ob er neulich frei zu uns gesprochen oder sich – vorher Notizen gemacht!–</p>
             <p>
                <rs type="person" ref="#pmb11650">Hello</rs> war ein Idiot, ich hab ihn persönlich gekannt; ein <rs type="person" subtype="implied" ref="#pmb27718">Neger (Arzt)</rs> war bei ihm, der wohl mit seiner <rs type="person" subtype="implied" ref="#pmb27866">Frau</rs> geschlafen hat <c rendition="#dots" n="3" place="center"/> »Er sagte mir einmal: Oh, die Deutschen die glauben ja nicht an Gott!!« <c rendition="#dots" n="3" place="center"/> Da läßt sich gar nicht discutiren!–</p>
             <p>Abends bei <rs type="person" ref="#pmb2357">Nansen</rs>.– <rs type="person" ref="#pmb11485">Paul</rs> schon dort. Gemütlich. Ins Kfh. mit ihnen. <rs type="person" ref="#pmb10992">Brandes</rs> kam.–</p>
@@ -101,7 +117,7 @@
             <p>Der <rs type="place" ref="#pmb435">argentin.</rs>
                <rs type="person" subtype="implied" ref="#pmb27719">Oberst</rs> neben ihm bei einem Diner, wunderschön. Vous parlez de moi –?– Non. »Ah – j’entends le mot splendide – et quand j’entends les mots splendeur ou splendide – je crois toujours, qu’il s’agit de moi –« <rs type="person" ref="#pmb10992">Br.</rs> war davon sehr entzückt; der <rs type="person" subtype="implied" ref="#pmb27719">Oberst</rs> schickt ihm dann noch seine Photographie – in Angst, <rs type="person" ref="#pmb10992">Br.</rs> könnte seine Schönheit vergessen.–</p>
             <p>– Von neulich noch, das Verhältnis <rs type="person" ref="#pmb11798">Ibsen</rs>s zu seiner <rs type="person" subtype="implied" ref="#pmb18670">Frau</rs>, die ihn quält <c rendition="#dots" n="3" place="center"/> O elle est terrible – et naturellement, c’est elle qui a toujours raison <c rendition="#dots" n="3" place="center"/> L’artiste, il a beaucoup pensé, beaucoup lu, beaucoup couché avec les femmes – et cette femme, elle n’a jamais lu, jamais couché avec les hommes, jamais pensé –</p>
-            <p>Über <rs type="person" ref="#pmb11134">Daudet</rs>, der nie von seiner Krankheit spreche und tief verletzt war, als im <rs type="work" ref="#pmb30465 #pmb30467">Tagebuch</rs>
+            <p>Über <rs type="person" ref="#pmb11134">Daudet</rs>, der nie von seiner Krankheit spreche und tief verletzt war, als im <rs type="work" ref="#pmb30467">Tagebuch</rs>
                <space unit="chars" quantity="1"/>
                <rs type="person" ref="#pmb11500 #pmb2925">Goncourt</rs> darüber veröffentlicht war.–</p>
             <p>– <rs type="person" ref="#pmb11485">Paul</rs> und ich blieben noch nach <rs type="person" ref="#pmb2357">Nansen</rs> und <rs type="person" subtype="implied" ref="#pmb2910">Frau</rs> Weggang mit <rs type="person" ref="#pmb10992">Brandes</rs> im Kfh.–</p>
@@ -266,6 +282,39 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2412</idno>
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2412</idno>
             <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb2412.html</idno>
+         </person>
+         <person xml:id="pmb10883">
+            <persName>
+               <forename>Alfred von</forename>
+               <surname>Berger</surname>
+            </persName>
+            <birth>
+               <date when="1853-04-30">30.04.1853</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1912-08-24">24.08.1912</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13624</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118655930</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10883</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10883</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10883</idno>
          </person>
          <person xml:id="pmb11148">
             <persName>
@@ -1038,6 +1087,34 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30459</idno>
             <note type="work_kind">Text</note>
          </bibl>
+         <bibl xml:id="pmb32159">
+            <title>William Shakespeare</title>
+            <author ref="pmbperson__10992" role="hat-geschaffen">Brandes, Georg</author>
+            <date from="1895-01-01" to="1895-12-31">1895  – 1896</date>
+            <idno type="URL" subtype="pbc">http://www.pbc.rzeszow.pl/dlibra/plain-content?id=13891</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32159</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32159</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32159</idno>
+            <note type="work_kind">Studie</note>
+         </bibl>
+         <bibl xml:id="pmb32734">
+            <title>Der düstere Shakespeare</title>
+            <note type="bibliografische_angabe">Die Zeit, Bd. 8, H. 93, 11. 7. 1896</note>
+            <author ref="pmbperson__10883" role="hat-geschaffen">Berger, Alfred von</author>
+            <date when="1896-07-11">11.07.1896</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32734</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32734</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
+         <bibl xml:id="pmb32736">
+            <title>Othello</title>
+            <note type="bibliografische_angabe">Die Zeit, Bd. 8, H. 96, 1. 8. 1896</note>
+            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date when="1896-08-01">01.08.1896</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32736</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32736</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
          <bibl xml:id="pmb30259">
             <title>Loris</title>
             <note type="bibliografische_angabe">Freie Bühne, Jg. 3, H. 1, Januar 1892, S. 94–98</note>
@@ -1048,7 +1125,6 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30259</idno>
             <note type="work_kind">Epik &gt;&gt; Aufsatz</note>
          </bibl>
-         <error type="bibl">30465</error>
          <bibl xml:id="pmb30467">
             <title>Journal des Goncourt. Mémoires de la vie littéraire</title>
             <title type="legacy-name-merge">Tagebuch</title>
@@ -1252,5 +1328,77 @@
             <idno type="URL" subtype="geonames">https://sws.geonames.org/3865483/</idno>
          </place>
       </listPlace>
+      <listOrg>
+         <org xml:id="pmb29654">
+            <orgName>Albert Langen</orgName>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Langen_Müller_Verlag</idno>
+            <desc type="entity_type">Verlag</desc>
+            <desc type="entity_type_id">975</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb45258">München</placeName>
+               <geo>48,13743 11,57549</geo>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29654</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29654</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29654</idno>
+         </org>
+         <org xml:id="pmb29209">
+            <orgName>Die Zeit. Wiener Wochenschrift</orgName>
+            <desc type="entity_type">Zeitschriftenredaktion</desc>
+            <desc type="entity_type_id">973</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb50">Wien</placeName>
+               <geo>48,2066 16,37341</geo>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb296">Günthergasse</placeName>
+               <geo>48,216599877109 16,358330000258</geo>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:G%C3%BCnthergasse</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb296</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/296</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb296</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29209</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29209</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29209</idno>
+         </org>
+         <org xml:id="pmb29212">
+            <orgName>Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne</orgName>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_neue_Rundschau</idno>
+            <desc type="entity_type">Zeitschriftenredaktion</desc>
+            <desc type="entity_type_id">973</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb168">Berlin</placeName>
+               <geo>52,52437 13,41053</geo>
+               <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29212</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29212</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29212</idno>
+            <note type="apis_dates">
+               <date when="1890-01-01">1890</date>
+            </note>
+         </org>
+      </listOrg>
    </back>
 </TEI>

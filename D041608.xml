@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Theaterbesuche von Arthur Schnitzler, 15. 2. 1901</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1901-02-15</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -44,7 +45,7 @@
             <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A6F-B</idno>
          </publicationStmt>
          <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="#pmb10815">Bahr</persName> and Arthur Schnitzler</p>
          </seriesStmt>
          <sourceDesc>
             <listWit>
@@ -83,7 +84,9 @@
                <rs type="place" ref="#pmb20">Volksth.</rs>
                <space unit="chars" quantity="1"/>
                <rs type="person" ref="#pmb10815">Bahr</rs>: <rs type="work" ref="#pmb29851">Franzl</rs>
-               <space unit="chars" quantity="1"/> (<anchor type="commentary" xml:id="KD608-1">G. P.</anchor>)</p>
+               <space unit="chars" quantity="1"/> (<anchor type="commentary" xml:id="KD608-1"/>G. P.<note type="commentary" xml:id="KD608-1h">
+                  <p>General-Probe.</p>
+               </note>)</p>
          </div>
       </body>
    </text>
@@ -96,7 +99,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -105,7 +108,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -113,8 +116,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -128,7 +131,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -137,7 +140,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -145,8 +148,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -158,7 +161,7 @@
       <listBibl>
          <bibl xml:id="pmb29851">
             <title>Der Franzl. Fünf Bilder aus dem Leben eines guten Mannes</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date notBefore="1900-01-01" when="1900-07-02">1900</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29851</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29851</idno>
@@ -178,7 +181,7 @@
                <geo>48,205142 16,3566</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb57">VII., Neubau</placeName>
+               <placeName ref="#pmb57">VII., Neubau</placeName>
                <geo>48,2 16,35</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Volkstheater</idno>

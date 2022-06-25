@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler an Hermann Bahr, 26. 10. 1901</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1901-10-26</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <sender>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1901-10-26" n="01">26. 10. 1901</date>
@@ -86,7 +87,7 @@
                      <date when="1901-10-26">26. 10. 1901</date>
                   </analytic>
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint>
@@ -124,19 +125,54 @@
             <opener>
                <salute>lieber Hermann,</salute>
             </opener>
-            <p>ich danke dir sehr für dein neues <anchor type="commentary" xml:id="KL042-3">
-                  <rs type="work" subtype="implied" ref="#pmb29947">Buch</rs>
-               </anchor>. Die <anchor type="commentary" xml:id="KL042-4">
-                  <rs type="work" subtype="implied" ref="#pmb29949">Titelnovelle</rs>
-               </anchor> hat mich besonders interessirt; du hast vielleicht bemerkt, dass in der Erzählg des <rs type="work" subtype="implied" ref="#pmb29873">Puppenspielers</rs> von dem <anchor type="commentary" xml:id="KL042-6">Mann in der Eisenbahn</anchor> ein ähnliches Thema leicht angerührt ist. In<pb/> dem Gespräch »<anchor type="commentary" xml:id="KL042-7">
-                  <rs type="work" ref="#pmb29875">Räuber u <damage agent="hole">
-                        <supplied>M</supplied>
-                     </damage>örder</rs>
-               </anchor>« erzählst du ganz flüchtig eine Geschichte, die mir ein geborner Schwank scheint: von dem Hofrath, der dem Dieb bietet, ihn nicht anzuzeigen. Wäre ich der <anchor type="commentary" xml:id="KL042-1">
-                  <rs type="place" ref="#pmb1">liebe Augustin</rs>
-               </anchor>, so redete ich dir zu, die Scene zu schreiben. – Manches hab ich schon gekannt, und mit Vergnügen wieder<pb/> gelesen. Lieb ist die <anchor type="commentary" xml:id="KL042-5">
-                  <rs type="work" ref="#pmb30043">Pantomime</rs>
-               </anchor>. Wird sie wer <anchor type="commentary" xml:id="KL042-2">componiren</anchor>? </p>
+            <p>ich danke dir sehr für dein neues <anchor type="commentary" xml:id="KL042-3"/>
+               <rs type="work" subtype="implied" ref="#pmb29947">Buch</rs>
+               <note type="commentary" xml:id="KL042-3h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb29947">Wirkung in die Ferne und Anderes</rs>. Wien: <rs type="org" ref="#pmb29636">Wiener Verlag</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1902</date>
+                     </bibl>.</p>
+               </note>. Die <anchor type="commentary" xml:id="KL042-4"/>
+               <rs type="work" subtype="implied" ref="#pmb29949">Titelnovelle</rs>
+               <note type="commentary" xml:id="KL042-4h">
+                  <p>
+                     <bibl >
+                        <rs type="work" ref="#pmb29949">Wirkung in die Ferne</rs>, zuerst erschienen in:
+                     <rs type="org" ref="#pmb29414">Neues Wiener Tagblatt</rs>, Jg. 34, Nr. 103,
+                     <date >15. 4. 1900</date>, S. 79–85</bibl>.</p>
+               </note> hat mich besonders interessirt; du hast vielleicht bemerkt, dass in der Erzählg des <rs type="work" subtype="implied" ref="#pmb29873">Puppenspielers</rs> von dem <anchor type="commentary" xml:id="KL042-6"/>Mann in der Eisenbahn<note type="commentary" xml:id="KL042-6h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>: <rs type="work" ref="#pmb29859">Marionetten. Drei Einakter</rs>. Berlin: <rs type="org" ref="#pmb29639">S. Fischer</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1906</date>, S. 18–19</bibl>.</p>
+               </note> ein ähnliches Thema leicht angerührt ist. In<pb/> dem Gespräch »<anchor type="commentary" xml:id="KL042-7"/>
+               <rs type="work" ref="#pmb29875">Räuber u <damage agent="hole">
+                     <supplied>M</supplied>
+                  </damage>örder</rs>
+               <note type="commentary" xml:id="KL042-7h">
+                  <p>
+                     <bibl >
+                        <rs type="work" ref="#pmb29875">Räuber und Mörder</rs>, zuerst erschienen in: <rs type="org" ref="#pmb29414">Neues Wiener Tagblatt</rs>, Jg. 34, Nr. 151,
+                     <date >3. 6. 1900</date>, S. 2–3</bibl>.</p>
+               </note>« erzählst du ganz flüchtig eine Geschichte, die mir ein geborner Schwank scheint: von dem Hofrath, der dem Dieb bietet, ihn nicht anzuzeigen. Wäre ich der <anchor type="commentary" xml:id="KL042-1"/>
+               <rs type="place" ref="#pmb1">liebe Augustin</rs>
+               <note type="commentary" xml:id="KL042-1h">
+                  <p>Von <rs type="person" ref="#pmb2167">Salten</rs> geleitetes Kabarett.</p>
+               </note>, so redete ich dir zu, die Scene zu schreiben. – Manches hab ich schon gekannt, und mit Vergnügen wieder<pb/> gelesen. Lieb ist die <anchor type="commentary" xml:id="KL042-5"/>
+               <rs type="work" ref="#pmb30043">Pantomime</rs>
+               <note type="commentary" xml:id="KL042-5h">
+                  <p>
+                     <bibl >
+                        <rs type="work" ref="#pmb30043">Die Pantomime vom braven Manne</rs>, zuerst
+                  erschienen in: <rs type="org" ref="#pmb29625">Das Magazin für Litteratur</rs>,
+                  Jg. 62, Nr. 6, <date >11. 2. 1893</date>, Sp. 93–95</bibl>.</p>
+               </note>. Wird sie wer <anchor type="commentary" xml:id="KL042-2"/>componiren<note type="commentary" xml:id="KL042-2h">
+                  <p>
+                     <ptr target="L041135"/>.</p>
+               </note>? </p>
             <closer>Ich grüß dich herzlich<lb/>dein<lb/>
                <signed>Arthur</signed>
             </closer>
@@ -157,7 +193,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -166,7 +202,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -174,8 +210,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -189,7 +225,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -198,7 +234,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -206,8 +242,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -219,7 +255,7 @@
       <listBibl>
          <bibl xml:id="pmb29947">
             <title>Wirkung in die Ferne und Anderes</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date notBefore="1901-01-01" when="1901-07-02">1901</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29947</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29947</idno>
@@ -230,7 +266,7 @@
          <bibl xml:id="pmb29949">
             <title>Wirkung in die Ferne</title>
             <note type="bibliografische_angabe">Neues Wiener Tagblatt, 15. 4. 1900</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1900-04-15">15.04.1900</date>
             <idno type="URL" subtype="">http://anno.onb.ac.at/cgi-content/anno?aid=nwg&amp;datum=19000415&amp;seite=81&amp;zoom=33</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29949</idno>
@@ -241,7 +277,7 @@
          <bibl xml:id="pmb29873">
             <title>Der Puppenspieler</title>
             <note type="bibliografische_angabe">Neue Freie Presse, 31. 5. 1903</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1903-05-31">31.05.1903</date>
             <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-der-puppenspieler</idno>
             <idno type="URL" subtype="theadok">https://theadok.at/work/38152</idno>
@@ -255,7 +291,7 @@
          <bibl xml:id="pmb29875">
             <title>Räuber und Mörder</title>
             <note type="bibliografische_angabe">Neues Wiener Tagblatt, 3. 6. 1900</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1900-06-03">03.06.1900</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29875</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29875</idno>
@@ -265,7 +301,7 @@
          <bibl xml:id="pmb30043">
             <title>Die Pantomime vom braven Manne</title>
             <note type="bibliografische_angabe">Das Magazin für Litteratur, Jg. 62, H. 6, 11. 2. 1893</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1893-02-11">11.02.1893</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30043</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30043</idno>
@@ -294,7 +330,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -317,11 +353,11 @@
                <geo>48,19941 16,3642</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb56">VI., Mariahilf</placeName>
+               <placeName ref="#pmb56">VI., Mariahilf</placeName>
                <geo>48,19522 16,35032</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb37">Theater an der Wien</placeName>
+               <placeName ref="#pmb37">Theater an der Wien</placeName>
                <geo>48,19941 16,3642</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb1</idno>

@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7. 9. [1892]</title>
-            <author ref="pmb11740">Hofmannsthal, Hugo von</author>
+            <title type="iso-date">1892-09-07</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,14 +49,14 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+               <sender>
+                  <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <addressee>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb45896">Lélex (Ain)</placeName>
+                  <placeName ref="#pmb45896">Lélex (Ain)</placeName>
                </placeSender>
                <!-- <placeAddressee><placeName key="">[Bad Ischl]</placeName></placeAddressee>-->
                <dateSender>
@@ -83,8 +84,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author ref="pmb11740">Hofmannsthal, Hugo</author>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -121,37 +122,50 @@
             </opener>
             <p>Fünf Stunden von der Eisenbahn. Keine Zeitung. Kühe. <hi rend="latintype">Monsieur le curé qui fait des enfants aux jolies paysannes.</hi> Der Gendarm: <hi rend="latintype">Pandore</hi>. Die alten Fliegenschimmel des Wirths: <hi rend="latintype">Pyrame et Thisbé</hi>. Die Hauskatze: <hi rend="latintype">Madeleine</hi>. Der Nachttopf: <hi rend="latintype">Monsieur Jules</hi>.</p>
             <p rend="center">– – – –</p>
-            <p>Lange grüne Hochplateaus mit Farrnkraut und Jurakalk; dahinter der große See und der <geogName type="mountain" ref="pmb565">
+            <p>Lange grüne Hochplateaus mit Farrnkraut und Jurakalk; dahinter der große See und der <geogName type="mountain" ref="#pmb565">
                   <hi rend="latintype">Montblanc</hi>
                </geogName> und Herr <rs type="person" ref="#pmb4311">
                   <hi rend="latintype">Edouard Rod</hi>
                </rs>.<pb/>
             </p>
-            <p>Gang der Handlung: Ich werde behandelt, wie der <anchor type="commentary" xml:id="KL417-2">
-                  <rs type="person" subtype="implied" ref="#pmb4315">kleine Dauphin</rs> beim bösen Schuster <rs type="person" ref="#pmb4319">Simon</rs>
-               </anchor>. Man giebt mir mehr grüne und gelbe <anchor type="commentary" xml:id="KL417-1">Chartreuse</anchor> zu trinken, als einem Steinklopfer, und dann muss ich Lieder im Patois lernen und singen, z. B.</p>
+            <p>Gang der Handlung: Ich werde behandelt, wie der <anchor type="commentary" xml:id="KL417-2"/>
+               <rs type="person" subtype="implied" ref="#pmb4315">kleine Dauphin</rs> beim bösen Schuster <rs type="person" ref="#pmb4319">Simon</rs>
+               <note type="commentary" xml:id="KL417-2h">
+                  <p>
+                     <date when="1793" >1793</date> wurde der ehemalige Thronfolger <rs type="person" ref="#pmb4315">Louis Charles de Bourbon</rs> dem Schuster <rs type="person" ref="#pmb4319">Alain Simon</rs> zur ›Erziehung‹ überantwortet.</p>
+               </note>. Man giebt mir mehr grüne und gelbe <anchor type="commentary" xml:id="KL417-1"/>Chartreuse<note type="commentary" xml:id="KL417-1h">
+                  <p>Kräuterlikör.</p>
+               </note> zu trinken, als einem Steinklopfer, und dann muss ich Lieder im Patois lernen und singen, z. B.</p>
             <lg type="poem">
-               <anchor type="commentary" xml:id="KL417-3">
-                  <l>
-                     <hi rend="latintype">Z’ame les bouguettes</hi>
-                  </l>
-                  <l>
-                     <hi rend="latintype">Et les matafans</hi>
-                  </l>
-                  <l>
-                     <hi rend="latintype">Et les dsones feuilles</hi>
-                  </l>
-                  <l>
-                     <hi rend="latintype">Qu’ont lo tétés blancs!</hi>
-                  </l>
-                  <l>– – – – –</l>
-                  <l>
-                     <space unit="chars" quantity="7"/>(unanständig)</l>
-               </anchor>
+               <anchor type="commentary" xml:id="KL417-3"/>
+               <l>
+                  <hi rend="latintype">Z’ame les bouguettes</hi>
+               </l>
+               <l>
+                  <hi rend="latintype">Et les matafans</hi>
+               </l>
+               <l>
+                  <hi rend="latintype">Et les dsones feuilles</hi>
+               </l>
+               <l>
+                  <hi rend="latintype">Qu’ont lo tétés blancs!</hi>
+               </l>
+               <l>– – – – –</l>
+               <l>
+                  <space unit="chars" quantity="7"/>(unanständig)</l>
+               <note type="commentary" xml:id="KL417-3h">
+                  <seg type="lemma">Z’ame les {\dots} (unanständig)</seg>
+                  <p>Es handelt sich um ein Lied, mit dem nach Bougettes (eine herausgebackene Speise aus
+               Ei, Mehl und Kartoffeln) und Matafans (einer dem Crêpe verwandten, herausgebackenen
+               Speise aus Mehl und Kartoffeln) verlangt wurde. Die letzten beiden Verse besagen,
+               dass der Sänger zudem eine Vorliebe für weiße Brüste besitzt.</p>
+               </note>
             </lg>
             <p>
                <hi rend="latintype">
-                  <anchor type="commentary" xml:id="KL417-4">Voilà ce qu’on ap<del rend="strikethrough">p</del>elle se dépayser</anchor>
+                  <anchor type="commentary" xml:id="KL417-4"/>Voilà ce qu’on ap<del rend="strikethrough">p</del>elle se dépayser<note type="commentary" xml:id="KL417-4h">
+                     <p>Sinngemäß: »Das heißt es, sich in ein fremdes Land zu begeben.«</p>
+                  </note>
                </hi>; <anchor type="label" xml:id="LL417-1">siehe <rs type="person" ref="#pmb10815">Hermann Bahr</rs>, ges. Werke, passim</anchor> »über die rechte Art in fremden Ländern zu reisen«. Dienstag beginnt eigentlich meine <rs type="work" subtype="implied" ref="#pmb32117">Reise in die Provinzen des mittäglichen <rs type="place" ref="#pmb166">Frankreich</rs>
                </rs>.</p>
             <p>Schreiben Sie, bitte, zwischen <date>10.</date> und <date>16.</date> nach <rs type="place" ref="#pmb641">
@@ -182,7 +196,7 @@
             <persName type="namensvariante">Hofmannsthal, Hugo</persName>
             <birth>
                <date when="1874-02-01">01.02.1874</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -191,7 +205,7 @@
             </birth>
             <death>
                <date when="1929-07-15">15.07.1929</date>
-               <settlement ref="pmb173">
+               <settlement ref="#pmb173">
                   <placeName type="pref">Rodaun</placeName>
                   <location>
                      <geo>48,132793312328 16,256152195922</geo>
@@ -199,7 +213,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
@@ -213,7 +227,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -222,7 +236,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -230,8 +244,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -245,7 +259,7 @@
             </persName>
             <birth>
                <date when="1857-01-01">1857</date>
-               <settlement ref="pmb54926">
+               <settlement ref="#pmb54926">
                   <placeName type="pref">Nyon</placeName>
                   <location>
                      <geo>46,38318 6,23955</geo>
@@ -254,7 +268,7 @@
             </birth>
             <death>
                <date when="1910-01-01">1910</date>
-               <settlement ref="pmb55978">
+               <settlement ref="#pmb55978">
                   <placeName type="pref">Grasse</placeName>
                   <location>
                      <geo>43,65783 6,92537</geo>
@@ -262,7 +276,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118790838</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4311</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4311</idno>
@@ -275,7 +289,7 @@
             </persName>
             <birth>
                <date when="1785-03-27">1785-03-27</date>
-               <settlement ref="pmb36549">
+               <settlement ref="#pmb36549">
                   <placeName type="pref">Versailles</placeName>
                   <location>
                      <geo>48,80359 2,13424</geo>
@@ -284,7 +298,7 @@
             </birth>
             <death>
                <date when="1795-06-08">1795-06-08</date>
-               <settlement ref="pmb182">
+               <settlement ref="#pmb182">
                   <placeName type="pref">Paris</placeName>
                   <location>
                      <geo>48,85341 2,3488</geo>
@@ -292,7 +306,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb304">Dauphin/Dauphine</occupation>
+            <occupation ref="#pmb304">Dauphin/Dauphine</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118729403</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4315</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4315</idno>
@@ -305,7 +319,7 @@
             </persName>
             <birth>
                <date when="1736-01-01">1736</date>
-               <settlement ref="pmb49087">
+               <settlement ref="#pmb49087">
                   <placeName type="pref">Troyes</placeName>
                   <location>
                      <geo>48,30073 4,08524</geo>
@@ -314,7 +328,7 @@
             </birth>
             <death>
                <date when="1794-01-01">1794</date>
-               <settlement ref="pmb182">
+               <settlement ref="#pmb182">
                   <placeName type="pref">Paris</placeName>
                   <location>
                      <geo>48,85341 2,3488</geo>
@@ -322,8 +336,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb305">Schuster/Schusterin</occupation>
-            <occupation ref="pmb362">Revolutionär/Revolutionärin</occupation>
+            <occupation ref="#pmb305">Schuster/Schusterin</occupation>
+            <occupation ref="#pmb362">Revolutionär/Revolutionärin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/120805537</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4319</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4319</idno>
@@ -336,7 +350,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -345,7 +359,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -353,8 +367,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -366,7 +380,7 @@
       <listBibl>
          <bibl xml:id="pmb32117">
             <title>Reise in die mittäglichen Provinzen von Frankreich</title>
-            <author ref="pmbperson__4874" role="hat-geschaffen">Thümmel, Moritz August von</author>
+            <author ref="#pmbperson__4874" role="hat-geschaffen">Thümmel, Moritz August von</author>
             <date from="1791-01-01" to="1791-12-31">1791  – 1805</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32117</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32117</idno>
@@ -384,7 +398,7 @@
                <geo>46,30057 5,93838</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb166">Frankreich</placeName>
+               <placeName ref="#pmb166">Frankreich</placeName>
                <geo>46,0 2,0</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/6612203/</idno>
@@ -404,7 +418,7 @@
                <geo>46,0 2,0</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb468">Europa</placeName>
+               <placeName ref="#pmb468">Europa</placeName>
                <geo>48,69096 9,14062</geo>
             </location>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q142</idno>
@@ -452,7 +466,7 @@
                <geo>46,20222 6,14569</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb43435">Schweiz</placeName>
+               <placeName ref="#pmb43435">Schweiz</placeName>
                <geo>47,00016 8,01427</geo>
             </location>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q71</idno>

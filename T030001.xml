@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler: Aus Kritiken, [7. 4. 1912]</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1912-04-07</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,15 +32,15 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Theatermuseum, Wien</publisher>
             <idno type="HBAS-T" n="001"/>
             <availability status="free">
-               <p part="N">Copyright © 2017</p>
+               <p>Copyright © 2017</p>
             </availability>
             <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A71-7</idno>
          </publicationStmt>
@@ -55,7 +56,7 @@
                         <idno>Schnitzler, A 20,9</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p part="N">ms. Typoskript, hs. Korrektur in Bleistift, undatiert.</p>
+                        <p>ms. Typoskript, hs. Korrektur in Bleistift, undatiert.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,10 +75,14 @@
    <text type="manuscript">
       <body>
          <div>
-            <p part="N">»<c rendition="#dots" n="5"/>Ich kann <rs type="person" ref="#pmb12749">Schönherr</rs> loben, weil er eine einfache Bauernkraft ist, <rs type="person" ref="#pmb10815">Bahr</rs> weil er ein Variétéjongleur der Literatur ist. Aber was soll ich über die andere<add place="inline">n</add>
+            <p>»<c rendition="#dots" n="5"/>Ich kann <rs type="person" ref="#pmb12749">Schönherr</rs> loben, weil er eine einfache Bauernkraft ist, <rs type="person" ref="#pmb10815">Bahr</rs> weil er ein Variétéjongleur der Literatur ist. Aber was soll ich über die andere<add place="inline">n</add>
                <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KT001-1">fleissigen Leute</anchor> sagen, die ihr geistiges Kapitalchen mit netten anständigen Zinsen korrekt verwerten.«</p>
-            <p rend="center" part="N">
+               <anchor type="commentary" xml:id="KT001-1"/>fleissigen Leute<note type="commentary" xml:id="KT001-1h">
+                  <p>In der Textvorlage (<bibl >
+                        <rs type="person" ref="#pmb2147">Peter Altenberg</rs>: <rs type="work" ref="#pmb31247">Wiener Literatenköpfe</rs>. In: <rs type="org" ref="#pmb29320">Neues Wiener Journal</rs>, Jg. 20, Nr. 6629, <date >7. 4. 1912</date>,
+                  S. 11</bibl>) gesperrt gesetzt. Womöglich fühlte sich <rs type="person" ref="#pmb2121">Schnitzler</rs> dadurch angesprochen.</p>
+               </note> sagen, die ihr geistiges Kapitalchen mit netten anständigen Zinsen korrekt verwerten.«</p>
+            <p rend="center">
                <rs type="work" ref="#pmb31247">Wiener Literatenköpfe</rs> von <rs type="person" ref="#pmb2147">Peter Altenberg</rs>
                <lb/>
                <date when="1912-04-07">7. 4. 1912.</date>
@@ -94,7 +99,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -103,7 +108,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -111,8 +116,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -126,7 +131,7 @@
             </persName>
             <birth>
                <date when="1867-02-24">24.02.1867</date>
-               <settlement ref="pmb61098">
+               <settlement ref="#pmb61098">
                   <placeName type="pref">Axams</placeName>
                   <location>
                      <geo>47,23111 11,27892</geo>
@@ -135,7 +140,7 @@
             </birth>
             <death>
                <date when="1943-03-15">15.03.1943</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -143,8 +148,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19850</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118758926</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12749</idno>
@@ -159,7 +164,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -168,7 +173,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -176,8 +181,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -195,7 +200,7 @@
             <persName type="pseudonym">Peter Altenberg</persName>
             <birth>
                <date when="1859-03-09">09.03.1859</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -204,7 +209,7 @@
             </birth>
             <death>
                <date when="1919-01-08">08.01.1919</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -212,7 +217,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118502255</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13162</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2147</idno>
@@ -226,7 +231,7 @@
          <bibl xml:id="pmb31247">
             <title>Wiener Literatenköpfe</title>
             <note type="bibliografische_angabe">Neues Wiener Journal, 7. 4. 1912</note>
-            <author ref="pmbperson__2147" role="hat-geschaffen">Altenberg, Peter</author>
+            <author ref="#pmbperson__2147" role="hat-geschaffen">Altenberg, Peter</author>
             <date when="1912-04-07">07.04.1912</date>
             <idno type="URL" subtype="">http://anno.onb.ac.at/cgi-content/anno?aid=nwj&amp;datum=19120407&amp;seite=11&amp;zoom=33</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31247</idno>

@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler an [Paul Dorff oder Robert Ress], [April] 1913</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1913-04-01</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,12 +49,12 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <sender>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb3338">Ress, Robert</persName>
-                  <persName ref="pmb27945">Dorff, Paul</persName>
+               <addressee>
+                  <persName ref="#pmb3338">Ress, Robert</persName>
+                  <persName ref="#pmb27945">Dorff, Paul</persName>
                </addressee>
                <dateSender>
                   <date when="1913-04" n="01">[April] 1913</date>
@@ -70,7 +71,7 @@
                         <idno>HS AM 23321 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Brief v. fr. Hand (<persName ref="pmb22728">Frieda Pollak</persName>?), 1 Bl., 1 S.</p>
+                        <p>hs. Brief v. fr. Hand (<persName ref="#pmb22728">Frieda Pollak</persName>?), 1 Bl., 1 S.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -96,7 +97,13 @@
             <p>Sehr geehrter Herr. Im Princip sehr einverstanden. Aber wollen Sie nicht <hi rend="latintype">
                   <rs type="person" ref="#pmb10815">Bahr</rs>
                </hi> und den andern zur Unterzeichnung des Aufrufs bestimmten Personen vorschlagen, zugleich mit der Unterschrift eine Summe zu zeichnen? Es gäbe der Sache mehr Gewicht und bessere Chancen. Wenn der Aufruf auch etwas später erscheinen müßte.</p>
-            <p>Und noch eins: Wollen wir nicht den Passus: <supplied>»</supplied>Es empört uns« abändern in »<anchor type="commentary" xml:id="KL022-1">Es ergreift und beschämt uns</anchor>«. Und wenn Sie und <hi rend="latintype">
+            <p>Und noch eins: Wollen wir nicht den Passus: <supplied>»</supplied>Es empört uns« abändern in »<anchor type="commentary" xml:id="KL022-1"/>Es ergreift und beschämt uns<note type="commentary" xml:id="KL022-1h">
+                  <p>Diese Formulierung findet sich im veröffentlichten Aufruf für <rs type="person" ref="#pmb11763">Arno Holz</rs> zu dessen 50. Geburtstag am <date when="1913-04-26" >26. 4. 1913</date>, den sowohl <rs type="person" ref="#pmb10815">Bahr</rs> wie
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> mit unterzeichneten. Das
+               Korrespondenzstück ist in <rs type="person" ref="#pmb10815">Bahrs</rs> Nachlass unter
+                  <rs type="person" ref="#pmb2121">Schnitzler</rs> überliefert, deutet also eine
+               gemeinsame Involvierung in den Text an.</p>
+               </note>«. Und wenn Sie und <hi rend="latintype">
                   <rs type="person" ref="#pmb10815">Bahr</rs>
                </hi>, wie ich hoffe, mit dem ersten Vorschlag einverstanden sind, sollte es nach »tilgen« nicht heißen »die die Unterzeichneten hiermit eröffnen« oder ähnlich? </p>
             <closer>Mit vorzüglicher Hochachtung<lb/>
@@ -114,7 +121,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -123,7 +130,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -131,8 +138,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -146,7 +153,7 @@
             </persName>
             <birth>
                <date when="1871-01-01">1871</date>
-               <settlement ref="pmb652">
+               <settlement ref="#pmb652">
                   <placeName type="pref">Prag</placeName>
                   <location>
                      <geo>50,08333 14,46667</geo>
@@ -155,7 +162,7 @@
             </birth>
             <death>
                <date when="1935-01-01">1935</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -163,8 +170,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
-            <occupation ref="pmb242">Rezitator/Rezitatorin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb242">Rezitator/Rezitatorin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116449403</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3338</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3338</idno>
@@ -186,7 +193,7 @@
             <persName type="rufname">Kolap</persName>
             <birth>
                <date when="1881-12-08">08.12.1881</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -195,7 +202,7 @@
             </birth>
             <death>
                <date when="1937-07-13">13.07.1937</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -203,7 +210,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb367">Sekretär/Sekretärin</occupation>
+            <occupation ref="#pmb367">Sekretär/Sekretärin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18881</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb22728</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/22728</idno>
@@ -216,7 +223,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -225,7 +232,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -233,8 +240,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>

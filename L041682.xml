@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Reicher an Hermann Bahr, 14. 12. 1891</title>
-            <author ref="pmb12491">Reicher, Emanuel</author>
+            <title type="iso-date">1891-12-14</title>
+            <author ref="#pmb12491">Reicher, Emanuel</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb12491">Reicher, Emanuel</persName>
+               <sender>
+                  <persName ref="#pmb12491">Reicher, Emanuel</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb168">Berlin</placeName>
+                  <placeName ref="#pmb168">Berlin</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1891-12-14" n="01">14. 12. 1891</date>
@@ -76,9 +77,9 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: »<quote>
-                              <orgName ref="pmb29252">Emanuel Reicher’s / Deutsche Gastspielgesellschaft.</orgName> / <placeName ref="pmb168">
+                              <orgName ref="#pmb29252">Emanuel Reicher’s / Deutsche Gastspielgesellschaft.</orgName> / <placeName ref="#pmb168">
                                  <settlement>Berlin</settlement>
-                              </placeName> C. d. ...... 189 / <placeName ref="pmb822">Alexander-Str. 30</placeName>.</quote>«</p>
+                              </placeName> C. d. ...... 189 / <placeName ref="#pmb822">Alexander-Str. 30</placeName>.</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -106,11 +107,20 @@
             <p>Also so krank gewesen? Das ist allerdings unangenehm, schmerzlich und – kostspielig – aber: »der Tod knapp vorbeigekommen«? – Nein! – Auch wieder ein wenig »romantische Träum!« –</p>
             <p>Na trösten Sie sich mit mir, ich hatte auch <hi rend="latintype">Influenza</hi> – allerdings nicht so schlimm, aber ich war doch auch bettlägerig. – Und doch für mich gearbeitet! Daß ist unendlich rührend, und danke ich Ihnen herzlichst dafür.– Natürlich, lese ich von Ihnen etwas! Wollen Sie mir Vorschläge<pb/> machen?– Uiberhaupt schlag<damage agent="hole">
                   <supplied>e</supplied>
-               </damage>n Sie mir einmal ein interessantes Programm vor. – In <rs type="place" ref="#pmb50">Wien</rs> im <rs type="work" ref="#pmb29823">Märchen</rs> spielen geht nicht – ich kann mich erstens nicht auf so lange Zeit – mindestens 8 Tage Proben nicht frei machen, und dann wäre es auch nicht gut, wenn ich vorher dort spielen würde. – Oeffentliche Vorlesung halte ich auch nicht für gut. – Ich bin mit den beiden Sachen, <anchor type="commentary" xml:id="KL682-1">
-                  <hi rend="latintype">Soiree</hi>
-               </anchor> und <anchor type="commentary" xml:id="KL682-2">
-                  <hi rend="latintype">Matinée</hi>
-               </anchor> vollauf zufrieden. – <rs type="person" ref="#pmb2121">Schnitz<supplied>l</supplied>er</rs>’s <anchor type="commentary" xml:id="KL682-3">Einakter</anchor> ist originell aber doch nur ein kleiner Scherz – nicht wahr?– Sehen Sie mal zu, Theuerster, daß die Sachen bald die <hi rend="latintype">Censur</hi> passieren, bitte bitte machen Sie da ein wenig Feuer. – </p>
+               </damage>n Sie mir einmal ein interessantes Programm vor. – In <rs type="place" ref="#pmb50">Wien</rs> im <rs type="work" ref="#pmb29823">Märchen</rs> spielen geht nicht – ich kann mich erstens nicht auf so lange Zeit – mindestens 8 Tage Proben nicht frei machen, und dann wäre es auch nicht gut, wenn ich vorher dort spielen würde. – Oeffentliche Vorlesung halte ich auch nicht für gut. – Ich bin mit den beiden Sachen, <anchor type="commentary" xml:id="KL682-1"/>
+               <hi rend="latintype">Soiree</hi>
+               <note type="commentary" xml:id="KL682-1h">
+                  <p>Am <date >5. 2. 1892</date> im Salon der Fürstin <rs type="person" ref="#pmb12231">Pauline Metternich</rs>.</p>
+               </note> und <anchor type="commentary" xml:id="KL682-2"/>
+               <hi rend="latintype">Matinée</hi>
+               <note type="commentary" xml:id="KL682-2h">
+                  <p>Am <date >7. 2. 1892</date> im Haus von <rs type="person" ref="#pmb11491">Adalbert von
+                  Goldschmidt</rs>.</p>
+               </note> vollauf zufrieden. – <rs type="person" ref="#pmb2121">Schnitz<supplied>l</supplied>er</rs>’s <anchor type="commentary" xml:id="KL682-3"/>Einakter<note type="commentary" xml:id="KL682-3h">
+                  <p>Unklar, vermutlich eine der <rs type="work" ref="#pmb29935">Anatol</rs>-Szenen, von
+               denen <rs type="person" ref="#pmb12491">Reicher</rs> einige Monate später <rs type="work" ref="#pmb30749">Frage an das Schicksal</rs> in sein Vorleseprogramm
+               aufnahm; eventuell auch <rs type="work" ref="#pmb31637">Alkandi’s Lied</rs>.</p>
+               </note> ist originell aber doch nur ein kleiner Scherz – nicht wahr?– Sehen Sie mal zu, Theuerster, daß die Sachen bald die <hi rend="latintype">Censur</hi> passieren, bitte bitte machen Sie da ein wenig Feuer. – </p>
             <closer>Grüssen Sie <rs type="person" ref="#pmb11491">Goldschmidt</rs>, <hi rend="latintype">
                   <rs type="person" ref="#pmb14756">Bératon</rs>
                </hi> (für den ich bereits hier Käufer werbe) und die andern Herrn und seien Sie selbst herzlichst gegrüßt von Ihrem treuen<lb/>
@@ -118,7 +128,10 @@
             </closer>
             <postscript>
                <p>
-                  <anchor type="textConst" xml:id="TL682-1">Trinken Sie fleißig <hi rend="latintype">Bordeaux</hi> und <hi rend="latintype">Cognac</hi> und rauchen Sie nicht so viel <hi rend="latintype">Virginia</hi>!</anchor>
+                  <anchor type="textConst" xml:id="TL682-1"/>Trinken Sie fleißig <hi rend="latintype">Bordeaux</hi> und <hi rend="latintype">Cognac</hi> und rauchen Sie nicht so viel <hi rend="latintype">Virginia</hi>!<note type="textConst" xml:id="TL682-1h">
+                     <seg type="lemma">Trinken Sie {\dots} Virginia!</seg>
+                     <p>Am linken Rand der 1. Seite.</p>
+                  </note>
                </p>
             </postscript>
          </div>
@@ -133,7 +146,7 @@
             </persName>
             <birth>
                <date when="1849-06-18">18.06.1849</date>
-               <settlement ref="pmb59412">
+               <settlement ref="#pmb59412">
                   <placeName type="pref">Bochnia</placeName>
                   <location>
                      <geo>49,96905 20,43028</geo>
@@ -142,7 +155,7 @@
             </birth>
             <death>
                <date when="1924-05-15">15.05.1924</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -150,7 +163,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19126</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116398949</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12491</idno>
@@ -164,7 +177,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -173,7 +186,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -181,8 +194,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -197,7 +210,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -206,7 +219,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -214,8 +227,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -229,7 +242,7 @@
             </persName>
             <birth>
                <date when="1848-05-05">05.05.1848</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -238,7 +251,7 @@
             </birth>
             <death>
                <date when="1906-12-21">21.12.1906</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -246,8 +259,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb129">Komponist/Komponistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb129">Komponist/Komponistin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15541</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116755741</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11491</idno>
@@ -263,7 +276,7 @@
             <persName type="geburtsname_nachname">Peratoner</persName>
             <birth>
                <date when="1859-12-06">06.12.1859</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -272,7 +285,7 @@
             </birth>
             <death>
                <date when="1900-02-11">11.02.1900</date>
-               <settlement ref="pmb462">
+               <settlement ref="#pmb462">
                   <placeName type="pref">Venedig</placeName>
                   <location>
                      <geo>45,43713 12,33265</geo>
@@ -280,9 +293,9 @@
                </settlement>
             </death>
             <sex value="not-set"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13611</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb14756</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/14756</idno>
@@ -294,7 +307,7 @@
             <title>Das Märchen. Schauspiel in drei Aufzügen</title>
             <note type="bibliografische_angabe">Arthur Schnitzler: Das Märchen. Schauspiel in drei Aufzügen. Dresden, Leipzig: E. Pierson’s Verlag 1894.</note>
             <note type="uri_worklink">https://babel.hathitrust.org/cgi/pt?id=coo.31924026341598&amp;view=1up&amp;seq=5</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date>1891  – 1891</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.04</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1169917</idno>
@@ -322,7 +335,7 @@
                <geo>52,52437 13,41053</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb151">Deutschland</placeName>
+               <placeName ref="#pmb151">Deutschland</placeName>
                <geo>51,5 10,5</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>
@@ -350,7 +363,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -373,7 +386,7 @@
                <geo>52,52383 13,41293</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb168">Berlin</placeName>
+               <placeName ref="#pmb168">Berlin</placeName>
                <geo>52,52437 13,41053</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb822</idno>
@@ -387,7 +400,7 @@
             <desc type="entity_type">Theatertruppe</desc>
             <desc type="entity_type_id">991</desc>
             <location type="located_in_place">
-               <placeName ref="pmb168">Berlin</placeName>
+               <placeName ref="#pmb168">Berlin</placeName>
                <geo>52,52437 13,41053</geo>
                <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168</idno>

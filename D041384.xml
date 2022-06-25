@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Tagebuch von Arthur Schnitzler, 21. 3. 1928</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1928-03-21</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -50,7 +51,7 @@
             <listBibl>
                <biblStruct corresp="ASTB">
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Tagebuch 1927–1930</title>
                      <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
                      <imprint>
@@ -76,14 +77,17 @@
       <body>
          <div type="writingSession" n="1">
             <p>
-               <date when="1928-03-21" n="1">21/3</date> Vm. Besorgungen. Begegnung <rs type="person" ref="#pmb10788">Raoul Auernheimer</rs>;– mit ihm über <rs type="person" ref="#pmb13055">Jakob</rs> und über <rs type="person" ref="#pmb10815">Bahr</rs> (der ihm sein Streben gerecht zu sein (als Kritiker) vorgeworfen: »<anchor type="commentary" xml:id="KD384-1">Gerechtigkeit ist nur eine Sache Gottes</anchor>«).–</p>
+               <date when="1928-03-21" n="1">21/3</date> Vm. Besorgungen. Begegnung <rs type="person" ref="#pmb10788">Raoul Auernheimer</rs>;– mit ihm über <rs type="person" ref="#pmb13055">Jakob</rs> und über <rs type="person" ref="#pmb10815">Bahr</rs> (der ihm sein Streben gerecht zu sein (als Kritiker) vorgeworfen: »<anchor type="commentary" xml:id="KD384-1"/>Gerechtigkeit ist nur eine Sache Gottes<note type="commentary" xml:id="KD384-1h">
+                  <p>Es dürfte sich um eine privat getätigte Aussage handeln. Die beiden standen in
+               Kontakt.</p>
+               </note>«).–</p>
             <p>Zu Tisch bei <rs type="person" ref="#pmb12698">Julius’</rs>.–</p>
             <p>Nm. am <rs type="work" ref="#pmb30299">Abenteurer</rs>.–</p>
             <p>Mit <rs type="person" ref="#pmb12435">C. P.</rs>
                <space unit="chars" quantity="1"/>
                <rs type="place" ref="#pmb40">Josefstadt</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="person" ref="#pmb3138">Géraldy</rs>, <rs type="work" ref="#pmb30939 #pmb30941">mon mari</rs>.– Sprach <rs type="person" ref="#pmb10998">Paul Brann</rs>, <rs type="person" ref="#pmb3239">Bittner</rs> (<rs type="place" ref="#pmb45258">München</rs>).–</p>
+               <rs type="person" ref="#pmb3138">Géraldy</rs>, <rs type="work" ref="#pmb30939">mon mari</rs>.– Sprach <rs type="person" ref="#pmb10998">Paul Brann</rs>, <rs type="person" ref="#pmb3239">Bittner</rs> (<rs type="place" ref="#pmb45258">München</rs>).–</p>
             <p>Mit <rs type="person" ref="#pmb12435">C. P.</rs> »<rs type="place" ref="#pmb495">Hahn</rs>« genachtm.; <rs type="person" ref="#pmb11774">Horch</rs> eine Weile an unserm Tisch.–</p>
          </div>
       </body>
@@ -423,7 +427,6 @@
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30939.html</idno>
             <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
          </bibl>
-         <error type="bibl">30941</error>
       </listBibl>
       <listPlace>
          <place xml:id="pmb40">

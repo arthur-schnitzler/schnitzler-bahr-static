@@ -11,13 +11,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler: [Aphoristische Bemerkung über Hermann Bahr], [1919?]</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1919-01-01</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -32,15 +33,15 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Theatermuseum, Wien</publisher>
             <idno type="HBAS-T" n="080"/>
             <availability status="free">
-               <p part="N">Copyright © 2017</p>
+               <p>Copyright © 2017</p>
             </availability>
             <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8ABD-2</idno>
          </publicationStmt>
@@ -56,7 +57,7 @@
                         <idno>Schnitzler, A 10</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p part="N">ms. Typoskript, 1 Bl., 1 S., mit hs. Korrekturen und Unterstreichungen mit Bleistift in Lateinschrift. Undatiert, durch inhaltliche Nähe zum <bibl>
+                        <p>ms. Typoskript, 1 Bl., 1 S., mit hs. Korrekturen und Unterstreichungen mit Bleistift in Lateinschrift. Undatiert, durch inhaltliche Nähe zum <bibl>
                               <workName>Tb</workName> vom <date>27. 7. 1919</date>
                            </bibl> dem Jahr zugeordnet. Wiedergabe der finalen Version. Die ms. Schicht lautet: »<quote>Er hat nicht die Dinge, er hat nur die Worte. Doch nein, wenn er sie wirklich hätte, so hätte er ja die Dinge auch. Die Worte haben ihn. Er hat das Talent die Worte mit seinem Geist spielen zu lassen. Sie treiben allerlei Unfug mit ihm, mehr als er mit ihnen. Und es kommt vor, dass sie durch seinen Mund auch Wahres, sogar Tiefsinniges aussprechen.</quote>«</p>
                      </physDesc>
@@ -77,12 +78,15 @@
    <text type="manuscript">
       <body>
          <div>
-            <p part="N">
-               <anchor type="textConst" xml:id="TT080-1">
-                  <rs type="person" ref="#pmb10815">H. B.</rs>
-               </anchor>
+            <p>
+               <anchor type="textConst" xml:id="TT080-1"/>
+               <rs type="person" ref="#pmb10815">H. B.</rs>
+               <note type="textConst" xml:id="TT080-1h">
+                  <p>Hs. am oberen Blattanfang. Entsprechend ist unklar, ob <rs type="person" ref="#pmb10815">Bahr</rs> mit dem Text ›identifiziert‹ wurde oder der Text bereits
+               von Anfang an über ihn war.</p>
+               </note>
             </p>
-            <p part="N">Er <hi rend="underline" n="1">hat nicht die Dinge</hi>, er hat nur die Worte. Doch nein. Wenn er sie wirklich hätte, so hätte er ja die Dinge auch. Die Worte haben ihn.– Die Worte spielen mit seinem Geist, unter der Hand um Wörter. <unclear>Zu w</unclear> kommt vor, dass die Worte durch seinen Mund auch Wahres, sogar Tiefsinniges aussprechen.</p>
+            <p>Er <hi rend="underline" n="1">hat nicht die Dinge</hi>, er hat nur die Worte. Doch nein. Wenn er sie wirklich hätte, so hätte er ja die Dinge auch. Die Worte haben ihn.– Die Worte spielen mit seinem Geist, unter der Hand um Wörter. <unclear>Zu w</unclear> kommt vor, dass die Worte durch seinen Mund auch Wahres, sogar Tiefsinniges aussprechen.</p>
          </div>
       </body>
    </text>
@@ -95,7 +99,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -104,7 +108,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -112,8 +116,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -127,7 +131,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -136,7 +140,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -144,8 +148,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>

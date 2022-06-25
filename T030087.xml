@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hermann Bahr: [Versandliste Wenn es euch gefällt?], [vor dem 28. 5. 1899?]</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1899-05-28</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -57,7 +58,7 @@
                         <repository>Theatermuseum</repository>
                         <idno>HS VM 876 Ba</idno>
                      </msIdentifier>
-                     <physDesc>2. Seite eines »<quote>Skizzen 2</quote>« beschrifteten Hefts. Auf der ersten, der gegenüberliegenden, Seite eine Versandliste von <workName ref="pmb31839">Wiener Theater</workName> (erschienen <date>Anfang Mai 1899</date>). Es dürfte also die Revue <workName ref="pmb32582 #pmb32584">Wenn es euch gefällt</workName> gemeint sein, die am <date>24. 3. 1899</date> im <placeName ref="pmb19">Ronacher</placeName> einmal aufgeführt wurde und die am <date>28. 5. 1899</date> von der <orgName ref="pmb29351">Neuen Freie Presse</orgName> (<bibl>Nr. 12485, Morgenblatt, S. 8)</bibl>) als als Neuerscheinung angeführt ist. </physDesc>
+                     <physDesc>2. Seite eines »<quote>Skizzen 2</quote>« beschrifteten Hefts. Auf der ersten, der gegenüberliegenden, Seite eine Versandliste von <workName ref="#pmb31839">Wiener Theater</workName> (erschienen <date>Anfang Mai 1899</date>). Es dürfte also die Revue <workName ref="#pmb32582">Wenn es euch gefällt</workName> gemeint sein, die am <date>24. 3. 1899</date> im <placeName ref="#pmb19">Ronacher</placeName> einmal aufgeführt wurde und die am <date>28. 5. 1899</date> von der <orgName ref="#pmb29351">Neuen Freie Presse</orgName> (<bibl>Nr. 12485, Morgenblatt, S. 8)</bibl>) als als Neuerscheinung angeführt ist. </physDesc>
                   </msDesc>
                </witness>
             </listWit>
@@ -76,9 +77,17 @@
       <body>
          <div type="writingSession" n="1">
             <p>
-               <anchor type="commentary" xml:id="KT087-1">
-                  <rs type="work" subtype="implied" ref="#pmb32582 #pmb32584">Revue</rs>
-               </anchor>
+               <anchor type="commentary" xml:id="KT087-1"/>
+               <rs type="work" subtype="implied" ref="#pmb32582">Revue</rs>
+               <note type="commentary" xml:id="KT087-1h">
+                  <p>
+                     <bibl>
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>, <rs type="person" ref="#pmb13082">C. Karlweis</rs>: <rs type="work" ref="#pmb32582">Wenn es euch gefällt. Wiener Revue in drei Bildern und einem Vorspiel</rs>.
+                  Wien: <rs type="org" ref="#pmb29296">Carl Konegen</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date>1899</date>
+                     </bibl>.</p>
+               </note>
                <space unit="chars" quantity="1"/>
                <hi rend="gabelsberger">geschickt</hi> an <rs type="person" ref="#pmb2202">Singer</rs>
                <hi rend="superscript">x</hi>, <rs type="person" ref="#pmb2167">Salten</rs>
@@ -126,6 +135,41 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815</idno>
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
             <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+         </person>
+         <person xml:id="pmb13082">
+            <persName>
+               <forename>Carl</forename>
+               <surname>Karlweis</surname>
+            </persName>
+            <persName type="pseudonym">C. Karlweis</persName>
+            <persName type="geburtsname_vorname">Carl</persName>
+            <persName type="geburtsname_nachname">Weiß</persName>
+            <birth>
+               <date when="1850-11-23">23.11.1850</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1901-10-27">27.10.1901</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16730</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117302996</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb13082</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/13082</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb13082</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb13082.html</idno>
          </person>
          <person xml:id="pmb2202">
             <persName>
@@ -492,7 +536,6 @@
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32582</idno>
             <note type="work_kind">Drama &gt;&gt; Mehraktiges Drama</note>
          </bibl>
-         <error type="bibl">32584</error>
       </listBibl>
       <listPlace>
          <place xml:id="pmb19">
@@ -555,6 +598,29 @@
             <note type="apis_dates">
                <date>1864-09-01  – 1939-02-01</date>
             </note>
+         </org>
+         <org xml:id="pmb29296">
+            <orgName>Carl Konegen</orgName>
+            <desc type="entity_type">Verlag</desc>
+            <desc type="entity_type_id">975</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb50">Wien</placeName>
+               <geo>48,2066 16,37341</geo>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29296</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29296</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29296</idno>
          </org>
       </listOrg>
    </back>

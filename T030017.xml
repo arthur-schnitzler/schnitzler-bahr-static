@@ -10,13 +10,14 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" ref="pmb31345">Hermann Bahr, Julius Bauer, J. J. David, Robert Hirschfeld, Felix Salten, Ludwig Speidel: Erklärung, 14. 9. 1900</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
-            <author ref="pmb2150">Bauer, Julius</author>
-            <author ref="pmb2416">David, J. J.</author>
-            <author ref="pmb11707">Hirschfeld, Robert</author>
-            <author ref="pmb2167">Salten, Felix</author>
-            <author ref="pmb12816">Speidel, Ludwig</author>
+            <title level="a" ref="#pmb31345">Hermann Bahr, Julius Bauer, J. J. David, Robert Hirschfeld, Felix Salten, Ludwig Speidel: Erklärung, 14. 9. 1900</title>
+            <title type="iso-date">1900-09-14</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
+            <author ref="#pmb2150">Bauer, Julius</author>
+            <author ref="#pmb2416">David, J. J.</author>
+            <author ref="#pmb11707">Hirschfeld, Robert</author>
+            <author ref="#pmb2167">Salten, Felix</author>
+            <author ref="#pmb12816">Speidel, Ludwig</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -54,16 +55,16 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <author ref="pmb2150">Bauer, Julius</author>
-                     <author ref="pmb2416">David, J. J.</author>
-                     <author ref="pmb11707">Hirschfeld, Robert</author>
-                     <author ref="pmb2167">Salten, Felix</author>
-                     <author ref="pmb12816">Speidel, Ludwig</author>
-                     <title level="a" ref="pmb31345">Erklärung</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb2150">Bauer, Julius</author>
+                     <author ref="#pmb2416">David, J. J.</author>
+                     <author ref="#pmb11707">Hirschfeld, Robert</author>
+                     <author ref="#pmb2167">Salten, Felix</author>
+                     <author ref="#pmb12816">Speidel, Ludwig</author>
+                     <title level="a" ref="#pmb31345">Erklärung</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="pmb29414">Neues Wiener Tagblatt</title>
+                     <title level="j" ref="#pmb41321">Neues Wiener Tagblatt</title>
                      <imprint>
                         <date when="1900-09-14">14. 9. 1900</date>
                      </imprint>
@@ -88,7 +89,11 @@
       <body>
          <div>
             <head>
-               <anchor type="commentary" xml:id="KT017-1">Erklärung</anchor>.</head>
+               <anchor type="commentary" xml:id="KT017-1"/>Erklärung<note type="commentary" xml:id="KT017-1h">
+                  <p part="N">Weitere Abdrucke des Protests erschienen in der <rs type="org" ref="#pmb29351">Neuen
+                  Freien Presse</rs>, der <rs type="org" ref="#pmb29421">Österreichischen
+                  Volks-Zeitung</rs> und der <rs type="org" ref="#pmb29644">Arbeiter-Zeitung</rs>.</p>
+               </note>.</head>
             <p part="N">Die bereits vor mehreren Tagen verbreitet gewesene Nachricht, das Schauspiel »<rs type="work" ref="#pmb29857">Der Schleier der Beatrice</rs>« von <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> sei vom <rs type="place" ref="#pmb14">Burgtheater</rs> abgelehnt worden, hat mit Rücksicht darauf, das dieses Werk bereits durch längere Zeit für angenommen galt, zu verschiedenen befremdlichen Vermuthungen Anlaß gegeben. In Folge weiterer, einander widersprechender Mittheilungen fanden wir uns bestimmt, uns mit diesem Falle näher zu beschäftigen. Wir sehen uns nun genöthigt, zur <hi rend="spaced_out">principiellen</hi> Wahrnehmung der <hi rend="spaced_out">Autorrechte</hi> in der vorliegenden Angelegenheit das Wort zu ergreifen und den Sachverhalt darzulegen.</p>
             <p part="N">Zu Anfang des December 1899 hat Herr <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> sein eben vollendetes Werk noch in Manuscriptform dem <rs type="place" ref="#pmb14">Burgtheater</rs> eingereicht. Der <rs type="person" subtype="implied" ref="#pmb12671">Director</rs> des <rs type="place" ref="#pmb14">Burgtheater</rs>s, Herr Dr. <rs type="person" ref="#pmb12671">Paul Schlenther</rs>, hat nach der ersten Lectüre des Stückes keine Bedenken gegen dessen Aufführbarkeit erhoben, vielmehr eine vorläufige Rollenbesetzung eigenhändig in das Manuscript eingetragen und einige ihm nöthig erscheinende Striche angebracht.</p>
             <p part="N">Bei einer bald darauf erfolgten Begegnung dankte Herr Director <rs type="person" ref="#pmb12671">Schlenther</rs> dem Verfasser mündlich für die Uebersendung des Stückes, besprach einige Besetzungsfragen, doch nahm er auch in dieser rein privaten Unterredung keinen Anlaß, ein Bedenken gegen die Aufführbarkeit des Stückes am <rs type="place" ref="#pmb14">Burgtheater</rs> zu äußern.</p>
@@ -624,7 +629,17 @@
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31345</idno>
             <note type="work_kind">Protestschreiben</note>
          </bibl>
-         <error type="bibl">29414</error>
+         <bibl xml:id="pmb41321">
+            <title>Neues Wiener Tagblatt</title>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Neues_Wiener_Tagblatt</idno>
+            <note type="uri_worklink">http://anno.onb.ac.at/cgi-content/anno?aid=nwg</note>
+            <title type="namensvariante">Neues Wiener Abendblatt</title>
+            <date>1867  – 1945</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/41321/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41321</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41321</idno>
+            <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
+         </bibl>
       </listBibl>
       <listPlace>
          <place xml:id="pmb14">
@@ -738,5 +753,128 @@
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
          </place>
       </listPlace>
+      <listOrg>
+         <org xml:id="pmb29351">
+            <orgName>Neue Freie Presse</orgName>
+            <idno type="URL" subtype="">http://anno.onb.ac.at/info/nfp_info.htm</idno>
+            <desc type="entity_type">Tageszeitungsredaktion</desc>
+            <desc type="entity_type_id">972</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb50">Wien</placeName>
+               <geo>48,2066 16,37341</geo>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb716">Fichtegasse</placeName>
+               <geo>48,203009170069 16,375663258442</geo>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Fichtegasse</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb716</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/716</idno>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb63189">Schubertring</placeName>
+               <geo>48,20281 16,37602</geo>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63189/</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29351</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29351</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29351</idno>
+            <note type="apis_dates">
+               <date>1864-09-01  – 1939-02-01</date>
+            </note>
+         </org>
+         <org xml:id="pmb29421">
+            <orgName>Österreichische Volks-Zeitung</orgName>
+            <desc type="entity_type">Tageszeitungsredaktion</desc>
+            <desc type="entity_type_id">972</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb50">Wien</placeName>
+               <geo>48,2066 16,37341</geo>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29421</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29421</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29421</idno>
+         </org>
+         <org xml:id="pmb29644">
+            <orgName>Arbeiter-Zeitung</orgName>
+            <idno type="URL" subtype="">http://anno.onb.ac.at/info/aze_info.htm</idno>
+            <orgName type="legacy-name-merge">Arbeiter-Zeitung (Brünn)</orgName>
+            <orgName type="legacy-name-merge">Arbeiter-Zeitung (Paris)</orgName>
+            <desc type="entity_type">Tageszeitungsredaktion</desc>
+            <desc type="entity_type_id">972</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb50">Wien</placeName>
+               <geo>48,2066 16,37341</geo>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb182">Paris</placeName>
+               <geo>48,85341 2,3488</geo>
+               <idno type="URL" subtype="geonames">http://sws.geonames.org/2988507/</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb182</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4044660-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/182</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb182</idno>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb833">Brünn</placeName>
+               <geo>49,19522 16,60796</geo>
+               <idno type="URL" subtype="geonames">http://sws.geonames.org/3078610/</idno>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q14960</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb833</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/833</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb833</idno>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb302">Mariahilferstraße</placeName>
+               <geo>48,2007 16,3574</geo>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Mariahilferstra%C3%9Fe</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb302</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/302</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb302</idno>
+            </location>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37261/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37262/</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29644</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/37261</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/37262</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29644</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29644</idno>
+            <note type="apis_dates">
+               <date>1889-07-12  – 1991-10-31</date>
+            </note>
+         </org>
+      </listOrg>
    </back>
 </TEI>

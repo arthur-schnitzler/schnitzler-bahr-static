@@ -10,14 +10,15 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hermann Bahr und Anna Bahr-Mildenburg an Arthur Schnitzler, 25. 8. 1909</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
-            <author ref="pmb10818">Bahr-Mildenburg, Anna</author>
+            <title type="iso-date">1909-08-25</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
+            <author ref="#pmb10818">Bahr-Mildenburg, Anna</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -32,8 +33,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -49,18 +50,18 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
-                  <persName ref="pmb10818">Bahr-Mildenburg, Anna</persName>
+               <sender>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
+                  <persName ref="#pmb10818">Bahr-Mildenburg, Anna</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <addressee>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb134">Zell am Ziller</placeName>
+                  <placeName ref="#pmb134">Zell am Ziller</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1909-08-25" n="01">25. 8. 1909</date>
@@ -77,12 +78,12 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<quote>Gruss von <placeName ref="pmb134">Zell im Zillerthal!</placeName>
-                           </quote>«, als Beilage zu einem Brief von <persName ref="pmb2173">Olga</persName> an Schnitzler übermittelt, in ihrer Hand in Tinte ergänzt: »<quote>
+                        <p>eh. Bildpostkarte, Motiv: »<quote>Gruss von <placeName ref="#pmb134">Zell im Zillerthal!</placeName>
+                           </quote>«, als Beilage zu einem Brief von <persName ref="#pmb2173">Olga</persName> an Schnitzler übermittelt, in ihrer Hand in Tinte ergänzt: »<quote>
                               <hi rend="latintype">Bevor ich den Brief schliesse, kommt diese Karte!</hi>
                            </quote>«, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                         <stamp n="1">
-                           <placeName ref="pmb134">Zell am Ziller</placeName>
+                           <placeName ref="#pmb134">Zell am Ziller</placeName>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -126,7 +127,10 @@
             </opener>
             <p>Dich und Deine liebe <rs type="person" subtype="implied" ref="#pmb2173">Frau</rs> grüßen herzlichst</p>
             <closer>
-               <signed>Hermann und <handShift scribe="pmb10818"/>Anna <anchor type="commentary" xml:id="KL320-1">Bahr-Mildenburg</anchor>
+               <signed>Hermann und <handShift scribe="pmb10818"/>Anna <anchor type="commentary" xml:id="KL320-1"/>Bahr-Mildenburg<note type="commentary" xml:id="KL320-1h">
+                     <p>Die Hochzeit, nach der sie den Doppelnamen führte, hatte am <date when="1909-08-22" >22. 8. 1909</date> in <rs type="place" ref="#pmb269">Aigen</rs> (heute: Stadtteil
+               von <rs type="place" ref="#pmb30">Salzburg</rs>) stattgefunden.</p>
+                  </note>
                </signed>
             </closer>
          </div>
@@ -141,7 +145,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -150,7 +154,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -158,8 +162,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -176,7 +180,7 @@
             <persName type="geburtsname_nachname">von Mildenburg</persName>
             <birth>
                <date when="1872-11-29">29.11.1872</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -185,7 +189,7 @@
             </birth>
             <death>
                <date when="1947-01-27">27.01.1947</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -193,7 +197,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13376</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118646370</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10818</idno>
@@ -207,7 +211,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -216,7 +220,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -224,8 +228,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -242,7 +246,7 @@
             <persName type="legacy-name-merge">Schnitzler, Olga</persName>
             <birth>
                <date when="1882-01-17">17.01.1882</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -251,7 +255,7 @@
             </birth>
             <death>
                <date when="1970-01-13">13.01.1970</date>
-               <settlement ref="pmb885">
+               <settlement ref="#pmb885">
                   <placeName type="pref">Lugano</placeName>
                   <location>
                      <geo>46,01008 8,96004</geo>
@@ -259,8 +263,8 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
@@ -300,7 +304,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -323,11 +327,11 @@
                <geo>48,23333 16,31667</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb243">Sommerhaidenweg</placeName>
+               <placeName ref="#pmb243">Sommerhaidenweg</placeName>
                <geo>48,248935842869 16,296768550115</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2762091/</idno>
@@ -344,7 +348,7 @@
                <geo>48,219883621255 16,25565018043</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb68">XVIII., Währing</placeName>
+               <placeName ref="#pmb68">XVIII., Währing</placeName>
                <geo>48,23333 16,31667</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Spöttelgasse_(18)</idno>

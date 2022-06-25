@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Gerty von Hofmannsthal an Hermann Bahr, 20. 8. 1904</title>
-            <author ref="pmb2292">Hofmannsthal, Gerty von</author>
+            <title type="iso-date">1904-08-20</title>
+            <author ref="#pmb2292">Hofmannsthal, Gerty von</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2292">Hofmannsthal, Gerty von</persName>
+               <sender>
+                  <persName ref="#pmb2292">Hofmannsthal, Gerty von</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb415">Bad Aussee</placeName>
+                  <placeName ref="#pmb415">Bad Aussee</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1904-08-20" n="01">20. 8. 1904</date>
@@ -68,9 +69,9 @@
             <listBibl>
                <biblStruct corresp="HvHHB">
                   <monogr>
-                     <author ref="pmb11740">Hofmannsthal, Hugo von</author>
-                     <author ref="pmb2292">Hofmannsthal, Gerty von</author>
-                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+                     <author ref="#pmb2292">Hofmannsthal, Gerty von</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
                      <title level="m">Briefwechsel 1891–1934</title>
                      <editor>Hg. und kommentiert von Elsbeth Dangel-Pelloquin</editor>
                      <imprint>
@@ -102,9 +103,14 @@
             <p>Ich fahre fast sicher Donnerstag den 25ten mit den <rs type="person" subtype="implied" ref="#pmb3220 #pmb3244">Kindern</rs> auf ein paar Tage nach <rs type="place" ref="#pmb173">Rodaun</rs> um die Kinder zu installieren und gedenke hauptsächlich die Zeit dazu zu benützen um mit Ihnen wieder einmal Pläne für die nächste Zeit zu machen Sie müssen aber auch brav und nachgiebig sein! </p>
             <p>Also: ich möchte mit den <rs type="person" ref="#pmb2121 #pmb2173">Schnitzler’s</rs>
                <space unit="chars" quantity="1"/>
-               <add place="above">(die auch <anchor type="commentary" xml:id="KL492-1">
-                     <rs type="place" subtype="implied" ref="#pmb415">hierher</rs>
-                  </anchor> wollen)</add> wieder hierher zurück reisen in die Gegend am liebsten möchten wir an den <geogName type="lake" ref="pmb611">Wolfgangsee</geogName>. Wie wär’s wenn Sie da <anchor type="commentary" xml:id="KL492-2">mitthun</anchor> thäten<supplied>?</supplied>
+               <add place="above">(die auch <anchor type="commentary" xml:id="KL492-1"/>
+                  <rs type="place" subtype="implied" ref="#pmb415">hierher</rs>
+                  <note type="commentary" xml:id="KL492-1h">
+                     <p>
+                        <rs type="place" ref="#pmb415">Aussee</rs>.</p>
+                  </note> wollen)</add> wieder hierher zurück reisen in die Gegend am liebsten möchten wir an den <geogName type="lake" ref="#pmb611">Wolfgangsee</geogName>. Wie wär’s wenn Sie da <anchor type="commentary" xml:id="KL492-2"/>mitthun<note type="commentary" xml:id="KL492-2h">
+                  <p>Dazu kam es nicht.</p>
+               </note> thäten<supplied>?</supplied>
             </p>
             <p>
                <gap reason="outOfScope"/>
@@ -125,7 +131,7 @@
             <persName type="legacy-name-merge">Hofmannsthal, Gertrude von</persName>
             <birth>
                <date when="1880-03-16">16.03.1880</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -134,7 +140,7 @@
             </birth>
             <death>
                <date when="1959-11-09">09.11.1959</date>
-               <settlement ref="pmb46885">
+               <settlement ref="#pmb46885">
                   <placeName type="pref">Paddington</placeName>
                   <location>
                      <geo>51,51558 -0,1763</geo>
@@ -155,7 +161,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -164,7 +170,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -172,8 +178,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -191,7 +197,7 @@
             <persName type="namensvariante">Hofmannsthal, Hugo</persName>
             <birth>
                <date when="1874-02-01">01.02.1874</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -200,7 +206,7 @@
             </birth>
             <death>
                <date when="1929-07-15">15.07.1929</date>
-               <settlement ref="pmb173">
+               <settlement ref="#pmb173">
                   <placeName type="pref">Rodaun</placeName>
                   <location>
                      <geo>48,132793312328 16,256152195922</geo>
@@ -208,7 +214,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
@@ -226,7 +232,7 @@
             <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Christiane_Zimmer</persName>
             <birth>
                <date when="1902-05-14">14.05.1902</date>
-               <settlement ref="pmb173">
+               <settlement ref="#pmb173">
                   <placeName type="pref">Rodaun</placeName>
                   <location>
                      <geo>48,132793312328 16,256152195922</geo>
@@ -235,7 +241,7 @@
             </birth>
             <death>
                <date when="1987-01-05">05.01.1987</date>
-               <settlement ref="pmb44053">
+               <settlement ref="#pmb44053">
                   <placeName type="pref">New York City</placeName>
                   <location>
                      <geo>40,71427 -74,00597</geo>
@@ -256,7 +262,7 @@
             </persName>
             <birth>
                <date when="1903-10-20">20.10.1903</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -265,7 +271,7 @@
             </birth>
             <death>
                <date when="1929-07-13">13.07.1929</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -286,7 +292,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -295,7 +301,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -303,8 +309,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -321,7 +327,7 @@
             <persName type="legacy-name-merge">Schnitzler, Olga</persName>
             <birth>
                <date when="1882-01-17">17.01.1882</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -330,7 +336,7 @@
             </birth>
             <death>
                <date when="1970-01-13">13.01.1970</date>
-               <settlement ref="pmb885">
+               <settlement ref="#pmb885">
                   <placeName type="pref">Lugano</placeName>
                   <location>
                      <geo>46,01008 8,96004</geo>
@@ -338,8 +344,8 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
@@ -359,7 +365,7 @@
                <geo>47,60998 13,78243</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb17">Steiermark</placeName>
+               <placeName ref="#pmb17">Steiermark</placeName>
                <geo>47,38 15,7925</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2782070/</idno>
@@ -387,7 +393,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -412,7 +418,7 @@
                <geo>48,132793312328 16,256152195922</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb73">XXIII., Liesing</placeName>
+               <placeName ref="#pmb73">XXIII., Liesing</placeName>
                <geo>48,13333 16,3</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Rodaun</idno>

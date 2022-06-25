@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler an Hermann Bahr, 19. 4. 1901</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1901-04-19</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <sender>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1901-04-19" n="01">19. 4. 1901</date>
@@ -86,7 +87,7 @@
                      <date when="1901-04-19">19. 4. 1901</date>
                   </analytic>
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint>
@@ -124,11 +125,16 @@
             <opener>
                <salute>lieber Hermann,</salute>
             </opener>
-            <p>die Vorstellung der <rs type="place" ref="#pmb2">Schauspielschule</rs> von der ich dir neulich gesprochen findet Sonntag den <date>28. April</date> statt; u. das Fräulein <rs type="person" ref="#pmb2173">Gussmann</rs> wird nicht die <anchor type="commentary" xml:id="KL035-2">
-                  <rs type="work" subtype="implied" ref="#pmb29955">Rebecca</rs>
-               </anchor> sondern die <anchor type="commentary" xml:id="KL035-1">
-                  <rs type="work" subtype="implied" ref="#pmb29953">Maria Magdalena</rs>
-               </anchor> spielen, was vielleicht noch interessanter sein dürfte. Wenn du also Zeit<pb/> und Laune hast, möcht ich dich bitten zu kommen. Den Sitz erhältst du jedenfalls zugesandt.</p>
+            <p>die Vorstellung der <rs type="place" ref="#pmb2">Schauspielschule</rs> von der ich dir neulich gesprochen findet Sonntag den <date>28. April</date> statt; u. das Fräulein <rs type="person" ref="#pmb2173">Gussmann</rs> wird nicht die <anchor type="commentary" xml:id="KL035-2"/>
+               <rs type="work" subtype="implied" ref="#pmb29955">Rebecca</rs>
+               <note type="commentary" xml:id="KL035-2h">
+                  <p>Figur aus <rs type="work" ref="#pmb29955">Rosmersholm</rs> von <rs type="person" ref="#pmb11798">Ibsen</rs>.</p>
+               </note> sondern die <anchor type="commentary" xml:id="KL035-1"/>
+               <rs type="work" subtype="implied" ref="#pmb29953">Maria Magdalena</rs>
+               <note type="commentary" xml:id="KL035-1h">
+                  <p>Die Rolle der Protagonistin aus <rs type="person" ref="#pmb2404">Hebbel</rs>s <rs type="work" ref="#pmb29953">Maria Magdalena</rs> war von <rs type="person" ref="#pmb2173">Olga Gussmann</rs> ursprünglich ausgesucht worden, zwischenzeitlich
+               aber untersagt gewesen (<bibl >vgl. A. S. <rs type="work">B</rs> I,402</bibl>).</p>
+               </note> spielen, was vielleicht noch interessanter sein dürfte. Wenn du also Zeit<pb/> und Laune hast, möcht ich dich bitten zu kommen. Den Sitz erhältst du jedenfalls zugesandt.</p>
             <closer>Herzlich grüßend dein<lb/>
                <signed>Arthur Schnitzler</signed>
             </closer>
@@ -150,7 +156,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -159,7 +165,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -167,8 +173,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -182,7 +188,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -191,7 +197,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -199,8 +205,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -218,7 +224,7 @@
             <persName type="legacy-name-merge">Schnitzler, Olga</persName>
             <birth>
                <date when="1882-01-17">17.01.1882</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -227,7 +233,7 @@
             </birth>
             <death>
                <date when="1970-01-13">13.01.1970</date>
-               <settlement ref="pmb885">
+               <settlement ref="#pmb885">
                   <placeName type="pref">Lugano</placeName>
                   <location>
                      <geo>46,01008 8,96004</geo>
@@ -235,8 +241,8 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
@@ -247,7 +253,7 @@
       <listBibl>
          <bibl xml:id="pmb29955">
             <title>Rosmersholm</title>
-            <author ref="pmbperson__11798" role="hat-geschaffen">Ibsen, Henrik</author>
+            <author ref="#pmbperson__11798" role="hat-geschaffen">Ibsen, Henrik</author>
             <date notBefore="1886-01-01" when="1886-07-02">1886</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29955</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29955</idno>
@@ -257,7 +263,7 @@
          </bibl>
          <bibl xml:id="pmb29953">
             <title>Maria Magdalena</title>
-            <author ref="pmbperson__2404" role="hat-geschaffen">Hebbel, Friedrich</author>
+            <author ref="#pmbperson__2404" role="hat-geschaffen">Hebbel, Friedrich</author>
             <date notBefore="1844-01-01" when="1844-07-01">1844</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29953</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29953</idno>
@@ -286,7 +292,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -310,7 +316,7 @@
                <geo>48,210333 16,37084</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Konservatorium_(der_Gesellschaft_der_Musikfreunde)</idno>

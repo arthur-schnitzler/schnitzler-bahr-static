@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1. 1. 1892</title>
-            <author ref="pmb11740">Hofmannsthal, Hugo von</author>
+            <title type="iso-date">1892-01-01</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+               <sender>
+                  <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <addressee>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1892-01-01" n="01">1. 1. 1892</date>
@@ -79,7 +80,7 @@
                               <date>1/1 92</date>
                            </quote>«, von unbek. Hand auf der Rückseite der Adressseite: »<quote>14.05 / 7.02 / 6.96 / 7.00 / 13.60</quote>«.</p>
                         <stamp n="1">
-                           <placeName ref="pmb53">Wien 3/3</placeName>
+                           <placeName ref="#pmb53">Wien 3/3</placeName>
                            <date>1. 1. 92</date>
                            <time>5–6 N</time>
                         </stamp>
@@ -90,8 +91,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author ref="pmb11740">Hofmannsthal, Hugo</author>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -138,9 +139,17 @@
                <salute>Lieber Freund!</salute>
             </opener>
             <p>
-               <rs type="person" ref="#pmb2425">Dörmann</rs> will uns sein neues <anchor type="commentary" xml:id="KL409-1">
-                  <rs type="work" subtype="implied" ref="#pmb30171">Buch</rs>
-               </anchor> vorlesen und hat mich gebeten, Sie einzuladen.</p>
+               <rs type="person" ref="#pmb2425">Dörmann</rs> will uns sein neues <anchor type="commentary" xml:id="KL409-1"/>
+               <rs type="work" subtype="implied" ref="#pmb30171">Buch</rs>
+               <note type="commentary" xml:id="KL409-1h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb2425">Felix Dörmann</rs>: <rs type="work" ref="#pmb30171">Sensationen</rs>. Wien: <rs type="org">Verlag von Leopold
+                     Weiss</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1892</date>
+                     </bibl>.</p>
+               </note> vorlesen und hat mich gebeten, Sie einzuladen.</p>
             <p>Wenn Sie also nichts besseres vorhaben, kommen Sie morgen Samstag, <hi rend="underline" n="1">½ 8</hi> Uhr (pünktlich) <rs type="org" ref="#pmb29778">Gewerbeverein</rs>, <rs type="place" ref="#pmb564">Eschenbachgasse</rs>, 3 Stock, im Secretariat. Es kommen <rs type="person" ref="#pmb2167">Salten</rs>, <rs type="person" ref="#pmb10815">Bahr</rs>, Sie und ich. Wenn Sie nicht können, sagen Sie bitte mir pneumatisch ab. Ich war heute bei dem Leichenbegängnis von <rs type="person" ref="#pmb10863">Richard</rs>s <rs type="person" subtype="implied" ref="#pmb28533">Mutter</rs>. Soll man ihn besuchen? </p>
             <closer>Herzlichst<lb/>
                <signed>Loris</signed>
@@ -160,7 +169,7 @@
             <persName type="namensvariante">Hofmannsthal, Hugo</persName>
             <birth>
                <date when="1874-02-01">01.02.1874</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -169,7 +178,7 @@
             </birth>
             <death>
                <date when="1929-07-15">15.07.1929</date>
-               <settlement ref="pmb173">
+               <settlement ref="#pmb173">
                   <placeName type="pref">Rodaun</placeName>
                   <location>
                      <geo>48,132793312328 16,256152195922</geo>
@@ -177,7 +186,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
@@ -191,7 +200,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -200,7 +209,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -208,8 +217,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -224,7 +233,7 @@
             <persName type="geburtsname_nachname">Biedermann</persName>
             <birth>
                <date when="1870-05-29">29.05.1870</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -233,7 +242,7 @@
             </birth>
             <death>
                <date when="1928-10-26">26.10.1928</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -241,7 +250,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119020874</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14472</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2425</idno>
@@ -259,7 +268,7 @@
             <persName type="legacy-name-merge">Salzmann, Siegmund</persName>
             <birth>
                <date when="1869-09-06">06.09.1869</date>
-               <settlement ref="pmb43471">
+               <settlement ref="#pmb43471">
                   <placeName type="pref">Budapest</placeName>
                   <location>
                      <geo>47,49835 19,04045</geo>
@@ -268,7 +277,7 @@
             </birth>
             <death>
                <date when="1945-10-08">08.10.1945</date>
-               <settlement ref="pmb484">
+               <settlement ref="#pmb484">
                   <placeName type="pref">Zürich</placeName>
                   <location>
                      <geo>47,37174 8,54226</geo>
@@ -276,8 +285,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840819</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2167</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2167</idno>
@@ -291,7 +300,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -300,7 +309,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -308,8 +317,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -324,7 +333,7 @@
             </persName>
             <birth>
                <date when="1866-07-11">11.07.1866</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -333,7 +342,7 @@
             </birth>
             <death>
                <date when="1945-09-26">26.09.1945</date>
-               <settlement ref="pmb44053">
+               <settlement ref="#pmb44053">
                   <placeName type="pref">New York City</placeName>
                   <location>
                      <geo>40,71427 -74,00597</geo>
@@ -341,7 +350,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13551</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118654756</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10863</idno>
@@ -360,7 +369,7 @@
             </birth>
             <death>
                <date when="1891-12-30">30.12.1891</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -376,7 +385,7 @@
       <listBibl>
          <bibl xml:id="pmb30171">
             <title>Sensationen</title>
-            <author ref="pmbperson__2425" role="hat-geschaffen">Dörmann, Felix</author>
+            <author ref="#pmbperson__2425" role="hat-geschaffen">Dörmann, Felix</author>
             <date notBefore="1892-01-01" when="1892-07-01">1892</date>
             <idno type="URL" subtype="">http://haab-digital.klassik-stiftung.de/viewer/resolver?identifier=3978&amp;field=MD_DIGIMOID</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30171</idno>
@@ -406,7 +415,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -434,15 +443,15 @@
                <geo>48,19811 16,39482</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb1050">Amerikanische Gesandtschaft</placeName>
+               <placeName ref="#pmb1050">Amerikanische Gesandtschaft</placeName>
                <geo>48,19913 16,38117</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2773040/</idno>
@@ -463,11 +472,11 @@
                <geo>48,201874800905 16,371985203093</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb112">Ringstraße</placeName>
+               <placeName ref="#pmb112">Ringstraße</placeName>
                <geo>48,202432234197 16,371296264238</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:K%C3%A4rntner_Ring</idno>
@@ -483,7 +492,7 @@
                <geo>48,202671930842 16,363603741066</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Eschenbachgasse</idno>
@@ -499,7 +508,7 @@
             <desc type="entity_type">Interessensvertretung</desc>
             <desc type="entity_type_id">999</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>

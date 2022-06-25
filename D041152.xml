@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Tagebuch von Arthur Schnitzler, 24. 9. 1895</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1895-09-24</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -50,7 +51,7 @@
             <listBibl>
                <biblStruct corresp="ASTB">
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Tagebuch 1893–1902</title>
                      <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
                      <imprint>
@@ -76,9 +77,11 @@
       <body>
          <div type="writingSession" n="1">
             <p>
-               <date when="1895-09-24" n="1">24/9</date> Nm. <rs type="person" ref="#pmb2378">Mz. Rh.</rs> bei mir.– Abds. <rs type="person" ref="#pmb12152">Mackay</rs> bei mir; mit ihm zu <rs type="person" ref="#pmb10815">Bahr</rs> (<rs type="place" ref="#pmb561">Redaction</rs>). Schimpft dumm über <rs type="person" ref="#pmb12809">Sonnenthal</rs>, tadelt die Besetzung des »<anchor type="commentary" xml:id="KD152-1">
-                  <rs type="work" subtype="implied" ref="#pmb29917">Herrn</rs>
-               </anchor>« mit <rs type="person" ref="#pmb12265">Mitterwurzer</rs>; da das Publikum ihn auch im 2. und 3. Akt verlangen und verstimmt sein werde. Mit <rs type="person" ref="#pmb12152">Mackay</rs> in »<rs type="place" ref="#pmb422">Venedig</rs>«, dann <rs type="place" ref="#pmb426">Nordbahn</rs>.– Dort <rs type="person" ref="#pmb11527">Steph. Grossmann</rs>, Anarchist. Gespräch mit diesem auf dem Heimweg. Unklarer Kopf. Ich fragte ihn: Heißen Sie die an. Attentate gut? 2.) In welcher Weise nützen sie? Er: Indem sie das Heroische im Menschen zur Entwicklung bringen. Ich: Dieses Heroische könnte in nutzbringenderer Weise zur Entwicklung gebracht werden (Colonisation etc.) und abgesehen davon zeigen die bisherigen Attentäter meistens Merkmale der Degenerirten, wie überhaupt die Menschheit vom Heroischen kommt und nicht dahin geht. Er: Sie stehn mit verschränkten Armen, wollen sich nicht überzeugen lassen. Ich sprach für Anschauungen, gegen Ueberzeugungen.–</p>
+               <date when="1895-09-24" n="1">24/9</date> Nm. <rs type="person" ref="#pmb2378">Mz. Rh.</rs> bei mir.– Abds. <rs type="person" ref="#pmb12152">Mackay</rs> bei mir; mit ihm zu <rs type="person" ref="#pmb10815">Bahr</rs> (<rs type="place" ref="#pmb561">Redaction</rs>). Schimpft dumm über <rs type="person" ref="#pmb12809">Sonnenthal</rs>, tadelt die Besetzung des »<anchor type="commentary" xml:id="KD152-1"/>
+               <rs type="work" subtype="implied" ref="#pmb29917">Herrn</rs>
+               <note type="commentary" xml:id="KD152-1h">
+                  <p>Figur des betrogenen Ehemanns aus <rs type="work" ref="#pmb29917">Liebelei</rs>.</p>
+               </note>« mit <rs type="person" ref="#pmb12265">Mitterwurzer</rs>; da das Publikum ihn auch im 2. und 3. Akt verlangen und verstimmt sein werde. Mit <rs type="person" ref="#pmb12152">Mackay</rs> in »<rs type="place" ref="#pmb422">Venedig</rs>«, dann <rs type="place" ref="#pmb426">Nordbahn</rs>.– Dort <rs type="person" ref="#pmb11527">Steph. Grossmann</rs>, Anarchist. Gespräch mit diesem auf dem Heimweg. Unklarer Kopf. Ich fragte ihn: Heißen Sie die an. Attentate gut? 2.) In welcher Weise nützen sie? Er: Indem sie das Heroische im Menschen zur Entwicklung bringen. Ich: Dieses Heroische könnte in nutzbringenderer Weise zur Entwicklung gebracht werden (Colonisation etc.) und abgesehen davon zeigen die bisherigen Attentäter meistens Merkmale der Degenerirten, wie überhaupt die Menschheit vom Heroischen kommt und nicht dahin geht. Er: Sie stehn mit verschränkten Armen, wollen sich nicht überzeugen lassen. Ich sprach für Anschauungen, gegen Ueberzeugungen.–</p>
             <p>Abd. »<rs type="work" ref="#pmb30403">Paracelsus</rs>« gemodelt, »<rs type="work" ref="#pmb30075">Der Weise</rs>« durchgenommen.</p>
          </div>
       </body>
@@ -92,7 +95,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -101,7 +104,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -109,8 +112,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -124,7 +127,7 @@
             </persName>
             <birth>
                <date when="1871-03-13">13.03.1871</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -133,7 +136,7 @@
             </birth>
             <death>
                <date when="1899-03-18">18.03.1899</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -141,7 +144,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb148">Gesangspädagoge/Gesangspädagogin</occupation>
+            <occupation ref="#pmb148">Gesangspädagoge/Gesangspädagogin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/123368790</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19150</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2378</idno>
@@ -155,7 +158,7 @@
             </persName>
             <birth>
                <date when="1864-02-06">06.02.1864</date>
-               <settlement ref="pmb64730">
+               <settlement ref="#pmb64730">
                   <placeName type="pref">Greenock</placeName>
                   <location>
                      <geo>55,94838 -4,76121</geo>
@@ -164,7 +167,7 @@
             </birth>
             <death>
                <date when="1933-05-21">21.05.1933</date>
-               <settlement ref="pmb9925">
+               <settlement ref="#pmb9925">
                   <placeName type="pref">Charlottenburg</placeName>
                   <location>
                      <geo>52,516667 13,3</geo>
@@ -172,7 +175,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17771</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118575856</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12152</idno>
@@ -187,7 +190,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -196,7 +199,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -204,8 +207,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -220,7 +223,7 @@
             </persName>
             <birth>
                <date when="1834-12-21">21.12.1834</date>
-               <settlement ref="pmb43471">
+               <settlement ref="#pmb43471">
                   <placeName type="pref">Budapest</placeName>
                   <location>
                      <geo>47,49835 19,04045</geo>
@@ -231,7 +234,7 @@
                <date when="1909-04-04">04.04.1909</date>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20204</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119343207</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12809</idno>
@@ -245,7 +248,7 @@
             </persName>
             <birth>
                <date when="1844-10-16">16.10.1844</date>
-               <settlement ref="pmb866">
+               <settlement ref="#pmb866">
                   <placeName type="pref">Dresden</placeName>
                   <location>
                      <geo>51,0833 13,7666</geo>
@@ -254,7 +257,7 @@
             </birth>
             <death>
                <date when="1897-02-13">13.02.1897</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -262,7 +265,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18190</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117064858</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12265</idno>
@@ -277,7 +280,7 @@
             <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Stefan_Gro%C3%9Fmann</persName>
             <birth>
                <date when="1875-05-19">19.05.1875</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -286,7 +289,7 @@
             </birth>
             <death>
                <date when="1935-01-03">03.01.1935</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -294,8 +297,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15691</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118542664</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11527</idno>
@@ -307,7 +310,7 @@
       <listBibl>
          <bibl xml:id="pmb29917">
             <title>Liebelei. Schauspiel in drei Akten</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1895-10-09">9.10.1895</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1823758</idno>
@@ -324,7 +327,7 @@
             <title>Paracelsus</title>
             <note type="bibliografische_angabe">Cosmopolis, Jg. 3, Bd. 12, Nr. 35, November 1898</note>
             <note type="uri_worklink">https://www.degruyter.com/document/doi/10.1515/9783110712247/html</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1898-11-01">01.11.1898</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.30</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1757723</idno>
@@ -338,7 +341,7 @@
          <bibl xml:id="pmb30075">
             <title>Die Frau des Weisen. Erzählung</title>
             <note type="bibliografische_angabe">Die Zeit, Bd. 10, Nr. 118–120, 2.–16. 1. 1897</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date>1897-01-02  – 1897-01-16</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.23</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1212600</idno>
@@ -358,7 +361,7 @@
                <geo>48,21637 16,35826</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb59">IX., Alsergrund</placeName>
+               <placeName ref="#pmb59">IX., Alsergrund</placeName>
                <geo>48,22387 16,35641</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb561</idno>
@@ -374,11 +377,11 @@
                <geo>48,21699 16,39467</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb8">Prater</placeName>
+               <placeName ref="#pmb8">Prater</placeName>
                <geo>48,194558 16,430054</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb52">II., Leopoldstadt</placeName>
+               <placeName ref="#pmb52">II., Leopoldstadt</placeName>
                <geo>48,21667 16,4</geo>
             </location>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q2512799</idno>
@@ -398,7 +401,7 @@
                <geo>48,229100570727 16,388608096065</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb52">II., Leopoldstadt</placeName>
+               <placeName ref="#pmb52">II., Leopoldstadt</placeName>
                <geo>48,21667 16,4</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Nordbahnhof</idno>

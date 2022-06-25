@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Cesare Levi an Arthur Schnitzler, 5. 10. 1910</title>
-            <author ref="pmb2242">Levi, Cesare</author>
+            <title type="iso-date">1910-10-05</title>
+            <author ref="#pmb2242">Levi, Cesare</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2242">Levi, Cesare</persName>
+               <sender>
+                  <persName ref="#pmb2242">Levi, Cesare</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <addressee>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb263">Florenz</placeName>
+                  <placeName ref="#pmb263">Florenz</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1910-10-05" n="01">5. 10. 1910</date>
@@ -76,7 +77,7 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Brief, 1 Bl., 4 S., Lateinschrift, gedruckter Kopf: »<quote>
-                              <placeName ref="pmb472">Via S. Ambrogio</placeName> N.8</quote>«</p>
+                              <placeName ref="#pmb472">Via S. Ambrogio</placeName> N.8</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -105,7 +106,10 @@
                   <hi rend="underline" n="1">Comtesse</hi>
                   <space unit="chars" quantity="1"/>
                   <hi rend="underline" n="1">Mizzi</hi>
-               </rs> gelesen, und ich bin sehr froh Ihnen mitzutheilen dass ich davon einen sehr günstigen Eindruck erhalten habe. Wie wir einverstanden gewesen waren, während unseres <anchor type="commentary" xml:id="KL367-1">Zusammentref<supplied>f</supplied>ens</anchor> in Wien,<pb/> würde ich dasselbe sehr gerne übesetzen binnen sehr kurzen Zeit.</p>
+               </rs> gelesen, und ich bin sehr froh Ihnen mitzutheilen dass ich davon einen sehr günstigen Eindruck erhalten habe. Wie wir einverstanden gewesen waren, während unseres <anchor type="commentary" xml:id="KL367-1"/>Zusammentref<supplied>f</supplied>ens<note type="commentary" xml:id="KL367-1h">
+                  <p>Am <date when="1910-09-24" >24. 9. 1910</date> (<bibl >A. S. <rs type="work">Tb</rs>
+                     </bibl>).</p>
+               </note> in Wien,<pb/> würde ich dasselbe sehr gerne übesetzen binnen sehr kurzen Zeit.</p>
             <p>
                <rs type="work" ref="#pmb29933">
                   <hi rend="underline" n="1">Das</hi>
@@ -140,7 +144,7 @@
             <persName type="uri_wikipedia">https://it.wikipedia.org/wiki/Cesare_Levi</persName>
             <birth>
                <date when="1874-01-01">1874</date>
-               <settlement ref="pmb873">
+               <settlement ref="#pmb873">
                   <placeName type="pref">Triest</placeName>
                   <location>
                      <geo>45,66667 13,76667</geo>
@@ -149,7 +153,7 @@
             </birth>
             <death>
                <date when="1926-07-18">18.07.1926</date>
-               <settlement ref="pmb46965">
+               <settlement ref="#pmb46965">
                   <placeName type="pref">Sand in Taufers</placeName>
                   <location>
                      <geo>46,90844 11,96036</geo>
@@ -157,9 +161,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
-            <occupation ref="pmb127">Theaterkritiker/Theaterkritikerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb116">Übersetzer/Übersetzerin</occupation>
+            <occupation ref="#pmb127">Theaterkritiker/Theaterkritikerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1055141987</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17482</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2242</idno>
@@ -173,7 +177,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -182,7 +186,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -190,8 +194,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -205,7 +209,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -214,7 +218,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -222,8 +226,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -236,7 +240,7 @@
          <bibl xml:id="pmb29931">
             <title>Komtesse Mizzi oder Der Familientag</title>
             <note type="bibliografische_angabe">Neue Freie Presse, 19. 4. 1908</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1908-04-19">1908-04-19</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.25</idno>
             <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-komtesse-mizzi</idno>
@@ -250,7 +254,7 @@
          </bibl>
          <bibl xml:id="pmb29933">
             <title>Das Konzert. Lustspiel in drei Akten</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date notBefore="1909-01-01" when="1909-07-02">1909</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29933</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29933</idno>
@@ -261,7 +265,7 @@
          <bibl xml:id="pmb30033">
             <title>Anatols Hochzeitsmorgen</title>
             <note type="bibliografische_angabe">Moderne Dichtung, Jg. 1, Bd. 2, H. 1, 1. 7. 1890, S. 431–442</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1890-07-01">01.07.1890</date>
             <idno type="URL" subtype="theadok">https://theadok.at/work/30735</idno>
             <idno type="URL" subtype="digitalniknihovna">http://www.digitalniknihovna.cz/nkp/uuid/uuid:c75ecd10-39a7-11e7-97e2-005056825209</idno>
@@ -282,7 +286,7 @@
                <geo>43,77925 11,24626</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb40306">Italien</placeName>
+               <placeName ref="#pmb40306">Italien</placeName>
                <geo>42,83333 12,83333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/3176959/</idno>
@@ -312,7 +316,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -336,7 +340,7 @@
                <geo>43,772035481360284 11,266659445063475</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb263">Florenz</placeName>
+               <placeName ref="#pmb263">Florenz</placeName>
                <geo>43,77925 11,24626</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb472</idno>

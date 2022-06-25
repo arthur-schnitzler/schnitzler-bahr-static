@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Adele Sandrock an Hermann Bahr, [22. 4. 1894?]</title>
-            <author ref="pmb12618">Sandrock, Adele</author>
+            <title type="iso-date">1894-04-22</title>
+            <author ref="#pmb12618">Sandrock, Adele</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb12618">Sandrock, Adele</persName>
+               <sender>
+                  <persName ref="#pmb12618">Sandrock, Adele</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1894-04-22" n="1">[22. 4. 1894?]</date>
@@ -100,12 +101,16 @@
                   <date>Sonntag</date>.</dateline>
                <salute>Liebster Hermann.</salute>
             </opener>
-            <p>Kind – ich habe mir die Sache überlegt. Es wird doch wohl besser sein, wenn Du vorläufig noch Nichts erwähnst. Aber jedenfalls sage <anchor type="commentary" xml:id="KL601-1">
-                  <rs type="person" ref="#pmb11036">
-                     <rs type="person" ref="#pmb2161">
-                        <hi rend="latintype"/>B.</rs>
-                  </rs>
-               </anchor> Deine geradezu geniale Idee von der <hi rend="latintype">
+            <p>Kind – ich habe mir die Sache überlegt. Es wird doch wohl besser sein, wenn Du vorläufig noch Nichts erwähnst. Aber jedenfalls sage <anchor type="commentary" xml:id="KL601-1"/>
+               <rs type="person" ref="#pmb11036">
+                  <rs type="person" ref="#pmb2161">
+                     <hi rend="latintype"/>B.</rs>
+               </rs>
+               <note type="commentary" xml:id="KL601-1h">
+                  <p>Vermutlich <rs type="person" ref="#pmb2161">Bukovics</rs>, der Direktor des <rs type="place" ref="#pmb20">Deutschen Volkstheaters</rs>, bei dem sie engagiert war;
+               die Verhandlungen mit <rs type="person" ref="#pmb11036">Burckhard</rs> dürften erst
+               im Herbst desselben Jahres begonnen haben.</p>
+               </note> Deine geradezu geniale Idee von der <hi rend="latintype">
                   <rs subtype="local" type="work" ref="#pmb32500">Parisienne</rs>
                </hi>. Ich bin sicher Dich heute nicht zu seh’n in <rs type="place" ref="#pmb173">Rodaun</rs>, Du hast ja dem <rs type="person" ref="#pmb2121">Thuri</rs> abgeschrieben. Ach Hermann ich bin heute wieder einmal verzweifelt.</p>
             <closer>Tausend Grüsse<lb/>Dein treuer Freund<lb/>
@@ -124,7 +129,7 @@
             <persName type="rufname">Dilly</persName>
             <birth>
                <date when="1863-08-19">19.08.1863</date>
-               <settlement ref="pmb44303">
+               <settlement ref="#pmb44303">
                   <placeName type="pref">Rotterdam</placeName>
                   <location>
                      <geo>51,9225 4,47917</geo>
@@ -133,7 +138,7 @@
             </birth>
             <death>
                <date when="1937-08-30">30.08.1937</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -141,7 +146,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19564</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118605429</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12618</idno>
@@ -155,7 +160,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -164,7 +169,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -172,8 +177,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -188,7 +193,7 @@
             </persName>
             <birth>
                <date when="1854-07-14">14.07.1854</date>
-               <settlement ref="pmb61010">
+               <settlement ref="#pmb61010">
                   <placeName type="pref">Korneuburg</placeName>
                   <location>
                      <geo>48,35 16,33333</geo>
@@ -197,7 +202,7 @@
             </birth>
             <death>
                <date when="1912-03-16">16.03.1912</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -205,9 +210,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14065</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117161144</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11036</idno>
@@ -224,7 +229,7 @@
             <persName type="legacy-name-merge">Bukovics, Emerich von</persName>
             <birth>
                <date when="1844-02-28">28.02.1844</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -233,7 +238,7 @@
             </birth>
             <death>
                <date when="1905-07-04">04.07.1905</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -241,8 +246,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11715380X</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14056</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2161</idno>
@@ -256,7 +261,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -265,7 +270,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -273,8 +278,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -286,7 +291,7 @@
          <bibl xml:id="pmb32500">
             <title>La Parisienne</title>
             <title type="namensvariante">Die Pariserin</title>
-            <author ref="pmbperson__13897" role="hat-geschaffen">Becque, Henri</author>
+            <author ref="#pmbperson__13897" role="hat-geschaffen">Becque, Henri</author>
             <date notBefore="1885-01-01" when="1885-07-02">1885</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32500</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32500</idno>
@@ -314,7 +319,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -339,7 +344,7 @@
                <geo>48,132793312328 16,256152195922</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb73">XXIII., Liesing</placeName>
+               <placeName ref="#pmb73">XXIII., Liesing</placeName>
                <geo>48,13333 16,3</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Rodaun</idno>

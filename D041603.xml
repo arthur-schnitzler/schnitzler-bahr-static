@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Aufzeichnung von Hermann Bahr, 20. 3. 1930</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1930-03-20</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -57,7 +58,7 @@
                         <idno>HS VM 2552 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 174 Bl., S. 211.</p>
+                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="#pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 174 Bl., S. 211.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -78,16 +79,35 @@
       <body>
          <div type="writingSession" n="1">
             <p>
-               <date when="1930-03-20" n="01">20.</date> – K.– Regnet. – An <rs type="person" ref="#pmb4716">Paula Molden-Predradovic</rs> das <anchor type="commentary" xml:id="KD603-1">
-                  <rs type="work" ref="#pmb30361">Tagebuch vom 16. März</rs>
-               </anchor>, das von ihrem <rs type="person" subtype="implied" ref="#pmb4764">Ahnherrn</rs> handelt. – Diktiert Tagebuch <anchor type="commentary" xml:id="KD603-2">über <rs type="work" subtype="implied" ref="#pmb30409">
-                     <rs type="person" ref="#pmb4719">Clemenceau</rs>
-                  </rs>
-               </anchor> und <anchor type="commentary" xml:id="KD603-3">
-                  <rs type="work" subtype="implied" ref="#pmb30423">
-                     <rs type="work" ref="#pmb30263">Les Émigrés Russes en France</rs>
-                  </rs>
-               </anchor>. – <rs type="place" ref="#pmb707">Fronleichnamskapelle</rs>. – <rs type="person" ref="#pmb10818">Anna</rs> besser. Brief an <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> geht morgen ab. – Abendsandacht in <rs type="place" ref="#pmb711">Sankt Ludwig</rs>. – Es schneit u. regnet durcheinander. – Brief an Gräfin <rs type="person" ref="#pmb28777">Lucy Moy</rs>; Einladung absagend, wegen Erkrankung <rs type="person" ref="#pmb10818">Annas</rs>.</p>
+               <date when="1930-03-20" n="01">20.</date> – K.– Regnet. – An <rs type="person" ref="#pmb4716">Paula Molden-Predradovic</rs> das <anchor type="commentary" xml:id="KD603-1"/>
+               <rs type="work" ref="#pmb30361">Tagebuch vom 16. März</rs>
+               <note type="commentary" xml:id="KD603-1h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb30361">Tagebuch. 12. März</rs>. In: <rs type="org" ref="#pmb29320">Neues Wiener Journal</rs>, Jg. 38, Nr. 13045, <date >16. 3. 1930</date>,
+                  S. 16</bibl>.</p>
+               </note>, das von ihrem <rs type="person" subtype="implied" ref="#pmb4764">Ahnherrn</rs> handelt. – Diktiert Tagebuch <anchor type="commentary" xml:id="KD603-2"/>über <rs type="work" subtype="implied" ref="#pmb30409">
+                  <rs type="person" ref="#pmb4719">Clemenceau</rs>
+               </rs>
+               <note type="commentary" xml:id="KD603-2h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb30409">Tagebuch. 20. März</rs>. In: <rs type="org" ref="#pmb29320">Neues Wiener Journal</rs>, Jg. 38, Nr. 13059, <date >30. 3. 1930</date>,
+                  S. 14</bibl>.</p>
+               </note> und <anchor type="commentary" xml:id="KD603-3"/>
+               <rs type="work" subtype="implied" ref="#pmb30423">
+                  <rs type="work" ref="#pmb30263">Les Émigrés Russes en France</rs>
+               </rs>
+               <note type="commentary" xml:id="KD603-3h">
+                  <p>
+                     <bibl >
+                        <rs type="work" ref="#pmb30423">Tagebuch. 22. März</rs>, ebd., S. 14–15</bibl>
+               (über: <bibl >
+                        <rs type="person" ref="#pmb4780">Charles Ledré</rs>: <rs type="work" ref="#pmb30263">Les émigrès russes en France</rs>. Paris: <rs type="org">Édition Specs</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1930</date>
+                     </bibl>).</p>
+               </note>. – <rs type="place" ref="#pmb707">Fronleichnamskapelle</rs>. – <rs type="person" ref="#pmb10818">Anna</rs> besser. Brief an <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs> geht morgen ab. – Abendsandacht in <rs type="place" ref="#pmb711">Sankt Ludwig</rs>. – Es schneit u. regnet durcheinander. – Brief an Gräfin <rs type="person" ref="#pmb28777">Lucy Moy</rs>; Einladung absagend, wegen Erkrankung <rs type="person" ref="#pmb10818">Annas</rs>.</p>
          </div>
       </body>
    </text>
@@ -100,7 +120,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -109,7 +129,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -117,8 +137,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -135,7 +155,7 @@
             <persName type="geburtsname_nachname">von Mildenburg</persName>
             <birth>
                <date when="1872-11-29">29.11.1872</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -144,7 +164,7 @@
             </birth>
             <death>
                <date when="1947-01-27">27.01.1947</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -152,7 +172,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13376</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118646370</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10818</idno>
@@ -167,7 +187,7 @@
             <persName type="ehename">Molden</persName>
             <birth>
                <date when="1887-10-12">1887-10-12</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -176,7 +196,7 @@
             </birth>
             <death>
                <date when="1951-05-25">1951-05-25</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -184,7 +204,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119304619</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4716</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4716</idno>
@@ -196,13 +216,13 @@
             </persName>
             <birth>
                <date when="1818-01-01">1818</date>
-               <settlement ref="pmb4765">
+               <settlement ref="#pmb4765">
                   <placeName type="pref">Grabrovnica kraj Pitomače</placeName>
                </settlement>
             </birth>
             <death>
                <date when="1872-01-01">1872</date>
-               <settlement ref="pmb40112">
+               <settlement ref="#pmb40112">
                   <placeName type="pref">Pottenstein</placeName>
                   <location>
                      <geo>47,9582 16,0948</geo>
@@ -210,7 +230,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118596330</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4764</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4764</idno>
@@ -222,7 +242,7 @@
             </persName>
             <birth>
                <date when="1841-09-28">28.09.1841</date>
-               <settlement ref="pmb54231">
+               <settlement ref="#pmb54231">
                   <placeName type="pref">Mouilleron-en-Pareds</placeName>
                   <location>
                      <geo>46,67617 -0,84915</geo>
@@ -231,7 +251,7 @@
             </birth>
             <death>
                <date when="1929-11-24">24.11.1929</date>
-               <settlement ref="pmb182">
+               <settlement ref="#pmb182">
                   <placeName type="pref">Paris</placeName>
                   <location>
                      <geo>48,85341 2,3488</geo>
@@ -239,7 +259,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb95">Politiker/Politikerin</occupation>
+            <occupation ref="#pmb95">Politiker/Politikerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118676407</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14238</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4719</idno>
@@ -253,7 +273,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -262,7 +282,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -270,8 +290,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -286,7 +306,7 @@
             <persName type="geburtsname_nachname">von Radolin</persName>
             <birth>
                <date when="1872-06-21">1872-06-21</date>
-               <settlement ref="pmb60521">
+               <settlement ref="#pmb60521">
                   <placeName type="pref">Nancy</placeName>
                   <location>
                      <geo>48,68439 6,18496</geo>
@@ -295,7 +315,7 @@
             </birth>
             <death>
                <date when="1965-09-18">1965-09-18</date>
-               <settlement ref="pmb30">
+               <settlement ref="#pmb30">
                   <placeName type="pref">Salzburg</placeName>
                   <location>
                      <geo>47,80067 13,04532</geo>
@@ -311,7 +331,7 @@
          <bibl xml:id="pmb30361">
             <title>Tagebuch. 12. März [1930]</title>
             <note type="bibliografische_angabe">Neues Wiener Journal, 16. 3. 1930</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1930-03-16">16.03.1930</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30361</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30361</idno>
@@ -320,7 +340,7 @@
          <bibl xml:id="pmb30409">
             <title>Tagebuch. 20. März [1930]</title>
             <note type="bibliografische_angabe">Neues Wiener Journal, 30. 3. 1930</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1930-03-30">30.03.1930</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30409</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30409</idno>
@@ -329,7 +349,7 @@
          <bibl xml:id="pmb30423">
             <title>Tagebuch. 22. März [1930]</title>
             <note type="bibliografische_angabe">Neues Wiener Journal, 30. 3. 1930</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1930-03-30">30.03.1930</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30423</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30423</idno>
@@ -337,7 +357,7 @@
          </bibl>
          <bibl xml:id="pmb30263">
             <title>Les émigrés russes en France</title>
-            <author ref="pmbperson__4780" role="hat-geschaffen">Ledré, Charles</author>
+            <author ref="#pmbperson__4780" role="hat-geschaffen">Ledré, Charles</author>
             <date when="1930-01-01">1930</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30263</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30263</idno>
@@ -350,7 +370,7 @@
             <desc type="entity_type">Kirche (K.KRC)</desc>
             <desc type="entity_type_id">33</desc>
             <location type="located_in_place">
-               <placeName ref="pmb45258">München</placeName>
+               <placeName ref="#pmb45258">München</placeName>
                <geo>48,13743 11,57549</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb707</idno>
@@ -365,7 +385,7 @@
                <geo>48,148889 11,581389</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb45258">München</placeName>
+               <placeName ref="#pmb45258">München</placeName>
                <geo>48,13743 11,57549</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb711</idno>

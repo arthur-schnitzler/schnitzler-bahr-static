@@ -10,8 +10,9 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" ref="pmb30861">Hermann Bahr: Glückwunsch, Mai 1912</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title level="a" ref="#pmb30861">Hermann Bahr: Glückwunsch, Mai 1912</title>
+            <title type="iso-date">1912-05-01</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,11 +50,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="a" ref="pmb30861">Glückwunsch</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="#pmb30861">Glückwunsch</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="pmb29560">Der Merker</title>
+                     <title level="j" ref="#pmb41568">Der Merker</title>
                      <imprint>
                         <date when="1912-05">1. Mai-Heft 1912</date>
                      </imprint>
@@ -64,11 +65,11 @@
                </biblStruct>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="pmb30861">Glückwunsch an Arthur Schnitzler</title>
+                     <title level="a" ref="#pmb30861">Glückwunsch an Arthur Schnitzler</title>
                   </analytic>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="m" ref="pmb30859">Das Hermann-Bahr-Buch</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="m" ref="#pmb30859">Das Hermann-Bahr-Buch</title>
                      <imprint>
                         <pubPlace>Berlin</pubPlace>
                         <publisher>S. Fischer</publisher>
@@ -98,24 +99,52 @@
             <p part="N">Nimm dies, lieber Arthur, von mir auf, wie’s Dir gebracht wird: reinen Herzens!</p>
             <p part="N">Zwanzig Jahre leben wir jetzt an einander her, oft lief der eine wunderlich vom Wege querfeldein, doch nie so weit, daß wir uns aus den Augen kamen. Vielleicht weißt Du drum mehr als ich selbst von mir; und ich vielleicht von Dir. So gewähre, daß ich Dir sagen darf, was mit Dir ist: laß mich Dich Dir deuten! </p>
             <p part="N">
-               <anchor type="commentary" xml:id="KT029-4">Wahrheit spricht: werde was Du bist!</anchor> Welt spricht: Mir diene, mir! <rs type="place" ref="#pmb50">Wien</rs> spricht: nur nix übertreiben! Wer, in dieses Land gebannt, hatte je den Mut zu wählen? Wir sind hier vom Schlag der Menschen, denen der Meister <rs type="person" ref="#pmb4258">Seuse</rs> nachsagt, daß sie <anchor type="commentary" xml:id="KT029-3">
-                  <rs type="work" subtype="implied" ref="#pmb32524">wollen und wollen doch nicht</rs>
-               </anchor>. So gehts allen; nur merkt man es an anderen mehr als an sich. Und auch Du, mein <rs type="person" ref="#pmb2121">Arthur</rs>, hast zuweilen <rs type="place" ref="#pmb50">Wien</rs> erhört, auch Du hast Dich von Dir selbst, von der Entscheidung zu Dir selbst wegschmeicheln lassen! Dann schreibst Du die Stücke, die nicht von Dir sind, sondern vom <rs type="work" subtype="implied" ref="#pmb29935">Anatol</rs>. Denn, <rs type="person" ref="#pmb2121">Arthur</rs>, der <rs type="place" ref="#pmb50">Wien</rs>er in Dir ist <rs type="work" subtype="implied" ref="#pmb29935">Anatol</rs>. Den werden sie heute kränzen. Nimm den Kranz, heb Dir ihn gut auf, aber leg ihn weg! Leg ihn weg und laß ihn weg, dann aber geh getrost auf den Sechziger los. Den <rs type="work" subtype="implied" ref="#pmb29935">Anatol</rs> laß bei dem <rs type="place" ref="#pmb50">Wien</rs>er Kranz, er ist kein Begleiter zu dem, was Deiner harrt! Schöneres kann, wer Dir gut ist, Dir am heutigen Tage nicht wünschen.</p>
-            <p part="N">Erinnerst Du Dich, was <rs type="person" ref="#pmb19980">Kürnberger</rs> über <rs type="person" ref="#pmb11518">Grillparzer</rs> schrieb? Moses flehte zum Herrn: schicke einen anderen, Herr, schicke meinen Bruder Aron! Aber der Herr hat ihn nicht erhört. Sonst wäre Moses gestorben »<anchor type="commentary" xml:id="KT029-5">
-                  <rs type="work" subtype="implied" ref="#pmb32522">als ein alter loyaler Hofrat des Pharao</rs>.</anchor>« <rs type="person" ref="#pmb11518">Grillparzer</rs> aber hat der Herr erhört. »<anchor type="commentary" xml:id="KT029-6">
-                  <rs type="work" subtype="implied" ref="#pmb32522">
-                     <rs type="person" ref="#pmb11518">Grillparzer</rs> packte seine großen Fähigkeiten und starken Leidenschaf<pb/>ten zusammen, sperrte sie in die Schublade und steckte den Schlüssel zu sich.</rs>
-               </anchor>« Und wer ist unter uns, der sicher wäre, daß nicht auch ihn der Herr noch erhört? <rs type="person" ref="#pmb2121">Arthur</rs>, mir bangt oft, denn <rs type="work" subtype="implied" ref="#pmb29935">Anatol</rs> hat viel zum Hofrat Pharaos.</p>
+               <anchor type="commentary" xml:id="KT029-4"/>Wahrheit spricht: werde was Du bist!<note type="commentary" xml:id="KT029-4h">
+                  <p part="N">Bei <rs type="person" ref="#pmb4996">Herder</rs> lautet das Zitat: »<quote>Werde, was
+                  du bist, aber nicht scheinest.</quote>« (<rs type="work" ref="#pmb32754">Minerva.
+                  Die Schutzgöttin der Frauen</rs>, postum <date>1821</date>)</p>
+               </note> Welt spricht: Mir diene, mir! <rs type="place" ref="#pmb50">Wien</rs> spricht: nur nix übertreiben! Wer, in dieses Land gebannt, hatte je den Mut zu wählen? Wir sind hier vom Schlag der Menschen, denen der Meister <rs type="person" ref="#pmb4258">Seuse</rs> nachsagt, daß sie <anchor type="commentary" xml:id="KT029-3"/>
+               <rs type="work" subtype="implied" ref="#pmb32524">wollen und wollen doch nicht</rs>
+               <note type="commentary" xml:id="KT029-3h">
+                  <p part="N">»<quote>dis wússent sú, daz bevindent sú alle stunde, und lant doch da von nit. Sú
+                  wússent es und wenn es doch nit wússen.</quote>« (»<quote>Das wissen sie, das
+                  empfinden sie alle Zeit und lassen doch nicht davon ab. Sie wissen es und wollen
+                  es doch nicht wissen.</quote>« <bibl>
+                        <rs type="work" ref="#pmb32524">Büchlein der ewigen Weisheit</rs>, Vers
+                  220,10–12</bibl>)</p>
+               </note>. So gehts allen; nur merkt man es an anderen mehr als an sich. Und auch Du, mein <rs type="person" ref="#pmb2121">Arthur</rs>, hast zuweilen <rs type="place" ref="#pmb50">Wien</rs> erhört, auch Du hast Dich von Dir selbst, von der Entscheidung zu Dir selbst wegschmeicheln lassen! Dann schreibst Du die Stücke, die nicht von Dir sind, sondern vom <rs type="work" subtype="implied" ref="#pmb29935">Anatol</rs>. Denn, <rs type="person" ref="#pmb2121">Arthur</rs>, der <rs type="place" ref="#pmb50">Wien</rs>er in Dir ist <rs type="work" subtype="implied" ref="#pmb29935">Anatol</rs>. Den werden sie heute kränzen. Nimm den Kranz, heb Dir ihn gut auf, aber leg ihn weg! Leg ihn weg und laß ihn weg, dann aber geh getrost auf den Sechziger los. Den <rs type="work" subtype="implied" ref="#pmb29935">Anatol</rs> laß bei dem <rs type="place" ref="#pmb50">Wien</rs>er Kranz, er ist kein Begleiter zu dem, was Deiner harrt! Schöneres kann, wer Dir gut ist, Dir am heutigen Tage nicht wünschen.</p>
+            <p part="N">Erinnerst Du Dich, was <rs type="person" ref="#pmb19980">Kürnberger</rs> über <rs type="person" ref="#pmb11518">Grillparzer</rs> schrieb? Moses flehte zum Herrn: schicke einen anderen, Herr, schicke meinen Bruder Aron! Aber der Herr hat ihn nicht erhört. Sonst wäre Moses gestorben »<anchor type="commentary" xml:id="KT029-5"/>
+               <rs type="work" subtype="implied" ref="#pmb32522">als ein alter loyaler Hofrat des Pharao</rs>.<note type="commentary" xml:id="KT029-5h">
+                  <p part="N">
+                     <bibl>
+                        <rs type="work" ref="#pmb32522">Grillparzers Lebensmaske</rs>. In: <rs type="person" ref="#pmb19980">Ferdinand Kürnberger</rs>: <rs type="work" ref="#pmb32756">Literarische Herzenssachen. Reflexionen und Kritiken</rs>.
+                  Wien: <rs type="org">Leopold Rosner</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date>1877</date>, S. 293–298, hier: S. 294</bibl> (<bibl>Erstdruck in <rs type="org" ref="#pmb29406">Berliner Börsen-Courier</rs>, <date>23. 1.
+                     1872</date>
+                     </bibl>).</p>
+               </note>« <rs type="person" ref="#pmb11518">Grillparzer</rs> aber hat der Herr erhört. »<anchor type="commentary" xml:id="KT029-6"/>
+               <rs type="work" subtype="implied" ref="#pmb32522">
+                  <rs type="person" ref="#pmb11518">Grillparzer</rs> packte seine großen Fähigkeiten und starken Leidenschaf<pb/>ten zusammen, sperrte sie in die Schublade und steckte den Schlüssel zu sich.</rs>
+               <note type="commentary" xml:id="KT029-6h">
+                  <p part="N">
+                     <bibl>Ebd., S. 298</bibl>.</p>
+               </note>« Und wer ist unter uns, der sicher wäre, daß nicht auch ihn der Herr noch erhört? <rs type="person" ref="#pmb2121">Arthur</rs>, mir bangt oft, denn <rs type="work" subtype="implied" ref="#pmb29935">Anatol</rs> hat viel zum Hofrat Pharaos.</p>
             <p part="N">Du hast jetzt Erfolg um Erfolg. Aber Du weißt ja, daß man in dieser Stadt hier nur durch Mißverständnis Erfolg hat, dadurch allein, daß die Leute nicht merken, wer man ist. Warum soll man sich ein solches Mißverständnis nicht gefallen lassen? Aber gib dem Teufel nur diesen kleinen Finger, so hat er Dich schon und Du wünschest Dir dann, daß sie Dich mißverstehen! Nein, <rs type="person" ref="#pmb2121">Arthur</rs>, man kann nicht unerkannt berühmt sein. Es hilft Dir nichts, einmal wirst Du doch wählen müssen. Wählen zwischen <rs type="place" ref="#pmb50">Wien</rs> und Dir!</p>
             <p part="N">Weißt Du noch, daß ich Dir das schon vor Jahren schrieb? Ganz plötzlich kam es einmal über mich. Ich taumelte damals noch im Irrgarten der Theaterkritik, da saß ich einst in einem <rs type="work" subtype="implied" ref="#pmb29873">Stück</rs> von Dir, auch einem der Stücke, die mir so gut gefallen, bis mir dann auf einmal einfällt, daß sie von Dir sind, denn von Dir gefallen sie mir nicht, weil Du mehr bist und ich, was Du bist, ganz von Dir will. So saß ich ganz beklommen da und dann sollt’ ich über das Stück schreiben, ich fing es zu erzählen an, aber ich mußte Dir alles sagen und so verwandelte sich die »<rs type="work" subtype="implied" ref="#pmb31177">Rezension</rs>« mitten drin in einen Brief an Dich – o die armen Abonnenten des <rs type="org" ref="#pmb29414">Neuen Wiener Tagblatts</rs>, die werden am andern Tag erschrocken sein! Ich aber konnte nicht anders, ich mußte, so schrieb ich mitten drin plötzlich auf Dich los: </p>
             <p part="N">
-               <anchor type="commentary" xml:id="KT029-1">
-                  <anchor type="label" xml:id="LT029-1"/>»<rs type="work" subtype="implied" ref="#pmb31177">Beiseite leben. Still sein. Sich nicht vermessen, um sich nicht zu verlieren. Umgekehrt wie <rs type="work" subtype="implied" ref="#pmb31889">Brand</rs>: nicht ›alles oder nichts‹, sondern dazwischen. Nicht hochmütig auf die Wahrheit pochen, die, wenn sie extrem wird, über unsere Kraft geht. Die kleinen Lügen nicht verachten, aus denen doch manchmal etwas so Wirkliches wie dieser kleine Bub hier wird, worin vielleicht das eigentliche Wunder und das letzte Geheimnis unseres Lebens liegt. Eine Gesinnung, die sich seit ein paar Jahren bei Schnitzler immer wieder meldet, sogar im ›<rs type="work" ref="#pmb29985">Einsamen Weg</rs>‹, seiner reichsten, so wunderbar tiefen und reichen Dichtung. Eine Gesinnung, die auf mich – lieber <rs type="person" ref="#pmb2121">Arthur</rs>, sei nicht bös, aber: Bekenntnis gegen Bekenntnis – allmählich unerträglich pensioniert wirkt. Eine Gesinnung, mit der sich auch <rs type="person" ref="#pmb2404">Hebbel</rs>, durch <rs type="place" ref="#pmb41240">Österreich</rs> gebrochen, betrogen hat: Kraft oder Schönheit gehört in unser Leben nicht, nimmt, wenn sie sich darin zeigt, eine Schuld auf sich und muß sie tragisch büßen. Ich habe sonst meinen <rs type="person" ref="#pmb12195">Marx</rs>ismus mit der Zeit recht bedingen gelernt, aber da muß ich doch sagen: Dies scheint mir wirklich nichts als der geistige Ausdruck einer sinkenden ökonomischen Klasse zu sein, die, da sie sich durch die Entwicklung unaufhaltsam zerrieben fühlt, jetzt einfach aus dem Leben desertieren will. Durch unsere<pb/> Geburt gehören wir ihr an, deshalb wird sie aus unserer Empfindung niemals auszutilgen sein, die Frage ist nur, ob wir auch geistig uns ihr fügen müssen oder sie geistig vielleicht überwinden dürfen, ob nicht unserer Generation gerade dazu nur die Kunst gegeben wurde, die Kunst und die namenlose Sehnsucht, um durch sie das Leben selbst, dessen leere Lügen wir nicht mehr ertragen, aus uns umzuformen. Das Leben hält uns geistig nicht, was wir von ihm fordern. An unseren Gedanken gemessen, ist es matt und dumpf. Und darum willst Du Dich aus ihm stehlen, in den Winkel müßiger Entsagung? Weil es unserem Geiste nicht gemäß ist, das soll mich bestimmen, es mit dem Geiste der Väter zu versuchen? Wenn das Leben mir nicht gemäß ist, wer sagt Dir denn, daß ich darum mich ändern muß, statt es? Trauen wir uns so wenig zu? Haben wir uns denn schon mit ihm gemessen? Wir wollen doch erst einmal sehen, wer stärker ist: wir mit unserer freudigen Sehnsucht nach der neuen Form einer starken, durchaus wahrhaften, leuchtenden Existenz in innerer Freiheit, oder dieses hinfälligen alten Lebens trister Widerstand! In Gedanken still beiseite, sozusagen: auf dem anderen Ufer sein und höchstens manchmal lächelnd herüberschauen, froh, daß man sich noch zur rechten Zeit geflüchtet und davor gesichert hat, das scheint jetzt oft der müde Wunsch Deiner Menschen. Aber solche Gedanken, die nur still, mit gesunkenen Händen, beiseite sitzen können, sind mir nichts und mich verlangt nach kühneren, die die Kraft hätten, die Fäuste zu ballen und ins Leben zu strecken und es nicht zulassen, bis es uns segnen wird. Ich denke jetzt so oft an Deinen ›<rs type="work" ref="#pmb29857">Schleier der Beatrice</rs>‹, an die schaurig große Stimmung jener letzten Nacht, die den blutigen Borgia schon vor den Toren weiß <c rendition="#dots" n="3" place="center"/> und morgen wird er kommen und mit ihm kommt der Tod. Sind wir nicht selbst jetzt in solcher Nacht einer Welt, die morgen versinkt? Aber da wollen wir doch die paar letzten Stunden, bevor der Borgia kommt, endlich einmal nicht mehr entsagen, nicht mehr uns fügen, nicht mehr nach dem Gebot der Väter fragen, sondern nachholen, bevor es zu spät ist und endlich nichts als wir selbst sein und, den Tod im Leibe, endlich, endlich leben! Ich glaube nicht mehr, <rs type="person" ref="#pmb2121">Arthur</rs>, daß Entsagung Reife ist. Ich glaube, sie ist nur innere Schwäche. (Furcht von Menschen, die sich bewahren wollen, weil sie noch nicht wissen, daß dies der Sinn des Lebens ist: sich zu zerstören, damit Höheres lebendig werde.) Ich glaube, daß dies weite Leben, das da draußen winkt, ungeheuer reich an wilder Schönheit und verruchtem Glück ist: es wartet nur auf einen großen Räuber, der es zwingen wird. Ich glaube nicht mehr an die kleinen Tugenden des gelassen zuschauenden Geistes. Ich glaube nur noch an die große Kraft ungestüm verlangender Leidenschaft. Und ich glaube, daß einer von uns, gerade einer von uns, dies machen muß, dies Werk, das die letzte Nacht einer alten Zeit enthalten wird, aus der schon in der Ferne, blutig froh, die Sonne der neuen bricht. Mach’ Du’s!</rs>
-                  <anchor type="label" xml:id="LT029-2"/>«<pb/>
-               </anchor>
+               <anchor type="commentary" xml:id="KT029-1"/>
+               <anchor type="label" xml:id="LT029-1"/>»<rs type="work" subtype="implied" ref="#pmb31177">Beiseite leben. Still sein. Sich nicht vermessen, um sich nicht zu verlieren. Umgekehrt wie <rs type="work" subtype="implied" ref="#pmb31889">Brand</rs>: nicht ›alles oder nichts‹, sondern dazwischen. Nicht hochmütig auf die Wahrheit pochen, die, wenn sie extrem wird, über unsere Kraft geht. Die kleinen Lügen nicht verachten, aus denen doch manchmal etwas so Wirkliches wie dieser kleine Bub hier wird, worin vielleicht das eigentliche Wunder und das letzte Geheimnis unseres Lebens liegt. Eine Gesinnung, die sich seit ein paar Jahren bei Schnitzler immer wieder meldet, sogar im ›<rs type="work" ref="#pmb29985">Einsamen Weg</rs>‹, seiner reichsten, so wunderbar tiefen und reichen Dichtung. Eine Gesinnung, die auf mich – lieber <rs type="person" ref="#pmb2121">Arthur</rs>, sei nicht bös, aber: Bekenntnis gegen Bekenntnis – allmählich unerträglich pensioniert wirkt. Eine Gesinnung, mit der sich auch <rs type="person" ref="#pmb2404">Hebbel</rs>, durch <rs type="place" ref="#pmb41240">Österreich</rs> gebrochen, betrogen hat: Kraft oder Schönheit gehört in unser Leben nicht, nimmt, wenn sie sich darin zeigt, eine Schuld auf sich und muß sie tragisch büßen. Ich habe sonst meinen <rs type="person" ref="#pmb12195">Marx</rs>ismus mit der Zeit recht bedingen gelernt, aber da muß ich doch sagen: Dies scheint mir wirklich nichts als der geistige Ausdruck einer sinkenden ökonomischen Klasse zu sein, die, da sie sich durch die Entwicklung unaufhaltsam zerrieben fühlt, jetzt einfach aus dem Leben desertieren will. Durch unsere<pb/> Geburt gehören wir ihr an, deshalb wird sie aus unserer Empfindung niemals auszutilgen sein, die Frage ist nur, ob wir auch geistig uns ihr fügen müssen oder sie geistig vielleicht überwinden dürfen, ob nicht unserer Generation gerade dazu nur die Kunst gegeben wurde, die Kunst und die namenlose Sehnsucht, um durch sie das Leben selbst, dessen leere Lügen wir nicht mehr ertragen, aus uns umzuformen. Das Leben hält uns geistig nicht, was wir von ihm fordern. An unseren Gedanken gemessen, ist es matt und dumpf. Und darum willst Du Dich aus ihm stehlen, in den Winkel müßiger Entsagung? Weil es unserem Geiste nicht gemäß ist, das soll mich bestimmen, es mit dem Geiste der Väter zu versuchen? Wenn das Leben mir nicht gemäß ist, wer sagt Dir denn, daß ich darum mich ändern muß, statt es? Trauen wir uns so wenig zu? Haben wir uns denn schon mit ihm gemessen? Wir wollen doch erst einmal sehen, wer stärker ist: wir mit unserer freudigen Sehnsucht nach der neuen Form einer starken, durchaus wahrhaften, leuchtenden Existenz in innerer Freiheit, oder dieses hinfälligen alten Lebens trister Widerstand! In Gedanken still beiseite, sozusagen: auf dem anderen Ufer sein und höchstens manchmal lächelnd herüberschauen, froh, daß man sich noch zur rechten Zeit geflüchtet und davor gesichert hat, das scheint jetzt oft der müde Wunsch Deiner Menschen. Aber solche Gedanken, die nur still, mit gesunkenen Händen, beiseite sitzen können, sind mir nichts und mich verlangt nach kühneren, die die Kraft hätten, die Fäuste zu ballen und ins Leben zu strecken und es nicht zulassen, bis es uns segnen wird. Ich denke jetzt so oft an Deinen ›<rs type="work" ref="#pmb29857">Schleier der Beatrice</rs>‹, an die schaurig große Stimmung jener letzten Nacht, die den blutigen Borgia schon vor den Toren weiß <c rendition="#dots" n="3" place="center"/> und morgen wird er kommen und mit ihm kommt der Tod. Sind wir nicht selbst jetzt in solcher Nacht einer Welt, die morgen versinkt? Aber da wollen wir doch die paar letzten Stunden, bevor der Borgia kommt, endlich einmal nicht mehr entsagen, nicht mehr uns fügen, nicht mehr nach dem Gebot der Väter fragen, sondern nachholen, bevor es zu spät ist und endlich nichts als wir selbst sein und, den Tod im Leibe, endlich, endlich leben! Ich glaube nicht mehr, <rs type="person" ref="#pmb2121">Arthur</rs>, daß Entsagung Reife ist. Ich glaube, sie ist nur innere Schwäche. (Furcht von Menschen, die sich bewahren wollen, weil sie noch nicht wissen, daß dies der Sinn des Lebens ist: sich zu zerstören, damit Höheres lebendig werde.) Ich glaube, daß dies weite Leben, das da draußen winkt, ungeheuer reich an wilder Schönheit und verruchtem Glück ist: es wartet nur auf einen großen Räuber, der es zwingen wird. Ich glaube nicht mehr an die kleinen Tugenden des gelassen zuschauenden Geistes. Ich glaube nur noch an die große Kraft ungestüm verlangender Leidenschaft. Und ich glaube, daß einer von uns, gerade einer von uns, dies machen muß, dies Werk, das die letzte Nacht einer alten Zeit enthalten wird, aus der schon in der Ferne, blutig froh, die Sonne der neuen bricht. Mach’ Du’s!</rs>
+               <anchor type="label" xml:id="LT029-2"/>«<pb/>
+               <note type="commentary" xml:id="KT029-1h">
+                  <p part="N">
+                     <ptr target="LT021-2"/>.</p>
+               </note>
             </p>
             <p part="N">Acht Jahre ist’s her, daß ich dies schrieb. Ich kann Dir heute nichts anderes sagen, nichts besseres wünschen, Du bist mir zu lieb. Du bist mir zu lieb, denn täusche Dich doch nicht: Du bist kein <rs type="work" subtype="implied" ref="#pmb32522">Hofrat unserer Pharaonen</rs>, laß Dich nicht dazu machen, Du bist mir zum <rs type="place" ref="#pmb50">Wien</rs>er Liebling zu gut, es gibt ein Land, das weiter ist. Bescheide Dich nicht, ergib Dich nicht an <rs type="place" ref="#pmb50">Wien</rs>, erhöre Dich selbst! Vorwärts, aufwärts, werde was Du bist!</p>
-            <p part="N">Ich wünsche Dir das Werk, das Dich enthält. Und nun, mit den Worten <rs type="person" ref="#pmb11461">Goethes</rs> an <rs type="person" ref="#pmb11803">Jacobi</rs>: »<anchor type="commentary" xml:id="KT029-2">Laß uns, so lang wir leben, einander was möglich ist, sein und bleiben</anchor>.«</p>
+            <p part="N">Ich wünsche Dir das Werk, das Dich enthält. Und nun, mit den Worten <rs type="person" ref="#pmb11461">Goethes</rs> an <rs type="person" ref="#pmb11803">Jacobi</rs>: »<anchor type="commentary" xml:id="KT029-2"/>Laß uns, so lang wir leben, einander was möglich ist, sein und bleiben<note type="commentary" xml:id="KT029-2h">
+                  <p part="N">Im Brief vom <date when="1788-07-21">21. 7. 1788</date>.</p>
+               </note>.«</p>
          </div>
       </body>
    </text>
@@ -153,6 +182,36 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815</idno>
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
             <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+         </person>
+         <person xml:id="pmb4996">
+            <persName>
+               <forename>Johann Gottfried von</forename>
+               <surname>Herder</surname>
+            </persName>
+            <birth>
+               <date when="1744-08-25">25.8.1744</date>
+               <settlement ref="pmb56118">
+                  <placeName type="pref">Morąg</placeName>
+                  <location>
+                     <geo>53,91711 19,92602</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1803-12-18">18.12.1803</date>
+               <settlement ref="pmb197">
+                  <placeName type="pref">Weimar</placeName>
+                  <location>
+                     <geo>50,97361 11,33806</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118549553</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4996</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4996</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb4996</idno>
          </person>
          <person xml:id="pmb4258">
             <persName>
@@ -408,6 +467,14 @@
          </person>
       </listPerson>
       <listBibl>
+         <bibl xml:id="pmb32754">
+            <title>Minerva. Die Schutzgöttin der Frauen</title>
+            <author ref="pmbperson__4996" role="hat-geschaffen">Herder, Johann Gottfried von</author>
+            <date when="1821-01-01">1821</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32754</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32754</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
          <bibl xml:id="pmb32524">
             <title>Büchlein der ewigen Weisheit</title>
             <author ref="pmbperson__4258" role="hat-geschaffen">Seuse, Heinrich</author>
@@ -439,6 +506,15 @@
             <date when="1872-01-01">1872</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32522</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32522</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
+         <bibl xml:id="pmb32756">
+            <title>Literarische Herzenssachen. Reflexionen und Kritiken</title>
+            <author ref="pmbperson__19980" role="hat-geschaffen">Kürnberger, Ferdinand</author>
+            <date when="1877-01-01">1877</date>
+            <idno type="URL" subtype="archive">https://archive.org/stream/literarischeherz00kr#page/292/mode/2up</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32756</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32756</idno>
             <note type="work_kind">Text</note>
          </bibl>
          <bibl xml:id="pmb29873">
@@ -518,7 +594,15 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30861</idno>
             <note type="work_kind">Epik &gt;&gt; Aufsatz</note>
          </bibl>
-         <error type="bibl">29560</error>
+         <bibl xml:id="pmb41568">
+            <title>Der Merker. Österreichische Zeitschrift für Musik und Theater</title>
+            <note type="uri_worklink">https://de.wikisource.org/wiki/Der_Merker</note>
+            <date from="1909-01-01" to="1909-12-31">1909  – 1922</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/41568/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41568</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41568</idno>
+            <note type="work_kind">Publikationsorgan &gt;&gt; Zeitschrift</note>
+         </bibl>
          <bibl xml:id="pmb30859">
             <title>Das Hermann-Bahr-Buch</title>
             <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
@@ -589,6 +673,24 @@
          </place>
       </listPlace>
       <listOrg>
+         <org xml:id="pmb29406">
+            <orgName>Berliner Börsen-Courier</orgName>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Börsen-Courier</idno>
+            <desc type="entity_type">Tageszeitungsredaktion</desc>
+            <desc type="entity_type_id">972</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb168">Berlin</placeName>
+               <geo>52,52437 13,41053</geo>
+               <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4005728-8</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/168</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29406</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29406</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29406</idno>
+         </org>
          <org xml:id="pmb29414">
             <orgName>Neues Wiener Tagblatt</orgName>
             <idno type="URL" subtype="www">https://www.geschichtewiki.wien.gv.at/Neues_Wiener_Tagblatt</idno>

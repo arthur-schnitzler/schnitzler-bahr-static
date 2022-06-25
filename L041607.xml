@@ -10,14 +10,15 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Peter Altenberg und Georg Engländer an Hermann Bahr, [Mitte April 1913]</title>
-            <author ref="pmb2147">Altenberg, Peter</author>
-            <author ref="pmb2260">Engländer, Georg</author>
+            <title type="iso-date">1913-04-15</title>
+            <author ref="#pmb2147">Altenberg, Peter</author>
+            <author ref="#pmb2260">Engländer, Georg</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -32,8 +33,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -49,18 +50,18 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2147">Altenberg, Peter</persName>
-                  <persName ref="pmb2260">Engländer, Georg</persName>
+               <sender>
+                  <persName ref="#pmb2147">Altenberg, Peter</persName>
+                  <persName ref="#pmb2260">Engländer, Georg</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb30">[Salzburg]</placeName>
+                  <placeName ref="#pmb30">[Salzburg]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1913-04-15" n="1">[Mitte April 1913]</date>
@@ -85,7 +86,7 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="pmb2147">Altenberg, Peter</author>
+                     <author ref="#pmb2147">Altenberg, Peter</author>
                      <title level="a">Peter Altenberg an Hermann Bahr</title>
                      <editor>Texte hg. von H. Lunzer und V. Lunzer-Talos</editor>
                   </analytic>
@@ -136,7 +137,13 @@
             <p>Sprechen Sie mit <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, mit <rs type="person" ref="#pmb11740">Hugo v. Hofmannsthal</rs>, mit <rs type="person" ref="#pmb2167">Felix Salten</rs>, über die Schritte, die <hi rend="underline" n="1">e<damage agent="hole">
                      <supplied>in</supplied>
                   </damage>zuleiten</hi> sind!</p>
-            <p>Ich wandte mich an <rs type="person" ref="#pmb4697">Danny Gürtler</rs>, den man schon 3mal der <anchor type="commentary" xml:id="KL607-2">Freiheit beraubt</anchor> hat, und Der gegen diese Dinge nun in <rs type="place" ref="#pmb864">Leipzig</rs> einen <anchor type="commentary" xml:id="KL607-3">Vortrag</anchor> gehalten hat. <del rend="strikethrough">
+            <p>Ich wandte mich an <rs type="person" ref="#pmb4697">Danny Gürtler</rs>, den man schon 3mal der <anchor type="commentary" xml:id="KL607-2"/>Freiheit beraubt<note type="commentary" xml:id="KL607-2h">
+                  <p>Er wurde <date >1910</date> in <rs type="place" ref="#pmb882">Heidelberg</rs>
+               interniert, von dort in die <rs type="place" ref="#pmb835">Landesirrenanstalt
+                  Heppenheim</rs> überstellt, entlassen, und im <date >Februar 1913</date> in <rs type="place" ref="#pmb506">Hamburg</rs> erneut interniert.</p>
+               </note> hat, und Der gegen diese Dinge nun in <rs type="place" ref="#pmb864">Leipzig</rs> einen <anchor type="commentary" xml:id="KL607-3"/>Vortrag<note type="commentary" xml:id="KL607-3h">
+                  <p>Nicht ermittelt.</p>
+               </note> gehalten hat. <del rend="strikethrough">
                   <unclear>I</unclear>
                </del> Er bekam stets d<damage agent="hole">
                   <supplied>urc</supplied>
@@ -157,9 +164,16 @@
                <hi rend="underline" n="1">Hilfe</hi>, <hi rend="underline" n="1">Erbarmen</hi>, <hi rend="underline" n="1">Gnade</hi>, <hi rend="underline" n="1">Errettung</hi>!!! </p>
             <p>Ehe es <hi rend="underline" n="2">zu spät</hi> ist!</p>
             <p>Mein neues Buch: »<hi rend="underline" n="1">
-                  <anchor type="commentary" xml:id="KL607-1">
-                     <rs type="work" ref="#pmb32550">Semmering 1912</rs>
-                  </anchor>
+                  <anchor type="commentary" xml:id="KL607-1"/>
+                  <rs type="work" ref="#pmb32550">Semmering 1912</rs>
+                  <note type="commentary" xml:id="KL607-1h">
+                     <p>
+                        <bibl >
+                           <rs type="person" ref="#pmb2147">Peter Altenberg</rs>: <rs type="work" ref="#pmb32550">»Semmering 1912«</rs>. Berlin: <rs type="org" ref="#pmb29639">S. Fischer</rs>
+                           <space unit="chars" quantity="1"/>
+                           <date >1913</date>
+                        </bibl>.</p>
+                  </note>
                </hi>« wird Ihnen beweisen, daß ich noch eine menschliche Seele besitze, die nun zerstört wird! Ihr <hi rend="underline" n="1">verzweifelter</hi>
             </p>
             <closer>
@@ -200,7 +214,7 @@
             <persName type="pseudonym">Peter Altenberg</persName>
             <birth>
                <date when="1859-03-09">09.03.1859</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -209,7 +223,7 @@
             </birth>
             <death>
                <date when="1919-01-08">08.01.1919</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -217,7 +231,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118502255</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13162</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2147</idno>
@@ -233,7 +247,7 @@
             </persName>
             <birth>
                <date when="1862-04-03">03.04.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -242,7 +256,7 @@
             </birth>
             <death>
                <date when="1927-04-10">10.04.1927</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -250,7 +264,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb128">Beamter/Beamte &gt;&gt; Privatbeamter/Privatbeamtin</occupation>
+            <occupation ref="#pmb128">Beamter/Beamte &gt;&gt; Privatbeamter/Privatbeamtin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/13014522X</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2260</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2260</idno>
@@ -263,7 +277,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -272,7 +286,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -280,8 +294,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -296,7 +310,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -305,7 +319,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -313,8 +327,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -331,7 +345,7 @@
             <persName type="namensvariante">Hofmannsthal, Hugo</persName>
             <birth>
                <date when="1874-02-01">01.02.1874</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -340,7 +354,7 @@
             </birth>
             <death>
                <date when="1929-07-15">15.07.1929</date>
-               <settlement ref="pmb173">
+               <settlement ref="#pmb173">
                   <placeName type="pref">Rodaun</placeName>
                   <location>
                      <geo>48,132793312328 16,256152195922</geo>
@@ -348,7 +362,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
@@ -365,7 +379,7 @@
             <persName type="legacy-name-merge">Salzmann, Siegmund</persName>
             <birth>
                <date when="1869-09-06">06.09.1869</date>
-               <settlement ref="pmb43471">
+               <settlement ref="#pmb43471">
                   <placeName type="pref">Budapest</placeName>
                   <location>
                      <geo>47,49835 19,04045</geo>
@@ -374,7 +388,7 @@
             </birth>
             <death>
                <date when="1945-10-08">08.10.1945</date>
-               <settlement ref="pmb484">
+               <settlement ref="#pmb484">
                   <placeName type="pref">Zürich</placeName>
                   <location>
                      <geo>47,37174 8,54226</geo>
@@ -382,8 +396,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840819</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2167</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2167</idno>
@@ -400,7 +414,7 @@
             <persName type="legacy-name-merge">Gürtler, Dany</persName>
             <birth>
                <date when="1875-07-08">8.7.1875</date>
-               <settlement ref="pmb834">
+               <settlement ref="#pmb834">
                   <placeName type="pref">Darmstadt</placeName>
                   <location>
                      <geo>49,87167 8,65027</geo>
@@ -409,7 +423,7 @@
             </birth>
             <death>
                <date when="1917-04-30">30.4.1917</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -417,8 +431,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116916702</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4697</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4697</idno>
@@ -428,7 +442,7 @@
       <listBibl>
          <bibl xml:id="pmb32550">
             <title>»Semmering 1912«</title>
-            <author ref="pmbperson__2147" role="hat-geschaffen">Altenberg, Peter</author>
+            <author ref="#pmbperson__2147" role="hat-geschaffen">Altenberg, Peter</author>
             <date notBefore="1913-01-01" when="1913-07-02">1913</date>
             <idno type="URL" subtype="archive">https://archive.org/details/semmering191200alteuoft</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32550</idno>
@@ -457,7 +471,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -482,7 +496,7 @@
                <geo>47,80067 13,04532</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb697">Salzburg (Land)</placeName>
+               <placeName ref="#pmb697">Salzburg (Land)</placeName>
                <geo>47,41667 13,25</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2766818/</idno>
@@ -501,11 +515,11 @@
                <geo>48,20875 16,27962</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb64">XIV., Penzing</placeName>
+               <placeName ref="#pmb64">XIV., Penzing</placeName>
                <geo>48,2 16,3</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb746">Steinhof</placeName>
+               <placeName ref="#pmb746">Steinhof</placeName>
                <geo>48,154485314404 16,32935999616</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb153</idno>
@@ -540,7 +554,7 @@
                <geo>62,40512 17,36376</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb44335">Schweden</placeName>
+               <placeName ref="#pmb44335">Schweden</placeName>
                <geo>62,0 15,0</geo>
             </location>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q5428</idno>
@@ -557,7 +571,7 @@
                <geo>48,206786325191 16,389660949005</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb53">III., Landstraße</placeName>
+               <placeName ref="#pmb53">III., Landstraße</placeName>
                <geo>48,19811 16,39482</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Seidlgasse</idno>

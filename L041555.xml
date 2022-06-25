@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Brahm an Arthur Schnitzler, 23. 7. 1910</title>
-            <author ref="pmb10986">Brahm, Otto</author>
+            <title type="iso-date">1910-07-23</title>
+            <author ref="#pmb10986">Brahm, Otto</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb10986">Brahm, Otto</persName>
+               <sender>
+                  <persName ref="#pmb10986">Brahm, Otto</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <addressee>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb189">Semmering</placeName>
+                  <placeName ref="#pmb189">Semmering</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1910-07-23" n="01">23. 7. 1910</date>
@@ -68,8 +69,8 @@
             <listBibl>
                <biblStruct corresp="ASOB">
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
-                     <author ref="pmb10986">Brahm, Otto</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb10986">Brahm, Otto</author>
                      <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
                      <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
                      <imprint>
@@ -101,8 +102,14 @@
                </dateline>
                <salute>Lieber Freund,</salute>
             </opener>
-            <p>auf dem Balkon neben mir wird zwar so geschrien, daß kein <anchor type="commentary" xml:id="KL555-1">
-                  <rs type="place" ref="#pmb852">Würzburg</rs>er <rs type="person" ref="#pmb11933">Kleist</rs>-Problem</anchor> zu lösen ist, ich denke aber doch noch hier zu bleiben, ungleich dem <rs type="person" ref="#pmb4532">Jonas</rs>, der bereits <rs type="place" ref="#pmb168">Berlin</rs> bevölkert. Ihres Kommens froh gewärtig, jetzt mit <rs type="person" ref="#pmb10815">Bahr</rs> speisend, wünsche ich recht wohl zu leben.</p>
+            <p>auf dem Balkon neben mir wird zwar so geschrien, daß kein <anchor type="commentary" xml:id="KL555-1"/>
+               <rs type="place" ref="#pmb852">Würzburg</rs>er <rs type="person" ref="#pmb11933">Kleist</rs>-Problem<note type="commentary" xml:id="KL555-1h">
+                  <p>
+                     <rs type="person" ref="#pmb11933">Kleist</rs> hielt sich im <date >Herbst 1800</date>
+               zwei Monate in <rs type="place" ref="#pmb852">Würzburg</rs> auf. Da über den Zweck
+               des Aufenthalts nichts überliefert ist, regte dies die Forschung zu diversen
+               Mutmaßungen an.</p>
+               </note> zu lösen ist, ich denke aber doch noch hier zu bleiben, ungleich dem <rs type="person" ref="#pmb4532">Jonas</rs>, der bereits <rs type="place" ref="#pmb168">Berlin</rs> bevölkert. Ihres Kommens froh gewärtig, jetzt mit <rs type="person" ref="#pmb10815">Bahr</rs> speisend, wünsche ich recht wohl zu leben.</p>
             <closer>
                <signed>O. B.</signed>
             </closer>
@@ -119,7 +126,7 @@
             <persName type="geburtsname_nachname">Abrahamson</persName>
             <birth>
                <date when="1856-02-05">05.02.1856</date>
-               <settlement ref="pmb506">
+               <settlement ref="#pmb506">
                   <placeName type="pref">Hamburg</placeName>
                   <location>
                      <geo>53,57532 10,01534</geo>
@@ -128,7 +135,7 @@
             </birth>
             <death>
                <date when="1912-11-28">28.11.1912</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -136,8 +143,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-            <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb104">Regisseur/Regisseurin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13913</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514245</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10986</idno>
@@ -152,7 +159,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -161,7 +168,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -169,8 +176,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -184,7 +191,7 @@
             </persName>
             <birth>
                <date when="1777-10-18">18.10.1777</date>
-               <settlement ref="pmb35518">
+               <settlement ref="#pmb35518">
                   <placeName type="pref">Frankfurt (Oder)</placeName>
                   <location>
                      <geo>52,34714 14,55062</geo>
@@ -193,7 +200,7 @@
             </birth>
             <death>
                <date when="1811-11-21">21.11.1811</date>
-               <settlement ref="pmb61073">
+               <settlement ref="#pmb61073">
                   <placeName type="pref">Kleiner Wannsee</placeName>
                   <location>
                      <geo>52,41576 13,15943</geo>
@@ -201,7 +208,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16900</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118563076</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11933</idno>
@@ -216,7 +223,7 @@
             </persName>
             <birth>
                <date when="1850-09-28">28.09.1850</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -225,7 +232,7 @@
             </birth>
             <death>
                <date when="1916-02-11">11.02.1916</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -233,7 +240,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb106">Rechtsanwalt/Rechtsanwältin</occupation>
+            <occupation ref="#pmb106">Rechtsanwalt/Rechtsanwältin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117175668</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16574</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4532</idno>
@@ -247,7 +254,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -256,7 +263,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -264,8 +271,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -314,7 +321,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -356,7 +363,7 @@
                <geo>52,52437 13,41053</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb151">Deutschland</placeName>
+               <placeName ref="#pmb151">Deutschland</placeName>
                <geo>51,5 10,5</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>

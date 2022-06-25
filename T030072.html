@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:foo="whateverWorksForMe" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
+      <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -33,7 +34,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="card">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2">
@@ -41,603 +42,965 @@
                      </div>
                      <div class="col-md-8">
                         <h1 align="center">Hermann Bahr: [Buchversandliste Inventur], [Anfang September 1912]</h1>
-                        <h3 align="center"><a href="T030072.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2" style="text-align:right">
                         <h1><a href="T030073.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
                      </div>
                   </div>
                </div>
-               <div class="card-body">
+               <div class="card-body-tagebuch" data-index="true">
                   
-                  <div id="div__297">
+                  <div class="div">
                      
-                     <p id="p__6">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3579">Leopold Jacobson</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3885">Zavrel</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31501">Wiltfeb</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__3">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12096">Berthold Litzmann</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__4">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3923">Wilhelm Ostwald</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__7">Prof. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb13048">Walzl</a></span>
-                        
+                     <div class="editionText">Prof. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb13048">Walzl</a></span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb866">Dresden</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__6">
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30035">Inventur</a></span> schicken an:</p>
+                     <div class="editionText">
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30035">Inventur</a></span> schicken an:</div>
                      
-                     <p id="p__9">Pater <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3888">Heribert</a></span>
-                        
+                     <div class="editionText">Pater <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3888">Heribert</a></span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb38364">Wolfgang Heine</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__10">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3892">Barrès</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12031">Gustav Landauer</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__9">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3731">Kralik</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__10">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12540">Roland</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__11">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11832">Jerusalem</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__12">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28518">Carl Jentsch</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__13">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3861">Hofmiller</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__14">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4234">W. Förster</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__15">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12471">Walter Rathenau</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__16">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3386">Fritz Mauthner</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__20">Dr
-                        
+                     <div class="editionText">D<span class="superscript">r</span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4270">Eibl</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb13212">Stefan Zweig</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__19">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11527">
                               Großmann
                               </a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__19">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10749">Adler</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__20">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12778">Simmel</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__21">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29701">Sozial. Monatshefte</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__22">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11488">Rudolf Goldscheid</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__25">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb407">III/
                               3
                               Jacquingasse 45</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__24">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11148">Dehmel</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__28">Dr
-                        
+                     <div class="editionText">D<span class="superscript">r</span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4628">W. C. Wendte </a></span> p. t. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29710">The Christian Commonwealth</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__26">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28495">Otto</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__27">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28124">Anna</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__30">Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28498">Radel</a></span>
-                        
+                     <div class="editionText">Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28498">Radel</a></span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb506">Hamburg</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__29">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3824">Friedrich Gundolf</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__30">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12551">Rosegger</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__31">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2771">Egon Friedell</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__37">
-                        <del xmlns:tei="http://www.tei-c.org/ns/1.0">Dr
-                           
+                     <div class="editionText">
+                        <del xmlns:tei="http://www.tei-c.org/ns/1.0">D<span xmlns="http://www.w3.org/1999/xhtml" class="superscript">r</span>
+                            
                            <span class="linkfarbe"><a data-toggle="modal" data-target="#pmb13173">Wyneken</a></span>
                            </del>
-                        
+                         
                         nicht geschickt
-                        </p>
+                        </div>
                      
-                     <p id="p__34">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3975">Franz Oppenheimer</a></span>
                         
-                        </p>
+                        </div>
                      
-                     <p id="p__36">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2142">d’Annunzio</a></span> | <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11617">Hauptmann</a></span> | <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3869">Lud v Hofmann</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__43">
+                     <div class="editionText">
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
                            <span class="linkfarbe"><a data-toggle="modal" data-target="#pmb12156">Maeterlinck</a></span>
                            </del>
-                        
+                         
                         nein | <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26435">Verhaeren</a></span>
-                        
-                        nein | <abbr xmlns:tei="http://www.tei-c.org/ns/1.0" title="unclear">
-                           <span class="linkfarbe"><a data-toggle="modal" data-target="#pmb11469">Gold</a></span>
-                           </abbr>
-                        </p>
+                         
+                        nein | <span class="unsicher">
+                           <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11469">Gold</a></span>
+                           </span>
+                        </div>
                      
-                     <p id="p__36">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3919">Prinz Max von Baden</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__37">
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11049">Hermann Burte</a></span> p. A. Verlag</p>
+                     <div class="editionText">
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11049">Hermann Burte</a></span> p. A. Verlag</div>
                      
-                     <p id="p__40">
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29690">Gideon Carl Sarasin</a></span> in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb864">Leipzig</a></span> (Zum Dank für den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31501">Wildfeber</a></span>)</p>
+                     <div class="editionText">
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29690">Gideon Carl Sarasin</a></span> in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb864">Leipzig</a></span> (Zum Dank für den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31501">Wildfeber</a></span>)</div>
                      
-                     <p id="p__41">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3940">Dietzel</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12096">Litzmann</a></span> – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb913">Bonn</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__41">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3827">Paul Deussen</a></span> – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb907">Kiel</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__42">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11086">Chamberlain</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12471">Rathenau</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__43">
-                        <abbr xmlns:tei="http://www.tei-c.org/ns/1.0" title="unclear">Brolds</abbr>? Nein
-                        </p>
+                     <div class="editionText">
+                        <span class="unsicher">Brolds</span>? Nein
+                        </div>
                      
-                     <p id="p__45">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3896">Prof. Eugen Kühnemann</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb677">Breslau</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__44">
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb49108">Krietern</a></span> Altes Schloß</p>
+                     <div class="editionText">
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb49108">Krietern</a></span> Altes Schloß</div>
                      
-                     <p id="p__47">
-                        
-                        
+                     <div class="editionText">
+                        <span class="illegible">××××××</span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb876">Jena</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__50">
-                        <abbr xmlns:tei="http://www.tei-c.org/ns/1.0" title="unclear">Prof.</abbr>
-                        
-                        
-                        
+                     <div class="editionText">
+                        <span class="unsicher">Prof.</span>
+                         
+                        <span class="illegible">×××××</span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb23352">Richter</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__47">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11575">Handel-Mazetti</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__52">
-                        
-                        
+                     <div class="editionText">
+                        <span class="illegible">×××××××</span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3943">Hielscher</a></span>
-                        
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb409">Pr. Stargard</a></span>.</p>
+                         
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb409">Pr. Stargard</a></span>.</div>
                      
-                     <p id="p__50">
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb13068">Wedekind</a></span> Wa Nein</p>
+                     <div class="editionText">
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb13068">Wedekind</a></span> Wa<span class="illegible">×××××××</span> Nein</div>
                      
-                     <p id="p__51">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3930">Gustav Manz</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29691">Tägl. Rundschau</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__55">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29791">Östreich-ungar. Wochenschrift</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb406">Wien III/2 Kollergasse</a></span>
                         
-                        </p>
+                        </div>
                      
-                     <p id="p__56">Dr
-                        
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3839">Oskar Jászi</a></span>, Präsident der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29765">Soziologischen Gesellschaft</a></span> in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb43471">Budapest</a></span>.</p>
+                     <div class="editionText">D<span class="superscript">r</span>
+                         
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3839">Oskar Jászi</a></span>, Präsident der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29765">Soziologischen Gesellschaft</a></span> in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb43471">Budapest</a></span>.</div>
                      
-                     <p id="p__56">Herr <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3831">Paul Siebertz</a></span>, Red. der Wochenschrift »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29791">Östreich-Ungarn</a></span>« <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb406">Wien III/2 Kollergasse 7</a></span>
-                        </p>
+                     <div class="editionText">Herr <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3831">Paul Siebertz</a></span>, Red. der Wochenschrift »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29791">Östreich-Ungarn</a></span>« <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb406">Wien III/2 Kollergasse 7</a></span>
+                        </div>
                      
-                     <p id="p__60">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11910">Kerr</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12319">Muther Nein
                               </a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12011">Kvapil</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2229">Handl</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__61">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3923">Ostwald</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3835">Schweninger</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3844">Steed</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11145">Decsey</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__60">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28499">Pühringer</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29792">Times</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11581">Harden</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__59">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4238">Sabatier</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3849">Joh. Müller</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__62">
+                     <div class="editionText">
                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31115">Als Ob</a></span>
-                         Professor <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3564">Hans Vaihinger</a></span>
-                        
+                        <a name="fna_1" href="#fn1" title="Hans Vaihinger: Die Philosophie des als ob. System der theoretischen, praktischen und religiösen Fiktionen der Menschheit auf Grund eines idealistischen Positivismus. Mit einem Anhang über Kant und Nietzsche. Berlin: Reuther Reichard 1911 ."><sup>1</sup></a> Professor <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3564">Hans Vaihinger</a></span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb140">Halle</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__61">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3280">Kolo</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11447">Glossy</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__62">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12548">Roller</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2686">Konrad Hohenlohe</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__65">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3573">Destinn</a></span>
-                        
+                         
                         Nein
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb13163">Theodor Wolff</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__64">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12011">Kvapil</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29658">Corriere</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__67">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10795">Ferd. Avenarius</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11145">Decsey</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10883">Berger</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__65">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10955">Blei</a></span>
                         
-                        </p>
+                        </div>
                      
-                     <p id="p__67">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Schnitzler</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10863">Beerhofmann</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2167">Salten</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__67">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10875">Benedikt</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2202">Wilhelm Singer</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__69">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12481">Redlich</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3573">Destinn</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__68">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3576">Freysauff</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__69">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11161">Eugen Diederichs</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__72">Pfr <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3582">Hermann Kutter</a></span>
-                        
+                     <div class="editionText">Pfr <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3582">Hermann Kutter</a></span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb339">Zürich Mittelstr 20</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__75">–„– Dr
-                        
+                     <div class="editionText">–„– D<span class="superscript">r</span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28217">Simon</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb734">Bayreuth</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__72">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28219">Campbell</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__77">Dr
-                        
+                     <div class="editionText">D<span class="superscript">r</span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28459">Johannes Eckart</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29656">Salzburger Chronik</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__76">Bischof <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3698">
+                     <div class="editionText">Bischof <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3698">
                               Paul Wilh. v. Keppler</a></span> in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb49141">Rothenburg</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__76">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28500">Borello</a></span> in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb857">San Domenico di Fiesole bei Florenz</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__78">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3900">
                               Gottfried Traub</a></span> in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb915">Dortmund</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__79">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3357">Driesmans</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb514">Berlin-Wilmersdorf Pariserstr 58</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__78">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3775">Duncan</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__85">Dr
-                        – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3933">Dalcroze</a></span>
-                        Dr
-                        
+                     <div class="editionText">D<span class="superscript">r</span>
+                         – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3933">Dalcroze</a></span>
+                         D<span class="superscript">r</span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3936">Wolf Dohrn</a></span>
-                        </p>
+                        </div>
                      
-                     <p id="p__84">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12906">Suttner</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12147">Mach</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb13027">Siegfr. Wagner</a></span>
-                        </p>
-                     </div>
-                  </div>
-               <div class="card-footer">
-                  <p style="text-align:center;">
-                     <div class="footnotes" id="note__6"><a name="fn1"><a href="#fna_1"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">1</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn2"><a href="#fna_2"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">2</span></a></a>Textsammlung</div>
-                     <div class="footnotes" id="note__6"><a name="fn3"><a href="#fna_3"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">3</span></a></a>Philosophische Abhandlung</div>
-                  </p>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29701">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Sozialistische Monatshefte</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29701https://pmb.acdh.oeaw.ac.at/entity/29701">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29701https://pmb.acdh.oeaw.ac.at/entity/29701</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
                         </div>
                      </div>
                   </div>
+               <div class="card-footer text-muted">
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
+                           </span></div><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="T030072.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                        </a><span class="nav-link">
+                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1912-09-01" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  <div id="registerDiv" class="d-none">
+                     <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a></div>
+                     </nav>
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                           <legend>Personen</legend>
+                           <ul>
+                              <li><a href="pmb10815.html">
+                                    Hermann
+                                    Bahr
+                                    </a></li>
+                              <li><a href="pmb3579.html">
+                                    Leopold
+                                    Jacobson
+                                    Jacobson, Leopold</a></li>
+                              <li><a href="pmb3885.html">
+                                    František
+                                    Zavřel
+                                    Franz Zavřel</a></li>
+                              <li><a href="pmb12096.html">
+                                    Berthold
+                                    Litzmann
+                                    </a></li>
+                              <li><a href="pmb3923.html">
+                                    Wilhelm
+                                    Ostwald
+                                    </a></li>
+                              <li><a href="pmb13048.html">
+                                    Oskar
+                                    Walzel
+                                    </a></li>
+                              <li><a href="pmb3888.html">
+                                    Heribert
+                                    Holzapfel
+                                    </a></li>
+                              <li><a href="pmb38364.html">
+                                    Wolfgang
+                                    Heine
+                                    Heine, Wolfgang https://de.wikipedia.org/wiki/Wolfgang_Heine http://d-nb.info/gnd/116659491</a></li>
+                              <li><a href="pmb3892.html">
+                                    Maurice
+                                    Barrès
+                                    Barrès, Maurice</a></li>
+                              <li><a href="pmb12031.html">
+                                    Gustav
+                                    Landauer
+                                    </a></li>
+                              <li><a href="pmb3731.html">
+                                    Richard
+                                    Kralik
+                                    Kralik-Meyrswalden, Richard von</a></li>
+                              <li><a href="pmb12540.html">
+                                    Ida
+                                    Roland
+                                    Klausner Coudenhove-Kalergi</a></li>
+                              <li><a href="pmb11832.html">
+                                    Wilhelm
+                                    Jerusalem
+                                    </a></li>
+                              <li><a href="pmb28518.html">
+                                    Carl
+                                    Jentsch
+                                    </a></li>
+                              <li><a href="pmb3861.html">
+                                    Josef
+                                    Hofmiller
+                                    </a></li>
+                              <li><a href="pmb4234.html">
+                                    Friedrich Wilhelm
+                                    Foerster
+                                    </a></li>
+                              <li><a href="pmb12471.html">
+                                    Walther
+                                    Rathenau
+                                    </a></li>
+                              <li><a href="pmb3386.html">
+                                    Fritz
+                                    Mauthner
+                                    Friedrich</a></li>
+                              <li><a href="pmb4270.html">
+                                    Hans
+                                    Eibl
+                                    </a></li>
+                              <li><a href="pmb13212.html">
+                                    Stefan
+                                    Zweig
+                                    </a></li>
+                              <li><a href="pmb11527.html">
+                                    Stefan
+                                    Großmann
+                                    https://de.wikipedia.org/wiki/Stefan_Gro%C3%9Fmann</a></li>
+                              <li><a href="pmb10749.html">
+                                    Victor
+                                    Adler
+                                    Adler, Viktor</a></li>
+                              <li><a href="pmb12778.html">
+                                    Georg
+                                    Simmel
+                                    </a></li>
+                              <li><a href="pmb11488.html">
+                                    Rudolf
+                                    Goldscheid
+                                    </a></li>
+                              <li><a href="pmb11148.html">
+                                    Richard
+                                    Dehmel
+                                    </a></li>
+                              <li><a href="pmb4628.html">
+                                    Charles William
+                                    Wendte
+                                    </a></li>
+                              <li><a href="pmb28495.html">
+                                    Otto
+                                    Bahr
+                                    </a></li>
+                              <li><a href="pmb28124.html">
+                                    Anna
+                                    Buz
+                                    Bahr</a></li>
+                              <li><a href="pmb28498.html">
+                                    Radel
+                                    </a></li>
+                              <li><a href="pmb3824.html">
+                                    Friedrich
+                                    Gundolf
+                                    Gundelfinger Gundolf, Friedrich</a></li>
+                              <li><a href="pmb12551.html">
+                                    Peter
+                                    Rosegger
+                                    </a></li>
+                              <li><a href="pmb2771.html">
+                                    Egon
+                                    Friedell
+                                    Friedmann Friedell, Egon</a></li>
+                              <li><a href="pmb13173.html">
+                                    Gustav
+                                    Wyneken
+                                    </a></li>
+                              <li><a href="pmb3975.html">
+                                    Franz
+                                    Oppenheimer
+                                    https://de.wikipedia.org/wiki/Franz_Oppenheimer</a></li>
+                              <li><a href="pmb2142.html">
+                                    Gabriele
+                                    D’Annunzio
+                                    d’Annunzio, Gabriele</a></li>
+                              <li><a href="pmb11617.html">
+                                    Gerhart
+                                    Hauptmann
+                                    </a></li>
+                              <li><a href="pmb3869.html">
+                                    Ludwig von
+                                    Hofmann
+                                    </a></li>
+                              <li><a href="pmb12156.html">
+                                    Maurice
+                                    Maeterlinck
+                                    </a></li>
+                              <li><a href="pmb26435.html">
+                                    Émile
+                                    Verhaeren
+                                    </a></li>
+                              <li><a href="pmb11469.html">
+                                    Alfred
+                                    Gold
+                                    Alwin Goldeck</a></li>
+                              <li><a href="pmb3919.html">
+                                    Max von Baden
+                                    </a></li>
+                              <li><a href="pmb11049.html">
+                                    Hermann
+                                    Burte
+                                    Strübe</a></li>
+                              <li><a href="pmb3940.html">
+                                    Heinrich
+                                    Dietzel
+                                    </a></li>
+                              <li><a href="pmb3827.html">
+                                    Paul
+                                    Deussen
+                                    </a></li>
+                              <li><a href="pmb11086.html">
+                                    Houston Stewart
+                                    Chamberlain
+                                    </a></li>
+                              <li><a href="pmb3896.html">
+                                    Eugen
+                                    Kühnemann
+                                    </a></li>
+                              <li><a href="pmb23352.html">
+                                    Richter
+                                    </a></li>
+                              <li><a href="pmb11575.html">
+                                    Enrica von
+                                    Handel-Mazzetti
+                                    </a></li>
+                              <li><a href="pmb3943.html">
+                                    Kurt
+                                    Hielscher
+                                    </a></li>
+                              <li><a href="pmb13068.html">
+                                    Frank
+                                    Wedekind
+                                    </a></li>
+                              <li><a href="pmb3930.html">
+                                    Gustav
+                                    Manz
+                                    </a></li>
+                              <li><a href="pmb3839.html">
+                                    Oszkár
+                                    Jászi
+                                    </a></li>
+                              <li><a href="pmb3831.html">
+                                    Paul
+                                    Siebertz
+                                    </a></li>
+                              <li><a href="pmb11910.html">
+                                    Alfred
+                                    Kerr
+                                    Kempner Gottlieb Peter https://de.wikipedia.org/wiki/Alfred_Kerr</a></li>
+                              <li><a href="pmb12319.html">
+                                    Richard
+                                    Muther
+                                    </a></li>
+                              <li><a href="pmb12011.html">
+                                    Jaroslav
+                                    Kvapil
+                                    </a></li>
+                              <li><a href="pmb2229.html">
+                                    Willi
+                                    Handl
+                                    Siegmund Wilhelm Handel Handl, Willi</a></li>
+                              <li><a href="pmb3835.html">
+                                    Ernst
+                                    Schweninger
+                                    </a></li>
+                              <li><a href="pmb3844.html">
+                                    Wickham Henry
+                                    Steed
+                                    </a></li>
+                              <li><a href="pmb11145.html">
+                                    Ernst
+                                    Decsey
+                                    </a></li>
+                              <li><a href="pmb28499.html">
+                                    Franz
+                                    Pühringer
+                                    </a></li>
+                              <li><a href="pmb11581.html">
+                                    Maximilian
+                                    Harden
+                                    </a></li>
+                              <li><a href="pmb4238.html">
+                                    Paul
+                                    Sabatier
+                                    </a></li>
+                              <li><a href="pmb3849.html">
+                                    Johannes
+                                    Müller
+                                    </a></li>
+                              <li><a href="pmb3564.html">
+                                    Hans
+                                    Vaihinger
+                                    </a></li>
+                              <li><a href="pmb3280.html">
+                                    Koloman
+                                    Moser
+                                    Kolo</a></li>
+                              <li><a href="pmb11447.html">
+                                    Karl
+                                    Glossy
+                                    </a></li>
+                              <li><a href="pmb12548.html">
+                                    Alfred
+                                    Roller
+                                    </a></li>
+                              <li><a href="pmb2686.html">
+                                    Konrad von
+                                    Hohenlohe-Schillingsfürst
+                                    </a></li>
+                              <li><a href="pmb3573.html">
+                                    Ema
+                                    Destinová
+                                    Emma Destinn Emilie Kittl Halsbach</a></li>
+                              <li><a href="pmb13163.html">
+                                    Theodor
+                                    Wolff
+                                    http://d-nb.info/gnd/118634844 https://de.wikipedia.org/wiki/Theodor_Wolff Wolff,
+                                    Theodor http://https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37834/</a></li>
+                              <li><a href="pmb10795.html">
+                                    Ferdinand
+                                    Avenarius
+                                    </a></li>
+                              <li><a href="pmb10883.html">
+                                    Alfred von
+                                    Berger
+                                    </a></li>
+                              <li><a href="pmb10955.html">
+                                    Franz
+                                    Blei
+                                    </a></li>
+                              <li><a href="pmb2121.html">
+                                    Arthur
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb10863.html">
+                                    Richard
+                                    Beer-Hofmann
+                                    </a></li>
+                              <li><a href="pmb2167.html">
+                                    Felix
+                                    Salten
+                                    Siegmund Salzmann Salzmann, Siegmund</a></li>
+                              <li><a href="pmb10875.html">
+                                    Moriz
+                                    Benedikt
+                                    </a></li>
+                              <li><a href="pmb2202.html">
+                                    Wilhelm
+                                    Singer
+                                    </a></li>
+                              <li><a href="pmb12481.html">
+                                    Josef
+                                    Redlich
+                                    </a></li>
+                              <li><a href="pmb3576.html">
+                                    Rudolf
+                                    Freisauff von Neudegg
+                                    </a></li>
+                              <li><a href="pmb11161.html">
+                                    Eugen
+                                    Diederichs
+                                    </a></li>
+                              <li><a href="pmb3582.html">
+                                    Hermann
+                                    Kutter
+                                    </a></li>
+                              <li><a href="pmb28217.html">
+                                    Josef
+                                    Simon
+                                    </a></li>
+                              <li><a href="pmb28219.html">
+                                    Reginald John
+                                    Cambell
+                                    </a></li>
+                              <li><a href="pmb28459.html">
+                                    Johannes
+                                    Eckardt
+                                    </a></li>
+                              <li><a href="pmb3698.html">
+                                    Paul Wilhelm von
+                                    Keppler
+                                    </a></li>
+                              <li><a href="pmb28500.html">
+                                    Borello
+                                    </a></li>
+                              <li><a href="pmb3900.html">
+                                    Gottfried
+                                    Traub
+                                    </a></li>
+                              <li><a href="pmb3357.html">
+                                    Heinrich
+                                    Driesmans
+                                    </a></li>
+                              <li><a href="pmb3775.html">
+                                    Elizabeth
+                                    Duncan
+                                    </a></li>
+                              <li><a href="pmb3933.html">
+                                    Émile
+                                    Jaques-Dalcroze
+                                    </a></li>
+                              <li><a href="pmb3936.html">
+                                    Wolf
+                                    Dohrn
+                                    </a></li>
+                              <li><a href="pmb12906.html">
+                                    Bertha von
+                                    Suttner
+                                    von Kinsky</a></li>
+                              <li><a href="pmb12147.html">
+                                    Ernst
+                                    Mach
+                                    </a></li>
+                              <li><a href="pmb13027.html">
+                                    Siegfried
+                                    Wagner
+                                    </a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                           <legend>Werke</legend>
+                           <ul>
+                              <li><a href="pmb31501.html">Wiltfeber der ewige Deutsche</a></li>
+                              <li><a href="pmb30035.html">Inventur</a></li>
+                              <li><a href="pmb31115.html">Die Philosophie des Als Ob</a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
+                           <legend>Orte</legend>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <ul>
+                                    <li><a href="pmb866.html">Dresden</a></li>
+                                    <li><a href="pmb407.html">Jacquingasse</a></li>
+                                    <li><a href="pmb506.html">Hamburg</a></li>
+                                    <li><a href="pmb864.html">Leipzig</a></li>
+                                    <li><a href="pmb913.html">Bonn</a></li>
+                                    <li><a href="pmb907.html">Kiel</a></li>
+                                    <li><a href="pmb677.html">Breslau</a></li>
+                                    <li><a href="pmb49108.html">Krietern</a></li>
+                                    <li><a href="pmb876.html">Jena</a></li>
+                                    <li><a href="pmb409.html">Stargard</a></li>
+                                    <li><a href="pmb406.html">Kollergasse</a></li>
+                                    <li><a href="pmb43471.html">Budapest</a></li>
+                                    <li><a href="pmb140.html">Halle an der Saale</a></li>
+                                    <li><a href="pmb339.html">Mittelstraße</a></li>
+                                    <li><a href="pmb734.html">Bayreuth</a></li>
+                                    <li><a href="pmb49141.html">Rottenburg</a></li>
+                                    <li><a href="pmb857.html">San Domenico</a></li>
+                                    <li><a href="pmb915.html">Dortmund</a></li>
+                                    <li><a href="pmb514.html">Pariser Straße</a></li>
+                                 </ul>
+                              </div>
+                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                           </div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                
+                                                    L.marker([51,0833, 13,7666]).addTo(mymap)
+                                                    .bindPopup("<b>Dresden</b>").openPopup();
+                                                
+                                                    L.marker([48,191647173491, 16,384878329283]).addTo(mymap)
+                                                    .bindPopup("<b>Jacquingasse</b>").openPopup();
+                                                
+                                                    L.marker([53,57532, 10,01534]).addTo(mymap)
+                                                    .bindPopup("<b>Hamburg</b>").openPopup();
+                                                
+                                                    L.marker([51,33962, 12,37129]).addTo(mymap)
+                                                    .bindPopup("<b>Leipzig</b>").openPopup();
+                                                
+                                                    L.marker([50,73438, 7,09549]).addTo(mymap)
+                                                    .bindPopup("<b>Bonn</b>").openPopup();
+                                                
+                                                    L.marker([54,32133, 10,13489]).addTo(mymap)
+                                                    .bindPopup("<b>Kiel</b>").openPopup();
+                                                
+                                                    L.marker([51,10773, 17,03533]).addTo(mymap)
+                                                    .bindPopup("<b>Breslau</b>").openPopup();
+                                                
+                                                    L.marker([51,07845, 17,05336]).addTo(mymap)
+                                                    .bindPopup("<b>Krietern</b>").openPopup();
+                                                
+                                                    L.marker([50,93194, 11,59056]).addTo(mymap)
+                                                    .bindPopup("<b>Jena</b>").openPopup();
+                                                
+                                                    L.marker([53,33672, 15,0499]).addTo(mymap)
+                                                    .bindPopup("<b>Stargard</b>").openPopup();
+                                                
+                                                    L.marker([48,208012748292, 16,390200133416]).addTo(mymap)
+                                                    .bindPopup("<b>Kollergasse</b>").openPopup();
+                                                
+                                                    L.marker([47,49835, 19,04045]).addTo(mymap)
+                                                    .bindPopup("<b>Budapest</b>").openPopup();
+                                                
+                                                    L.marker([51,48158, 11,97947]).addTo(mymap)
+                                                    .bindPopup("<b>Halle an der Saale</b>").openPopup();
+                                                
+                                                    L.marker([47,35808, 8,5516]).addTo(mymap)
+                                                    .bindPopup("<b>Mittelstraße</b>").openPopup();
+                                                
+                                                    L.marker([49,94782, 11,57893]).addTo(mymap)
+                                                    .bindPopup("<b>Bayreuth</b>").openPopup();
+                                                
+                                                    L.marker([48,47629, 8,93528]).addTo(mymap)
+                                                    .bindPopup("<b>Rottenburg</b>").openPopup();
+                                                
+                                                    L.marker([43,801177, 11,28592]).addTo(mymap)
+                                                    .bindPopup("<b>San Domenico</b>").openPopup();
+                                                
+                                                    L.marker([51,52444, 7,47389]).addTo(mymap)
+                                                    .bindPopup("<b>Dortmund</b>").openPopup();
+                                                
+                                                    L.marker([52,49847, 13,31732]).addTo(mymap)
+                                                    .bindPopup("<b>Pariser Straße</b>").openPopup();
+                                                </script></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
+                  </div>
+                  <div class="modal-body">
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, , https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-06-25), PID: . 
+                     </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29710">
-            <div class="modal-dialog" role="document">
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">The Christian Commonwealth</h5>
+                     <h3>Faksimile</h3>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29710https://pmb.acdh.oeaw.ac.at/entity/29710">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29710https://pmb.acdh.oeaw.ac.at/entity/29710</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
+                     <div id="openseadragon-photo" style="height: 850px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            ]
+                                        });
+                                    </script></div>
+                  <div class="modal-footer" style="justify-content: flex-start;">
+                     <ul style="list-style-type: none;"></ul>
                   </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29690">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Gideon Carl Sarasin</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29690https://pmb.acdh.oeaw.ac.at/entity/29690">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29690https://pmb.acdh.oeaw.ac.at/entity/29690</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29691">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Tägliche Rundschau</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="http://sws.geonames.org/2950159/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168https://d-nb.info/gnd/4005728-8https://pmb.acdh.oeaw.ac.at/entity/168https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168https://pmb.acdh.oeaw.ac.at/entity/53430/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29691https://pmb.acdh.oeaw.ac.at/entity/29691">http://sws.geonames.org/2950159/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168https://d-nb.info/gnd/4005728-8https://pmb.acdh.oeaw.ac.at/entity/168https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168https://pmb.acdh.oeaw.ac.at/entity/53430/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29691https://pmb.acdh.oeaw.ac.at/entity/29691</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29791">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Vaterland</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29791https://pmb.acdh.oeaw.ac.at/entity/29791">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29791https://pmb.acdh.oeaw.ac.at/entity/29791</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29765">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Soziologische Gesellschaft</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://www.wikidata.org/wiki/Q1781http://sws.geonames.org/3054638/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb464https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43471/https://sws.geonames.org/3054643/https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43797/https://d-nb.info/gnd/4008684-7https://pmb.acdh.oeaw.ac.at/entity/43471https://pmb.acdh.oeaw.ac.at/entity/43797https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29765https://pmb.acdh.oeaw.ac.at/entity/29765">https://www.wikidata.org/wiki/Q1781http://sws.geonames.org/3054638/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb464https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43471/https://sws.geonames.org/3054643/https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43797/https://d-nb.info/gnd/4008684-7https://pmb.acdh.oeaw.ac.at/entity/43471https://pmb.acdh.oeaw.ac.at/entity/43797https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb43471https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29765https://pmb.acdh.oeaw.ac.at/entity/29765</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29792">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">The Times</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://sws.geonames.org/2643743/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb224https://pmb.acdh.oeaw.ac.at/entity/224https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb224https://pmb.acdh.oeaw.ac.at/entity/62748/https://d-nb.info/gnd/4074335-4https://pmb.acdh.oeaw.ac.at/entity/64147/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29792https://pmb.acdh.oeaw.ac.at/entity/29792">https://sws.geonames.org/2643743/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb224https://pmb.acdh.oeaw.ac.at/entity/224https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb224https://pmb.acdh.oeaw.ac.at/entity/62748/https://d-nb.info/gnd/4074335-4https://pmb.acdh.oeaw.ac.at/entity/64147/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29792https://pmb.acdh.oeaw.ac.at/entity/29792</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29658">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Corriere della sera</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://www.wikidata.org/wiki/Q490http://sws.geonames.org/3173435/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb886https://pmb.acdh.oeaw.ac.at/entity/886https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb886https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29658https://pmb.acdh.oeaw.ac.at/entity/29658">https://www.wikidata.org/wiki/Q490http://sws.geonames.org/3173435/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb886https://pmb.acdh.oeaw.ac.at/entity/886https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb886https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29658https://pmb.acdh.oeaw.ac.at/entity/29658</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29656">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Salzburger Chronik</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="http://sws.geonames.org/2766818/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30https://pmb.acdh.oeaw.ac.at/entity/30https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29656https://pmb.acdh.oeaw.ac.at/entity/29656">http://sws.geonames.org/2766818/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30https://pmb.acdh.oeaw.ac.at/entity/30https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb30https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29656https://pmb.acdh.oeaw.ac.at/entity/29656</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
@@ -2919,36 +3282,6 @@
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31501">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Wiltfeber der ewige Deutsche <a href="pmb31501.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb30035">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Inventur <a href="pmb30035.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31115">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Die Philosophie des Als Ob <a href="pmb31115.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
@@ -2993,7 +3326,7 @@
                               <p style="margin-bottom:0 !important;">Social: </p>
                            </div>
                            <div class="row">
-                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
                            </div>
                         </div>
@@ -3002,6 +3335,12 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
+                        } 
+                    </script></div>
    </body>
 </html>

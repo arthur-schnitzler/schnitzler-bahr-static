@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler an Hermann Bahr, 23. 3. 1897</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1897-03-23</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <sender>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1897-03-23" n="01">23. 3. 1897</date>
@@ -86,7 +87,7 @@
                      <date when="1897-03-23">23. 3. 1897</date>
                   </analytic>
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint>
@@ -122,13 +123,29 @@
       <body>
          <div type="writingSession" n="1">
             <p>
-               <salute>Lieber Hermann, </salute>wie kann ich dir den Titel sagen, wenn ich noch nicht weiss was ich lese? Das zu entscheiden kommen wir ja morgen zusammen. Wahrscheinlich eine <anchor type="commentary" xml:id="KL012-5">
-                  <rs type="work" subtype="implied" ref="#pmb29831">Novellette</rs>
-               </anchor>, die ich vorgestern zu Ende geschrieben,<pb/> vielleicht <anchor type="commentary" xml:id="KL012-6">
-                  <rs type="work" subtype="implied" ref="#pmb29833">eine, die morgen fertig wird</rs>
-               </anchor> – am Ende was ganz anderes. Es ist nemlich zu bedenken dss du, <rs type="person" ref="#pmb11701">Hirschfeld</rs> und ich Novelletten lesen, (<rs type="person" ref="#pmb11740">Hugo</rs> wirkt nicht mit) – dass also das Programm von einer beispiellosen Langwei<pb/>ligkeit sein wird. Meine Hoffnung ist, dss uns morgen Abend doch noch was gescheidtes einfällt. – <rs type="person" ref="#pmb11701">Hirschfelds</rs> Geschichte heißt, »<anchor type="commentary" xml:id="KL012-4">
-                  <rs type="work" ref="#pmb29835">Bei beiden</rs>
-               </anchor>.« Von mir kannst du sagen, dass ich eine ungedruckte Novellette vorlesen werde. Wenn das Programm Freitag gedruckt wird, ist Zeit genug, meiner Ansicht nach. Sterben<pb/> sterb’ <damage agent="hole">
+               <salute>Lieber Hermann, </salute>wie kann ich dir den Titel sagen, wenn ich noch nicht weiss was ich lese? Das zu entscheiden kommen wir ja morgen zusammen. Wahrscheinlich eine <anchor type="commentary" xml:id="KL012-5"/>
+               <rs type="work" subtype="implied" ref="#pmb29831">Novellette</rs>
+               <note type="commentary" xml:id="KL012-5h">
+                  <p>
+                     <rs type="work" ref="#pmb29831">Der Ehrentag</rs> (Erstdruck <bibl >
+                        <rs type="org" ref="#pmb29376">Die Romanwelt</rs>, Jg. 5 (<date >1897/1898</date>),
+                  H. 16, <date >[15.] 1. 1898</date>, S. 507–516</bibl>).</p>
+               </note>, die ich vorgestern zu Ende geschrieben,<pb/> vielleicht <anchor type="commentary" xml:id="KL012-6"/>
+               <rs type="work" subtype="implied" ref="#pmb29833">eine, die morgen fertig wird</rs>
+               <note type="commentary" xml:id="KL012-6h">
+                  <p>
+                     <rs type="work" ref="#pmb29833">Die Toten schweigen</rs> (<bibl >Erstdruck in: <rs type="org" ref="#pmb29206">Cosmopolis</rs>, Jg. 2, Bd. 8, Nr. 22, <date >1. 10.
+                     1897</date>, S. 193–211</bibl>).</p>
+               </note> – am Ende was ganz anderes. Es ist nemlich zu bedenken dss du, <rs type="person" ref="#pmb11701">Hirschfeld</rs> und ich Novelletten lesen, (<rs type="person" ref="#pmb11740">Hugo</rs> wirkt nicht mit) – dass also das Programm von einer beispiellosen Langwei<pb/>ligkeit sein wird. Meine Hoffnung ist, dss uns morgen Abend doch noch was gescheidtes einfällt. – <rs type="person" ref="#pmb11701">Hirschfelds</rs> Geschichte heißt, »<anchor type="commentary" xml:id="KL012-4"/>
+               <rs type="work" ref="#pmb29835">Bei beiden</rs>
+               <note type="commentary" xml:id="KL012-4h">
+                  <p>
+                     <bibl >Erstdruck in: <rs type="org" ref="#pmb29212">Neue Deutsche Rundschau</rs>,
+                  Jg. 5, H. 10, <date >1. 10. 1894</date>, S. 919–927</bibl>, <bibl >Erstausgabe in
+                     <rs type="work" ref="#pmb30061">Dämon Kleist. Novellen</rs>. Berlin: <rs type="org" ref="#pmb29639">S. Fischer</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1895</date>, S. 152–179</bibl>.</p>
+               </note>.« Von mir kannst du sagen, dass ich eine ungedruckte Novellette vorlesen werde. Wenn das Programm Freitag gedruckt wird, ist Zeit genug, meiner Ansicht nach. Sterben<pb/> sterb’ <damage agent="hole">
                   <supplied>ich</supplied>
                </damage>, aber hetzen l<damage agent="hole">
                   <supplied>a</supplied>
@@ -139,11 +156,33 @@
                <p>
                   <date>23. 3. 97.</date>
                </p>
-               <p>Der <anchor type="commentary" xml:id="KL012-1">Donnerstag Notiz</anchor> wäre jedenfalls mehr Geschmack zu wünschen als <anchor type="commentary" xml:id="KL012-2">
-                     <rs type="work" subtype="implied" ref="#pmb31385">die von Sonntag</rs>
-                  </anchor> verrieth. Wir sind ja nicht Mitglieder des Vereins »<rs type="org" ref="#pmb29213">Gemütliche Harmonie</rs>«, dass man uns durch <anchor type="commentary" xml:id="KL012-3">
-                     <hi rend="latintype">Epitheta</hi>
-                  </anchor> erklären muss.</p>
+               <p>Der <anchor type="commentary" xml:id="KL012-1"/>Donnerstag Notiz<note type="commentary" xml:id="KL012-1h">
+                     <p>Nicht nachgewiesen.</p>
+                  </note> wäre jedenfalls mehr Geschmack zu wünschen als <anchor type="commentary" xml:id="KL012-2"/>
+                  <rs type="work" subtype="implied" ref="#pmb31385">die von Sonntag</rs>
+                  <note type="commentary" xml:id="KL012-2h">
+                     <p>
+                        <bibl >
+                           <rs type="work" ref="#pmb31385"/>Etwa in: <rs type="org" ref="#pmb29351">Neue
+                     Freie Presse</rs>, <date >21. 3. 1897</date>, S. 9</bibl>: »<quote>– Am Sonntag
+                  den <date >28. d.</date>, Abends, findet im <rs type="place" ref="#pmb4">Bösendorfer-Saale</rs> eine Vorlesung statt, die von vier der bekanntesten
+                  Vertreter jungdeutscher Literatur zu wohlthätigem Zwecke veranstaltet wird. Am
+                  Vorlesertische werden erscheinen als Interpreten ihrer eigenen Werke: <rs type="person" ref="#pmb10815">Hermann <hi rend="spaced_out">Bahr</hi>
+                           </rs>, der erst jüngst anläßlich der Aufführung seines ›<rs type="work" ref="#pmb29829">Tschaperl</rs>‹ so vielbesprochene Führer Jung-<rs type="place" ref="#pmb50">Wien</rs>s; <rs type="person" ref="#pmb2121">Arthur <hi rend="spaced_out">Schnitzler</hi>
+                           </rs>, der Verfasser der ›<rs type="work" ref="#pmb29917">Liebelei</rs>‹; <rs type="person" ref="#pmb11740">Hugo <hi rend="spaced_out">v. Hoffmannsthal</hi>
+                           </rs> (<rs type="person" ref="#pmb11740">Loris</rs>), ein interessantes Talent des
+                  modernen <rs type="place" ref="#pmb41240">Oesterreich</rs>, und <rs type="person" ref="#pmb11701">Georg <hi rend="spaced_out">Hirschfeld</hi>
+                           </rs>, dessen ›<rs type="work" ref="#pmb31737">Mütter</rs>‹ vor Kurzem am <rs type="place" ref="#pmb20">Deutschen Volkstheater</rs> einen Sensations-Erfolg
+                  errangen. Bürgen schon die Namen der Vorleser für den interessanten Verlauf des
+                  Abends, so noch mehr der Umstand, daß die vier Herren fast durchwegs neue oder
+                  mindestens für <rs type="place" ref="#pmb50">Wien</rs> neue Dichtungen zum
+                  Vortrage bringen werden. Der Kartenverkauf für diesen originellen literarischen
+                  Abend findet bei <rs type="place" ref="#pmb4">Bösendorfer</rs> statt.</quote>«</p>
+                  </note> verrieth. Wir sind ja nicht Mitglieder des Vereins »<rs type="org" ref="#pmb29213">Gemütliche Harmonie</rs>«, dass man uns durch <anchor type="commentary" xml:id="KL012-3"/>
+                  <hi rend="latintype">Epitheta</hi>
+                  <note type="commentary" xml:id="KL012-3h">
+                     <p>Schmückende Beiworte.</p>
+                  </note> erklären muss.</p>
             </postscript>
          </div>
       </body>
@@ -157,7 +196,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -166,7 +205,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -174,8 +213,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -189,7 +228,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -198,7 +237,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -206,8 +245,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -222,7 +261,7 @@
             </persName>
             <birth>
                <date when="1873-02-11">11.02.1873</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -231,7 +270,7 @@
             </birth>
             <death>
                <date when="1942-01-17">17.01.1942</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -239,7 +278,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16222</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/101708122</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11701</idno>
@@ -257,7 +296,7 @@
             <persName type="namensvariante">Hofmannsthal, Hugo</persName>
             <birth>
                <date when="1874-02-01">01.02.1874</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -266,7 +305,7 @@
             </birth>
             <death>
                <date when="1929-07-15">15.07.1929</date>
-               <settlement ref="pmb173">
+               <settlement ref="#pmb173">
                   <placeName type="pref">Rodaun</placeName>
                   <location>
                      <geo>48,132793312328 16,256152195922</geo>
@@ -274,7 +313,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
@@ -286,7 +325,7 @@
          <bibl xml:id="pmb29831">
             <title>Der Ehrentag</title>
             <note type="bibliografische_angabe">Die Romanwelt, Jg. 5, H. 16, [15.] 1. 1898</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1898-01-15">15.01.1898</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.11</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1193069</idno>
@@ -299,7 +338,7 @@
          <bibl xml:id="pmb29833">
             <title>Die Toten schweigen</title>
             <note type="bibliografische_angabe">Cosmopolis, Bd. 8, H. 22, Oktober 1897, S. 193–211</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1897-10-01">01.10.1897</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.29</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1216835</idno>
@@ -313,7 +352,7 @@
          <bibl xml:id="pmb29835">
             <title>Bei Beiden</title>
             <note type="bibliografische_angabe">Neue Deutsche Rundschau, Jg. 5, H. 10, 1. 10. 1894</note>
-            <author ref="pmbperson__11701" role="hat-geschaffen">Hirschfeld, Georg</author>
+            <author ref="#pmbperson__11701" role="hat-geschaffen">Hirschfeld, Georg</author>
             <date notBefore="1894-01-01" when="1894-07-02">1894</date>
             <idno type="URL" subtype="babel">https://babel.hathitrust.org/cgi/pt?id=coo.31924069263006;view=1up;seq=277</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29835</idno>
@@ -353,7 +392,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -375,7 +414,7 @@
             <desc type="entity_type">Verein &gt;&gt; Wohltätigkeitsverein</desc>
             <desc type="entity_type_id">978</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>

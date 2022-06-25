@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:foo="whateverWorksForMe" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
+      <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -33,7 +34,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="card">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2">
@@ -41,37 +42,129 @@
                      </div>
                      <div class="col-md-8">
                         <h1 align="center">Tagebuch von Arthur Schnitzler, 2. 11. 1909</h1>
-                        <h3 align="center"><a href="D041531.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2" style="text-align:right">
                         <h1><a href="D041532.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
                      </div>
                   </div>
                </div>
-               <div class="card-body">
+               <div class="card-body-tagebuch" data-index="true">
                   
-                  <div id="div__11">
+                  <div class="div">
                      
-                     <p id="p__4">
-                        2/11 Vm. dictirt Briefe, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30203">Bernhardi</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30213">Hirtenflöte</a></span>, »Tagebuch«.</p>
+                     <div class="editionText">
+                        2/11 Vm. dictirt Briefe, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30203">Bernhardi</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30213">Hirtenflöte</a></span>, »Tagebuch«.</div>
                      
-                     <p id="p__7">Nm. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30203">Bernhardi</a></span> weiter, und entschlossen, ihn vorläufig liegen zu lassen. Eine Fassung in 3 Akten
+                     <div class="editionText">Nm. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30203">Bernhardi</a></span> weiter, und entschlossen, ihn vorläufig liegen zu lassen. Eine Fassung in 3 Akten
                         überlegt. Unfähigkeit gesammelt zu arbeiten – mein ganzes Leben hätt ein andres Gesicht,
                         wär das Ohrenleiden nicht. Ich sprach davon zu <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2173">O.</a></span>, und es kamen Stunden der dumpfesten Verzweiflung, auch für sie zu meiner Qual,–
                         und Thränen, die nicht lösten. Wir spielten dann »zur Zerstreuung« etwas Domino, später
                         las ich im 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32179">Roman der »Zwölf«</a></span>
-                         (Autoren ) der traurig mißlungen ist.</p>
+                        <a name="fna_1" href="#fn1" title="Der Roman der XII. Berlin: K. W. Mecklenburg 1909 . Von Bahr (3. Kapitel), Otto Julius Bierbaum, Otto Ernst, Herbert Eulenberg, Hanns Heinz Ewers, Gustav Falke, Georg Hirschfeld, Felix Holländer, Gustav Meyrink, Gabriele Reuter, Olga Wohlbrück und Ernst von Wolzogen verfasstes Gemeinschaftswerk. Schnitzler war zuvor von Ewers und Richard Kühn zur Mitarbeit aufgefordert worden, lehnte aber ab (vgl. Briefe im DLA )."><sup>1</sup></a> (Autoren  .  .  . ) der traurig mißlungen ist.</div>
                      </div>
                   </div>
-               <div class="card-footer">
-                  <p style="text-align:center;">
-                     <div class="footnotes" id="note__16"><a name="fn1"><a href="#fna_1"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">1</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__2"><a name="fn2"><a href="#fna_2"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">2</span></a></a>Die neue Rundschau, Jg. 22, H. 9, September 1911, 1249–1273</div>
-                     <div class="footnotes" id="note__3"><a name="fn3"><a href="#fna_3"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">3</span></a></a>https://archive.org/details/neuerundschau21911franuoft/page/1248/mode/2up</div>
-                     <div class="footnotes" id="note__13"><a name="fn4"><a href="#fna_4"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">4</span></a></a>Novelle</div>
-                     <div class="footnotes" id="note__40"><a name="fn5"><a href="#fna_5"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">5</span></a></a>Roman</div>
-                  </p>
+               <div class="card-footer text-muted">
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
+                           </span></div><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="D041531.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                        </a><span class="nav-link">
+                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1909-11-02" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  <div id="registerDiv" class="d-none">
+                     <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a></div>
+                     </nav>
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                           <legend>Personen</legend>
+                           <ul>
+                              <li><a href="pmb2121.html">
+                                    Arthur
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb10815.html">
+                                    Hermann
+                                    Bahr
+                                    </a></li>
+                              <li><a href="pmb2173.html">
+                                    Olga
+                                    Schnitzler
+                                    Gussmann Dina Marius Schnitzler, Olga</a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                           <legend>Werke</legend>
+                           <ul>
+                              <li><a href="pmb30203.html">Professor Bernhardi. Komödie in fünf Akten Ärztestück Junggesellenstück</a></li>
+                              <li><a href="pmb30213.html">Die Hirtenflöte. Novelle</a></li>
+                              <li><a href="pmb32179.html">Der Roman der XII Der Roman der XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021132
+                                    Der Roman der XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021133 Der Roman der
+                                    XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021134 Der Roman der XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021135
+                                    Der Roman der XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021136 Der Roman der
+                                    XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021137 Der Roman der XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021138
+                                    Der Roman der XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021139 Der Roman der
+                                    XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021140 Der Roman der XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021141
+                                    Der Roman der XII https://schnitzler-briefe.acdh.oeaw.ac.at/A021142</a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
+                           <legend>Orte</legend>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <ul></ul>
+                              </div>
+                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                           </div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                </script></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
+                  </div>
+                  <div class="modal-body">
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, , https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-06-25), PID: . 
+                     </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h3>Faksimile</h3>
+                  </div>
+                  <div class="modal-body">
+                     <div id="openseadragon-photo" style="height: 850px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            ]
+                                        });
+                                    </script></div>
+                  <div class="modal-footer" style="justify-content: flex-start;">
+                     <ul style="list-style-type: none;"></ul>
+                  </div>
                </div>
             </div>
          </div>
@@ -129,36 +222,6 @@
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb30203">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Professor Bernhardi. Komödie in fünf Akten <a href="pmb30203.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb30213">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Die Hirtenflöte. Novelle <a href="pmb30213.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32179">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Der Roman der XII <a href="pmb32179.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
@@ -203,7 +266,7 @@
                               <p style="margin-bottom:0 !important;">Social: </p>
                            </div>
                            <div class="row">
-                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
                            </div>
                         </div>
@@ -212,6 +275,12 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
+                        } 
+                    </script></div>
    </body>
 </html>

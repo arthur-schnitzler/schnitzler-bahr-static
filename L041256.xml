@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hermann Bahr an Arthur Schnitzler, [29.] 3. 1903</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1903-03-29</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <sender>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <addressee>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1903-03-29" n="01">[29.] 3. 1903</date>
@@ -106,27 +107,57 @@
             <opener>
                <salute rend="center">Lieber Arthur,</salute>
             </opener>
-            <p>sehr gern und mit großer Freude schreibe ich über den »<rs type="work" ref="#pmb29855">Reigen</rs>« und natürlich so bald als nur irgend möglich. Wann, das weiß ich freilich nicht und bitte Dich, damit nicht irgend eine Verstimmung herauswächst, folgendes zu bedenken. Ich muß diese Woche sechs Mal ins Theater gehen und soll drei Feuilletons schreiben, »<anchor type="commentary" xml:id="KL256-3">
-                  <rs type="work" ref="#pmb30107">Die <rs type="person" ref="#pmb11201">Duse</rs>
-                  </rs>
-               </anchor>«, »<anchor type="commentary" xml:id="KL256-4">
-                  <rs type="work" ref="#pmb30109">
-                     <rs type="work" ref="#pmb30591">l’altro pericolo</rs>
-                  </rs>
-               </anchor>«, »<anchor type="commentary" xml:id="KL256-5">
-                  <rs type="work" subtype="implied" ref="#pmb30111">
-                     <rs type="work" ref="#pmb30593">Braut von Messina</rs>
-                  </rs>
-               </anchor>«, u. eigentlich auch noch eins über die »<anchor type="commentary" xml:id="KL256-6">
-                  <rs type="work" subtype="implied" ref="#pmb30113">Secession</rs>
-               </anchor>«. Du hast aber keine Ahnung, wie mich der Theaterbesuch jetzt aufregt u. wie unsinnig mich die geringste Arbeit<pb/> anstrengt. Gestern habe ich außerdem wieder einen Anfall jener Herzbeklemmungen bekommen, diesmal auch noch mit solchem Schwindel verbunden, daß ich den Nachmittag nur auf dem Sopha ausgestreckt, die Augen fest geschlossen, beide Hände auf die Schläfen gedrückt zubringen konnte, immer mit dem Gefühl, es ist ja doch alles aus und ich werde niemals mehr gesund. Unter diesen Bedingungen arbeite ich jetzt und darf daher eigentlich gar nichts versprechen, weil ich mich bei jedem Feuilleton wundere, wenn es schließlich doch fertig geworden ist.</p>
+            <p>sehr gern und mit großer Freude schreibe ich über den »<rs type="work" ref="#pmb29855">Reigen</rs>« und natürlich so bald als nur irgend möglich. Wann, das weiß ich freilich nicht und bitte Dich, damit nicht irgend eine Verstimmung herauswächst, folgendes zu bedenken. Ich muß diese Woche sechs Mal ins Theater gehen und soll drei Feuilletons schreiben, »<anchor type="commentary" xml:id="KL256-3"/>
+               <rs type="work" ref="#pmb30107">Die <rs type="person" ref="#pmb11201">Duse</rs>
+               </rs>
+               <note type="commentary" xml:id="KL256-3h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb30107">Die Duse. (Als Gast im Carl-Theater vom <date >31. März</date>
+                     bis <date >8. April 1903</date>)</rs>. In: <rs type="org" ref="#pmb29414">Neues
+                     Wiener Tagblatt</rs>, Jg. 37, Nr. 89, <date >31. 3. 1903</date>,
+               S. 1–2</bibl>.</p>
+               </note>«, »<anchor type="commentary" xml:id="KL256-4"/>
+               <rs type="work" ref="#pmb30109">
+                  <rs type="work" ref="#pmb30591">l’altro pericolo</rs>
+               </rs>
+               <note type="commentary" xml:id="KL256-4h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb30109">L’autre danger. (Komödie in vier Akten von Maurice Donnay. Zur
+                     morgigen Aufführung im Carl-Theater durch die Truppe der Duse)</rs>. In: <rs type="org" ref="#pmb29414">Neues Wiener Tagblatt</rs>, Jg. 37, Nr. 94, <date >4.
+                     4. 1903</date>, S. 1–3</bibl>.</p>
+               </note>«, »<anchor type="commentary" xml:id="KL256-5"/>
+               <rs type="work" subtype="implied" ref="#pmb30111">
+                  <rs type="work" ref="#pmb30593">Braut von Messina</rs>
+               </rs>
+               <note type="commentary" xml:id="KL256-5h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb30111">Theater und Kunst. Burgtheater [Die Braut von Messina]</rs>.
+                  In: <rs type="org" ref="#pmb29421">Österreichische Volks-Zeitung</rs>, Jg. 49,
+                  Nr. 96, <date >7. 4. 1903</date>, S. 4</bibl>.</p>
+               </note>«, u. eigentlich auch noch eins über die »<anchor type="commentary" xml:id="KL256-6"/>
+               <rs type="work" subtype="implied" ref="#pmb30113">Secession</rs>
+               <note type="commentary" xml:id="KL256-6h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb30113">Sezession. (Siebzehnte Ausstellung der Vereinigung bildender
+                     Künstler Österreichs)</rs>. In: <rs type="org" ref="#pmb29421">Österreichische
+                     Volks-Zeitung</rs>, Jg. 49, Nr. 96, <date >7. 4. 1903</date>, S. 1</bibl>.</p>
+               </note>«. Du hast aber keine Ahnung, wie mich der Theaterbesuch jetzt aufregt u. wie unsinnig mich die geringste Arbeit<pb/> anstrengt. Gestern habe ich außerdem wieder einen Anfall jener Herzbeklemmungen bekommen, diesmal auch noch mit solchem Schwindel verbunden, daß ich den Nachmittag nur auf dem Sopha ausgestreckt, die Augen fest geschlossen, beide Hände auf die Schläfen gedrückt zubringen konnte, immer mit dem Gefühl, es ist ja doch alles aus und ich werde niemals mehr gesund. Unter diesen Bedingungen arbeite ich jetzt und darf daher eigentlich gar nichts versprechen, weil ich mich bei jedem Feuilleton wundere, wenn es schließlich doch fertig geworden ist.</p>
             <p>Ferner mußt Du auch wissen, daß die Redacteure des<pb/>
                <space unit="chars" quantity="1"/>
                <rs type="org" ref="#pmb29414">Neuen Wiener Tagblatt</rs> (<rs type="person" ref="#pmb2202">Wilhelm Singer</rs> und den braven Herrn <rs type="person" ref="#pmb2947">Epstein</rs> ausgenommen) einen Bund bilden, dessen einzige Sorge es zu sein scheint, auszusinnen, was etwa geeignet wäre, mich zu ärgern, und dies mit der Behendigkeit von Affen sogleich ins Blatt zu setzen. Daß gegen Dich noch nicht eine ungeheuerliche Gemeinheit verübt worden ist, wundert mich schon lange. Geht sie vielleicht gelegentlich des »<rs type="work" ref="#pmb29855">Reigens</rs>« los, so vergiß nicht, daß sie, zwar an Dir executiert, aber Dir gar nicht zugedacht ist.</p>
             <p>Bitte, schicke mir gleich ein Exemplar des »<rs type="work" ref="#pmb29855">Reigens</rs>«. Meines ist nemlich confisciert<pb/> worden, von der Censur. Das heißt: Der Herr Hofrath <rs type="person" ref="#pmb2196">Jettel</rs> hat es sich bei mir ausleihen lassen und ich habe es niemals mehr zurückbekommen.</p>
             <p>Das Incohärente dieses Briefes mußt Du meinem Zustand vergeben. Wie ich nur Zeit habe, fahre ich zunächst zu <rs type="person" ref="#pmb12698">Julius</rs>, der einmal doch mein Herz ordentlich untersuchen muß.</p>
             <p>
-               <anchor type="commentary" xml:id="KL256-1">Freitag</anchor> war mir riesig leid, ich war bei der Steuerbehörde, die mich auch noch <anchor type="commentary" xml:id="KL256-2">sekiert</anchor>.</p>
+               <anchor type="commentary" xml:id="KL256-1"/>Freitag<note type="commentary" xml:id="KL256-1h">
+                  <p>Das heißt der verpasste Besuch vom <date >27. 3.</date>
+                  </p>
+               </note> war mir riesig leid, ich war bei der Steuerbehörde, die mich auch noch <anchor type="commentary" xml:id="KL256-2"/>sekiert<note type="commentary" xml:id="KL256-2h">
+                  <p>(öst.) sekkieren: ärgern, belästigen.</p>
+               </note>.</p>
             <closer>Herzlichst<lb/>Dein<lb/>
                <signed>Hermann</signed>
             </closer>
@@ -142,7 +173,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -151,7 +182,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -159,8 +190,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -175,7 +206,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -184,7 +215,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -192,8 +223,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -208,7 +239,7 @@
             <persName type="ehename">Marchetti</persName>
             <birth>
                <date when="1858-10-03">03.10.1858</date>
-               <settlement ref="pmb58890">
+               <settlement ref="#pmb58890">
                   <placeName type="pref">Vigevano</placeName>
                   <location>
                      <geo>45,31407 8,85437</geo>
@@ -217,7 +248,7 @@
             </birth>
             <death>
                <date when="1924-04-21">21.04.1924</date>
-               <settlement ref="pmb56126">
+               <settlement ref="#pmb56126">
                   <placeName type="pref">Pittsburgh</placeName>
                   <location>
                      <geo>40,44062 -79,99589</geo>
@@ -225,7 +256,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14574</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118681354</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11201</idno>
@@ -239,7 +270,7 @@
             </persName>
             <birth>
                <date when="1847-11-26">26.11.1847</date>
-               <settlement ref="pmb53794">
+               <settlement ref="#pmb53794">
                   <placeName type="pref">Bzenec</placeName>
                   <location>
                      <geo>48,97336 17,26685</geo>
@@ -248,7 +279,7 @@
             </birth>
             <death>
                <date when="1917-10-10">10.10.1917</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -256,8 +287,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb117">Redakteur/Redakteurin &gt;&gt; Chefredakteur/Chefredakteurin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb117">Redakteur/Redakteurin &gt;&gt; Chefredakteur/Chefredakteurin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117402834</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20141</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2202</idno>
@@ -271,7 +302,7 @@
             </persName>
             <birth>
                <date when="1844-01-01">1844</date>
-               <settlement ref="pmb51354">
+               <settlement ref="#pmb51354">
                   <placeName type="pref">Třebíč</placeName>
                   <location>
                      <geo>49,21492 15,88166</geo>
@@ -280,7 +311,7 @@
             </birth>
             <death>
                <date when="1915-01-01">1915</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -288,7 +319,7 @@
                </settlement>
             </death>
             <sex value="not-set"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/143990055</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2947</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2947</idno>
@@ -301,7 +332,7 @@
             </persName>
             <birth>
                <date when="1846-04-08">08.04.1846</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -310,7 +341,7 @@
             </birth>
             <death>
                <date when="1925-04-25">25.04.1925</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -318,9 +349,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
-            <occupation ref="pmb113">Beamter/Beamte &gt;&gt; Ministerialbeamter/Ministerialbeamte</occupation>
-            <occupation ref="pmb114">Zensor/Zensorin</occupation>
+            <occupation ref="#pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+            <occupation ref="#pmb113">Beamter/Beamte &gt;&gt; Ministerialbeamter/Ministerialbeamte</occupation>
+            <occupation ref="#pmb114">Zensor/Zensorin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1012834638</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16551</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2196</idno>
@@ -334,7 +365,7 @@
             </persName>
             <birth>
                <date when="1865-07-13">13.07.1865</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -343,7 +374,7 @@
             </birth>
             <death>
                <date when="1939-06-29">29.06.1939</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -351,7 +382,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb364">Mediziner/Medizinerin &gt;&gt; Chirurg/Chirurgin</occupation>
+            <occupation ref="#pmb364">Mediziner/Medizinerin &gt;&gt; Chirurg/Chirurgin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19827</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848693</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12698</idno>
@@ -363,7 +394,7 @@
          <bibl xml:id="pmb29855">
             <title>Reigen. Zehn Dialoge</title>
             <note type="uri_worklink">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1900-01-01">1900</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/ "Q1414190"</idno>
@@ -379,7 +410,7 @@
          <bibl xml:id="pmb30107">
             <title>Die Duse. (Als Gast im Carl-Theater vom 31. März bis 8. April 1903)</title>
             <note type="bibliografische_angabe">Neues Wiener Tagblatt, 31. 3. 1903</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1903-03-31">31.03.1903</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30107</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30107</idno>
@@ -389,7 +420,7 @@
          <bibl xml:id="pmb30109">
             <title>L’autre danger</title>
             <note type="bibliografische_angabe">Neues Wiener Tagblatt, 4. 4. 1903</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1903-04-04">04.04.1903</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30109</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30109</idno>
@@ -398,7 +429,7 @@
          </bibl>
          <bibl xml:id="pmb30591">
             <title>L’autre danger</title>
-            <author ref="pmbperson__11168" role="hat-geschaffen">Donnay, Maurice</author>
+            <author ref="#pmbperson__11168" role="hat-geschaffen">Donnay, Maurice</author>
             <date notBefore="1902-01-01" when="1902-07-02">1902</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30591</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30591</idno>
@@ -408,8 +439,8 @@
          <bibl xml:id="pmb30111">
             <title>Theater und Kunst. (Burgtheater) [Die Braut von Messina]</title>
             <note type="bibliografische_angabe">Österreichische Volks-Zeitung, 7. 4. 1903</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1903-04-07">07.04.1903</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30111</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30111</idno>
@@ -418,7 +449,7 @@
          </bibl>
          <bibl xml:id="pmb30593">
             <title>Die Braut von Messina</title>
-            <author ref="pmbperson__12654" role="hat-geschaffen">Schiller, Friedrich von</author>
+            <author ref="#pmbperson__12654" role="hat-geschaffen">Schiller, Friedrich von</author>
             <date when="1803-01-01">1803</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30593</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30593</idno>
@@ -429,7 +460,7 @@
          <bibl xml:id="pmb30113">
             <title>Sezession. (Siebzehnte Ausstellung der Vereinigung bildender Künstler Österreichs)</title>
             <note type="bibliografische_angabe">Österreichische Volks-Zeitung, 7. 4. 1903</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1903-04-07">07.04.1903</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30113</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30113</idno>
@@ -457,7 +488,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -484,7 +515,7 @@
             <desc type="entity_type">Tageszeitungsredaktion</desc>
             <desc type="entity_type_id">972</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
@@ -499,7 +530,7 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb683">Steyrerhof</placeName>
+               <placeName ref="#pmb683">Steyrerhof</placeName>
                <geo>48,21117 16,37606</geo>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb683</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/683</idno>

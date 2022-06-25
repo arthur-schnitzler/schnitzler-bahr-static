@@ -11,13 +11,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Stoffentwurf von Arthur Schnitzler zu Das Wort, [nach dem 7. 8.?] 1904</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1904-08-07</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -32,15 +33,15 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Theatermuseum, Wien</publisher>
             <idno type="HBAS-T" n="064"/>
             <availability status="free">
-               <p part="N">Copyright © 2017</p>
+               <p>Copyright © 2017</p>
             </availability>
             <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AAD-4</idno>
          </publicationStmt>
@@ -56,7 +57,7 @@
                         <idno>Schnitzler, A 196,1</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p part="N">ms. Typoskript, 1 Bl., 1 S., hs. Ergänzung in der oberen rechten Ecke »<quote>
+                        <p>ms. Typoskript, 1 Bl., 1 S., hs. Ergänzung in der oberen rechten Ecke »<quote>
                               <date>904</date>
                            </quote>«.</p>
                      </physDesc>
@@ -78,9 +79,12 @@
    <text type="manuscript">
       <body>
          <div>
-            <p part="N">
+            <p>
                <rs type="work" ref="#pmb30615"/>Ein <rs type="person" subtype="implied" ref="#pmb2147">Litterat</rs>, dem es sehr schlecht geht. Es wird eine Versammlung einberufen, um zu beraten, was für ihn zu geschehen hätte. Zu dieser Versammlung wird er selbst eingeladen. Er sitzt düster und in Gamaschen unter den Freunden. Einige reden. Verschiedene Vorschläge. Endlich erhebt sich Frau <rs type="person" subtype="implied" ref="#pmb3004">L.</rs>
-               <anchor type="textConst" xml:id="TT064-1">, hübsche</anchor> blonde Frau, und spricht ungefähr Folgendes: »Ich glaube, niemand auf der Welt kann diesen Mann lieber haben als ich. Was hat er mir alles gegeben« etz. etz. »und uns allen! Aber was hat ein solcher Mensch auf der Welt zu tun? Er ist eigentlich zu gut für die Welt.« u. s. w. Sie schliesst: »Ich finde, man soll ihm überhaupt gar nicht helfen; ich finde, er soll sterben.« Jetzt erhebt sich der <rs type="person" subtype="implied" ref="#pmb2147">Dichter</rs>, ungeheuer wild: »Dumme Gans! Ich will nicht sterben! Ich will leben! Ich will essen, ich will gesund sein,– ich will nicht schön sein!« etz.</p>
+               <anchor type="textConst" xml:id="TT064-1"/>, hübsche<note type="textConst" xml:id="TT064-1h">
+                  <p>Komma hs. mit Bleistift eingefügt. Die Kleinschreibung von »Hübsche« von den
+               Herausgebern.</p>
+               </note> blonde Frau, und spricht ungefähr Folgendes: »Ich glaube, niemand auf der Welt kann diesen Mann lieber haben als ich. Was hat er mir alles gegeben« etz. etz. »und uns allen! Aber was hat ein solcher Mensch auf der Welt zu tun? Er ist eigentlich zu gut für die Welt.« u. s. w. Sie schliesst: »Ich finde, man soll ihm überhaupt gar nicht helfen; ich finde, er soll sterben.« Jetzt erhebt sich der <rs type="person" subtype="implied" ref="#pmb2147">Dichter</rs>, ungeheuer wild: »Dumme Gans! Ich will nicht sterben! Ich will leben! Ich will essen, ich will gesund sein,– ich will nicht schön sein!« etz.</p>
          </div>
       </body>
    </text>
@@ -93,7 +97,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -102,7 +106,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -110,8 +114,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -128,7 +132,7 @@
             <persName type="pseudonym">Peter Altenberg</persName>
             <birth>
                <date when="1859-03-09">09.03.1859</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -137,7 +141,7 @@
             </birth>
             <death>
                <date when="1919-01-08">08.01.1919</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -145,7 +149,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118502255</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13162</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2147</idno>
@@ -165,7 +169,7 @@
             <persName type="legacy-name-merge">Loos, Lina</persName>
             <birth>
                <date when="1882-10-09">09.10.1882</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -174,7 +178,7 @@
             </birth>
             <death>
                <date when="1950-06-06">06.06.1950</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -182,8 +186,8 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119201046</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17678</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3004</idno>
@@ -195,7 +199,7 @@
       <listBibl>
          <bibl xml:id="pmb30615">
             <title>Das Wort. Tragikomödie in fünf Akten</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1966-01-01">1966</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.07</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q27441034</idno>

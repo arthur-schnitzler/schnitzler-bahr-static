@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:foo="whateverWorksForMe" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
+      <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -33,7 +34,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="card">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2">
@@ -41,68 +42,238 @@
                      </div>
                      <div class="col-md-8">
                         <h1 align="center">W. Fred an Hermann Bahr, 10. 2. 1904</h1>
-                        <h3 align="center"><a href="L041696.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2" style="text-align:right">
                         <h1><a href="L041697.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
                      </div>
                   </div>
                </div>
-               <div class="card-body">
+               <div class="card-body-tagebuch" data-index="true">
                   
-                  <div id="div__64">
+                  <div class="div">
                      
+                     <div class="opener">
+                        
+                        <p align="right" class="editionText">
+                           10. 2. 04.</p>
+                        
+                        <p>
+                           <div class="editionText salute">Lieber Freund,</div>
+                        </p>
+                        </div>
                      
-                     10. 2. 04.
-                     Lieber Freund,
-                     
-                     
-                     <p id="p__15">vor allem müssen Sie wirklich nach diese
-                        [m]
-                         ver<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">wien</a></span>erten <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb38096">Abbazia</a></span>? Ich meine: ist irgend ein ärztlicher Rath massgebend? Oder könnten Sie diese Baeder
+                     <div class="editionText">vor allem müssen Sie wirklich nach diese<span class="damage">
+                           m
+                           </span> ver<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">wien</a></span>erten <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb38096">Abbazia</a></span>? Ich meine: ist irgend ein ärztlicher Rath massgebend? Oder könnten Sie diese Baeder
                         vielleicht in einem schöneren, wirklich südlichen Ort, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb919">Capri</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb1010">Amalfi</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb629">Sorrent</a></span> auch haben? Dahin käme ich Ihnen bald nach. Ich könnte am 22. oder 23. hier weg und ich würde mich herzlich und ungemein freuen, mit Ihnen zu sein. Ich
                         liesse dann <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb388">Spanien</a></span> noch einmal und gienge auch mit nach <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb451">Sicilien</a></span>. Alles natürlich, wenn Ihnen angenehm. Aber auch wenn Sie bei <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb38096">Abbazia</a></span> bleiben wollen, komme ich zu Ihnen – aller Voraussicht nach – und wir können dann
                         vielleicht zusammen weiter gehen – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb966">Constantinopel</a></span> ist nichts für mich, zu teuer. Aber wohl auch nichts für Sie: zu unruhig, uncomfortabel
-                        etc.</p>
+                        etc.</div>
                      
-                     <p id="p__15">Übrigens – ich habe gestern mit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Schnitzler</a></span>, der Sie herzlich grüssen lässt–, lange gesprochen. Er meinte, ob Sie <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2216">Ornter</a></span> gefragt hätten, wie er über Wechsel eines Sanatoriums, rsp. Aufenthalts <del xmlns:tei="http://www.tei-c.org/ns/1.0">gesprochen</del> dächte, war aber im Ganzen eher geneigt, Ihr weggehen für gut zu halten. Ich freute
+                     <div class="editionText">Übrigens – ich habe gestern mit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Schnitzler</a></span>, der Sie herzlich grüssen lässt–, lange gesprochen. Er meinte, ob Sie <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2216">Ornter</a></span> gefragt hätten, wie er über Wechsel eines Sanatoriums, rsp. Aufenthalts <del xmlns:tei="http://www.tei-c.org/ns/1.0">gesprochen</del> dächte, war aber im Ganzen eher geneigt, Ihr weggehen für gut zu halten. Ich freute
                         mich aber sehr zu hören, dass Ihre schwarze Meinung über Ihren körperlichen Zustand
                         nicht nötig ist. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11740">Hofmannsthal</a></span> war, wie <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Sch.</a></span> erzält und ich Ihnen wieder sagen darf, letzte Woche bei <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2216">Orntner</a></span>, der sagte, er hätte Ihnen mit Absicht Alles mit grossem Nachdruck gesagt, um Sie sicher zu bestimmen, auszuspannen, sich zu erholen,
                         von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span> wegzugehen u. anders zu leben. Es sei aber lange nicht so ernst. Also, verzeihen
                         Sie mir die aufgedrängte Weisheit: Machen Sie sich keine argen Gedanken und schauen
-                        Sie in die Sonne zu kommen. Ich denke nur, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb38096">Abbazia</a></span> wird Sie zu sehr mit aergerlichen <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>ern zusammen führen. Mir wäre <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb40306">Italien</a></span>, für Sie und mich lieber. Die Reise ist ja von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb218">Marbach</a></span> wohl die gleiche. –</p>
+                        Sie in die Sonne zu kommen. Ich denke nur, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb38096">Abbazia</a></span> wird Sie zu sehr mit aergerlichen <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>ern zusammen führen. Mir wäre <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb40306">Italien</a></span>, für Sie und mich lieber. Die Reise ist ja von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb218">Marbach</a></span> wohl die gleiche. –</div>
                      
-                     <p id="p__18">Die Sache mit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28205">Jennerl</a></span>
-                         dachte ich mir so. An Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb20522">M.</a></span> zu schreiben, wird mir nicht möglich sein, so sehr ich Ihr Elend spüre. Sie selbst
+                     <div class="editionText">Die Sache mit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28205">Jennerl</a></span>
+                        <a name="fna_1" href="#fn1" title="Es handelt sich um Jenny Rauch, die mit Felix Dörmann liiert ist, der sich wiederum von seiner Frau Mareia scheiden lassen möchte."><sup>1</sup></a> dachte ich mir so. An Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb20522">M.</a></span> zu schreiben, wird mir nicht möglich sein, so sehr ich Ihr Elend spüre. Sie selbst
                         und später noch wer haben mir gesagt, wie sie über meine Gefühle zu ihr – am
+                         
+                        Anfang – gedacht hat. Schreibe ich jetzt, wo es sich um Scheidung handelt und sie ausserdem, wie <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2425">Felix</a></span> mir sagt, schwer hysterisch, von einem <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb20522">M</a></span>’er Professor hypnotisch behandelt wird, so kann keiner wissen, wie sich in <span class="damage">
+                           ihr
+                           </span> diese Freundschaft wieder spiegelt. Ich kann auch bei <span class="damage">
+                           I
+                           </span>hrer Gereiztheit gegen mich und uns alle, von der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2425">Felix</a></span> mir wieder sagte, nichts riskieren. Brauche selbst für meine Galle Schonzeit. Denn
+                        auch mit mir stehts nicht schön.</div>
+                     
+                     <div class="editionText">Nach <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11585">Ernst Hardt</a></span>’s Adresse werde ich frage<span class="damage">
+                           n
+                           </span> und Ihnen nächster Tage Nachricht geben. Heute ist 
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4769">Bonaparte</a></span>’s Ehrentag<a name="fna_2" href="#fn2" title="Gemeint ist die Premiere von Trebitschs Übersetzung von Shaws Der Schlachtenlenker (gemeinsam mit Schwester Beatrix)."><sup>2</sup></a>.</div>
+                     
+                     <div class="editionText">Schreiben Sie bald Ihrem<br />herzlich grüssenden treuen<br />
                         
-                        Anfang – gedacht hat. Schreibe ich jetzt, wo es sich um Scheidung handelt und sie ausserdem, wie <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2425">Felix</a></span> mir sagt, schwer hysterisch, von einem <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb20522">M</a></span>’er Professor hypnotisch behandelt wird, so kann keiner wissen, wie sich in 
-                        [ihr]
-                         diese Freundschaft wieder spiegelt. Ich kann auch bei 
-                        [I]
-                        hrer Gereiztheit gegen mich und uns alle, von der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2425">Felix</a></span> mir wieder sagte, nichts riskieren. Brauche selbst für meine Galle Schonzeit. Denn
-                        auch mit mir stehts nicht schön.</p>
-                     
-                     <p id="p__10">Nach <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11585">Ernst Hardt</a></span>’s Adresse werde ich frage
-                        [n]
-                         und Ihnen nächster Tage Nachricht geben. Heute ist 
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4769">Bonaparte</a></span>’s Ehrentag.</p>
-                     Schreiben Sie bald Ihrem<br xmlns:tei="http://www.tei-c.org/ns/1.0"></br>herzlich grüssenden treuen<br xmlns:tei="http://www.tei-c.org/ns/1.0"></br>
-                     WFred
+                        <div class="signed editionText">WFred</div>
+                        </div>
                      
                      
-                     
-                     <p id="p__6">
+                     <div class="editionText">
                         Wenn Sie sich zu <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb40306">Italien</a></span> dann eher entschlössen, wenn ich gleich mit käme, 
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">s</del>
                         S
-                        ie also abholte, dann würde ichs gerne tun.
-                        </p>
+                        ie also abholte, dann würde ichs gerne tun.<a name="fna_3" href="#fn3" title="Seitlich mit zwei senkrechten Strichen markiert."><sup>3</sup></a>
+                        </div>
                      
                      </div>
                   </div>
-               <div class="card-footer">
-                  <p style="text-align:center;"></p>
+               <div class="card-footer text-muted">
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
+                           </span></div><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="L041696.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                        </a><span class="nav-link">
+                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1904-02-10" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  <div id="registerDiv" class="d-none">
+                     <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a></div>
+                     </nav>
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                           <legend>Personen</legend>
+                           <ul>
+                              <li><a href="pmb2226.html">
+                                    W. Fred
+                                    Alfred Wechsler W. Fred http://d-nb.info/gnd/1133289797 Wechsler, Alfred</a></li>
+                              <li><a href="pmb10815.html">
+                                    Hermann
+                                    Bahr
+                                    </a></li>
+                              <li><a href="pmb2121.html">
+                                    Arthur
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb2216.html">
+                                    Norbert von
+                                    Ortner-Rodenstätt
+                                    </a></li>
+                              <li><a href="pmb11740.html">
+                                    Hugo von
+                                    Hofmannsthal
+                                    Loris Theophil Morren Hofmannsthal, Hugo</a></li>
+                              <li><a href="pmb28205.html">
+                                    Jenny
+                                    Rauch
+                                    </a></li>
+                              <li><a href="pmb20522.html">
+                                    Maria
+                                    Dörmann
+                                    Gräfin Bubna-Littitz Mareia von Bubna Jürgens Dörmann, Maria https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb28121</a></li>
+                              <li><a href="pmb2425.html">
+                                    Felix
+                                    Dörmann
+                                    Biedermann</a></li>
+                              <li><a href="pmb11585.html">
+                                    Ernst
+                                    Hardt
+                                    </a></li>
+                              <li><a href="pmb4769.html">
+                                    Napoleon
+                                    Bonaparte
+                                    Buonaparte Napoleon I., None Napoleon I.</a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                           <legend>Werke</legend>
+                           <ul></ul>
+                        </div>
+                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
+                           <legend>Orte</legend>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <ul>
+                                    <li><a href="pmb168.html">Berlin</a></li>
+                                    <li><a href="pmb218.html">Marbach am Bodensee</a></li>
+                                    <li><a href="pmb1009.html">Meierottostraße</a></li>
+                                    <li><a href="pmb50.html">Wien</a></li>
+                                    <li><a href="pmb38096.html">Opatija</a></li>
+                                    <li><a href="pmb919.html">Capri</a></li>
+                                    <li><a href="pmb1010.html">Amalfi</a></li>
+                                    <li><a href="pmb629.html">Sorrent</a></li>
+                                    <li><a href="pmb388.html">Spanien</a></li>
+                                    <li><a href="pmb451.html">Sizilien</a></li>
+                                    <li><a href="pmb966.html">Istanbul</a></li>
+                                    <li><a href="pmb40306.html">Italien</a></li>
+                                 </ul>
+                              </div>
+                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                           </div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                
+                                                    L.marker([52,52437, 13,41053]).addTo(mymap)
+                                                    .bindPopup("<b>Berlin</b>").openPopup();
+                                                
+                                                    L.marker([47,6667, 8,9]).addTo(mymap)
+                                                    .bindPopup("<b>Marbach am Bodensee</b>").openPopup();
+                                                
+                                                    L.marker([52,49806, 13,3277]).addTo(mymap)
+                                                    .bindPopup("<b>Meierottostraße</b>").openPopup();
+                                                
+                                                    L.marker([48,2066, 16,37341]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
+                                                
+                                                    L.marker([45,33771, 14,30515]).addTo(mymap)
+                                                    .bindPopup("<b>Opatija</b>").openPopup();
+                                                
+                                                    L.marker([40,55073, 14,24263]).addTo(mymap)
+                                                    .bindPopup("<b>Capri</b>").openPopup();
+                                                
+                                                    L.marker([40,6349, 14,60238]).addTo(mymap)
+                                                    .bindPopup("<b>Amalfi</b>").openPopup();
+                                                
+                                                    L.marker([40,62678, 14,37771]).addTo(mymap)
+                                                    .bindPopup("<b>Sorrent</b>").openPopup();
+                                                
+                                                    L.marker([40,0, -4,0]).addTo(mymap)
+                                                    .bindPopup("<b>Spanien</b>").openPopup();
+                                                
+                                                    L.marker([37,75, 14,25]).addTo(mymap)
+                                                    .bindPopup("<b>Sizilien</b>").openPopup();
+                                                
+                                                    L.marker([41,01384, 28,94966]).addTo(mymap)
+                                                    .bindPopup("<b>Istanbul</b>").openPopup();
+                                                
+                                                    L.marker([42,83333, 12,83333]).addTo(mymap)
+                                                    .bindPopup("<b>Italien</b>").openPopup();
+                                                </script></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
+                  </div>
+                  <div class="modal-body">
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, , https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-06-25), PID: . 
+                     </div>
+                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h3>Faksimile</h3>
+                  </div>
+                  <div class="modal-body">
+                     <div id="openseadragon-photo" style="height: 850px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            ]
+                                        });
+                                    </script></div>
+                  <div class="modal-footer" style="justify-content: flex-start;">
+                     <ul style="list-style-type: none;"></ul>
+                  </div>
                </div>
             </div>
          </div>
@@ -703,7 +874,7 @@
                               <p style="margin-bottom:0 !important;">Social: </p>
                            </div>
                            <div class="row">
-                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
                            </div>
                         </div>
@@ -712,6 +883,12 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
+                        } 
+                    </script></div>
    </body>
 </html>

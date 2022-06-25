@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 16. 6. 1894</title>
-            <author ref="pmb11740">Hofmannsthal, Hugo von</author>
+            <title type="iso-date">1894-06-16</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+               <sender>
+                  <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <addressee>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1894-06-16" n="01">16. 6. 1894</date>
@@ -79,13 +80,13 @@
                               <date when="1894-06-16">16/6 94</date>
                            </quote>«.</p>
                         <stamp n="1">
-                           <placeName ref="pmb53">Wien 3/3</placeName>
+                           <placeName ref="#pmb53">Wien 3/3</placeName>
                            <date>16. 6. 94</date>
                            <time>5–6 N</time>
                         </stamp>
                         <stamp n="2">
                            <vorgang>Bestellt</vorgang>
-                           <placeName ref="pmb59">Wien 9/3</placeName>
+                           <placeName ref="#pmb59">Wien 9/3</placeName>
                            <date>17. 6. 94</date>
                            <time>8. V</time>
                         </stamp>
@@ -96,8 +97,8 @@
             <listBibl>
                <biblStruct corresp="HvHAS">
                   <monogr>
-                     <author ref="pmb11740">Hofmannsthal, Hugo</author>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefwechsel</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -144,8 +145,16 @@
             <p>
                <salute>lieber, </salute>ich werde dem <rs type="person" ref="#pmb10815">Bahr</rs>
                <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KL433-1">das Mitgehen</anchor> ausreden.</p>
-            <p>Wenn es <hi rend="underline" n="1">unzweifelhaft</hi> hübsch ist, weder drohend noch regnerisch, erwart ich Sie um Punkt <anchor type="commentary" xml:id="KL433-3">¼ 4</anchor> unter den Arkaden der <rs type="place" ref="#pmb15">Oper</rs>, wo die <rs type="place" ref="#pmb571">Guttmann’sche <anchor type="commentary" xml:id="KL433-2">Kalienhandlung</anchor>
+               <anchor type="commentary" xml:id="KL433-1"/>das Mitgehen<note type="commentary" xml:id="KL433-1h">
+                  <p>Nach <rs type="place" ref="#pmb968">Mödling</rs> zu <rs type="person" ref="#pmb24686">Christine Schönberger</rs>, der Wirtstochter des »<rs type="place" ref="#pmb625">Goldenen Stern</rs>«. Diese dürfte in der <rs type="work" ref="#pmb29917">Liebelei</rs> porträtiert sein, <ptr target="KL496-1"/> und <bibl >Valerie
+                  Reichert-Heidt: <rs type="work">Das Urbild der Christine</rs>. In: <rs type="org">Neues Österreich</rs>, Jg. 11, Nr. 3208, <date when="1955-11-13" >13. 11.
+                     1955</date>, S. 17–18</bibl>.</p>
+               </note> ausreden.</p>
+            <p>Wenn es <hi rend="underline" n="1">unzweifelhaft</hi> hübsch ist, weder drohend noch regnerisch, erwart ich Sie um Punkt <anchor type="commentary" xml:id="KL433-3"/>¼ 4<note type="commentary" xml:id="KL433-3h">
+                  <p>15 Uhr 45.</p>
+               </note> unter den Arkaden der <rs type="place" ref="#pmb15">Oper</rs>, wo die <rs type="place" ref="#pmb571">Guttmann’sche <anchor type="commentary" xml:id="KL433-2"/>Kalienhandlung<note type="commentary" xml:id="KL433-2h">
+                     <p>Gemeint: Musikalienhandlung.</p>
+                  </note>
                </rs> ist. Recht? Dadurch ersparen wir ½ Stunde.</p>
             <closer>Ihr<lb/>
                <signed>Hugo.</signed>
@@ -165,7 +174,7 @@
             <persName type="namensvariante">Hofmannsthal, Hugo</persName>
             <birth>
                <date when="1874-02-01">01.02.1874</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -174,7 +183,7 @@
             </birth>
             <death>
                <date when="1929-07-15">15.07.1929</date>
-               <settlement ref="pmb173">
+               <settlement ref="#pmb173">
                   <placeName type="pref">Rodaun</placeName>
                   <location>
                      <geo>48,132793312328 16,256152195922</geo>
@@ -182,7 +191,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
@@ -196,7 +205,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -205,7 +214,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -213,8 +222,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -228,7 +237,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -237,7 +246,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -245,8 +254,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -275,7 +284,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -303,15 +312,15 @@
                <geo>48,19811 16,39482</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb1050">Amerikanische Gesandtschaft</placeName>
+               <placeName ref="#pmb1050">Amerikanische Gesandtschaft</placeName>
                <geo>48,19913 16,38117</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2773040/</idno>
@@ -332,7 +341,7 @@
                <geo>48,22387 16,35641</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2782729/</idno>
@@ -348,7 +357,7 @@
                <geo>48,215516628628 16,356475515829</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb59">IX., Alsergrund</placeName>
+               <placeName ref="#pmb59">IX., Alsergrund</placeName>
                <geo>48,22387 16,35641</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Frankgasse</idno>
@@ -367,7 +376,7 @@
                <geo>48,203 16,3691</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Staatsoper</idno>
@@ -383,7 +392,7 @@
                <geo>48,203133 16,369764</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb571</idno>

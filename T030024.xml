@@ -10,8 +10,9 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" ref="pmb32081">Hermann Bahr: Tagebuch. 19. September, 14. 10. 1905</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title level="a" ref="#pmb32081">Hermann Bahr: Tagebuch. 19. September, 14. 10. 1905</title>
+            <title type="iso-date">1905-10-14</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,11 +50,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="a" ref="pmb32081">Tagebuch. 19. September [1905]</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="#pmb32081">Tagebuch. 19. September [1905]</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="pmb29699">Der Weg</title>
+                     <title level="j" ref="#pmb43849">Der Weg</title>
                      <imprint>
                         <date when="1905-10-14" n="1">14. 10. 1905</date>
                      </imprint>
@@ -64,11 +65,11 @@
                </biblStruct>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="pmb32081">19. September [1905]</title>
+                     <title level="a" ref="#pmb32081">19. September [1905]</title>
                   </analytic>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="m" ref="pmb29929">Tagebuch</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="m" ref="#pmb29929">Tagebuch</title>
                      <imprint>
                         <pubPlace>Berlin</pubPlace>
                         <publisher>Paul Cassirer</publisher>
@@ -195,7 +196,15 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32081</idno>
             <note type="work_kind">Kolumne</note>
          </bibl>
-         <error type="bibl">29699</error>
+         <bibl xml:id="pmb43849">
+            <title>Der Weg. Wochenschrift für Politik und Kultur</title>
+            <author ref="pmbperson__6623" role="hat-herausgegeben">Charmatz, Richard</author>
+            <author ref="pmbperson__7805" role="hat-herausgegeben">Hertz, Friedrich Otto</author>
+            <date>1905-10-01  – 1906</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43849/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43849</idno>
+            <note type="work_kind">Publikationsorgan &gt;&gt; Zeitschrift &gt;&gt; Wochenschrift</note>
+         </bibl>
          <bibl xml:id="pmb29929">
             <title>Tagebuch [Berlin: Paul Cassirer]</title>
             <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>

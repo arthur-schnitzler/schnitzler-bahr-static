@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hermann Bahr an Arthur Schnitzler, 20. 9. 1905</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1905-09-20</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <sender>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <addressee>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1905-09-20" n="1">20. 9. 1905</date>
@@ -77,12 +78,12 @@
                      <physDesc>
                         <p>eh. Briefkarte</p>
                         <stamp n="1">
-                           <placeName ref="pmb63">Wien 13/5</placeName>
+                           <placeName ref="#pmb63">Wien 13/5</placeName>
                            <date when="1905-09-20">20. IX. 05</date>
                         </stamp>
                         <stamp n="2">
                            <vorgang>Bestellt</vorgang>
-                           <placeName ref="pmb68">Wien 18/1</placeName>
+                           <placeName ref="#pmb68">Wien 18/1</placeName>
                            <date when="1905-09-20">20 IX 05</date>
                         </stamp>
                      </physDesc>
@@ -125,7 +126,10 @@
                </dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
-            <p>Ich hab nun auch das <rs type="work" ref="#pmb29903">Zwischenspiel</rs> gelesen, mit einem sehr großen artistischen Vergnügen. Es ist eine reizende Comödie und ich finde es wunderbar, wie Du in die Form des alten <rs type="place" ref="#pmb14">Burgtheater</rs>stücks die feinste Psychologie und unsere neuesten Probleme gebracht hast. Mich stört nur manchmal der (gewiß beabsichtigte) <anchor type="commentary" xml:id="KL295-1">Cafehauston</anchor> zwischen den beiden Freunden, eine Art von philosophisch<space unit="chars" quantity="1"/>
+            <p>Ich hab nun auch das <rs type="work" ref="#pmb29903">Zwischenspiel</rs> gelesen, mit einem sehr großen artistischen Vergnügen. Es ist eine reizende Comödie und ich finde es wunderbar, wie Du in die Form des alten <rs type="place" ref="#pmb14">Burgtheater</rs>stücks die feinste Psychologie und unsere neuesten Probleme gebracht hast. Mich stört nur manchmal der (gewiß beabsichtigte) <anchor type="commentary" xml:id="KL295-1"/>Cafehauston<note type="commentary" xml:id="KL295-1h">
+                  <p>
+                     <ptr target="KT014-2"/>.</p>
+               </note> zwischen den beiden Freunden, eine Art von philosophisch<space unit="chars" quantity="1"/>
                <rs type="place" ref="#pmb50">wienerisch</rs> jüdischer Schnoddrigkeit, die in früheren Jahren mir vielleicht noch geläufiger als Dir war, aber seien wir froh, daß es vorbei ist! Mehr noch stört mich Dein <rs type="work" subtype="implied" ref="#pmb29903">Fürst</rs>. Warum mußt Du einen sich in einer heiklen Situation sehr nett benehmenden Menschen in eine Kaste versetzen, in welcher Roheit die Regel, sittlicher Takt unbekannt ist? Und wie unangenehm wird einem die Frau, die sich von so einem hofieren läßt! Aber dies alles mündlich. Könnte ich nicht nächste Woche einmal Vormittag auf ein paar Stunden zu Dir kommen? An Abenden macht sichs zu schwer. Grüß Deine <rs type="person" subtype="implied" ref="#pmb2173">Frau</rs> herzlichst! <signed>H.</signed>
             </p>
          </div>
@@ -140,7 +144,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -149,7 +153,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -157,8 +161,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -173,7 +177,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -182,7 +186,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -190,8 +194,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -208,7 +212,7 @@
             <persName type="legacy-name-merge">Schnitzler, Olga</persName>
             <birth>
                <date when="1882-01-17">17.01.1882</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -217,7 +221,7 @@
             </birth>
             <death>
                <date when="1970-01-13">13.01.1970</date>
-               <settlement ref="pmb885">
+               <settlement ref="#pmb885">
                   <placeName type="pref">Lugano</placeName>
                   <location>
                      <geo>46,01008 8,96004</geo>
@@ -225,8 +229,8 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
@@ -242,7 +246,7 @@
             <title type="arbeitstitel">Cäcilie Adams</title>
             <title type="arbeitstitel">„Nicht mehr zu dir zu gehn …“</title>
             <title type="arbeitstitel">Adagio</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date>1905-10-12  – 1905-10-12</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.35</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q245055</idno>
@@ -275,7 +279,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -298,7 +302,7 @@
                <geo>48,17547 16,29101</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2776420/</idno>
@@ -314,11 +318,11 @@
                <geo>48,23333 16,31667</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb243">Sommerhaidenweg</placeName>
+               <placeName ref="#pmb243">Sommerhaidenweg</placeName>
                <geo>48,248935842869 16,296768550115</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2762091/</idno>
@@ -335,7 +339,7 @@
                <geo>48,25 16,33306</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2780893/</idno>
@@ -354,7 +358,7 @@
                <geo>48,219883621255 16,25565018043</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb68">XVIII., Währing</placeName>
+               <placeName ref="#pmb68">XVIII., Währing</placeName>
                <geo>48,23333 16,31667</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Spöttelgasse_(18)</idno>
@@ -370,7 +374,7 @@
                <geo>48,210333 16,361139</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Burgtheater+%28Gebäude</idno>

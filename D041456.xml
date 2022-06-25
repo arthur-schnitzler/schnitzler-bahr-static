@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Aufzeichnung von Hermann Bahr, 28. 1. 1904</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1904-01-28</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -70,7 +71,7 @@
                      <biblScope unit="pp">14</biblScope>
                   </monogr>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
                      <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
                      <editor>Hg. Moritz Csáky</editor>
                      <imprint>
@@ -101,11 +102,22 @@
                <date when="1904-01-28" n="01">28.</date>
             </p>
             <p>Recht schlecht. »Schleimsuppe«, fürchterlich.</p>
-            <p>Lese <rs type="person" ref="#pmb2121">Schnitzlers</rs> »<anchor type="commentary" xml:id="KD456-2">
-                  <rs type="work" ref="#pmb29985">Einsamen Weg</rs>
-               </anchor>« und <rs type="person" ref="#pmb3557">Widmanns</rs> »<anchor type="commentary" xml:id="KD456-1">
-                  <rs type="work" ref="#pmb31121">Calabrien</rs>
-               </anchor>«.</p>
+            <p>Lese <rs type="person" ref="#pmb2121">Schnitzlers</rs> »<anchor type="commentary" xml:id="KD456-2"/>
+               <rs type="work" ref="#pmb29985">Einsamen Weg</rs>
+               <note type="commentary" xml:id="KD456-2h">
+                  <p>Fassung unklar, das Exemplar mit Widmung erhielt er erst <date >Mitte Februar</date>,
+                  <ptr target="L041685"/>.</p>
+               </note>« und <rs type="person" ref="#pmb3557">Widmanns</rs> »<anchor type="commentary" xml:id="KD456-1"/>
+               <rs type="work" ref="#pmb31121">Calabrien</rs>
+               <note type="commentary" xml:id="KD456-1h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb3557">Joseph Victor Widmann</rs>: <rs type="work" ref="#pmb31121">Calabrien – Apulien und Streifereien an den oberitalienischen
+                     Seen</rs>. Frauenfeld: <rs type="org">Huber</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1904</date>
+                     </bibl>.</p>
+               </note>«.</p>
             <p>Darf nicht baden.</p>
          </div>
       </body>
@@ -119,7 +131,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -128,7 +140,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -136,8 +148,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -152,7 +164,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -161,7 +173,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -169,8 +181,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -185,7 +197,7 @@
             <persName type="legacy-name-merge">Widmann, Josef Viktor</persName>
             <birth>
                <date when="1842-02-20">20.02.1842</date>
-               <settlement ref="pmb50515">
+               <settlement ref="#pmb50515">
                   <placeName type="pref">Brněnské Ivanovice</placeName>
                   <location>
                      <geo>49,15263 16,65562</geo>
@@ -194,7 +206,7 @@
             </birth>
             <death>
                <date when="1911-11-06">06.11.1911</date>
-               <settlement ref="pmb1223">
+               <settlement ref="#pmb1223">
                   <placeName type="pref">Bern</placeName>
                   <location>
                      <geo>46,9489 7,4638</geo>
@@ -202,8 +214,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118632302</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3557</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3557</idno>
@@ -221,7 +233,7 @@
             <title type="arbeitstitel">Die Egoisten</title>
             <title type="arbeitstitel">Einsame Wege</title>
             <title type="arbeitstitel">Wege ins Dunkle</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date notBefore="1904-01-01" when="1904-07-01">1904</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.08</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1198519</idno>
@@ -236,7 +248,7 @@
          </bibl>
          <bibl xml:id="pmb31121">
             <title>Calabrien – Apulien und Streifereien an den oberitalienischen Seen</title>
-            <author ref="pmbperson__3557" role="hat-geschaffen">Widmann, Joseph Victor</author>
+            <author ref="#pmbperson__3557" role="hat-geschaffen">Widmann, Joseph Victor</author>
             <date when="1904-01-01">1904</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31121</idno>

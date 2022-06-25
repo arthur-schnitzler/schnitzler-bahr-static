@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Brieftagebuch von Hermann Bahr, 30. 9. 1907</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1907-09-30</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -70,7 +71,7 @@
                      <biblScope unit="pp">291–292</biblScope>
                   </monogr>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
                      <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
                      <editor>Hg. Moritz Csáky</editor>
                      <imprint>
@@ -110,9 +111,12 @@
             <p>Ich tappte also dann ins Theater, schäkerte im Hof beim schönsten Sonnenschein und einer <rs type="place" ref="#pmb259">Lido</rs>hitze mit allerhand Mimen (aber keinen Miminnen, denn es war gar keine sichtbar) und ging dann zu <rs type="person" ref="#pmb12504">Reinhardt</rs>, der, wie immer, gescheit lieb und herzlich war, während ich den um ihn versammelten Dramaturgen sofort an den tief gekränkten Mienen ansah, daß sie bereits die <rs type="work" ref="#pmb30021">Nachtigall</rs> mit Erfolg gelesen haben müssen; besonders <rs type="person" ref="#pmb11752">Holländer</rs> hatte, als ich ihn fest umarmte, in seinem Lächeln<pb/> was Schnaubendes. Ich stellte mich aber furchtbar dumm, bemerkte gar nichts und war von einer bezaubernden Herzlichkeit.</p>
             <p>Dann mit <rs type="person" ref="#pmb12504">Reinhardt</rs> über <rs type="work" ref="#pmb31215">Genovefa</rs>. Probe kann ich erst Donnerstag in acht Tagen haben. Und bis dahin setz ich ihm schon den Kopf soweit zurecht, daß ich den größten Teil der Skizzen doch retten werde – hoffentlich! </p>
             <p>
-               <note type="introduction">Ankunft am <rs type="place" ref="#pmb3">Deutschen Theater</rs>.</note>Dann schlief ich in meinem unwirtlichen Gemach ein bischen, trank einen Café, sah mir dann abends zwei Akte einer alten <anchor type="commentary" xml:id="KD494-1">
-                  <rs type="work" subtype="implied" ref="#pmb32474">Posse</rs>
-               </anchor>
+               <note type="introduction">Ankunft am <rs type="place" ref="#pmb3">Deutschen Theater</rs>.</note>Dann schlief ich in meinem unwirtlichen Gemach ein bischen, trank einen Café, sah mir dann abends zwei Akte einer alten <anchor type="commentary" xml:id="KD494-1"/>
+               <rs type="work" subtype="implied" ref="#pmb32474">Posse</rs>
+               <note type="commentary" xml:id="KD494-1h">
+                  <p>
+                     <rs type="person" ref="#pmb4934">Gustav Raeder</rs>: <rs type="work" ref="#pmb32474">Robert und Bertram</rs>.</p>
+               </note>
                <pb/> an, wurde auf der Stiege von einem plötzlich über mich sinkenden Busen an der Brust getroffen, es war der von <rs type="person" ref="#pmb11791">Lucie</rs>, die mir aber, weil sie drüben »<rs type="work" ref="#pmb29917">Liebelei</rs>« zu spielen hat, gerade nur zuflüstern konnte, daß sie mich noch immer, hoffnungslos, liebt, und stürzte mich dann in den Rachen des Löwen, nemlich ins Bureau der Dramaturgen – <rs type="person" ref="#pmb11752">Holländer</rs> hat mir eben »bewegt« gestanden, daß alle über die <rs type="work" ref="#pmb30021">Nachtigall</rs> tief gekränkt und beleidigt und schwermütig<pb/> sind, was ich mit einem vortrefflich geheuchelten Erstaunen, innerlich aber mit der größten Wurstigkeit aufnahm. Mir sind alle anderen Menschen auf der Welt, außer <rs type="person" subtype="implied" ref="#pmb10818">Dir</rs>, so gleichgiltig geworden – es ist eigentlich furchtbar.</p>
             <p>Und nun denk ich an <rs type="person" subtype="implied" ref="#pmb10818">Dich</rs>, und daß heute <rs type="work" ref="#pmb31217">Iphigenie</rs> ist und ob Du meine Blumen bekommen hast und daß für mich alles andere versunken ist, was nicht Du bist, und daß ich <rs type="person" subtype="implied" ref="#pmb10818">Dich</rs> lieb hab, lieb lieb.</p>
             <p>Gute Nacht.</p>
@@ -128,7 +132,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -137,7 +141,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -145,8 +149,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -163,7 +167,7 @@
             <persName type="geburtsname_nachname">von Mildenburg</persName>
             <birth>
                <date when="1872-11-29">29.11.1872</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -172,7 +176,7 @@
             </birth>
             <death>
                <date when="1947-01-27">27.01.1947</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -180,7 +184,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13376</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118646370</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10818</idno>
@@ -195,7 +199,7 @@
             <persName type="geburtsname_nachname">Goldmann</persName>
             <birth>
                <date when="1873-09-09">09.09.1873</date>
-               <settlement ref="pmb662">
+               <settlement ref="#pmb662">
                   <placeName type="pref">Baden bei Wien</placeName>
                   <location>
                      <geo>48,00543 16,23264</geo>
@@ -204,7 +208,7 @@
             </birth>
             <death>
                <date when="1943-10-30">30.10.1943</date>
-               <settlement ref="pmb44053">
+               <settlement ref="#pmb44053">
                   <placeName type="pref">New York City</placeName>
                   <location>
                      <geo>40,71427 -74,00597</geo>
@@ -212,9 +216,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-            <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb104">Regisseur/Regisseurin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19154</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118599380</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12504</idno>
@@ -229,7 +233,7 @@
             <persName type="legacy-name-merge">Holländer, Felix</persName>
             <birth>
                <date when="1867-11-01">01.11.1867</date>
-               <settlement ref="pmb64443">
+               <settlement ref="#pmb64443">
                   <placeName type="pref">Głubczyce</placeName>
                   <location>
                      <geo>50,2042 17,831</geo>
@@ -238,7 +242,7 @@
             </birth>
             <death>
                <date when="1931-05-29">29.05.1931</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -246,10 +250,10 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-            <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
-            <occupation ref="pmb115">Dramaturg/Dramaturgin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb104">Regisseur/Regisseurin</occupation>
+            <occupation ref="#pmb115">Dramaturg/Dramaturgin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16326</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116961805</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11752</idno>
@@ -267,7 +271,7 @@
             <persName type="geburtsname_nachname">von Holwede</persName>
             <birth>
                <date when="1883-02-20">20.02.1883</date>
-               <settlement ref="pmb890">
+               <settlement ref="#pmb890">
                   <placeName type="pref">Hannover</placeName>
                   <location>
                      <geo>52,37052 9,73322</geo>
@@ -276,7 +280,7 @@
             </birth>
             <death>
                <date when="1956-10-08">08.10.1956</date>
-               <settlement ref="pmb61048">
+               <settlement ref="#pmb61048">
                   <placeName type="pref">Schmargendorf</placeName>
                   <location>
                      <geo>52,47517 13,29071</geo>
@@ -284,7 +288,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16255</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118963805</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11791</idno>
@@ -295,7 +299,7 @@
       <listBibl>
          <bibl xml:id="pmb30021">
             <title>Die gelbe Nachtigall</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date notBefore="1907-01-01" when="1907-07-02">1907</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30021</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30021</idno>
@@ -305,7 +309,7 @@
          </bibl>
          <bibl xml:id="pmb31215">
             <title>Genoveva</title>
-            <author ref="pmbperson__2404" role="hat-geschaffen">Hebbel, Friedrich</author>
+            <author ref="#pmbperson__2404" role="hat-geschaffen">Hebbel, Friedrich</author>
             <date when="1843-01-01">1843</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31215</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31215</idno>
@@ -313,7 +317,7 @@
          </bibl>
          <bibl xml:id="pmb32474">
             <title>Robert und Bertram</title>
-            <author ref="pmbperson__4934" role="hat-geschaffen">Raeder, Gustav</author>
+            <author ref="#pmbperson__4934" role="hat-geschaffen">Raeder, Gustav</author>
             <date notBefore="1856-01-01" when="1856-07-01">1856</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32474</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32474</idno>
@@ -322,7 +326,7 @@
          </bibl>
          <bibl xml:id="pmb29917">
             <title>Liebelei. Schauspiel in drei Akten</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1895-10-09">9.10.1895</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1823758</idno>
@@ -339,7 +343,7 @@
             <title>Iphigénie en Aulide</title>
             <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Iphig%C3%A9nie_en_Aulide</idno>
             <title type="namensvariante">Iphigenie in Aulis</title>
-            <author ref="pmbperson__11450" role="hat-geschaffen">Gluck, Christoph Willibald</author>
+            <author ref="#pmbperson__11450" role="hat-geschaffen">Gluck, Christoph Willibald</author>
             <date notBefore="1774-01-01" when="1774-07-02">1774</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31217</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31217</idno>
@@ -357,7 +361,7 @@
                <geo>45,38333 12,35</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb462">Venedig</placeName>
+               <placeName ref="#pmb462">Venedig</placeName>
                <geo>45,43713 12,33265</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/3174749/</idno>
@@ -373,11 +377,11 @@
                <geo>52,524444 13,382222</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb168">Berlin</placeName>
+               <placeName ref="#pmb168">Berlin</placeName>
                <geo>52,52437 13,41053</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb307">Schumannstraße</placeName>
+               <placeName ref="#pmb307">Schumannstraße</placeName>
                <geo>52,52402 13,38186</geo>
             </location>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q703955</idno>

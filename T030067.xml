@@ -11,7 +11,8 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Gedruckte Widmung in Hermann Bahr: Die tiefe Natur, 1. 12. 1906</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1906-12-01</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,11 +50,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="a" ref="pmb30007">Die tiefe Natur. Ein Akt</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="#pmb30007">Die tiefe Natur. Ein Akt</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="pmb29496">Österreichische Rundschau</title>
+                     <title level="j" ref="#pmb41555">Österreichische Rundschau</title>
                      <imprint>
                         <date when="1906-12-01">1. 12. 1906</date>
                      </imprint>
@@ -64,11 +65,11 @@
                </biblStruct>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="pmb30007">Die tiefe Natur. Ein Akt</title>
+                     <title level="a" ref="#pmb30007">Die tiefe Natur. Ein Akt</title>
                   </analytic>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="m" ref="pmb30091">Grotesken</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="m" ref="#pmb30091">Grotesken</title>
                      <imprint>
                         <pubPlace>Wien</pubPlace>
                         <publisher>C. Konegen</publisher>
@@ -167,7 +168,19 @@
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29935.html</idno>
             <note type="work_kind">Drama &gt;&gt; Einakterzyklus</note>
          </bibl>
-         <error type="bibl">29496</error>
+         <bibl xml:id="pmb41555">
+            <title>Österreichische Rundschau</title>
+            <note type="uri_worklink">https://de.wikisource.org/wiki/Zeitschriften_(Österreich)</note>
+            <author ref="pmbperson__11447" role="hat-herausgegeben">Glossy, Karl</author>
+            <author ref="pmbperson__10883" role="hat-herausgegeben">Berger, Alfred von</author>
+            <author ref="pmbperson__6638" role="hat-herausgegeben">Chlumecký, Leopold von</author>
+            <author ref="pmbperson__2527" role="hat-herausgegeben">Oppenheimer, Felix von</author>
+            <date from="1904-01-01" to="1904-12-31">1904  – 1924</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/41555/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41555</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41555</idno>
+            <note type="work_kind">Publikationsorgan &gt;&gt; Zeitschrift</note>
+         </bibl>
          <bibl xml:id="pmb30091">
             <title>Grotesken</title>
             <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>

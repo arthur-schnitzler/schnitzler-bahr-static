@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:foo="whateverWorksForMe" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
+      <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -33,7 +34,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="card">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2">
@@ -41,20 +42,19 @@
                      </div>
                      <div class="col-md-8">
                         <h1 align="center">Hermann Bahr: [Entwurf für den November-Spielplan?], [Oktober? 1918]</h1>
-                        <h3 align="center"><a href="T030089.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2" style="text-align:right"></div>
                   </div>
                </div>
-               <div class="card-body">
+               <div class="card-body-tagebuch" data-index="true">
                   
-                  <div id="div__159">
+                  <div class="div">
                      
-                     <p id="p__2">? Bezieht sich darauf, ob wirklich <abbr xmlns:tei="http://www.tei-c.org/ns/1.0" title="unclear">steht</abbr>.</p>
+                     <p align="right" class="editionText">? Bezieht sich darauf, ob wirklich <span class="unsicher">steht</span>.</p>
                      
-                     <p id="p__157">
+                     <div class="editionText">
                         
-                        <table class="table table-bordered table-striped table-condensed table-hover">
+                        <table class="table editionText">
                            <tbody>
                               
                               <tr>
@@ -64,7 +64,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31603">Weh dem der lügt</a></span>
-                                    
+                                    <a name="fna_1" href="#fn1" title="Von Grillparzer."><sup>1</sup></a>
                                     </td>
                                  </tr>
                               
@@ -84,7 +84,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31605">Garten der Jugend</a></span>
-                                    
+                                    <a name="fna_2" href="#fn2" title="Von Thaddäus Rittner."><sup>2</sup></a>
                                     </td>
                                  </tr>
                               
@@ -95,7 +95,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31607">Frau Suitner</a></span>
-                                    
+                                    <a name="fna_3" href="#fn3" title="Von Karl Schönherr."><sup>3</sup></a>
                                     </td>
                                  </tr>
                               
@@ -108,11 +108,11 @@
                                     <del xmlns:tei="http://www.tei-c.org/ns/1.0">
                                        
                                        <span class="linkfarbe"><a data-toggle="modal" data-target="#pmb30593">Braut von Messina</a></span>
-                                        (?)</del>
+                                       <a xmlns="http://www.w3.org/1999/xhtml" name="fna_4" href="#fn4" title="Von Schiller."><sup>4</sup></a> (?)</del>
                                     
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31669">Spinnerin am Kreuz</a></span>
-                                     (Gedächtnisvorstellg)
+                                    <a name="fna_5" href="#fn5" title="Von Franz Keim."><sup>5</sup></a> (Gedächtnisvorstellg)
                                     
                                     </td>
                                  </tr>
@@ -124,7 +124,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31609">stille Stunde</a></span>
-                                    
+                                    <a name="fna_6" href="#fn6" title="Von Georg Terramare."><sup>6</sup></a>
                                     </td>
                                  </tr>
                               
@@ -137,7 +137,7 @@
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31625">
                                           Könige
                                           </a></span>
-                                    
+                                    <a name="fna_7" href="#fn7" title="Von Hans Müller."><sup>7</sup></a>
                                     </td>
                                  </tr>
                               
@@ -150,7 +150,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31225">Medea</a></span>
-                                     (ob Probe nötig)</td>
+                                    <a name="fna_8" href="#fn8" title="Von Grillparzer."><sup>8</sup></a> (ob Probe nötig)</td>
                                  </tr>
                               
                               <tr>
@@ -160,7 +160,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31611">Fasching</a></span>
-                                    
+                                    <a name="fna_9" href="#fn9" title="Von Ferenc Molnár."><sup>9</sup></a>
                                     </td>
                                  </tr>
                               
@@ -171,7 +171,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31613">was Ihr wollt</a></span>
-                                    
+                                    <a name="fna_10" href="#fn10" title="Von Shakespeare."><sup>10</sup></a>
                                     </td>
                                  </tr>
                               
@@ -181,8 +181,8 @@
                                  
                                  <td>
                                     
-                                    <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31615 pmb32205">Raub der Sabinerinnen</a></span>
-                                    
+                                    <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31615">Raub der Sabinerinnen</a></span>
+                                    <a name="fna_11" href="#fn11" title="Von Paul und Franz von Schönthan."><sup>11</sup></a>
                                     </td>
                                  </tr>
                               
@@ -193,7 +193,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31431">Räuber</a></span>
-                                    
+                                    <a name="fna_12" href="#fn12" title="Von Schiller."><sup>12</sup></a>
                                     </td>
                                  </tr>
                               
@@ -227,7 +227,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31631">Sappho</a></span>
-                                    
+                                    <a name="fna_13" href="#fn13" title="Von Grillparzer."><sup>13</sup></a>
                                     </td>
                                  </tr>
                               
@@ -240,7 +240,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31629">Rosenkranz u. Güldenstern</a></span>
-                                     (?)</td>
+                                    <a name="fna_14" href="#fn14" title="Von Michael Klapp."><sup>14</sup></a> (?)</td>
                                  </tr>
                               
                               <tr>
@@ -250,7 +250,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31619">Hildebrand</a></span>
-                                    
+                                    <a name="fna_15" href="#fn15" title="Von Heinrich Lilienfein."><sup>15</sup></a>
                                     </td>
                                  </tr>
                               
@@ -261,7 +261,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31621">Zwillingsschwester</a></span>
-                                    
+                                    <a name="fna_16" href="#fn16" title="Von Ludwig Fulda."><sup>16</sup></a>
                                     </td>
                                  </tr>
                               
@@ -272,7 +272,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31623">König Lear</a></span>
-                                    
+                                    <a name="fna_17" href="#fn17" title="Von Shakespeare."><sup>17</sup></a>
                                     </td>
                                  </tr>
                               
@@ -303,7 +303,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31633">Ottokars Glück u Ende</a></span>
-                                    
+                                    <a name="fna_18" href="#fn18" title="Von Grillparzer."><sup>18</sup></a>
                                     </td>
                                  </tr>
                               
@@ -314,7 +314,7 @@
                                  <td>
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31607">Frau Suitner</a></span> oder 
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31635">Volk in Not</a></span>
-                                    
+                                    <a name="fna_19" href="#fn19" title="Von Karl Schönherr."><sup>19</sup></a>
                                     </td>
                                  </tr>
                               
@@ -325,7 +325,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30693">Elga</a></span>
-                                    
+                                    <a name="fna_20" href="#fn20" title="Von Gerhart Hauptmann."><sup>20</sup></a>
                                     </td>
                                  </tr>
                               
@@ -336,7 +336,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31071">Götz von Berlichingen</a></span>
-                                     (ob möglich wegen Länge)</td>
+                                    <a name="fna_21" href="#fn21" title="Von Goethe."><sup>21</sup></a> (ob möglich wegen Länge)</td>
                                  </tr>
                               
                               <tr>
@@ -346,9 +346,9 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31627">Der eingebildete Kranke</a></span>
-                                     u 
+                                    <a name="fna_22" href="#fn22" title="Von Molière."><sup>22</sup></a> u 
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30193">Mitschuldigen</a></span>
-                                    
+                                    <a name="fna_23" href="#fn23" title="Von Goethe."><sup>23</sup></a>
                                     </td>
                                  </tr>
                               
@@ -367,7 +367,7 @@
                                  <td>
                                     
                                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31593">Antigone</a></span>
-                                    
+                                    <a name="fna_24" href="#fn24" title="Von Sophokles."><sup>24</sup></a>
                                     </td>
                                  </tr>
                               
@@ -378,59 +378,199 @@
                                     </td>
                                  
                                  <td>
-                                    –„–</td>
+                                     –„–</td>
                                  </tr>
                               </tbody>
                         </table>
-                        </p>
+                        </div>
                      </div>
                   </div>
-               <div class="card-footer">
-                  <p style="text-align:center;">
-                     <div class="footnotes" id="note__6"><a name="fn1"><a href="#fna_1"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">1</span></a></a>Text</div>
-                     <div class="footnotes" id="note__13"><a name="fn2"><a href="#fna_2"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">2</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__6"><a name="fn3"><a href="#fna_3"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">3</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn4"><a href="#fna_4"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">4</span></a></a>Text</div>
-                     <div class="footnotes" id="note__8"><a name="fn5"><a href="#fna_5"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">5</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__6"><a name="fn6"><a href="#fna_6"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">6</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn7"><a href="#fna_7"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">7</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn8"><a href="#fna_8"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">8</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn9"><a href="#fna_9"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">9</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__7"><a name="fn10"><a href="#fna_10"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">10</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn11"><a href="#fna_11"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">11</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__12"><a name="fn12"><a href="#fna_12"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">12</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__8"><a name="fn13"><a href="#fna_13"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">13</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__2"><a name="fn14"><a href="#fna_14"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">14</span></a></a>https://archive.org/details/dereinsamewegsc00schngoog/</div>
-                     <div class="footnotes" id="note__20"><a name="fn15"><a href="#fna_15"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">15</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__8"><a name="fn16"><a href="#fna_16"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">16</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__6"><a name="fn17"><a href="#fna_17"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">17</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn18"><a href="#fna_18"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">18</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn19"><a href="#fna_19"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">19</span></a></a>Text</div>
-                     <div class="footnotes" id="note__8"><a name="fn20"><a href="#fna_20"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">20</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__7"><a name="fn21"><a href="#fna_21"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">21</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn22"><a href="#fna_22"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">22</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__8"><a name="fn23"><a href="#fna_23"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">23</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__8"><a name="fn24"><a href="#fna_24"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">24</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__7"><a name="fn25"><a href="#fna_25"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">25</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn26"><a href="#fna_26"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">26</span></a></a>Text</div>
-                     <div class="footnotes" id="note__17"><a name="fn27"><a href="#fna_27"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">27</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__8"><a name="fn28"><a href="#fna_28"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">28</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                  </p>
+               <div class="card-footer text-muted">
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
+                           </span></div><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="T030089.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                        </a><span class="nav-link">
+                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1918-10-01" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  <div id="registerDiv" class="d-none">
+                     <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a></div>
+                     </nav>
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                           <legend>Personen</legend>
+                           <ul>
+                              <li><a href="pmb10815.html">
+                                    Hermann
+                                    Bahr
+                                    </a></li>
+                              <li><a href="pmb11518.html">
+                                    Franz
+                                    Grillparzer
+                                    </a></li>
+                              <li><a href="pmb23452.html">
+                                    Thaddäus
+                                    Rittner
+                                    </a></li>
+                              <li><a href="pmb12749.html">
+                                    Karl
+                                    Schönherr
+                                    </a></li>
+                              <li><a href="pmb12654.html">
+                                    Friedrich von
+                                    Schiller
+                                    </a></li>
+                              <li><a href="pmb4030.html">
+                                    Franz
+                                    Keim
+                                    </a></li>
+                              <li><a href="pmb4035.html">
+                                    Georg
+                                    Terramare
+                                    Eisler von Terramare Georg Terramare Eisler-Terramare, Georg von</a></li>
+                              <li><a href="pmb12327.html">
+                                    Hans
+                                    Müller
+                                    Müller-Einigen http://d-nb.info/gnd/119054329 https://de.wikipedia.org/wiki/Hans_Müller-Einigen
+                                    Hanns</a></li>
+                              <li><a href="pmb21558.html">
+                                    Ferenc
+                                    Molnár
+                                    Molnár, Ferenc https://schnitzler-briefe.acdh.oeaw.ac.at/A004016 http://d-nb.info/gnd/118734598
+                                    Neumann</a></li>
+                              <li><a href="pmb2412.html">
+                                    William
+                                    Shakespeare
+                                    </a></li>
+                              <li><a href="pmb24705.html">
+                                    Paul von
+                                    Schönthan-Pernwald
+                                    Paul Schönthan von Pernwaldt Schönthan, Paul von https://schnitzler-briefe.acdh.oeaw.ac.at/A003409
+                                    http://d-nb.info/gnd/116889322</a></li>
+                              <li><a href="pmb24702.html">
+                                    Franz von
+                                    Schönthan-Pernwald
+                                    Franz Schönthan von Pernwaldt Schönthan, Franz von https://schnitzler-briefe.acdh.oeaw.ac.at/A004017
+                                    http://d-nb.info/gnd/116889292</a></li>
+                              <li><a href="pmb28514.html">
+                                    Michael
+                                    Klapp
+                                    </a></li>
+                              <li><a href="pmb12075.html">
+                                    Heinrich
+                                    Lilienfein
+                                    </a></li>
+                              <li><a href="pmb11391.html">
+                                    Ludwig
+                                    Fulda
+                                    https://de.wikipedia.org/wiki/Ludwig_Fulda</a></li>
+                              <li><a href="pmb11617.html">
+                                    Gerhart
+                                    Hauptmann
+                                    </a></li>
+                              <li><a href="pmb11461.html">
+                                    Johann Wolfgang von
+                                    Goethe
+                                    </a></li>
+                              <li><a href="pmb3272.html">
+                                    Molière
+                                    Jean-Baptiste Poquelin Molière Poquelin, Jean Baptiste</a></li>
+                              <li><a href="pmb2693.html">
+                                    Sophokles
+                                    </a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                           <legend>Werke</legend>
+                           <ul>
+                              <li><a href="pmb31603.html">Weh’ dem, der lügt</a></li>
+                              <li><a href="pmb29917.html">Liebelei. Schauspiel in drei Akten</a></li>
+                              <li><a href="pmb31605.html">Der Garten der Jugend</a></li>
+                              <li><a href="pmb31607.html">Frau Suitner</a></li>
+                              <li><a href="pmb30593.html">Die Braut von Messina</a></li>
+                              <li><a href="pmb31669.html">Die Spinnerin am Kreuz</a></li>
+                              <li><a href="pmb31609.html">Die stille Stunde</a></li>
+                              <li><a href="pmb31625.html">Könige</a></li>
+                              <li><a href="pmb31225.html">Medea</a></li>
+                              <li><a href="pmb31611.html">Fasching</a></li>
+                              <li><a href="pmb31613.html">Was ihr wollt</a></li>
+                              <li><a href="pmb31615.html">Der Raub der Sabinerinnen. Schwank in vier Akten Der Raub der Sabinerinnen</a></li>
+                              <li><a href="pmb31431.html">Die Räuber</a></li>
+                              <li><a href="pmb29985.html">Der einsame Weg. Schauspiel in fünf Akten Junggeselle Junggesellenstück Die Egoisten
+                                    Einsame Wege Wege ins Dunkle</a></li>
+                              <li><a href="pmb31631.html">Sappho. Trauerspiel in fünf Aufzügen</a></li>
+                              <li><a href="pmb31629.html">Rosenkranz und Güldenstern</a></li>
+                              <li><a href="pmb31619.html">Hildebrand</a></li>
+                              <li><a href="pmb31621.html">Die Zwillingsschwester</a></li>
+                              <li><a href="pmb31623.html">König Lear</a></li>
+                              <li><a href="pmb31633.html">König Ottokars Glück und Ende</a></li>
+                              <li><a href="pmb31635.html">Volk in Not. Ein deutsches Heldenlied</a></li>
+                              <li><a href="pmb30693.html">Elga</a></li>
+                              <li><a href="pmb31071.html">Götz von Berlichingen</a></li>
+                              <li><a href="pmb31627.html">Der eingebildete Kranke</a></li>
+                              <li><a href="pmb30193.html">Die Mitschuldigen</a></li>
+                              <li><a href="pmb29903.html">Zwischenspiel. Komödie in drei Akten Neue Ehe Das leichte Leben Cäcilie Adams „Nicht
+                                    mehr zu dir zu gehn …“ Adagio</a></li>
+                              <li><a href="pmb31593.html">Antigone</a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
+                           <legend>Orte</legend>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <ul></ul>
+                              </div>
+                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                           </div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                </script></div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31615 pmb32205">
+         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">
-                        Multi Modal
-                        </h5>
+                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     <li>pmb31615 pmb32205</li>
-                  </div>
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, , https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-06-25), PID: . 
+                     </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h3>Faksimile</h3>
+                  </div>
+                  <div class="modal-body">
+                     <div id="openseadragon-photo" style="height: 850px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            ]
+                                        });
+                                    </script></div>
+                  <div class="modal-footer" style="justify-content: flex-start;">
+                     <ul style="list-style-type: none;"></ul>
+                  </div>
                </div>
             </div>
          </div>
@@ -452,271 +592,325 @@
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31603">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb11518">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Weh’ dem, der lügt <a href="pmb31603.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Franz Grillparzer <a href="pmb11518.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Franz<br></br><small>Nachname</small>: Grillparzer<br></br><small>geboren</small>:  15.01.1791<br></br><small>gestorben</small>: 21.01.1872
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29917">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb23452">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Liebelei. Schauspiel in drei Akten <a href="pmb29917.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Thaddäus Rittner <a href="pmb23452.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Thaddäus<br></br><small>Nachname</small>: Rittner<br></br><small>geboren</small>:  31.05.1873<br></br><small>gestorben</small>: 19.06.1921
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31605">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb12749">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Der Garten der Jugend <a href="pmb31605.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Karl Schönherr <a href="pmb12749.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Karl<br></br><small>Nachname</small>: Schönherr<br></br><small>geboren</small>:  24.02.1867<br></br><small>gestorben</small>: 15.03.1943
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31607">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb12654">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Frau Suitner <a href="pmb31607.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Friedrich von Schiller <a href="pmb12654.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Friedrich von<br></br><small>Nachname</small>: Schiller<br></br><small>geboren</small>:  10.11.1759<br></br><small>gestorben</small>: 09.05.1805
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb30593">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb4030">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Die Braut von Messina <a href="pmb30593.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Franz Keim <a href="pmb4030.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Franz<br></br><small>Nachname</small>: Keim<br></br><small>geboren</small>:  1840<br></br><small>gestorben</small>: 1918
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31669">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb4035">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Die Spinnerin am Kreuz <a href="pmb31669.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Georg Terramare <a href="pmb4035.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Georg<br></br><small>Nachname</small>: Terramare<br></br><small>geboren</small>:  1889-12-02<br></br><small>gestorben</small>: 1948-04-04
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31609">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb12327">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Die stille Stunde <a href="pmb31609.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Hans Müller <a href="pmb12327.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Hans<br></br><small>Nachname</small>: Müller<br></br><small>geboren</small>:  25.10.1882<br></br><small>gestorben</small>: 08.03.1950
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31625">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb21558">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Könige <a href="pmb31625.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Ferenc Molnár <a href="pmb21558.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Ferenc<br></br><small>Nachname</small>: Molnár<br></br><small>geboren</small>:  12.01.1878<br></br><small>gestorben</small>: 01.04.1952
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31225">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb2412">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Medea <a href="pmb31225.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">William Shakespeare <a href="pmb2412.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  William<br></br><small>Nachname</small>: Shakespeare<br></br><small>geboren</small>:  23.4.1564?<br></br><small>gestorben</small>: 03.05.1616
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31611">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb24705">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Fasching <a href="pmb31611.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Paul von Schönthan-Pernwald <a href="pmb24705.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Paul von<br></br><small>Nachname</small>: Schönthan-Pernwald<br></br><small>geboren</small>:  19.03.1853<br></br><small>gestorben</small>: 04.08.1905
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31613">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb24702">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Was ihr wollt <a href="pmb31613.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Franz von Schönthan-Pernwald <a href="pmb24702.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Franz von<br></br><small>Nachname</small>: Schönthan-Pernwald<br></br><small>geboren</small>:  20.06.1849<br></br><small>gestorben</small>: 02.12.1913
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31615">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb28514">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Der Raub der Sabinerinnen. Schwank in vier Akten <a href="pmb31615.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Michael Klapp <a href="pmb28514.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Michael<br></br><small>Nachname</small>: Klapp<br></br><small>geboren</small>:  1834<br></br><small>gestorben</small>: 1888
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31431">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb12075">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Die Räuber <a href="pmb31431.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Heinrich Lilienfein <a href="pmb12075.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Heinrich<br></br><small>Nachname</small>: Lilienfein<br></br><small>geboren</small>:  20.11.1879<br></br><small>gestorben</small>: 20.12.1952
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29985">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb11391">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Der einsame Weg. Schauspiel in fünf Akten <a href="pmb29985.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Ludwig Fulda <a href="pmb11391.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Ludwig<br></br><small>Nachname</small>: Fulda<br></br><small>geboren</small>:  15.07.1862<br></br><small>gestorben</small>: 30.03.1939
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31631">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb11617">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Sappho. Trauerspiel in fünf Aufzügen <a href="pmb31631.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Gerhart Hauptmann <a href="pmb11617.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Gerhart<br></br><small>Nachname</small>: Hauptmann<br></br><small>geboren</small>:  15.11.1862<br></br><small>gestorben</small>: 06.06.1946
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31629">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb11461">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Rosenkranz und Güldenstern <a href="pmb31629.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Johann Wolfgang von Goethe <a href="pmb11461.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  Johann Wolfgang von<br></br><small>Nachname</small>: Goethe<br></br><small>geboren</small>:  28.08.1749<br></br><small>gestorben</small>: 22.03.1832
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31619">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb3272">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Hildebrand <a href="pmb31619.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Molière <a href="pmb3272.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  </div>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  <br></br><small>Nachname</small>: Molière<br></br><small>geboren</small>:  14.01.1622<br></br><small>gestorben</small>: 17.02.1673
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31621">
+         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb2693">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Die Zwillingsschwester <a href="pmb31621.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Sophokles <a href="pmb2693.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31623">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">König Lear <a href="pmb31623.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31633">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">König Ottokars Glück und Ende <a href="pmb31633.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31635">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Volk in Not. Ein deutsches Heldenlied <a href="pmb31635.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb30693">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Elga <a href="pmb30693.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31071">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Götz von Berlichingen <a href="pmb31071.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31627">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Der eingebildete Kranke <a href="pmb31627.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb30193">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Die Mitschuldigen <a href="pmb30193.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29903">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Zwischenspiel. Komödie in drei Akten <a href="pmb29903.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31593">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Antigone <a href="pmb31593.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                  <div class="modal-body">
+                     <div class="card-body"><small>Vorname</small>:  <br></br><small>Nachname</small>: Sophokles<br></br><small>geboren</small>:  497/496? v. u. Z.<br></br><small>gestorben</small>: 406/405 v. u. Z.
+                        <div id="mentions">
+                           <legend>erwähnt in</legend>
+                           <ul></ul>
+                        </div>
+                     </div>
                   </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
@@ -766,7 +960,7 @@
                               <p style="margin-bottom:0 !important;">Social: </p>
                            </div>
                            <div class="row">
-                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
                            </div>
                         </div>
@@ -775,6 +969,12 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
+                        } 
+                    </script></div>
    </body>
 </html>

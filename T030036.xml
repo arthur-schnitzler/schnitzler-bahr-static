@@ -10,8 +10,9 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" ref="pmb32075">Berliner Tageblatt: Hermann Bahr über Arthur Schnitzler, 14. 12. 1903</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title level="a" ref="#pmb32075">Berliner Tageblatt: Hermann Bahr über Arthur Schnitzler, 14. 12. 1903</title>
+            <title type="iso-date">1903-12-14</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,11 +50,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="a" ref="pmb32075">Hermann Bahr über Arthur Schnitzler</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="#pmb32075">Hermann Bahr über Arthur Schnitzler</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="pmb29329">Berliner Tageblatt</title>
+                     <title level="j" ref="#pmb41531">Berliner Tageblatt</title>
                      <imprint>
                         <date when="1903-12-14">14. 12. 1903</date>
                      </imprint>
@@ -80,7 +81,13 @@
             <head>Hermann Bahr über <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>.</head>
             <p part="N">Vor wenigen Wochen wurde der <rs type="org" ref="#pmb29265">akademisch-dramatische Verein</rs> in <rs type="place" ref="#pmb45258">München</rs>
                <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KT036-1">aufgelöst</anchor>, weil er einige Dialoge aus <rs type="person" ref="#pmb2121">Arthur Schnitzlers</rs> Dialogbuch »<rs type="work" ref="#pmb29855">Reigen</rs>« auf die Bühne gebracht hatte. Wir haben unsere Auffassung, daß die Aufführung dieser Szenen auch in künstlerischer Hinsicht eine Geschmacklosigkeit bedeutete, niemals verhehlt, tragen aber auch kein Bedenken, die Auflösung der immerhin verdienten literarischen Vereinigung für nutzlose Härte zu erklären.</p>
+               <anchor type="commentary" xml:id="KT036-1"/>aufgelöst<note type="commentary" xml:id="KT036-1h">
+                  <p part="N">Der Senatsbeschluss der <rs type="place" ref="#pmb1005">Münchner Universität</rs>
+               datiert vom <date>28. 11. 1903</date> (<bibl>Rainer Hartl: <rs type="work">Aufbruch
+                     zur Moderne. Naturalistisches Theater in München</rs>. München: <rs type="org">Kitzinger</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date>1975</date>, S. 88–89</bibl>).</p>
+               </note>, weil er einige Dialoge aus <rs type="person" ref="#pmb2121">Arthur Schnitzlers</rs> Dialogbuch »<rs type="work" ref="#pmb29855">Reigen</rs>« auf die Bühne gebracht hatte. Wir haben unsere Auffassung, daß die Aufführung dieser Szenen auch in künstlerischer Hinsicht eine Geschmacklosigkeit bedeutete, niemals verhehlt, tragen aber auch kein Bedenken, die Auflösung der immerhin verdienten literarischen Vereinigung für nutzlose Härte zu erklären.</p>
             <p part="N">Inzwischen sind uns aus unserem Leserkreise so viele Anfragen über das <rs type="work" subtype="implied" ref="#pmb29855">Buch</rs>
                <space unit="chars" quantity="1"/>
                <rs type="person" ref="#pmb2121">Schnitzlers</rs> zugegangen, daß es geboten erscheint, einmal ein paar Worte über das merkwürdige Werk zu sagen, damit die irrigen Ansichten, die darüber in Umlauf sind, richtig gestellt werden. Wir geben zu diesem Zwecke einige Sätze aus einer Schrift wieder, die <hi rend="spaced_out">Hermann Bahr</hi> der <rs type="org" ref="#pmb29253">Statthalterei</rs> in <rs type="place" ref="#pmb50">Wien</rs> zugehen ließ, um die ihm bisher noch verweigerte Erlaubnis zu einer Vorlesung der <rs type="person" ref="#pmb2121">Schnitzler</rs>schen Dialoge zu erhalten. Der Autor des »<rs type="work" ref="#pmb29983">Meister</rs>« schreibt:</p>
@@ -196,7 +203,15 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32075</idno>
             <note type="work_kind">Text</note>
          </bibl>
-         <error type="bibl">29329</error>
+         <bibl xml:id="pmb41531">
+            <title>Berliner Tageblatt</title>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Berliner_Tageblatt</idno>
+            <date>1872  – 1939</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/41531/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41531</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41531</idno>
+            <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
+         </bibl>
       </listBibl>
       <listPlace>
          <place xml:id="pmb45258">
@@ -228,6 +243,21 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+         </place>
+         <place xml:id="pmb1005">
+            <placeName>Ludwig-Maximilians-Universität München</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/Ludwig-Maximilians-Universität_München</placeName>
+            <desc type="entity_type">Universität (K.UNI)</desc>
+            <desc type="entity_type_id">15</desc>
+            <location type="coords">
+               <geo>48,150833 11,580278</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb45258">München</placeName>
+               <geo>48,13743 11,57549</geo>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb1005</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/1005</idno>
          </place>
          <place xml:id="pmb50">
             <placeName>Wien</placeName>

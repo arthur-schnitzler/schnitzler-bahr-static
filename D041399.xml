@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Aufzeichnung von Hermann Bahr, [vor dem 21. 6. 1897]</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1897-06-20</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -73,7 +74,7 @@
                      <biblScope unit="pp">244</biblScope>
                   </monogr>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
                      <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
                      <editor>Hg. Moritz Csáky</editor>
                      <imprint>
@@ -101,9 +102,11 @@
          <div type="writingSession" n="1">
             <p>
                <date when="1897-06-20" n="01"/>An <rs type="person" ref="#pmb11324">Fischer</rs>:<lb/>
-               <anchor type="commentary" xml:id="KD399-1">
-                  <rs type="work" ref="#pmb30965">Wie ich es sehe</rs>
-               </anchor>. <lb/>
+               <anchor type="commentary" xml:id="KD399-1"/>
+               <rs type="work" ref="#pmb30965">Wie ich es sehe</rs>
+               <note type="commentary" xml:id="KD399-1h">
+                  <p>Von <rs type="person" ref="#pmb2147">Peter Altenberg</rs>.</p>
+               </note>. <lb/>
                <rs type="work" ref="#pmb29917">Liebelei.</rs>
                <lb/>
                <rs type="work" ref="#pmb30117">Sterben.</rs>
@@ -120,7 +123,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -129,7 +132,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -137,8 +140,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -153,7 +156,7 @@
             </persName>
             <birth>
                <date when="1859-12-24">24.12.1859</date>
-               <settlement ref="pmb55962">
+               <settlement ref="#pmb55962">
                   <placeName type="pref">Liptovský Mikuláš</placeName>
                   <location>
                      <geo>49,08061 19,62218</geo>
@@ -162,7 +165,7 @@
             </birth>
             <death>
                <date when="1934-10-15">15.10.1934</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -170,7 +173,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+            <occupation ref="#pmb144">Verleger/Verlegerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15009</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118691406</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11324</idno>
@@ -181,7 +184,7 @@
       <listBibl>
          <bibl xml:id="pmb30965">
             <title>Wie ich es sehe</title>
-            <author ref="pmbperson__2147" role="hat-geschaffen">Altenberg, Peter</author>
+            <author ref="#pmbperson__2147" role="hat-geschaffen">Altenberg, Peter</author>
             <date notBefore="1896-01-01" when="1896-07-01">1896</date>
             <idno type="URL" subtype="refubium">https://refubium.fu-berlin.de/handle/fub188/20512</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30965</idno>
@@ -193,7 +196,7 @@
          </bibl>
          <bibl xml:id="pmb29917">
             <title>Liebelei. Schauspiel in drei Akten</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1895-10-09">9.10.1895</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1823758</idno>
@@ -209,7 +212,7 @@
          <bibl xml:id="pmb30117">
             <title>Sterben. Novelle</title>
             <note type="bibliografische_angabe">Neue Deutsche Rundschau, Jg. 5, H. 10–12, Oktober–Dezember 1894</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date>1.10.1894  – 1.12.1894</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.43</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q2345387</idno>

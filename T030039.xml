@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hermann Bahr: [Notizen zu Der Weg ins Freie], 7.–[12.] 6. 1908</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1908-06-07</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -71,7 +72,7 @@
                      <biblScope unit="pp">380–381</biblScope>
                   </monogr>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
                      <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
                      <editor>Hg. Moritz Csáky</editor>
                      <imprint>
@@ -114,16 +115,25 @@
             <p>–<pb/>
             </p>
             <p>
-               <anchor type="commentary" xml:id="KT039-1">
-                  <anchor type="textConst" xml:id="TT039-1">
-                     <rs type="person" ref="#pmb2121">Schnitzler</rs>: des <rs type="work" subtype="implied" ref="#pmb29923">Romans</rs> ruhig kreisende Bewegg. Wie ein Vogel, der langsam aufsteigt u. <hi rend="gabelsberger">dann</hi> in <hi rend="gabelsberger">der</hi> Luft liegen <hi rend="gabelsberger">bleibt</hi>. <unclear>»</unclear>Ich könnte <hi rend="gabelsberger">das</hi> nicht. Ich möcht <hi rend="gabelsberger">das</hi> nicht<unclear>!«</unclear>
-                     <space unit="chars" quantity="1"/>Aber es ist sehr gut, <hi rend="gabelsberger">das <unclear>es</unclear>
-                     </hi> kann u. will.</anchor>
-               </anchor>
+               <anchor type="commentary" xml:id="KT039-1"/>
+               <anchor type="textConst" xml:id="TT039-1"/>
+               <rs type="person" ref="#pmb2121">Schnitzler</rs>: des <rs type="work" subtype="implied" ref="#pmb29923">Romans</rs> ruhig kreisende Bewegg. Wie ein Vogel, der langsam aufsteigt u. <hi rend="gabelsberger">dann</hi> in <hi rend="gabelsberger">der</hi> Luft liegen <hi rend="gabelsberger">bleibt</hi>. <unclear>»</unclear>Ich könnte <hi rend="gabelsberger">das</hi> nicht. Ich möcht <hi rend="gabelsberger">das</hi> nicht<unclear>!«</unclear>
+               <space unit="chars" quantity="1"/>Aber es ist sehr gut, <hi rend="gabelsberger">das <unclear>es</unclear>
+               </hi> kann u. will.<note type="textConst" xml:id="TT039-1h">
+                  <p>Gestrichen.</p>
+               </note>
+               <note type="commentary" xml:id="KT039-1h">
+                  <p>
+                     <ptr target="KT026-1"/>.</p>
+               </note>
             </p>
             <p>–</p>
             <p>
-               <anchor type="textConst" xml:id="TT039-2">Hätte ich jemanden zu erziehen, ich würde ihm jede Stunde sagen: Lerne verehren, das ist das erste Geheimnis, aber das zweite ist, lerne keinen Respekt haben. Die wenigsten, freilich, bringen es auch nur dazu, den Unterschied zu fühlen. Respekt haben ist, <anchor type="textConst" xml:id="TT039-3">staatsbürgerlich</anchor>, bureaukratisch, bedientenhaft, aber Verehrung ist Freiheit, und vielleicht die einzige Art, sich gegenüber Gott und dem Göttlichen zu behaupten.</anchor>
+               <anchor type="textConst" xml:id="TT039-2"/>Hätte ich jemanden zu erziehen, ich würde ihm jede Stunde sagen: Lerne verehren, das ist das erste Geheimnis, aber das zweite ist, lerne keinen Respekt haben. Die wenigsten, freilich, bringen es auch nur dazu, den Unterschied zu fühlen. Respekt haben ist, <anchor type="textConst" xml:id="TT039-3"/>staatsbürgerlich<note type="textConst" xml:id="TT039-3h">
+                  <p>Textvariante: »knechtisch«.</p>
+               </note>, bureaukratisch, bedientenhaft, aber Verehrung ist Freiheit, und vielleicht die einzige Art, sich gegenüber Gott und dem Göttlichen zu behaupten.<note type="textConst" xml:id="TT039-2h">
+                  <p>Gestrichen.</p>
+               </note>
             </p>
             <p>–</p>
             <p>Die einzigen ernsten Leute sind die Studenten.</p>
@@ -152,7 +162,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -161,7 +171,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -169,8 +179,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -185,13 +195,13 @@
             </persName>
             <birth>
                <date when="1804-09-11">11.09.1804</date>
-               <settlement ref="pmb27681">
+               <settlement ref="#pmb27681">
                   <placeName type="pref">Nieder-Lindewiese</placeName>
                </settlement>
             </birth>
             <death>
                <date when="1868-05-29">29.05.1868</date>
-               <settlement ref="pmb36539">
+               <settlement ref="#pmb36539">
                   <placeName type="pref">Opava</placeName>
                   <location>
                      <geo>49,93866 17,90257</geo>
@@ -209,7 +219,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -218,7 +228,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -226,8 +236,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -238,7 +248,7 @@
       <listBibl>
          <bibl xml:id="pmb31211">
             <title>Samson und Dalila</title>
-            <author ref="pmbperson__3702" role="hat-geschaffen">Saint-Saëns, Camille</author>
+            <author ref="#pmbperson__3702" role="hat-geschaffen">Saint-Saëns, Camille</author>
             <date when="1877-01-01">1877</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31211</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31211</idno>
@@ -249,7 +259,7 @@
             <title>Der Weg ins Freie. Roman</title>
             <note type="bibliografische_angabe">Die neue Rundschau, Jg. 19, H. 1–6, Januar–Juni 1908</note>
             <title type="arbeitstitel">Die Entrüsteten</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date>1.1.1908  – 1.6.1908</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.02.18</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q700479</idno>
@@ -271,7 +281,7 @@
                <geo>48,206389 16,366111</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Hofburg</idno>
@@ -298,7 +308,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -321,7 +331,7 @@
                <geo>48,21667 16,3</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2769357/</idno>
@@ -339,7 +349,7 @@
                <geo>52,0 20,0</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb468">Europa</placeName>
+               <placeName ref="#pmb468">Europa</placeName>
                <geo>48,69096 9,14062</geo>
             </location>
             <idno type="URL" subtype="geonames">https://www.geonames.org/798544</idno>
@@ -386,7 +396,7 @@
                <geo>42,83333 12,83333</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb468">Europa</placeName>
+               <placeName ref="#pmb468">Europa</placeName>
                <geo>48,69096 9,14062</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/3175395/</idno>

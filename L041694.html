@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:foo="whateverWorksForMe" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
+      <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -33,7 +34,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="card">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2">
@@ -41,101 +42,110 @@
                      </div>
                      <div class="col-md-8">
                         <h1 align="center">Leopold von Andrian an Robert Michel, 27. 2. 1900</h1>
-                        <h3 align="center"><a href="L041694.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2" style="text-align:right">
                         <h1><a href="L041695.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
                      </div>
                   </div>
                </div>
-               <div class="card-body">
+               <div class="card-body-tagebuch" data-index="true">
                   
-                  <div id="div__10">
+                  <div class="address-div">
                      
-                     Oberlieutenant Robert Michel
-                     4tes Bosn. Regiment
-                     
-                     
-                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb999">Mostar</a></span>
-                     
-                     
-                     
-                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb1000">Herzegovina</a></span>
-                     
-                     
-                     </div>
-                  
-                  <div id="div__114">
-                     
-                     
-                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>, 27ten Febr. 1900
-                     
-                     Mein lieber Bobby,
-                     
-                     
-                     <p id="p__3">es geht nicht auf Theilnahmslosigkeit Deiner Person gegenüber oder mangelndem Interesse
-                        für Deine Producte zurück, wenn ich <del xmlns:tei="http://www.tei-c.org/ns/1.0">erst</del> Dir heute zum erstenmal im neuen Jahr schreibe.</p>
-                     
-                     <p id="p__19">Bald nach Neujahr ist Etwas vorgefallen, was meine Existenz vollständig 
-                        <del xmlns:tei="http://www.tei-c.org/ns/1.0">
+                     <div class="column">
+                        
+                        <div class="addrLine">Oberlieutenant Robert Michel</div>
+                        
+                        <div class="addrLine">4<span class="superscript">tes</span> Bosn. Regiment</div>
+                        
+                        <div class="addrLine">
                            
+                           <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb999">Mostar</a></span>
+                           
+                           </div>
+                        
+                        <div class="addrLine">
+                           <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb1000">Herzegovina</a></span>
+                           </div>
+                        </div>
+                     </div><br />
+                  
+                  <div class="div">
+                     
+                     <div class="opener">
+                        
+                        <div class="editionText">
+                           <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>, 27<span class="superscript">ten</span> Febr. 1900
+                           </div>
+                        
+                        <p>
+                           <div class="editionText salute">Mein lieber Bobby,</div>
+                        </p>
+                        </div>
+                     
+                     <div class="editionText">es geht nicht auf Theilnahmslosigkeit Deiner Person gegenüber oder mangelndem Interesse
+                        für Deine Producte zurück, wenn ich <del xmlns:tei="http://www.tei-c.org/ns/1.0">erst</del> Dir heute zum erstenmal im neuen Jahr schreibe.</div>
+                     
+                     <div class="editionText">Bald nach Neujahr ist Etwas vorgefallen, was meine Existenz vollständig 
+                        <del xmlns:tei="http://www.tei-c.org/ns/1.0">
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="illegible">××××××××××</span>
                            </del>
                         verwirrt
                          hat, ein Ereignis das mich in die größte Besorgnis gestürzt hat, mich gezwungen hat,
                         auf 4 Wochen nach
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb40306">Italien</a></span> zu gehn, und was mir wahrscheinlich sehr viel Geld kosten wird; daß es mir durch
-                        einen sogenannten Scandal d. h. ein augenblickliches allgemeines, im Munde der <abbr xmlns:tei="http://www.tei-c.org/ns/1.0" title="unclear">Leute</abbr> sein, meine <del xmlns:tei="http://www.tei-c.org/ns/1.0">Exis</del>
-                        
+                        einen sogenannten Scandal<a name="fna_1" href="#fn1" title="Näheres nicht bekannt; es könnte sich um die Gefahr der Offenlegung einer homosexuellen Handlung gehandelt haben, die mit Gefängnisstrafe bis zu fünf Jahren schwerem Kerker geahndet werden konnte."><sup>1</sup></a> d. h. ein augenblickliches allgemeines, im Munde der <span class="unsicher">Leute</span> sein, meine <del xmlns:tei="http://www.tei-c.org/ns/1.0">Exis</del>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb41240">österreichische</a></span> Existenz kosten wird, ist nicht mehr sehr wahrscheinlich. Ob es mir aber nicht <del xmlns:tei="http://www.tei-c.org/ns/1.0">meine</del>
-                        
-                        ohne Scandal den von mir ergriffenen Beruf und dadurch wohl auch includiert die Existenz in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb41240">Österreich</a></span>, unmöglich machen wird, darüber bin ich im Unklaren. </p>
+                         
+                        ohne Scandal den von mir ergriffenen Beruf und dadurch wohl auch includiert die Existenz in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb41240">Österreich</a></span>, unmöglich machen wird, darüber bin ich im Unklaren. </div>
                      
-                     <p id="p__11">
-                         Ich werde Dir, sobald wir uns sehn, Die Sache erzählen, bitte Dich aber, Niemandem gegenüber ein Wort darüber
-                        
+                     <div class="editionText">
+                         .  .  .  Ich werde Dir, sobald wir uns sehn, Die Sache erzählen, bitte Dich aber, Niemandem gegenüber ein Wort darüber
+                         
                         zu äußern, daß ich Dir diesbezüglich Etwas mitgetheilt habe. Die Angelegenheit, obwohl über das unangenehmste
                         Stadium hinaus, hat noch im Lauf der letzten Zeit, oft in sehr indirectem Zusammenhang
                         mit ihr stehende, Schritte nothwendig gemacht – so habe ich auch auf Deine 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32652">zweite Arbeit</a></span>
-                         nur telegraphisch geantwortet.</p>
+                        <a name="fna_2" href="#fn2" title="Robert Michel: Vom Podvelež. In: Die Zeit, Bd. 30, Nr. 389, 15. 3., S. 175–176, und Nr. 390, 22. 3. 1902, S. 190–192."><sup>2</sup></a> nur telegraphisch geantwortet.</div>
                      
-                     <p id="p__32">Beide <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32646 pmb32652">Arbeiten</a></span> gefallen mir sehr gut und <del xmlns:tei="http://www.tei-c.org/ns/1.0">scheinen</del>
-                        
+                     <div class="editionText">Beide <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32646 pmb32652">Arbeiten</a></span> gefallen mir sehr gut und <del xmlns:tei="http://www.tei-c.org/ns/1.0">scheinen</del>
+                         
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">mir</del>
-                        
+                         
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           <abbr title="unclear">verschieden</abbr>
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="unsicher">verschieden</span>
                            </del>
-                        
+                         
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           <abbr title="unclear">zu</abbr>
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="unsicher">zu</span>
                            </del>
-                        
-                        <del xmlns:tei="http://www.tei-c.org/ns/1.0">zeigen</del>, <del xmlns:tei="http://www.tei-c.org/ns/1.0">da<abbr title="unclear">ß</abbr>
+                         
+                        <del xmlns:tei="http://www.tei-c.org/ns/1.0">zeigen</del>, <del xmlns:tei="http://www.tei-c.org/ns/1.0">da<span xmlns="http://www.w3.org/1999/xhtml" class="unsicher">ß</span>
                            </del>
-                        
+                         
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">Du</del>
-                        
+                         
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           <abbr title="unclear">unwahrscheinlich</abbr>
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="unsicher">unwahrscheinlich</span>
                            </del>
-                        
+                         
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">begabt bist</del> zwar 
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           <abbr title="unclear">au</abbr>
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="unsicher">au</span>
                            </del>
                         wi
                         rken sie auf mich auf eine Art, die vielleicht die natürlichste ist. Ich fange an zu lesen, werde
                         interessirt, von dem was geschieht, und im allgemeinen schlägt jede Wortkombination
-                        (Substantiv-Adjectiv) bei mir ein, <abbr xmlns:tei="http://www.tei-c.org/ns/1.0" title="unclear">macht</abbr> mir einen Eindruck, während gleichtzeitig meine Theilnahme für die Personen von denen
-                        Du sprichst wächst.</p>
+                        (Substantiv-Adjectiv) bei mir ein, <span class="unsicher">macht</span> mir einen Eindruck, während gleichtzeitig meine Theilnahme für die Personen von denen
+                        Du sprichst wächst.</div>
                      
-                     <p id="p__35">Beide Male war ich ergriffen und nah dem Weinen bei den traurigen Stellen der Geschichte.
+                     <div class="editionText">Beide Male war ich ergriffen und nah dem Weinen bei den traurigen Stellen der Geschichte.
                         (Ich habe hier im <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb713">Ministerium</a></span>, wo ich schreibe die Manuscripte nicht bei der Hand, das erschwert diesen Brief.) Ich möchte Dir nämlich paar Worte über die Fehler sagen.
                         Bei der 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32646">ersten Geschichte</a></span>
-                        , die mir trotz des ersten starken Eindrucks, die viel schwächere scheint und die
+                        <a name="fna_3" href="#fn3" title="Robert Michel: Die drei Musikanten. In: Neue Deutsche Rundschau, Jg. 13, H. 10, 1. 10. 1902, S. 1102–1109."><sup>3</sup></a>, die mir trotz des ersten starken Eindrucks, die viel schwächere scheint und die
                         weniger wirkungsvolle, unterscheide ich zwei Arten von Fehlern. Die erste, <del xmlns:tei="http://www.tei-c.org/ns/1.0">uncorrigirbare</del> Art von Fehlern, ein Fehler eigentlich, uncorrigirbar aber gewissermaßen nur negativ
                         und mir nicht so unsympathisch besteht (für mich) darin, daß weder die drei Musikanten
                         für unsre Seele plastisch, wirklich, im Relief herauskommen, noch auch der Lieutenant, der die Geschichte schreibt,
@@ -146,51 +156,53 @@
                         angenehme Tonreihen, keine Musik. Was nun trotzdem mir das Ganze erfreulich und schön
                         macht, und mir bei einem Urtheil über den Dichter das Günstig entscheidende zu sein
                         scheint, ist folgendes: – der <del xmlns:tei="http://www.tei-c.org/ns/1.0">Grun</del> Inhalt der Geschichte, das seelische Erlebnis ist interessant wie (was meinem Gefühl
-                        die Hauptsache ist) die Reihe der Bilder die uns <del xmlns:tei="http://www.tei-c.org/ns/1.0">Stück<abbr title="unclear">w</abbr>
+                        die Hauptsache ist) die Reihe der Bilder die uns <del xmlns:tei="http://www.tei-c.org/ns/1.0">Stück<span xmlns="http://www.w3.org/1999/xhtml" class="unsicher">w</span>
                            </del> unter dieses Erlebnis vorgeführt werden sind interessant, weil das Gewebe der Worte im Großen und Ganzen
-                        
+                         
                         gut ist, d. h. wie die Worte und Sätze und Wortverbindungen meistens die äußeren Vorgänge, Dinge und Personen (und die nehmen den Hauptraum in der Erzählung
                         ein) ernst, objectiv und anschaulich wiedergeben und auch insofern vorsichtig gewählt
                         sind, als sie das von den Objecten nehmen, was an ihnen entweder im ganzen characteristisch ist (z. B. die dicken Mauern des Türkenhauses) oder für das Verhältnis zum Hautvorgang
                         (der Lieuten. und zwei Türkenbuben) wichtig ist. (z. B. alles über die militärischen Vorgänge.) Meistens leider nicht immer! Die geschwätzigen, <del xmlns:tei="http://www.tei-c.org/ns/1.0">und f</del> gewöhnlichen, und für mein Gefühl gemeinen Stellen der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32646">Erzählung</a></span> (ich habe sie bevor ich das Manuscript den 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121 pmb10815 pmb11701 pmb12772 pmb11469">Schriftstellern</a></span>
-                         vorlas
+                        <a name="fna_4" href="#fn4" title="Darunter Bahr und Schnitzler, siehe übernächsten Absatz."><sup>4</sup></a> vorlas
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">)</del>
                         ,
-                         möglichst umgeändert) stören mich vielmehr in <abbr xmlns:tei="http://www.tei-c.org/ns/1.0" title="unclear">m</abbr>einer Wertschätzung von Dir, als, daß »das Ganze« verpatzt ist.</p>
+                         möglichst umgeändert) stören mich vielmehr in <span class="unsicher">m</span>einer Wertschätzung von Dir, als, daß »das Ganze« verpatzt ist.</div>
                      
-                     <p id="p__9">
+                     <div class="editionText">
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">Der Sch</del> Der Schluß! »Heute ist Allerseelentag« – die Ausdrücke die »kleinen« Beamten, die
-                        »Frau« Gerichtsräthin gehn mir auf die Nerven – vielleicht mit Grund.</p>
+                        »Frau« Gerichtsräthin gehn mir auf die Nerven – vielleicht mit Grund.</div>
                      
-                     <p id="p__21">Ich habe diese erste <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32646">Geschichte</a></span> vor <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10815">Bahr</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Schnitzler</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11701">Hirschfeld</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12772">Servaes</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11469">Gold</a></span>, (<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11740">Hugo</a></span> war krank) vorgelesen. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11701">Hirschfeld</a></span> hat gesagt die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32646">Erzählung</a></span> habe ihn sehr ergriffen; die andern haben manches ausgesetzt, vorausgesetzt wie sie
+                     <div class="editionText">Ich habe diese erste <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32646">Geschichte</a></span> vor <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10815">Bahr</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Schnitzler</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11701">Hirschfeld</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12772">Servaes</a></span>, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11469">Gold</a></span>, (<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11740">Hugo</a></span> war krank) vorgelesen<a name="fna_5" href="#fn5" title="Schnitzler, Tb 10. 1. 1900: » Andrian las Einigen eine leidliche Novelle von Michel vor.«"><sup>5</sup></a>. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11701">Hirschfeld</a></span> hat gesagt die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32646">Erzählung</a></span> habe ihn sehr ergriffen; die andern haben manches ausgesetzt, vorausgesetzt wie sie
                         sagten, daß es sich um eine Arbeit von einer gewissen Höhe des Niveaus handle; daß
                         Du auf dieser Höhe stehst (dieses  Höhe des Niveaus ist es auch, die ich als das Erfreuliche an der Arbeit bezeichnete,)
                         schienen sie bei Dir nach dem 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32648">Osmanbegovic</a></span>
-                         für selbstverständlich zu halten. </p>
+                        <a name="fna_6" href="#fn6" title="Robert Michel: Osmanbegović. In: Die Zeit, Bd. 16, Nr. 203, 20. 8. 1898, S. 127–128."><sup>6</sup></a> für selbstverständlich zu halten. </div>
                      
-                     <p id="p__12">– <del xmlns:tei="http://www.tei-c.org/ns/1.0">Deine neue <span class="linkfarbe"><a data-toggle="modal" data-target="#pmb32652">Arbeit</a></span>, die im Ganzen glaub ich viel gelungener ist scheint mir zwei Stellen zu haben, die
+                     <div class="editionText">– <del xmlns:tei="http://www.tei-c.org/ns/1.0">Deine neue <span class="linkfarbe"><a data-toggle="modal" data-target="#pmb32652">Arbeit</a></span>, die im Ganzen glaub ich viel gelungener ist scheint mir zwei Stellen zu haben, die
                            Du unbedingt ändern solltest</del>
                         
-                        </p>
+                        </div>
                      </div>
                   
-                  <div id="div__42">
+                  <div class="div">
                      
-                     
-                     
-                     28ten. Febr.
-                     
-                     
-                     
-                     
-                     <p id="p__17">Ich habe heute Vormittag im Bureau Deine zweite <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32652">Erzählung</a></span> nochmals durchgelesen. Sie erscheint mit durchaus
+                     <div class="opener">
                         
+                        <div class="editionText">
+                           
+                           28ten. Febr.
+                           
+                           </div>
+                        </div>
+                     
+                     <div class="editionText">Ich habe heute Vormittag im Bureau Deine zweite <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32652">Erzählung</a></span> nochmals durchgelesen. Sie erscheint mit durchaus
+                         
                         gut und ich hoffe sie bestimmt in einer anständigen Zeitung unterzubringen – sie dürfte
                         wohl seit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32648">Osman-Begović</a></span> Dein gelungenstes Product sein. Vielleicht nicht ganz auf der Höhe ist das erste
                         Erlebnis des Bečir – sowie der Tod des Alija. Doch rathe ich daran
-                        
+                         
                         nichts zu ändern. Wo ich dagegen Bemerkungen hingemacht habe, bitte ich Dich entsprechend zu ändern – was
                         ja immer sehr einfach ist. Die betreffend Blätter mußt Du aber neu abschreiben, damit
                         niemand meine Correcturen sieht; Thu das sofort und schick mir dann wieder gleich
@@ -202,66 +214,172 @@
                         andern Sachen 
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">zu</del>
                         anzugeben
-                        . – </p>
+                        . – </div>
                      
-                     <p id="p__3">–</p>
+                     <div class="editionText">–</div>
                      
-                     <p id="p__8">Wann kommst Du nach <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>? Vielleicht fahre ich im Frühjahr nach 
+                     <div class="editionText">Wann kommst Du nach <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>? Vielleicht fahre ich im Frühjahr nach 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb1000">Bosnien</a></span>
-                        , wenn Du nicht herauf kommst.</p>
+                        , wenn Du nicht herauf kommst.</div>
                      
-                     <p id="p__5">–</p>
-                     Ich bleibe herzlich Der Deine<br xmlns:tei="http://www.tei-c.org/ns/1.0"></br>
-                     Poldi.
+                     <div class="editionText">–</div>
+                     
+                     <div class="editionText">Ich bleibe herzlich Der Deine<br />
+                        
+                        <div class="signed editionText">Poldi.</div>
+                        </div>
                      
                      
+                     <div class="editionText">PS.<br />Was das Geld betrifft, was Du jetzt nicht bekommen hast, so kann ich Dir erst am ersten April etwas schicken. Da die <span class="unsicher">schlechten</span> Finanzen mir 20 fl monatlich gestatten, werde ich Dir dann 65 fl. (das Weihnachtsgeschenk,
+                        die Monate Jänner u. Februar zuschicken). Am 1ten Juli bekommst Du weitere 80 fl (März, April, Mai, Juni)</div>
                      
-                     <p id="p__7">PS.<br xmlns:tei="http://www.tei-c.org/ns/1.0"></br>Was das Geld betrifft, was Du jetzt nicht bekommen hast, so kann ich Dir erst am ersten April etwas schicken. Da die <abbr xmlns:tei="http://www.tei-c.org/ns/1.0" title="unclear">schlechten</abbr> Finanzen mir 20 fl monatlich gestatten, werde ich Dir dann 65 fl. (das Weihnachtsgeschenk,
-                        die Monate Jänner u. Februar zuschicken). Am 1ten Juli bekommst Du weitere 80 fl (März, April, Mai, Juni)</p>
-                     
-                     <p id="p__2">P</p>
+                     <div class="editionText">P</div>
                      
                      </div>
                   </div>
-               <div class="card-footer">
-                  <p style="text-align:center;">
-                     <div class="footnotes" id="note__2"><a name="fn1"><a href="#fna_1"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">1</span></a></a>Die Zeit, Bd. 30, Nr. 389 und 390, 15. und 22. 3. 1902</div>
-                     <div class="footnotes" id="note__7"><a name="fn2"><a href="#fna_2"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">2</span></a></a>Text</div>
-                     <div class="footnotes" id="note__2"><a name="fn3"><a href="#fna_3"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">3</span></a></a>Neue Deutsche Rundschau, Jg. 13, H. 10, 1. 10. 1902</div>
-                     <div class="footnotes" id="note__8"><a name="fn4"><a href="#fna_4"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">4</span></a></a>Text</div>
-                     <div class="footnotes" id="note__2"><a name="fn5"><a href="#fna_5"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">5</span></a></a>Die Zeit, Bd. 16, Nr. 203, 20. 8. 1898</div>
-                     <div class="footnotes" id="note__7"><a name="fn6"><a href="#fna_6"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">6</span></a></a>Text</div>
-                  </p>
+               <div class="card-footer text-muted">
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
+                           </span></div><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="L041694.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                        </a><span class="nav-link">
+                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1900-02-27" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  <div id="registerDiv" class="d-none">
+                     <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a></div>
+                     </nav>
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                           <legend>Personen</legend>
+                           <ul>
+                              <li><a href="pmb10765.html">
+                                    Leopold von
+                                    Andrian-Werburg
+                                    </a></li>
+                              <li><a href="pmb12254.html">
+                                    Robert
+                                    Michel
+                                    </a></li>
+                              <li><a href="pmb2121.html">
+                                    Arthur
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb10815.html">
+                                    Hermann
+                                    Bahr
+                                    </a></li>
+                              <li><a href="pmb11701.html">
+                                    Georg
+                                    Hirschfeld
+                                    </a></li>
+                              <li><a href="pmb12772.html">
+                                    Franz
+                                    Servaes
+                                    </a></li>
+                              <li><a href="pmb11469.html">
+                                    Alfred
+                                    Gold
+                                    Alwin Goldeck</a></li>
+                              <li><a href="pmb11740.html">
+                                    Hugo von
+                                    Hofmannsthal
+                                    Loris Theophil Morren Hofmannsthal, Hugo</a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                           <legend>Werke</legend>
+                           <ul>
+                              <li><a href="pmb32652.html">Vom Podvelež</a></li>
+                              <li><a href="pmb32646.html">Die drei Musikanten</a></li>
+                              <li><a href="pmb32648.html">Osmanbegović</a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
+                           <legend>Orte</legend>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <ul>
+                                    <li><a href="pmb51.html">I., Innere Stadt</a></li>
+                                    <li><a href="pmb999.html">Mostar</a></li>
+                                    <li><a href="pmb1000.html">Bosnien und Herzegowina</a></li>
+                                    <li><a href="pmb50.html">Wien</a></li>
+                                    <li><a href="pmb40306.html">Italien</a></li>
+                                    <li><a href="pmb41240.html">Österreich</a></li>
+                                    <li><a href="pmb713.html">Ministerium für Äußeres</a></li>
+                                 </ul>
+                              </div>
+                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                           </div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                
+                                                    L.marker([48,20769, 16,37049]).addTo(mymap)
+                                                    .bindPopup("<b>I., Innere Stadt</b>").openPopup();
+                                                
+                                                    L.marker([43,34333, 17,80806]).addTo(mymap)
+                                                    .bindPopup("<b>Mostar</b>").openPopup();
+                                                
+                                                    L.marker([44,25, 17,83333]).addTo(mymap)
+                                                    .bindPopup("<b>Bosnien und Herzegowina</b>").openPopup();
+                                                
+                                                    L.marker([48,2066, 16,37341]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
+                                                
+                                                    L.marker([42,83333, 12,83333]).addTo(mymap)
+                                                    .bindPopup("<b>Italien</b>").openPopup();
+                                                
+                                                    L.marker([47,33333, 13,33333]).addTo(mymap)
+                                                    .bindPopup("<b>Österreich</b>").openPopup();
+                                                
+                                                    L.marker([48,20904, 16,36601]).addTo(mymap)
+                                                    .bindPopup("<b>Ministerium für Äußeres</b>").openPopup();
+                                                </script></div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32646 pmb32652">
+         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">
-                        Multi Modal
-                        </h5>
+                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     <li>pmb32646 pmb32652</li>
-                  </div>
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, , https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-06-25), PID: . 
+                     </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb2121 pmb10815 pmb11701 pmb12772 pmb11469">
-            <div class="modal-dialog" role="document">
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">
-                        Multi Modal
-                        </h5>
+                     <h3>Faksimile</h3>
                   </div>
                   <div class="modal-body">
-                     <li>pmb2121 pmb10815 pmb11701 pmb12772 pmb11469</li>
+                     <div id="openseadragon-photo" style="height: 850px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            ]
+                                        });
+                                    </script></div>
+                  <div class="modal-footer" style="justify-content: flex-start;">
+                     <ul style="list-style-type: none;"></ul>
                   </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
@@ -644,36 +762,6 @@
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32652">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Vom Podvelež <a href="pmb32652.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32646">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Die drei Musikanten <a href="pmb32646.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32648">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Osmanbegović <a href="pmb32648.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
@@ -718,7 +806,7 @@
                               <p style="margin-bottom:0 !important;">Social: </p>
                            </div>
                            <div class="row">
-                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
                            </div>
                         </div>
@@ -727,6 +815,12 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
+                        } 
+                    </script></div>
    </body>
 </html>

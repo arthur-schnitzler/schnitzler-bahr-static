@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hugo von Hofmannsthal an Hermann Bahr, [23./24. 11. 1891]</title>
-            <author ref="pmb11740">Hofmannsthal, Hugo von</author>
+            <title type="iso-date">1891-11-23</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,14 +49,14 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+               <sender>
+                  <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <!--<placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>-->
                <dateSender>
@@ -66,9 +67,9 @@
             <listBibl>
                <biblStruct corresp="HvHHB">
                   <monogr>
-                     <author ref="pmb11740">Hofmannsthal, Hugo von</author>
-                     <author ref="pmb2292">Hofmannsthal, Gerty von</author>
-                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+                     <author ref="#pmb2292">Hofmannsthal, Gerty von</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
                      <title level="m">Briefwechsel 1891–1934</title>
                      <editor>Hg. und kommentiert von Elsbeth Dangel-Pelloquin</editor>
                      <imprint>
@@ -103,11 +104,16 @@
                <space unit="chars" quantity="1"/>
                <date>1891</date> – <rs type="place" ref="#pmb182">Paris</rs>
                <space unit="chars" quantity="1"/>
-               <date>1840</date> wie sie so hübsch im <rs type="work" ref="#pmb29823">Märchen</rs> ist. Und Sie machen mir wirklich eine Freude, wenn Sie hinkommen. Ja sogar die <rs type="org" ref="#pmb29212">Freie Bühne</rs> können Sie dort lesen und über <anchor type="commentary" xml:id="KL464-1">
-                  <rs type="work" subtype="implied" ref="#pmb31261">
-                     <rs type="person" ref="#pmb4804">Ola Hansson</rs>
-                  </rs>
-               </anchor> Freudenthränen weinen. – <gap reason="outOfScope"/>
+               <date>1840</date> wie sie so hübsch im <rs type="work" ref="#pmb29823">Märchen</rs> ist. Und Sie machen mir wirklich eine Freude, wenn Sie hinkommen. Ja sogar die <rs type="org" ref="#pmb29212">Freie Bühne</rs> können Sie dort lesen und über <anchor type="commentary" xml:id="KL464-1"/>
+               <rs type="work" subtype="implied" ref="#pmb31261">
+                  <rs type="person" ref="#pmb4804">Ola Hansson</rs>
+               </rs>
+               <note type="commentary" xml:id="KL464-1h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb4804">Ola Hansson</rs>: <rs type="work" ref="#pmb31261">Neue Bücher. III. Hermann Bahr’s Russische Reise</rs>. In: <rs type="org" ref="#pmb29212">Die Freie Bühne</rs>, Jg. 2, Nr. 11, <date >1. 11. 1891</date>,
+                  S. 1125–1126</bibl>.</p>
+               </note> Freudenthränen weinen. – <gap reason="outOfScope"/>
             </p>
             <p>
                <gap reason="outOfScope"/>
@@ -127,7 +133,7 @@
             <persName type="namensvariante">Hofmannsthal, Hugo</persName>
             <birth>
                <date when="1874-02-01">01.02.1874</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -136,7 +142,7 @@
             </birth>
             <death>
                <date when="1929-07-15">15.07.1929</date>
-               <settlement ref="pmb173">
+               <settlement ref="#pmb173">
                   <placeName type="pref">Rodaun</placeName>
                   <location>
                      <geo>48,132793312328 16,256152195922</geo>
@@ -144,7 +150,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
@@ -158,7 +164,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -167,7 +173,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -175,8 +181,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -195,7 +201,7 @@
             <persName type="legacy-name-merge">Hofmannsthal, Gertrude von</persName>
             <birth>
                <date when="1880-03-16">16.03.1880</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -204,7 +210,7 @@
             </birth>
             <death>
                <date when="1959-11-09">09.11.1959</date>
-               <settlement ref="pmb46885">
+               <settlement ref="#pmb46885">
                   <placeName type="pref">Paddington</placeName>
                   <location>
                      <geo>51,51558 -0,1763</geo>
@@ -225,7 +231,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -234,7 +240,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -242,8 +248,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -258,7 +264,7 @@
             <persName type="legacy-name-merge">Barrès, Maurice</persName>
             <birth>
                <date when="1862-08-19">1862-08-19</date>
-               <settlement ref="pmb48614">
+               <settlement ref="#pmb48614">
                   <placeName type="pref">Charmes</placeName>
                   <location>
                      <geo>48,3722 6,29117</geo>
@@ -267,13 +273,13 @@
             </birth>
             <death>
                <date when="1923-12-04">1923-12-04</date>
-               <settlement ref="pmb36749">
+               <settlement ref="#pmb36749">
                   <placeName type="pref">Neuilly-sur-Seine</placeName>
                   <location>
                      <geo>48,8846 2,26965</geo>
                   </location>
                </settlement>
-               <settlement ref="pmb36749">
+               <settlement ref="#pmb36749">
                   <placeName type="pref">Neuilly-sur-Seine</placeName>
                   <location>
                      <geo>48,8846 2,26965</geo>
@@ -281,7 +287,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118506684</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3892</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3892</idno>
@@ -296,7 +302,7 @@
             </persName>
             <birth>
                <date when="1808-11-02">02.11.1808</date>
-               <settlement ref="pmb55964">
+               <settlement ref="#pmb55964">
                   <placeName type="pref">Saint-Sauveur-le-Vicomte</placeName>
                   <location>
                      <geo>49,38547 -1,5331</geo>
@@ -305,7 +311,7 @@
             </birth>
             <death>
                <date when="1889-04-23">23.04.1889</date>
-               <settlement ref="pmb182">
+               <settlement ref="#pmb182">
                   <placeName type="pref">Paris</placeName>
                   <location>
                      <geo>48,85341 2,3488</geo>
@@ -313,7 +319,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118506498</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4266</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4266</idno>
@@ -326,7 +332,7 @@
             </persName>
             <birth>
                <date when="1860-11-12">12.11.1860</date>
-               <settlement ref="pmb58878">
+               <settlement ref="#pmb58878">
                   <placeName type="pref">Hønsinge</placeName>
                   <location>
                      <geo>55,86555 11,55595</geo>
@@ -335,12 +341,12 @@
             </birth>
             <death>
                <date when="1925-09-26">26.09.1925</date>
-               <settlement ref="pmb4807">
+               <settlement ref="#pmb4807">
                   <placeName type="pref">Büyükdere</placeName>
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11854585X</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4804</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4804</idno>
@@ -352,7 +358,7 @@
             <title>Das Märchen. Schauspiel in drei Aufzügen</title>
             <note type="bibliografische_angabe">Arthur Schnitzler: Das Märchen. Schauspiel in drei Aufzügen. Dresden, Leipzig: E. Pierson’s Verlag 1894.</note>
             <note type="uri_worklink">https://babel.hathitrust.org/cgi/pt?id=coo.31924026341598&amp;view=1up&amp;seq=5</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date>1891  – 1891</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.04</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1169917</idno>
@@ -366,7 +372,7 @@
          </bibl>
          <bibl xml:id="pmb31261">
             <title>Neue Bücher. III. Hermann Bahr’s Russische Reise</title>
-            <author ref="pmbperson__4804" role="hat-geschaffen">Hansson, Ola</author>
+            <author ref="#pmbperson__4804" role="hat-geschaffen">Hansson, Ola</author>
             <date when="1891-11-01">01.11.1891</date>
             <idno type="URL" subtype="books">https://books.google.at/books?redir_esc=y&amp;hl=de&amp;id=DgEDAAAAIAAJ&amp;focus=searchwithinvolume&amp;q=ola#v=onepage&amp;q&amp;f=false</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31261</idno>
@@ -394,7 +400,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -417,11 +423,11 @@
                <geo>48,201874800905 16,371985203093</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb112">Ringstraße</placeName>
+               <placeName ref="#pmb112">Ringstraße</placeName>
                <geo>48,202432234197 16,371296264238</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:K%C3%A4rntner_Ring</idno>
@@ -437,7 +443,7 @@
                <geo>48,208258 16,366111</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb34</idno>
@@ -470,7 +476,7 @@
             <desc type="entity_type">Zeitschriftenredaktion</desc>
             <desc type="entity_type_id">973</desc>
             <location type="located_in_place">
-               <placeName ref="pmb168">Berlin</placeName>
+               <placeName ref="#pmb168">Berlin</placeName>
                <geo>52,52437 13,41053</geo>
                <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168</idno>

@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler an Hermann Bahr, 7. 2. 1921</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1921-02-07</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,11 +49,11 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <sender>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <dateSender>
                   <date when="1921-02-07" n="01">7. 2. 1921</date>
@@ -95,7 +96,7 @@
                      <date when="1921-02-07">7. 2. 1921</date>
                   </analytic>
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint>
@@ -133,15 +134,30 @@
                   <date>7. 2. 1921</date>.</dateline>
                <salute>Lieber Hermann.</salute>
             </opener>
-            <p>Am <anchor type="commentary" xml:id="KL137-2">
-                  <date when="1921-02-20">20. Feber</date>
-               </anchor> feiert <rs type="person" ref="#pmb2135">Popper-Lynkeus</rs> seinen 83. Geburtstag. <subst>
+            <p>Am <anchor type="commentary" xml:id="KL137-2"/>
+               <date when="1921-02-20">20. Feber</date>
+               <note type="commentary" xml:id="KL137-2h">
+                  <p>Eigentlich am <date when="1921-02-21" >21. Februar</date>, wobei die Unsicherheit über
+               den genauen Geburtstag in der Presse verbreitet war.</p>
+               </note> feiert <rs type="person" ref="#pmb2135">Popper-Lynkeus</rs> seinen 83. Geburtstag. <subst>
                   <del rend="overwritten">Es</del>
                   <add place="inline">Das</add>
-               </subst> fängt wie ein Aufruf an, aber es ist nur eine Bitte. Es wäre von einiger Bedeutung, insbesondere mit Rücksicht auf die bevorstehende <anchor type="commentary" xml:id="KL137-3">
-                  <rs type="work" subtype="implied" ref="#pmb32660">Ausgabe</rs>
-               </anchor> der <rs type="person" ref="#pmb2135">Popper-Lynkeu’schen</rs> Werke im <anchor type="commentary" xml:id="KL137-1">Verlag <rs type="org" ref="#pmb29758">Kola</rs>
-               </anchor>, wenn an diesem Tag von einigen führenden Geistern die rechten Worte über ihn gesagt würden. Man hat mich gebeten Dich zu fragen, ob Du vielleicht in Deinem Tagebuch (der <date>20. Feber</date> ist gerade ein Sonntag) über <rs type="person" ref="#pmb2135">Popper-Lynkeus</rs>, den Du ja, wie ich weiss, liebst und verehrst, schreiben wolltest. Wäre Dir diesmal irgend eine andere Form, ein anderer Rahmen genehm, so steht es natürlich ganz bei Dir. Es wäre von hohem Wert (wie ich glaube auch für den Elan des Verlages), wenn Du am <date>20. Februar</date> unter denen nicht fehltest, die ein paar Worte über das Werk und das Wesen von <rs type="person" ref="#pmb2135">Popper-Lynkeus</rs> sagen wollten.</p>
+               </subst> fängt wie ein Aufruf an, aber es ist nur eine Bitte. Es wäre von einiger Bedeutung, insbesondere mit Rücksicht auf die bevorstehende <anchor type="commentary" xml:id="KL137-3"/>
+               <rs type="work" subtype="implied" ref="#pmb32660">Ausgabe</rs>
+               <note type="commentary" xml:id="KL137-3h">
+                  <p>Eine Werkausgabe erschien nicht, nur ein neuer Titel: <bibl >
+                        <rs type="person" ref="#pmb2135">Josef Popper-Lynkeus</rs>: <rs type="work" ref="#pmb32660">Krieg, Wehrpflicht und Staatsverfassung</rs>. Wien, Berlin,
+                  Leipzig, München: <rs type="org" ref="#pmb29758">Rikola</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1921</date>
+                     </bibl>.</p>
+               </note> der <rs type="person" ref="#pmb2135">Popper-Lynkeu’schen</rs> Werke im <anchor type="commentary" xml:id="KL137-1"/>Verlag <rs type="org" ref="#pmb29758">Kola</rs>
+               <note type="commentary" xml:id="KL137-1h">
+                  <p>Gemeint ist der <rs type="place" ref="#pmb50">Wien</rs>er Verlag <rs type="org" ref="#pmb29758">Rikola</rs>, der von <rs type="person" ref="#pmb11962">Richard
+                  Kola</rs>
+                     <space unit="chars" quantity="1"/>
+                     <date >Ende 1920</date> mit Unterstützung <rs type="person" ref="#pmb2121">Schnitzlers</rs> gegründet wurde und für den in der Folge auch <rs type="person" ref="#pmb10815">Bahr</rs> tätig wurde.</p>
+               </note>, wenn an diesem Tag von einigen führenden Geistern die rechten Worte über ihn gesagt würden. Man hat mich gebeten Dich zu fragen, ob Du vielleicht in Deinem Tagebuch (der <date>20. Feber</date> ist gerade ein Sonntag) über <rs type="person" ref="#pmb2135">Popper-Lynkeus</rs>, den Du ja, wie ich weiss, liebst und verehrst, schreiben wolltest. Wäre Dir diesmal irgend eine andere Form, ein anderer Rahmen genehm, so steht es natürlich ganz bei Dir. Es wäre von hohem Wert (wie ich glaube auch für den Elan des Verlages), wenn Du am <date>20. Februar</date> unter denen nicht fehltest, die ein paar Worte über das Werk und das Wesen von <rs type="person" ref="#pmb2135">Popper-Lynkeus</rs> sagen wollten.</p>
             <p>Ich höre<add place="inline">, –</add> und lese es auch aus Deinem <rs type="work" ref="#pmb30047">Tagebuch</rs> heraus, dass Du Dich wohlbefindest. Hoffentlich habe ich doch bald wieder Gelegenheit mich auch persönlich davon zu überzeugen.</p>
             <closer>
                <handShift/>Mit herzlichen Grüßen<lb/>Dein<lb/>
@@ -159,7 +175,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -168,7 +184,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -176,8 +192,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -191,7 +207,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -200,7 +216,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -208,8 +224,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -227,7 +243,7 @@
             <persName type="legacy-uri-merge">http://d-nb.info/gnd/1168760917</persName>
             <birth>
                <date when="1838-02-21">21.02.1838</date>
-               <settlement ref="pmb46463">
+               <settlement ref="#pmb46463">
                   <placeName type="pref">Kolín</placeName>
                   <location>
                      <geo>50,02806 15,1998</geo>
@@ -236,7 +252,7 @@
             </birth>
             <death>
                <date when="1921-12-22">22.12.1921</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -244,7 +260,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118595822</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2135</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2135</idno>
@@ -256,7 +272,7 @@
       <listBibl>
          <bibl xml:id="pmb32660">
             <title>Krieg, Wehrpflicht und Staatsverfassung</title>
-            <author ref="pmbperson__2135" role="hat-geschaffen">Popper-Lynkeus, Josef</author>
+            <author ref="#pmbperson__2135" role="hat-geschaffen">Popper-Lynkeus, Josef</author>
             <date when="1921-01-01">1921</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32660</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32660</idno>
@@ -266,7 +282,7 @@
          </bibl>
          <bibl xml:id="pmb30047">
             <title>Tagebuch [Kolumne im Neuen Wiener Journal]</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date>24.12.1916  – 1931</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30047</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30047</idno>
@@ -280,7 +296,7 @@
             <desc type="entity_type">Verlag</desc>
             <desc type="entity_type_id">975</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
@@ -295,7 +311,7 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb397">Frankgasse</placeName>
+               <placeName ref="#pmb397">Frankgasse</placeName>
                <geo>48,215516628628 16,356475515829</geo>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Frankgasse</idno>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb397</idno>
@@ -303,7 +319,7 @@
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb397</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb53">III., Landstraße</placeName>
+               <placeName ref="#pmb53">III., Landstraße</placeName>
                <geo>48,19811 16,39482</geo>
                <idno type="URL" subtype="geonames">http://sws.geonames.org/2773040/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/36779/</idno>

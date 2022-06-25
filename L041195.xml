@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Olga Schnitzler an Anna Bahr-Mildenburg, 11. 5. 1921</title>
-            <author ref="pmb2173">Schnitzler, Olga</author>
+            <title type="iso-date">1921-05-11</title>
+            <author ref="#pmb2173">Schnitzler, Olga</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,14 +49,14 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2173">Schnitzler, Olga</persName>
+               <sender>
+                  <persName ref="#pmb2173">Schnitzler, Olga</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10818">Bahr-Mildenburg, Anna</persName>
+               <addressee>
+                  <persName ref="#pmb10818">Bahr-Mildenburg, Anna</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb45258">München</placeName>
+                  <placeName ref="#pmb45258">München</placeName>
                </placeSender>
                <dateSender>
                   <date when="1921-05-11" n="01">11. 5. 1921</date>
@@ -98,9 +99,14 @@
                   <hi rend="underline" n="1">r</hi>
                </hi>
                <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KL195-1">
-                  <rs type="person" ref="#pmb2331">Knappe</rs>
-               </anchor>, was für <anchor type="commentary" xml:id="KL195-2">schreckliche Wochen</anchor> Sie hatten, – ich hatte ja keine Ahnung! Ich war selbst krank und hab mich vor lauter Kummer ganz in meine vier Wände verkrochen,– nun war <rs type="person" ref="#pmb2121">Arthur</rs> eine Woche bei mir, er ist heute früh abgereist, und ich glaube, an freundlichere Zeiten und besseres Verstehen zwischen uns.</p>
+               <anchor type="commentary" xml:id="KL195-1"/>
+               <rs type="person" ref="#pmb2331">Knappe</rs>
+               <note type="commentary" xml:id="KL195-1h">
+                  <p>Korrepetitor von <rs type="person" ref="#pmb10818">Anna Bahr-Mildenburg</rs>.</p>
+               </note>, was für <anchor type="commentary" xml:id="KL195-2"/>schreckliche Wochen<note type="commentary" xml:id="KL195-2h">
+                  <p>Am <date >17. 4. 1921</date> starb ihre Mutter <rs type="person" ref="#pmb28842">Anna
+                  Bellschan von Mildenburg</rs> in <rs type="place" ref="#pmb875">Klagenfurt</rs>.</p>
+               </note> Sie hatten, – ich hatte ja keine Ahnung! Ich war selbst krank und hab mich vor lauter Kummer ganz in meine vier Wände verkrochen,– nun war <rs type="person" ref="#pmb2121">Arthur</rs> eine Woche bei mir, er ist heute früh abgereist, und ich glaube, an freundlichere Zeiten und besseres Verstehen zwischen uns.</p>
             <p>Nehmen Sie diese Blumen, liebe gnädige Frau, als ein Zeichen meiner innigsten Verehrung für Sie entgegen,– und glauben Sie an die herzlichste Anteilnahme<pb/>
             </p>
             <closer>Ihrer aufrichtig ergebenen<lb/>
@@ -126,7 +132,7 @@
             <persName type="legacy-name-merge">Schnitzler, Olga</persName>
             <birth>
                <date when="1882-01-17">17.01.1882</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -135,7 +141,7 @@
             </birth>
             <death>
                <date when="1970-01-13">13.01.1970</date>
-               <settlement ref="pmb885">
+               <settlement ref="#pmb885">
                   <placeName type="pref">Lugano</placeName>
                   <location>
                      <geo>46,01008 8,96004</geo>
@@ -143,8 +149,8 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
@@ -160,7 +166,7 @@
             <persName type="geburtsname_nachname">von Mildenburg</persName>
             <birth>
                <date when="1872-11-29">29.11.1872</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -169,7 +175,7 @@
             </birth>
             <death>
                <date when="1947-01-27">27.01.1947</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -177,7 +183,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13376</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118646370</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10818</idno>
@@ -191,7 +197,7 @@
             </persName>
             <birth>
                <date when="1887-09-28">1887-09-28</date>
-               <settlement ref="pmb49187">
+               <settlement ref="#pmb49187">
                   <placeName type="pref">Bamberg</placeName>
                   <location>
                      <geo>49,89873 10,90067</geo>
@@ -200,7 +206,7 @@
             </birth>
             <death>
                <date when="1980-10-12">1980-10-12</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -208,7 +214,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb131">Dirigent/Dirigentin</occupation>
+            <occupation ref="#pmb131">Dirigent/Dirigentin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116249412</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2331</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2331</idno>
@@ -221,7 +227,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -230,7 +236,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -238,8 +244,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -265,11 +271,11 @@
                <geo>48,13743 11,57549</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb314">Bayern</placeName>
+               <placeName ref="#pmb314">Bayern</placeName>
                <geo>49,0 11,5</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb151">Deutschland</placeName>
+               <placeName ref="#pmb151">Deutschland</placeName>
                <geo>51,5 10,5</geo>
             </location>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>

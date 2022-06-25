@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Felix Salten an Arthur Schnitzler, 23. 7. 1897</title>
-            <author ref="pmb2167">Salten, Felix</author>
+            <title type="iso-date">1897-07-23</title>
+            <author ref="#pmb2167">Salten, Felix</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2167">Salten, Felix</persName>
+               <sender>
+                  <persName ref="#pmb2167">Salten, Felix</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <addressee>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb213">Bad Ischl</placeName>
+                  <placeName ref="#pmb213">Bad Ischl</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1897-07-23" n="02">23. 7. 1897</date>
@@ -77,12 +78,12 @@
                      <physDesc>
                         <p>eh. Karte, Lateinschrift, Bleistift</p>
                         <stamp n="1">
-                           <placeName ref="pmb59">Wien 9/3</placeName>
+                           <placeName ref="#pmb59">Wien 9/3</placeName>
                            <date when="1897-07-23">23. 7. 97</date>
                            <time>4–5 N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName ref="pmb213">Ischl</placeName>
+                           <placeName ref="#pmb213">Ischl</placeName>
                            <date when="1897-07-24">24/7 97</date>
                            <time>7–8</time>
                         </stamp>
@@ -127,8 +128,10 @@
                   <date>23/7</date>
                </dateline>
             </opener>
-            <p>Heute hab ich die Quelle jener Nachricht erfahren.– <anchor type="commentary" xml:id="KL357-1">
-                  <rs type="person" ref="#pmb10815 #pmb11036">B</rs>.</anchor>
+            <p>Heute hab ich die Quelle jener Nachricht erfahren.– <anchor type="commentary" xml:id="KL357-1"/>
+               <rs type="person" ref="#pmb10815 #pmb11036">B</rs>.<note type="commentary" xml:id="KL357-1h">
+                  <p>Unklar, ob <rs type="person" ref="#pmb10815">Bahr</rs> oder <rs type="person" ref="#pmb11036">Burckhard</rs> gemeint ist.</p>
+               </note>
             </p>
             <p>Das hätte <subst>
                   <del rend="overwritten">
@@ -153,7 +156,7 @@
             <persName type="legacy-name-merge">Salzmann, Siegmund</persName>
             <birth>
                <date when="1869-09-06">06.09.1869</date>
-               <settlement ref="pmb43471">
+               <settlement ref="#pmb43471">
                   <placeName type="pref">Budapest</placeName>
                   <location>
                      <geo>47,49835 19,04045</geo>
@@ -162,7 +165,7 @@
             </birth>
             <death>
                <date when="1945-10-08">08.10.1945</date>
-               <settlement ref="pmb484">
+               <settlement ref="#pmb484">
                   <placeName type="pref">Zürich</placeName>
                   <location>
                      <geo>47,37174 8,54226</geo>
@@ -170,8 +173,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840819</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2167</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2167</idno>
@@ -185,7 +188,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -194,7 +197,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -202,8 +205,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -217,7 +220,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -226,7 +229,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -234,8 +237,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -250,7 +253,7 @@
             </persName>
             <birth>
                <date when="1854-07-14">14.07.1854</date>
-               <settlement ref="pmb61010">
+               <settlement ref="#pmb61010">
                   <placeName type="pref">Korneuburg</placeName>
                   <location>
                      <geo>48,35 16,33333</geo>
@@ -259,7 +262,7 @@
             </birth>
             <death>
                <date when="1912-03-16">16.03.1912</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -267,9 +270,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14065</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117161144</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11036</idno>
@@ -298,7 +301,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -322,7 +325,7 @@
                <geo>47,71109 13,61893</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb429">Salzkammergut</placeName>
+               <placeName ref="#pmb429">Salzkammergut</placeName>
                <geo>47,75 13,5</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2782052/</idno>
@@ -338,7 +341,7 @@
                <geo>48,22387 16,35641</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2782729/</idno>
@@ -355,15 +358,15 @@
                <geo>47,706537 13,609575</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb213">Bad Ischl</placeName>
+               <placeName ref="#pmb213">Bad Ischl</placeName>
                <geo>47,71109 13,61893</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
+               <placeName ref="#pmb414">Hotel und Pension Rudolfshöhe (Leopold Petter)</placeName>
                <geo>47,706537 13,609575</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb43015">Kaltenbach</placeName>
+               <placeName ref="#pmb43015">Kaltenbach</placeName>
                <geo>47,69778 13,60913</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb414</idno>

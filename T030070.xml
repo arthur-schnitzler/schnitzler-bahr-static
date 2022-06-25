@@ -11,13 +11,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hermann Bahr: [Buchversandliste Stimmen des Bluts], [Mitte Oktober – 8. 11. 1908]</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1908-10-15</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -32,20 +33,20 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
             <publisher>Theatermuseum, Wien</publisher>
             <idno type="HBAS-T" n="070"/>
             <availability status="free">
-               <p part="N">Copyright © 2017</p>
+               <p>Copyright © 2017</p>
             </availability>
             <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AB3-C</idno>
          </publicationStmt>
          <seriesStmt>
-            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
          </seriesStmt>
          <sourceDesc>
             <origDate when="1908-10-15" n="1">Mitte Oktober – 8. 11. 1908</origDate>
@@ -59,7 +60,7 @@
                         <idno>HS VM 2625 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p part="N">1 Bl., 1 S., eh., Bleistift, Buntstift, Tinte</p>
+                        <p>1 Bl., 1 S., eh., Bleistift, Buntstift, Tinte</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -79,17 +80,24 @@
    <text type="text">
       <body>
          <div type="writingSession" n="1">
-            <p part="N">
-               <anchor type="commentary" xml:id="KT070-1">
-                  <rs type="work" subtype="implied" ref="#pmb31089">Novellen Büchl</rs>
-               </anchor>
+            <p>
+               <anchor type="commentary" xml:id="KT070-1"/>
+               <rs type="work" subtype="implied" ref="#pmb31089">Novellen Büchl</rs>
+               <note type="commentary" xml:id="KT070-1h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb31089">Stimmen des Bluts. Novellen</rs>. Berlin: <rs type="org" ref="#pmb29639">S. Fischer</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1909</date>
+                     </bibl>.</p>
+               </note>
             </p>
-            <p part="N">geschickt an <rs type="person" ref="#pmb11036">Burckhard</rs>, <rs type="person" ref="#pmb10875">Benedikt</rs>
+            <p>geschickt an <rs type="person" ref="#pmb11036">Burckhard</rs>, <rs type="person" ref="#pmb10875">Benedikt</rs>
                <space unit="chars" quantity="1"/>
                <rs type="person" ref="#pmb10788">Auernheimer</rs>, <rs type="person" ref="#pmb2947">Epstein</rs>, <rs type="person" ref="#pmb3021">Sternberg</rs>, <rs type="person" ref="#pmb3711">Levin</rs>, <rs type="person" ref="#pmb2202">Singer</rs>, <rs type="person" ref="#pmb3280">Kolo</rs>, <rs type="person" ref="#pmb28256">Magda</rs>, <rs type="person" ref="#pmb3715">Sitte</rs>, <rs type="person" ref="#pmb2121">Schnitzler</rs>, <rs type="person" ref="#pmb2167">Salten</rs>, <rs type="person" ref="#pmb12481">Redlich</rs>, <rs type="person" ref="#pmb10863">Beer-Hofmann</rs>, <rs type="person" ref="#pmb2229">Handl</rs>, <rs type="person" ref="#pmb13212">Zweig</rs>, <rs type="person" ref="#pmb2456">Specht</rs>, <rs type="person" ref="#pmb13163">Theodor Wolff</rs>, <rs type="person" ref="#pmb2124">Machar</rs>, D<hi rend="superscript">r</hi>
                <space unit="chars" quantity="1"/>
                <rs type="person" ref="#pmb12826">Stefan</rs>,</p>
-            <p part="N">
+            <p>
                <unclear>Schicken</unclear> an <del rend="strikethrough">
                   <rs type="person" ref="#pmb2229">
                      <hi rend="underline" n="1">Handl</hi>
@@ -98,7 +106,7 @@
                <space unit="chars" quantity="3"/>
                <rs type="person" ref="#pmb11527">Grossmann</rs>, <rs type="person" ref="#pmb28148">Zweybrück</rs>
             </p>
-            <p part="N">
+            <p>
                <del rend="strikethrough">
                   <rs type="person" ref="#pmb2121">Schnitzler</rs>
                </del>, <del rend="strikethrough">
@@ -113,21 +121,21 @@
                   <rs type="person" ref="#pmb13212">Zweig</rs>
                </del>
             </p>
-            <p part="N">
+            <p>
                <del rend="strikethrough">
                   <rs type="person" ref="#pmb13163">Theodor Wolff</rs> | <rs type="person" ref="#pmb2456">Specht</rs>
                </del> |</p>
-            <p part="N">
+            <p>
                <del rend="strikethrough">
                   <rs type="person" ref="#pmb10955">Blei</rs>
                   <space unit="chars" quantity="3"/>
                   <rs type="person" ref="#pmb11760">Holm</rs>
                </del>
             </p>
-            <p part="N">
+            <p>
                <rs type="person" ref="#pmb11771">Holzer</rs>
             </p>
-            <p part="N">
+            <p>
                <rs type="work" subtype="implied" ref="#pmb31093">Kritik</rs> von <rs type="person" ref="#pmb11036">Burckhard</rs> im <rs type="org" ref="#pmb29306">Pester Lloyd</rs>
                <space unit="chars" quantity="1"/>
                <date when="1908-11-08">8. 11. 08</date>
@@ -144,7 +152,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -153,7 +161,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -161,8 +169,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -177,7 +185,7 @@
             </persName>
             <birth>
                <date when="1854-07-14">14.07.1854</date>
-               <settlement ref="pmb61010">
+               <settlement ref="#pmb61010">
                   <placeName type="pref">Korneuburg</placeName>
                   <location>
                      <geo>48,35 16,33333</geo>
@@ -186,7 +194,7 @@
             </birth>
             <death>
                <date when="1912-03-16">16.03.1912</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -194,9 +202,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14065</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117161144</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11036</idno>
@@ -211,7 +219,7 @@
             </persName>
             <birth>
                <date when="1849-05-27">27.05.1849</date>
-               <settlement ref="pmb43642">
+               <settlement ref="#pmb43642">
                   <placeName type="pref">Kvačice</placeName>
                   <location>
                      <geo>48,98984 17,41025</geo>
@@ -220,7 +228,7 @@
             </birth>
             <death>
                <date when="1920-03-18">18.03.1920</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -228,7 +236,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13595</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118137948</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10875</idno>
@@ -241,7 +249,7 @@
             </persName>
             <birth>
                <date when="1876-04-15">15.04.1876</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -250,7 +258,7 @@
             </birth>
             <death>
                <date when="1948-01-06">06.01.1948</date>
-               <settlement ref="pmb47770">
+               <settlement ref="#pmb47770">
                   <placeName type="pref">Oakland</placeName>
                   <location>
                      <geo>37,80437 -122,2708</geo>
@@ -258,9 +266,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13305</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505033</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10788</idno>
@@ -275,7 +283,7 @@
             </persName>
             <birth>
                <date when="1844-01-01">1844</date>
-               <settlement ref="pmb51354">
+               <settlement ref="#pmb51354">
                   <placeName type="pref">Třebíč</placeName>
                   <location>
                      <geo>49,21492 15,88166</geo>
@@ -284,7 +292,7 @@
             </birth>
             <death>
                <date when="1915-01-01">1915</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -292,7 +300,7 @@
                </settlement>
             </death>
             <sex value="not-set"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/143990055</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2947</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2947</idno>
@@ -305,7 +313,7 @@
             </persName>
             <birth>
                <date when="1868-11-08">08.11.1868</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -314,7 +322,7 @@
             </birth>
             <death>
                <date when="1945-06-28">28.06. 1945</date>
-               <settlement ref="pmb39944">
+               <settlement ref="#pmb39944">
                   <placeName type="pref">Havana</placeName>
                   <location>
                      <geo>23,13302 -82,38304</geo>
@@ -322,7 +330,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1036555747</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20423</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3021</idno>
@@ -337,7 +345,7 @@
             <persName type="geburtsname_vorname">William</persName>
             <birth>
                <date notBefore="1860-01-01" when="1860-07-01" notAfter="1860-12-31">1860</date>
-               <settlement ref="pmb46958">
+               <settlement ref="#pmb46958">
                   <placeName type="pref">Słupsk</placeName>
                   <location>
                      <geo>54,46405 17,02872</geo>
@@ -346,7 +354,7 @@
             </birth>
             <death>
                <date when="1926-11-19">1926-11-19</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -354,8 +362,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb171">Mäzen/Mäzenin</occupation>
-            <occupation ref="pmb175">Kaufmann/Kauffrau</occupation>
+            <occupation ref="#pmb171">Mäzen/Mäzenin</occupation>
+            <occupation ref="#pmb175">Kaufmann/Kauffrau</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11696491X</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3711</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3711</idno>
@@ -367,7 +375,7 @@
             </persName>
             <birth>
                <date when="1847-11-26">26.11.1847</date>
-               <settlement ref="pmb53794">
+               <settlement ref="#pmb53794">
                   <placeName type="pref">Bzenec</placeName>
                   <location>
                      <geo>48,97336 17,26685</geo>
@@ -376,7 +384,7 @@
             </birth>
             <death>
                <date when="1917-10-10">10.10.1917</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -384,8 +392,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb117">Redakteur/Redakteurin &gt;&gt; Chefredakteur/Chefredakteurin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb117">Redakteur/Redakteurin &gt;&gt; Chefredakteur/Chefredakteurin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117402834</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20141</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2202</idno>
@@ -400,7 +408,7 @@
             <persName type="rufname">Kolo</persName>
             <birth>
                <date when="1868-03-30">1868-03-30</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -409,7 +417,7 @@
             </birth>
             <death>
                <date when="1918-10-18">1918-10-18</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -417,8 +425,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
-            <occupation ref="pmb136">Bildender Künstler/Bildende Künstlerin &gt;&gt; Grafiker/Grafikerin</occupation>
+            <occupation ref="#pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
+            <occupation ref="#pmb136">Bildender Künstler/Bildende Künstlerin &gt;&gt; Grafiker/Grafikerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118737112</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3280</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3280</idno>
@@ -432,7 +440,7 @@
             <persName type="ehename">Grasmayer</persName>
             <birth>
                <date when="1881-04-14">1881-04-14</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -441,7 +449,7 @@
             </birth>
             <death>
                <date when="1944-08-22">1944-08-22</date>
-               <settlement ref="pmb30">
+               <settlement ref="#pmb30">
                   <placeName type="pref">Salzburg</placeName>
                   <location>
                      <geo>47,80067 13,04532</geo>
@@ -459,7 +467,7 @@
             </persName>
             <birth>
                <date when="1879-01-01">1879</date>
-               <settlement ref="pmb30">
+               <settlement ref="#pmb30">
                   <placeName type="pref">Salzburg</placeName>
                   <location>
                      <geo>47,80067 13,04532</geo>
@@ -468,7 +476,7 @@
             </birth>
             <death>
                <date when="1951-01-01">1951</date>
-               <settlement ref="pmb867">
+               <settlement ref="#pmb867">
                   <placeName type="pref">Innsbruck</placeName>
                   <location>
                      <geo>47,28433 11,37706</geo>
@@ -476,7 +484,7 @@
                </settlement>
             </death>
             <sex value="not-set"/>
-            <occupation ref="pmb266">Archäologe/Archäologin</occupation>
+            <occupation ref="#pmb266">Archäologe/Archäologin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11741848X</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3715</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3715</idno>
@@ -488,7 +496,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -497,7 +505,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -505,8 +513,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -523,7 +531,7 @@
             <persName type="legacy-name-merge">Salzmann, Siegmund</persName>
             <birth>
                <date when="1869-09-06">06.09.1869</date>
-               <settlement ref="pmb43471">
+               <settlement ref="#pmb43471">
                   <placeName type="pref">Budapest</placeName>
                   <location>
                      <geo>47,49835 19,04045</geo>
@@ -532,7 +540,7 @@
             </birth>
             <death>
                <date when="1945-10-08">08.10.1945</date>
-               <settlement ref="pmb484">
+               <settlement ref="#pmb484">
                   <placeName type="pref">Zürich</placeName>
                   <location>
                      <geo>47,37174 8,54226</geo>
@@ -540,8 +548,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840819</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2167</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2167</idno>
@@ -555,7 +563,7 @@
             </persName>
             <birth>
                <date when="1869-06-18">18.06.1869</date>
-               <settlement ref="pmb49823">
+               <settlement ref="#pmb49823">
                   <placeName type="pref">Hodonín</placeName>
                   <location>
                      <geo>48,84893 17,13244</geo>
@@ -564,7 +572,7 @@
             </birth>
             <death>
                <date when="1936-11-11">11.11.1936</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -572,8 +580,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb95">Politiker/Politikerin</occupation>
-            <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+            <occupation ref="#pmb95">Politiker/Politikerin</occupation>
+            <occupation ref="#pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19096</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118743724</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12481</idno>
@@ -587,7 +595,7 @@
             </persName>
             <birth>
                <date when="1866-07-11">11.07.1866</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -596,7 +604,7 @@
             </birth>
             <death>
                <date when="1945-09-26">26.09.1945</date>
-               <settlement ref="pmb44053">
+               <settlement ref="#pmb44053">
                   <placeName type="pref">New York City</placeName>
                   <location>
                      <geo>40,71427 -74,00597</geo>
@@ -604,7 +612,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13551</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118654756</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10863</idno>
@@ -622,7 +630,7 @@
             <persName type="legacy-name-merge">Handl, Willi</persName>
             <birth>
                <date when="1872-02-12">12.2.1872</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -631,7 +639,7 @@
             </birth>
             <death>
                <date when="1920-05-26">26.5.1920</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -639,8 +647,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116445599</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2229</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2229</idno>
@@ -654,7 +662,7 @@
             </persName>
             <birth>
                <date when="1881-11-28">28.11.1881</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -663,7 +671,7 @@
             </birth>
             <death>
                <date when="1942-02-23">23.02.1942</date>
-               <settlement ref="pmb46774">
+               <settlement ref="#pmb46774">
                   <placeName type="pref">Petrópolis</placeName>
                   <location>
                      <geo>-22,505 -43,17861</geo>
@@ -671,7 +679,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21614</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118637479</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb13212</idno>
@@ -686,7 +694,7 @@
             </persName>
             <birth>
                <date when="1870-12-07">07.12.1870</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -695,7 +703,7 @@
             </birth>
             <death>
                <date when="1932-03-18">18.03.1932</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -703,10 +711,10 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
-            <occupation ref="pmb158">Wissenschaftler/Wissenschaftlerin &gt;&gt; Musikwissenschaftler/Musikwissenschaftlerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb158">Wissenschaftler/Wissenschaftlerin &gt;&gt; Musikwissenschaftler/Musikwissenschaftlerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117481947</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20238</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2456</idno>
@@ -724,7 +732,7 @@
             <persName type="legacy-uri-merge">http://https://pmb.acdh.oeaw.ac.at/apis/api2/entity/37834/</persName>
             <birth>
                <date when="1868-08-02">02.08.1868</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -733,7 +741,7 @@
             </birth>
             <death>
                <date when="1943-09-23">23.09.1943</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -741,8 +749,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21450</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118634844</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb13163</idno>
@@ -756,7 +764,7 @@
             </persName>
             <birth>
                <date when="1864-02-29">29.02.1864</date>
-               <settlement ref="pmb46463">
+               <settlement ref="#pmb46463">
                   <placeName type="pref">Kolín</placeName>
                   <location>
                      <geo>50,02806 15,1998</geo>
@@ -765,7 +773,7 @@
             </birth>
             <death>
                <date when="1942-03-17">17.03.1942</date>
-               <settlement ref="pmb652">
+               <settlement ref="#pmb652">
                   <placeName type="pref">Prag</placeName>
                   <location>
                      <geo>50,08333 14,46667</geo>
@@ -773,7 +781,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118781022</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2124</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2124</idno>
@@ -791,7 +799,7 @@
             <persName type="legacy-name-merge">Stefan, Paul</persName>
             <birth>
                <date when="1879-11-25">25.11.1879</date>
-               <settlement ref="pmb833">
+               <settlement ref="#pmb833">
                   <placeName type="pref">Brünn</placeName>
                   <location>
                      <geo>49,19522 16,60796</geo>
@@ -800,7 +808,7 @@
             </birth>
             <death>
                <date when="1943-11-12">12.11.1943</date>
-               <settlement ref="pmb44053">
+               <settlement ref="#pmb44053">
                   <placeName type="pref">New York City</placeName>
                   <location>
                      <geo>40,71427 -74,00597</geo>
@@ -808,7 +816,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20339</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117225789</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/38704/</idno>
@@ -825,7 +833,7 @@
             <persName type="uri_wikipedia">https://de.wikipedia.org/wiki/Stefan_Gro%C3%9Fmann</persName>
             <birth>
                <date when="1875-05-19">19.05.1875</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -834,7 +842,7 @@
             </birth>
             <death>
                <date when="1935-01-03">03.01.1935</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -842,8 +850,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15691</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118542664</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11527</idno>
@@ -858,7 +866,7 @@
             </persName>
             <birth>
                <date notBefore="1853-01-01" when="1853-07-02" notAfter="1853-12-31">1853</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -867,7 +875,7 @@
             </birth>
             <death>
                <date when="1925-08-13">1925-08-13</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -875,8 +883,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb134">Historiker/Historikerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb134">Historiker/Historikerin</occupation>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb28148</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28148</idno>
          </person>
@@ -887,7 +895,7 @@
             </persName>
             <birth>
                <date when="1871-01-18">18.01.1871</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -896,7 +904,7 @@
             </birth>
             <death>
                <date when="1942-07-10">10.07.1942</date>
-               <settlement ref="pmb61006">
+               <settlement ref="#pmb61006">
                   <placeName type="pref">Westbury</placeName>
                   <location>
                      <geo>40,75566 -73,58763</geo>
@@ -904,7 +912,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13774</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118511653</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10955</idno>
@@ -919,7 +927,7 @@
             </persName>
             <birth>
                <date when="1872-08-21">21.08.1872</date>
-               <settlement ref="pmb46637">
+               <settlement ref="#pmb46637">
                   <placeName type="pref">Riga</placeName>
                   <location>
                      <geo>56,946 24,10589</geo>
@@ -928,7 +936,7 @@
             </birth>
             <death>
                <date when="1942-08-05">05.08.1942</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -936,7 +944,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16330</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118862944</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11760</idno>
@@ -950,7 +958,7 @@
             </persName>
             <birth>
                <date when="1875-07-28">28.07.1875</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -959,7 +967,7 @@
             </birth>
             <death>
                <date when="1965-07-17">17.07.1965</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -967,8 +975,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16339</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116972254</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11771</idno>
@@ -979,7 +987,7 @@
       <listBibl>
          <bibl xml:id="pmb31089">
             <title>Stimmen des Bluts. Novellen</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date notBefore="1908-01-01" when="1908-07-01">1908</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31089</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31089</idno>
@@ -988,7 +996,7 @@
          <bibl xml:id="pmb31093">
             <title>Wiener Novellisten</title>
             <note type="bibliografische_angabe">Pester Lloyd, 8. 11. 1908</note>
-            <author ref="pmbperson__11036" role="hat-geschaffen">Burckhard, Max Eugen</author>
+            <author ref="#pmbperson__11036" role="hat-geschaffen">Burckhard, Max Eugen</author>
             <date when="1908-11-08">08.11.1908</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31093</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31093</idno>
@@ -1003,7 +1011,7 @@
             <desc type="entity_type">Tageszeitungsredaktion</desc>
             <desc type="entity_type_id">972</desc>
             <location type="located_in_place">
-               <placeName ref="pmb43471">Budapest</placeName>
+               <placeName ref="#pmb43471">Budapest</placeName>
                <geo>47,49835 19,04045</geo>
                <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1781</idno>
                <idno type="URL" subtype="geonames">http://sws.geonames.org/3054638/</idno>

@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:foo="whateverWorksForMe" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
+      <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -33,7 +34,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="card">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2">
@@ -41,26 +42,27 @@
                      </div>
                      <div class="col-md-8">
                         <h1 align="center">Arthur an Olga Schnitzler, 26. 6. 1922</h1>
-                        <h3 align="center"><a href="L041657.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2" style="text-align:right">
                         <h1><a href="L041658.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
                      </div>
                   </div>
                </div>
-               <div class="card-body">
+               <div class="card-body-tagebuch" data-index="true">
                   
-                  <div id="div__87">
+                  <div class="div">
                      
+                     <div class="opener">
+                        
+                        <p align="right" class="editionText">
+                           <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>
+                            
+                           26. 6. 19<span class="unsicher">22</span>
+                           
+                           </p>
+                        </div>
                      
-                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>
-                     
-                     26. 6. 19<abbr xmlns:tei="http://www.tei-c.org/ns/1.0" title="unclear">22</abbr>
-                     
-                     
-                     
-                     
-                     <p id="p__29">
+                     <div class="editionText">
                         liebe, am heutigen Tage hätte ich, dem ursprünglichen Plane nach, mit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2238">Lili</a></span> abreisen sollen – gut dss dieser Plan schon vorher fallen gelassen war sonst würde
                         man sich über den neuesten Eisenbahn und Telegrafen Strike noch mehr ärgern als es
                         ohnedies der Fall ist. Übrigens nicht so sehr aergern – als ekeln – wie über das gesammte
@@ -69,145 +71,272 @@
                         möglich sein soll), die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2238 pmb12692">Kinder</a></span> werden gemeinsam (wie es ihnen auch am liebsten ist) am 2. Juli abreisen können.
                         Und zwar scheint es mir nach wie vor das praktischeste, daß sie in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb806">München, (Rheinischer Hof)</a></span> übernachten: und Morgens darauf mit dir (oder zu dir) hinausfahren. Ganz allgemein
                         liest und hört man daß <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb314">Bayern</a></span> leer ist – daß sogar die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb45258">Münchner</a></span> Hotels Platz genug haben; in 
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb667">Partenkirchen</a></span> z. B. schreibt jemand in der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29351">N. Fr. Pr.</a></span> soll kaum ein Drittel vermiethet sein.– Ich also für meinen Theil habe mich entschlossen, um die zweimalige Reise
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb667">Partenkirchen</a></span> z. B. schreibt jemand in der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29351">N. Fr. Pr.</a></span> soll kaum ein Drittel vermiethet<a name="fna_1" href="#fn1" title="Die angesprochene Meldung selbst nicht eruiert. Inhaltlich berichten das mehrere deutsche und österreichische Zeitungen nach dem 18. 6."><sup>1</sup></a> sein.– Ich also für meinen Theil habe mich entschlossen, um die zweimalige Reise
                         zu vermeiden, bis Ende des Monats hier zu bleiben. Ich denke dann direct nach <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb45258">München</a></span> zu fahren und mich vielleicht vorläufig ein paar Tage nur, in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb34896">Possenhofen</a></span> selbst oder in Eurer Nähe aufzuhalten – dann will ich ev. nach <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb797">Berchtesgaden</a></span> oder lieber noch, irgendwo höher hinauf – nicht ganz undenkbar wäre eine kleine Fußwanderung
                         mit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb27549">Vicki Zuckerk</a></span>. Gegen Ende August denke ich, komme ich dann dorthin, wo du mit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2238">Lili</a></span> bist – sei es nun dss Ihr am Starnbergersee bleibt oder ins gebirgige hinaufsteigt. Schwierigkeiten der 
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="illegible">××××××××</span>
                            </del>
                         Logisbeschaffung
-                         werden ja kaum obwalten. – In <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb797">Berchtesgaden</a></span> ist <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12698">Julius</a></span>; und von sonstigen Bekannten <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11370">Freud</a></span>; – (anlässlich des 15. 5 hatt ich einen schönen Brief von ihm erhalten, eine kleine Correspondenz schloß sich daran; neulich war ich zum
+                         werden ja kaum obwalten. – In <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb797">Berchtesgaden</a></span> ist <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12698">Julius</a></span>; und von sonstigen Bekannten <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11370">Freud</a></span>; – (anlässlich des 15. 5 hatt ich einen schönen Brief<a name="fna_2" href="#fn2" title="Am 14. 5. 1922; Sigmund Freud: Briefe an Arthur Schnitzler. Hg. Henry Schnitzler. In: Neue deutsche Rundschau, Jg. 66, H. 1, 1. 1. 1955, S. 95–106, hier: S. 96–97."><sup>2</sup></a> von ihm erhalten, eine kleine Correspondenz schloß sich daran; neulich war ich zum
                         Nachtmahl bei ihm, und wir haben uns sehr gut verstanden. Von »fachlichem« war nicht
-                        die Rede – seine Menschlichkeit leuchtet ohne weiters ein.) –</p>
+                        die Rede – seine Menschlichkeit leuchtet ohne weiters ein.) –</div>
                      
-                     <p id="p__13">»<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31939">Vor Sonnenaufgang</a></span>« sah ich in der Generalprobe und bei der Erstaufführung. Es wurde ziemlich miserabel
+                     <div class="editionText">»<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31939">Vor Sonnenaufgang</a></span>« sah ich in der Generalprobe und bei der Erstaufführung. Es wurde ziemlich miserabel
                         gespielt – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12692">Heini</a></span> (ich sage es nicht als Vater) war der einzige, den man (von 2 Episodisten abgesehen) ernst nehmen konnte. Er ist natürlich noch zu jung
-                        für den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31939">Hofmann</a></span> (die einzige wirkliche Gestalt des Stücks, das nach Staub, Barchent und Theorie riecht, bei allen Blitzen und Blitzchen; und irgendwo unwahr ist – wie
+                        für den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31939">Hofmann</a></span> (die einzige wirkliche Gestalt des Stücks, das nach Staub, Barchent<a name="fna_3" href="#fn3" title="Wollgewebe."><sup>3</sup></a> und Theorie riecht, bei allen Blitzen und Blitzchen; und irgendwo unwahr ist – wie
                         alles, worin von einem der Wein trinkt, Wasser gepredigt wird (was hier fast wörtlich
                         zu nehmen ist)) – nicht füllig genug; – aber er hat wirklich charakterisirt, – hat
                         die Continuität der Figur innerlich und äußerlich gewahrt; – spricht vorzüglich. (Das
                         war auch die allgemeine Ansicht.) – Vor Aufgehn des Vorhangs sprach ein Arbeiterführer
                         (Schule <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10803">Bach</a></span>) einleitende Phrasen – gegen den Alcoholismus –; das Stück wird nemlich von dem <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29237">Verein gegen Trunksucht</a></span> zu Besserungszwecken aufgeführt; – dabei muß man wissen, daß diese gleichen Sozialdemokraten,
                         wenn man sie auf das Überhandnehmen der Sauferei bei den »Proletariern« aufmerksam
-                        macht, erwidern: »man muß ihnen ja diese einzige Freud lassen[«] – welche Verlogenheit, welcher Schwindel
-                        </p>
+                        macht, erwidern: »man muß ihnen ja diese einzige Freud lassen« – welche Verlogenheit, welcher Schwindel .  . 
+                        </div>
                      
-                     <p id="p__15">Ich lasse dir heute an dein <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb45258">Münchner</a></span> Conto je 10. für die nächsten 3 Monate anweisen, also 30; – und dazu gleich weitere
+                     <div class="editionText">Ich lasse dir heute an dein <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb45258">Münchner</a></span> Conto je 10. für die nächsten 3 Monate anweisen, also 30; – und dazu gleich weitere
                         20, für die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12692 pmb2238">Kinder</a></span> – »zur Verrechnung« – du wirst ja bald ungefähr wissen, wie viel sie per Tag brauchen, (Du hast hoffentlich über die
                         kurz nach meiner Abreise gesandten 25. – sowie aus <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb175">Amerika</a></span>
-                        
+                         
                         
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="illegible">××××</span>
                            </del>
                         eine
-                         Verständigung erhalten?) (Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb27990">St.</a></span> kann dir ja die tausend M. auch an dein <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb45258">Münchner</a></span> Konto anweisen?) – –</p>
+                         Verständigung erhalten?) (Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb27990">St.</a></span> kann dir ja die tausend M. auch an dein <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb45258">Münchner</a></span> Konto anweisen?) – –</div>
                      
-                     <p id="p__9">In <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb45258">München</a></span> will ich diesmal <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10815">Bahr</a></span> besuchen. Vielleicht werd ich irgendwo mit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12170">Heinrich Mann</a></span> zusammen sein, der auch von der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb797">Berchtesgadner</a></span> Gegend schreibt.</p>
+                     <div class="editionText">In <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb45258">München</a></span> will ich diesmal <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10815">Bahr</a></span> besuchen. Vielleicht werd ich irgendwo mit <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12170">Heinrich Mann</a></span> zusammen sein, der auch von der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb797">Berchtesgadner</a></span> Gegend schreibt.</div>
                      
-                     <p id="p__18">Neulich, bei <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12968">Trebitsch</a></span>, die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb15449">Käthe Dorsch</a></span> kennen gelernt, die mir gut gefiel; sah sie Tags darauf, in einer für sie nicht ganz
+                     <div class="editionText">Neulich, bei <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12968">Trebitsch</a></span>, die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb15449">Käthe Dorsch</a></span> kennen gelernt, die mir gut gefiel; sah sie Tags darauf, in einer für sie nicht ganz
                         geeigneten Rolle, 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32384">Kiki</a></span>
-                        . – Einen erfreulichen Brief aus <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb318">Japan</a></span>, von einem <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4847">Professor</a></span> der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb805">Universität Tokyo</a></span>, über eine kleine »Feier« für mich am 15. Mai. Unabhängig davon überbrachte mir ein
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb18675">Secretair</a></span> der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb318">japan.</a></span> Gesandtschaft von zweien meiner Übersetzungen aus <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb318">Japan</a></span> eine Art »Ehrenhonorar« – für »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29985">Einsamer Weg</a></span>« u. »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30649">Geronimo</a></span>.«– </p>
+                        <a name="fna_4" href="#fn4" title="Titelrolle aus Kiki von André Picard."><sup>4</sup></a>. – Einen erfreulichen Brief aus <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb318">Japan</a></span>, von einem <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4847">Professor</a></span> der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb805">Universität Tokyo</a></span>, über eine kleine »Feier« für mich am 15. Mai. Unabhängig davon überbrachte mir ein
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb18675">Secretair</a></span> der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb318">japan.</a></span> Gesandtschaft von zweien meiner Übersetzungen aus <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb318">Japan</a></span> eine Art »Ehrenhonorar« – für »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29985">Einsamer Weg</a></span>« u. »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30649">Geronimo</a></span>.«– </div>
                      
-                     <p id="p__13">– <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4826">Hans Sokol</a></span> wohnt <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb168">Berlin W. 30
+                     <div class="editionText">– <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4826">Hans Sokol</a></span> wohnt <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb168">Berlin W. 30
                               </a></span>
-                        
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb286">Luitpoldstr 41</a></span>, bei <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28838">Kollmorgen</a></span>.–</p>
+                         
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb286">Luitpoldstr 41</a></span>, bei <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28838">Kollmorgen</a></span>.–</div>
                      
-                     <p id="p__9">Hoffentlich verspätet sich dieser Brief nicht allzusehr durch den Poststrike. An den
+                     <div class="editionText">Hoffentlich verspätet sich dieser Brief nicht allzusehr durch den Poststrike. An den
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb806">Rhein. Hof</a></span> schreib ich direct; – vielleicht frägst du auch an. Lass es dir wohl ergehn und sei
-                        herzlichst gegrüßt.</p>
+                        herzlichst gegrüßt.</div>
                      
-                     A.
-                     
-                     </div>
-                  </div>
-               <div class="card-footer">
-                  <p style="text-align:center;">
-                     <div class="footnotes" id="note__7"><a name="fn1"><a href="#fna_1"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">1</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn2"><a href="#fna_2"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">2</span></a></a>Text</div>
-                     <div class="footnotes" id="note__2"><a name="fn3"><a href="#fna_3"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">3</span></a></a>https://archive.org/details/dereinsamewegsc00schngoog/</div>
-                     <div class="footnotes" id="note__20"><a name="fn4"><a href="#fna_4"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">4</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__2"><a name="fn5"><a href="#fna_5"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">5</span></a></a>Die Zeit, Nr. 325, 22. 12. 1900; Nr. 326, 29. 12. 1900; Nr. 327, 5. 1. 1901; Nr. 328,
-                        12. 1. 1901.</div>
-                     <div class="footnotes" id="note__13"><a name="fn6"><a href="#fna_6"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">6</span></a></a>Erzählung</div>
-                     <div class="footnotes" id="note__11"><a name="fn7"><a href="#fna_7"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">7</span></a></a>
-                        1877
-                        </div>
-                     <div class="footnotes" id="note__12"><a name="fn8"><a href="#fna_8"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">8</span></a></a>
-                        1864-09-01  – 1939-02-01
-                        </div>
-                  </p>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb2238 pmb12692">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">
-                        Multi Modal
-                        </h5>
-                  </div>
-                  <div class="modal-body">
-                     <li>pmb2238 pmb12692</li>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb12692 pmb2238">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">
-                        Multi Modal
-                        </h5>
-                  </div>
-                  <div class="modal-body">
-                     <li>pmb12692 pmb2238</li>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29351">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Neue Freie Presse</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="http://anno.onb.ac.at/info/nfp_info.htmhttps://sws.geonames.org/2761369/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/https://d-nb.info/gnd/4066009-6https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50https://pmb.acdh.oeaw.ac.at/entity/50https://pmb.acdh.oeaw.ac.at/entity/2316https://pmb.acdh.oeaw.ac.at/entity/20954https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50https://pmb.acdh.oeaw.ac.at/entity/65221/https://pmb.acdh.oeaw.ac.at/entity/65223/https://pmb.acdh.oeaw.ac.at/entities:Fichtegassehttps://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb716https://pmb.acdh.oeaw.ac.at/entity/716https://pmb.acdh.oeaw.ac.at/entity/63189/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29351https://pmb.acdh.oeaw.ac.at/entity/29351https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29351">http://anno.onb.ac.at/info/nfp_info.htmhttps://sws.geonames.org/2761369/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/https://d-nb.info/gnd/4066009-6https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50https://pmb.acdh.oeaw.ac.at/entity/50https://pmb.acdh.oeaw.ac.at/entity/2316https://pmb.acdh.oeaw.ac.at/entity/20954https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50https://pmb.acdh.oeaw.ac.at/entity/65221/https://pmb.acdh.oeaw.ac.at/entity/65223/https://pmb.acdh.oeaw.ac.at/entities:Fichtegassehttps://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb716https://pmb.acdh.oeaw.ac.at/entity/716https://pmb.acdh.oeaw.ac.at/entity/63189/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29351https://pmb.acdh.oeaw.ac.at/entity/29351https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29351</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div class="editionText">
+                        
+                        <div class="signed editionText">A.</div>
                         </div>
                      </div>
                   </div>
+               <div class="card-footer text-muted">
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
+                           </span></div><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="L041657.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                        </a><span class="nav-link">
+                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1922-06-26" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  <div id="registerDiv" class="d-none">
+                     <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a></div>
+                     </nav>
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                           <legend>Personen</legend>
+                           <ul>
+                              <li><a href="pmb2121.html">
+                                    Arthur
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb2173.html">
+                                    Olga
+                                    Schnitzler
+                                    Gussmann Dina Marius Schnitzler, Olga</a></li>
+                              <li><a href="pmb2238.html">
+                                    Lili
+                                    Schnitzler
+                                    Cappellini Schnitzler Cappellini, Lili</a></li>
+                              <li><a href="pmb12692.html">
+                                    Heinrich
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb27549.html">
+                                    Victor
+                                    Zuckerkandl
+                                    </a></li>
+                              <li><a href="pmb12698.html">
+                                    Julius
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb11370.html">
+                                    Sigmund
+                                    Freud
+                                    Sigismund</a></li>
+                              <li><a href="pmb10803.html">
+                                    David Josef
+                                    Bach
+                                    https://www.geschichtewiki.wien.gv.at/David_Josef_Bach</a></li>
+                              <li><a href="pmb27990.html">
+                                    Friederike
+                                    Stößler
+                                    Hein Hein Stößler, Friederike</a></li>
+                              <li><a href="pmb10815.html">
+                                    Hermann
+                                    Bahr
+                                    </a></li>
+                              <li><a href="pmb12170.html">
+                                    Heinrich
+                                    Mann
+                                    Luiz</a></li>
+                              <li><a href="pmb12968.html">
+                                    Siegfried
+                                    Trebitsch
+                                    Trebitsch-Szlámka</a></li>
+                              <li><a href="pmb15449.html">
+                                    Käthe
+                                    Dorsch
+                                    </a></li>
+                              <li><a href="pmb4847.html">
+                                    Mitsunobu
+                                    Yamagishi
+                                    </a></li>
+                              <li><a href="pmb18675.html">
+                                    Morikazu
+                                    Ida
+                                    </a></li>
+                              <li><a href="pmb4826.html">
+                                    Hans Hugo
+                                    Sokol
+                                    </a></li>
+                              <li><a href="pmb28838.html">
+                                    Johanna Helene
+                                    Kollmorgen
+                                    Rehfeld</a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                           <legend>Werke</legend>
+                           <ul>
+                              <li><a href="pmb31939.html">Vor Sonnenaufgang</a></li>
+                              <li><a href="pmb32384.html">Kiki</a></li>
+                              <li><a href="pmb29985.html">Der einsame Weg. Schauspiel in fünf Akten Junggeselle Junggesellenstück Die Egoisten
+                                    Einsame Wege Wege ins Dunkle</a></li>
+                              <li><a href="pmb30649.html">Der blinde Geronimo und sein Bruder</a></li>
+                           </ul>
+                        </div>
+                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
+                           <legend>Orte</legend>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <ul>
+                                    <li><a href="pmb50.html">Wien</a></li>
+                                    <li><a href="pmb41240.html">Österreich</a></li>
+                                    <li><a href="pmb982.html">Saint-Germain-en-Laye</a></li>
+                                    <li><a href="pmb806.html">Rheinischer Hof</a></li>
+                                    <li><a href="pmb314.html">Bayern</a></li>
+                                    <li><a href="pmb45258.html">München</a></li>
+                                    <li><a href="pmb667.html">Garmisch-Partenkirchen</a></li>
+                                    <li><a href="pmb34896.html">Possenhofen</a></li>
+                                    <li><a href="pmb797.html">Berchtesgaden</a></li>
+                                    <li><a href="pmb175.html">Amerika</a></li>
+                                    <li><a href="pmb318.html">Japan</a></li>
+                                    <li><a href="pmb805.html">Universität Tokio</a></li>
+                                    <li><a href="pmb168.html">Berlin</a></li>
+                                    <li><a href="pmb286.html">Luitpoldstraße</a></li>
+                                 </ul>
+                              </div>
+                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                           </div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                
+                                                    L.marker([48,2066, 16,37341]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
+                                                
+                                                    L.marker([47,33333, 13,33333]).addTo(mymap)
+                                                    .bindPopup("<b>Österreich</b>").openPopup();
+                                                
+                                                    L.marker([48,9, 2,08333]).addTo(mymap)
+                                                    .bindPopup("<b>Saint-Germain-en-Laye</b>").openPopup();
+                                                
+                                                    L.marker([48,13907960520144, 11,561467767769052]).addTo(mymap)
+                                                    .bindPopup("<b>Rheinischer Hof</b>").openPopup();
+                                                
+                                                    L.marker([49,0, 11,5]).addTo(mymap)
+                                                    .bindPopup("<b>Bayern</b>").openPopup();
+                                                
+                                                    L.marker([48,13743, 11,57549]).addTo(mymap)
+                                                    .bindPopup("<b>München</b>").openPopup();
+                                                
+                                                    L.marker([47,49209, 11,09576]).addTo(mymap)
+                                                    .bindPopup("<b>Garmisch-Partenkirchen</b>").openPopup();
+                                                
+                                                    L.marker([47,95947, 11,31038]).addTo(mymap)
+                                                    .bindPopup("<b>Possenhofen</b>").openPopup();
+                                                
+                                                    L.marker([47,63236, 13,00187]).addTo(mymap)
+                                                    .bindPopup("<b>Berchtesgaden</b>").openPopup();
+                                                
+                                                    L.marker([32,530833, -117,02]).addTo(mymap)
+                                                    .bindPopup("<b>Amerika</b>").openPopup();
+                                                
+                                                    L.marker([35,68536, 139,75309]).addTo(mymap)
+                                                    .bindPopup("<b>Japan</b>").openPopup();
+                                                
+                                                    L.marker([35,713333, 139,762222]).addTo(mymap)
+                                                    .bindPopup("<b>Universität Tokio</b>").openPopup();
+                                                
+                                                    L.marker([52,52437, 13,41053]).addTo(mymap)
+                                                    .bindPopup("<b>Berlin</b>").openPopup();
+                                                
+                                                    L.marker([52,49494, 13,34295]).addTo(mymap)
+                                                    .bindPopup("<b>Luitpoldstraße</b>").openPopup();
+                                                </script></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                  <div class="modal-header">
+                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
+                  </div>
+                  <div class="modal-body">
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, , https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-06-25), PID: . 
+                     </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29237">
-            <div class="modal-dialog" role="document">
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Verein gegen Trunksucht</h5>
+                     <h3>Faksimile</h3>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://sws.geonames.org/2761369/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/https://d-nb.info/gnd/4066009-6https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50https://pmb.acdh.oeaw.ac.at/entity/50https://pmb.acdh.oeaw.ac.at/entity/2316https://pmb.acdh.oeaw.ac.at/entity/20954https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50https://pmb.acdh.oeaw.ac.at/entity/65221/https://pmb.acdh.oeaw.ac.at/entity/65223/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29237https://pmb.acdh.oeaw.ac.at/entity/29237">https://sws.geonames.org/2761369/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/https://d-nb.info/gnd/4066009-6https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50https://pmb.acdh.oeaw.ac.at/entity/50https://pmb.acdh.oeaw.ac.at/entity/2316https://pmb.acdh.oeaw.ac.at/entity/20954https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50https://pmb.acdh.oeaw.ac.at/entity/65221/https://pmb.acdh.oeaw.ac.at/entity/65223/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29237https://pmb.acdh.oeaw.ac.at/entity/29237</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
+                     <div id="openseadragon-photo" style="height: 850px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            ]
+                                        });
+                                    </script></div>
+                  <div class="modal-footer" style="justify-content: flex-start;">
+                     <ul style="list-style-type: none;"></ul>
                   </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
@@ -938,46 +1067,6 @@
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31939">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Vor Sonnenaufgang <a href="pmb31939.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32384">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Kiki <a href="pmb32384.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29985">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Der einsame Weg. Schauspiel in fünf Akten <a href="pmb29985.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb30649">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Der blinde Geronimo und sein Bruder <a href="pmb30649.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
@@ -1022,7 +1111,7 @@
                               <p style="margin-bottom:0 !important;">Social: </p>
                            </div>
                            <div class="row">
-                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
                            </div>
                         </div>
@@ -1031,6 +1120,12 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
+                        } 
+                    </script></div>
    </body>
 </html>

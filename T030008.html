@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:foo="whateverWorksForMe" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
+      <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -33,7 +34,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="card">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2">
@@ -41,44 +42,45 @@
                      </div>
                      <div class="col-md-8">
                         <h1 align="center">Hermann Bahr: Wiener Brief, [25.–30.] 12. 1893</h1>
-                        <h3 align="center"><a href="T030008.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2" style="text-align:right">
                         <h1><a href="T030009.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
                      </div>
                   </div>
                </div>
-               <div class="card-body">
+               <div class="card-body-tagebuch" data-index="true">
                   
-                  <div id="div__116">
-                     WIENER BRIEF.
+                  <div class="div">
+                     <a name="hd1"> </a><h3>
+                        <div>WIENER BRIEF.</div>
+                     </h3>
                      
-                     <p id="p__3">Ich soll Ihnen monatlich notieren, was hier etwa künstlerisch gelten, Wert verlangen, Wirkung hoffen darf? Man kann
+                     <div class="editionText">Ich soll Ihnen monatlich notieren<a name="fna_1" href="#fn1" title="Das wurde nicht realisiert."><sup>1</sup></a>, was hier etwa künstlerisch gelten, Wert verlangen, Wirkung hoffen darf? Man kann
                         es ja versuchen. Es ist keine Mühe. Wenn es, wie diesen Dezember, zwei litterarische
-                        Premieren giebt, staunen schon alle. Wir sind gar nicht verwöhnt.</p>
+                        Premieren giebt, staunen schon alle. Wir sind gar nicht verwöhnt.</div>
                      
-                     <p id="p__20">Wir haben sehr viel Theater. Aber wir haben sehr wenig Litteratur. Schauspielerei
-                        herrscht. Zwei, dreimal die Woche muss man in der »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb14">Burg</a></span>« sein; wer sich ein bischen achtet, darf nicht fehlen. Heute spielt Fräulein <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28457">Kramm</a></span> den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31723">Raphael</a></span>, den sonst Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2850">Hohenfels</a></span> spielte, in den »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31723">guten Freunden</a></span>«; morgen mimt Herr <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4173">Alsen</a></span> für Herrn <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12948">Thimig</a></span>, im »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31933">Letzten Brief</a></span>«; oder die Marquise von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31725">Meneville</a></span>, die in den »
+                     <div class="editionText">Wir haben sehr viel Theater. Aber wir haben sehr wenig Litteratur. Schauspielerei
+                        herrscht. Zwei, dreimal die Woche muss man in der »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb14">Burg</a></span>« sein; wer sich ein bischen achtet, darf nicht fehlen. Heute spielt Fräulein <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb28457">Kramm</a></span> den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31723">Raphael</a></span>, den sonst Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2850">Hohenfels</a></span> spielte, in den »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31723">guten Freunden</a></span>«; morgen mimt<a name="fna_2" href="#fn2" title="Satzfehler: »nimmt«."><sup>2</sup></a> Herr <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb4173">Alsen</a></span> für Herrn <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12948">Thimig</a></span>, im »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31933">Letzten Brief</a></span>«; oder die Marquise von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31725">Meneville</a></span>, die in den »
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31725">Feeenhänden</a></span>
-                        « sonst Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2484">Gabillon</a></span> gab, soll an Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12265">Mitterwurzer</a></span> jetzt kommen. Das sind hier Ereignisse. Das sind unsere Feste. Der Schauspieler gilt,
+                        <a name="fna_3" href="#fn3" title="Satzfehler: »Feeennänden«."><sup>3</sup></a>« sonst Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2484">Gabillon</a></span> gab, soll an Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12265">Mitterwurzer</a></span> jetzt kommen. Das sind hier Ereignisse. Das sind unsere Feste. Der Schauspieler gilt,
                         nicht der Dichter. Wir wollen Rollen, keine Stücke, Vergessenes wird geholt, im Ton,
                         Gang und Haltung aus der Mode, wenn es nur scenische Treffer hat. Unlitterarisches
                         geschieht, ja ohne theatralische Kraft, um nur das Vermögen der Schauspieler zu üben.
                         Man eifert Leeres zu füllen, Niedriges zu heben. Gemeines zu verklären, als ob die
                         Wunder der Bühne erst an verächtlichen Werken gerade desto deutlicher würden. Fremde
                         können es gar nicht verstehen. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb168">Berlin</a></span>er gehen ins Theater, um ein Stück zu sehen. Wir gehen oft, um einen Vers zu hören.
-                        Wir sind da wie die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb182">Paris</a></span>er, die auch diese Pflege der Schauspielerei haben.</p>
+                        Wir sind da wie<a name="fna_4" href="#fn4" title="Satzfehler: »wir«."><sup>4</sup></a> die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb182">Paris</a></span>er, die auch diese Pflege der Schauspielerei haben.</div>
                      
-                     <p id="p__5">So leben wir unlitterarisch. Die heimlichsten und feinsten Noten mimischer Kunst sind geläufig. Aber wir hören
+                     <div class="editionText">So leben wir unlitterarisch<a name="fna_5" href="#fn5" title="Satzfehler: »unltiterarisch«."><sup>5</sup></a>. Die heimlichsten und feinsten Noten mimischer Kunst sind geläufig. Aber wir hören
                         keinen Dichter. Jetzt hörten wir gleich zwei. Und wir bewiesen wieder, dass wir es
-                        nicht verdienen.</p>
+                        nicht verdienen.</div>
                      
-                     <p id="p__14">Es war das »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29823">Märchen</a></span>« von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Arthur Schnitzler</a></span>, das den ersten Dezember im <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb20">Deutschen Volkstheater</a></span> und das »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31511">Hannele</a></span>« von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11617">Gerhart Hauptmann</a></span>, das den sechsten Dezember in der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb14">Burg</a></span> gespielt wurde. Man kann es den Direktoren nicht verargen, wenn sie die Litteratur
+                     <div class="editionText">Es war das »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29823">Märchen</a></span>« von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Arthur Schnitzler</a></span>, das den ersten Dezember im <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb20">Deutschen Volkstheater</a></span> und das<a name="fna_6" href="#fn6" title="Satzfehler: »des«."><sup>6</sup></a> »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31511">Hannele</a></span>« von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11617">Gerhart Hauptmann</a></span>, das den sechsten Dezember in der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb14">Burg</a></span> gespielt wurde. Man kann es den Direktoren nicht verargen, wenn sie die Litteratur
                         nach solchen Erfahrungen lieber lassen. Die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>er wissen künstlerische Triebe und Versuche unbefangen nicht zu messen. Sie freuen
-                        sich ausser der Kunst, in der Schablone. Sie hassen die Zucht und die Strenge jeder Dichtung und es graut ihnen vor der Schönheit. Das wurde wieder
-                        bewiesen.</p>
+                        sich ausser der Kunst, in der Schablone. Sie hassen die Zucht und<a name="fna_7" href="#fn7" title="Satzfehler: »uhd«."><sup>7</sup></a> die Strenge jeder Dichtung und es graut ihnen vor der Schönheit. Das wurde wieder
+                        bewiesen.</div>
                      
-                     <p id="p__12">Ich schwärme nicht für <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11617">Hauptmann</a></span>. Ich glaube, dass er in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb206">Preussen</a></span> jetzt über Gebühr gilt. Ich finde, dass seine Note dürftig ist. Sie giebt nur die
+                     <div class="editionText">Ich schwärme nicht für <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11617">Hauptmann</a></span>. Ich glaube, dass er in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb206">Preussen</a></span> jetzt über Gebühr gilt. Ich finde, dass seine Note dürftig ist. Sie giebt nur die
                         Verkümmerung, die Furcht, die Not der kleinen Bürger, das müde Elend knapper Existenzen,
                         die scheue Angst am Rande der Gesellschaft, zwischen dem dritten und dem vierten Stande,
                         wo man nicht leben und nicht sterben kann. Das ist <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb206">preussisch</a></span>, aber sonst leiten andere Klassen heute den Geist. Es ist nicht von morgen. Er hat
@@ -89,46 +91,46 @@
                         es mag etwa doch noch ein geheimer Faden sein, der ihn an <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb468">Europa</a></span> hängt. Und es hindert mich nicht, seine Künstlerschaft zu rühmen, weil er etwas zu
                         sagen hat und es zu sagen weiss. Er dient nicht den Launen und Lüsten der Menge. Er
                         fragt nicht nach Gewohnheiten und Bräuchen. Er folgt keinem Muster. Er horcht nach
-                        seiner Seele und will ihre Rührung gestalten. Er hat aus Fleiss und Eifer alle Mittel.</p>
+                        seiner Seele und will ihre Rührung gestalten. Er hat aus Fleiss und Eifer alle Mittel.</div>
                      
-                     <p id="p__9">Ich schwärme auch für das »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31511">Hannele</a></span>« nicht. Es hat schöne Stellen und ich liebe seinen Trieb, das Wirkliche mit Träumungen
+                     <div class="editionText">Ich schwärme auch für das »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31511">Hannele</a></span>« nicht. Es hat schöne Stellen und ich liebe seinen Trieb, das Wirkliche mit Träumungen
                         zu verwinden und über die Not zur Schönheit zu dringen, die heimlich im Gemüte ist.
-                        Aber es bleibt leerer Wunsch ohne Hilfe. Die Kraft versagt. Er kommt zur Begierde von Poesie. Aber er kann sie uns
+                        Aber es bleibt leerer Wunsch ohne<a name="fna_8" href="#fn8" title="Satzfehler: »onne«."><sup>8</sup></a> Hilfe. Die Kraft versagt. Er kommt zur Begierde von Poesie. Aber er kann sie uns
                         sich nicht gewähren. Er will von der Erde der Gefangenschaft im Elend fort. Aber er
                         vermag keinen Himmel aus tröstlichen Gefühlen. Die Worte reichen nicht an Glanz und
                         Fülle und die edle Geberde der Erlösung fehlt, die die bangen Sinne wünschen. So ruft
                         er schliesslich den Maschinisten an, die Poesie zu geben, die er nur verlangen, selber
-                        nicht schaffen kann.</p>
+                        nicht schaffen kann.</div>
                      
-                     <p id="p__10">Ich schätze <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Arthur Schnitzler</a></span> sehr. Ich stelle Hoffnungen auf ihn. Er gehört in das halbe Dutzend, das die deutsche
+                     <div class="editionText">Ich schätze <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2121">Arthur Schnitzler</a></span> sehr. Ich stelle Hoffnungen auf ihn. Er gehört in das halbe Dutzend, das die deutsche
                         Bühne fördern, aus der Irre führen, zur Kunst bringen kann. Er ist ein Künstler. Er
-                        hat seinen eigenen Ton, der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">wienerisch</a></span> ist, aber an die neue Race über den Nationen streift. So grüsse ich Ihn herzlich.</p>
+                        hat seinen eigenen Ton, der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">wienerisch</a></span> ist, aber an die neue Race über den Nationen streift. So grüsse ich Ihn herzlich.</div>
                      
-                     <p id="p__11">Aber ich habe nicht verhehlt, dass das »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29823">Märchen</a></span>« nicht gefallen kann. Ich dachte das gleich. Man merkte es an jeder Scene. Es ist
-                        Litteratur, aber es ist kein Theater, oder doch nicht Theater von heute. Die üblichen Forderungen,
+                     <div class="editionText">Aber ich habe nicht verhehlt, dass das »<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29823">Märchen</a></span>« nicht gefallen kann. Ich dachte das gleich. Man merkte es an jeder Scene. Es ist
+                        Litteratur,<a name="fna_9" href="#fn9" title="Satzfehler: »Litteratur.«"><sup>9</sup></a> aber es ist kein Theater, oder doch nicht Theater von heute. Die üblichen Forderungen,
                         die der übliche Hörer bringt, den üblichen Geschmack, die üblichen Sitten kränkt,
                         verblüfft, empört es gewaltsam. Als ein Experiment, Psychologie zu verbühnen, das
                         manchen Versuchen später helfen, viele Mühe kürzen, Irrungen sparen mag, wird es zählen.
-                        Aber es ist kein »Stück«.</p>
+                        Aber es ist kein »Stück«.</div>
                      
-                     <p id="p__11">Ich habe gleich gedacht: Diese Werke werden fallen und der Hörer hat Recht. Kunst
+                     <div class="editionText">Ich habe gleich gedacht: Diese Werke werden fallen und der Hörer hat Recht. Kunst
                         und Bühne sind getrennt. Theater muss theatralisch sein. Der Dramatiker gleicht dem
                         Redner. Es genügt nicht, dass der Redner eine gute Sache führt. Er muss sie gut zu
                         führen wissen. Er muss wirken. Ein Verteidiger des Guten kann ein schlechter Redner,
                         ein Verteidiger des Schlechten kann ein guter Redner sein. Es gilt nicht, was er sagt;
-                        es gilt, dass man ihm glaubt. Die besten Pläne, Argumente, Wünsche helfen nicht, wenn sie in den
+                        es gilt, dass<a name="fna_10" href="#fn10" title="Satzfehler: »gilt dass«."><sup>10</sup></a> man ihm glaubt. Die besten Pläne, Argumente, Wünsche helfen nicht, wenn sie in den
                         Hörer hallen. Der Philosoph will nur seine Meinung aus sich bringen. Der Redner muss
                         sie in die Anderen bringen. Der Künstler will seine Schönheit gestalten. Die Bühne
                         muss sie in den Anderen wecken. Wer das nicht kann, mag viele Ehren verdienen, aber
                         er ist nicht theatralisch; er gehört aus dem Theater. Die Leute haben Recht, es hart
                         unhöflich, grausam zu sagen. Sie fordern Wirkung von der Bühne. Was nicht wirkt, zischen
-                        sie weg.</p>
+                        sie weg.</div>
                      
-                     <p id="p__12">Aber es muss eine ehrliche Probe sein. Wenn man sich die Ohren verstopft, kann der
+                     <div class="editionText">Aber es muss eine ehrliche Probe sein. Wenn man sich die Ohren verstopft, kann der
                         beste Redner nichts. Man muss ihn unbefangen hören. Das ist Pflicht. Das darf er verlangen.
-                        </p>
+                        </div>
                      
-                     <p id="p__13">Die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>er sind wunderlich. Albernes Insipides tragen sie geduldig, verzeihen, begütigen,
+                     <div class="editionText">Die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>er sind wunderlich. Albernes Insipides tragen sie geduldig, verzeihen, begütigen,
                         entschuldigen immer, suchen mühsam Lob. Gnädigere, mildere Richter können Stümper
                         nicht wünschen. Aber sie verwandeln sich ungestüm und werden Feinde, wenn ein Künstler
                         redet. Den dulden sie nicht. Da wehren und sträuben sie sich heftig und hassen. Hämisch
@@ -137,159 +139,269 @@
                         spöttische Rufe, Gelächter im Ernste, Gähnen, Husten, Schneuzen eifert einer den anderen
                         an, jede Wirkung zu stören. Dann triumphieren sie, wenn es gelingt, wie über einen
                         guten Sieg und geberden sich glücklich. Es ist in ihnen eine dumpfe Furcht vor der
-                        Kunst und mit jedem Mittel wollen sie sie um jeden Preis verhindern.</p>
+                        Kunst und mit jedem Mittel wollen sie sie um jeden Preis verhindern.</div>
                      
-                     <p id="p__16">
-                        *
-                        *
-                        *
+                     <p align="center" class="editionText">
+                        <span class="superscript">*</span>
+                        <span class="subscript">*</span>
+                        <span class="superscript">*</span>
                         </p>
                      
-                     <p id="p__19">
+                     <div class="editionText">
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span> hat ein neues <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb77">Theater</a></span>
-                        . Es heisst nach dem alten <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12468">Raimund</a></span>, der immer Pech hatte. Herr <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12331">Adam Müller-Guttenbrunn</a></span> leitet es noch. Die Kapitalisten, die das Geld gaben, laufen in der Stadt herum und
+                        <a name="fna_11" href="#fn11" title="Eröffnet am 28. 11. 1893."><sup>11</sup></a>. Es heisst nach dem alten <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12468">Raimund</a></span>, der immer Pech hatte. Herr <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12331">Adam Müller-Guttenbrunn</a></span> leitet es noch. Die Kapitalisten, die das Geld gaben, laufen in der Stadt herum und
                         betteln, dass man ihnen das Geschäft nicht stören soll: es wird schon besser werden;
                         sie suchen auch einen ordentlichen Direktor; man lasse ihnen nur Zeit. Ich will patriotisch
                         sein und den Finanzen dieser kleinen Leute nicht schaden. Ich kann warten. Es wird
                         immer noch Zeit sein, den verächtlichen Betrug zu schildern, den hier ein einst litterarischer
-                        Name decken soll.</p>
+                        Name decken soll.</div>
                      
-                     <p id="p__18">
-                        *
-                        *
-                        *
+                     <p align="center" class="editionText">
+                        <span class="superscript">*</span>
+                        <span class="subscript">*</span>
+                        <span class="superscript">*</span>
                         </p>
                      
-                     <p id="p__17">Ich will lieber eine Geschichte erzählen, die manchen wundert. Sie zeigt unsere Sitten.
+                     <div class="editionText">Ich will lieber eine Geschichte erzählen, die manchen wundert. Sie zeigt unsere Sitten.
                         Gesinnung ist ja hier wenig üblich. So wirkt sie desto mehr. Leider handelt es sich
                         um mich, und ich kann nur berichten, nicht urteilen. Es wäre ein Fall für meinen lieben
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11581">Harden</a></span>.</p>
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11581">Harden</a></span>.</div>
                      
-                     <p id="p__17">Ich habe meinen Kollegen von der Kritik letzte Woche diesen Brief geschickt: </p>
+                     <div class="editionText">Ich habe meinen Kollegen von der Kritik letzte Woche diesen Brief geschickt: </div>
                      
-                     <p id="p__19">»Ich teile Ihnen mit, dass ich heute aus dem Verbande der ›<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29424">Deutschen Zeitung</a></span>‹ geschieden bin und in diesem Blatte keine Zeile mehr schreiben werde. Man hat mir
-                        nämlich zweimal kritische Referate verstümmelt. Das lasse ich mir nicht gefallen.</p>
+                     <div class="editionText">»Ich teile Ihnen mit, dass ich heute aus dem Verbande der ›<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb29424">Deutschen Zeitung</a></span>‹ geschieden bin und in diesem Blatte keine Zeile mehr schreiben werde. Man hat mir
+                        nämlich zweimal kritische Referate verstümmelt. Das lasse ich mir nicht gefallen.</div>
                      
                      <p id="p__20">
                         
+                        <div style="padding-bottom:em;"></div>
                         </p>
                      
-                     <p id="p__55">Ich <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32714">schrieb</a></span> für die Nummer von Freitag den 14.
-                         über das <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb77">Raimundtheater</a></span>: In diesem Couplet wird das <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb20">deutsche Volkstheater</a></span> verhöhnt. Solchen Spott sollte der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12331">Direktor</a></span> lassen, bis er einmal eine Vorstellung leisten wird, die sich mit der schlechtesten
+                     <div class="editionText">Ich <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32714">schrieb</a></span> für die Nummer von Freitag den 14.
+                        <a name="fna_12" href="#fn12" title="Eigentlich die Nachtkritik für den 15. über Die Arbeit hoch! von Wilhelm Frerking und Friedrich Antony: Hermann Bahr: Raimund-Theater. In: Deutsche Zeitung, Jg. 23, Nr. 7892, 15. 12. 1893, Morgen-Ausgabe, S. 6."><sup>12</sup></a> über das <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb77">Raimundtheater</a></span>: In diesem Couplet wird das <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb20">deutsche Volkstheater</a></span> verhöhnt. Solchen Spott sollte der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12331">Direktor</a></span> lassen, bis er einmal eine Vorstellung leisten wird, die sich mit der schlechtesten
                         des Konkurrenten vergleichen darf. Der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3021">Chefredakteur</a></span>, dem Herr <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12331">Müller-Guttenbrunn</a></span> sympathisch ist, liess nur den ersten Satz und strich den zweiten. Ich <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32716">schrieb</a></span> für die Nummer von Sonntag den 16.
-                         über das <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb14">Burgtheater</a></span>: Als <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31787">Diana</a></span> bewährte Fräulein <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12618">Sandrock</a></span> das schon an ihrer <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31789">Madelon</a></span> deutliche Talent, Unangenehmes angenehm, Heikles fein, Hoffart zierlich zu bringen;
+                        <a name="fna_13" href="#fn13" title="Eigentlich die Nachtkritik für den 17. über Georgette von Sardou: Hermann Bahr: Burgtheater. In: Deutsche Zeitung, Jg. 23, Nr. 7894, 17. 12. 1893, Morgen-Ausgabe, S. 8."><sup>13</sup></a> über das <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb14">Burgtheater</a></span>: Als <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31787">Diana</a></span> bewährte Fräulein <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12618">Sandrock</a></span> das schon an ihrer <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31789">Madelon</a></span> deutliche Talent, Unangenehmes angenehm, Heikles fein, Hoffart zierlich zu bringen;
                         es muss ein Vergnügen sein, so graziös betrogen zu werden. Drastische Chargen, mondänes
                         Laster und was <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11687">
                               Hevesi
                               </a></span> in dem lieben <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31791___pmb4206">Buche über Zerline
                               </a></span>
-                        
+                         
                         ›<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31791">Nervenhumoresken</a></span>‹ genannt hat, die ›<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31791">feinkomischen Stimmungs- oder vielmehr Verstimmungsbilder aus dem weiblichen Nervenleben</a></span>
-                        ‹ sind ihre Region und sie weiss, ohne das der Strenge der Zeichnung etwas vergeben
+                        <a name="fna_14" href="#fn14" title="Zerline Gabillon. Ein Künstlerleben. Erzählt von Ludwig Hevesi. Stuttgart: Adolf Bonz Comp. 1894, S. 47."><sup>14</sup></a>‹ sind ihre Region und sie weiss, ohne das der Strenge der Zeichnung etwas vergeben
                         würde, Bedenkliches zu mässigen, Kanten zu glätten, immer schön und lieblich zu sein.
                         Man sollte sie als 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31303">Athenais</a></span>
-                        , 
+                        <a name="fna_15" href="#fn15" title="Figur aus Der Hüttenbesitzer von Georges Ohnet."><sup>15</sup></a>, 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31725">Frau von Berny</a></span>
-                        , 
+                        <a name="fna_16" href="#fn16" title="Figur aus Feeenhände von Eugène Scribe."><sup>16</sup></a>, 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30755">Jeanne</a></span>
-                        , die weint, in den spitzen <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3272">Molierischen</a></span> Soubretten, deren niedlich lüsterne Gestalt sie hat, auch als verbuhltes 
+                        <a name="fna_17" href="#fn17" title="Figur aus Die Jungfrau von Orleans von Schiller."><sup>17</sup></a>, die weint, in den spitzen <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3272">Molierischen</a></span> Soubretten, deren niedlich lüsterne Gestalt sie hat, auch als verbuhltes 
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30867">Dortchen</a></span>
-                        , sogar als <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31897">widerspänstige Katharina</a></span> versuchen, während ihr die gewissen thöricht naiven Kätzchen, die man ihr sonst giebt,
-                        augenscheinlich nicht behagen. Der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3021">Chefredakteur</a></span>, dem das Fräulein nicht sympathisch ist, liess nur die erste Hälfte des ersten Satzes, alles andere strich er.</p>
+                        <a name="fna_18" href="#fn18" title="Figur aus Heinrich IV. von Shakespeare."><sup>18</sup></a>, sogar als <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb31897">widerspänstige Katharina</a></span> versuchen, während ihr die gewissen thöricht naiven Kätzchen, die man ihr sonst giebt,
+                        augenscheinlich nicht behagen. Der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3021">Chefredakteur</a></span>, dem das Fräulein nicht sympathisch ist, liess nur die erste Hälfte des ersten Satzes<a name="fna_19" href="#fn19" title="Der Schnitt nach »zierlich zu bringen«."><sup>19</sup></a>, alles andere strich er.</div>
                      
-                     <p id="p__23">Da es sich mit meinen Begriffen von Kritik nicht verträgt, auf fremde oder eigene
+                     <div class="editionText">Da es sich mit meinen Begriffen von Kritik nicht verträgt, auf fremde oder eigene
                         Sympathien oder Antipathien zu hören und eine Korrektur durch gewerbliche Interessen
                         zu dulden, habe ich sofort meine Entlassung genommen.« 
-                        Hermann Bahr.
-                        </p>
+                        <div class="signed editionText">
+                           Hermann Bahr.</div>
+                        </div>
                      </div>
                   </div>
-               <div class="card-footer">
-                  <p style="text-align:center;">
-                     <div class="footnotes" id="note__7"><a name="fn1"><a href="#fna_1"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">1</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn2"><a href="#fna_2"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">2</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn3"><a href="#fna_3"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">3</span></a></a>Text</div>
-                     <div class="footnotes" id="note__2"><a name="fn4"><a href="#fna_4"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">4</span></a></a>Arthur Schnitzler: Das Märchen. Schauspiel in drei Aufzügen. Dresden, Leipzig: E.
-                        Pierson’s Verlag 1894.</div>
-                     <div class="footnotes" id="note__3"><a name="fn5"><a href="#fna_5"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">5</span></a></a>https://babel.hathitrust.org/cgi/pt?id=coo.31924026341598&amp;view=1up&amp;seq=5</div>
-                     <div class="footnotes" id="note__14"><a name="fn6"><a href="#fna_6"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">6</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__8"><a name="fn7"><a href="#fna_7"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">7</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__2"><a name="fn8"><a href="#fna_8"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">8</span></a></a>Deutsche Zeitung, 15. 12. 1893</div>
-                     <div class="footnotes" id="note__7"><a name="fn9"><a href="#fna_9"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">9</span></a></a>Rezension</div>
-                     <div class="footnotes" id="note__2"><a name="fn10"><a href="#fna_10"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">10</span></a></a>Deutsche Zeitung, 17. 12. 1893</div>
-                     <div class="footnotes" id="note__7"><a name="fn11"><a href="#fna_11"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">11</span></a></a>Rezension</div>
-                     <div class="footnotes" id="note__7"><a name="fn12"><a href="#fna_12"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">12</span></a></a>Text</div>
-                     <div class="footnotes" id="note__6"><a name="fn13"><a href="#fna_13"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">13</span></a></a>Text</div>
-                     <div class="footnotes" id="note__6"><a name="fn14"><a href="#fna_14"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">14</span></a></a>Text</div>
-                     <div class="footnotes" id="note__8"><a name="fn15"><a href="#fna_15"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">15</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__8"><a name="fn16"><a href="#fna_16"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">16</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__10"><a name="fn17"><a href="#fna_17"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">17</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__7"><a name="fn18"><a href="#fna_18"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">18</span></a></a>Drama &gt;&gt; Mehraktiges Drama</div>
-                     <div class="footnotes" id="note__11"><a name="fn19"><a href="#fna_19"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">19</span></a></a>
-                        1947
+               <div class="card-footer text-muted">
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
+                           </span></div><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="T030008.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                        </a><span class="nav-link">
+                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1893-12-25" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  <div id="registerDiv" class="d-none">
+                     <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a></div>
+                     </nav>
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                           <legend>Personen</legend>
+                           <ul>
+                              <li><a href="pmb10815.html">
+                                    Hermann
+                                    Bahr
+                                    </a></li>
+                              <li><a href="pmb28457.html">
+                                    Margarethe
+                                    Kramm
+                                    Krampert Mandl</a></li>
+                              <li><a href="pmb2850.html">
+                                    Stella
+                                    Hohenfels
+                                    Loderbank Berger Hohenfels, Stella</a></li>
+                              <li><a href="pmb4173.html">
+                                    Harry
+                                    Alsen
+                                    </a></li>
+                              <li><a href="pmb12948.html">
+                                    Hugo
+                                    Thimig
+                                    </a></li>
+                              <li><a href="pmb2484.html">
+                                    Ludwig
+                                    Gabillon
+                                    </a></li>
+                              <li><a href="pmb12265.html">
+                                    Friedrich
+                                    Mitterwurzer
+                                    </a></li>
+                              <li><a href="pmb2121.html">
+                                    Arthur
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb11617.html">
+                                    Gerhart
+                                    Hauptmann
+                                    </a></li>
+                              <li><a href="pmb12468.html">
+                                    Ferdinand
+                                    Raimund
+                                    Raimann</a></li>
+                              <li><a href="pmb12331.html">
+                                    Adam
+                                    Müller-Guttenbrunn
+                                    Alexander Erdmann Müller</a></li>
+                              <li><a href="pmb11581.html">
+                                    Maximilian
+                                    Harden
+                                    </a></li>
+                              <li><a href="pmb3021.html">
+                                    Julian
+                                    Sternberg
+                                    </a></li>
+                              <li><a href="pmb12618.html">
+                                    Adele
+                                    Sandrock
+                                    Dilly</a></li>
+                              <li><a href="pmb11687.html">
+                                    Ludwig
+                                    Hevesi
+                                    Lajos Lövy Hirsch</a></li>
+                              <li><a href="pmb4206.html">
+                                    Zerline
+                                    Gabillon
+                                    Würzburg</a></li>
+                              <li><a href="pmb3272.html">
+                                    Molière
+                                    Jean-Baptiste Poquelin Molière Poquelin, Jean Baptiste</a></li>
+                           </ul>
                         </div>
-                     <div class="footnotes" id="note__10"><a name="fn20"><a href="#fna_20"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">20</span></a></a>
-                        27.11.1893
+                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                           <legend>Werke</legend>
+                           <ul>
+                              <li><a href="pmb31723.html">Die guten Freunde</a></li>
+                              <li><a href="pmb31933.html">Der letzte Brief</a></li>
+                              <li><a href="pmb31725.html">Feenhände</a></li>
+                              <li><a href="pmb29823.html">Das Märchen. Schauspiel in drei Aufzügen</a></li>
+                              <li><a href="pmb31511.html">Hanneles Himmelfahrt</a></li>
+                              <li><a href="pmb32714.html">Raimund-Theater [Die Arbeit hoch!]</a></li>
+                              <li><a href="pmb32716.html">Burgtheater [Georgette]</a></li>
+                              <li><a href="pmb31787.html">Georgette</a></li>
+                              <li><a href="pmb31789.html">Die Grille</a></li>
+                              <li><a href="pmb31791.html">Zerline Gabillon. Ein Künstlerleben</a></li>
+                              <li><a href="pmb31303.html">Der Hüttenbesitzer</a></li>
+                              <li><a href="pmb30755.html">Die Jungfrau von Orleans</a></li>
+                              <li><a href="pmb30867.html">Henry IV, Part 1 Heinrich IV., Teil 1</a></li>
+                              <li><a href="pmb31897.html">Der Widerspenstigen Zähmung</a></li>
+                           </ul>
                         </div>
-                     <div class="footnotes" id="note__10"><a name="fn21"><a href="#fna_21"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">21</span></a></a>
-                        1890
-                        </div>
-                  </p>
+                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
+                           <legend>Orte</legend>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <ul>
+                                    <li><a href="pmb14.html">Burgtheater</a></li>
+                                    <li><a href="pmb168.html">Berlin</a></li>
+                                    <li><a href="pmb182.html">Paris</a></li>
+                                    <li><a href="pmb20.html">Volkstheater</a></li>
+                                    <li><a href="pmb50.html">Wien</a></li>
+                                    <li><a href="pmb206.html">Preußen</a></li>
+                                    <li><a href="pmb468.html">Europa</a></li>
+                                    <li><a href="pmb77.html">Raimund-Theater</a></li>
+                                 </ul>
+                              </div>
+                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                           </div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                
+                                                    L.marker([48,210333, 16,361139]).addTo(mymap)
+                                                    .bindPopup("<b>Burgtheater</b>").openPopup();
+                                                
+                                                    L.marker([52,52437, 13,41053]).addTo(mymap)
+                                                    .bindPopup("<b>Berlin</b>").openPopup();
+                                                
+                                                    L.marker([48,85341, 2,3488]).addTo(mymap)
+                                                    .bindPopup("<b>Paris</b>").openPopup();
+                                                
+                                                    L.marker([48,205142, 16,3566]).addTo(mymap)
+                                                    .bindPopup("<b>Volkstheater</b>").openPopup();
+                                                
+                                                    L.marker([48,2066, 16,37341]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
+                                                
+                                                    L.marker([52,0, 13,0]).addTo(mymap)
+                                                    .bindPopup("<b>Preußen</b>").openPopup();
+                                                
+                                                    L.marker([48,69096, 9,14062]).addTo(mymap)
+                                                    .bindPopup("<b>Europa</b>").openPopup();
+                                                
+                                                    L.marker([48,192222, 16,339722]).addTo(mymap)
+                                                    .bindPopup("<b>Raimund-Theater</b>").openPopup();
+                                                </script></div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31791___pmb4206">
+         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">
-                        Multi Modal
-                        </h5>
+                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     <li>pmb31791</li>
-                     <li>pmb4206</li>
-                  </div>
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, , https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-06-25), PID: . 
+                     </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29212">
-            <div class="modal-dialog" role="document">
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Neue Rundschau, Neue Deutsche Rundschau, Freie Bühne</h5>
+                     <h3>Faksimile</h3>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://de.wikipedia.org/wiki/Die_neue_Rundschauhttp://sws.geonames.org/2950159/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168https://d-nb.info/gnd/4005728-8https://pmb.acdh.oeaw.ac.at/entity/168https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29212https://pmb.acdh.oeaw.ac.at/entity/29212https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29212">https://de.wikipedia.org/wiki/Die_neue_Rundschauhttp://sws.geonames.org/2950159/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168https://d-nb.info/gnd/4005728-8https://pmb.acdh.oeaw.ac.at/entity/168https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb168https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29212https://pmb.acdh.oeaw.ac.at/entity/29212https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29212</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
+                     <div id="openseadragon-photo" style="height: 850px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            ]
+                                        });
+                                    </script></div>
+                  <div class="modal-footer" style="justify-content: flex-start;">
+                     <ul style="list-style-type: none;"></ul>
                   </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29424">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Deutsche Zeitung</h5>
-                  </div>
-                  <div class="modal-body">
-                     <div class="card-body"><small>GND-ID</small>:
-                        <a href="https://sws.geonames.org/2761369/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/https://d-nb.info/gnd/4066009-6https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50https://pmb.acdh.oeaw.ac.at/entity/50https://pmb.acdh.oeaw.ac.at/entity/2316https://pmb.acdh.oeaw.ac.at/entity/20954https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50https://pmb.acdh.oeaw.ac.at/entity/65221/https://pmb.acdh.oeaw.ac.at/entity/65223/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29424https://pmb.acdh.oeaw.ac.at/entity/29424https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29424">https://sws.geonames.org/2761369/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/https://d-nb.info/gnd/4066009-6https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50https://pmb.acdh.oeaw.ac.at/entity/50https://pmb.acdh.oeaw.ac.at/entity/2316https://pmb.acdh.oeaw.ac.at/entity/20954https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50https://pmb.acdh.oeaw.ac.at/entity/65221/https://pmb.acdh.oeaw.ac.at/entity/65223/https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29424https://pmb.acdh.oeaw.ac.at/entity/29424https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29424</a><br></br><hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
@@ -844,146 +956,6 @@
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31723">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Die guten Freunde <a href="pmb31723.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31933">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Der letzte Brief <a href="pmb31933.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31725">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Feenhände <a href="pmb31725.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb29823">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Das Märchen. Schauspiel in drei Aufzügen <a href="pmb29823.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31511">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Hanneles Himmelfahrt <a href="pmb31511.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32714">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Raimund-Theater [Die Arbeit hoch!] <a href="pmb32714.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32716">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Burgtheater [Georgette] <a href="pmb32716.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31787">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Georgette <a href="pmb31787.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31789">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Die Grille <a href="pmb31789.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31791">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Zerline Gabillon. Ein Künstlerleben <a href="pmb31791.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31303">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Der Hüttenbesitzer <a href="pmb31303.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb30755">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Die Jungfrau von Orleans <a href="pmb30755.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb30867">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Henry IV, Part 1 <a href="pmb30867.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb31897">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Der Widerspenstigen Zähmung <a href="pmb31897.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
@@ -1028,7 +1000,7 @@
                               <p style="margin-bottom:0 !important;">Social: </p>
                            </div>
                            <div class="row">
-                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
                            </div>
                         </div>
@@ -1037,6 +1009,12 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
+                        } 
+                    </script></div>
    </body>
 </html>

@@ -10,8 +10,9 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" ref="pmb32680">Hermann Bahr: Tagebuch. 13. Oktober, 28. 10. 1905</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title level="a" ref="#pmb32680">Hermann Bahr: Tagebuch. 13. Oktober, 28. 10. 1905</title>
+            <title type="iso-date">1905-10-28</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,11 +50,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="a" ref="pmb32680">Tagebuch. 13. Oktober [1905]</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="#pmb32680">Tagebuch. 13. Oktober [1905]</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="pmb29699">Der Weg</title>
+                     <title level="j" ref="#pmb43849">Der Weg</title>
                      <imprint>
                         <date when="1905-10-28" n="1">28. 10. 1905</date>
                      </imprint>
@@ -64,11 +65,11 @@
                </biblStruct>
                <biblStruct>
                   <analytic>
-                     <title level="a" ref="pmb32680">13. Oktober [1905]</title>
+                     <title level="a" ref="#pmb32680">13. Oktober [1905]</title>
                   </analytic>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="m" ref="pmb29929">Tagebuch</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="m" ref="#pmb29929">Tagebuch</title>
                      <imprint>
                         <pubPlace>Berlin</pubPlace>
                         <publisher>Paul Cassirer</publisher>
@@ -93,7 +94,9 @@
    <text type="article">
       <body>
          <div>
-            <p part="N">13. Oktober. Gestern, im »<rs type="work" ref="#pmb29903">Zwischenspiel</rs>«, halb amüsiert und doch wütend über die hochachtungsvolle Freude, die die Juden im Parkett und in den Logen, gerade sie, an <rs type="person" ref="#pmb2121">Schnitzlers</rs> jungem Fürsten haben, vor Wonne wedelnd und nass. Merkwürdig. Gerade sie, die doch unseren Adel kennen. Hier diese Frau, die einmal, aus Snobismus, mit einem Grafen geschlafen hat und doch wissen muss, wenn sie mit sich allein und halbwegs ehrlich gegen sich ist, dass jeder »<anchor type="commentary" xml:id="KT082-1">Bocher</anchor>« im Erotischen delikater, oder sagen wir: weniger primitiv ist. Und daneben ihr Mann, der mit Fürsten in einer Verwaltung sitzt, wo man sie ja für anrüchige Geschäfte braucht, und daher doch wissen muss, wie moralisch ahnungslos sie sind. Warum fröstelt sie also vor Ehrfurcht, wenn ein Aristokrat auf die Bühne kommt? Warum verachten sie sich so? – Mir fällt da wieder jene Geschichte ein. Ein Dichter, der Jude ist, schreibt ein Stück. Es missfällt einem Kritiker, der Jude ist; er verreisst es. Das erbittert einen anderen Dichter, der Jude ist. Und er tröstet den ersten, indem er an ihn über den Kritiker<pb/> schreibt, es sei von diesem nichts anderes zu erwarten gewesen: denn »Ihr so herrliches Werk wird kein Jude je verstehen«. – Mir ist nur um die Kinder dieser durch Reichtum verdorbenen Juden bang. Bang und leid. Und <rs type="person" ref="#pmb11673">Herzl</rs> ist tot. </p>
+            <p part="N">13. Oktober. Gestern, im »<rs type="work" ref="#pmb29903">Zwischenspiel</rs>«, halb amüsiert und doch wütend über die hochachtungsvolle Freude, die die Juden im Parkett und in den Logen, gerade sie, an <rs type="person" ref="#pmb2121">Schnitzlers</rs> jungem Fürsten haben, vor Wonne wedelnd und nass. Merkwürdig. Gerade sie, die doch unseren Adel kennen. Hier diese Frau, die einmal, aus Snobismus, mit einem Grafen geschlafen hat und doch wissen muss, wenn sie mit sich allein und halbwegs ehrlich gegen sich ist, dass jeder »<anchor type="commentary" xml:id="KT082-1"/>Bocher<note type="commentary" xml:id="KT082-1h">
+                  <p part="N">Jüdischer Jüngling.</p>
+               </note>« im Erotischen delikater, oder sagen wir: weniger primitiv ist. Und daneben ihr Mann, der mit Fürsten in einer Verwaltung sitzt, wo man sie ja für anrüchige Geschäfte braucht, und daher doch wissen muss, wie moralisch ahnungslos sie sind. Warum fröstelt sie also vor Ehrfurcht, wenn ein Aristokrat auf die Bühne kommt? Warum verachten sie sich so? – Mir fällt da wieder jene Geschichte ein. Ein Dichter, der Jude ist, schreibt ein Stück. Es missfällt einem Kritiker, der Jude ist; er verreisst es. Das erbittert einen anderen Dichter, der Jude ist. Und er tröstet den ersten, indem er an ihn über den Kritiker<pb/> schreibt, es sei von diesem nichts anderes zu erwarten gewesen: denn »Ihr so herrliches Werk wird kein Jude je verstehen«. – Mir ist nur um die Kinder dieser durch Reichtum verdorbenen Juden bang. Bang und leid. Und <rs type="person" ref="#pmb11673">Herzl</rs> ist tot. </p>
          </div>
       </body>
    </text>
@@ -227,7 +230,15 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32680</idno>
             <note type="work_kind">Kolumne</note>
          </bibl>
-         <error type="bibl">29699</error>
+         <bibl xml:id="pmb43849">
+            <title>Der Weg. Wochenschrift für Politik und Kultur</title>
+            <author ref="pmbperson__6623" role="hat-herausgegeben">Charmatz, Richard</author>
+            <author ref="pmbperson__7805" role="hat-herausgegeben">Hertz, Friedrich Otto</author>
+            <date>1905-10-01  – 1906</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/43849/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/43849</idno>
+            <note type="work_kind">Publikationsorgan &gt;&gt; Zeitschrift &gt;&gt; Wochenschrift</note>
+         </bibl>
          <bibl xml:id="pmb29929">
             <title>Tagebuch [Berlin: Paul Cassirer]</title>
             <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>

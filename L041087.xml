@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler an Hermann Bahr, 13. 10. 1905</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1905-10-13</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <sender>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1905-10-13" n="3">13. 10. 1905</date>
@@ -75,7 +76,7 @@
                         <idno>HS AM 60177 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte, gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName ref="pmb133">Wien, XIII. Spoettelgasse 7</placeName>.«</p>
+                        <p>eh. Karte, gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName ref="#pmb133">Wien, XIII. Spoettelgasse 7</placeName>.«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -87,7 +88,7 @@
                      <respStmt>Abschrift</respStmt>
                   </analytic>
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint>
@@ -138,7 +139,9 @@
                </damage> sein müßte, und zu dem mir alle Elemente in geheimnisvoller Weise schon in diesem seltsamen Akt zu liegen scheinen.</p>
             <p>Darf ich dir bei dieser Gelegenheit gleich für <rs type="work" subtype="implied" ref="#pmb30003">deine lieben Worte</rs> in der <rs type="org" ref="#pmb29421">Volkszeitg</rs> die Hand drücken?</p>
             <p>
-               <anchor type="commentary" xml:id="KL087-1">Sonntag oder Montag</anchor> fahr ich fort, auf einige Tage nur, dann auf Wiedersehen.</p>
+               <anchor type="commentary" xml:id="KL087-1"/>Sonntag oder Montag<note type="commentary" xml:id="KL087-1h">
+                  <p>Am Montag, dem <date >16. 10. 1905</date>, fuhr er mit <rs type="person" ref="#pmb10986">Brahm</rs> auf den <rs type="place" ref="#pmb189">Semmering</rs>.</p>
+               </note> fahr ich fort, auf einige Tage nur, dann auf Wiedersehen.</p>
             <closer>Von Herzen dein <signed>A.</signed>
             </closer>
          </div>
@@ -153,7 +156,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -162,7 +165,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -170,8 +173,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -185,7 +188,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -194,7 +197,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -202,8 +205,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -216,7 +219,7 @@
          <bibl xml:id="pmb29907">
             <title>Der Klub der Erlöser</title>
             <note type="bibliografische_angabe">Die neue Rundschau, Jg. 17, H. 3, März 1906</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1906-03-01">01.03.1906</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29907</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29907</idno>
@@ -227,8 +230,8 @@
          <bibl xml:id="pmb30001">
             <title>Der arme Narr</title>
             <note type="bibliografische_angabe">Österreichische Rundschau, 28. 9. 1905</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1905-09-28">28.09.1905</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30001</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30001</idno>
@@ -239,7 +242,7 @@
          <bibl xml:id="pmb30003">
             <title>Zwischenspiel. (Komödie in drei Akten von Arthur Schnitzler. Zum erstenmal aufgeführt im Burgtheater am 12. Oktober 1905)</title>
             <note type="bibliografische_angabe">Österreichische Volks-Zeitung, 13. 10. 1905</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1905-10-13">13.10.1905</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30003</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30003</idno>
@@ -267,7 +270,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -291,7 +294,7 @@
                <geo>48,219883621255 16,25565018043</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb68">XVIII., Währing</placeName>
+               <placeName ref="#pmb68">XVIII., Währing</placeName>
                <geo>48,23333 16,31667</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Spöttelgasse_(18)</idno>
@@ -306,7 +309,7 @@
             <desc type="entity_type">Tageszeitungsredaktion</desc>
             <desc type="entity_type_id">972</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>

@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Aufzeichnung von Hermann Bahr, 16. 1. 1906</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1906-01-16</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -70,7 +71,7 @@
                      <biblScope unit="pp">2</biblScope>
                   </monogr>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
                      <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
                      <editor>Hg. Moritz Csáky</editor>
                      <imprint>
@@ -100,17 +101,37 @@
             <p>
                <date when="1906-01-16" n="01">16.</date>
                <space unit="chars" quantity="1"/>
-               <anchor type="commentary" xml:id="KD484-2">Brief an <rs type="person" ref="#pmb11324">Fischer</rs>
-               </anchor>, daß ich <rs type="person" ref="#pmb13014">Vollmöllers</rs> »<anchor type="commentary" xml:id="KD484-4">
-                  <rs type="work" ref="#pmb31187">Orestie</rs>
-               </anchor>« prachtvoll finde, aber <rs type="person" ref="#pmb12813">Sp.</rs> sie mit dem Hinweise auf den <rs type="place" ref="#pmb45258">Münchner</rs> Durchfall der <rs type="work" subtype="implied" ref="#pmb31187">
+               <anchor type="commentary" xml:id="KD484-2"/>Brief an <rs type="person" ref="#pmb11324">Fischer</rs>
+               <note type="commentary" xml:id="KD484-2h">
+                  <p>Nicht überliefert.</p>
+               </note>, daß ich <rs type="person" ref="#pmb13014">Vollmöllers</rs> »<anchor type="commentary" xml:id="KD484-4"/>
+               <rs type="work" ref="#pmb31187">Orestie</rs>
+               <note type="commentary" xml:id="KD484-4h">
+                  <p>Die Bearbeitung von <rs type="person" ref="#pmb3648">Aischylos’</rs>
+                     <space unit="chars" quantity="1"/>
+                     <rs type="work" ref="#pmb31187">Orestie</rs> durch <rs type="person" ref="#pmb13014">Vollmoeller</rs> entstand <date >1904</date>/<date >1905</date>, wurde aber erst
+                  <date >1911</date> bei <rs type="org" ref="#pmb29639">S. Fischer</rs> gedruckt.</p>
+               </note>« prachtvoll finde, aber <rs type="person" ref="#pmb12813">Sp.</rs> sie mit dem Hinweise auf den <rs type="place" ref="#pmb45258">Münchner</rs> Durchfall der <rs type="work" subtype="implied" ref="#pmb31187">
                   <rs type="person" ref="#pmb28251">Willamowitzschen</rs>
-               </rs> nicht riskieren will, daß ich »<anchor type="commentary" xml:id="KD484-5">
-                  <rs type="work" ref="#pmb31189">Oedipus u. Sp.</rs>
-               </anchor>« angenommen habe, der Intendant aber sich die Entscheidung bis fünf Tage nach der <anchor type="commentary" xml:id="KD484-3">
-                  <rs type="place" ref="#pmb168">Berliner</rs> Première</anchor> vorbehalten hat, u. daß ich den »<anchor type="commentary" xml:id="KD484-1">
-                  <rs type="work" ref="#pmb29905">Ruf des Lebens</rs>
-               </anchor>« annehme.</p>
+               </rs> nicht riskieren will, daß ich »<anchor type="commentary" xml:id="KD484-5"/>
+               <rs type="work" ref="#pmb31189">Oedipus u. Sp.</rs>
+               <note type="commentary" xml:id="KD484-5h">
+                  <p>Die Empfehlung von <rs type="person" ref="#pmb11740">Hofmannsthals</rs>
+                     <space unit="chars" quantity="1"/>
+                     <rs type="work" ref="#pmb31189">Oedipus und die Sphinx</rs> erfolgte bereits zu
+               Jahresbeginn (<bibl >
+                        <rs type="work">Bw</rs> Hofmannsthal/Bahr 304–305</bibl>). </p>
+               </note>« angenommen habe, der Intendant aber sich die Entscheidung bis fünf Tage nach der <anchor type="commentary" xml:id="KD484-3"/>
+               <rs type="place" ref="#pmb168">Berliner</rs> Première<note type="commentary" xml:id="KD484-3h">
+                  <p>Uraufführung am <date >2. 2. 1906</date>, <rs type="place" ref="#pmb3">Deutsches
+                  Theater</rs>.</p>
+               </note> vorbehalten hat, u. daß ich den »<anchor type="commentary" xml:id="KD484-1"/>
+               <rs type="work" ref="#pmb29905">Ruf des Lebens</rs>
+               <note type="commentary" xml:id="KD484-1h">
+                  <p>Es handelt sich dabei nicht um die Uraufführung; diese wird von den Zeitungen zur
+               gleichen Zeit bereits als für <date >Ende Februar</date> am <rs type="place" ref="#pmb18">Lessingtheater</rs> in <rs type="place" ref="#pmb168">Berlin</rs>
+               feststehend berichtet.</p>
+               </note>« annehme.</p>
             <p>»<rs type="work" ref="#pmb29905">Ruf der Lebens</rs>« an <rs type="person" ref="#pmb12813">Sp.</rs> geschickt, anzunehmen; Entscheidg binnen drei Wochen.</p>
          </div>
       </body>
@@ -124,7 +145,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -133,7 +154,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -141,8 +162,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -157,7 +178,7 @@
             </persName>
             <birth>
                <date when="1859-12-24">24.12.1859</date>
-               <settlement ref="pmb55962">
+               <settlement ref="#pmb55962">
                   <placeName type="pref">Liptovský Mikuláš</placeName>
                   <location>
                      <geo>49,08061 19,62218</geo>
@@ -166,7 +187,7 @@
             </birth>
             <death>
                <date when="1934-10-15">15.10.1934</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -174,7 +195,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+            <occupation ref="#pmb144">Verleger/Verlegerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15009</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118691406</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11324</idno>
@@ -188,7 +209,7 @@
             </persName>
             <birth>
                <date when="1878-05-07">07.05.1878</date>
-               <settlement ref="pmb872">
+               <settlement ref="#pmb872">
                   <placeName type="pref">Stuttgart</placeName>
                   <location>
                      <geo>48,78232 9,17702</geo>
@@ -197,7 +218,7 @@
             </birth>
             <death>
                <date when="1948-10-18">18.10.1948</date>
-               <settlement ref="pmb38174">
+               <settlement ref="#pmb38174">
                   <placeName type="pref">Hollywood</placeName>
                   <location>
                      <geo>26,0112 -80,14949</geo>
@@ -205,7 +226,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20986</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118805681</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb13014</idno>
@@ -219,7 +240,7 @@
             </persName>
             <birth>
                <date when="1858-01-26">26.01.1858</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -228,7 +249,7 @@
             </birth>
             <death>
                <date when="1912-09-01">01.09.1912</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -236,7 +257,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20240</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117482609</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12813</idno>
@@ -250,7 +271,7 @@
             </persName>
             <birth>
                <date when="1848-12-22">1848-12-22</date>
-               <settlement ref="pmb88952">
+               <settlement ref="#pmb88952">
                   <placeName type="pref">Markowice</placeName>
                   <location>
                      <geo>52,70724 18,21629</geo>
@@ -259,7 +280,7 @@
             </birth>
             <death>
                <date when="1931-09-25">1931-09-25</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -267,7 +288,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb204">Philologe/Philologin</occupation>
+            <occupation ref="#pmb204">Philologe/Philologin</occupation>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb28251</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28251</idno>
          </person>
@@ -275,7 +296,7 @@
       <listBibl>
          <bibl xml:id="pmb31187">
             <title>Orestie</title>
-            <author ref="pmbperson__3648" role="hat-geschaffen">Aischylos</author>
+            <author ref="#pmbperson__3648" role="hat-geschaffen">Aischylos</author>
             <date>.0458</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31187</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31187</idno>
@@ -283,7 +304,7 @@
          </bibl>
          <bibl xml:id="pmb31189">
             <title>Oedipus und die Sphinx. Tragödie in drei Aufzügen</title>
-            <author ref="pmbperson__11740" role="hat-geschaffen">Hofmannsthal, Hugo von</author>
+            <author ref="#pmbperson__11740" role="hat-geschaffen">Hofmannsthal, Hugo von</author>
             <date when="1906-01-01">1906</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31189</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31189</idno>
@@ -295,7 +316,7 @@
             <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Ruf_des_Lebens</idno>
             <note type="uri_worklink">http://www.literature.at/viewer.alo?objid=12117&amp;page=1&amp;viewmode=fullscreen</note>
             <title type="arbeitstitel">Vatermörderin</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1906-02-20">1906-02-20</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.12</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1196563</idno>
@@ -326,11 +347,11 @@
                <geo>48,13743 11,57549</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb314">Bayern</placeName>
+               <placeName ref="#pmb314">Bayern</placeName>
                <geo>49,0 11,5</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb151">Deutschland</placeName>
+               <placeName ref="#pmb151">Deutschland</placeName>
                <geo>51,5 10,5</geo>
             </location>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
@@ -353,7 +374,7 @@
                <geo>52,52437 13,41053</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb151">Deutschland</placeName>
+               <placeName ref="#pmb151">Deutschland</placeName>
                <geo>51,5 10,5</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>

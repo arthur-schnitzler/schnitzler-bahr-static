@@ -1,4 +1,4 @@
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar">
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:local="http://dse-static.foo.bar" xmlns:foo="whateverWorksForMe" lang="de">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,7 @@
       <link rel="stylesheet" href="css/style.css" type="text/css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
+      <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
                <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -33,7 +34,7 @@
             </nav>
          </div>
          <div class="container-fluid">
-            <div class="card" data-index="true">
+            <div class="card">
                <div class="card-header">
                   <div class="row">
                      <div class="col-md-2">
@@ -41,185 +42,380 @@
                      </div>
                      <div class="col-md-8">
                         <h1 align="center">Arthur an Olga Schnitzler, 19. 9. 1919</h1>
-                        <h3 align="center"><a href="L041653.xml"><i class="fas fa-download" title="show TEI source"></i></a></h3>
                      </div>
                      <div class="col-md-2" style="text-align:right">
                         <h1><a href="L041654.html"><i class="fas fa-chevron-right" title="next"></i></a></h1>
                      </div>
                   </div>
                </div>
-               <div class="card-body">
+               <div class="card-body-tagebuch" data-index="true">
                   
-                  <div id="div__13">
+                  <div class="address-div">
                      
-                     Dr. Arthur Schnitzler, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb68">Wien XVIII</a></span>
+                     <div class="column">
+                        
+                        <div class="addrLine">Dr. Arthur Schnitzler, <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb68">Wien XVIII</a></span>
+                            
+                           <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb150">Sternwartest 71</a></span>.</div>
+                        </div>
                      
-                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb150">Sternwartest 71</a></span>.
-                     
-                     
-                     Frau Olga Schnitzler
-                     
-                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30">Salzburg</a></span>
-                     
-                     
-                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb40384">Hotel Bristol
-                           </a></span>
-                     
-                     
-                     </div>
+                     <div class="column">
+                        
+                        <div class="addrLine">Frau Olga Schnitzler</div>
+                        
+                        <div class="addrLine">
+                           <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb30">Salzburg</a></span>
+                           </div>
+                        
+                        <div class="addrLine">
+                           <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb40384">Hotel Bristol
+                                 </a></span>
+                           </div>
+                        </div>
+                     </div><br />
                   
-                  <div id="div__98">
+                  <div class="div">
                      
+                     <div class="opener">
+                        
+                        <p align="right" class="editionText">
+                           <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>, 19. 9. 1919
+                           <br />Freitag Nm</p>
+                        </div>
                      
-                     <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb50">Wien</a></span>, 19. 9. 1919
-                     <br xmlns:tei="http://www.tei-c.org/ns/1.0"></br>Freitag Nm
-                     
-                     
-                     <p id="p__7">
+                     <div class="editionText">
                         liebe, zuerst will ich dir deine mediz. Fragen beantworten – zu größerer Sicherheit hab ich
                         eben den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb22733">Mediz.Rath</a></span> telef. gefragt: also rohes Obst lieber nicht mit den Tropfen zugleich; – höchstens
                         ein Pfirsich oder weiche Birne; Compot natürlich soviel’s beliebt. Aussetzen der Tropfen
                         nicht notwendig. – Was du mir von der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10818">Mildenburg</a></span> erzählst, war mir sehr interessant, und ich bin schon sehr gespannt, was sie zu deinem Gesang äußern wird. Ob sie auch
-                        in deinem Concert war? – </p>
+                        in deinem Concert war? – </div>
                      
-                     <p id="p__6">Gestern war ich nach langer Zeit wieder einmal bei <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2135">Popper</a></span>. Er hat Verlegeraerger und leidet unter der Epoche mehr als je. Das bolschewistische Säuglingspack kommt
+                     <div class="editionText">Gestern war ich nach langer Zeit wieder einmal bei <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2135">Popper</a></span>. Er hat Verlegeraerger<a name="fna_1" href="#fn1" title="Carl Reissner, damals geführt von Erwin Kurtz, war der zentrale Verlag Poppers bis 1920."><sup>1</sup></a> und leidet unter der Epoche mehr als je. Das bolschewistische Säuglingspack kommt
                         noch immer schaarenweise und er ist nach wie vor entsetzt über das Maß von Bildungsmangel,
                         Unlogik und Bösheit in diesen jugendlichen Schädeln. Doch entschließt er sich nicht
                         zu oeffentlicher Abwehr; – er traut sich die schriftstellerische Leistungsfähigkeit nicht mehr zu; – seit ¾ Jahren fühlt er, der Zweiachtzigjährige, sich alt werden.–
-                        –</p>
+                        –</div>
                      
-                     <p id="p__36">Zu Himbeerwasser und Bäckerei fanden sich Nachmittag <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3115">Fritz</a></span> u <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb13197">Trude Z.</a></span> ein, – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2312">Hofrätin</a></span> ist in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb917">Turin</a></span> jedenfalls schon eingetroffen. Um 6 erschien <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb16608">Fried</a></span>; er und <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2167">Salten</a></span> nachtmahlten bei mir; – nachher kamen <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26392">Leo</a></span>, Frau
-                        
-                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26173">Lorle Tressler</a></span> (nach telef. Verständg zwischen ihr und <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2167">S.</a></span>) – und <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12993">Unruh</a></span>. (Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb15967">E.</a></span> hatte erfahren, dss <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2167">S.</a></span> bei mir nachtmahlt.[)]
-                        
+                     <div class="editionText">Zu Himbeerwasser und Bäckerei fanden sich Nachmittag <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb3115">Fritz</a></span> u <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb13197">Trude Z.</a></span> ein, – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2312">Hofrätin</a></span> ist in <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb917">Turin</a></span> jedenfalls schon eingetroffen. Um 6 erschien <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb16608">Fried</a></span>; er und <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2167">Salten</a></span> nachtmahlten bei mir; – nachher kamen <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26392">Leo</a></span>, Frau
+                         
+                        <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26173">Lorle Tressler</a></span> (nach telef. Verständg zwischen ihr und <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2167">S.</a></span>) – und <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12993">Unruh</a></span>. (Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb15967">E.</a></span> hatte erfahren, dss <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2167">S.</a></span> bei mir nachtmahlt.)
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12993">U.</a></span> war früh, nach 5tägiger Reise eingetroffen; – sah sehr »Wandersmann« aus; – gebräunt,
                         massig, touristisch angethan; höchst durchgearbeitetes Gesicht, wie nach dem Marmor
                         verlangend, kaum mehr jünglingshaft, fast hart, gehetzt aber beherrscht; – in der
                         Gesamterscheinung einleuchtend aber nicht einfach erfreulich. Sehr erfüllt von Arbeit,
                         aus der er kommt und in die er geht; – seine Gefühle von Sendung und von Carrière 
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="illegible">××××××××××××××××××××</span>
                            </del>
-                         durcheinandergewirrt und stetig wach. Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26173">Tr.</a></span> goß sich auf ein Streckfauteul (die Scene spielt auf der Veranda) und war bildschön; er (seinerseits) tritt täglich
-                        in einem Varieté auf, wohnt daher im <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb205">Bristol</a></span> – und nicht im <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb533">Cottage</a></span> (wo vor ein paar Tagen kurz nach zehn ein Arzt
-                        
+                        <a name="fna_2" href="#fn2" title="\sout{×××} Halbe Zeile durch Streichung unkenntlich gemacht."><sup>2</sup></a> durcheinandergewirrt und stetig wach. Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26173">Tr.</a></span> goß sich auf ein Streckfauteul<a name="fna_3" href="#fn3" title="Von Schnitzler zeitlebens benutzte Schreibweise von Fauteuil."><sup>3</sup></a> (die Scene spielt auf der Veranda) und war bildschön; er (seinerseits) tritt täglich
+                        in einem Varieté auf, wohnt daher im <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb205">Bristol</a></span> – und nicht im <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb533">Cottage</a></span> (wo vor ein paar Tagen kurz nach zehn ein Arzt<a name="fna_4" href="#fn4" title="Nicht ermittelt."><sup>4</sup></a>
+                         
                         
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="illegible">××××××××××</span>
                            </del>
-                         auf der Straße (irgendwo in unsrer Nähe, erzählt <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26392">Leo</a></span>) beraubt wurde. Die Dunkelheit in unsrer Gegend ist übrigens wirklich unwahrscheinlich) –</p>
+                        <a name="fna_5" href="#fn5" title="\sout{×××} Drittelzeile durch Streichung unkenntlich gemacht."><sup>5</sup></a> auf der Straße (irgendwo in unsrer Nähe, erzählt <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26392">Leo</a></span>) beraubt wurde. Die Dunkelheit in unsrer Gegend ist übrigens wirklich unwahrscheinlich) –</div>
                      
-                     <p id="p__52">Heute Vormittag <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32326">General Probe</a></span>. Vor dem <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb14">Theater</a></span>
-                        
+                     <div class="editionText">Heute Vormittag <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32326">General Probe</a></span>. Vor dem <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb14">Theater</a></span>
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2150">Julius Bauer</a></span> und Ehepaar <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb15967 pmb3103">E.</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2150">Bauer</a></span> war aus <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb213">Ischl</a></span> per Auto hergefahren, mit irgd einem Großindustriellen.
-                        
-                        [(]Kosten einer solchen Fahrt zehntausend Kronen.) Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb15967">E.</a></span> nahm mich auf die Seite – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12993">Unruh</a></span> habe ihr erzählt – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2167">S.</a></span> sei gestern Abend bei mir sonderbar kühl zu ihm gewesen! – ich erklärte, er habe
+                         
+                        (Kosten einer solchen Fahrt zehntausend Kronen.) Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb15967">E.</a></span> nahm mich auf die Seite – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12993">Unruh</a></span> habe ihr erzählt – <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb2167">S.</a></span> sei gestern Abend bei mir sonderbar kühl zu ihm gewesen! – ich erklärte, er habe
                         seine Wärme für Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb26173">Lorle</a></span> verwenden müssen; – aber das beruhigte Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb15967">E.</a></span> noch nicht – denn auch <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12993">Marco Brociner</a></span>, man denke, habe sich über »die Tragoedie« nicht durchaus zustimmend 
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           <abbr title="unclear">an</abbr>
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="unsicher">an</span>
                            </del>
                         aus
-                        gesprochen  u. s. w. – Auf deinem Platz saß Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12160">Alma</a></span>, war also meine Nachbarin; der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11521">Kleinen</a></span> gehts schon recht gut – sie werden nun eine Weile in der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb795">Elisabethstraße</a></span> wohnen – ganz ohne Bedienung; <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12160">Alma</a></span> selbst wird das Essen aus dem Gasthaus holen (?) – Dann wieder auf den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb36503">
+                        gesprochen  .  .  .  u. s. w. – Auf deinem Platz saß Frau <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12160">Alma</a></span>, war also meine Nachbarin; der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb11521">Kleinen</a></span> gehts schon recht gut – sie werden nun eine Weile in der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb795">Elisabethstraße</a></span> wohnen – ganz ohne Bedienung; <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12160">Alma</a></span> selbst wird das Essen aus dem Gasthaus holen (?) – Dann wieder auf den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb36503">
                               Kreuzberg
                               </a></span>, und ich solle zu ihr kommen. Worauf der Vorhang aufging. – Außer der <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb10959">Bleibtreu</a></span> mäßige oder schwache Darstellung. <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12711">Schott</a></span> anfangs sehr gut, dann eintönig; der kleine <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12939">Thimig</a></span> unmöglich, fast lächerlich; die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12211">Mayen</a></span> gut sprechend aber in ihren blutschänderischen Gelüsten nicht glaubwürdig oder wenigstens
                         nicht appetitlich genug. – In der Inscenirung manches gute, manches gar zu absichtsvoll einerseits im stilisirten anderseits im realistischen. Daß diese
                         Tragödie von einem Hauch von Größe umweht wird – ist zweifellos – als Kunstwerk ist
                         sie nicht wohlgerathen: keine Klarheit der Linie, viel Praetension, mancher hysterische
                         Zug. Die Vision fast immer schon oder bedeutend; das gedankliche <del xmlns:tei="http://www.tei-c.org/ns/1.0">
-                           
+                           <span xmlns="http://www.w3.org/1999/xhtml" class="illegible">×××××××</span>
                            </del> oft nebelhaft und wirr der Ausdruck, der Vers zuweilen mehr künstlich gesteigert als von Seelenkraft gehoben. – Ich sprach nachher niemanden als den Grafen <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb21327">Mensdorff</a></span>; – da ich gleich von den <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb15967 pmb3103">E.s</a></span> beschlagnahmt wurde;– <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12993">Unruh</a></span> war unsichtbar und blieb es –; ich machte aus meinen Bedenken insbesondre wegen der
                         Aufführung kein Hehl, betonte natürlich sehr, was man auch in aller Aufrichtigkeit
                         thun darf – das Eigenartige und atmosphärisch bedeutungsvolle d
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">arin</del>
                         es St
                         ücks – das ja vielleicht, in Verbindg mit den zwei nächsten dazugehörigen eine <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32300">Komoedie</a></span> u einem <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32298">Schauspiel</a></span> sich dem Verständnis besser erschließen wird.
-                        </p>
+                        </div>
                      </div>
                   
-                  <div id="div__21">
+                  <div class="div">
                      
-                     <p id="p__2">am 20. 9. morgens.
+                     <p align="right" class="editionText">am 20. 9. morgens.
                         </p>
                      
-                     <p id="p__15">Daß von morgen an hier die Elektrische nicht verkehrt, hast du wohl gelesen; man nimmt
+                     <div class="editionText">Daß von morgen an hier die Elektrische nicht verkehrt, hast du wohl gelesen; man nimmt
                         zwar an, diese Calamität werde nicht allzulange dauern, – aber der Auftakt für die
                         »Saison« ist symptomatisch. Auch geschäftlich läßt sie sich nichts weniger als hoffnungsvoll
-                        an
-                        
+                        an .  . 
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb24945">Wucki</a></span> behauptet, dir schon vor Wochen ausführlich geschrieben zu haben. Sie schrieb dir
                         eben wieder. Heute Abend <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12163">Mahler</a></span>
-                        
+                         
                         <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb32155">Neunte</a></span>. Nach drei wunderbaren fast wolkenlosen Wochen regnet es zum ersten Ma
                         <del xmlns:tei="http://www.tei-c.org/ns/1.0">hl</del>
                         l
                         . – Ich lege bei, was indeß für dich angelangt. Im nächsten Brief erfahr ich wohl
                         genaueres über deine weitern Pläne. Die <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12692 pmb2238">Kinder</a></span> küssen dich. Sie befinden sich vortrefflich. (<span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb12692">Heini</a></span> war gestern auch in der Generalprobe; (– Sitz von <span xmlns:tei="http://www.tei-c.org/ns/1.0" class="linkfarbe"><a data-toggle="modal" data-target="#pmb21844">Nemec</a></span>) nachdem er schon ein paar Proben vom Schnürboden aus gesehen.) Leb wohl und laß
-                        es die weiter gut ergehn.Herzlichst</p>
+                        es die weiter gut ergehn. Herzlichst</div>
                      
-                     Arthur
-                     
+                     <div class="editionText">
+                        
+                        <div class="signed editionText">Arthur</div>
+                        </div>
                      </div>
                   </div>
-               <div class="card-footer">
-                  <p style="text-align:center;">
-                     <div class="footnotes" id="note__8"><a name="fn1"><a href="#fna_1"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">1</span></a></a>Text</div>
-                     <div class="footnotes" id="note__6"><a name="fn2"><a href="#fna_2"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">2</span></a></a>Text</div>
-                     <div class="footnotes" id="note__7"><a name="fn3"><a href="#fna_3"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">3</span></a></a>Text</div>
-                     <div class="footnotes" id="note__6"><a name="fn4"><a href="#fna_4"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">4</span></a></a>Musikstück &gt;&gt; Sinfonie</div>
-                     <div class="footnotes" id="note__14"><a name="fn5"><a href="#fna_5"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">5</span></a></a>
-                        1892
+               <div class="card-footer text-muted">
+                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
+                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
+                           </span></div><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
+                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="L041653.xml"><i class="fa-lg far fa-file-code"></i> TEI 
+                        </a><span class="nav-link">
+                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1919-09-19" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
+                  <div id="registerDiv" class="d-none">
+                     <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a></div>
+                     </nav>
+                     <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                           <legend>Personen</legend>
+                           <ul>
+                              <li><a href="pmb2121.html">
+                                    Arthur
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb2173.html">
+                                    Olga
+                                    Schnitzler
+                                    Gussmann Dina Marius Schnitzler, Olga</a></li>
+                              <li><a href="pmb22733.html">
+                                    Jacob
+                                    Pollak
+                                    Pollak, Jacob</a></li>
+                              <li><a href="pmb10818.html">
+                                    Anna
+                                    Bahr-Mildenburg
+                                    Bellschan von Mildenburg</a></li>
+                              <li><a href="pmb2135.html">
+                                    Josef
+                                    Popper-Lynkeus
+                                    Popper Popper, Josef http://d-nb.info/gnd/1168760917</a></li>
+                              <li><a href="pmb3115.html">
+                                    Fritz
+                                    Zuckerkandl
+                                    </a></li>
+                              <li><a href="pmb13197.html">
+                                    Gertrude
+                                    Zuckerkandl
+                                    Stekel</a></li>
+                              <li><a href="pmb2312.html">
+                                    Berta
+                                    Zuckerkandl
+                                    Szeps</a></li>
+                              <li><a href="pmb16608.html">
+                                    Oscar
+                                    Fried
+                                    </a></li>
+                              <li><a href="pmb2167.html">
+                                    Felix
+                                    Salten
+                                    Siegmund Salzmann Salzmann, Siegmund</a></li>
+                              <li><a href="pmb26392.html">
+                                    Leo
+                                    Van-Jung
+                                    Fan-Jung</a></li>
+                              <li><a href="pmb26173.html">
+                                    Eleonore
+                                    Tressler
+                                    Keil von Bündten</a></li>
+                              <li><a href="pmb12993.html">
+                                    Fritz von
+                                    Unruh
+                                    </a></li>
+                              <li><a href="pmb15967.html">
+                                    Friederike
+                                    Ergas
+                                    Schaffer Unruh</a></li>
+                              <li><a href="pmb2150.html">
+                                    Julius
+                                    Bauer
+                                    </a></li>
+                              <li><a href="pmb3103.html">
+                                    Rudolf
+                                    Ergas
+                                    </a></li>
+                              <li><a href="pmb12160.html">
+                                    Alma Maria
+                                    Mahler
+                                    Schindler Gropius Werfel</a></li>
+                              <li><a href="pmb11521.html">
+                                    Manon
+                                    Gropius
+                                    </a></li>
+                              <li><a href="pmb10959.html">
+                                    Hedwig
+                                    Bleibtreu
+                                    Römpler Paulsen</a></li>
+                              <li><a href="pmb12711.html">
+                                    Werner
+                                    Schott
+                                    </a></li>
+                              <li><a href="pmb12939.html">
+                                    Hans
+                                    Thimig
+                                    </a></li>
+                              <li><a href="pmb12211.html">
+                                    Maria
+                                    Mayen
+                                    Reimers Urbantschitsch Mayer</a></li>
+                              <li><a href="pmb21327.html">
+                                    Albert von
+                                    Mensdorff-Pouilly-Dietrichstein
+                                    </a></li>
+                              <li><a href="pmb24945.html">
+                                    Hermine
+                                    Simandt
+                                    Wucki</a></li>
+                              <li><a href="pmb12163.html">
+                                    Gustav
+                                    Mahler
+                                    </a></li>
+                              <li><a href="pmb12692.html">
+                                    Heinrich
+                                    Schnitzler
+                                    </a></li>
+                              <li><a href="pmb2238.html">
+                                    Lili
+                                    Schnitzler
+                                    Cappellini Schnitzler Cappellini, Lili</a></li>
+                              <li><a href="pmb21844.html">
+                                    Severin
+                                    Nemec
+                                    </a></li>
+                           </ul>
                         </div>
-                     <div class="footnotes" id="note__11"><a name="fn6"><a href="#fna_6"><span style="font-size:7pt;vertical-align:super; margin-right: 0.4em">6</span></a></a>
-                        1892
+                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                           <legend>Werke</legend>
+                           <ul>
+                              <li><a href="pmb32326.html">Ein Geschlecht</a></li>
+                              <li><a href="pmb32300.html">Heinrich aus Andernach</a></li>
+                              <li><a href="pmb32298.html">Platz</a></li>
+                              <li><a href="pmb32155.html">Symphonie Nr. 9 D-Dur</a></li>
+                           </ul>
                         </div>
-                  </p>
+                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
+                           <legend>Orte</legend>
+                           <div class="row">
+                              <div class="col-md-4">
+                                 <ul>
+                                    <li><a href="pmb50.html">Wien</a></li>
+                                    <li><a href="pmb30.html">Salzburg</a></li>
+                                    <li><a href="pmb68.html">XVIII., Währing</a></li>
+                                    <li><a href="pmb150.html">Sternwartestraße</a></li>
+                                    <li><a href="pmb40384.html">Hotel Bristol</a></li>
+                                    <li><a href="pmb917.html">Turin</a></li>
+                                    <li><a href="pmb205.html">Hotel Bristol</a></li>
+                                    <li><a href="pmb533.html">Währinger Cottage</a></li>
+                                    <li><a href="pmb14.html">Burgtheater</a></li>
+                                    <li><a href="pmb213.html">Bad Ischl</a></li>
+                                    <li><a href="pmb795.html">Elisabethstraße</a></li>
+                                    <li><a href="pmb36503.html">Breitenstein am Semmering</a></li>
+                                 </ul>
+                              </div>
+                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
+                           </div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                
+                                                var mymap = L.map('mapid').setView([50, 12], 5);
+                                                
+                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                maxZoom: 18,
+                                                zIndex: 1
+                                                }).addTo(mymap);
+                                                
+                                                    L.marker([48,2066, 16,37341]).addTo(mymap)
+                                                    .bindPopup("<b>Wien</b>").openPopup();
+                                                
+                                                    L.marker([47,80067, 13,04532]).addTo(mymap)
+                                                    .bindPopup("<b>Salzburg</b>").openPopup();
+                                                
+                                                    L.marker([48,23333, 16,31667]).addTo(mymap)
+                                                    .bindPopup("<b>XVIII., Währing</b>").openPopup();
+                                                
+                                                    L.marker([48,23099349198, 16,340117830625]).addTo(mymap)
+                                                    .bindPopup("<b>Sternwartestraße</b>").openPopup();
+                                                
+                                                    L.marker([47,80308, 13,04367]).addTo(mymap)
+                                                    .bindPopup("<b>Hotel Bristol</b>").openPopup();
+                                                
+                                                    L.marker([45,07049, 7,68682]).addTo(mymap)
+                                                    .bindPopup("<b>Turin</b>").openPopup();
+                                                
+                                                    L.marker([48,202791, 16,370064]).addTo(mymap)
+                                                    .bindPopup("<b>Hotel Bristol</b>").openPopup();
+                                                
+                                                    L.marker([48,233056, 16,341944]).addTo(mymap)
+                                                    .bindPopup("<b>Währinger Cottage</b>").openPopup();
+                                                
+                                                    L.marker([48,210333, 16,361139]).addTo(mymap)
+                                                    .bindPopup("<b>Burgtheater</b>").openPopup();
+                                                
+                                                    L.marker([47,71109, 13,61893]).addTo(mymap)
+                                                    .bindPopup("<b>Bad Ischl</b>").openPopup();
+                                                
+                                                    L.marker([48,202505409168, 16,365996258067]).addTo(mymap)
+                                                    .bindPopup("<b>Elisabethstraße</b>").openPopup();
+                                                
+                                                    L.marker([47,65949, 15,82151]).addTo(mymap)
+                                                    .bindPopup("<b>Breitenstein am Semmering</b>").openPopup();
+                                                </script></div>
+                     </div>
+                  </div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb15967 pmb3103">
+         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">
-                        Multi Modal
-                        </h5>
+                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
                   </div>
                   <div class="modal-body">
-                     <li>pmb15967 pmb3103</li>
-                  </div>
+                     Arthur Schnitzler: Tagebuch. Digitale Edition, , https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-06-25), PID: . 
+                     </div>
                   <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb15967 pmb3103">
-            <div class="modal-dialog" role="document">
+         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">
-                        Multi Modal
-                        </h5>
+                     <h3>Faksimile</h3>
                   </div>
                   <div class="modal-body">
-                     <li>pmb15967 pmb3103</li>
+                     <div id="openseadragon-photo" style="height: 850px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
+                                        var viewer = OpenSeadragon({
+                                        id: "openseadragon-photo",
+                                        protocol: "http://iiif.io/api/image",
+                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
+                                        sequenceMode : true,
+                                        showReferenceStrip: true,
+                                        tileSources: [
+                                            ]
+                                        });
+                                    </script></div>
+                  <div class="modal-footer" style="justify-content: flex-start;">
+                     <ul style="list-style-type: none;"></ul>
                   </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb12692 pmb2238">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">
-                        Multi Modal
-                        </h5>
-                  </div>
-                  <div class="modal-body">
-                     <li>pmb12692 pmb2238</li>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
                </div>
             </div>
          </div>
@@ -1078,46 +1274,6 @@
                </div>
             </div>
          </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32326">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Ein Geschlecht <a href="pmb32326.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32300">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Heinrich aus Andernach <a href="pmb32300.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32298">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Platz <a href="pmb32298.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="pmb32155">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title">Symphonie Nr. 9 D-Dur <a href="pmb32155.html"><i class="fas fa-external-link-alt"></i></a></h5>
-                  </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
          <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
             <div class="container" id="footer-full-content" tabindex="-1">
                <div class="footer-separator">
@@ -1162,7 +1318,7 @@
                               <p style="margin-bottom:0 !important;">Social: </p>
                            </div>
                            <div class="row">
-                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/acdh-oeaw/bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
                            </div>
                         </div>
@@ -1171,6 +1327,12 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
+                        function toggleVisibility() {
+                            document.getElementById("registerDiv").classList.toggle("d-none");
+                            document.getElementById("registerDiv").classList.toggle("d-block");
+                            mymap.invalidateSize();
+                        } 
+                    </script></div>
    </body>
 </html>

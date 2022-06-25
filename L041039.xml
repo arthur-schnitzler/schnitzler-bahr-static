@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler an Hermann Bahr, 10.–12. 9. 1901</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1901-09-12</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <sender>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1901-09-12" n="1">10.–12. 9. 1901</date>
@@ -86,7 +87,7 @@
                      <date when="1901-09-10">10., 12. 9. 1901</date>
                   </analytic>
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint>
@@ -122,7 +123,13 @@
       <body>
          <div type="writingSession" n="1">
             <p>
-               <salute>mein lieber Hermann, </salute>ich schicke dir <add place="above">heute</add> die <rs type="work" subtype="implied" ref="#pmb29865 #pmb29869 #pmb29957">3 Einakter</rs>. Mein Bedenken, die <anchor type="commentary" xml:id="KL039-1">Kürze des Abends betreffend</anchor>, ist wieder rege geworden; und ich habe die Absicht, einen <rs type="work" subtype="implied" ref="#pmb29873">vierten Einakter</rs>, der mir gestern einfiel und in Sinn und Form zu den bis jetzt vorliegenden passt, zu schreiben. Ob ich gleich die rechte Stimmung dafür finden werde, ist natürlich noch nicht ausgemacht. Jedenfalls bitt’<pb/> ich dich, vor allem einmal diese 3 <rs type="work" subtype="implied" ref="#pmb29865 #pmb29869 #pmb29957">Stücke</rs> zu lesen, u. zw. in der Reihenfolge »<add place="inline">1)</add>
+               <salute>mein lieber Hermann, </salute>ich schicke dir <add place="above">heute</add> die <rs type="work" subtype="implied" ref="#pmb29865 #pmb29869 #pmb29957">3 Einakter</rs>. Mein Bedenken, die <anchor type="commentary" xml:id="KL039-1"/>Kürze des Abends betreffend<note type="commentary" xml:id="KL039-1h">
+                  <p>
+                     <bibl >A. S. <rs type="work">Tb</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >6. 9. 1901</date>
+                     </bibl>: »<quote>Die <rs type="work" subtype="implied" ref="#pmb29865 #pmb29869 #pmb29957">3 Einakter</rs> zu kurz.</quote>«</p>
+               </note>, ist wieder rege geworden; und ich habe die Absicht, einen <rs type="work" subtype="implied" ref="#pmb29873">vierten Einakter</rs>, der mir gestern einfiel und in Sinn und Form zu den bis jetzt vorliegenden passt, zu schreiben. Ob ich gleich die rechte Stimmung dafür finden werde, ist natürlich noch nicht ausgemacht. Jedenfalls bitt’<pb/> ich dich, vor allem einmal diese 3 <rs type="work" subtype="implied" ref="#pmb29865 #pmb29869 #pmb29957">Stücke</rs> zu lesen, u. zw. in der Reihenfolge »<add place="inline">1)</add>
                <space unit="chars" quantity="1"/>
                <rs type="work" ref="#pmb29865">Die Frau mit dem Dolch</rs>«. 2) <rs type="work" ref="#pmb29957">Lebendige Stunden</rs>
                <damage agent="hole">
@@ -141,9 +148,21 @@
          </div>
          <div type="writingSession" n="2">
             <p>Der Zufall fügte es, dass ich, durch ein teleph. Ersuchen <rs type="person" ref="#pmb11848">Kadelburgs</rs> veranlasst, die <rs type="work" subtype="implied" ref="#pmb29865 #pmb29869 #pmb29957">Stücke</rs> in der Direktion überreichte. Ich bat, das man sie<pb/> dir zukommen ließe, was wohl bereits geschehen ist</p>
-            <p>Indess hab ich den <rs type="work" subtype="implied" ref="#pmb29873">vierten Einakter</rs> zu schreiben begonnen und hoffe, dass er sich, wie vielleicht noch ein <anchor type="commentary" xml:id="KL039-2">
-                  <rs type="work" subtype="implied" ref="#pmb29877">fünfter</rs>
-               </anchor> dem Cyklus gut einfügen wird</p>
+            <p>Indess hab ich den <rs type="work" subtype="implied" ref="#pmb29873">vierten Einakter</rs> zu schreiben begonnen und hoffe, dass er sich, wie vielleicht noch ein <anchor type="commentary" xml:id="KL039-2"/>
+               <rs type="work" subtype="implied" ref="#pmb29877">fünfter</rs>
+               <note type="commentary" xml:id="KL039-2h">
+                  <p>
+                     <rs type="work" ref="#pmb29877">Die letzten Masken</rs>. Am <date >16. 9.</date>
+               schreibt er an diesem und am <rs type="work" ref="#pmb29873">Puppenspieler</rs>. Die
+               Unterscheidung zwischen den zwei Stoffen ergibt sich aus der Formulierung
+                  »<quote>gestern einfiel</quote>« in diesem Brief, da bereits im Frühjahr eine
+               erste dramatische Fassung der <rs type="work" ref="#pmb29877">Letzten Masken</rs>
+               entstanden war, siehe Kommentar zum Brief vom <date >[14. 3.? 1901]</date>, <ptr target="LKommKL038-3"/>. Die Arbeit geht schnell voran, so dass am
+                  <date >22.</date> die <rs type="work" ref="#pmb29877">Masken</rs> vorliegen,
+               während <rs type="work" ref="#pmb29873">Der Puppenspieler</rs> »<quote>noch auf ein
+                  oder zwei gute Stunden zur Vollendung</quote>« wartet (<bibl >
+                        <rs type="work">Bw</rs> Schnitzler/Brahm 95</bibl>).</p>
+               </note> dem Cyklus gut einfügen wird</p>
             <closer>herzlichst <signed>A.</signed>
             </closer>
             <postscript>
@@ -163,7 +182,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -172,7 +191,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -180,8 +199,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -195,7 +214,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -204,7 +223,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -212,8 +231,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -228,7 +247,7 @@
             </persName>
             <birth>
                <date when="1856-02-14">14.02.1856</date>
-               <settlement ref="pmb43471">
+               <settlement ref="#pmb43471">
                   <placeName type="pref">Budapest</placeName>
                   <location>
                      <geo>47,49835 19,04045</geo>
@@ -237,7 +256,7 @@
             </birth>
             <death>
                <date when="1910-07-13">13.07.1910</date>
-               <settlement ref="pmb772">
+               <settlement ref="#pmb772">
                   <placeName type="pref">Marienbad</placeName>
                   <location>
                      <geo>49,96115 12,72872</geo>
@@ -245,9 +264,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb104">Regisseur/Regisseurin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16621</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116012242</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11848</idno>
@@ -258,7 +277,7 @@
       <listBibl>
          <bibl xml:id="pmb29865">
             <title>Die Frau mit dem Dolche</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1901-01-01">1901</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.15</idno>
             <idno type="URL" subtype="theadok">https://theadok.at/work/38141</idno>
@@ -271,7 +290,7 @@
          </bibl>
          <bibl xml:id="pmb29869">
             <title>Literatur</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1901-01-01">1901</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.28</idno>
             <idno type="URL" subtype="theadok">https://theadok.at/work/30265</idno>
@@ -287,7 +306,7 @@
             <title type="legacy-name-merge">Lebendige Stunden</title>
             <title type="legacy-uri-merge">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/33854/</title>
             <note type="bibliografische_angabe">Neue Deutsche Rundschau, Jg. 12,  H. 12, Dezember 1901</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1901-12-01">01.12.1901</date>
             <idno type="URL" subtype="books">https://books.google.at/books?id=Ab42AAAAMAAJ&amp;redir_esc=y</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29957</idno>
@@ -299,7 +318,7 @@
          <bibl xml:id="pmb29873">
             <title>Der Puppenspieler</title>
             <note type="bibliografische_angabe">Neue Freie Presse, 31. 5. 1903</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1903-05-31">31.05.1903</date>
             <idno type="URL" subtype="dracor">https://dracor.org/ger/schnitzler-der-puppenspieler</idno>
             <idno type="URL" subtype="theadok">https://theadok.at/work/38152</idno>
@@ -312,7 +331,7 @@
          </bibl>
          <bibl xml:id="pmb29877">
             <title>Die letzten Masken</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1901-01-01">1901</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.17</idno>
             <idno type="URL" subtype="theadok">https://theadok.at/work/31483</idno>
@@ -344,7 +363,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -373,7 +392,7 @@
                <geo>52,52437 13,41053</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb151">Deutschland</placeName>
+               <placeName ref="#pmb151">Deutschland</placeName>
                <geo>51,5 10,5</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>

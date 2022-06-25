@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hugo von Hofmannsthal an Hermann Bahr, 23. 7. 1900</title>
-            <author ref="pmb11740">Hofmannsthal, Hugo von</author>
+            <title type="iso-date">1900-07-23</title>
+            <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,14 +49,14 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+               <sender>
+                  <persName ref="#pmb11740">Hofmannsthal, Hugo von</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb573">Bad Fusch</placeName>
+                  <placeName ref="#pmb573">Bad Fusch</placeName>
                </placeSender>
                <dateSender>
                   <date when="1900-07-23" n="01">23. 7. 1900</date>
@@ -65,9 +66,9 @@
             <listBibl>
                <biblStruct corresp="HvHHB">
                   <monogr>
-                     <author ref="pmb11740">Hofmannsthal, Hugo von</author>
-                     <author ref="pmb2292">Hofmannsthal, Gerty von</author>
-                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb11740">Hofmannsthal, Hugo von</author>
+                     <author ref="#pmb2292">Hofmannsthal, Gerty von</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
                      <title level="m">Briefwechsel 1891–1934</title>
                      <editor>Hg. und kommentiert von Elsbeth Dangel-Pelloquin</editor>
                      <imprint>
@@ -96,10 +97,19 @@
             <p>
                <gap reason="outOfScope"/>
             </p>
-            <p>Ich hab in <rs type="place" ref="#pmb182">Paris</rs> den Einacter <anchor type="commentary" xml:id="KL476-1">
-                  <rs type="work" ref="#pmb32163">Poil de Carotte</rs>
-               </anchor>, den Sie vielleicht am <rs type="place" ref="#pmb610">Theatre <rs type="person" ref="#pmb2211">Antoine</rs>
-               </rs> sehen können, zum Übersetzen erworben und habe mich mit dem Gedanken abgegeben, dass das vielleicht mit dem »<rs type="work" ref="#pmb30279">Thor und Tod</rs>« und allenfalls mit einem neuen <rs type="work" subtype="implied" ref="#pmb30625">Einacter</rs> den <rs type="person" ref="#pmb2121">Schnitzler</rs> geschrieben hat, einen anständigen Theaterabend geben könnte, auch mit sonst etwas drittem, denn <rs type="person" ref="#pmb2121">Schnitzlers</rs> Absichten kenn ich gar nicht. Das könnte für die beiden meinigen Stücke – das eigene und das übersetzte – natürlich recht ausgiebig nützlich sein, ebenso für die kleine <anchor type="commentary" xml:id="KL476-2">Buchausgabe</anchor> von »<rs type="work" ref="#pmb30279">Thor und Tod</rs>«, die schon das zweite fünfhundert überschritten hat.</p>
+            <p>Ich hab in <rs type="place" ref="#pmb182">Paris</rs> den Einacter <anchor type="commentary" xml:id="KL476-1"/>
+               <rs type="work" ref="#pmb32163">Poil de Carotte</rs>
+               <note type="commentary" xml:id="KL476-1h">
+                  <p>Die Übersetzung des Stücks von <rs type="person" ref="#pmb4460">Jules Renard</rs>
+               wurde unter dem Titel <rs type="work" ref="#pmb32163">Fuchs</rs> am <date >16. 2.
+                  1901</date> am <rs type="place" ref="#pmb14">Burgtheater</rs> uraufgeführt.</p>
+               </note>, den Sie vielleicht am <rs type="place" ref="#pmb610">Theatre <rs type="person" ref="#pmb2211">Antoine</rs>
+               </rs> sehen können, zum Übersetzen erworben und habe mich mit dem Gedanken abgegeben, dass das vielleicht mit dem »<rs type="work" ref="#pmb30279">Thor und Tod</rs>« und allenfalls mit einem neuen <rs type="work" subtype="implied" ref="#pmb30625">Einacter</rs> den <rs type="person" ref="#pmb2121">Schnitzler</rs> geschrieben hat, einen anständigen Theaterabend geben könnte, auch mit sonst etwas drittem, denn <rs type="person" ref="#pmb2121">Schnitzlers</rs> Absichten kenn ich gar nicht. Das könnte für die beiden meinigen Stücke – das eigene und das übersetzte – natürlich recht ausgiebig nützlich sein, ebenso für die kleine <anchor type="commentary" xml:id="KL476-2"/>Buchausgabe<note type="commentary" xml:id="KL476-2h">
+                  <p>
+                     <bibl >
+                        <rs type="work" ref="#pmb30279">Der Thor und der Tod</rs> von <rs type="person" ref="#pmb11740">Hugo von Hofmannsthal</rs>. Erschienen im Verlage der <rs type="org" ref="#pmb29751">Insel</rs> bei <rs type="org">Schuster <c rendition="#kaufmannsund"/> Loeffler</rs>. Berlin SW. <date >1900</date>
+                     </bibl>.</p>
+               </note> von »<rs type="work" ref="#pmb30279">Thor und Tod</rs>«, die schon das zweite fünfhundert überschritten hat.</p>
             <p>
                <gap reason="outOfScope"/>
             </p>
@@ -118,7 +128,7 @@
             <persName type="namensvariante">Hofmannsthal, Hugo</persName>
             <birth>
                <date when="1874-02-01">01.02.1874</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -127,7 +137,7 @@
             </birth>
             <death>
                <date when="1929-07-15">15.07.1929</date>
-               <settlement ref="pmb173">
+               <settlement ref="#pmb173">
                   <placeName type="pref">Rodaun</placeName>
                   <location>
                      <geo>48,132793312328 16,256152195922</geo>
@@ -135,7 +145,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118552759</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11740</idno>
@@ -149,7 +159,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -158,7 +168,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -166,8 +176,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -186,7 +196,7 @@
             <persName type="legacy-name-merge">Hofmannsthal, Gertrude von</persName>
             <birth>
                <date when="1880-03-16">16.03.1880</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -195,7 +205,7 @@
             </birth>
             <death>
                <date when="1959-11-09">09.11.1959</date>
-               <settlement ref="pmb46885">
+               <settlement ref="#pmb46885">
                   <placeName type="pref">Paddington</placeName>
                   <location>
                      <geo>51,51558 -0,1763</geo>
@@ -217,7 +227,7 @@
             <persName type="legacy-name-merge">Antoine, André Leonhard</persName>
             <birth>
                <date when="1858-01-31">31.01.1858</date>
-               <settlement ref="pmb47377">
+               <settlement ref="#pmb47377">
                   <placeName type="pref">Limoges</placeName>
                   <location>
                      <geo>45,83362 1,24759</geo>
@@ -226,7 +236,7 @@
             </birth>
             <death>
                <date when="1943-10-23">23.10.1943</date>
-               <settlement ref="pmb53788">
+               <settlement ref="#pmb53788">
                   <placeName type="pref">Le Pouliguen</placeName>
                   <location>
                      <geo>47,27187 -2,43319</geo>
@@ -234,8 +244,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118649663</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2211</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2211</idno>
@@ -249,7 +259,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -258,7 +268,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -266,8 +276,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -279,8 +289,8 @@
          <bibl xml:id="pmb32163">
             <title>Fuchs. Schauspiel in einem Act</title>
             <title type="namensvariante">Poil de Carotte</title>
-            <author ref="pmbperson__4460" role="hat-geschaffen">Renard, Jules</author>
-            <author ref="pmbperson__11740" role="hat-ubersetzt">Hofmannsthal, Hugo von</author>
+            <author ref="#pmbperson__4460" role="hat-geschaffen">Renard, Jules</author>
+            <author ref="#pmbperson__11740" role="hat-ubersetzt">Hofmannsthal, Hugo von</author>
             <date notBefore="1900-01-01" when="1900-07-02">1900</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32163</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32163</idno>
@@ -291,7 +301,7 @@
             <title>Der Thor und der Tod</title>
             <note type="bibliografische_angabe">Moderner Musen-Almanach auf das Jahr 1894,</note>
             <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Thor_und_der_Tod</idno>
-            <author ref="pmbperson__11740" role="hat-geschaffen">Hofmannsthal, Hugo von</author>
+            <author ref="#pmbperson__11740" role="hat-geschaffen">Hofmannsthal, Hugo von</author>
             <date notBefore="1893-01-01" when="1893-07-02">1893</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30279</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30279</idno>
@@ -300,7 +310,7 @@
          </bibl>
          <bibl xml:id="pmb30625">
             <title>Die Quellen des Nil</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date from="1898-01-01" to="1898-12-31">1898  – 1901</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30625</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30625</idno>
@@ -318,7 +328,7 @@
                <geo>47,2003 12,85589</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb34194">Fusch an der Großglocknerstraße</placeName>
+               <placeName ref="#pmb34194">Fusch an der Großglocknerstraße</placeName>
                <geo>47,22729 12,82727</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2779089/</idno>
@@ -359,7 +369,7 @@
                <geo>48,870558 2,355367</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb182">Paris</placeName>
+               <placeName ref="#pmb182">Paris</placeName>
                <geo>48,85341 2,3488</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb610</idno>

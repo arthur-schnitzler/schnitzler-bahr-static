@@ -10,8 +10,9 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" ref="pmb32077">Hermann Bahr: Theater und Kunst [Liebelei im Burgtheater], 26. 11. 1899</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title level="a" ref="#pmb32077">Hermann Bahr: Theater und Kunst [Liebelei im Burgtheater], 26. 11. 1899</title>
+            <title type="iso-date">1899-11-26</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,11 +50,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="a" ref="pmb32077">Theater und Kunst [Liebelei im Burgtheater]</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="#pmb32077">Theater und Kunst [Liebelei im Burgtheater]</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="pmb29421">Österreichische Volks-Zeitung</title>
+                     <title level="j" ref="#pmb41552">Österreichische Volks-Zeitung</title>
                      <imprint>
                         <date when="1899-11-26" n="1">26. 11. 1899</date>
                      </imprint>
@@ -400,7 +401,14 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32077</idno>
             <note type="work_kind">Rezension</note>
          </bibl>
-         <error type="bibl">29421</error>
+         <bibl xml:id="pmb41552">
+            <title>Österreichische Volks-Zeitung</title>
+            <date from="1888-01-01" to="1888-12-31">1888  – 13.11.1918</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/41552/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41552</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41552</idno>
+            <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
+         </bibl>
       </listBibl>
       <listPlace>
          <place xml:id="pmb14">

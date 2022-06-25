@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Tagebuch von Arthur Schnitzler, 31. 10. 1930</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1930-10-31</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -50,7 +51,7 @@
             <listBibl>
                <biblStruct corresp="ASTB">
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Tagebuch 1927–1930</title>
                      <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
                      <imprint>
@@ -84,15 +85,29 @@
             <p>– Begegnung mit <rs type="person" ref="#pmb3948">Herm. Eißler</rs>,– von dem gestern bei <rs type="person" ref="#pmb16658">Friedmann</rs> als Schwerkrankem die Rede war;–</p>
             <p>beim Schneider <rs type="person" ref="#pmb21844">Nemec</rs> im <rs type="place" ref="#pmb14">Burgtheater</rs>, wegen Schlafrock</p>
             <p>– bei <rs type="person" ref="#pmb12698">Julius</rs>’ zu Tisch.–</p>
-            <p>Um 4 kommt <rs type="person" ref="#pmb15015">Suz.</rs>, liest mir den 3. Theil des <anchor type="commentary" xml:id="KD537-2">
-                  <rs type="work" subtype="implied" ref="#pmb30817">Romans</rs>
-               </anchor> vor; allerlei darüber gesprochen <c rendition="#dots" n="3" place="center"/> Sie fährt ins <rs type="place" ref="#pmb520">Akademieth.</rs> (<anchor type="commentary" xml:id="KD537-1">
-                  <rs type="work" ref="#pmb30137">Josefine</rs>
-               </anchor>) – ich mit <rs type="person" ref="#pmb12435">C. P.</rs>
+            <p>Um 4 kommt <rs type="person" ref="#pmb15015">Suz.</rs>, liest mir den 3. Theil des <anchor type="commentary" xml:id="KD537-2"/>
+               <rs type="work" subtype="implied" ref="#pmb30817">Romans</rs>
+               <note type="commentary" xml:id="KD537-2h">
+                  <p>Die französische Übersetzung von <rs type="work" ref="#pmb30817">Therese</rs> (<bibl>
+                        <rs type="work" ref="#pmb30817">Thérèse. Chronique d'une vie de femme.</rs> Übers.
+                     <rs type="person" ref="#pmb15015">Suzanne Clauser</rs>. Vorwort <rs type="person" ref="#pmb5039">Louis Gillet</rs>. Paris: <rs type="org">A.
+                     Michel</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date>1931</date>
+                     </bibl>).</p>
+               </note> vor; allerlei darüber gesprochen <c rendition="#dots" n="3" place="center"/> Sie fährt ins <rs type="place" ref="#pmb520">Akademieth.</rs> (<anchor type="commentary" xml:id="KD537-1"/>
+               <rs type="work" ref="#pmb30137">Josefine</rs>
+               <note type="commentary" xml:id="KD537-1h">
+                  <p>
+                     <rs type="person" ref="#pmb10815">Bahrs</rs> Schauspiel stand seit dem <date>1. 10.
+                  1930</date> auf dem Spielplan.</p>
+               </note>) – ich mit <rs type="person" ref="#pmb12435">C. P.</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="place" ref="#pmb584">Ufa Kino</rs> »<anchor type="commentary" xml:id="KD537-3">
-                  <rs type="work" ref="#pmb32033 #pmb32035">Sahara</rs>
-               </anchor>«film und andres.– In die »<rs type="place" ref="#pmb705">Linde</rs>«.</p>
+               <rs type="place" ref="#pmb584">Ufa Kino</rs> »<anchor type="commentary" xml:id="KD537-3"/>
+               <rs type="work" ref="#pmb32033">Sahara</rs>
+               <note type="commentary" xml:id="KD537-3h">
+                  <p>Regie von <rs type="person" ref="#pmb10919">Rudolf Biebrach</rs> und <rs type="person" ref="#pmb12527">Martin Rikli</rs>.</p>
+               </note>«film und andres.– In die »<rs type="place" ref="#pmb705">Linde</rs>«.</p>
          </div>
       </body>
    </text>
@@ -366,6 +381,68 @@
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb15015</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/15015</idno>
          </person>
+         <person xml:id="pmb5039">
+            <persName>
+               <forename>Louis</forename>
+               <surname>Gillet</surname>
+            </persName>
+            <birth>
+               <date when="1876-01-01">1876</date>
+               <settlement ref="pmb182">
+                  <placeName type="pref">Paris</placeName>
+                  <location>
+                     <geo>48,85341 2,3488</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1943-01-01">1943</date>
+               <settlement ref="pmb182">
+                  <placeName type="pref">Paris</placeName>
+                  <location>
+                     <geo>48,85341 2,3488</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb274">Wissenschaftler/Wissenschaftlerin &gt;&gt; Literaturwissenschaftler/Literaturwissenschaftlerin</occupation>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/160530385</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb5039</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/5039</idno>
+         </person>
+         <person xml:id="pmb10815">
+            <persName>
+               <forename>Hermann</forename>
+               <surname>Bahr</surname>
+            </persName>
+            <birth>
+               <date when="1863-07-19">19.07.1863</date>
+               <settlement ref="pmb332">
+                  <placeName type="pref">Linz</placeName>
+                  <location>
+                     <geo>48,3 14,28333</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1934-01-15">15.01.1934</date>
+               <settlement ref="pmb45258">
+                  <placeName type="pref">München</placeName>
+                  <location>
+                     <geo>48,13743 11,57549</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10815</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
+         </person>
          <person xml:id="pmb12435">
             <persName>
                <forename>Clara Katharina</forename>
@@ -398,6 +475,65 @@
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12435</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12435</idno>
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb12435</idno>
+         </person>
+         <person xml:id="pmb10919">
+            <persName>
+               <forename>Rudolf</forename>
+               <surname>Biebrach</surname>
+            </persName>
+            <birth>
+               <date when="1866-11-24">24.11.1866</date>
+               <settlement ref="pmb864">
+                  <placeName type="pref">Leipzig</placeName>
+                  <location>
+                     <geo>51,33962 12,37129</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1938-09-05">05.09.1938</date>
+               <settlement ref="pmb168">
+                  <placeName type="pref">Berlin</placeName>
+                  <location>
+                     <geo>52,52437 13,41053</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="not-set"/>
+            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13716</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/143974416</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10919</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/10919</idno>
+         </person>
+         <person xml:id="pmb12527">
+            <persName>
+               <forename>Martin</forename>
+               <surname>Rikli</surname>
+            </persName>
+            <birth>
+               <date when="1898-01-19">19.01.1898</date>
+               <settlement ref="pmb484">
+                  <placeName type="pref">Zürich</placeName>
+                  <location>
+                     <geo>47,37174 8,54226</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1969-04-07">07.04.1969</date>
+               <settlement ref="pmb484">
+                  <placeName type="pref">Zürich</placeName>
+                  <location>
+                     <geo>47,37174 8,54226</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="not-set"/>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19272</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/120587971</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12527</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/12527</idno>
          </person>
       </listPerson>
       <listBibl>
@@ -453,7 +589,6 @@
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb32033.html</idno>
             <note type="work_kind">Film</note>
          </bibl>
-         <error type="bibl">32035</error>
       </listBibl>
       <listPlace>
          <place xml:id="pmb43406">

@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Tagebuch von Arthur Schnitzler, 1. 4. 1922</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1922-04-01</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -50,7 +51,7 @@
             <listBibl>
                <biblStruct corresp="ASTB">
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Tagebuch 1920–1922</title>
                      <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
                      <imprint>
@@ -81,9 +82,17 @@
             <p>Bei <rs type="person" ref="#pmb14218">Helene Binder</rs>.–</p>
             <p>Nm. am »<rs type="work" ref="#pmb30205">Verführer</rs>«.</p>
             <p>In einem Kino.</p>
-            <p>Las <rs type="person" ref="#pmb2771">Friedells</rs> »<rs type="work" ref="#pmb30833">Jesusproblem</rs>« mit der <anchor type="commentary" xml:id="KD343-1">
-                  <rs type="work" subtype="implied" ref="#pmb31451">Vorrede</rs>
-               </anchor> von <rs type="person" ref="#pmb10815">Bahr</rs>. Was geht in solchen Köpfen vor – ?–</p>
+            <p>Las <rs type="person" ref="#pmb2771">Friedells</rs> »<rs type="work" ref="#pmb30833">Jesusproblem</rs>« mit der <anchor type="commentary" xml:id="KD343-1"/>
+               <rs type="work" subtype="implied" ref="#pmb31451">Vorrede</rs>
+               <note type="commentary" xml:id="KD343-1h">
+                  <p>
+                     <bibl >Auf den S. 5–14 in: <rs type="person" ref="#pmb2771">Egon Friedell</rs>: <rs type="work" ref="#pmb30833 #pmb31451">Das Jesusproblem</rs>. Mit einem Vorwort
+                  von <rs type="person" ref="#pmb10815">Hermann Bahr</rs>. Wien, Berlin, Leipzig,
+                  München: <rs type="org" ref="#pmb29758">Rikola</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1921</date>
+                     </bibl>.</p>
+               </note> von <rs type="person" ref="#pmb10815">Bahr</rs>. Was geht in solchen Köpfen vor – ?–</p>
          </div>
       </body>
    </text>
@@ -96,7 +105,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -105,7 +114,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -113,8 +122,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -131,7 +140,7 @@
             </birth>
             <death>
                <date when="1943-01-01">1943</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -139,7 +148,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/1066602875</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3149</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3149</idno>
@@ -151,7 +160,7 @@
             </persName>
             <birth>
                <date when="1867-11-04">04.11.1867</date>
-               <settlement ref="pmb46918">
+               <settlement ref="#pmb46918">
                   <placeName type="pref">Žikov</placeName>
                   <location>
                      <geo>49,2319 13,45724</geo>
@@ -160,7 +169,7 @@
             </birth>
             <death>
                <date when="1942-06-25">25.06.1942</date>
-               <settlement ref="pmb2258">
+               <settlement ref="#pmb2258">
                   <placeName type="pref">Konzentrationslager Theresienstadt</placeName>
                   <location>
                      <geo>50,513639 14,164694</geo>
@@ -168,8 +177,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb115">Dramaturg/Dramaturgin</occupation>
-            <occupation ref="pmb144">Verleger/Verlegerin</occupation>
+            <occupation ref="#pmb115">Dramaturg/Dramaturgin</occupation>
+            <occupation ref="#pmb144">Verleger/Verlegerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19364</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/11662177X</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12556</idno>
@@ -184,7 +193,7 @@
             <persName type="geburtsname_nachname">Herz</persName>
             <birth>
                <date when="1865-05-23">23.05.1865</date>
-               <settlement ref="pmb49294">
+               <settlement ref="#pmb49294">
                   <placeName type="pref">Peciu Nou</placeName>
                   <location>
                      <geo>45,60639 21,05778</geo>
@@ -193,7 +202,7 @@
             </birth>
             <death>
                <date when="1960-03-11">11.03.1960</date>
-               <settlement ref="pmb46879">
+               <settlement ref="#pmb46879">
                   <placeName type="pref">Willesden</placeName>
                   <location>
                      <geo>51,53333 -0,23333</geo>
@@ -214,7 +223,7 @@
             <persName type="legacy-name-merge">Friedell, Egon</persName>
             <birth>
                <date when="1878-01-21">21.01.1878</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -223,7 +232,7 @@
             </birth>
             <death>
                <date when="1938-03-16">16.03.1938</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -231,9 +240,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb195">Philosoph/Philosophin &gt;&gt; Kulturphilosoph/Kulturphilosophin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb195">Philosoph/Philosophin &gt;&gt; Kulturphilosoph/Kulturphilosophin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118535560</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2771</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2771</idno>
@@ -247,7 +256,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -256,7 +265,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -264,8 +273,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -280,7 +289,7 @@
             <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Der_Ruf_des_Lebens</idno>
             <note type="uri_worklink">http://www.literature.at/viewer.alo?objid=12117&amp;page=1&amp;viewmode=fullscreen</note>
             <title type="arbeitstitel">Vatermörderin</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1906-02-20">1906-02-20</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.12</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1196563</idno>
@@ -296,7 +305,7 @@
             <title>Komödie der Verführung. In drei Akten</title>
             <note type="uri_worklink">https://www.schnitzler-edition.net/genetisch?openWorkInfo=10049#werkinfo-10049</note>
             <title type="arbeitstitel">Der Verführer</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date notBefore="1924-01-01" when="1924-07-01">1924</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.23</idno>
             <idno type="URL" subtype="theadok">https://theadok.at/work/38146</idno>
@@ -308,7 +317,7 @@
          </bibl>
          <bibl xml:id="pmb30833">
             <title>Das Jesusproblem</title>
-            <author ref="pmbperson__2771" role="hat-geschaffen">Friedell, Egon</author>
+            <author ref="#pmbperson__2771" role="hat-geschaffen">Friedell, Egon</author>
             <date when="1921-01-01">1921</date>
             <idno type="URL" subtype="archive">https://archive.org/details/bub_gb_lFwXAAAAYAAJ_2</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30833</idno>
@@ -318,7 +327,7 @@
          </bibl>
          <bibl xml:id="pmb31451">
             <title>Vorwort [Das Jesusproblem]</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1921-01-01">1921</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31451</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31451</idno>
@@ -334,7 +343,7 @@
                <geo>48,21156 16,36265</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb733</idno>
@@ -349,11 +358,11 @@
                <geo>48,18857 16,36432</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb54">IV., Wieden</placeName>
+               <placeName ref="#pmb54">IV., Wieden</placeName>
                <geo>48,19198 16,36714</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb139</idno>

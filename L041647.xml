@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Scofield Thayer an Hermann Bahr, 7. 11. 1922</title>
-            <author ref="pmb2276">Thayer, Scofield</author>
+            <title type="iso-date">1922-11-07</title>
+            <author ref="#pmb2276">Thayer, Scofield</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2276">Thayer, Scofield</persName>
+               <sender>
+                  <persName ref="#pmb2276">Thayer, Scofield</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb45258">München</placeName>
+                  <placeName ref="#pmb45258">München</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1922-11-07" n="01">7. 11. 1922</date>
@@ -76,7 +77,7 @@
                      </msIdentifier>
                      <physDesc>
                         <p>ms. Brief, 2 Bl., 2 S., mit eh. Unterschrift und hs. Korrektur der Zeichensetzung. Hs. von Bahr: »<quote>
-                              <orgName ref="pmb29371">
+                              <orgName ref="#pmb29371">
                                  <hi rend="underline" n="1">Dial</hi>
                               </orgName>
                            </quote>«</p>
@@ -122,16 +123,36 @@
                   <date>November 7th 1922</date>.</dateline>
                <salute>My dear Mr. Bahr,</salute>
             </opener>
-            <p>I was interested to see your <anchor type="commentary" xml:id="KL647-4">
-                  <rs type="work" subtype="implied" ref="#pmb29995">article</rs>
-               </anchor> upon <rs type="person" ref="#pmb3794">Santayana</rs> and the <rs type="place" ref="#pmb318">Japanese</rs> in the <rs type="org" ref="#pmb29351">Neue Freie Presse</rs>.</p>
-            <p>I came back after all to <rs type="place" ref="#pmb50">Vienna</rs> to finish a little <anchor type="commentary" xml:id="KL647-1">work</anchor> that I am doing about some contemporary German writers. Did you then find that you really could write something about Civilisation in the <rs type="place" ref="#pmb43406">United States</rs> from the point of view of an old <rs type="person" ref="#pmb13102">Whitman</rs>ite? If so, may I hope to receive the <anchor type="commentary" xml:id="KL647-2">article from you</anchor> here or have you, perhaps already, sent it to <rs type="org" ref="#pmb29371">The Dial</rs> in <rs type="place" ref="#pmb44053">New York</rs>? </p>
-            <p>I got from Mr. <rs type="person" ref="#pmb12387">Orlik</rs> his excellent <anchor type="commentary" xml:id="KL647-5">
-                  <rs type="work" subtype="implied" ref="#pmb31641">etching</rs>
-               </anchor> of yourself and this would appear in <rs type="org" ref="#pmb29371">The Dial</rs> with any contribution from your pen.</p>
-            <p>Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs> has told me of something you once wrote about <rs type="place" ref="#pmb50">Vienna</rs> and about the influence of Celtic blood upon its character. But I do not know where to find this article or <anchor type="commentary" xml:id="KL647-3">
-                  <rs type="work" subtype="implied" ref="#pmb30715">book</rs>
-               </anchor> of yourself. Perhaps you could let me know under what title I should look for it at my book-sellers? And if you know of any other book or article upon <rs type="place" ref="#pmb50">Vienna</rs> whether from your own pen or not.<pb/> I should be grateful to you if you could write me of it.</p>
+            <p>I was interested to see your <anchor type="commentary" xml:id="KL647-4"/>
+               <rs type="work" subtype="implied" ref="#pmb29995">article</rs>
+               <note type="commentary" xml:id="KL647-4h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb29995">Santayana</rs>. In: <rs type="org" ref="#pmb29351">Neue Freie
+                     Presse</rs>, Nr. 20848, <date >23. 9. 1923</date>, Morgenblatt, 1–3</bibl>.</p>
+               </note> upon <rs type="person" ref="#pmb3794">Santayana</rs> and the <rs type="place" ref="#pmb318">Japanese</rs> in the <rs type="org" ref="#pmb29351">Neue Freie Presse</rs>.</p>
+            <p>I came back after all to <rs type="place" ref="#pmb50">Vienna</rs> to finish a little <anchor type="commentary" xml:id="KL647-1"/>work<note type="commentary" xml:id="KL647-1h">
+                  <p>Nicht identifiziert.</p>
+               </note> that I am doing about some contemporary German writers. Did you then find that you really could write something about Civilisation in the <rs type="place" ref="#pmb43406">United States</rs> from the point of view of an old <rs type="person" ref="#pmb13102">Whitman</rs>ite? If so, may I hope to receive the <anchor type="commentary" xml:id="KL647-2"/>article from you<note type="commentary" xml:id="KL647-2h">
+                  <p>Nicht erschienen.</p>
+               </note> here or have you, perhaps already, sent it to <rs type="org" ref="#pmb29371">The Dial</rs> in <rs type="place" ref="#pmb44053">New York</rs>? </p>
+            <p>I got from Mr. <rs type="person" ref="#pmb12387">Orlik</rs> his excellent <anchor type="commentary" xml:id="KL647-5"/>
+               <rs type="work" subtype="implied" ref="#pmb31641">etching</rs>
+               <note type="commentary" xml:id="KL647-5h">
+                  <p>Gelangte aus <rs type="person" ref="#pmb2276">Thayers</rs> Nachlass in die Sammlung
+               des <rs type="place" ref="#pmb1011">Metropolitan Museum of Art, New York</rs>,
+                  <bibl >Signatur 1984.1203.101</bibl>.</p>
+               </note> of yourself and this would appear in <rs type="org" ref="#pmb29371">The Dial</rs> with any contribution from your pen.</p>
+            <p>Dr. <rs type="person" ref="#pmb2121">Schnitzler</rs> has told me of something you once wrote about <rs type="place" ref="#pmb50">Vienna</rs> and about the influence of Celtic blood upon its character. But I do not know where to find this article or <anchor type="commentary" xml:id="KL647-3"/>
+               <rs type="work" subtype="implied" ref="#pmb30715">book</rs>
+               <note type="commentary" xml:id="KL647-3h">
+                  <p>
+                     <rs type="work" ref="#pmb30715">Wien</rs> (<bibl >Stuttgart: <rs type="org">Karl
+                     Krabbe</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1907</date>
+                     </bibl>).</p>
+               </note> of yourself. Perhaps you could let me know under what title I should look for it at my book-sellers? And if you know of any other book or article upon <rs type="place" ref="#pmb50">Vienna</rs> whether from your own pen or not.<pb/> I should be grateful to you if you could write me of it.</p>
             <p>May I then hope for a word from you as to whether we are to expect something for <rs type="org" ref="#pmb29371">The Dial</rs>?</p>
             <closer>Sincerely yours, <signed>
                   <handShift/>Scofield Thayer</signed>
@@ -148,7 +169,7 @@
             </persName>
             <birth>
                <date when="1889-12-12">12.12.1889</date>
-               <settlement ref="pmb2277">
+               <settlement ref="#pmb2277">
                   <placeName type="pref">Worcester</placeName>
                   <location>
                      <geo>42,271389 -71,79888</geo>
@@ -157,7 +178,7 @@
             </birth>
             <death>
                <date when="1982-07-09">09.07.1982</date>
-               <settlement ref="pmb53796">
+               <settlement ref="#pmb53796">
                   <placeName type="pref">Edgartown</placeName>
                   <location>
                      <geo>41,38901 -70,51336</geo>
@@ -165,8 +186,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
-            <occupation ref="pmb119">Herausgeber/Herausgeberin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb119">Herausgeber/Herausgeberin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119282062</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_20692</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2276</idno>
@@ -180,7 +201,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -189,7 +210,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -197,8 +218,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -215,7 +236,7 @@
             <persName type="geburtsname_nachname">S. y Borrás</persName>
             <birth>
                <date when="1863-12-16">16.12.1863</date>
-               <settlement ref="pmb914">
+               <settlement ref="#pmb914">
                   <placeName type="pref">Madrid</placeName>
                   <location>
                      <geo>40,4165 -3,70256</geo>
@@ -224,7 +245,7 @@
             </birth>
             <death>
                <date when="1952-09-26">26.9.1952</date>
-               <settlement ref="pmb445">
+               <settlement ref="#pmb445">
                   <placeName type="pref">Rom</placeName>
                   <location>
                      <geo>41,89193 12,51133</geo>
@@ -232,8 +253,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb154">Philosoph/Philosophin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb154">Philosoph/Philosophin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118794507</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3794</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3794</idno>
@@ -245,7 +266,7 @@
             </persName>
             <birth>
                <date when="1819-05-31">31.05.1819</date>
-               <settlement ref="pmb64734">
+               <settlement ref="#pmb64734">
                   <placeName type="pref">West Hills</placeName>
                   <location>
                      <geo>40,81621 -73,43234</geo>
@@ -254,12 +275,12 @@
             </birth>
             <death>
                <date when="1892-03-26">26.03.1892</date>
-               <settlement ref="pmb13105">
+               <settlement ref="#pmb13105">
                   <placeName type="pref">Camden</placeName>
                </settlement>
             </death>
             <sex value="not-set"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21290</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118807153</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb13102</idno>
@@ -272,7 +293,7 @@
             </persName>
             <birth>
                <date when="1870-07-21">21.07.1870</date>
-               <settlement ref="pmb652">
+               <settlement ref="#pmb652">
                   <placeName type="pref">Prag</placeName>
                   <location>
                      <geo>50,08333 14,46667</geo>
@@ -281,7 +302,7 @@
             </birth>
             <death>
                <date when="1932-09-28">28.09.1932</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -289,8 +310,8 @@
                </settlement>
             </death>
             <sex value="not-set"/>
-            <occupation ref="pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
-            <occupation ref="pmb136">Bildender Künstler/Bildende Künstlerin &gt;&gt; Grafiker/Grafikerin</occupation>
+            <occupation ref="#pmb110">Bildender Künstler/Bildende Künstlerin &gt;&gt; Maler/Malerin</occupation>
+            <occupation ref="#pmb136">Bildender Künstler/Bildende Künstlerin &gt;&gt; Grafiker/Grafikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_18576</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118590243</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12387</idno>
@@ -303,7 +324,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -312,7 +333,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -320,8 +341,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -333,7 +354,7 @@
          <bibl xml:id="pmb29995">
             <title>Santayana</title>
             <note type="bibliografische_angabe">Neue Freie Presse, 23. 9. 1922</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1922-09-23">23.09.1922</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29995</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29995</idno>
@@ -341,7 +362,7 @@
          </bibl>
          <bibl xml:id="pmb31641">
             <title>Hermann Bahr</title>
-            <author ref="pmbperson__12387" role="hat-geschaffen">Orlik, Emil</author>
+            <author ref="#pmbperson__12387" role="hat-geschaffen">Orlik, Emil</author>
             <date when="1909-01-01">1909</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31641</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31641</idno>
@@ -349,7 +370,7 @@
          </bibl>
          <bibl xml:id="pmb30715">
             <title>Wien</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date notBefore="1907-01-01" when="1907-07-02">1907</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30715</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30715</idno>
@@ -378,7 +399,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -410,11 +431,11 @@
                <geo>48,13743 11,57549</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb314">Bayern</placeName>
+               <placeName ref="#pmb314">Bayern</placeName>
                <geo>49,0 11,5</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb151">Deutschland</placeName>
+               <placeName ref="#pmb151">Deutschland</placeName>
                <geo>51,5 10,5</geo>
             </location>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
@@ -431,7 +452,7 @@
                <geo>48,208204022265 16,36812658292</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Habsburgergasse</idno>
@@ -447,7 +468,7 @@
                <geo>48,15205 11,57392</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb45258">München</placeName>
+               <placeName ref="#pmb45258">München</placeName>
                <geo>48,13743 11,57549</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb161</idno>
@@ -483,7 +504,7 @@
                <geo>39,76 -98,5</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb175">Amerika</placeName>
+               <placeName ref="#pmb175">Amerika</placeName>
                <geo>32,530833 -117,02</geo>
             </location>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q30</idno>
@@ -515,7 +536,7 @@
                <geo>40,71427 -74,00597</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
+               <placeName ref="#pmb43406">Vereinigte Staaten von Amerika (USA)</placeName>
                <geo>39,76 -98,5</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb5199</idno>
@@ -532,7 +553,7 @@
             <desc type="entity_type">Zeitschriftenredaktion</desc>
             <desc type="entity_type_id">973</desc>
             <location type="located_in_place">
-               <placeName ref="pmb880">Chicago</placeName>
+               <placeName ref="#pmb880">Chicago</placeName>
                <geo>41,85003 -87,65005</geo>
                <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1297</idno>
                <idno type="URL" subtype="geonames">http://sws.geonames.org/4887398/</idno>
@@ -553,7 +574,7 @@
             <desc type="entity_type">Tageszeitungsredaktion</desc>
             <desc type="entity_type_id">972</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
@@ -568,14 +589,14 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb716">Fichtegasse</placeName>
+               <placeName ref="#pmb716">Fichtegasse</placeName>
                <geo>48,203009170069 16,375663258442</geo>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Fichtegasse</idno>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb716</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/716</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb63189">Schubertring</placeName>
+               <placeName ref="#pmb63189">Schubertring</placeName>
                <geo>48,20281 16,37602</geo>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63189/</idno>
             </location>

@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Julius Schnitzler an Hermann Bahr, 12. 11. 1903</title>
-            <author ref="pmb12698">Schnitzler, Julius</author>
+            <title type="iso-date">1903-11-12</title>
+            <author ref="#pmb12698">Schnitzler, Julius</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb12698">Schnitzler, Julius</persName>
+               <sender>
+                  <persName ref="#pmb12698">Schnitzler, Julius</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1903-11-12" n="1">12. 11. 1903</date>
@@ -75,15 +76,15 @@
                         <idno>HS AM 23401 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>Kartenbrief, gestempelt: »<quote>Dr. Julius Schnitzler / k. k. Primararzt / <placeName ref="pmb341">I., Schellinggasse</placeName> Nr. 6</quote>«, gedruckter Kopf: »<quote>Primararzt Dr. Julius Schnitzler / <placeName ref="pmb341">I., Schellinggasse 6.</placeName>
+                        <p>Kartenbrief, gestempelt: »<quote>Dr. Julius Schnitzler / k. k. Primararzt / <placeName ref="#pmb341">I., Schellinggasse</placeName> Nr. 6</quote>«, gedruckter Kopf: »<quote>Primararzt Dr. Julius Schnitzler / <placeName ref="#pmb341">I., Schellinggasse 6.</placeName>
                            </quote>«, Lateinschrift</p>
                         <stamp n="1">
-                           <placeName ref="pmb50">Wien</placeName>
+                           <placeName ref="#pmb50">Wien</placeName>
                            <date when="1903-11-12">12. 11. 03</date>
                            <time>5–6 N</time>
                         </stamp>
                         <stamp n="2">
-                           <placeName ref="pmb63">Wien 13/7</placeName>
+                           <placeName ref="#pmb63">Wien 13/7</placeName>
                            <date when="1903-11-12">1<gap quantity="1" reason="illegible" unit="chars"/>. 11. 03</date>
                         </stamp>
                      </physDesc>
@@ -129,9 +130,13 @@
                </damage> die Abtheilungsvorstände dirigirende Aerzte <damage agent="hole">
                   <supplied>resp</supplied>
                </damage>. Directoren. Sie werden entweder mit »Herr D<hi rend="superscript">r</hi>« oder mit dem fast jedem von ihnen verliehenen Titel »Medizinalrath« »Geh. M. R.« ev. »Professor« angesprochen.</p>
-            <p>Ich hoffe, Sie sehr wohl und ohne alle Reminiscenzen an die Zeiten vor, während und unmittelbar nach Ihrem Aufenthalt bei »<anchor type="commentary" xml:id="KL143-1">
-                  <rs type="place" ref="#pmb89">Löw</rs>
-               </anchor>«.</p>
+            <p>Ich hoffe, Sie sehr wohl und ohne alle Reminiscenzen an die Zeiten vor, während und unmittelbar nach Ihrem Aufenthalt bei »<anchor type="commentary" xml:id="KL143-1"/>
+               <rs type="place" ref="#pmb89">Löw</rs>
+               <note type="commentary" xml:id="KL143-1h">
+                  <p>Name des Sanatoriums, in dem er am <date >26. 1. 1903</date>
+                     <space unit="chars" quantity="1"/>
+                     <rs type="person" ref="#pmb10815">Bahr</rs> den Blinddarm entfernt hatte, <ptr target="D041204"/>.</p>
+               </note>«.</p>
             <closer>Mit den besten Grüßen Ihr ergebner<lb/>
                <signed>JSchnitzler</signed>
             </closer>
@@ -147,7 +152,7 @@
             </persName>
             <birth>
                <date when="1865-07-13">13.07.1865</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -156,7 +161,7 @@
             </birth>
             <death>
                <date when="1939-06-29">29.06.1939</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -164,7 +169,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb364">Mediziner/Medizinerin &gt;&gt; Chirurg/Chirurgin</occupation>
+            <occupation ref="#pmb364">Mediziner/Medizinerin &gt;&gt; Chirurg/Chirurgin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19827</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848693</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb12698</idno>
@@ -178,7 +183,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -187,7 +192,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -195,8 +200,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -225,7 +230,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -248,7 +253,7 @@
                <geo>48,204051950858 16,374822957472</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Schellinggasse</idno>
@@ -263,7 +268,7 @@
                <geo>48,17547 16,29101</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2776420/</idno>
@@ -279,11 +284,11 @@
                <geo>48,186622327678 16,259712159437</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb165">Ober Sankt Veit</placeName>
+               <placeName ref="#pmb165">Ober Sankt Veit</placeName>
                <geo>48,188056 16,266389</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb63">XIII., Hietzing</placeName>
+               <placeName ref="#pmb63">XIII., Hietzing</placeName>
                <geo>48,17547 16,29101</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Veitlissengasse</idno>
@@ -304,7 +309,7 @@
                <geo>47,33333 13,33333</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb687">Österreich-Ungarn</placeName>
+               <placeName ref="#pmb687">Österreich-Ungarn</placeName>
                <geo>48,4054 16,4887</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/2782113/</idno>
@@ -326,7 +331,7 @@
                <geo>51,5 10,5</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb468">Europa</placeName>
+               <placeName ref="#pmb468">Europa</placeName>
                <geo>48,69096 9,14062</geo>
             </location>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q183</idno>
@@ -348,11 +353,11 @@
                <geo>48,216264483348 16,347492624475</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb59">IX., Alsergrund</placeName>
+               <placeName ref="#pmb59">IX., Alsergrund</placeName>
                <geo>48,22387 16,35641</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb198">Pelikangasse</placeName>
+               <placeName ref="#pmb198">Pelikangasse</placeName>
                <geo>48,216323686182 16,348107467953</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb89</idno>

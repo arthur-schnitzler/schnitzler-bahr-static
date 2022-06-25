@@ -10,8 +10,9 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" ref="pmb31931">Hermann Bahr: Wie schafft man eine Wiener Sommersaison?, 21. 10. 1909</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title level="a" ref="#pmb31931">Hermann Bahr: Wie schafft man eine Wiener Sommersaison?, 21. 10. 1909</title>
+            <title type="iso-date">1909-10-21</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
                <name full="yes" instant="false">Müller, Martin Anton</name>
@@ -49,11 +50,11 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <author ref="pmb10815">Bahr, Hermann</author>
-                     <title level="a" ref="pmb31931">Wie schafft man eine Wiener Sommersaison?</title>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="#pmb31931">Wie schafft man eine Wiener Sommersaison?</title>
                   </analytic>
                   <monogr>
-                     <title level="j" ref="pmb29600">Fremden-Blatt</title>
+                     <title level="j" ref="#pmb40003">Fremden-Blatt</title>
                      <imprint>
                         <date when="1909-10-21" n="1">21. 10. 1909</date>
                      </imprint>
@@ -80,7 +81,15 @@
       <body>
          <div>
             <p part="N">Das Geheimnis der <rs type="place" ref="#pmb45258">Münchner</rs> ist: sie wissen, was den Fremden anzieht, und das bieten sie ihm, manchmal im stillen bei sich ganz verwundert, wie ihm denn »so was« eigentlich gefallen kann.</p>
-            <p part="N">Wir hätten in <rs type="place" ref="#pmb50">Wien</rs> manches in unserer Kunst, um den Fremden anzuziehen. Machen wir doch eine <rs type="person" ref="#pmb12163">Mahler</rs>-Woche zum Beispiel! Machen wir eine <rs type="person" ref="#pmb12749">Schönherr</rs>-Woche! <anchor type="commentary" xml:id="KT027-1">Gebt den Leuten von der <rs type="place" ref="#pmb626">Kunstschau</rs> die Mittel, ein Gartentheater nach ihrem Sinn zu machen! Führt einen Monat lang <hi rend="spaced_out">uns</hi> auf! Den ganzen <rs type="person" ref="#pmb2121">Schnitzler</rs>, den ganzen <rs type="person" ref="#pmb11740">Hofmannsthal</rs>, den ganzen <rs type="person" ref="#pmb12749">Schönherr</rs>, <rs type="person" ref="#pmb10863">Beer-Hofmann</rs> und mich!</anchor> Und statt auf uns zu schimpfen, sagt den Fremden: »Das ist das Beste, was wir haben, und in dieser Art können Sie nirgends was Besseres sehen!« Im Winter, wenn die Fremden wieder fort und wir wieder unter uns sind, könnt Ihr ja wieder auf uns schimpfen!</p>
+            <p part="N">Wir hätten in <rs type="place" ref="#pmb50">Wien</rs> manches in unserer Kunst, um den Fremden anzuziehen. Machen wir doch eine <rs type="person" ref="#pmb12163">Mahler</rs>-Woche zum Beispiel! Machen wir eine <rs type="person" ref="#pmb12749">Schönherr</rs>-Woche! <anchor type="commentary" xml:id="KT027-1"/>Gebt den Leuten von der <rs type="place" ref="#pmb626">Kunstschau</rs> die Mittel, ein Gartentheater nach ihrem Sinn zu machen! Führt einen Monat lang <hi rend="spaced_out">uns</hi> auf! Den ganzen <rs type="person" ref="#pmb2121">Schnitzler</rs>, den ganzen <rs type="person" ref="#pmb11740">Hofmannsthal</rs>, den ganzen <rs type="person" ref="#pmb12749">Schönherr</rs>, <rs type="person" ref="#pmb10863">Beer-Hofmann</rs> und mich!<note type="commentary" xml:id="KT027-1h">
+                  <p part="N">Die Umfragebeantwortung von <rs type="person" ref="#pmb11988">Karl Kraus</rs> als <rs type="work" ref="#pmb31937">Zur Hebung des Fremdenverkehrs</rs> in die <rs type="org" ref="#pmb29308">Fackel</rs> (<bibl>Jg. 11, H. 289, <date>25. 10.
+                     1909</date>, S. 25–26</bibl>) aufgenommen. Statt des Endes schreibt er:
+                  »<quote>Ein Traum verwirklicht sich, die <rs type="place" ref="#pmb50">Wiener</rs>
+                  kriegen einen Fremdenverkehr. Das Einfachste war zu tun, und nun glückt die<pb/>
+                  Sache. Die <rs type="place" ref="#pmb254">Engländer</rs> strömen massenhaft nach
+                     <rs type="place" ref="#pmb50">Wien</rs>: man bekommt den <hi rend="spaced_out">ganzen </hi>
+                        <rs type="person" ref="#pmb10863">Beer-Hofmann</rs> zu sehen!</quote>«</p>
+               </note> Und statt auf uns zu schimpfen, sagt den Fremden: »Das ist das Beste, was wir haben, und in dieser Art können Sie nirgends was Besseres sehen!« Im Winter, wenn die Fremden wieder fort und wir wieder unter uns sind, könnt Ihr ja wieder auf uns schimpfen!</p>
          </div>
       </body>
    </text>
@@ -283,8 +292,50 @@
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10863</idno>
             <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10863.html</idno>
          </person>
+         <person xml:id="pmb11988">
+            <persName>
+               <forename>Karl</forename>
+               <surname>Kraus</surname>
+            </persName>
+            <persName type="pseudonym">Berdach J.</persName>
+            <birth>
+               <date when="1874-04-28">28.04.1874</date>
+               <settlement ref="pmb41660">
+                  <placeName type="pref">Jičín</placeName>
+                  <location>
+                     <geo>50,43723 15,35162</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1936-06-12">12.06.1936</date>
+               <settlement ref="pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="pmb237">Publizist/Publizistin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17108</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118566288</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11988</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11988</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11988</idno>
+         </person>
       </listPerson>
       <listBibl>
+         <bibl xml:id="pmb31937">
+            <title>Zur Hebung des Fremdenverkehrs</title>
+            <note type="bibliografische_angabe">Die Fackel, Jg. 11, Nr. 289, 25. 10. 1909</note>
+            <author ref="pmbperson__11988" role="hat-geschaffen">Kraus, Karl</author>
+            <date when="1909-10-25">25.10.1909</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31937</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31937</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
          <bibl xml:id="pmb31931">
             <title>Wie schafft man eine Wiener Sommersaison?</title>
             <note type="bibliografische_angabe">Fremden-Blatt, 21. 10. 1909</note>
@@ -294,7 +345,14 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31931</idno>
             <note type="work_kind">Umfrageteilnahme</note>
          </bibl>
-         <error type="bibl">29600</error>
+         <bibl xml:id="pmb40003">
+            <title>Fremden-Blatt</title>
+            <date>1.7.1847  – 22.3.1919</date>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/40003/</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/40003</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb40003</idno>
+            <note type="work_kind">Publikationsorgan &gt;&gt; Tageszeitung</note>
+         </bibl>
       </listBibl>
       <listPlace>
          <place xml:id="pmb45258">
@@ -379,6 +437,49 @@
                <date from="1908-01-01" to="1908-12-31">1908  – 1908</date>
             </note>
          </place>
+         <place xml:id="pmb254">
+            <placeName>England</placeName>
+            <placeName type="uri_wikipedia">https://de.wikipedia.org/wiki/England</placeName>
+            <desc type="entity_type">Land (A.LND)</desc>
+            <desc type="entity_type_id">38</desc>
+            <location type="coords">
+               <geo>52,483333 -1,566667</geo>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="pmb34523">Vereinigtes Königreich</placeName>
+               <geo>54,75844 -2,69531</geo>
+            </location>
+            <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q145</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb254</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/254</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb254</idno>
+         </place>
       </listPlace>
+      <listOrg>
+         <org xml:id="pmb29308">
+            <orgName>Die Fackel</orgName>
+            <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Die_Fackel</idno>
+            <desc type="entity_type">Zeitschriftenredaktion</desc>
+            <desc type="entity_type_id">973</desc>
+            <location type="located_in_place">
+               <placeName ref="pmb50">Wien</placeName>
+               <geo>48,2066 16,37341</geo>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
+               <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/20954/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4066009-6</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2316</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/20954</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb50</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65221/</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29308</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29308</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29308</idno>
+         </org>
+      </listOrg>
    </back>
 </TEI>

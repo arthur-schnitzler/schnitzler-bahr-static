@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler an Hermann Bahr, 27. 9. 1910</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1910-09-27</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <sender>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1910-09-27" n="01">27. 9. 1910</date>
@@ -75,7 +76,7 @@
                         <idno>HS AM 23391 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S.; gedruckter Kopf: <placeName ref="pmb133">Spoettelgasse 7</placeName> (b) (<ptr target="bkspoettelb"/>), dieser mit Buntstift rot umrahmt und die Straße und Hausnummer hs. ersetzt durch: »<quote>
+                        <p>eh. Brief, 1 Bl., 3 S.; gedruckter Kopf: <placeName ref="#pmb133">Spoettelgasse 7</placeName> (b) (<ptr target="bkspoettelb"/>), dieser mit Buntstift rot umrahmt und die Straße und Hausnummer hs. ersetzt durch: »<quote>
                               <hi rend="latintype">Sternwartestr 71.</hi>
                            </quote>«</p>
                      </physDesc>
@@ -88,7 +89,7 @@
                      <date when="1910-09-27">27. 9. 1910</date>
                   </analytic>
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint>
@@ -139,11 +140,21 @@
                </damage>hr lieb sein, wenn du das Stück auf der Bühne siehst, wo es hingehört, wie noch selten was von mir hingehört hat. Aber da<pb/> ich bald <hi rend="underline" n="1">fertige</hi> Bühnenmanuscripte kriege, schicke ich <del rend="strikethrough">dich</del> dir sehr gern ein Exemplar nach <rs type="place" ref="#pmb224">London</rs>, und wünsche, dass es dich bei guter Laune u<damage agent="hole">
                   <supplied>nd</supplied>
                </damage> Gesundheit dort antrifft (nicht um des Stückes willen.) </p>
-            <p>Gestern traf dein neuer <anchor type="commentary" xml:id="KL117-2">
-                  <rs type="work" subtype="implied" ref="#pmb29939">Roman</rs>
-               </anchor> von <hi rend="latintype">S. Fischer</hi> bei mir ein. Ich freu mich sehr darauf. Hab mich diesmal <anchor type="commentary" xml:id="KL117-1">zurückgehalten, auch nur einen <hi rend="underline" n="1">Blick</hi> in die <hi rend="latintype">
-                     <rs type="org" ref="#pmb29351">N. Fr. Pr.</rs>
-                  </hi> zu thun</anchor>.<pb/>
+            <p>Gestern traf dein neuer <anchor type="commentary" xml:id="KL117-2"/>
+               <rs type="work" subtype="implied" ref="#pmb29939">Roman</rs>
+               <note type="commentary" xml:id="KL117-2h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb29939">O Mensch. Roman</rs>. Berlin: <rs type="org" ref="#pmb29639">S. Fischer</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1910</date>
+                     </bibl>.</p>
+               </note> von <hi rend="latintype">S. Fischer</hi> bei mir ein. Ich freu mich sehr darauf. Hab mich diesmal <anchor type="commentary" xml:id="KL117-1"/>zurückgehalten, auch nur einen <hi rend="underline" n="1">Blick</hi> in die <hi rend="latintype">
+                  <rs type="org" ref="#pmb29351">N. Fr. Pr.</rs>
+               </hi> zu thun<note type="commentary" xml:id="KL117-1h">
+                  <p>Der Vorabdruck von <rs type="work" ref="#pmb29939">O Mensch</rs> erschien vom
+                  <date >31. 5. 1910</date> bis zum <date >4. 9. 1910</date> in der <rs type="org" ref="#pmb29351">Neuen Freien Presse</rs>.</p>
+               </note>.<pb/>
             </p>
             <p>Dich und deine <rs type="person" subtype="implied" ref="#pmb10818">Frau</rs> endlich einmal bei uns zu begrüßen, soll uns eine schöne Winterhoffnung sein.</p>
             <closer>Herzlichst dein <lb/>
@@ -161,7 +172,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -170,7 +181,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -178,8 +189,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -193,7 +204,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -202,7 +213,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -210,8 +221,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -228,7 +239,7 @@
             <persName type="geburtsname_nachname">von Mildenburg</persName>
             <birth>
                <date when="1872-11-29">29.11.1872</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -237,7 +248,7 @@
             </birth>
             <death>
                <date when="1947-01-27">27.01.1947</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -245,7 +256,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13376</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118646370</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10818</idno>
@@ -257,7 +268,7 @@
          <bibl xml:id="pmb29937">
             <title>Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen</title>
             <note type="bibliografische_angabe">Der junge Medardus. Dramatische Historie in einem Vorspiel und fünf Aufzügen. Berlin: S. Fischer [26.10.]1910</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1910-10-26">1910-10-26</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.11</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1198956</idno>
@@ -272,7 +283,7 @@
          <bibl xml:id="pmb29939">
             <title>O Mensch!</title>
             <note type="bibliografische_angabe">Neue Freie Presse, 31. 5. – 4. 9. 1910</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date>1910-05-31  – 1910-09-04</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29939</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29939</idno>
@@ -301,7 +312,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -325,7 +336,7 @@
                <geo>48,219883621255 16,25565018043</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb68">XVIII., Währing</placeName>
+               <placeName ref="#pmb68">XVIII., Währing</placeName>
                <geo>48,23333 16,31667</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Spöttelgasse_(18)</idno>
@@ -343,7 +354,7 @@
                <geo>51,50853 -0,12574</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb34523">Vereinigtes Königreich</placeName>
+               <placeName ref="#pmb34523">Vereinigtes Königreich</placeName>
                <geo>54,75844 -2,69531</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2643743/</idno>
@@ -362,7 +373,7 @@
             <desc type="entity_type">Tageszeitungsredaktion</desc>
             <desc type="entity_type_id">972</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
@@ -377,14 +388,14 @@
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/65223/</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb716">Fichtegasse</placeName>
+               <placeName ref="#pmb716">Fichtegasse</placeName>
                <geo>48,203009170069 16,375663258442</geo>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Fichtegasse</idno>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb716</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/716</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb63189">Schubertring</placeName>
+               <placeName ref="#pmb63189">Schubertring</placeName>
                <geo>48,20281 16,37602</geo>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/63189/</idno>
             </location>

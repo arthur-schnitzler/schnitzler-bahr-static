@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Felix Salten an Hermann Bahr, 12. 11. 1897</title>
-            <author ref="pmb2167">Salten, Felix</author>
+            <title type="iso-date">1897-11-12</title>
+            <author ref="#pmb2167">Salten, Felix</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2167">Salten, Felix</persName>
+               <sender>
+                  <persName ref="#pmb2167">Salten, Felix</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">Wien</placeName>
+                  <placeName ref="#pmb50">Wien</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1897-11-12" n="3">12. 11. 1897</date>
@@ -75,7 +76,7 @@
                         <idno>HS AM 46606 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, gedruckter Kopf: »<quote>›<orgName ref="pmb29670">Wiener Allgemeine Zeitung</orgName>‹ / Redaction: / <placeName ref="pmb653">IX/3, Universitätsstraße Nr. 6.</placeName> / Administration: / <placeName ref="pmb729">I. Schulerstraße Nr. 20</placeName> / Telegramm-Adresse: ›Allgemeine, Wien‹. / Telephon der Redaction: Nr. 805 u. 2180 / [Telephon der] Administration: Nr. 1024. / <placeName ref="pmb50">
+                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, gedruckter Kopf: »<quote>›<orgName ref="#pmb29670">Wiener Allgemeine Zeitung</orgName>‹ / Redaction: / <placeName ref="#pmb653">IX/3, Universitätsstraße Nr. 6.</placeName> / Administration: / <placeName ref="#pmb729">I. Schulerstraße Nr. 20</placeName> / Telegramm-Adresse: ›Allgemeine, Wien‹. / Telephon der Redaction: Nr. 805 u. 2180 / [Telephon der] Administration: Nr. 1024. / <placeName ref="#pmb50">
                                  <settlement>Wien</settlement>
                               </placeName>, am ............ 189<c rendition="#dots" n="3"/>
                            </quote>«</p>
@@ -104,9 +105,17 @@
                </dateline>
             </opener>
             <p>
-               <salute>Lieber und verehrter Bahr, </salute> von <rs type="person" ref="#pmb2121">Schnitzler</rs> erfahre ich, dass die Vorlesung des »<anchor type="commentary" xml:id="KL569-1">
-                  <rs type="work" ref="#pmb30969">Wurstelpraters</rs>
-               </anchor>« so nahe bevorsteht, worüber ich mich natürlich herzlich freue. Da möchte ich gerne den bisherigen Titel, der nicht von mir und gar zu journalistisch ist, ändern, und statt »<rs type="work" ref="#pmb30969">Quer durch den Wurstelprater</rs>« lieber sagen »Wurstelprater.« Glauben Sie nicht auch? Wenn ich vorher wüsste, was Sie für Striche machen, wäre es mir lieb. Vielleicht können wir uns in den nächsten Tagen einmal für ein paar Minuten sprechen.</p>
+               <salute>Lieber und verehrter Bahr, </salute> von <rs type="person" ref="#pmb2121">Schnitzler</rs> erfahre ich, dass die Vorlesung des »<anchor type="commentary" xml:id="KL569-1"/>
+               <rs type="work" ref="#pmb30969">Wurstelpraters</rs>
+               <note type="commentary" xml:id="KL569-1h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb2167">Felix Salten</rs>: <rs type="work" ref="#pmb30969">Quer durch den Wurstelprater</rs>. In: <rs type="org" ref="#pmb29670">Wiener Allgemeine Zeitung</rs>, Jg. 16, Nr. 5174, <date >2. 6.
+                     1895</date>, Pfingst-Beilage, S. [1]–[4] und Nr. 5179, <date >9. 6. 1895</date>,
+                  S. 2–4</bibl> (mit Illustrationen von <rs type="person" ref="#pmb4785">Theo
+                  Zasche</rs>). Das Vortragsmanuskript in Nachlass <rs type="person" ref="#pmb10815">Bahrs</rs> (<bibl >
+                        <rs type="org">TMW</rs>, HS VM 782 Ba</bibl>).</p>
+               </note>« so nahe bevorsteht, worüber ich mich natürlich herzlich freue. Da möchte ich gerne den bisherigen Titel, der nicht von mir und gar zu journalistisch ist, ändern, und statt »<rs type="work" ref="#pmb30969">Quer durch den Wurstelprater</rs>« lieber sagen »Wurstelprater.« Glauben Sie nicht auch? Wenn ich vorher wüsste, was Sie für Striche machen, wäre es mir lieb. Vielleicht können wir uns in den nächsten Tagen einmal für ein paar Minuten sprechen.</p>
             <closer>Herzlich Ihr ergebener<lb/>
                <signed>Felix Salten</signed>
             </closer>
@@ -125,7 +134,7 @@
             <persName type="legacy-name-merge">Salzmann, Siegmund</persName>
             <birth>
                <date when="1869-09-06">06.09.1869</date>
-               <settlement ref="pmb43471">
+               <settlement ref="#pmb43471">
                   <placeName type="pref">Budapest</placeName>
                   <location>
                      <geo>47,49835 19,04045</geo>
@@ -134,7 +143,7 @@
             </birth>
             <death>
                <date when="1945-10-08">08.10.1945</date>
-               <settlement ref="pmb484">
+               <settlement ref="#pmb484">
                   <placeName type="pref">Zürich</placeName>
                   <location>
                      <geo>47,37174 8,54226</geo>
@@ -142,8 +151,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840819</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2167</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2167</idno>
@@ -157,7 +166,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -166,7 +175,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -174,8 +183,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -190,7 +199,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -199,7 +208,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -207,8 +216,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -220,7 +229,7 @@
          <bibl xml:id="pmb30969">
             <title>Quer durch den Wurstelprater</title>
             <note type="bibliografische_angabe">Wiener Allgemeine Zeitung, 2. und 9. 6. 1895</note>
-            <author ref="pmbperson__2167" role="hat-geschaffen">Salten, Felix</author>
+            <author ref="#pmbperson__2167" role="hat-geschaffen">Salten, Felix</author>
             <date>1895.06.02/1895.06.09</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30969</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30969</idno>
@@ -247,7 +256,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -270,11 +279,11 @@
                <geo>48,214120366337 16,358756425131</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb59">IX., Alsergrund</placeName>
+               <placeName ref="#pmb59">IX., Alsergrund</placeName>
                <geo>48,22387 16,35641</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Universit%C3%A4tsstra%C3%9Fe</idno>
@@ -289,7 +298,7 @@
                <geo>48,20809563767 16,375692601645</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Schulerstra%C3%9Fe</idno>
@@ -306,7 +315,7 @@
             <desc type="entity_type">Tageszeitungsredaktion</desc>
             <desc type="entity_type_id">972</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>

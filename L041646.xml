@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">E. M. Kafka an Hermann Bahr, 12. 8. 1891</title>
-            <author ref="pmb2563">Kafka, Eduard Michael</author>
+            <title type="iso-date">1891-08-12</title>
+            <author ref="#pmb2563">Kafka, Eduard Michael</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,14 +49,14 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2563">Kafka, Eduard Michael</persName>
+               <sender>
+                  <persName ref="#pmb2563">Kafka, Eduard Michael</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb833">Brünn</placeName>
+                  <placeName ref="#pmb833">Brünn</placeName>
                </placeSender>
                <dateSender>
                   <date when="1891-08-12" n="01">12. 8. 1891</date>
@@ -72,7 +73,7 @@
                         <idno>HS AM 19296 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Brief von unbek. Hand, Lateinschrift, 1 Bl., 2 S., hs. Unterschrift und Nachschrift von E. M. K. Gedruckter Kopf: »<quote>›<orgName ref="pmb29417">Moderne Rundschau</orgName>‹ / Halbmonatsschrift / Herausgegeben von Dr. <persName ref="pmb28812">J. Joachim</persName> und E. M. Kafka. / <orgName ref="pmb29220">Verlag von Leopold Weiß</orgName> / Redaction: / <placeName ref="pmb789">VIII., Buchfeldgasse 8</placeName> / Administration: / <placeName ref="pmb790">I., Tuchlauben 7</placeName> / <placeName ref="pmb50">
+                        <p>hs. Brief von unbek. Hand, Lateinschrift, 1 Bl., 2 S., hs. Unterschrift und Nachschrift von E. M. K. Gedruckter Kopf: »<quote>›<orgName ref="#pmb29417">Moderne Rundschau</orgName>‹ / Halbmonatsschrift / Herausgegeben von Dr. <persName ref="#pmb18870">J. Joachim</persName> und E. M. Kafka. / <orgName ref="#pmb29220">Verlag von Leopold Weiß</orgName> / Redaction: / <placeName ref="#pmb789">VIII., Buchfeldgasse 8</placeName> / Administration: / <placeName ref="#pmb790">I., Tuchlauben 7</placeName> / <placeName ref="#pmb50">
                                  <settlement>Wien</settlement> / am ......... 189<space unit="chars" quantity="2"/>
                               </placeName>
                            </quote>«</p>
@@ -104,22 +105,57 @@
                   <supplied>z</supplied>
                </damage> über »Moderne Sc<damage agent="hole">
                   <supplied>ha</supplied>
-               </damage>uspielkunst« für die »<rs type="org" ref="#pmb29417">M. R</rs>.« zu schreiben, für eines der nächsten Hefte, – und was ist denn mit den »<anchor type="commentary" xml:id="KL646-2">Wüstlingen</anchor>«? – Oder hätten Sie etwas anderes für uns? – Gutes, keine alte Anekdote, wie letzthin »<anchor type="commentary" xml:id="KL646-4">
-                  <rs type="work" ref="#pmb31297">Die schamhafte Gräfin</rs>
-               </anchor>«, deretwegen eigentlich Sie sich zu schämen hätten.</p>
-            <p>Wenn <anchor type="commentary" xml:id="KL646-3">kommt denn »<rs type="work" ref="#pmb30175">Die russische Reise</rs>«</anchor>? Damit ich <anchor type="commentary" xml:id="KL646-1">
-                  <rs type="work" subtype="implied" ref="#pmb31375 #pmb31383">wieder einmal</rs> über Sie schreiben</anchor> kann.</p>
-            <p>Wie gefiel Ihnen <rs type="person" ref="#pmb2416">J. J. David</rs>’s »<anchor type="commentary" xml:id="KL646-5">
-                  <rs type="work" ref="#pmb31371">Hagars Sohn</rs>
-               </anchor>« in Heft V. VI. VII. VIII. der »<rs type="org" ref="#pmb29417">M. R.</rs>«? Es interessiert mich dies aus dem Grunde, weil bei vielen Leuten aus unserem Kreise des Wunsch besteht, dass man die <rs type="place" ref="#pmb50">Wien</rs>er <rs type="org" ref="#pmb29781">Freie Bühne</rs> damit eröffne.</p>
+               </damage>uspielkunst« für die »<rs type="org" ref="#pmb29417">M. R</rs>.« zu schreiben, für eines der nächsten Hefte, – und was ist denn mit den »<anchor type="commentary" xml:id="KL646-2"/>Wüstlingen<note type="commentary" xml:id="KL646-2h">
+                  <p>Nicht geklärt. In der <rs type="org" ref="#pmb29417">Modernen Rundschau</rs> erschien
+               bis zu ihrem letzten Heft im <date >Dezember</date> nichts mehr von <rs type="person" ref="#pmb10815">Bahr</rs>.</p>
+               </note>«? – Oder hätten Sie etwas anderes für uns? – Gutes, keine alte Anekdote, wie letzthin »<anchor type="commentary" xml:id="KL646-4"/>
+               <rs type="work" ref="#pmb31297">Die schamhafte Gräfin</rs>
+               <note type="commentary" xml:id="KL646-4h">
+                  <p>Nicht in der <rs type="org" ref="#pmb29417">Modernen Dichtung</rs> erschienen,
+               sondern <bibl>in: <rs type="org" ref="#pmb29374">Sommerfest. Ein moderner
+                     Musen-Almanach</rs>. Mit Originalbeiträgen. Erste Reihe. München: <rs type="org">Münchener Kunst- und Verlagsanstalt (Dr. E. Albert)</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1891</date>, S. 1–6</bibl>. Die Vorbemerkung der <rs type="org" ref="#pmb29372">Gesellschaft für modernes Leben</rs> ist datiert mit <date >Juli
+                  1891</date>.</p>
+               </note>«, deretwegen eigentlich Sie sich zu schämen hätten.</p>
+            <p>Wenn <anchor type="commentary" xml:id="KL646-3"/>kommt denn »<rs type="work" ref="#pmb30175">Die russische Reise</rs>«<note type="commentary" xml:id="KL646-3h">
+                  <p>
+                     <bibl>
+                        <rs type="person" ref="#pmb10815">Hermann Bahr</rs>: <rs type="work" ref="#pmb30175">Die russische Reise</rs>. Dresden: <rs type="org" ref="#pmb29771">E. Pierson</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1891</date>
+                     </bibl>, erschien <date >Mitte September 1891</date> (<bibl>
+                        <rs type="work">Bw</rs>
+                        <space unit="chars" quantity="1"/>Bahr/Hofmannsthal 14–15</bibl>).</p>
+               </note>? Damit ich <anchor type="commentary" xml:id="KL646-1"/>
+               <rs type="work" subtype="implied" ref="#pmb31375 #pmb31383">wieder einmal</rs> über Sie schreiben<note type="commentary" xml:id="KL646-1h">
+                  <p>
+                     <bibl>
+                        <rs type="person" ref="#pmb2563">E. M. Kafka</rs>: <rs type="work" ref="#pmb31375">»<rs type="work" ref="#pmb32440">Zur Kritik der Moderne</rs>«</rs>. In: <rs type="org" ref="#pmb29417">Moderne Dichtung</rs>, Bd. 1, H. 2, <date >1. 2.
+                     1890</date>, S. 120–122</bibl>. <bibl>
+                        <rs type="person" ref="#pmb2563">E. M. Kafka</rs>: <rs type="work" ref="#pmb31383">Der neueste Bahr</rs>. In: <rs type="org" ref="#pmb29417">Moderne
+                     Rundschau</rs>, Bd. 3, H. 5/6, <date >15. 6. 1891</date>, S. 220–222</bibl> (Zu
+                  <rs type="work" ref="#pmb31945">Die Überwindung des Naturalismus</rs>).</p>
+               </note> kann.</p>
+            <p>Wie gefiel Ihnen <rs type="person" ref="#pmb2416">J. J. David</rs>’s »<anchor type="commentary" xml:id="KL646-5"/>
+               <rs type="work" ref="#pmb31371">Hagars Sohn</rs>
+               <note type="commentary" xml:id="KL646-5h">
+                  <p>
+                     <bibl>
+                        <rs type="person" ref="#pmb2416">J. J. David</rs>: <rs type="work" ref="#pmb31371">Hagars Sohn</rs>. In: <rs type="org" ref="#pmb29417">Moderne Rundschau</rs>,
+                  Bd. 3, Nr. 5, <date >1. 6. 1891</date> – Nr. 8, <date >15. 7. 1891</date> (4
+                  Teile)</bibl>.</p>
+               </note>« in Heft V. VI. VII. VIII. der »<rs type="org" ref="#pmb29417">M. R.</rs>«? Es interessiert mich dies aus dem Grunde, weil bei vielen Leuten aus unserem Kreise des Wunsch besteht, dass man die <rs type="place" ref="#pmb50">Wien</rs>er <rs type="org" ref="#pmb29781">Freie Bühne</rs> damit eröffne.</p>
             <p>Übrigens – wären <hi rend="underline" n="1">Sie</hi>
                <space unit="chars" quantity="1"/>
                <add place="above">nicht</add> vielleicht im Stande, bis zum Herbste, ein Stück zu schreiben, mit dem wir beginnen könnten? – Für die Folge hätten wir deren einige, (<anchor type="label" xml:id="LL646-1">U. a. das <hi rend="underline" n="1">ganz ausgezeichnete</hi> »<rs type="work" ref="#pmb29823">Märchen</rs>« <del rend="strikethrough">von</del>
                   <space unit="chars" quantity="1"/>
                   <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>’s</anchor>) – nur womit anfangen, das ist die Frage.</p>
-            <p>Vorläufig ist nur allein »<anchor type="commentary" xml:id="KL646-6">
-                  <rs type="work" ref="#pmb30019">Das Friedensfest</rs>
-               </anchor>« ernstlicher in Aussicht<pb/> genommen.</p>
+            <p>Vorläufig ist nur allein »<anchor type="commentary" xml:id="KL646-6"/>
+               <rs type="work" ref="#pmb30019">Das Friedensfest</rs>
+               <note type="commentary" xml:id="KL646-6h">
+                  <p>Von <rs type="person" ref="#pmb11617">Gerhart Hauptmann</rs>.</p>
+               </note>« ernstlicher in Aussicht<pb/> genommen.</p>
             <p>A propos, darf ich Sie als Mitglied unserem <rs type="org" subtype="implied" ref="#pmb29781">Vereine</rs> anmelden? Ich bin gegenwärtig auf Urlaub, leider krank dabei und zu Bette. Eine Mastdarmfistel trieb mich zur Operation.</p>
             <closer>Mit herzlichem Grusse<lb/>
                <signed>
@@ -142,7 +178,7 @@
             <persName type="legacy-name-merge">Kafka, Eduard Michael</persName>
             <birth>
                <date when="1869-03-11">11.03.1869</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -151,7 +187,7 @@
             </birth>
             <death>
                <date when="1893-08-06">06.08.1893</date>
-               <settlement ref="pmb833">
+               <settlement ref="#pmb833">
                   <placeName type="pref">Brünn</placeName>
                   <location>
                      <geo>49,19522 16,60796</geo>
@@ -159,7 +195,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb173">Redakteur/Redakteurin</occupation>
+            <occupation ref="#pmb173">Redakteur/Redakteurin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/141477482</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2563</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2563</idno>
@@ -173,7 +209,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -182,7 +218,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -190,8 +226,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -199,7 +235,43 @@
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb10815</idno>
             <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb10815.html</idno>
          </person>
-         <error type="person">28812</error>
+         <person xml:id="pmb18870">
+            <persName>
+               <forename>Jaques</forename>
+               <surname>Joachim</surname>
+            </persName>
+            <persName type="legacy-name-merge">Joachim, Jaques</persName>
+            <birth>
+               <date when="1866-11-24">24.11.1866</date>
+               <settlement ref="#pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1925-11-07">07.11.1925</date>
+               <settlement ref="#pmb50">
+                  <placeName type="pref">Wien</placeName>
+                  <location>
+                     <geo>48,2066 16,37341</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="#pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+            <occupation ref="#pmb106">Rechtsanwalt/Rechtsanwältin</occupation>
+            <occupation ref="#pmb119">Herausgeber/Herausgeberin</occupation>
+            <occupation ref="#pmb237">Publizist/Publizistin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16554</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb28812</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/18870</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28812</idno>
+            <idno type="URL" subtype="">http://d-nb.info/gnd/137707231</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb18870</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb28812</idno>
+         </person>
          <person xml:id="pmb2416">
             <persName>
                <forename>Jakob Julius</forename>
@@ -207,7 +279,7 @@
             </persName>
             <birth>
                <date when="1859-02-06">06.02.1859</date>
-               <settlement ref="pmb64475">
+               <settlement ref="#pmb64475">
                   <placeName type="pref">Hranice</placeName>
                   <location>
                      <geo>49,56018 17,70413</geo>
@@ -216,7 +288,7 @@
             </birth>
             <death>
                <date when="1906-11-20">20.11.1906</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -224,8 +296,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118671103</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14363</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2416</idno>
@@ -240,7 +312,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -249,7 +321,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -257,20 +329,52 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2121</idno>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/pmb2121</idno>
          </person>
+         <person xml:id="pmb11617">
+            <persName>
+               <forename>Gerhart</forename>
+               <surname>Hauptmann</surname>
+            </persName>
+            <birth>
+               <date when="1862-11-15">15.11.1862</date>
+               <settlement ref="#pmb64427">
+                  <placeName type="pref">Szczawno-Zdrój</placeName>
+                  <location>
+                     <geo>50,79512 16,22375</geo>
+                  </location>
+               </settlement>
+            </birth>
+            <death>
+               <date when="1946-06-06">06.06.1946</date>
+               <settlement ref="#pmb735">
+                  <placeName type="pref">Agnetendorf</placeName>
+                  <location>
+                     <geo>50,816944 15,609444</geo>
+                  </location>
+               </settlement>
+            </death>
+            <sex value="male"/>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_15980</idno>
+            <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118546937</idno>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11617</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/11617</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11617</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb11617.html</idno>
+         </person>
       </listPerson>
       <listBibl>
          <bibl xml:id="pmb31297">
             <title>Die schamhafte Gräfin</title>
             <note type="bibliografische_angabe">Sommerfest. Hg. Gesellschaft für modernes Leben. München: Albert 1891,  S. 1–6</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1891-01-01">1891</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31297</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31297</idno>
@@ -278,7 +382,7 @@
          </bibl>
          <bibl xml:id="pmb30175">
             <title>Russische Reise</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date notBefore="1891-01-01" when="1891-07-02">1891</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30175</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30175</idno>
@@ -290,7 +394,7 @@
          <bibl xml:id="pmb31375">
             <title>»Zur Kritik der Moderne«</title>
             <note type="bibliografische_angabe">Moderne Dichtung, Bd. 1, H. 2, 1. 2. 1890</note>
-            <author ref="pmbperson__2563" role="hat-geschaffen">Kafka, Eduard Michael</author>
+            <author ref="#pmbperson__2563" role="hat-geschaffen">Kafka, Eduard Michael</author>
             <date when="1890-02-01">01.02.1890</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31375</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31375</idno>
@@ -299,16 +403,35 @@
          <bibl xml:id="pmb31383">
             <title>Der neueste Bahr</title>
             <note type="bibliografische_angabe">Moderne Rundschau, Bd. 3, H. 5–6, 15. 6. 1891</note>
-            <author ref="pmbperson__2563" role="hat-geschaffen">Kafka, Eduard Michael</author>
+            <author ref="#pmbperson__2563" role="hat-geschaffen">Kafka, Eduard Michael</author>
             <date when="1891-06-15">15.06.1891</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31383</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31383</idno>
             <note type="work_kind">Text</note>
          </bibl>
+         <bibl xml:id="pmb32440">
+            <title>Zur Kritik der Moderne</title>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date when="1889-01-01">1889</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb32440</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/32440</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb32440.html</idno>
+            <note type="work_kind">Text</note>
+         </bibl>
+         <bibl xml:id="pmb31945">
+            <title>Die Überwindung des Naturalismus</title>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <date when="1891-01-01">1891</date>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31945</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31945</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb31945</idno>
+            <idno type="URL" subtype="schnitzler-lektueren">https://schnitzler-lektueren.acdh.oeaw.ac.at/pmb31945.html</idno>
+            <note type="work_kind">Textsammlung</note>
+         </bibl>
          <bibl xml:id="pmb31371">
             <title>Hagars Sohn. Schauspiel in vier Acten</title>
             <note type="bibliografische_angabe">Moderne Rundschau, Bd. 3, Nr. 5–8, 1. 6. – 15. 7. 1891</note>
-            <author ref="pmbperson__2416" role="hat-geschaffen">David, Jakob Julius</author>
+            <author ref="#pmbperson__2416" role="hat-geschaffen">David, Jakob Julius</author>
             <date>1.6.1891  – 15.7.1891</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31371</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31371</idno>
@@ -319,7 +442,7 @@
             <title>Das Märchen. Schauspiel in drei Aufzügen</title>
             <note type="bibliografische_angabe">Arthur Schnitzler: Das Märchen. Schauspiel in drei Aufzügen. Dresden, Leipzig: E. Pierson’s Verlag 1894.</note>
             <note type="uri_worklink">https://babel.hathitrust.org/cgi/pt?id=coo.31924026341598&amp;view=1up&amp;seq=5</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date>1891  – 1891</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.04</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1169917</idno>
@@ -334,7 +457,7 @@
          <bibl xml:id="pmb30019">
             <title>Das Friedensfest</title>
             <idno type="URL" subtype="wikipedia">https://de.wikipedia.org/wiki/Das_Friedensfest</idno>
-            <author ref="pmbperson__11617" role="hat-geschaffen">Hauptmann, Gerhart</author>
+            <author ref="#pmbperson__11617" role="hat-geschaffen">Hauptmann, Gerhart</author>
             <date notBefore="1890-01-01" when="1890-07-02">1890</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30019</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30019</idno>
@@ -356,7 +479,7 @@
                <geo>49,19522 16,60796</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb40823">Mähren</placeName>
+               <placeName ref="#pmb40823">Mähren</placeName>
                <geo>49,5 17,0</geo>
             </location>
             <idno type="URL" subtype="geonames">http://sws.geonames.org/3078610/</idno>
@@ -373,7 +496,7 @@
                <geo>48,210652801032 16,353347167402</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb58">VIII., Josefstadt</placeName>
+               <placeName ref="#pmb58">VIII., Josefstadt</placeName>
                <geo>48,21126 16,34706</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Buchfeldgasse</idno>
@@ -389,7 +512,7 @@
                <geo>48,210369328822 16,370282346864</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Tuchlauben</idno>
@@ -416,7 +539,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -440,7 +563,7 @@
                <geo>49,189282 16,602271</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb833">Brünn</placeName>
+               <placeName ref="#pmb833">Brünn</placeName>
                <geo>49,19522 16,60796</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb788</idno>
@@ -454,14 +577,14 @@
             <desc type="entity_type">Zeitschriftenredaktion</desc>
             <desc type="entity_type_id">973</desc>
             <location type="located_in_place">
-               <placeName ref="pmb41352">Výstaviště</placeName>
+               <placeName ref="#pmb41352">Výstaviště</placeName>
                <geo>49,188675 16,586983</geo>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/apis/api2/entity/41352/</idno>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/41352</idno>
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb41352</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb789">Buchfeldgasse</placeName>
+               <placeName ref="#pmb789">Buchfeldgasse</placeName>
                <geo>48,210652801032 16,353347167402</geo>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Buchfeldgasse</idno>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb789</idno>
@@ -469,7 +592,7 @@
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb789</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb790">Tuchlauben</placeName>
+               <placeName ref="#pmb790">Tuchlauben</placeName>
                <geo>48,210369328822 16,370282346864</geo>
                <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Tuchlauben</idno>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb790</idno>
@@ -477,7 +600,7 @@
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb790</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb833">Brünn</placeName>
+               <placeName ref="#pmb833">Brünn</placeName>
                <geo>49,19522 16,60796</geo>
                <idno type="URL" subtype="geonames">http://sws.geonames.org/3078610/</idno>
                <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q14960</idno>
@@ -486,7 +609,7 @@
                <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb833</idno>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
@@ -509,7 +632,7 @@
             <desc type="entity_type">Verlag</desc>
             <desc type="entity_type_id">975</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>
@@ -527,13 +650,69 @@
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29220</idno>
             <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29220</idno>
          </org>
+         <org xml:id="pmb29374">
+            <orgName>Moderner Musen-Almanach</orgName>
+            <desc type="entity_type">Redaktion</desc>
+            <desc type="entity_type_id">1010</desc>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29374</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29374</idno>
+            <note type="apis_dates">
+               <date from="1891-01-01" to="1891-12-31">1891  – 1894</date>
+            </note>
+         </org>
+         <org xml:id="pmb29372">
+            <orgName>Gesellschaft für modernes Leben</orgName>
+            <desc type="entity_type">Verein &gt;&gt; Literarische Vereinigung</desc>
+            <desc type="entity_type_id">997</desc>
+            <location type="located_in_place">
+               <placeName ref="#pmb45258">München</placeName>
+               <geo>48,13743 11,57549</geo>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/38129</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/45258/</idno>
+               <idno type="URL" subtype="geonames">https://sws.geonames.org/2867714/</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb45258</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29372</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29372</idno>
+         </org>
+         <org xml:id="pmb29771">
+            <orgName>E. Pierson’s Verlag</orgName>
+            <desc type="entity_type">Verlag</desc>
+            <desc type="entity_type_id">975</desc>
+            <location type="located_in_place">
+               <placeName ref="#pmb866">Dresden</placeName>
+               <geo>51,0833 13,7666</geo>
+               <idno type="URL" subtype="geonames">http://sws.geonames.org/2935020/</idno>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1731</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4012995-0</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb866</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/866</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39739</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb866</idno>
+            </location>
+            <location type="located_in_place">
+               <placeName ref="#pmb864">Leipzig</placeName>
+               <geo>51,33962 12,37129</geo>
+               <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q2079</idno>
+               <idno type="URL" subtype="geonames">http://sws.geonames.org/2879139/</idno>
+               <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb864</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/864</idno>
+               <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/44885/</idno>
+               <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4035206-7</idno>
+               <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb864</idno>
+            </location>
+            <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29771</idno>
+            <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/29771</idno>
+            <idno type="URL" subtype="schnitzler-briefe">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb29771</idno>
+         </org>
          <org xml:id="pmb29781">
             <orgName>»Freie Bühne« Verein für moderne Literatur</orgName>
             <orgName type="namensvariante">Freie Bühne</orgName>
             <desc type="entity_type">Verein &gt;&gt; Literarische Vereinigung</desc>
             <desc type="entity_type_id">997</desc>
             <location type="located_in_place">
-               <placeName ref="pmb50">Wien</placeName>
+               <placeName ref="#pmb50">Wien</placeName>
                <geo>48,2066 16,37341</geo>
                <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
                <idno type="URL" subtype="">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/2316/</idno>

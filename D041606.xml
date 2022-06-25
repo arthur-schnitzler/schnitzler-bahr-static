@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Aufzeichnung von Hermann Bahr, [Juli 1922?]</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1922-07-19</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -57,7 +58,7 @@
                         <idno>HS VM 2629 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 62 Bl., S. 113.</p>
+                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="#pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 62 Bl., S. 113.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -81,12 +82,27 @@
                <date when="1922-07-19" n="01"/>
                <rs type="place" ref="#pmb45258">München</rs> gleich für »<rs type="org" ref="#pmb29205">Deutschösterreichischen Bühnenverein</rs>« <rs type="place" ref="#pmb761">Wien I Dorotheergasse 6–8</rs>
                <space unit="chars" quantity="1"/>
-               <rs type="work" subtype="implied" ref="#pmb30103">Aufsatz</rs> über <rs type="person" ref="#pmb11036">Burckhard</rs>s Verdienst um das neue Theatergesetz (<anchor type="commentary" xml:id="KD606-1">mit D<hi rend="superscript">r</hi>
-                  <space unit="chars" quantity="1"/>
-                  <rs type="person" ref="#pmb4748">Ofner</rs>; in <rs type="person" ref="#pmb11036">Burckhard</rs>s Wohng in der <rs type="place" ref="#pmb397">Frankg</rs>. <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>, D<hi rend="superscript">r</hi>
-                  <space unit="chars" quantity="1"/>
-                  <rs type="person" ref="#pmb28798">Kramař</rs>
-               </anchor>)</p>
+               <rs type="work" subtype="implied" ref="#pmb30103">Aufsatz</rs> über <rs type="person" ref="#pmb11036">Burckhard</rs>s Verdienst um das neue Theatergesetz (<anchor type="commentary" xml:id="KD606-1"/>mit D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#pmb4748">Ofner</rs>; in <rs type="person" ref="#pmb11036">Burckhard</rs>s Wohng in der <rs type="place" ref="#pmb397">Frankg</rs>. <rs type="person" ref="#pmb2121">Artur Schnitzler</rs>, D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="#pmb28798">Kramař</rs>
+               <note type="commentary" xml:id="KD606-1h">
+                  <seg type="lemma">mit D\textsuperscript{r} Ofner {\dots} Kramař</seg>
+                  <p>Im gedruckten Text <rs type="work" ref="#pmb30103">Theatergesetz</rs>, der im
+                  <date >August 1922</date> in einer Festschrift erschien (<bibl >in: <rs type="work">Das Schauspielergesetz. Festschrift</rs>. Hg. <rs type="org" ref="#pmb29205">Deutschösterreichischer Bühnenverein</rs>. Wien: <date >1922</date>,
+                  S. 1–2</bibl>) ist dieser Nukleus um die Gründung einer ersten Kommission kaum
+               weiter ausgebaut: »<quote>Gewählt wurden in diese Kommission: <rs type="person" ref="#pmb10815">Bahr</rs>, <rs type="person" ref="#pmb10883">Berger</rs>, <rs type="person" ref="#pmb10912">Bettelheim</rs>, <rs type="person" ref="#pmb11036">Burckhard</rs>, <rs type="person" ref="#pmb11145">Decsey</rs>,
+                     <rs type="person" ref="#pmb11447">Glossy</rs>, <rs type="person" ref="#pmb4788">Niedt</rs>, <rs type="person" ref="#pmb4748">Ofner</rs>, <rs type="person" ref="#pmb2583">Schütz</rs>, <rs type="person" ref="#pmb12926">Telmann</rs> und
+                     <rs type="person" ref="#pmb13088">Wengraf</rs>. Und den ganzen Winter hindurch
+                  trafen wir uns nun jede Woche bei <rs type="person" ref="#pmb11036">Burckhard</rs>
+                  in der <rs type="place" ref="#pmb397">Frankgasse</rs>; unter ihm wohnte damals <rs type="person" ref="#pmb2121">Arthur Schnitzler</rs>, über ihm Dr. <rs type="person" ref="#pmb28798">Karel Kramař</rs>. Der Entwurf, von <rs type="person" ref="#pmb11036">Burckhard</rs> verfaßt, mußte sich in den
+                  Debatten allerhand Abänderungen gefallen lassen und das ›<rs type="work" subtype="implied" ref="#pmb30239">Elaborat</rs>‹, wie man auf <rs type="place" ref="#pmb41240">österreichisch</rs> so schön sagt, erschien dann, mit
+                  ›erläuternden Bemer<pb/>kungen‹, <date >1897</date> in <rs type="place" ref="#pmb50">Wien</rs> bei <rs type="org" ref="#pmb29216">Manz</rs>. <rs type="person" ref="#pmb3758">Lemayer</rs> sicherte dem Entwurf, indem er ihn im
+                     <rs type="place" ref="#pmb775">Herrenhause</rs> vorbrachte, wenigstens im
+                  Protokoll ein zunächst freilich bloß papierenes Dasein, <rs type="place" ref="#pmb628">böhmische</rs> Schauspieler leiteten ihn an den <rs type="person" subtype="implied" ref="#pmb2953">Unterrichtsminister</rs> und <date >1901</date>
+                  kam er durch Dr. <rs type="person" ref="#pmb4748">Ofner</rs> in den <rs type="place" ref="#pmb776">Reichsrat</rs>.</quote>«</p>
+               </note>)</p>
          </div>
       </body>
    </text>
@@ -99,7 +115,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -108,7 +124,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -116,8 +132,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -134,7 +150,7 @@
             <persName type="geburtsname_nachname">von Mildenburg</persName>
             <birth>
                <date when="1872-11-29">29.11.1872</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -143,7 +159,7 @@
             </birth>
             <death>
                <date when="1947-01-27">27.01.1947</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -151,7 +167,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13376</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118646370</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10818</idno>
@@ -165,7 +181,7 @@
             </persName>
             <birth>
                <date when="1854-07-14">14.07.1854</date>
-               <settlement ref="pmb61010">
+               <settlement ref="#pmb61010">
                   <placeName type="pref">Korneuburg</placeName>
                   <location>
                      <geo>48,35 16,33333</geo>
@@ -174,7 +190,7 @@
             </birth>
             <death>
                <date when="1912-03-16">16.03.1912</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -182,9 +198,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14065</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117161144</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11036</idno>
@@ -199,7 +215,7 @@
             </persName>
             <birth>
                <date when="1845-08-20">1845-08-20</date>
-               <settlement ref="pmb58765">
+               <settlement ref="#pmb58765">
                   <placeName type="pref">Hořenice</placeName>
                   <location>
                      <geo>50,36918 15,91083</geo>
@@ -208,7 +224,7 @@
             </birth>
             <death>
                <date when="1924-09-26">1924-09-26</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -216,7 +232,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb95">Politiker/Politikerin</occupation>
+            <occupation ref="#pmb95">Politiker/Politikerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118831240</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4748</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4748</idno>
@@ -228,7 +244,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -237,7 +253,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -245,8 +261,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -260,13 +276,13 @@
             </persName>
             <birth>
                <date when="1860-01-01">1860</date>
-               <settlement ref="pmb28799">
+               <settlement ref="#pmb28799">
                   <placeName type="pref">Vysoké nad Jizerou</placeName>
                </settlement>
             </birth>
             <death>
                <date when="1937-01-01">1937</date>
-               <settlement ref="pmb652">
+               <settlement ref="#pmb652">
                   <placeName type="pref">Prag</placeName>
                   <location>
                      <geo>50,08333 14,46667</geo>
@@ -274,7 +290,7 @@
                </settlement>
             </death>
             <sex value="not-set"/>
-            <occupation ref="pmb95">Politiker/Politikerin</occupation>
+            <occupation ref="#pmb95">Politiker/Politikerin</occupation>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb28798</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28798</idno>
          </person>
@@ -283,8 +299,8 @@
          <bibl xml:id="pmb30103">
             <title>Theatergesetz</title>
             <note type="bibliografische_angabe">Das Schauspielergesetz. Festschrift. Herausgegeben vom Deutschösterreichischen Bühnenverein. Wien, August 1922</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date when="1922-08-01">August 1922</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30103</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30103</idno>
@@ -309,11 +325,11 @@
                <geo>48,13743 11,57549</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb314">Bayern</placeName>
+               <placeName ref="#pmb314">Bayern</placeName>
                <geo>49,0 11,5</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb151">Deutschland</placeName>
+               <placeName ref="#pmb151">Deutschland</placeName>
                <geo>51,5 10,5</geo>
             </location>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/4127793-4</idno>
@@ -330,7 +346,7 @@
                <geo>48,207090918887 16,369125128934</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Dorotheergasse</idno>
@@ -345,7 +361,7 @@
                <geo>48,215516628628 16,356475515829</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb59">IX., Alsergrund</placeName>
+               <placeName ref="#pmb59">IX., Alsergrund</placeName>
                <geo>48,22387 16,35641</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Frankgasse</idno>

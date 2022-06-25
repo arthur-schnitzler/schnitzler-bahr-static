@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Aufzeichnung von Hermann Bahr, 5. 11. 1931</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1931-11-05</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -57,7 +58,7 @@
                         <idno>HS VM 2634 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>In: Braunes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 187 Bl., S. 65–66.</p>
+                        <p>In: Braunes Buch, eh. beschrieben, von <persName ref="#pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 187 Bl., S. 65–66.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -78,10 +79,22 @@
       <body>
          <div type="writingSession" n="1">
             <p>
-               <anchor type="textConst" xml:id="TD605-1">
-                  <date when="1931-11-05" n="2">5.</date>– K.–</anchor> Weiter Auszug der »<anchor type="commentary" xml:id="KD605-1">
-                  <rs type="work" ref="#pmb30993">Entwicklungsgeschichte Bayerns</rs>
-               </anchor>« von <rs type="person" ref="#pmb4760">Doeberl</rs> (3. Band) bis 557. Dann auf<pb/> dem Wege zu <rs type="person" ref="#pmb4631">Brandenburg</rs> dreißig Minuten in der <rs type="place" ref="#pmb711">Ludwigskirche</rs>, dann mit ihm durch den von herbstlicher Schönheit glühenden <rs type="place" ref="#pmb706">Englischen Garten</rs>. Dann, etwas verspätet zur 6 Uhr Abendandacht in der <rs type="place" ref="#pmb707">Fronleichnamskapelle</rs>; freudenreicher Rosenkranz; Litanei. – Morgen, <rs type="person" ref="#pmb2121">Schnitzler</rs>s Werke, die jetzt allgemein verlangt werden, weil Jedermann einen Nekrolog verfassen will, darüber klagend, wie töricht es doch ist, daß man sterben muß, damit man halbwegs verstanden oder gar erkannt wird.</p>
+               <anchor type="textConst" xml:id="TD605-1"/>
+               <date when="1931-11-05" n="2">5.</date>– K.–<note type="textConst" xml:id="TD605-1h">
+                  <p>Mit rotem Buntstift.</p>
+               </note> Weiter Auszug der »<anchor type="commentary" xml:id="KD605-1"/>
+               <rs type="work" ref="#pmb30993">Entwicklungsgeschichte Bayerns</rs>
+               <note type="commentary" xml:id="KD605-1h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb4760">M. Doeberl</rs>: <rs type="work" ref="#pmb30993">Entwicklungsgeschichte Bayerns. Dritter Band: Vom Regierungsantritt König
+                     Ludwigs I. bis zum Tode König Ludwigs II. Mit einem Ausblick auf die innere
+                     Entwicklung Bayerns unter dem Prinzregenten Luitpold</rs>. Hg. <rs type="person" ref="#pmb5049">Max Spindler</rs>. München: <rs type="org">R.
+                     Oldenbourg</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1931</date>
+                     </bibl>.</p>
+               </note>« von <rs type="person" ref="#pmb4760">Doeberl</rs> (3. Band) bis 557. Dann auf<pb/> dem Wege zu <rs type="person" ref="#pmb4631">Brandenburg</rs> dreißig Minuten in der <rs type="place" ref="#pmb711">Ludwigskirche</rs>, dann mit ihm durch den von herbstlicher Schönheit glühenden <rs type="place" ref="#pmb706">Englischen Garten</rs>. Dann, etwas verspätet zur 6 Uhr Abendandacht in der <rs type="place" ref="#pmb707">Fronleichnamskapelle</rs>; freudenreicher Rosenkranz; Litanei. – Morgen, <rs type="person" ref="#pmb2121">Schnitzler</rs>s Werke, die jetzt allgemein verlangt werden, weil Jedermann einen Nekrolog verfassen will, darüber klagend, wie töricht es doch ist, daß man sterben muß, damit man halbwegs verstanden oder gar erkannt wird.</p>
          </div>
       </body>
    </text>
@@ -94,7 +107,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -103,7 +116,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -111,8 +124,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -129,7 +142,7 @@
             <persName type="geburtsname_nachname">von Mildenburg</persName>
             <birth>
                <date when="1872-11-29">29.11.1872</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -138,7 +151,7 @@
             </birth>
             <death>
                <date when="1947-01-27">27.01.1947</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -146,7 +159,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13376</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118646370</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10818</idno>
@@ -160,7 +173,7 @@
             </persName>
             <birth>
                <date when="1861-01-01">1861</date>
-               <settlement ref="pmb58767">
+               <settlement ref="#pmb58767">
                   <placeName type="pref">Waldsassen</placeName>
                   <location>
                      <geo>50,00167 12,30434</geo>
@@ -169,7 +182,7 @@
             </birth>
             <death>
                <date when="1928-01-01">1928</date>
-               <settlement ref="pmb2318">
+               <settlement ref="#pmb2318">
                   <placeName type="pref">Partenkirchen</placeName>
                   <location>
                      <geo>47,4956 11,1097</geo>
@@ -177,7 +190,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb134">Historiker/Historikerin</occupation>
+            <occupation ref="#pmb134">Historiker/Historikerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118680005</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4760</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4760</idno>
@@ -189,7 +202,7 @@
             </persName>
             <birth>
                <date when="1885-01-01">1885</date>
-               <settlement ref="pmb989">
+               <settlement ref="#pmb989">
                   <placeName type="pref">Wuppertal</placeName>
                   <location>
                      <geo>51,25627 7,14816</geo>
@@ -198,7 +211,7 @@
             </birth>
             <death>
                <date when="1968-01-01">1968</date>
-               <settlement ref="pmb45630">
+               <settlement ref="#pmb45630">
                   <placeName type="pref">Bingen am Rhein</placeName>
                   <location>
                      <geo>49,96675 7,8992</geo>
@@ -206,7 +219,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514318</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb4631</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/4631</idno>
@@ -218,7 +231,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -227,7 +240,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -235,8 +248,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -247,7 +260,7 @@
       <listBibl>
          <bibl xml:id="pmb30993">
             <title>Entwicklungsgeschichte Bayerns</title>
-            <author ref="pmbperson__4760" role="hat-geschaffen">Doeberl, Michael</author>
+            <author ref="#pmbperson__4760" role="hat-geschaffen">Doeberl, Michael</author>
             <date>1906/1912/1931</date>
             <idno type="URL" subtype="ub">http://www.ub.uni-koeln.de/cdm/ref/collection/dirksen/id/278606</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30993</idno>
@@ -265,7 +278,7 @@
                <geo>48,148889 11,581389</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb45258">München</placeName>
+               <placeName ref="#pmb45258">München</placeName>
                <geo>48,13743 11,57549</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb711</idno>
@@ -280,7 +293,7 @@
                <geo>48,152778 11,591944</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb45258">München</placeName>
+               <placeName ref="#pmb45258">München</placeName>
                <geo>48,13743 11,57549</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb706</idno>
@@ -291,7 +304,7 @@
             <desc type="entity_type">Kirche (K.KRC)</desc>
             <desc type="entity_type_id">33</desc>
             <location type="located_in_place">
-               <placeName ref="pmb45258">München</placeName>
+               <placeName ref="#pmb45258">München</placeName>
                <geo>48,13743 11,57549</geo>
             </location>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb707</idno>

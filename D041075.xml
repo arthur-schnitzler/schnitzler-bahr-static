@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Tagebuch von Arthur Schnitzler, 11. 1. 1912</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1912-01-11</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -44,13 +45,13 @@
             <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-887D-D</idno>
          </publicationStmt>
          <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="#pmb10815">Bahr</persName> and Arthur Schnitzler</p>
          </seriesStmt>
          <sourceDesc>
             <listBibl>
                <biblStruct corresp="ASTB">
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Tagebuch 1909–1912</title>
                      <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
                      <imprint>
@@ -77,9 +78,13 @@
          <div type="writingSession" n="1">
             <p>
                <date when="1912-01-11" n="01">11/1</date> Auf den <rs type="place" ref="#pmb189">Semmering</rs> mit <rs type="person" ref="#pmb2173">O.</rs>, <rs type="person" ref="#pmb2753">Mimi</rs>, <rs type="person" ref="#pmb13055">Wassermann</rs>, mit vielen komischen Aperçus.</p>
-            <p>Oben <rs type="person" ref="#pmb10986">Brahm</rs>. Spazieren und in der Halle mit ihm. Über das »<rs type="work" ref="#pmb30085">Tänzchen</rs>« (von <rs type="person" ref="#pmb10815">Bahr</rs>, das eben ohne Erfolg gespielt wurde) und <anchor type="commentary" xml:id="KD075-1">
-                  <rs type="work" ref="#pmb30357">Gabriel Schilling</rs>
-               </anchor>.</p>
+            <p>Oben <rs type="person" ref="#pmb10986">Brahm</rs>. Spazieren und in der Halle mit ihm. Über das »<rs type="work" ref="#pmb30085">Tänzchen</rs>« (von <rs type="person" ref="#pmb10815">Bahr</rs>, das eben ohne Erfolg gespielt wurde) und <anchor type="commentary" xml:id="KD075-1"/>
+               <rs type="work" ref="#pmb30357">Gabriel Schilling</rs>
+               <note type="commentary" xml:id="KD075-1h">
+                  <p>Unmittelbar zuvor erschienen: <bibl >
+                        <rs type="person" ref="#pmb11617">Gerhart Hauptmann</rs>: <rs type="work" ref="#pmb30357">Gabriel Schillings Flucht. Drama</rs>. In: <rs type="org" ref="#pmb29212">Die neue Rundschau</rs>, Jg. 23, H. 1, <date >1. 1. 1912</date>,
+                  S. 1–59</bibl>.</p>
+               </note>.</p>
          </div>
       </body>
    </text>
@@ -92,7 +97,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -101,7 +106,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -109,8 +114,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -124,7 +129,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -133,7 +138,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -141,8 +146,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -160,7 +165,7 @@
             <persName type="legacy-name-merge">Schnitzler, Olga</persName>
             <birth>
                <date when="1882-01-17">17.01.1882</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -169,7 +174,7 @@
             </birth>
             <death>
                <date when="1970-01-13">13.01.1970</date>
-               <settlement ref="pmb885">
+               <settlement ref="#pmb885">
                   <placeName type="pref">Lugano</placeName>
                   <location>
                      <geo>46,01008 8,96004</geo>
@@ -177,8 +182,8 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
@@ -197,7 +202,7 @@
             <persName type="legacy-name-merge">Zuckerkandl, Marianne</persName>
             <birth>
                <date when="1882-08-06">6.8.1882</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -206,7 +211,7 @@
             </birth>
             <death>
                <date when="1964-07-01" notAfter="1964-12-31">1964</date>
-               <settlement ref="pmb49872">
+               <settlement ref="#pmb49872">
                   <placeName type="pref">Ascona</placeName>
                   <location>
                      <geo>46,15451 8,77327</geo>
@@ -214,7 +219,7 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb116">Übersetzer/Übersetzerin</occupation>
+            <occupation ref="#pmb116">Übersetzer/Übersetzerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117021288</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2753</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2753</idno>
@@ -227,7 +232,7 @@
             </persName>
             <birth>
                <date when="1873-03-10">10.03.1873</date>
-               <settlement ref="pmb40508">
+               <settlement ref="#pmb40508">
                   <placeName type="pref">Fürth</placeName>
                   <location>
                      <geo>49,47593 10,98856</geo>
@@ -236,7 +241,7 @@
             </birth>
             <death>
                <date when="1934-01-01">01.01.1934</date>
-               <settlement ref="pmb34401">
+               <settlement ref="#pmb34401">
                   <placeName type="pref">Altaussee</placeName>
                   <location>
                      <geo>47,6698 13,78453</geo>
@@ -244,7 +249,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_21107</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118629387</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb13055</idno>
@@ -260,7 +265,7 @@
             <persName type="geburtsname_nachname">Abrahamson</persName>
             <birth>
                <date when="1856-02-05">05.02.1856</date>
-               <settlement ref="pmb506">
+               <settlement ref="#pmb506">
                   <placeName type="pref">Hamburg</placeName>
                   <location>
                      <geo>53,57532 10,01534</geo>
@@ -269,7 +274,7 @@
             </birth>
             <death>
                <date when="1912-11-28">28.11.1912</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -277,8 +282,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
-            <occupation ref="pmb104">Regisseur/Regisseurin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb104">Regisseur/Regisseurin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13913</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118514245</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10986</idno>
@@ -290,7 +295,7 @@
       <listBibl>
          <bibl xml:id="pmb30085">
             <title>Das Tänzchen. Lustspiel in drei Akten</title>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date notBefore="1911-01-01" when="1911-07-02">1911</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30085</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/30085</idno>
@@ -301,7 +306,7 @@
          <bibl xml:id="pmb30357">
             <title>Gabriel Schillings Flucht</title>
             <note type="bibliografische_angabe">Die neue Rundschau, Jg. 23, H. 1, 1. 1. 1912</note>
-            <author ref="pmbperson__11617" role="hat-geschaffen">Hauptmann, Gerhart</author>
+            <author ref="#pmbperson__11617" role="hat-geschaffen">Hauptmann, Gerhart</author>
             <date when="1912-01-01">01.01.1912</date>
             <idno type="URL" subtype="archive">https://archive.org/details/neuerundschau190903franuoft</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb30357</idno>

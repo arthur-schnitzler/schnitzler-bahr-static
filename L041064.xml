@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur Schnitzler an Hermann Bahr, 10. 11. 1903</title>
-            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <title type="iso-date">1903-11-10</title>
+            <author ref="#pmb2121">Schnitzler, Arthur</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <name>FWF – Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -48,17 +49,17 @@
          </seriesStmt>
          <sourceDesc>
             <correspDesc>
-               <sender full="yes">
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               <sender>
+                  <persName ref="#pmb2121">Schnitzler, Arthur</persName>
                </sender>
-               <addressee full="yes">
-                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               <addressee>
+                  <persName ref="#pmb10815">Bahr, Hermann</persName>
                </addressee>
                <placeSender>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeSender>
                <placeAddressee>
-                  <placeName ref="pmb50">[Wien]</placeName>
+                  <placeName ref="#pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
                   <date when="1903-11-10" n="1">10. 11. 1903</date>
@@ -83,7 +84,7 @@
             <listBibl>
                <biblStruct corresp="ASB1">
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">Briefe 1875–1912</title>
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
@@ -99,7 +100,7 @@
                      <date when="1903-11-10">10. 11. 1903</date>
                   </analytic>
                   <monogr>
-                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="#pmb2121">Schnitzler, Arthur</author>
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint>
@@ -159,18 +160,42 @@
                   <del rend="overwritten">m</del>
                   <add place="inline">s</add>
                </subst>ich doch nicht im eigenen Hause feiern lassen<c rendition="#dots" n="2"/> Doch wäre es zu schade, wenn dieses Meisterstück der Oeffentlichkeit vorenthalten würde. Dass sich in Wien nichts würde anfangen lassen, war vorauszusetzen. Die Kerle sind ja nicht mehr feig, weil ihnen even<pb/>tuell was geschehen könnte – sondern aus Liebe zur Sache. Wie wärs denn mit dem Ausland? <rs type="org" ref="#pmb29329">Berliner Tageblatt</rs> (oder <rs type="org" ref="#pmb29331">Vossische</rs>?) wären vielleicht zu gewinnen? Wenn kein Tagesblatt, eine Wochen oder Monatsschrift? – Wie immer – ich danke dir und <rs type="person" ref="#pmb11036">Burckhard</rs>
-               <del rend="strikethrough">t</del> vielmals und wärmstens. Was ist das übrigens für eine <anchor type="commentary" xml:id="KL064-3">Stelle im <rs type="work" subtype="implied" ref="#pmb29993">
-                     <hi rend="latintype">Lamprecht</hi>
-                  </rs>
-               </anchor>, die durch die Blätter ging? Ich habe nichts gelesen.</p>
+               <del rend="strikethrough">t</del> vielmals und wärmstens. Was ist das übrigens für eine <anchor type="commentary" xml:id="KL064-3"/>Stelle im <rs type="work" subtype="implied" ref="#pmb29993">
+                  <hi rend="latintype">Lamprecht</hi>
+               </rs>
+               <note type="commentary" xml:id="KL064-3h">
+                  <p>
+                     <bibl >Vgl. [O. V.:] <rs type="work" ref="#pmb29993">Die verbotene
+                     »Reigen«-Vorlesung</rs>. In: <rs type="org" ref="#pmb29626">Die Zeit</rs>,
+                  Jg. 2, Nr. 396, <date >5. 11. 1903</date>, S. 3</bibl>: »<quote>In den weiteren
+                  Darlegungen des Rekurses bespricht <rs type="person" ref="#pmb10815">Bahr</rs> die
+                  literarische Persönlichkeit <rs type="person" ref="#pmb2121">Artur
+                     Schnitzlers</rs>. Er führt an, daß <rs type="person" ref="#pmb2121">Schnitzler</rs> als <rs type="place" ref="#pmb41240">österreichischer</rs>
+                  Dichter auch im Ausland stets an erster Stelle genannt werde, daß <rs type="person" ref="#pmb2121">Schnitzler</rs>’s Wirken vielfache Auszeichnungen
+                  erhielt, daß der Historiker <rs type="person" ref="#pmb2295">Lamprecht</rs> über
+                  den <rs type="place" ref="#pmb50">Wien</rs>er in anerkennender Weise sich
+                  ausgesprochen habe, [<c rendition="#dots" n="3"/>]</quote>«. Das dürfte wiederum
+               auf die allgemeinen Ausführungen über <rs type="person" ref="#pmb2121">Schnitzler</rs> in <rs type="person" ref="#pmb2295">Karl Lamprecht</rs>s <rs type="work" ref="#pmb32658">Deutsche Geschichte. Erster Ergänzungsband</rs>
+                  (<bibl >Berlin: <rs type="org">R. Gaertners Verlagsbuchhandlung</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1902</date>, S. 362</bibl>) Bezug nehmen.</p>
+               </note>, die durch die Blätter ging? Ich habe nichts gelesen.</p>
             <p>
                <rs type="person" ref="#pmb2167">Salten</rs> thu ich gewiss nicht Unrecht.<pb/> Lies nur – wenn es so viel Interesse für dich hat,– <subst>
                   <del rend="overwritten">den</del>
                   <add place="inline">meinen</add>
-               </subst> ganzen <anchor type="commentary" xml:id="KL064-1">Brief an <rs type="person" ref="#pmb2167">Salten</rs>
-               </anchor>. Nicht um Lob und Tadel handelt es sich. Das wesentliche für mich bleibt, dass in dem <anchor type="commentary" xml:id="KL064-2">
-                  <rs type="work" subtype="implied" ref="#pmb31401">Feuilleton</rs>
-               </anchor> genau <hi rend="underline" n="1">die</hi> Sachen <add place="above">zu meinen Ungunsten</add> drinstehen – über deren mangelnde Berechtigung sich sein Verfasser Dutzendemale mir gegenüber ausgesprochen. Lies den Brief. – Und das ärgerliche – worüber wir auch so oft gesprochen haben – der Versuch, einem Dichter Gebiete abzustecken – oder zu verwehren. Ich, als einziger Mensch auf der bewohnten Erde, soll nicht mehr<pb/> das Recht haben, erotische Beziehungen zu schildern, oder unverehelichte junge Damen darzustellen? – Es werden nach mir noch etwa hunderttausend Bücher von Liebe und <rs type="work" subtype="implied" ref="#pmb29917">Liebelei</rs>, süßen und sauren Mädeln, und <rs type="work" subtype="implied" ref="#pmb29935">Anatolen und Mäxen</rs> geschrieben werden – wie sie vor mir geschrieben worden sind. Und gerade ich bekomm immer sozusagen einen Krach in den Schädel, wenn auch nur <subst>
+               </subst> ganzen <anchor type="commentary" xml:id="KL064-1"/>Brief an <rs type="person" ref="#pmb2167">Salten</rs>
+               <note type="commentary" xml:id="KL064-1h">
+                  <p>Vom <date >7. 11. 1903</date>, abgedruckt in <bibl >A. S. <rs type="work">B</rs>
+                  I,468–470</bibl>.</p>
+               </note>. Nicht um Lob und Tadel handelt es sich. Das wesentliche für mich bleibt, dass in dem <anchor type="commentary" xml:id="KL064-2"/>
+               <rs type="work" subtype="implied" ref="#pmb31401">Feuilleton</rs>
+               <note type="commentary" xml:id="KL064-2h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb2167">Felix Salten</rs>: <rs type="work" ref="#pmb31401">Arthur Schnitzler und sein Reigen</rs>. In: <rs type="org" ref="#pmb29626">Die Zeit</rs>, Jg. 2, Nr. 398, <date >7. 11. 1903</date>,
+                  S. 1–2</bibl>.</p>
+               </note> genau <hi rend="underline" n="1">die</hi> Sachen <add place="above">zu meinen Ungunsten</add> drinstehen – über deren mangelnde Berechtigung sich sein Verfasser Dutzendemale mir gegenüber ausgesprochen. Lies den Brief. – Und das ärgerliche – worüber wir auch so oft gesprochen haben – der Versuch, einem Dichter Gebiete abzustecken – oder zu verwehren. Ich, als einziger Mensch auf der bewohnten Erde, soll nicht mehr<pb/> das Recht haben, erotische Beziehungen zu schildern, oder unverehelichte junge Damen darzustellen? – Es werden nach mir noch etwa hunderttausend Bücher von Liebe und <rs type="work" subtype="implied" ref="#pmb29917">Liebelei</rs>, süßen und sauren Mädeln, und <rs type="work" subtype="implied" ref="#pmb29935">Anatolen und Mäxen</rs> geschrieben werden – wie sie vor mir geschrieben worden sind. Und gerade ich bekomm immer sozusagen einen Krach in den Schädel, wenn auch nur <subst>
                   <del rend="overwritten">ein</del>
                   <add place="inline">aus</add>
                </subst> der Ferne ein Hauch von Erotik über meine Gestalten weht?<pb/> Und der letzte Krach geht gerade von <rs type="person" ref="#pmb2167">Salten</rs> aus, mit dem gemeinschaftlich ich mich über diese Kräche <add place="above">so oft</add> belustigt und geärgert habe?– Aber lassen wir das auf eventuelle mündliche Unterhaltung.– Ich darf dich wohl dieser Tage wieder in <rs type="place" ref="#pmb165">St Veit</rs> aufsuchen?</p>
@@ -189,7 +214,7 @@
             </persName>
             <birth>
                <date when="1862-05-15">15.05.1862</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -198,7 +223,7 @@
             </birth>
             <death>
                <date when="1931-10-21">21.10.1931</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -206,8 +231,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb97">Mediziner/Medizinerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb97">Mediziner/Medizinerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118609807</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2121</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2121</idno>
@@ -221,7 +246,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -230,7 +255,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -238,8 +263,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -257,7 +282,7 @@
             <persName type="legacy-name-merge">Schnitzler, Olga</persName>
             <birth>
                <date when="1882-01-17">17.01.1882</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -266,7 +291,7 @@
             </birth>
             <death>
                <date when="1970-01-13">13.01.1970</date>
-               <settlement ref="pmb885">
+               <settlement ref="#pmb885">
                   <placeName type="pref">Lugano</placeName>
                   <location>
                      <geo>46,01008 8,96004</geo>
@@ -274,8 +299,8 @@
                </settlement>
             </death>
             <sex value="female"/>
-            <occupation ref="pmb105">Schauspieler/Schauspielerin</occupation>
-            <occupation ref="pmb107">Sänger/Sängerin</occupation>
+            <occupation ref="#pmb105">Schauspieler/Schauspielerin</occupation>
+            <occupation ref="#pmb107">Sänger/Sängerin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/116848723</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2173</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2173</idno>
@@ -289,7 +314,7 @@
             </persName>
             <birth>
                <date when="1854-07-14">14.07.1854</date>
-               <settlement ref="pmb61010">
+               <settlement ref="#pmb61010">
                   <placeName type="pref">Korneuburg</placeName>
                   <location>
                      <geo>48,35 16,33333</geo>
@@ -298,7 +323,7 @@
             </birth>
             <death>
                <date when="1912-03-16">16.03.1912</date>
-               <settlement ref="pmb50">
+               <settlement ref="#pmb50">
                   <placeName type="pref">Wien</placeName>
                   <location>
                      <geo>48,2066 16,37341</geo>
@@ -306,9 +331,9 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
-            <occupation ref="pmb103">Theaterleiter/Theaterleiterin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb102">Wissenschaftler/Wissenschaftlerin &gt;&gt; Rechtswissenschaftler/Rechtswissenschaftlerin</occupation>
+            <occupation ref="#pmb103">Theaterleiter/Theaterleiterin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_14065</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/117161144</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb11036</idno>
@@ -326,7 +351,7 @@
             <persName type="legacy-name-merge">Salzmann, Siegmund</persName>
             <birth>
                <date when="1869-09-06">06.09.1869</date>
-               <settlement ref="pmb43471">
+               <settlement ref="#pmb43471">
                   <placeName type="pref">Budapest</placeName>
                   <location>
                      <geo>47,49835 19,04045</geo>
@@ -335,7 +360,7 @@
             </birth>
             <death>
                <date when="1945-10-08">08.10.1945</date>
-               <settlement ref="pmb484">
+               <settlement ref="#pmb484">
                   <placeName type="pref">Zürich</placeName>
                   <location>
                      <geo>47,37174 8,54226</geo>
@@ -343,8 +368,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb99">Journalist/Journalistin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb99">Journalist/Journalistin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118840819</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb2167</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/2167</idno>
@@ -358,7 +383,7 @@
             <note type="bibliografische_angabe">Jugend, Jg. 7, Nr. 30, [16.] 7. 1902</note>
             <title type="arbeitstitel">Du bist mir zu lustig</title>
             <title type="namensvariante">Exzentrik</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1902-07-16">16.07.1902</date>
             <idno type="URL" subtype="digi">https://digi.ub.uni-heidelberg.de/diglit/jugend1902_2/0057/image</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29893</idno>
@@ -370,7 +395,7 @@
          <bibl xml:id="pmb29855">
             <title>Reigen. Zehn Dialoge</title>
             <note type="uri_worklink">https://www.digital.wienbibliothek.at/wbrobv/content/pageview/2587756</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1900-01-01">1900</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.32</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/ "Q1414190"</idno>
@@ -396,7 +421,7 @@
          <bibl xml:id="pmb31401">
             <title>Arthur Schnitzler und sein Reigen</title>
             <note type="bibliografische_angabe">Die Zeit, 7. 11. 1903</note>
-            <author ref="pmbperson__2167" role="hat-geschaffen">Salten, Felix</author>
+            <author ref="#pmbperson__2167" role="hat-geschaffen">Salten, Felix</author>
             <date when="1903-11-07">07.11.1903</date>
             <idno type="URL" subtype="">http://anno.onb.ac.at/cgi-content/anno?aid=zei&amp;datum=19031107&amp;seite=1&amp;zoom=33</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31401</idno>
@@ -406,7 +431,7 @@
          </bibl>
          <bibl xml:id="pmb29917">
             <title>Liebelei. Schauspiel in drei Akten</title>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1895-10-09">9.10.1895</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.27</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q1823758</idno>
@@ -422,8 +447,8 @@
          <bibl xml:id="pmb29935">
             <title>Anatol</title>
             <note type="bibliografische_angabe">Arthur Schnitzler: Anatol. Berlin: Bibliographisches Bureau 1892, vordatiert auf 1893</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
-            <author ref="pmbperson__28645" role="hat-illustriert">Coschell, Moritz</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__28645" role="hat-illustriert">Coschell, Moritz</author>
             <date>1892-10-29  – 1892-10-29</date>
             <idno type="URL" subtype="asaf">https://asaf.com/S.04.01.03</idno>
             <idno type="URL" subtype="wikidata">https://www.wikidata.org/wiki/Q487409</idno>
@@ -457,7 +482,7 @@
                <geo>48,2066 16,37341</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb41240">Österreich</placeName>
+               <placeName ref="#pmb41240">Österreich</placeName>
                <geo>47,33333 13,33333</geo>
             </location>
             <idno type="URL" subtype="geonames">https://sws.geonames.org/2761369/</idno>
@@ -501,7 +526,7 @@
                <geo>48,209167 16,366111</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb51">I., Innere Stadt</placeName>
+               <placeName ref="#pmb51">I., Innere Stadt</placeName>
                <geo>48,20769 16,37049</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Bösendorfer-Konzertsaal</idno>
@@ -521,11 +546,11 @@
                <geo>48,188056 16,266389</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb665">Sankt Veit</placeName>
+               <placeName ref="#pmb665">Sankt Veit</placeName>
                <geo>48,18805 16,26638</geo>
             </location>
             <location type="located_in_place">
-               <placeName ref="pmb63">XIII., Hietzing</placeName>
+               <placeName ref="#pmb63">XIII., Hietzing</placeName>
                <geo>48,17547 16,29101</geo>
             </location>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entities:Ober-St.-Veit_(Vorort)</idno>
@@ -541,7 +566,7 @@
             <desc type="entity_type">Tageszeitungsredaktion</desc>
             <desc type="entity_type_id">972</desc>
             <location type="located_in_place">
-               <placeName ref="pmb168">Berlin</placeName>
+               <placeName ref="#pmb168">Berlin</placeName>
                <geo>52,52437 13,41053</geo>
                <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168</idno>
@@ -559,7 +584,7 @@
             <desc type="entity_type">Tageszeitungsredaktion</desc>
             <desc type="entity_type_id">972</desc>
             <location type="located_in_place">
-               <placeName ref="pmb168">Berlin</placeName>
+               <placeName ref="#pmb168">Berlin</placeName>
                <geo>52,52437 13,41053</geo>
                <idno type="URL" subtype="geonames">http://sws.geonames.org/2950159/</idno>
                <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb168</idno>

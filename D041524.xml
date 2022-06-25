@@ -10,13 +10,14 @@
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Aufzeichnung von Hermann Bahr, 9. 3. 1903</title>
-            <author ref="pmb10815">Bahr, Hermann</author>
+            <title type="iso-date">1903-03-09</title>
+            <author ref="#pmb10815">Bahr, Hermann</author>
             <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
             </editor>
             <funder>
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
@@ -31,8 +32,8 @@
             <edition>HBAS</edition>
             <respStmt>
                <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -70,7 +71,7 @@
                      <biblScope unit="pp">275</biblScope>
                   </monogr>
                   <monogr>
-                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <author ref="#pmb10815">Bahr, Hermann</author>
                      <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
                      <editor>Hg. Moritz Csáky</editor>
                      <imprint>
@@ -101,11 +102,19 @@
                <date when="1903-03-09" n="01">9/3</date> »<rs type="work" ref="#pmb39477">
                   <rs type="work" subtype="implied" ref="#pmb29957">Lebendige Stunden</rs>
                </rs>« dictiert.</p>
-            <p>Gelesen: <anchor type="commentary" xml:id="KD524-1">
-                  <rs type="person" ref="#pmb28117">
-                     <rs type="work" ref="#pmb31405">Heraklit</rs>
-                  </rs> von <rs type="person" ref="#pmb3817">Diels</rs>
-               </anchor>.</p>
+            <p>Gelesen: <anchor type="commentary" xml:id="KD524-1"/>
+               <rs type="person" ref="#pmb28117">
+                  <rs type="work" ref="#pmb31405">Heraklit</rs>
+               </rs> von <rs type="person" ref="#pmb3817">Diels</rs>
+               <note type="commentary" xml:id="KD524-1h">
+                  <p>
+                     <bibl >
+                        <rs type="person" ref="#pmb3817">Hermann Diels</rs>: <rs type="work" ref="#pmb31405">Herakleitos von Ephesos</rs>. Griechisch und deutsch. Berlin:
+                     <rs type="org">Weidmannsche Buchhandlung</rs>
+                        <space unit="chars" quantity="1"/>
+                        <date >1901</date>
+                     </bibl>.</p>
+               </note>.</p>
          </div>
       </body>
    </text>
@@ -118,7 +127,7 @@
             </persName>
             <birth>
                <date when="1863-07-19">19.07.1863</date>
-               <settlement ref="pmb332">
+               <settlement ref="#pmb332">
                   <placeName type="pref">Linz</placeName>
                   <location>
                      <geo>48,3 14,28333</geo>
@@ -127,7 +136,7 @@
             </birth>
             <death>
                <date when="1934-01-15">15.01.1934</date>
-               <settlement ref="pmb45258">
+               <settlement ref="#pmb45258">
                   <placeName type="pref">München</placeName>
                   <location>
                      <geo>48,13743 11,57549</geo>
@@ -135,8 +144,8 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb90">Schriftsteller/Schriftstellerin</occupation>
-            <occupation ref="pmb100">Kritiker/Kritikerin</occupation>
+            <occupation ref="#pmb90">Schriftsteller/Schriftstellerin</occupation>
+            <occupation ref="#pmb100">Kritiker/Kritikerin</occupation>
             <idno type="URL" subtype="schnitzler-tagebuch">https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_13374</idno>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/118505955</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb10815</idno>
@@ -150,7 +159,7 @@
             </persName>
             <birth>
                <date>ca. 535 v. u. Z.</date>
-               <settlement ref="pmb34903">
+               <settlement ref="#pmb34903">
                   <placeName type="pref">Kusadasi</placeName>
                   <location>
                      <geo>37,86014 27,25713</geo>
@@ -159,7 +168,7 @@
             </birth>
             <death>
                <date>ca. 480 v. u. Z.</date>
-               <settlement ref="pmb34903">
+               <settlement ref="#pmb34903">
                   <placeName type="pref">Kusadasi</placeName>
                   <location>
                      <geo>37,86014 27,25713</geo>
@@ -167,7 +176,7 @@
                </settlement>
             </death>
             <sex value="not-set"/>
-            <occupation ref="pmb154">Philosoph/Philosophin</occupation>
+            <occupation ref="#pmb154">Philosoph/Philosophin</occupation>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb28117</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/28117</idno>
          </person>
@@ -178,7 +187,7 @@
             </persName>
             <birth>
                <date when="1848-05-18">1848-05-18</date>
-               <settlement ref="pmb971">
+               <settlement ref="#pmb971">
                   <placeName type="pref">Biebrich</placeName>
                   <location>
                      <geo>50,0429 8,2258</geo>
@@ -187,7 +196,7 @@
             </birth>
             <death>
                <date when="1922-06-04">1922-06-04</date>
-               <settlement ref="pmb168">
+               <settlement ref="#pmb168">
                   <placeName type="pref">Berlin</placeName>
                   <location>
                      <geo>52,52437 13,41053</geo>
@@ -195,7 +204,7 @@
                </settlement>
             </death>
             <sex value="male"/>
-            <occupation ref="pmb273">Altphilologe/Altphilologin</occupation>
+            <occupation ref="#pmb273">Altphilologe/Altphilologin</occupation>
             <idno type="URL" subtype="d-nb">https://d-nb.info/gnd/119061457</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb3817</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/3817</idno>
@@ -205,7 +214,7 @@
          <bibl xml:id="pmb39477">
             <title>Lebendige Stunden (Vier Einakter: »Lebendige Stunden«, »Die Frau mit dem Dolche«, »Die letzten Masken«, »Literatur« von Arthur Schnitzler. Im Deutschen Volkstheater zum ersten Male aufgeführt am 14. März 1903)</title>
             <note type="bibliografische_angabe">Neues Wiener Tagblatt, 15. 3. 1903</note>
-            <author ref="pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
+            <author ref="#pmbperson__10815" role="hat-geschaffen">Bahr, Hermann</author>
             <date>15.3.1903  – 15.3.1903</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb39477</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/39477</idno>
@@ -216,7 +225,7 @@
             <title type="legacy-name-merge">Lebendige Stunden</title>
             <title type="legacy-uri-merge">http://pmb.acdh.oeaw.ac.at/apis/api2/entity/33854/</title>
             <note type="bibliografische_angabe">Neue Deutsche Rundschau, Jg. 12,  H. 12, Dezember 1901</note>
-            <author ref="pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
+            <author ref="#pmbperson__2121" role="hat-geschaffen">Schnitzler, Arthur</author>
             <date when="1901-12-01">01.12.1901</date>
             <idno type="URL" subtype="books">https://books.google.at/books?id=Ab42AAAAMAAJ&amp;redir_esc=y</idno>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb29957</idno>
@@ -227,7 +236,7 @@
          </bibl>
          <bibl xml:id="pmb31405">
             <title>Herakleitos von Ephesos</title>
-            <author ref="pmbperson__3817" role="hat-geschaffen">Diels, Hermann</author>
+            <author ref="#pmbperson__3817" role="hat-geschaffen">Diels, Hermann</author>
             <date when="1901-01-01">1901</date>
             <idno type="URL" subtype="bahrschnitzler">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb31405</idno>
             <idno type="URL" subtype="pmb">https://pmb.acdh.oeaw.ac.at/entity/31405</idno>
