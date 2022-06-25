@@ -12,7 +12,7 @@
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Inhaltsverzeichnis'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-        <html xmlns="http://www.w3.org/1999/xhtml">
+        <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
             </xsl:call-template>
@@ -23,11 +23,16 @@
                     
                     <div class="container-fluid">
                         <div class="card">
-                            <div class="card-header">
-                                <h1>Inhalt</h1>
+                            <div class="card-header text-center">
+                                <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
-                                <table class="table table-striped display" id="tocTable" style="width:100%">
+                                <div class="w-100 text-center">
+                                    <div class="spinner-grow table-loader" role="status">
+                                        <span class="sr-only">Loading...</span>
+                                    </div>          
+                                </div>
+                                <table class="table table-striped display d-none" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
@@ -40,12 +45,15 @@
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
                                             <tr>
-                                                <td>                                        
+                                                <td>
+                                                    <xsl:attribute name="data-sort">
+                                                        <xsl:value-of select=".//tei:title[@type='iso-date'][1]/text()"/>
+                                                    </xsl:attribute>                                        
                                                     <a>
                                                         <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select=".//tei:title[@level='a'][1]/text()"/>
+                                                        <xsl:value-of select=".//tei:title[@type='a'][1]/text()"/>
                                                     </a>
                                                 </td>
                                                 <td>
@@ -62,7 +70,7 @@
                     <xsl:call-template name="html_footer"/>
                     <script>
                         $(document).ready(function () {
-                            createDataTable('tocTable')
+                        createDataTable('tocTable')
                         });
                     </script>
                 </div>

@@ -1,7 +1,7 @@
 import glob
 import os
 import lxml.etree as ET
-from import TeiReader
+from acdh_tei_pyutils.tei import TeiReader
 from collections import defaultdict
 from tqdm import tqdm
 
