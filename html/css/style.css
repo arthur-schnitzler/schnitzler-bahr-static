@@ -33,7 +33,9 @@ a:not([href]):not([tabindex]).reference-black {
     color: inherit;
     text-decoration: none}
 
-a:hover, i, .carousel-indicators {
+a:hover,
+i,
+.carousel-indicators {
     cursor: pointer
 }
 
@@ -46,6 +48,11 @@ dd {
 dt {
     clear: both
 }
+
+.dt {
+    font-weight: bold;
+}
+
 
 .image-rights {
     text-align: right;

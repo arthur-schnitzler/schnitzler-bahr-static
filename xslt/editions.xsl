@@ -106,7 +106,6 @@
                                 </xsl:if>
                             </div>
                             <div class="card-body-anhang" id="bottom">
-                                
                                 <div class="card-footer text-muted">
                                     <div id="srcbuttons" style="text-align:center">
                                         <a data-toggle="tooltip" title="Zeige Register"
@@ -154,17 +153,27 @@
                                             <div class="tab-pane" id="nav-kommentar" role="tabpanel"
                                                 aria-labelledby="nav-kommentar-tab">
                                                 <div class="card-body-anhang">
-                                                  <dl class="kommentarhang">
-                                                      <xsl:variable name="bodydody" select="descendant::tei:body" as="node()"/>
-                                                      
+                                                  <div class="kommentarhang">
+                                                  <xsl:variable name="bodydody"
+                                                  select="descendant::tei:body" as="node()"/>
                                                   <xsl:for-each
                                                   select="$bodydody/descendant::tei:anchor[@type = 'commentary' or @type = 'textConst']/@xml:id">
-                                                      <xsl:variable name="xmlid" select="."/>
-                                                      <xsl:variable name="xmlidmith" select="concat(., 'h')"/>
-                                                      <xsl:apply-templates select="$bodydody/descendant::tei:anchor[@xml:id=$xmlid]" mode="anhang"/>
-                                                      <xsl:apply-templates select="$bodydody/descendant::tei:note[@xml:id=$xmlidmith]" mode="anhang"/>
+                                                  <xsl:variable name="xmlid" select="."/>
+                                                  <xsl:variable name="xmlidmith"
+                                                  select="concat(., 'h')"/>
+                                                  <p>
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of select="$xmlid"/>
+                                                  </xsl:attribute>
+                                                  <xsl:apply-templates
+                                                  select="$bodydody/descendant::tei:anchor[@xml:id = $xmlid]"
+                                                  mode="anhang"/>
+                                                  <xsl:apply-templates
+                                                  select="$bodydody/descendant::tei:note[@xml:id = $xmlidmith]"
+                                                  mode="anhang"/>
+                                                  </p>
                                                   </xsl:for-each>
-                                                  </dl>
+                                                  </div>
                                                 </div>
                                             </div>
                                             <div class="tab-pane" id="nav-archiv" role="tabpanel"
@@ -417,68 +426,85 @@
                             </div>
                         </div>
                     </div>
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg" role="document"
-                            style="max-width: 2000px;">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h3>Faksimile</h3>
-                                </div>
-                                <div class="modal-body">
-                                    <div id="openseadragon-photo" style="height: 850px;"/>
-                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"/>
-                                    <script type="text/javascript">
-                                        var viewer = OpenSeadragon({
-                                            id: "openseadragon-photo",
-                                            protocol: "http://iiif.io/api/image",
-                                            prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
-                                            sequenceMode: true,
-                                            showReferenceStrip: true,
-                                            tileSources:[<xsl:for-each select=".//data(@url)">{
-                                            type: 'image',
-                                            url: '<xsl:value-of select="concat(., '?format=iiif')"/>'
-                                            }
-                                            <xsl:choose>
-                                                <xsl:when test="position() != last()">,</xsl:when>
-                                            </xsl:choose></xsl:for-each>
-]
-                                    });</script>
-                                </div>
-                                <div class="modal-footer" style="justify-content: flex-start;">
-                                    <ul style="list-style-type: none;">
-                                        <xsl:for-each select=".//data(@url)">
-                                            <li>
-                                                <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat(., '?format=gui')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="."/>
-                                                </a>
-                                            </li>
+                    <xsl:variable name="back-element" select="tei:TEI/tei:back" as="node()"/>
+                    <xsl:for-each select="descendant::tei:rs[descendant::tei:rs or contains(@ref, ' ')]">
+                        <xsl:variable name="modalId">
+                            <xsl:value-of select="replace(normalize-space(string-join(.//@ref[starts-with(., '#')], '___')), '#', '')"/>
+                        </xsl:variable>
+                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="$modalId"/>
+                            </xsl:attribute>
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Auswahl</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        
+                                        <ul>
+                                            <xsl:for-each select="tokenize($modalId, '___')">
+                                            <xsl:variable name="normlisiert" select="normalize-space(replace(., '#', ''))"/>
+                                            <li><a>
+                                                <xsl:attribute name="href">
+                                                    <xsl:value-of select="concat(.,'.html')"/>
+                                                </xsl:attribute>
+                                                <xsl:value-of
+                                                    select="$back-element/descendant::*[@xml:id = $normlisiert]/child::*[1]"/>
+                                            </a></li>
                                         </xsl:for-each>
-                                    </ul>
+                                        </ul>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
-                        <xsl:variable name="xmlId">
-                            <xsl:value-of select="data(./@xml:id)"/>
-                        </xsl:variable>
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"
-                            id="{$xmlId}">
+                    </xsl:for-each>
+                    <xsl:for-each select=".//tei:back//tei:org[@xml:id]">
+                        
+                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="./@xml:id"/>
+                            </xsl:attribute>
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title">
-                                            <xsl:value-of
-                                                select="normalize-space(string-join(.//tei:persName[1]//text()))"/>
+                                            <xsl:value-of select=".//tei:orgName[1]/text()"/>
+                                        </h5>
+                                        
+                                    </div>
+                                    <div class="modal-body">
+                                        <!--<xsl:call-template name="org_detail">
+                                            <xsl:with-param name="showNumberOfMentions" select="5"/>
+                                        </xsl:call-template>-->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </xsl:for-each>
+                    <xsl:for-each select=".//tei:back//tei:person[@xml:id]">
+                        <xsl:variable name="xmlId">
+                            <xsl:value-of select="data(./@xml:id)"/>
+                        </xsl:variable>
+                        
+                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{$xmlId}">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">
+                                            <xsl:value-of select="normalize-space(string-join(.//tei:persName[1]//text()))"/>
                                             <xsl:text> </xsl:text>
                                             <a href="{concat($xmlId, '.html')}">
-                                                <i class="fas fa-external-link-alt"/>
+                                                <i class="fas fa-external-link-alt"></i>
                                             </a>
                                         </h5>
+                                        
                                     </div>
                                     <div class="modal-body">
                                         <xsl:call-template name="person_detail">
@@ -486,8 +512,7 @@
                                         </xsl:call-template>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Schließen</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
                                     </div>
                                 </div>
                             </div>
@@ -497,17 +522,16 @@
                         <xsl:variable name="xmlId">
                             <xsl:value-of select="data(./@xml:id)"/>
                         </xsl:variable>
-                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"
-                            id="{$xmlId}">
+                        
+                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{$xmlId}">
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
                                         <h5 class="modal-title">
-                                            <xsl:value-of
-                                                select="normalize-space(string-join(.//tei:placeName[1]/text()))"/>
+                                            <xsl:value-of select="normalize-space(string-join(.//tei:placeName[1]/text()))"/>
                                             <xsl:text> </xsl:text>
                                             <a href="{concat($xmlId, '.html')}">
-                                                <i class="fas fa-external-link-alt"/>
+                                                <i class="fas fa-external-link-alt"></i>
                                             </a>
                                         </h5>
                                     </div>
@@ -517,13 +541,39 @@
                                         </xsl:call-template>
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">Schließen</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </xsl:for-each>
+                    
+                    <xsl:for-each select=".//tei:back//tei:bibl[@xml:id]">
+                        <xsl:variable name="xmlId">
+                            <xsl:value-of select="data(./@xml:id)"/>
+                        </xsl:variable>
+                        
+                        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="{$xmlId}">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">
+                                            <xsl:value-of select="normalize-space(string-join(./tei:title[1]/text()))"/>
+                                            <xsl:text> </xsl:text>
+                                            <a href="{concat($xmlId, '.html')}">
+                                                <i class="fas fa-external-link-alt"></i>
+                                            </a>
+                                        </h5>
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </xsl:for-each>
+                    
                     <xsl:call-template name="html_footer"/>
                     <script src="js/cslink.js"/>
                     <script>
@@ -810,40 +860,49 @@
     <xsl:template match="tei:ptr">
         <xsl:variable name="targett">
             <xsl:choose>
-                <xsl:when test="starts-with(@target, 'D041') or starts-with(@target, 'L041') or starts-with(@target, 'T03') or starts-with(@target, 'I041')">
+                <xsl:when
+                    test="starts-with(@target, 'D041') or starts-with(@target, 'L041') or starts-with(@target, 'T03') or starts-with(@target, 'I041')">
                     <xsl:value-of select="concat(@target, '.html')"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'LD')">
-                   <xsl:variable name="dateiname" select="substring-before(substring(@target, 3), '-')"/>
-                   <xsl:value-of select="concat('D041',$dateiname,'.html/#', @target)"/>
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('D041', $dateiname, '.html/#', @target)"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'LL')">
-                    <xsl:variable name="dateiname" select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('L041',$dateiname,'.html/#', @target)"/>
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('L041', $dateiname, '.html/#', @target)"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'LI')">
-                    <xsl:variable name="dateiname" select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('I041',$dateiname,'.html/#', @target)"/>
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('I041', $dateiname, '.html/#', @target)"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'LT')">
-                    <xsl:variable name="dateiname" select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('T003',$dateiname,'.html/#', @target)"/>
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('T003', $dateiname, '.html/#', @target)"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'KD')">
-                    <xsl:variable name="dateiname" select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('D041',$dateiname,'.html/#bottom')"/>
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('D041', $dateiname, '.html/#bottom')"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'KK')">
-                    <xsl:variable name="dateiname" select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('L041',$dateiname,'.html/#bottom')"/>
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('L041', $dateiname, '.html/#bottom')"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'KI')">
-                    <xsl:variable name="dateiname" select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('I041',$dateiname,'.html/#bottom')"/>
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('I041', $dateiname, '.html/#bottom')"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'KT')">
-                    <xsl:variable name="dateiname" select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('T003',$dateiname,'.html/#bottom')"/>
+                    <xsl:variable name="dateiname"
+                        select="substring-before(substring(@target, 3), '-')"/>
+                    <xsl:value-of select="concat('T003', $dateiname, '.html/#bottom')"/>
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
@@ -879,12 +938,16 @@
         <xsl:choose>
             <xsl:when
                 test="ancestor::tei:TEI/descendant::tei:listWit or ancestor::tei:TEI/descendant::tei:listBibl">
-                <h3><span class="editionText">
-                    <xsl:apply-templates/>
-                </span></h3>
+                <h3>
+                    <span class="editionText">
+                        <xsl:apply-templates/>
+                    </span>
+                </h3>
             </xsl:when>
             <xsl:otherwise>
-                <h3><xsl:apply-templates/></h3>
+                <h3>
+                    <xsl:apply-templates/>
+                </h3>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -1354,44 +1417,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    <xsl:template match="anchor[@type = 'label']">
-        <xsl:choose>
-            <xsl:when test="ends-with(@id, 'v') or ends-with(@id, 'h')">
-                <xsl:text>\label{</xsl:text>
-                <xsl:value-of select="@id"/>
-                <xsl:text>}</xsl:text>
-                <xsl:apply-templates/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:text>\label{</xsl:text>
-                <xsl:value-of select="@id"/>
-                <xsl:text>v}</xsl:text>
-                <xsl:apply-templates/>
-                <xsl:text>\label{</xsl:text>
-                <xsl:value-of select="@id"/>
-                <xsl:text>h}</xsl:text>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-    <!-- anchors in Fussnoten, sehr seltener Fall-->
-    <xsl:template
-        match="anchor[(@type = 'textConst' or @type = 'commentary') and ancestor::footNote]">
-        <xsl:variable name="xmlid" select="concat(@id, 'h')"/>
-        <xsl:text>\label{</xsl:text>
-        <xsl:value-of select="@id"/>
-        <xsl:text>v}</xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text>\toendnotes[C]{\begin{minipage}[t]{4em}{\makebox[3.6em][r]{\tiny{Fußnote}}}\end{minipage}\begin{minipage}[t]{\dimexpr\linewidth-4em}\textit{</xsl:text>
-        <xsl:for-each-group select="following-sibling::node()"
-            group-ending-with="note[@type = 'commentary']">
-            <xsl:if test="position() eq 1">
-                <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"/>
-                <xsl:text>}\,{]} </xsl:text>
-                <xsl:apply-templates select="current-group()[position() = last()]" mode="text"/>
-                <xsl:text>\end{minipage}\par}</xsl:text>
-            </xsl:if>
-        </xsl:for-each-group>
-    </xsl:template>
     <!-- Normaler anchor, Inhalt leer -->
     <xsl:template
         match="tei:anchor[(@type = 'textConst' or @type = 'commentary') and not(ancestor::tei:footNote)]">
@@ -1418,17 +1443,16 @@
     </xsl:template>
     <xsl:template match="tei:note[(@type = 'textConst' or @type = 'commentary')]"/>
     <xsl:template match="tei:anchor[@type = 'commentary' or @type = 'textConst']" mode="anhang">
-        <dt>
-            <xsl:variable name="lemma-start" as="xs:string"
-                select="@xml:id"/>
+        <span class="dt ">
+            <xsl:variable name="lemma-start" as="xs:string" select="@xml:id"/>
             <xsl:variable name="lemma-end" as="xs:string" select="concat(@xml:id, 'h')"/>
             <xsl:variable name="lemmaganz">
                 <xsl:for-each-group
                     select="ancestor::tei:body/descendant::tei:anchor[@xml:id = $lemma-start]/following-sibling::node()"
                     group-ending-with="tei:note[@xml:id = $lemma-end]">
                     <xsl:if test="position() eq 1">
-                        <xsl:apply-templates select="current-group()[position() != last()]" mode="lemma"
-                        />
+                        <xsl:apply-templates select="current-group()[position() != last()]"
+                            mode="lemma"/>
                     </xsl:if>
                 </xsl:for-each-group>
             </xsl:variable>
@@ -1463,20 +1487,18 @@
                     <xsl:text>XXXX Lemmafehler</xsl:text>
                 </xsl:otherwise>
             </xsl:choose>
-            <xsl:text>]&nbsp;</xsl:text>
-        </dt>
-    </xsl:template>
-    
-    
-    <xsl:template match="tei:note[(@type = 'textConst' or @type = 'commentary')]" mode="anhang">
-       <dd>
-        <xsl:apply-templates select="tei:p/node() except Lemma"/>
-        <span>
-            <xsl:attribute name="id">
-                <xsl:value-of select="concat(@xml:id, 'h')"/>
-            </xsl:attribute>
+            <xsl:text>]&#160;</xsl:text>
         </span>
-       </dd>
+    </xsl:template>
+    <xsl:template match="tei:note[(@type = 'textConst' or @type = 'commentary')]" mode="anhang">
+        <span class="dd">
+            <xsl:apply-templates select="tei:p/node() except Lemma"/>
+            <span>
+                <xsl:attribute name="id">
+                    <xsl:value-of select="concat(@xml:id, 'h')"/>
+                </xsl:attribute>
+            </span>
+        </span>
     </xsl:template>
     <xsl:template
         match="tei:note[(@type = 'textConst' or @type = 'commentary') and (ancestor::tei:footNote)]">
@@ -1535,50 +1557,34 @@
     <xsl:template match="tei:rs[(@ref or @key) and (ancestor::tei:rs)]">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="tei:rs[(@ref or @key) and not(ancestor::tei:rs)]">
-        <!-- das template macht aus allen @refs eine liste, die vorne den typ enthält, also beispielsweise
-        so: data-keys="work:pmb33436 person:pmb2425 person:pmb2456"
-        es gibt ein gemurkse mit den leerzeichen, die zuerst als ä gesetzt werden, damit sie nicht verloren gehen-->
-        <xsl:variable name="unteres-element-liste">
-            <xsl:for-each select="descendant::tei:rs">
-                <xsl:variable name="type" select="concat(@type, ':')"/>
-                <xsl:for-each select="tokenize(@ref, ' ')">
-                    <xsl:value-of select="concat($type, substring(., 2))"/>
-                </xsl:for-each>
-                <xsl:text>ä</xsl:text>
-            </xsl:for-each>
-        </xsl:variable>
-        <xsl:variable name="unteres-element" select="(replace($unteres-element-liste, 'ä', ' '))"/>
-        <xsl:variable name="current-liste">
-            <xsl:variable name="type" select="concat(@type, ':')"/>
-            <xsl:for-each select="tokenize(@ref, ' ')">
-                <xsl:value-of select="concat($type, substring(., 2), 'ä')"/>
-            </xsl:for-each>
-        </xsl:variable>
-        <xsl:variable name="current" select="normalize-space(replace($current-liste, 'ä', ' '))"/>
-        <xsl:variable name="data-keys" select="(concat($current, ' ', $unteres-element))"/>
+    <xsl:template
+        match="tei:rs[not(ancestor::tei:rs) and not(descendant::tei:rs) and not(contains(@ref, ' '))] | tei:persName | tei:author | tei:placeName | tei:orgName">
         <xsl:element name="a">
-            <xsl:attribute name="class">reference-black</xsl:attribute>
-            <xsl:choose>
-                <xsl:when
-                    test="string-length($data-keys) - string-length(translate($data-keys, 'pmb', '')) = 3">
-                    <xsl:attribute name="data-type">
-                        <xsl:value-of
-                            select="concat('list', substring-before($data-keys, ':'), '.xml')"/>
-                    </xsl:attribute>
-                    <xsl:attribute name="data-key">
-                        <xsl:value-of select="normalize-space(substring-after($data-keys, ':'))"/>
-                    </xsl:attribute>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:attribute name="data-keys">
-                        <xsl:value-of select="normalize-space($data-keys)"/>
-                    </xsl:attribute>
-                </xsl:otherwise>
-            </xsl:choose>
-            <xsl:apply-templates/>
+            <xsl:attribute name="href">
+                <xsl:value-of select="concat(replace(@ref, '#', ''), '.html')"/>
+            </xsl:attribute>
+            <span>
+                <xsl:attribute name="class">
+                    <xsl:text>reference-black</xsl:text>
+                </xsl:attribute>
+                <xsl:apply-templates/>
+            </span>
         </xsl:element>
     </xsl:template>
+    <xsl:template match="tei:rs[.//tei:rs or contains(@ref, ' ')]">
+        <xsl:variable name="modalId">
+            <xsl:value-of select="replace(normalize-space(string-join(.//@ref[starts-with(., '#')], '___')), '#', '')"/>
+        </xsl:variable>
+            <xsl:element name="a">
+                <xsl:attribute name="data-toggle">modal</xsl:attribute>
+                <xsl:attribute name="data-target">
+                    <xsl:value-of select="concat('#', $modalId)"/>
+                </xsl:attribute>
+                <xsl:value-of select="."/>
+            </xsl:element>
+    </xsl:template>
+   
+    
     <xsl:template match="tei:footNote">
         <xsl:if test="preceding-sibling::*[1][name() = 'footNote']">
             <!-- Sonderregel für zwei Fußnoten in Folge -->
