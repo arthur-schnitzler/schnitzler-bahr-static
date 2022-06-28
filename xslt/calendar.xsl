@@ -61,15 +61,14 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Kalenderansicht der Texte</h5>
+                                    <h5 class="modal-title">Die Kalenderansicht</h5>
                                 </div>
                                 <div class="modal-body">
-                                    <p>
-                                        Über den Kalender können Texte nach dem Erscheinungstag aufgefunden werden.
+                                    <p>Über die Kalenderansicht können bestimmte Tage direkt aufgefunden werden.
                                     </p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>

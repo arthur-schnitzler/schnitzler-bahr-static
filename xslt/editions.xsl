@@ -438,34 +438,6 @@
                                                   </xsl:for-each>
                                                   </ul>
                                                   </div>
-                                                  <!-- Funktioniert nur, wenn das der active-tab ist.
-                                                <div id="mapid" style="height: 400px;"
-                                                  class="col-md-8"/>
-                                                <link rel="stylesheet"
-                                                href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-                                                integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-                                                crossorigin=""/>
-                                            <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""/>
-                                            <script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    <xsl:for-each select=".//tei:listPlace/tei:place">
-                                                        <xsl:variable name="laenge" as="xs:string" select="replace(tokenize(tei:location[@type = 'coords'][1]/tei:geo[1]/text(), ' ')[1], ',', '.')"/>
-                                                        <xsl:variable name="breite" as="xs:string" select="replace(tokenize(tei:location[@type = 'coords'][1]/tei:geo[1]/text(), ' ')[2], ',', '.')"/>
-                                                        <xsl:variable name="laengebreite" as="xs:string" select="concat($laenge, ', ', $breite)"/>
-                                                        <xsl:value-of select="$laengebreite"/>
-                                                        L.marker([<xsl:value-of select="$laengebreite"/>]).addTo(mymap)
-                                                        .bindPopup("<b>
-                                                            <xsl:value-of select="./tei:placeName[1]/text()"/>
-                                                        </b>").openPopup();
-                                                    </xsl:for-each>
-                                                </script>-->
                                                 </div>
                                             </div>
                                             <div class="tab-pane fade" id="nav-verschiedenes"

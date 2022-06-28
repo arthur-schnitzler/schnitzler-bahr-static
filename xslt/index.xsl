@@ -37,7 +37,8 @@
                                         <h1>
                                             <xsl:value-of select="$project_title"/>
                                         </h1>
-                                        <h2>Herausgegeben von Kurt Ifkovits und Martin Anton Müller</h2>
+                                        <h2>Herausgegeben von Kurt Ifkovits, 
+                                          Martin Anton Müller</h2>
                                         <p>Digitale Edition</p>
                                     </div>
                                 </div>

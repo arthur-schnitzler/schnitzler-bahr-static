@@ -12,7 +12,7 @@
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Inhaltsverzeichnis'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-        <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
+        <html xmlns="http://www.w3.org/1999/xhtml">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
             </xsl:call-template>
@@ -23,41 +23,53 @@
                     
                     <div class="container-fluid">
                         <div class="card">
-                            <div class="card-header text-center">
-                                <h1><xsl:value-of select="$doc_title"/></h1>
+                            <div class="card-header">
+                                <h1>Inhaltsverzeichnis</h1>
                             </div>
                             <div class="card-body">
-                                <div class="w-100 text-center">
-                                    <div class="spinner-grow table-loader" role="status">
-                                        <span class="sr-only">Loading...</span>
-                                    </div>          
-                                </div>
-                                <table class="table table-striped display d-none" id="tocTable" style="width:100%">
+                                <table class="table table-striped display" id="tocTable" style="width:100%">
                                     <thead>
                                         <tr>
                                             <th scope="col">Titel</th>
-                                            <th scope="col">Dateinname</th>
+                                            <th scope="col">Typ</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <xsl:for-each select="collection('../data/editions')//tei:TEI">
+                                        <xsl:for-each select="collection('../data/editions/?select=*.xml')/tei:TEI">
                                             <xsl:variable name="full_path">
                                                 <xsl:value-of select="document-uri(/)"/>
                                             </xsl:variable>
                                             <tr>
                                                 <td>
-                                                    <xsl:attribute name="data-sort">
-                                                        <xsl:value-of select=".//tei:title[@type='iso-date'][1]/text()"/>
-                                                    </xsl:attribute>                                        
+                                                    <sortdate hidden="true">
+                                                    <xsl:value-of select="descendant::tei:titleStmt/tei:title[@type='iso-date']/text()"/>
+                                                    </sortdate>
                                                     <a>
                                                         <xsl:attribute name="href">                                                
                                                             <xsl:value-of select="replace(tokenize($full_path, '/')[last()], '.xml', '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select=".//tei:title[@type='a'][1]/text()"/>
+                                                        <xsl:value-of select=".//tei:title[@level='a'][1]/text()"/>
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
+                                                    <xsl:variable name="typityp" select="substring(tokenize($full_path, '/')[last()],1,1)"/>
+                                                    <xsl:choose>
+                                                        <xsl:when test="$typityp='D'">
+                                                            <xsl:text>Tagebuch</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="$typityp='L'">
+                                                            <xsl:text>Brief</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="$typityp='T'">
+                                                            <xsl:text>Text</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:when test="$typityp='I'">
+                                                            <xsl:text>Bild</xsl:text>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="tokenize($full_path, '/')[last()]"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
                                                 </td>  
                                             </tr>
                                         </xsl:for-each>
