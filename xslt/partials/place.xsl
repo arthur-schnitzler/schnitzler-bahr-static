@@ -9,7 +9,7 @@
             <xsl:value-of select="concat(data(@xml:id), '.html')"/>
         </xsl:variable>
         <div class="container-fluid">
-        <div class="card-body">
+        <div class="card-body-index">
             <xsl:if test="count(.//tei:placeName) gt 1">
                 <small>Namensvarianten:</small>
                 <ul>
