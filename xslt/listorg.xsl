@@ -31,7 +31,8 @@
                                     <thead>
                                         <tr>
                                             <th scope="col">Name</th>
-                                            <th scope="col">ID</th>
+                                            <th scope="col">Ort</th>
+                                            <th scope="col">Typ</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -41,15 +42,40 @@
                                             </xsl:variable>
                                             <tr>
                                                 <td>
-                                                    <xsl:value-of select=".//tei:orgName[1]/text()"/>
-                                                </td>
-                                                <td>
                                                     <a>
                                                         <xsl:attribute name="href">
                                                             <xsl:value-of select="concat($id, '.html')"/>
                                                         </xsl:attribute>
-                                                        <xsl:value-of select="$id"/>
-                                                    </a> 
+                                                    <xsl:value-of select="child::tei:orgName[1]/text()"/></a>
+                                                    <xsl:if test="child::tei:orgName[@type='alternative-name']">
+                                                        <xsl:text> (</xsl:text>
+                                                        <xsl:for-each select="child::tei:orgName[@type='alternative-name']">
+                                                            <xsl:value-of select="."/>
+                                                            <xsl:if test="not(position()=last())">
+                                                                <xsl:text>, </xsl:text>
+                                                            </xsl:if>
+                                                        </xsl:for-each>
+                                                        <xsl:text>)</xsl:text>
+                                                    </xsl:if>
+                                                </td>
+                                                <td>
+                                                    <xsl:for-each select="distinct-values(tei:location[@type='located_in_place']/tei:placeName[1])">
+                                                        <xsl:value-of select="."/>
+                                                        <xsl:if test="not(position()=last())">
+                                                            <xsl:text>, </xsl:text>
+                                                        </xsl:if>
+                                                    </xsl:for-each>
+                                                </td>
+                                                <td>
+                                                    <xsl:choose>
+                                                        <xsl:when test="contains(tei:desc[@type='entity_type'], '&gt;&gt;')">
+                                                            <xsl:value-of select="tokenize(tei:desc[@type='entity_type'], '&gt;&gt;')[last()]"/>
+                                                        </xsl:when>
+                                                        <xsl:otherwise>
+                                                            <xsl:value-of select="tei:desc[@type='entity_type']"/>
+                                                        </xsl:otherwise>
+                                                    </xsl:choose>
+                                                    
                                                 </td>
                                             </tr>
                                         </xsl:for-each>
@@ -69,7 +95,7 @@
         </html>
         <xsl:for-each select=".//tei:org">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
-            <xsl:variable name="name" select="normalize-space(string-join(./tei:orgName//text()))"></xsl:variable>
+            <xsl:variable name="name" select="normalize-space(child::tei:orgName[1]/text())"/>
             <xsl:result-document href="{$filename}">
                 <html xmlns="http://www.w3.org/1999/xhtml">
                     <xsl:call-template name="html_head">
@@ -81,14 +107,11 @@
                             <xsl:call-template name="nav_bar"/>
                             
                             <div class="container-fluid">
-                                <div class="card">
+                                <div class="card-index">
                                     <div class="card-header">
                                         <h1>
                                             <xsl:value-of select="$name"/>
                                         </h1>
-                                    </div>
-                                    <div class="card-body">
-                                        <small>Name</small>:  <xsl:value-of select=".//tei:orgName/text()"/>
                                     </div>
                                 </div>
                             </div>

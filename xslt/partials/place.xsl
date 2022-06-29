@@ -20,7 +20,7 @@
                     </xsl:for-each>
                 </ul>
             </xsl:if>
-            <xsl:if test="count(.//tei:idno) gt 0">
+            <!--<xsl:if test="count(.//tei:idno) gt 0">
                 <small>Normdaten IDs</small>
                 <ul>
                     <xsl:for-each select=".//tei:idno">
@@ -38,7 +38,7 @@
                         </xsl:if>
                     </xsl:for-each>
                 </ul>
-            </xsl:if>
+            </xsl:if>-->
             <xsl:if test=".//tei:geo/text()">
                 
                 <div id="mapid" style="height: 400px; width:100%; clear: both;"/>

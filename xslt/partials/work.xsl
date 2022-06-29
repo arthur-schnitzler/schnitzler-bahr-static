@@ -9,9 +9,6 @@
     <xsl:param name="works"
         select="document('../../data/indices/listwork.xml')"/>
     <xsl:key name="work-lookup" match="tei:bibl" use="tei:relatedItem/@target"/>
-    <xsl:param name="work-day"
-        select="document('../../data/indices/index_work_day.xml')"/>
-    <xsl:key name="work-day-lookup" match="item" use="ref"/>
     <xsl:template match="tei:bibl" name="work_detail">
         <xsl:param name="showNumberOfMentions" as="xs:integer" select="50000"/>
         <xsl:variable name="selfLink">
@@ -21,7 +18,7 @@
             <div class="mt-2">
                 <xsl:if test="tei:date">
                     <p><xsl:text>Erschienen: </xsl:text>
-                    <xsl:value-of select="tei:date"/>
+                    <xsl:value-of select="mam:normalize-date(tei:date)"/>
                     <xsl:if test="not(ends-with(tei:date[1], '.'))">
                         <xsl:text>.</xsl:text>
                     </xsl:if></p>
@@ -155,6 +152,21 @@
                     </xsl:element>
                 </xsl:if>
             </div>
+            <xsl:if test="tei:title/@type='bibliografische_angabe'">
+                <div>
+                    <p><xsl:value-of select="tei:title/@type='bibliografische_angabe'"/></p>
+                </div>
+            </xsl:if>
+            <xsl:if test="tei:title/@type='uri_worklink'">
+                <div>
+                    <p><xsl:value-of select="tei:title/@type='uri_worklink'"/></p>
+                </div>
+            </xsl:if>
+            <xsl:if test="tei:title/@type='uri_anno'">
+                <div>
+                    <p><xsl:value-of select="tei:title/@type='uri_anno'"/></p>
+                </div>
+            </xsl:if>
             <div id="mentions" class="mt-2">
                 <span class="infodesc mr-2">Erwähnt am</span>
                 
@@ -216,9 +228,58 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:function>
-    <xsl:template match="tei:supplied">
-        <xsl:text>[</xsl:text>
-        <xsl:apply-templates/>
-        <xsl:text>]</xsl:text>
-    </xsl:template>
+    
+    <xsl:function name="mam:normalize-date">
+        <xsl:param name="date-string-mit-spitze" as="xs:string?"/>
+        <xsl:variable name="date-string" as="xs:string">
+            <xsl:choose>
+                <xsl:when test="contains($date-string-mit-spitze, '&lt;')">
+                    <xsl:value-of select="substring-before($date-string-mit-spitze, '&lt;')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$date-string-mit-spitze"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        
+        <xsl:analyze-string select="$date-string" regex="^(\d{{4}})-(\d{{2}})-(\d{{2}})$">
+            <xsl:matching-substring>
+                <xsl:variable name="year" select="xs:integer(regex-group(1))"/>
+                <xsl:variable name="month">
+                    <xsl:choose>
+                        <xsl:when test="starts-with(regex-group(2), '0')">
+                            <xsl:value-of select="substring(regex-group(2), 2)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="regex-group(2)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+                <xsl:variable name="day">
+                    <xsl:choose>
+                        <xsl:when test="starts-with(regex-group(3), '0')">
+                            <xsl:value-of select="substring(regex-group(3), 2)"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="regex-group(3)"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+                <xsl:value-of select="concat($day, '. ', $month, '. ', $year)"/>
+            </xsl:matching-substring>
+            <xsl:non-matching-substring><!-- Hier noch Daten vom Typ 02.03.1923 säubern -->
+                <xsl:choose>
+                    <xsl:when test="starts-with($date-string,'0')">
+                        <xsl:value-of select="replace(substring($date-string, 2), '.0','.')"/>
+                    </xsl:when>
+                    <xsl:when test="contains($date-string, '.0')">
+                        <xsl:value-of select="replace($date-string, '.0','.')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="$date-string"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:non-matching-substring>
+        </xsl:analyze-string>
+    </xsl:function>
 </xsl:stylesheet>
