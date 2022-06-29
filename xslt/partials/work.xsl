@@ -28,33 +28,39 @@
                 </xsl:if>
                 <span>
                     <xsl:for-each select="tei:author">
-                        <xsl:variable name="autor-ref" select="tei:idno[@type='schnitzler-tagebuch']"/>
+                        <xsl:variable name="autor-ref" select="@ref"/>
                         <xsl:choose>
-                            <xsl:when test="tei:idno[@type='pmb']/text()='pmb2121'">
-                                <xsl:text>Arthur Schnitzler</xsl:text>
+                            <xsl:when test="$autor-ref='pmb2121'">
+                                <a href="pmb2121.html"><xsl:text>Arthur Schnitzler</xsl:text></a>
                             </xsl:when>
                             <xsl:otherwise>
-                                <a href="{$autor-ref}">
+                                <a>
+                                    <xsl:attribute name="href">
+                                        <xsl:value-of select="concat($autor-ref,'.html')"/>
+                                    </xsl:attribute>
                                     <xsl:choose>
-                                        <xsl:when test="tei:persName/tei:forename and tei:persName/tei:surname ">
+                                        <xsl:when test="child::tei:forename and child::tei:surname ">
                                             <xsl:value-of select="tei:persName/tei:forename"/><xsl:text> </xsl:text><xsl:value-of select="tei:persName/tei:surname"/>
                                         </xsl:when>
-                                        <xsl:when test="tei:persName/tei:surname">
-                                            <xsl:value-of select="tei:persName/tei:surname"/>
+                                        <xsl:when test="child::tei:surname">
+                                            <xsl:value-of select="child::tei:surname"/>
                                         </xsl:when>
-                                        <xsl:when test="tei:persName/tei:forename">
-                                            <xsl:value-of select="tei:persName/tei:forename"/>"/>
+                                        <xsl:when test="child::tei:forename">
+                                            <xsl:value-of select="child::tei:forename"/>"/>
                                         </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="."/>
+                                        </xsl:otherwise>
                                     </xsl:choose>
                                 </a>
                                 <xsl:if test="@role='editor'">
-                                    <xsl:text> (Hrsg.)</xsl:text>
+                                    <xsl:text> (Herausgabe)</xsl:text>
                                 </xsl:if>
                                 <xsl:if test="@role='translator'">
                                     <xsl:text> (Übersetzung)</xsl:text>
                                 </xsl:if>
                                 <xsl:if test="@role='illustrator'">
-                                    <xsl:text> (Illustrationen)</xsl:text>
+                                    <xsl:text> (Illustration)</xsl:text>
                                 </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
@@ -68,7 +74,7 @@
             <p/>
             <div>
                 
-                <xsl:for-each select="child::tei:idno[not(@type = 'schnitzler-tagebuch')]">
+                <xsl:for-each select="child::tei:idno[not(@type = 'schnitzler-bahr') and not(@type='pmb')]">
                     <xsl:text> </xsl:text>
                     <xsl:choose>
                         <xsl:when test="not(. = '')">
@@ -76,20 +82,23 @@
                                 <xsl:element name="a">
                                     <xsl:attribute name="class">
                                         <xsl:choose>
+                                            <xsl:when test="@type = 'schnitzler-tagebuch'">
+                                                <xsl:text>tagebuch-button</xsl:text>
+                                            </xsl:when>
                                             <xsl:when test="@type = 'gnd'">
-                                                <xsl:text>wikipedia-workbutton</xsl:text>
+                                                <xsl:text>wikipedia-button</xsl:text>
                                             </xsl:when>
                                             <xsl:when test="@type = 'schnitzler-briefe'">
-                                                <xsl:text>briefe-workbutton</xsl:text>
+                                                <xsl:text>briefe-button</xsl:text>
                                             </xsl:when>
                                             <xsl:when test="@type = 'schnitzler-lektueren'">
-                                                <xsl:text>leseliste-workbutton</xsl:text>
+                                                <xsl:text>leseliste-button</xsl:text>
                                             </xsl:when>
                                             <xsl:when test="@type = 'bahrschnitzler'">
-                                                <xsl:text>bahrschnitzler-workbutton</xsl:text>
+                                                <xsl:text>bahr-button</xsl:text>
                                             </xsl:when>
-                                            <xsl:when test="@type = 'pmb'">
-                                                <xsl:text>pmb-workbutton</xsl:text>
+                                            <xsl:when test="@type = 'schnitzler-bahr'">
+                                                <xsl:text>bahr-button</xsl:text>
                                             </xsl:when>
                                             <xsl:otherwise>
                                                 <xsl:value-of select="@type"/>
@@ -98,17 +107,7 @@
                                         </xsl:choose>
                                     </xsl:attribute>
                                     <xsl:attribute name="href">
-                                        <xsl:choose>
-                                            <xsl:when
-                                                test="@type = 'pmb' and not(contains(., 'http'))">
-                                                <xsl:value-of
-                                                  select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/work/', substring-after(., 'pmb'), '/detail')"
-                                                />
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:value-of select="."/>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
+                                        <xsl:value-of select="."/>
                                     </xsl:attribute>
                                     <xsl:attribute name="target">
                                         <xsl:text>_blank</xsl:text>
@@ -140,7 +139,7 @@
                     <xsl:text> </xsl:text>
                     <xsl:element name="a">
                         <xsl:attribute name="class">
-                                    <xsl:text>pmb-workbutton</xsl:text>
+                                    <xsl:text>pmb-button</xsl:text>
                         </xsl:attribute>
                     <xsl:attribute name="href">
                                 <xsl:value-of
@@ -158,25 +157,7 @@
             </div>
             <div id="mentions" class="mt-2">
                 <span class="infodesc mr-2">Erwähnt am</span>
-                <ul class="list-unstyled">
-                    <xsl:for-each select="key('work-day-lookup', @xml:id, $work-day)">
-                        <xsl:variable name="linkToDocument">
-                            <xsl:value-of select="concat('entry__', data(@target), '.html')"/>
-                        </xsl:variable>
-                        <xsl:variable name="print_date">
-                            <xsl:variable name="monat" select="df:germanNames(format-date(data(@target),'[MNn]'))"/>
-                            <xsl:variable name="wochentag" select="df:germanNames(format-date(data(@target),'[F]'))"/>
-                            <xsl:variable name="tag" select="concat(format-date(data(@target),'[D]'),'. ')"/>
-                            <xsl:variable name="jahr" select="format-date(data(@target),'[Y]')"/>
-                            <xsl:value-of select="concat($wochentag, ', ', $tag, $monat, ' ', $jahr)"/>
-                        </xsl:variable>
-                        <li>
-                            <a href="{$linkToDocument}">
-                            <xsl:value-of select="$print_date"/>
-                            </a>
-                        </li>
-                    </xsl:for-each>
-                </ul>
+                
             </div>
         </div>
     </xsl:template>
@@ -219,6 +200,12 @@
             </xsl:when>
             <xsl:when test="$typityp = 'bahrschnitzler'">
                 <xsl:text> Bahr/Schnitzler</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'schnitzler-bahr'">
+                <xsl:text> Bahr/Schnitzler</xsl:text>
+            </xsl:when>
+            <xsl:when test="$typityp = 'schnitzler-tagebuch'">
+                <xsl:text> Tagebuch</xsl:text>
             </xsl:when>
             <xsl:when test="$typityp = 'widmungDLA'">
                 <xsl:text> Widmung DLA</xsl:text>

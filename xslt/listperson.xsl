@@ -239,8 +239,18 @@
                 </xsl:variable>
                 <xsl:value-of select="concat($day, '. ', $month, '. ', $year)"/>
             </xsl:matching-substring>
-            <xsl:non-matching-substring>
-                <xsl:value-of select="$date-string"/>
+            <xsl:non-matching-substring><!-- Hier noch Daten vom Typ 02.03.1923 säubern -->
+                    <xsl:choose>
+                        <xsl:when test="starts-with($date-string,'0')">
+                            <xsl:value-of select="replace(substring($date-string, 2), '.0','.')"/>
+                        </xsl:when>
+                        <xsl:when test="contains($date-string, '.0')">
+                            <xsl:value-of select="replace($date-string, '.0','.')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="$date-string"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
             </xsl:non-matching-substring>
         </xsl:analyze-string>
     </xsl:function>
