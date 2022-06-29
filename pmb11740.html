@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:mam="whatever">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,7 +11,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
@@ -35,12 +36,107 @@
          <div class="container-fluid">
             <div class="card">
                <div class="card-header">
-                  <h1>Hugo von Hofmannsthal <span class="lebensdaten">(1. 2. 1874 Wien – 15. 7. 1929 Rodaun)</span></h1>
+                  <h2 align="center">Hugo von Hofmannsthal <span class="lebensdaten">(1.2.1874 Wien – 15.7.1929 Rodaun)</span></h2>
                </div>
-               <div class="card-body"><small>Vorname</small>:  Hugo von<br></br><small>Nachname</small>: Hofmannsthal<br></br><small>geboren</small>:  1. 2. 1874<br></br><small>gestorben</small>: 15. 7. 1929
+               <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body-index">
+                  <p class="personenname"></p>
+                  <p class="personenname"></p>
+                  <p class="personenname"></p>
+                  <p>Schriftsteller</p>
                   <div id="mentions">
-                     <legend>erwähnt in</legend>
-                     <ul></ul>
+                     <p class="buttonreihe"><span class="button"><span><a class="tagebuch-button" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_16293" target="_blank"><span class="color-schnitzler-tagebuch"> Tagebuch</span></a></span> </span><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb11740" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11740/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118552759/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                  </div>
+                  <div class="werke">pmb11740
+                     <h2>Erwähnte Werke</h2>
+                     <p></p>
+                     <ul class="dashed">
+                        <li><a href="pmb32272.html">Age of Innocence</a>, 1930.</li>
+                        <li><a href="pmb30891.html">Prinz Eugen der edle Ritter</a>, 1915.</li>
+                        <li><a href="pmb31411.html">Leda mit dem Schwan</a></li>
+                        <li><a href="pmb32262.html">Christinas Heimreise</a>, 1910.</li>
+                        <li><a href="pmb32464.html">Österreichische Bibliothek</a>, 1915/1917.</li>
+                        <li><a href="pmb32588.html">Carl</a></li>
+                        <li><a href="pmb32590.html">Die Seelen</a></li>
+                        <li><a href="pmb32798.html">Theater in Versen</a>, 1899.</li>
+                        <li><a href="pmb32834.html">Das kleine Welttheater</a>, 1897.</li>
+                        <li><a href="pmb30129.html">Jedermann. Das Spiel vom Sterben des reichen Mannes</a>, 1911.</li>
+                        <li><a href="pmb30839.html">Das Salzburger große Welttheater</a>, 1922.</li>
+                        <li>(mit Molière: ) <a href="pmb31075.html">Der Bürger als Edelmann</a>, 1670.</li>
+                        <li><a href="pmb31091.html">Das gerettete Venedig. Trauerspiel in fünf Aufzügen</a>, 1905.</li>
+                        <li><a href="pmb31189.html">Oedipus und die Sphinx. Tragödie in drei Aufzügen</a>, 1906.</li>
+                        <li>(mit Sophokles: ) <a href="pmb31435.html">König Ödipus. Übersetzt und für die neuere Bühne eingerichtet</a>, 1910.</li>
+                        <li><a href="pmb32432.html">Das Bergwerk zu Falun</a>, 1900 – 1933.</li>
+                        <li><a href="pmb29849.html">Die Hochzeit der Sobeide</a>, 1899.</li>
+                        <li><a href="pmb30633.html">Elektra. Tragödie in einem Aufzug</a>, 1903.</li>
+                        <li><a href="pmb32067.html">Die Frau im Fenster</a>, 15.5.1898.</li>
+                        <li>(mit Renard, Jules: ) <a href="pmb32163.html">Fuchs. Schauspiel in einem Act</a>, 1900.</li>
+                        <li>(mit Strauss, Richard: ) <a href="pmb29925.html">Elektra (op. 58)</a>, 25.1.1909 – 25.1.1909.</li>
+                        <li>(mit Strauss, Richard: ) <a href="pmb30341.html">Der Rosenkavalier</a>, 1911.</li>
+                        <li>(mit Strauss, Richard: ) <a href="pmb30907.html">Ariadne auf Naxos. Oper in einem Aufzug</a>, 1912.</li>
+                        <li><a href="pmb30967.html">Einleitung</a>, 1892.</li>
+                        <li>(mit Kessler, Harry von, Strauss, Richard: ) <a href="pmb30877.html">Josephs Legende</a>, 1914.</li>
+                        <li><a href="pmb32165.html">Ein Brief</a>, 1902-10-18 – 1902-10-19.</li>
+                        <li><a href="pmb32750.html">Zur Liliencron-Feier</a>, 19.05.1904 – 19.05.1904.</li>
+                        <li><a href="pmb30141.html">Gestern. Dramatische Studie in einem Akt in Versen</a>, 15.10.1891.</li>
+                        <li><a href="pmb30279.html">Der Thor und der Tod</a>, 1893.</li>
+                        <li><a href="pmb31639.html">Der Tod des Tizian</a>, 1892.10.</li>
+                        <li><a href="pmb32069.html">Der weiße Fächer. Ein Zwischenspiel</a>, 05.02.1898.</li>
+                        <li><a href="pmb32512.html">Der Abenteurer und die Sängerin oder Die Geschenke des Lebens</a>, 18.3.1899.</li>
+                        <li><a href="pmb31427.html">Die Mutter</a>, 15.04.1891.</li>
+                        <li><a href="pmb31947.html">Die Mozart-Centenarfeier in Salzburg</a>, 01.08.1891.</li>
+                        <li><a href="pmb31873.html">Gabriele d’Annunzio</a>, 09.08.1893.</li>
+                        <li><a href="pmb31895.html">Zur Physiologie der modernen Liebe</a>, 08.02.1891.</li>
+                        <li><a href="pmb31967.html">Ascanio und Gioconda</a>, 1979.</li>
+                        <li><a href="pmb32039.html">Pompilia oder das Leben</a>, 1901.</li>
+                        <li>(mit Auernheimer, Raoul, Bahr, Hermann, Blei, Franz, Fischer, Samuel, Flake, Otto, Friedell, Egon, Hauptmann, Gerhart, Hollaender, Felix, Kerr, Alfred, Mann, Heinrich, Mann, Thomas, Wassermann, Jakob, Werfel, Franz, Zweig, Stefan: ) <a href="pmb31455.html">Arthur Schnitzler zu seinem sechzigsten Geburtstag</a>, 01.05.1922.</li>
+                     </ul>
+                  </div>
+                  <div id="mentions">
+                     <legend>Erwähnungen</legend>
+                     <ul>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                     </ul>
                   </div>
                </div>
             </div>

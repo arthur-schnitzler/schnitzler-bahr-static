@@ -11,7 +11,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
       <link rel="stylesheet" href="css/cslink.css" />
       <div class="hfeed site" id="page">
@@ -35,7 +36,7 @@
          </div>
          <div class="container-fluid">
             <div class="card">
-               <div class="card-header">
+               <div class="card card-header">
                   <div class="row">
                      <div class="col-md-2"></div>
                      <div class="col-md-8">
@@ -45,106 +46,98 @@
                      <div class="col-md-2" style="text-align:right"></div>
                   </div>
                </div>
-               <div class="card-body-tagebuch" data-index="true">
-                  
+               <div class="card-body-normalertext" data-index="true">
                   <div class="div">
-                     
-                     
-                     
+                     <div class="div">
+                        <div style="width:100%; text-align:center; padding-bottom: 1rem;"><img src="./images/6335-68.jpg" width="50%" /></div>
                      </div>
                   </div>
-               <div class="card-footer text-muted">
-                  <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"><i class="fas fa-map-marked-alt"></i> Register
-                        </a><div class="res-act-button res-act-button-copy-url ml-3" id="res-act-button-copy-url"><span id="copy-url-button" data-toggle="modal" data-target="#quoteModal"><i class="fas fa-quote-right"></i> Zitieren
-                           </span></div><a class="ml-3" data-toggle="tooltip" title="Link zum PDF der Buchvorlage zu diesem Eintrag" href="https://austriaca.at/buecher/files/arthur_schnitzler_tagebuch/Tagebuch1879-1931Einzelseiten/schnitzler_tb_sNaN.pdf"><i class="fa-lg far fa-file-pdf"></i> PDF
-                        </a><a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="T041003"><i class="fa-lg far fa-file-code"></i> TEI 
-                        </a><span class="nav-link">
-                        <div id="csLink" data-correspondent-1-name="Arthur Schnitzler" data-correspondent-1-id="http%3A%2F%2Fd-nb.info%2Fgnd%2F118609807" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div></span></div>
-                  <div id="registerDiv" class="d-none">
-                     <nav>
-                        <div class="nav nav-tabs" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link active" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a></div>
-                     </nav>
-                     <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
-                           <legend>Personen</legend>
-                           <ul>
-                              <li><a href="pmb27766.html">
-                                    Moritz Johann
-                                    Winter
-                                    </a></li>
-                           </ul>
-                        </div>
-                        <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
-                           <legend>Werke</legend>
-                           <ul></ul>
-                        </div>
-                        <div class="tab-pane fade fade show active" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
-                           <legend>Orte</legend>
-                           <div class="row">
-                              <div class="col-md-4">
-                                 <ul>
-                                    <li><a href="pmb15.html">Oper</a></li>
-                                 </ul>
+               </div>
+               <div class="card-body-anhang" id="bottom">
+                  <div class="card-body-anhang text-muted">
+                     <div id="srcbuttons" style="text-align:center"><a data-toggle="tooltip" title="Zeige Register" onclick="toggleVisibility()"> ANHANG </a></div>
+                     <div id="registerDiv" class="d-none">
+                        <nav>
+                           <div class="nav nav-tabs active" id="nav-tab" role="tablist"><a class="nav-item nav-link" id="nav-kommentar-tab" data-toggle="tab" href="#nav-kommentar" role="tab" aria-controls="nav-kommentar" aria-selected="true">Kommentar</a><a class="nav-item nav-link" id="nav-archiv-tab" data-toggle="tab" href="#nav-archiv" role="tab" aria-controls="nav-archiv" aria-selected="true">Archiv</a><a class="nav-item nav-link" id="nav-person-tab" data-toggle="tab" href="#nav-person" role="tab" aria-controls="nav-person" aria-selected="true">Personen</a><a class="nav-item nav-link" id="nav-werk-tab" data-toggle="tab" href="#nav-werk" role="tab" aria-controls="nav-werk" aria-selected="false">Werke</a><a class="nav-item nav-link" id="nav-org-tab" data-toggle="tab" href="#nav-org" role="tab" aria-controls="nav-org" aria-selected="false">Institutionen</a><a class="nav-item nav-link" id="nav-ort-tab" data-toggle="tab" href="#nav-ort" role="tab" aria-controls="nav-ort" aria-selected="false">Orte</a><a class="nav-item nav-link" id="nav-verschiedenes-tab" data-toggle="tab" href="#nav-verschiedenes" role="tab" aria-controls="nav-verschiedenes" aria-selected="false">Verschiedenes</a></div>
+                        </nav>
+                        <div class="tab-content" id="nav-tabContent show active">
+                           <div class="tab-pane" id="nav-kommentar" role="tabpanel" aria-labelledby="nav-kommentar-tab">
+                              <div class="card-body-anhang active">
+                                 <div class="kommentarhang active"></div>
                               </div>
-                              <div id="mapid" style="height: 400px;" class="col-md-8"></div>
                            </div>
-                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                
-                                                var mymap = L.map('mapid').setView([50, 12], 5);
-                                                
-                                                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                maxZoom: 18,
-                                                zIndex: 1
-                                                }).addTo(mymap);
-                                                
-                                                    L.marker([48,203, 16,3691]).addTo(mymap)
-                                                    .bindPopup("<b>Oper</b>").openPopup();
-                                                </script></div>
+                           <div class="tab-pane" id="nav-archiv" role="tabpanel" aria-labelledby="nav-archiv-tab">
+                              <div class="card-body-anhang">
+                                 <div class="kommentarhang">
+                                    <h3>Archivzeugen</h3>
+                                    <h4>1</h4>
+                                    <h4>Signatur</h4>
+                                    <p>Marbach am Neckar, Deutsches Literaturarchiv, B 89.Q 480</p>
+                                    <p>Fotografie. Rollenporträt als Klytämnestra in der Inszenierung derElektrain der<a href="pmb15.html"><span class="reference-black">Wiener Hofoper</span></a>, Premiere24. 3. 1909.</p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane" id="nav-person" role="tabpanel" aria-labelledby="nav-person-tab">
+                              <div class="card-body-anhang">
+                                 <div class="kommentarhang">
+                                    <legend>Personen</legend>
+                                    <ul>
+                                       <li><a href="pmb27766.html">Winter Moritz Johann</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="nav-werk" role="tabpanel" aria-labelledby="nav-werk-tab">
+                              <div class="card-body-anhang">
+                                 <div class="kommentarhang">
+                                    <legend>Werke</legend>
+                                    <ul></ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="nav-org" role="tabpanel" aria-labelledby="nav-org-tab">
+                              <div class="card-body-anhang">
+                                 <div class="kommentarhang">
+                                    <legend>Institutionen</legend>
+                                    <ul></ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade fade" id="nav-ort" role="tabpanel" aria-labelledby="nav-ort-tab">
+                              <div class="card-body-anhang">
+                                 <div class="kommentarhang">
+                                    <legend>Orte</legend>
+                                    <ul>
+                                       <li><a href="pmb15.html">Oper</a><a href="https://www.openstreetmap.org/?mlat=48.203&amp;mlon=16.3691#map=12/48.203/16.3691" target="_blank" rel="noopener">
+                                             KARTE
+                                             </a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tab-pane fade" id="nav-verschiedenes" role="tabpanel" aria-labelledby="nav-verschiedenes-tab">
+                              <div class="card-body-anhang">
+                                 <div class="kommentarhang">
+                                    <legend>Verschiedenes</legend>
+                                    <h4>Zitiervorschlag</h4>
+                                    <p>Moritz Johann Winter: [Fotografie von Anna von Mildenburg, aus Arthur Schnitzlers
+                                       Besitz], [März 1909?]. In:
+                                       Hermann Bahr, Arthur Schnitzler: Briefwechsel,
+                                       Aufzeichnungen, Dokumente (1891–1931). Digitale
+                                       Edition Hg. Kurt Ifkovits, Martin Anton Müller,
+                                       (Stand 29. 6. 2022),
+                                       .</p>
+                                    <h4>Quellcode</h4>
+                                    <p>Code als <a class="ml-3" data-toggle="tooltip" title="Link zur TEI-Datei" href="T041003"><i class="fa-lg far fa-file-code"></i> TEI </a></p>
+                                    <h4>correspSearch</h4>
+                                    <p>
+                                       <div id="csLink" data-correspondent-1-name="" data-correspondent-1-id="" data-correspondent-2-name="" data-correspondent-2-id="" data-start-date="1909-03-01" data-end-date="" data-range="50" data-selection-when="before-after" data-selection-span="median-before-after" data-result-max="4" data-exclude-edition=""></div>
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h5 class="modal-title" id="quoteModalLabel">Zitiervorschlag</h5>
-                  </div>
-                  <div class="modal-body">
-                     Arthur Schnitzler: Tagebuch. Digitale Edition, , https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1894-03-18.html (Stand 2022-06-25), PID: . 
-                     </div>
-                  <div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button></div>
-               </div>
-            </div>
-         </div>
-         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document" style="max-width: 2000px;">
-               <div class="modal-content">
-                  <div class="modal-header">
-                     <h3>Faksimile</h3>
-                  </div>
-                  <div class="modal-body">
-                     <div id="openseadragon-photo" style="height: 850px;"></div><script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/openseadragon.min.js"></script><script type="text/javascript">
-                                        var viewer = OpenSeadragon({
-                                        id: "openseadragon-photo",
-                                        protocol: "http://iiif.io/api/image",
-                                        prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.1/images/",
-                                        sequenceMode : true,
-                                        showReferenceStrip: true,
-                                        tileSources: [
-                                            {
-                                                type: 'image',
-                                                url: './images/6335-68?format=iiif'
-                                             }
-                                            ]
-                                        });
-                                    </script></div>
-                  <div class="modal-footer" style="justify-content: flex-start;">
-                     <ul style="list-style-type: none;">
-                        <li><a href="./images/6335-68?format=gui">./images/6335-68</a></li>
-                     </ul>
                   </div>
                </div>
             </div>
@@ -153,12 +146,23 @@
             <div class="modal-dialog" role="document">
                <div class="modal-content">
                   <div class="modal-header">
-                     <h5 class="modal-title">Moritz Johann Winter <a href="pmb27766.html"><i class="fas fa-external-link-alt"></i></a></h5>
+                     <h5 class="modal-title">Moritz JohannWinter <a href="pmb27766.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Vorname</small>:  Moritz Johann<br></br><small>Nachname</small>: Winter<br></br><small>geboren</small>:  1862<br></br><small>gestorben</small>: 
+                     <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body-index">
+                        <p> Fotograf/Fotografin</p>
                         <div id="mentions">
-                           <legend>erwähnt in</legend>
+                           <p class="buttonreihe"><span class="button"><span><a class="bahrschnitzler.acdh.oeaw.ac.at/entity/pmb27766XXXX" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb27766" target="_blank"><span class="color-URL"> URL</span></a></span> </span><span class="button"><span><a class="pmb.acdh.oeaw.ac.at/entity/27766XXXX" href="https://pmb.acdh.oeaw.ac.at/entity/27766" target="_blank"><span class="color-URL"> URL</span></a></span>  </span></p>
+                        </div>
+                        <div class="werke">pmb27766
+                           <h2>Erwähnte Werke</h2>
+                           <p></p>
+                           <ul class="dashed">
+                              <li><a href="pmb30727.html">Anna von Mildenburg als Klytämnestra</a>, März 1909?.</li>
+                           </ul>
+                        </div>
+                        <div id="mentions">
+                           <legend>Erwähnungen</legend>
                            <ul></ul>
                         </div>
                      </div>
@@ -174,22 +178,37 @@
                      <h5 class="modal-title">OperI., Innere Stadt <a href="pmb15.html"><i class="fas fa-external-link-alt"></i></a></h5>
                   </div>
                   <div class="modal-body">
-                     <div class="card-body"><small>Namensvarianten:</small><ul>
-                           <li>Oper</li>
-                           <li>Operntheater</li>
-                           <li>Staatsoper</li>
-                           <li>https://de.wikipedia.org/wiki/Wiener_Staatsoper</li>
-                           <li>I., Innere Stadt</li>
-                        </ul><small>Normdaten IDs</small><ul>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entities:Staatsoper">https://pmb.acdh.oeaw.ac.at/entities:Staatsoper</a></li>
-                           <li><small>URL:</small> <a href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb15">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb15</a></li>
-                           <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/15">https://pmb.acdh.oeaw.ac.at/entity/15</a></li>
-                           <li><small>URL:</small> <a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb15">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb15</a></li>
-                        </ul><br></br><small>Koordinaten:</small> 48,203 16,369148,20769 16,37049
-                        <hr></hr>
-                        <div id="mentions">
-                           <legend>erwähnt in</legend>
-                           <ul></ul>
+                     <div xmlns:mam="whatever" class="container-fluid">
+                        <div class="card-body-index"><small>Namensvarianten:</small><ul></ul><small>Normdaten IDs</small><ul>
+                              <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entities:Staatsoper">https://pmb.acdh.oeaw.ac.at/entities:Staatsoper</a></li>
+                              <li><small>URL:</small> <a href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb15">https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb15</a></li>
+                              <li><small>URL:</small> <a href="https://pmb.acdh.oeaw.ac.at/entity/15">https://pmb.acdh.oeaw.ac.at/entity/15</a></li>
+                              <li><small>URL:</small> <a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb15">https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb15</a></li>
+                           </ul>
+                           <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
+                           <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
+                                                    
+                                                    var mymap = L.map('mapid').setView([50, 12], 5);
+                                                    
+                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+                                                    maxZoom: 18,
+                                                    zIndex: 1
+                                                    }).addTo(mymap);
+                                                    48.203, 16.3691
+                                                        L.marker([48.203, 16.3691]).addTo(mymap)
+                                                        .bindPopup("<b>Oper</b>").openPopup();
+                                                </script><div class="card">
+                              <p>48,203 16,369148,20769 16,37049</p>
+                           </div>
+                           <div id="mentions">
+                              <p class="buttonreihe"><span class="button"><span><a class="URLXXXX" href="https://pmb.acdh.oeaw.ac.at/entities:Staatsoper" target="_blank"><span class="color-URL"> URL</span></a></span> </span><span class="button"><span><a class="URLXXXX" href="https://bahrschnitzler.acdh.oeaw.ac.at/entity/pmb15" target="_blank"><span class="color-URL"> URL</span></a></span> </span><span class="button"><span><a class="URLXXXX" href="https://pmb.acdh.oeaw.ac.at/entity/15" target="_blank"><span class="color-URL"> URL</span></a></span> </span><span class="button"><span><a class="URLXXXX" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb15" target="_blank"><span class="color-URL"> URL</span></a></span>  </span></p>
+                           </div>
+                           <hr></hr>
+                           <div id="mentions">
+                              <h3>Erwähnungen</h3>
+                              <ul></ul>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -250,12 +269,11 @@
                </div>
             </div>
          </div>
-         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script src="js/cslink.js"></script><script>
-                        function toggleVisibility() {
-                            document.getElementById("registerDiv").classList.toggle("d-none");
-                            document.getElementById("registerDiv").classList.toggle("d-block");
-                            mymap.invalidateSize();
-                        } 
-                    </script></div>
-   </body>
-</html>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script></div>
+   </body><script src="js/cslink.js"></script><script>
+                function toggleVisibility() {
+                document.getElementById("registerDiv").classList.toggle("d-none");
+                document.getElementById("registerDiv").classList.toggle("d-block");
+                mymap.invalidateSize();
+                } 
+            </script></html>

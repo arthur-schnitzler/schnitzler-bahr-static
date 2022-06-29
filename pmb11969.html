@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:mam="whatever">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,7 +11,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
@@ -35,11 +36,23 @@
          <div class="container-fluid">
             <div class="card">
                <div class="card-header">
-                  <h1>Erich Wolfgang Korngold <span class="lebensdaten">(29. 5. 1897 Brünn – 29. 11. 1957 Hollywood)</span></h1>
+                  <h2 align="center">Erich Wolfgang Korngold <span class="lebensdaten">(29.5.1897 Brünn – 29.11.1957 Hollywood)</span></h2>
                </div>
-               <div class="card-body"><small>Vorname</small>:  Erich Wolfgang<br></br><small>Nachname</small>: Korngold<br></br><small>geboren</small>:  29. 5. 1897<br></br><small>gestorben</small>: 29. 11. 1957
+               <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body-index">
+                  <p>Komponist/Komponistin</p>
                   <div id="mentions">
-                     <legend>erwähnt in</legend>
+                     <p class="buttonreihe"><span class="button"><span><a class="tagebuch-button" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_17058" target="_blank"><span class="color-schnitzler-tagebuch"> Tagebuch</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/11969/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118715054/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                  </div>
+                  <div class="werke">pmb11969
+                     <h2>Erwähnte Werke</h2>
+                     <p></p>
+                     <ul class="dashed">
+                        <li><a href="pmb30323.html">Klaviertrio d-Dur op. 1</a>, 1910.</li>
+                        <li><a href="pmb30903.html">Der Ring des Polykrates op. 7</a>, 1916.</li>
+                     </ul>
+                  </div>
+                  <div id="mentions">
+                     <legend>Erwähnungen</legend>
                      <ul></ul>
                   </div>
                </div>

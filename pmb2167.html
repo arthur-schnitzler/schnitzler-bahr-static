@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:mam="whatever">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,7 +11,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
       <link rel="stylesheet" href="css/style.css" type="text/css" />
-      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
    <body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
@@ -35,12 +36,81 @@
          <div class="container-fluid">
             <div class="card">
                <div class="card-header">
-                  <h1>Felix Salten <span class="lebensdaten">(6. 9. 1869 Budapest – 8. 10. 1945 Zürich)</span></h1>
+                  <h2 align="center">Felix Salten <span class="lebensdaten">(6.9.1869 Budapest – 8...1945 Zürich)</span></h2>
                </div>
-               <div class="card-body"><small>Vorname</small>:  Felix<br></br><small>Nachname</small>: Salten<br></br><small>geboren</small>:  6. 9. 1869<br></br><small>gestorben</small>: 8. 10. 1945
+               <div xmlns:mam="personalShit" xmlns:df="http://example.com/df" class="card-body-index">
+                  <p class="personenname"></p>
+                  <p class="personenname"></p>
+                  <p class="personenname"></p>
+                  <p class="personenname"></p>
+                  <p>Schriftsteller, Journalist</p>
                   <div id="mentions">
-                     <legend>erwähnt in</legend>
-                     <ul></ul>
+                     <p class="buttonreihe"><span class="button"><span><a class="tagebuch-button" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entity/person_19542" target="_blank"><span class="color-schnitzler-tagebuch"> Tagebuch</span></a></span> </span><span class="button"><span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb2167" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span>  </span><span class="button"><a class="PMB-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/2167/detail" target="_blank"><span class="color-PMB">PMB</span></a></span> <span class="button"><a class="wikipedia-button" href="http://tools.wmflabs.org/persondata/redirect/gnd/de/118840819/" target="_blank"><span class="wikipedia-color"> Wikipedia?</span></a></span></p>
+                  </div>
+                  <div class="werke">pmb2167
+                     <h2>Erwähnte Werke</h2>
+                     <p></p>
+                     <ul class="dashed">
+                        <li><a href="pmb29839.html">Der Hinterbliebene</a>, 1899-03-04 – 1899-03-11.</li>
+                        <li><a href="pmb31519.html">Bambi</a>, 1928.</li>
+                        <li><a href="pmb30237.html">Das österreichische Antlitz</a>, 1909.</li>
+                        <li><a href="pmb30317.html">Olga Frohgemuth</a>, 1910.</li>
+                        <li><a href="pmb30885.html">Abschied im Sturm</a>, 1914.12.15/1915.01.01/1915.01.15.</li>
+                        <li><a href="pmb30969.html">Quer durch den Wurstelprater</a>, 1895.06.02/1895.06.09.</li>
+                        <li><a href="pmb31125.html">Schnitzler</a>, 1912.05.</li>
+                        <li><a href="pmb31199.html">Artur Schnitzler. (Zum 50. Geburtstag)</a>, 11.05.1912.</li>
+                        <li><a href="pmb31231.html">Hermann Bahr. (Zum 60. Geburtstag)</a>, 15.07.1923.</li>
+                        <li><a href="pmb31257.html">Artur Schnitzler-Abend</a>, 13.12.1904.</li>
+                        <li><a href="pmb31287.html">Burgtheater »Husarenfieber.« Schwank in vier Akten von Gustav Kadelburg und Richard
+                              Skowronnek. – Zum erstenmal: am 17. Januar 1907</a>, 18.01.1907.</li>
+                        <li><a href="pmb31293.html">Der Wiener Korrespondent</a>, 05.07.1907.</li>
+                        <li><a href="pmb31443.html">Arthur Schnitzler</a>, 01.06.1912.</li>
+                        <li><a href="pmb31659.html">Schöne Seelen</a>, 1902.</li>
+                        <li><a href="pmb32380.html">Kinder der Freude</a>, 1917.</li>
+                        <li><a href="pmb32400.html">Burgtheater (»Das weite Land«, Tragikkomödie in fünf Akten von Arthur Schnitzler.
+                              – Zum erstenmal am 14. Oktober 1911)</a>, 15.10.1911.</li>
+                        <li><a href="pmb32428.html">Russisches Theater. II</a>, 23.03.1906.</li>
+                        <li><a href="pmb32430.html">»Kater Lampe«</a>, 26.03.1906.</li>
+                        <li><a href="pmb32446.html">Das stärkere Band</a>, 1915.</li>
+                        <li><a href="pmb32426.html">Der Gemeine. Schauspiel in drei Aufzügen</a>, 1901.</li>
+                        <li><a href="pmb32786.html">Laïs</a>, 01.07.1890.</li>
+                        <li><a href="pmb31949.html">Die Überwindung des Naturalismus</a>, 01.08.1891.</li>
+                        <li><a href="pmb32488.html">[Das Kaffeehaus]</a>, 1892.</li>
+                        <li>(mit Bahr, Hermann, Bauer, Julius, Hirschfeld, Robert, Speidel, Ludwig, David, Jakob Julius: ) <a href="pmb31345.html">Erklärung</a>, 14.09.1900.</li>
+                        <li><a href="pmb31233.html">Voltaire</a>, 22.07.1923.</li>
+                        <li><a href="pmb31401.html">Arthur Schnitzler und sein Reigen</a>, 07.11.1903.</li>
+                     </ul>
+                  </div>
+                  <div id="mentions">
+                     <legend>Erwähnungen</legend>
+                     <ul>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                        <li> <a href=""><i class="fas fa-external-link-alt"></i></a></li>
+                     </ul>
                   </div>
                </div>
             </div>
