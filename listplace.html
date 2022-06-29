@@ -1,0 +1,3552 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:foo="whatever">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-title" content="Ortsregister" />
+      <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <title>Ortsregister</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" id="fundament-styles" href="dist/fundament/css/fundament.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" /><script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/typesense-instantsearch-adapter@2/dist/typesense-instantsearch-adapter.min.js"></script><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js" integrity="sha256-EXPXz4W6pQgfYY3yTpnDa3OH8/EPn16ciVsPQ/ypsjk=" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.8.3/dist/instantsearch.production.min.js" integrity="sha256-LAGhRRdtVoD6RLo2qDQsU2mp+XVSciKRC8XPOBWmofM=" crossorigin="anonymous"></script></head>
+   <body class="page">
+      <div class="hfeed site" id="page">
+         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
+               <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                     <ul id="main-menu" class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="about.html">Zur Edition</a></li>
+                        <li class="nav-item"><a class="nav-link" href="calendar.html">Kalender</a></li>
+                        <li class="nav-item"><a class="nav-link" href="toc.html">Einträge</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listperson.html">Personen</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
+                        <li class="nav-item"><a class="nav-link" href="listorg.html">Institutionen</a></li>
+                     </ul>
+                     <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                              <circle cx="11" cy="11" r="8"></circle>
+                              <line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button></form>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="container-fluid">
+            <div class="card">
+               <div class="card-header">
+                  <h1>Ortsregister</h1>
+               </div>
+               <div class="card-body">
+                  <table class="table table-striped display" id="tocTable" style="width:100%">
+                     <thead>
+                        <tr>
+                           <th scope="col">Ortsname</th>
+                           <th scope="col">Längen-/Breitengrad</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td><a href="pmb600.html">?? [Österreichischer Hilfsverein]</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb47026.html">16. Arrondissement (Passy)</a></td>
+                           <td>48.8637/2.2769</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb184.html">A. Förster Möbel</a></td>
+                           <td>48.2089/16.3680</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb480.html">Aargau</a></td>
+                           <td>47.3955/8.1721</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb961.html">Actium</a></td>
+                           <td>38.9345/20.7387</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49098.html">Afrika</a></td>
+                           <td>7.1881/21.0937</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb735.html">Agnetendorf</a></td>
+                           <td>50.8169/15.6094</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb211.html">Ägypten</a></td>
+                           <td>27.0/30.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb269.html">Aigen</a></td>
+                           <td>47.7869/13.0806</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb520.html">Akademietheater</a></td>
+                           <td>48.2002/16.3771</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb632.html">Akademische Bühne</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb23.html">Akademische Hochschule für Musik</a></td>
+                           <td>52.5093/13.3287</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb558.html">Akademisches Gymnasium Salzburg</a></td>
+                           <td>47.7944/13.0341</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb369.html">Akropolis</a></td>
+                           <td>37.9717/23.7256</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb333.html">Albertina</a></td>
+                           <td>48.2044/16.3677</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb363.html">Alexanderplatz</a></td>
+                           <td>52.5219/13.4130</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb352.html">Alexanderufer</a></td>
+                           <td>52.5242/13.3727</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb10.html">Alexandrinski-Theater</a></td>
+                           <td>59.9318/30.3362</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb733.html">Allgemeine Boden-Credit-Anstalt</a></td>
+                           <td>48.2115/16.3626</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb41.html">Allgemeine Poliklinik</a></td>
+                           <td>48.2161/16.3491</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb34401.html">Altaussee</a></td>
+                           <td>47.6698/13.7845</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb511.html">Alte Pinakothek</a></td>
+                           <td>48.1483/11.5711</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb546.html">Altes Allgemeines Krankenhaus</a></td>
+                           <td>48.2158/16.3528</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1010.html">Amalfi</a></td>
+                           <td>40.6349/14.6023</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb175.html">Amerika</a></td>
+                           <td>32.5308/-117.02</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb500.html">Am Heumarkt</a></td>
+                           <td>48.2018/16.3796</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb498.html">Am Hof</a></td>
+                           <td>48.2110/16.3677</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb742.html">Am Ostbahnhof</a></td>
+                           <td>52.5097/13.4337</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49079.html">Andermatt</a></td>
+                           <td>46.6356/8.5938</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb622.html">Anglo-Österreichische Bank</a></td>
+                           <td>48.2110/16.3664</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb963.html">Anif</a></td>
+                           <td>47.75/13.0666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb995.html">Antwerpen</a></td>
+                           <td>51.2663/4.3707</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb45359.html">Arad</a></td>
+                           <td>46.1833/21.3166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb435.html">Argentinien</a></td>
+                           <td>-34.0/-64.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb641.html">Arles</a></td>
+                           <td>43.6769/4.6286</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb257.html">Arsenal</a></td>
+                           <td>48.1819/16.3891</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb800.html">Aschau im Chiemgau</a></td>
+                           <td>47.7768/12.3229</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1019.html">Asien</a></td>
+                           <td>29.8406/89.2968</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb923.html">Assuan</a></td>
+                           <td>24.0908/32.8994</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb505.html">Athen</a></td>
+                           <td>37.9794/23.7162</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb370.html">Attika</a></td>
+                           <td>37.9777/23.7277</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb124.html">Augarten</a></td>
+                           <td>48.2258/16.3777</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb868.html">Augsburg</a></td>
+                           <td>48.3715/10.8985</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb454.html">Äußerer Stein</a></td>
+                           <td>47.7994/13.0522</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb604.html">Australien</a></td>
+                           <td>-25.0/135.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb328.html">Axelmannstein</a></td>
+                           <td>47.7264/12.8820</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb86.html">Backhausen Joh. &amp; Söhne</a></td>
+                           <td>48.2020/16.3685</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb415.html">Bad Aussee</a></td>
+                           <td>47.6099/13.7824</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb228.html">Baden-Baden</a></td>
+                           <td>48.7606/8.2397</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb662.html">Baden bei Wien</a></td>
+                           <td>48.0054/16.2326</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb573.html">Bad Fusch</a></td>
+                           <td>47.2003/12.8558</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb521.html">Bad Gastein</a></td>
+                           <td>47.1154/13.1346</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb672.html">Bad Goisern</a></td>
+                           <td>47.6467/13.6142</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb213.html">Bad Ischl</a></td>
+                           <td>47.7110/13.6189</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb648.html">Bad Nauheim</a></td>
+                           <td>50.3762/8.7276</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb424.html">Bad Tölz</a></td>
+                           <td>47.7611/11.5589</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb992.html">Bad Vöslau</a></td>
+                           <td>47.9653/16.2135</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb704.html">Bahnhof Friedrichstraße</a></td>
+                           <td>52.5202/13.3869</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb962.html">Baia</a></td>
+                           <td>40.8166/14.0666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb922.html">Baku</a></td>
+                           <td>40.3980/49.7241</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb493.html">Bank für Auswärtigen Handel</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb161.html">Barerstraße</a></td>
+                           <td>48.1520/11.5739</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb854.html">Basel</a></td>
+                           <td>47.5583/7.5732</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb518.html">Bastille</a></td>
+                           <td>48.8529/2.3688</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb669.html">Bayerische Staatsoper</a></td>
+                           <td>48.1396/11.5793</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb314.html">Bayern</a></td>
+                           <td>49.0/11.5</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb734.html">Bayreuth</a></td>
+                           <td>49.9478/11.5789</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb158.html">Beethovengang</a></td>
+                           <td>48.2590/16.3551</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb710.html">Belgien</a></td>
+                           <td>50.75/4.5</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb278.html">Bellariastraße</a></td>
+                           <td>48.2058/16.3591</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb195.html">Belvedere</a></td>
+                           <td>50.9487/11.3520</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb232.html">Benediktinerinnenabtei Nonnberg</a></td>
+                           <td>47.7961/13.0516</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb797.html">Berchtesgaden</a></td>
+                           <td>47.6323/13.0018</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49123.html">Bergheim</a></td>
+                           <td>47.8525/13.0325</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb411.html">Berghof</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb168.html">Berlin</a></td>
+                           <td>52.5243/13.4105</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb738.html">Berliner Theater</a></td>
+                           <td>52.5048/13.3924</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb621.html">Bezirksgericht Hietzing</a></td>
+                           <td>48.1847/16.2982</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb971.html">Biebrich</a></td>
+                           <td>50.0429/8.2258</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb361.html">Bleichenbrücke</a></td>
+                           <td>53.5516/9.9885</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49778.html">Bockenheim</a></td>
+                           <td>50.1249/8.6453</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb628.html">Böhmen</a></td>
+                           <td>50.0651/14.3797</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb896.html">Bologna</a></td>
+                           <td>44.4938/11.3387</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb913.html">Bonn</a></td>
+                           <td>50.7343/7.0954</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb346.html">Bornimer Straße</a></td>
+                           <td>52.4961/13.2848</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb447.html">Börseplatz</a></td>
+                           <td>48.2143/16.3673</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb4.html">Bösendorfer-Saal</a></td>
+                           <td>48.2091/16.3661</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb542.html">Bösendorferstraße</a></td>
+                           <td>48.2012/16.3711</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1000.html">Bosnien und Herzegowina</a></td>
+                           <td>44.25/17.8333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb889.html">Boston (Massachusetts)</a></td>
+                           <td>42.3584/-71.0597</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb268.html">Böttner</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb40260.html">Bozen</a></td>
+                           <td>46.4906/11.3398</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb39615.html">Bratislava</a></td>
+                           <td>48.1481/17.1067</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1022.html">Breitenfurt bei Wien</a></td>
+                           <td>48.1333/16.15</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb36503.html">Breitenstein am Semmering</a></td>
+                           <td>47.6594/15.8215</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb891.html">Bremen</a></td>
+                           <td>53.0751/8.8077</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb677.html">Breslau</a></td>
+                           <td>51.1077/17.0353</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb840.html">Bruck an der Mur</a></td>
+                           <td>47.4166/15.2833</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb114.html">Bruckbräu</a></td>
+                           <td>47.7599/11.5558</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb833.html">Brünn</a></td>
+                           <td>49.1952/16.6079</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb862.html">Brüssel</a></td>
+                           <td>50.8504/4.3487</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb743.html">Buchhandlung Hermann Lazarus</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb859.html">Buchs</a></td>
+                           <td>47.1664/9.4735</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb43471.html">Budapest</a></td>
+                           <td>47.4983/19.0404</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb87.html">Budapesti Kamaraszínház</a></td>
+                           <td>47.5034/19.0726</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1016.html">Bühlerhöhe</a></td>
+                           <td>48.6747/8.2294</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb993.html">Bukarest</a></td>
+                           <td>44.432/26.106</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb249.html">Bulgarien</a></td>
+                           <td>42.6666/25.25</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb274.html">Burgring</a></td>
+                           <td>48.2049/16.3621</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb14.html">Burgtheater</a></td>
+                           <td>48.2103/16.3611</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb51147.html">Bydgoszcz</a></td>
+                           <td>53.1235/18.0076</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb104.html">Café Arkaden</a></td>
+                           <td>48.2139/16.3589</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb181.html">Café Bazar</a></td>
+                           <td>47.8019/13.0439</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb262.html">Café Central</a></td>
+                           <td>48.2102/16.3652</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb277.html">Café des Westens</a></td>
+                           <td>52.5040/13.3310</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb34.html">Café Griensteidl</a></td>
+                           <td>48.2082/16.3661</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb43.html">Café Imperial</a></td>
+                           <td>48.2012/16.3731</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb46.html">Café Kremser</a></td>
+                           <td>48.2017/16.3709</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb100.html">Café Luitpold</a></td>
+                           <td>48.1429/11.5747</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb689.html">Café Opera</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49.html">Café Pfob</a></td>
+                           <td>48.2086/16.3702</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb819.html">Café Pucher</a></td>
+                           <td>48.2087/16.3674</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb119.html">Café Scheidl</a></td>
+                           <td>48.2036/16.3704</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb421.html">Café Stukart</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb48.html">Café Union</a></td>
+                           <td>48.2032/16.3759</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb416.html">Café Walther</a></td>
+                           <td>47.7095/13.6183</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb654.html">Café Wittelsbach</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb919.html">Capri</a></td>
+                           <td>40.5507/14.2426</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb118.html">Carl-Theater</a></td>
+                           <td>48.215/16.3844</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb305.html">Casa Petrarca</a></td>
+                           <td>45.4350/12.3354</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb303.html">Casa Piccola</a></td>
+                           <td>48.2020/16.3611</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb474.html">Čelakovského sady</a></td>
+                           <td>50.0781/14.4303</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb12589.html">Celerina</a></td>
+                           <td>46.5146/9.8622</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb41285.html">Česká Lípa</a></td>
+                           <td>50.6855/14.5376</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb880.html">Chicago</a></td>
+                           <td>41.8500/-87.6500</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb210.html">Colmar</a></td>
+                           <td>48.0787/7.3554</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb554.html">Comédie française</a></td>
+                           <td>48.8636/2.3358</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb387.html">Craven Hill Gardens</a></td>
+                           <td>51.5127/-0.1821</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb976.html">Czernowitz</a></td>
+                           <td>48.2914/25.9403</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb265.html">Dalmatien</a></td>
+                           <td>43.8127/16.2187</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb43570.html">Dänemark</a></td>
+                           <td>56.0/10.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb834.html">Darmstadt</a></td>
+                           <td>49.8716/8.6502</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb892.html">Davos</a></td>
+                           <td>46.8042/9.8372</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb58060.html">Debrecen</a></td>
+                           <td>47.5316/21.6244</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb16.html">De Keysers Royal Hotel</a></td>
+                           <td>51.5117/-0.1057</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb58810.html">Den Haag</a></td>
+                           <td>52.0766/4.2986</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb589.html">Der blaue Vogel (Moskauer Kunstspiele)</a></td>
+                           <td>48.2111/16.3758</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb870.html">Dessau</a></td>
+                           <td>51.8386/12.2455</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb492.html">Deutsche Bank</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb437.html">Deutsches Haus</a></td>
+                           <td>49.1991/16.6066</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb645.html">Deutsches Schauspielhaus</a></td>
+                           <td>53.5543/10.0088</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb3.html">Deutsches Theater Berlin</a></td>
+                           <td>52.5244/13.3822</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb779.html">Deutsches Theater Hannover</a></td>
+                           <td>52.3748/9.7309</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb151.html">Deutschland</a></td>
+                           <td>51.5/10.5</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb105.html">Deutsch-Schweizer Hospital</a></td>
+                           <td>40.8346/14.2293</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb750.html">Die Schliersee’r</a></td>
+                           <td>47.7333/11.8658</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb945.html">Dölsach</a></td>
+                           <td>46.8572/12.8341</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb82.html">Doppelreiterkogel</a></td>
+                           <td>47.6533/15.8287</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49111.html">Dörfl</a></td>
+                           <td>47.6864/15.7949</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb499.html">Dornbach</a></td>
+                           <td>48.2309/16.2991</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb176.html">Dornbacher Park</a></td>
+                           <td>48.2419/16.2765</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb163.html">Dorotheenstraße</a></td>
+                           <td>52.5192/13.3906</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb761.html">Dorotheergasse</a></td>
+                           <td>48.2070/16.3691</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb915.html">Dortmund</a></td>
+                           <td>51.5244/7.4738</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb866.html">Dresden</a></td>
+                           <td>51.0833/13.7666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb682.html">Dubrovnik</a></td>
+                           <td>42.6480/18.0921</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb863.html">Düsseldorf</a></td>
+                           <td>51.2217/6.7761</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb912.html">Ebensee</a></td>
+                           <td>47.8071/13.779</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb470.html">Edlach</a></td>
+                           <td>47.6925/15.8091</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb133.html">Edmund-Weiß-Gasse</a></td>
+                           <td>48.2198/16.2556</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb766.html">Eglmoosgasse</a></td>
+                           <td>47.7130/13.6175</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb908.html">Eisenerz</a></td>
+                           <td>47.5460/14.8883</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb903.html">Elberfeld</a></td>
+                           <td>51.2508/7.1481</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb795.html">Elisabethstraße</a></td>
+                           <td>48.2025/16.3659</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb904.html">Elmau</a></td>
+                           <td>47.4666/11.1833</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb254.html">England</a></td>
+                           <td>52.4833/-1.5666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb706.html">Englischer Garten</a></td>
+                           <td>48.1527/11.5919</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb267.html">Englischer Hof</a></td>
+                           <td>48.1977/16.3491</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb736.html">Eremitage</a></td>
+                           <td>49.9480/11.6238</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb308.html">Erzherzog Carlplatz</a></td>
+                           <td>48.2066/16.3632</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb564.html">Eschenbachgasse</a></td>
+                           <td>48.2026/16.3636</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb19.html">Etablissement Ronacher</a></td>
+                           <td>48.2051/16.375</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb468.html">Europa</a></td>
+                           <td>48.6909/9.1406</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb528.html">Fasangasse</a></td>
+                           <td>48.1914/16.3858</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb326.html">Festhalle</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb638.html">Festung Hohensalzburg</a></td>
+                           <td>47.7949/13.0472</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb716.html">Fichtegasse</a></td>
+                           <td>48.2030/16.3756</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb603.html">Finanzkasse</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb40407.html">Flims</a></td>
+                           <td>46.8370/9.2845</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb263.html">Florenz</a></td>
+                           <td>43.7792/11.2462</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb818.html">Florianigasse</a></td>
+                           <td>48.2121/16.3480</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb344.html">Fontanestraße</a></td>
+                           <td>52.5888/13.3602</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb146.html">Frankfurt am Main</a></td>
+                           <td>50.1155/8.6841</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb397.html">Frankgasse</a></td>
+                           <td>48.2155/16.3564</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb166.html">Frankreich</a></td>
+                           <td>46.0/2.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb390.html">Franzensbad</a></td>
+                           <td>50.1203/12.3517</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb281.html">Franz Hartmann, Leidingers Nachfolger</a></td>
+                           <td>48.2016/16.3697</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb631.html">Freiburg im Breisgau</a></td>
+                           <td>47.9959/7.8522</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb142.html">Freie Schule</a></td>
+                           <td>48.2103/16.3437</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb739.html">Freie Volksbühne</a></td>
+                           <td>52.4913/13.3081</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb336.html">Frick am Graben</a></td>
+                           <td>48.2088/16.3697</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb482.html">Friedrichstraße</a></td>
+                           <td>52.5031/13.3910</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb812.html">Friesenbergstraße</a></td>
+                           <td>48.7601/8.2336</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb707.html">Fronleichnamskapelle</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb820.html">Fröschelgasse</a></td>
+                           <td>48.2521/16.3211</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb45.html">Fürstlich Schwarzenberg’sche Meierei</a></td>
+                           <td>48.2347/16.2898</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb448.html">Galeriestraße</a></td>
+                           <td>48.1438/11.5798</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb644.html">Galizien</a></td>
+                           <td>49.521/23.245</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb667.html">Garmisch-Partenkirchen</a></td>
+                           <td>47.4920/11.0957</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb731.html">Garnisongasse</a></td>
+                           <td>48.2165/16.3562</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb193.html">Gartenhaus (Goethe)</a></td>
+                           <td>50.9760/11.3369</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb177.html">Gasthaus Stelzer</a></td>
+                           <td>48.1338/16.2543</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb187.html">Gasthaus zum Jägerhaus</a></td>
+                           <td>48.1476/16.2310</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb5.html">Gemäldegalerie Alte Meister</a></td>
+                           <td>51.0535/13.7348</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb562.html">Genf</a></td>
+                           <td>46.2022/6.1456</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb37728.html">Genthin</a></td>
+                           <td>52.4066/12.1592</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb994.html">Genua</a></td>
+                           <td>44.4047/8.9443</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49774.html">Gern</a></td>
+                           <td>48.1643/11.5273</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb183.html">Gerngroß</a></td>
+                           <td>48.1999/16.3540</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb291.html">Gersthof</a></td>
+                           <td>48.2312/16.3288</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb910.html">Gießen</a></td>
+                           <td>50.5872/8.6755</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb368.html">Gloriette</a></td>
+                           <td>48.1780/16.3083</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb102.html">Glyptothek</a></td>
+                           <td>48.1462/11.5656</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb874.html">Gmunden</a></td>
+                           <td>47.9183/13.7993</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49101.html">Gödöllő</a></td>
+                           <td>47.5965/19.3551</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb324.html">Goethe-Haus</a></td>
+                           <td>50.1111/8.6775</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb191.html">Goethes Wohnhaus</a></td>
+                           <td>50.9775/11.3286</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb84.html">Goldenes Kreuz</a></td>
+                           <td>47.7131/13.6215</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb441.html">Gonzagagasse</a></td>
+                           <td>48.2148/16.3714</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb627.html">Grand Hotel Alexanderplatz</a></td>
+                           <td>52.5209/13.4159</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb310.html">Grand Hotel Bauer-Grünwald</a></td>
+                           <td>45.4328/12.3361</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb152.html">Grand Hotel de L’Europe, G. Jung</a></td>
+                           <td>47.8123/13.0431</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb547.html">Grand Hotel Varese</a></td>
+                           <td>45.6726/8.7806</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb258.html">Grand Hotel Venezia</a></td>
+                           <td>45.4317/12.3338</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb255.html">Grand Hotel Wien</a></td>
+                           <td>48.2021/16.3721</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb860.html">Graz</a></td>
+                           <td>47.0666/15.4333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb404.html">Greinerstraße</a></td>
+                           <td>48.2573/16.3655</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44293.html">Griechenland</a></td>
+                           <td>39.0/22.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb45088.html">Gries am Brenner</a></td>
+                           <td>47.0384/11.4813</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb412.html">Grillparzerstraße</a></td>
+                           <td>48.2126/16.3573</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb225.html">Grinzing</a></td>
+                           <td>48.2508/16.3421</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb676.html">Grodemange</a></td>
+                           <td>48.1405/11.5772</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb934.html">Grödig</a></td>
+                           <td>47.7383/13.0373</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb323.html">Großer Hirschgraben</a></td>
+                           <td>50.1111/8.6777</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb837.html">Großgmain</a></td>
+                           <td>47.7166/12.9166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49201.html">Grossreifling</a></td>
+                           <td>47.6666/14.7166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb46000.html">Grundlsee</a></td>
+                           <td>47.6166/13.8166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb129.html">Grunewald</a></td>
+                           <td>52.4833/13.2658</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb238.html">Gruß</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb609.html">Guild Theatre</a></td>
+                           <td>40.7633/-73.9842</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb389.html">Gunzenbach-Hof</a></td>
+                           <td>48.7485/8.2442</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb791.html">Habsburgergasse</a></td>
+                           <td>48.2082/16.3681</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb924.html">Hadersdorf</a></td>
+                           <td>48.2088/16.2228</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb478.html">Hagenbecks Tierpark</a></td>
+                           <td>53.5963/9.9377</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb140.html">Halle an der Saale</a></td>
+                           <td>51.4815/11.9794</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb643.html">Hall in Tirol</a></td>
+                           <td>47.2833/11.5166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb506.html">Hamburg</a></td>
+                           <td>53.5753/10.0153</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb540.html">Hameau</a></td>
+                           <td>48.2519/16.2931</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb559.html">Handelsmuseum</a></td>
+                           <td>48.2181/16.3625</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb890.html">Hannover</a></td>
+                           <td>52.3705/9.7332</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb383.html">Hasenauerstraße</a></td>
+                           <td>48.2338/16.3379</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb616.html">Haus Reitsteig</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb808.html">Haus Tannenberg</a></td>
+                           <td>47.4888/11.1128</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb13.html">Hebbel-Theater</a></td>
+                           <td>52.5000/13.3873</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb831.html">Hebragasse</a></td>
+                           <td>48.2156/16.3438</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb882.html">Heidelberg</a></td>
+                           <td>49.4076/8.6907</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb939.html">Heiligenkreuz</a></td>
+                           <td>48.0426/16.1529</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb159.html">Heiligenstadt</a></td>
+                           <td>48.2445/16.3675</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb983.html">Helgoland</a></td>
+                           <td>54.1821/7.8845</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb31.html">Hellbrunn</a></td>
+                           <td>47.7622/13.0608</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb755.html">Hellbrunner Brücke</a></td>
+                           <td>47.7681/13.0744</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb491.html">Herchenbachstraße</a></td>
+                           <td>48.7497/8.2393</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb348.html">Hermsdorf</a></td>
+                           <td>52.6113/13.3178</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb775.html">Herrenhaus</a></td>
+                           <td>48.2080/16.3591</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1015.html">Herzogpark</a></td>
+                           <td>48.1598/11.6155</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb75.html">Hinterbrühl</a></td>
+                           <td>48.0861/16.2480</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb753.html">Hirschau</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb696.html">Hochschule für Musik und Darstellende Kunst</a></td>
+                           <td>52.5090/13.3267</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb25.html">Hochschule und Akademie für Musik und Darstellende
+                                 Kunst</a></td>
+                           <td>48.2016/16.385</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49823.html">Hodonín</a></td>
+                           <td>48.8489/17.1324</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb320.html">Hofburg</a></td>
+                           <td>48.2063/16.3661</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb664.html">Hofgartengasthaus</a></td>
+                           <td>47.2706/11.3982</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb637.html">Hofmarstallschwemme</a></td>
+                           <td>47.7993/13.0403</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb783.html">Hoftheater Stuttgart</a></td>
+                           <td>48.7802/9.185</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb861.html">Hoftheater Weimar</a></td>
+                           <td>50.9795/11.3246</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb529.html">Hoher Markt</a></td>
+                           <td>48.2109/16.3727</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb758.html">Höhlenstein</a></td>
+                           <td>46.6419/12.2322</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb372.html">Holzplatz der Firma Peter Geiger</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb402.html">Honor Oak</a></td>
+                           <td>51.4506/-0.0516</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb774.html">Hotel Atlantic</a></td>
+                           <td>53.5572/10.0047</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb579.html">Hotel Bellevue</a></td>
+                           <td>52.51/13.3761</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb93.html">Hotel Blauer Stern</a></td>
+                           <td>50.0864/14.4289</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb260.html">Hotel Bonvecchiati</a></td>
+                           <td>45.4352/12.3360</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb127.html">Hotel Bristol</a></td>
+                           <td>52.5161/13.3834</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb205.html">Hotel Bristol</a></td>
+                           <td>48.2027/16.3700</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb40384.html">Hotel Bristol</a></td>
+                           <td>47.8030/13.0436</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb321.html">Hotel Continental</a></td>
+                           <td>50.1059/8.6653</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb399.html">Hotel Continental</a></td>
+                           <td>52.5188/13.3855</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb681.html">Hotel Continental</a></td>
+                           <td>48.1433/11.5699</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb337.html">Hotel de France</a></td>
+                           <td>48.2145/16.3629</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb34050.html">Hotel de l'Europe</a></td>
+                           <td>45.4323/12.3368</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb215.html">Hotel de Rome</a></td>
+                           <td>52.5166/13.3877</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb513.html">Hôtel du Parc</a></td>
+                           <td>46.0027/8.9467</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb714.html">Hotel Edlacherhof</a></td>
+                           <td>47.6052/15.7076</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb196.html">Hotel Elephant</a></td>
+                           <td>50.9788/11.3302</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb503.html">Hotel Elton</a></td>
+                           <td>52.5005/13.3095</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb634.html">Hotel Erzherzog Johann</a></td>
+                           <td>47.6325/15.8288</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb245.html">Hotel Esplanade</a></td>
+                           <td>52.51/13.3744</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb109.html">Hotel Excelsior</a></td>
+                           <td>48.2116/16.3762</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb306.html">Hotel Guarnero</a></td>
+                           <td>45.3348/14.3077</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb585.html">Hotel Hammerand</a></td>
+                           <td>48.2123/16.3534</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb623.html">Hôtel Hassler</a></td>
+                           <td>41.9062/12.4829</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb732.html">Hotel Hohenzollern</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb741.html">Hotel Hungaria</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb126.html">Hotel Imperial</a></td>
+                           <td>48.2012/16.3731</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb365.html">Hotel Imperial</a></td>
+                           <td>42.6426/18.1049</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb400.html">Hotel Kaiserhof</a></td>
+                           <td>52.5116/13.3854</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb583.html">Hotel Kaiserin Elisabeth</a></td>
+                           <td>48.2070/16.3721</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb715.html">Hotel Kaiserin Elisabeth</a></td>
+                           <td>47.7105/13.6217</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb655.html">Hotel Kaiserkrone</a></td>
+                           <td>47.7135/13.6192</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb377.html">Hotel Klomser</a></td>
+                           <td>48.2109/16.3646</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb401.html">Hotel Marienbad</a></td>
+                           <td>48.1439/11.5675</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb199.html">Hotel Maximilian</a></td>
+                           <td>48.1372/11.5819</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1014.html">Hotel Mirabell</a></td>
+                           <td>47.8032/13.0422</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb639.html">Hotel Oberpollinger</a></td>
+                           <td>48.1391/11.5675</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb204.html">Hotel Panhans</a></td>
+                           <td>47.6372/15.8252</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb769.html">Hotel Quirinale</a></td>
+                           <td>41.9016/12.4948</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb509.html">Hotel Quisisana</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb700.html">Hotel Regina</a></td>
+                           <td>48.2162/16.3596</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb396.html">Hotel Riegner</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb487.html">Hotel Riessersee</a></td>
+                           <td>47.4799/11.0811</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb29.html">Hotel Sacher</a></td>
+                           <td>48.2038/16.3694</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb545.html">Hotel Savoy</a></td>
+                           <td>52.5215/13.3881</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb477.html">Hotel Traube</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb414.html">Hotel und Pension Rudolfshöhe (Leopold Petter)</a></td>
+                           <td>47.7065/13.6095</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb485.html">Hotel Vier Jahreszeiten</a></td>
+                           <td>48.1388/11.5816</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb510.html">Hotel Waldmühle</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1282.html">Hotel Wandl</a></td>
+                           <td>48.2096/16.3704</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb130.html">Hotel Weinzinger</a></td>
+                           <td>48.3072/14.2874</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb495.html">Hotel Weißer Hahn</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49075.html">Hřensko</a></td>
+                           <td>50.8744/14.2425</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb271.html">Hütteldorf</a></td>
+                           <td>48.2016/16.2580</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb788.html">Hybešova</a></td>
+                           <td>49.1892/16.6022</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb51.html">I., Innere Stadt</a></td>
+                           <td>48.2076/16.3704</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb52.html">II., Leopoldstadt</a></td>
+                           <td>48.2166/16.4</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb253.html">Imperial Kino</a></td>
+                           <td>48.2106/16.3739</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb867.html">Innsbruck</a></td>
+                           <td>47.2843/11.3770</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb718.html">Innviertel</a></td>
+                           <td>48.25/13.3333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1018.html">Insel Hiddensee</a></td>
+                           <td>54.5391/13.0991</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb793.html">Institut de France</a></td>
+                           <td>48.8572/2.3369</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb916.html">Interlaken</a></td>
+                           <td>46.6838/7.8663</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb98.html">Internationalen Kunst-Ausstellung des Vereins bildender Künstler
+                                 Münchens »Secession«</a></td>
+                           <td>48.1436/11.5847</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb577.html">Irland</a></td>
+                           <td>53.0/-8.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb45508.html">Israel</a></td>
+                           <td>31.5/34.75</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb966.html">Istanbul</a></td>
+                           <td>41.0138/28.9496</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb40306.html">Italien</a></td>
+                           <td>42.8333/12.8333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb59.html">IX., Alsergrund</a></td>
+                           <td>48.2238/16.3564</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb407.html">Jacquingasse</a></td>
+                           <td>48.1916/16.3848</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb318.html">Japan</a></td>
+                           <td>35.6853/139.7530</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb876.html">Jena</a></td>
+                           <td>50.9319/11.5905</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44092.html">Jihlava</a></td>
+                           <td>49.3961/15.5912</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb765.html">Johann-Strauß-Gasse</a></td>
+                           <td>48.1876/16.3678</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb298.html">Johann Strauß-Theater</a></td>
+                           <td>48.1954/16.3688</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb444.html">Jordangasse</a></td>
+                           <td>48.2114/16.3706</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1.html">Jung-Wiener Theater zum Lieben Augustin</a></td>
+                           <td>48.1994/16.3642</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb522.html">Kaasgrabengasse</a></td>
+                           <td>48.2515/16.3335</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb203.html">Kabarett Nachtlicht</a></td>
+                           <td>48.2061/16.3733</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb839.html">Kairo</a></td>
+                           <td>30.0626/31.2496</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb679.html">Kaiser-Franz-Josef-Spital</a></td>
+                           <td>48.1736/16.3499</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb680.html">Kaiser-Franz-Ring</a></td>
+                           <td>48.0109/16.2419</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb392.html">Kaiserin Elisabeth Denkmal</a></td>
+                           <td>48.2069/16.3608</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb393.html">Kaiserin Elisabeth-Denkmal</a></td>
+                           <td>47.8125/13.0440</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb618.html">Kaiserjubiläum-Stadttheater</a></td>
+                           <td>48.2244/16.3503</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb555.html">Kalksburg</a></td>
+                           <td>48.1427/16.2451</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb12.html">Kammerspiele Berlin</a></td>
+                           <td>52.5244/13.3822</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb297.html">Kapuzinerberg</a></td>
+                           <td>47.8039/13.0573</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb842.html">Karlsbad</a></td>
+                           <td>50.2327/12.8711</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb871.html">Karlsruhe</a></td>
+                           <td>49.0093/8.4044</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb381.html">Karmeliterkirche</a></td>
+                           <td>48.2474/16.3502</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb651.html">Kärnten</a></td>
+                           <td>46.75/13.8333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb501.html">Kärntnerring</a></td>
+                           <td>48.2018/16.3719</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb350.html">Kaulbachstraße</a></td>
+                           <td>48.1578/11.5869</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb825.html">Kettenhofweg</a></td>
+                           <td>50.1166/8.6531</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb907.html">Kiel</a></td>
+                           <td>54.3213/10.1348</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb875.html">Klagenfurt</a></td>
+                           <td>46.6333/14.3</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb598.html">Kleines Schauspielhaus</a></td>
+                           <td>52.5118/13.3303</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb208.html">Kleines Theater</a></td>
+                           <td>52.5172/13.3891</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb865.html">Klosterneuburg</a></td>
+                           <td>48.3052/16.3252</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb357.html">Knesebeckstraße</a></td>
+                           <td>52.4438/13.2936</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb550.html">Knödelhütte</a></td>
+                           <td>48.2178/16.2433</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb728.html">Kochgasse</a></td>
+                           <td>48.2134/16.3494</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb406.html">Kollergasse</a></td>
+                           <td>48.2080/16.3902</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb145.html">Köln</a></td>
+                           <td>50.9383/6.9542</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb9.html">Königlich Bayerische Hoftheater</a></td>
+                           <td>48.1399/11.5787</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb719.html">Königstheater</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb2.html">Konservatorium der Gesellschaft der Musikfreunde</a></td>
+                           <td>48.2103/16.3708</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb240.html">Konzerthaus</a></td>
+                           <td>48.2007/16.3771</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb36300.html">Kopenhagen</a></td>
+                           <td>55.6759/12.5655</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb41212.html">Korfu</a></td>
+                           <td>39.5980/19.8522</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb359.html">Köthenerstraße</a></td>
+                           <td>52.5069/13.3772</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb737.html">Krakau</a></td>
+                           <td>50.0726/19.9325</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb157.html">Krankenhaus der Barmherzigen Brüder</a></td>
+                           <td>47.7972/13.0511</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb301.html">Krapfenwaldl</a></td>
+                           <td>48.2671/16.3273</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb248.html">Kratzer</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb234.html">Krautstofl</a></td>
+                           <td>48.2142/16.3570</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb36545.html">Krems</a></td>
+                           <td>48.4092/15.6141</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb251.html">Kreuzbergwarte</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb708.html">Kreuzbrunnen</a></td>
+                           <td>49.9779/12.7067</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49108.html">Krietern</a></td>
+                           <td>51.0784/17.0533</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49096.html">Krim</a></td>
+                           <td>45.0/34.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb34494.html">Kroatien</a></td>
+                           <td>45.1666/15.5</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb6.html">Kuffner Bierbrauerei</a></td>
+                           <td>48.2124/16.3236</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb691.html">Kunstgewerbeschule</a></td>
+                           <td>48.2083/16.3822</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb21.html">Künstlerhaus</a></td>
+                           <td>48.2005/16.3716</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb626.html">Kunstschau Wien 1908</a></td>
+                           <td>48.2005/16.3769</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb80.html">Kuranstalt Dr. Konried</a></td>
+                           <td>47.6912/15.8083</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb502.html">Kurfürstendamm</a></td>
+                           <td>52.5008/13.3127</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb442.html">Kurhaus Semmering</a></td>
+                           <td>47.6522/15.8263</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb34903.html">Kusadasi</a></td>
+                           <td>37.8601/27.2571</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb770.html">Lammgasse</a></td>
+                           <td>48.2126/16.3519</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb266.html">Landauer</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb239.html">Landesgerichtsstraße</a></td>
+                           <td>48.2119/16.3557</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb35658.html">Lauffen</a></td>
+                           <td>47.6720/13.6143</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb947.html">Leiden</a></td>
+                           <td>52.1527/4.4836</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb42.html">Leidingers Restauration</a></td>
+                           <td>48.2013/16.3694</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb864.html">Leipzig</a></td>
+                           <td>51.3396/12.3712</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb581.html">Leipziger Platz</a></td>
+                           <td>52.5098/13.3783</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb45896.html">Lélex</a></td>
+                           <td>46.3005/5.9383</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb229.html">Leopoldshöhe</a></td>
+                           <td>48.7503/8.2391</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb345.html">Lerchenfelderstraße</a></td>
+                           <td>48.2074/16.3469</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb18.html">Lessing-Theater</a></td>
+                           <td>52.5225/13.3763</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb95.html">Lichtenfelsgasse</a></td>
+                           <td>48.2100/16.3571</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb259.html">Lido</a></td>
+                           <td>45.3833/12.35</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb810.html">Liebiggasse</a></td>
+                           <td>48.2134/16.3575</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb897.html">Lienz</a></td>
+                           <td>46.8289/12.7690</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb699.html">Linden-Café</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb504.html">Lindengasse</a></td>
+                           <td>48.2002/16.3491</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb332.html">Linz</a></td>
+                           <td>48.3/14.2833</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb525.html">Lobe-Theater</a></td>
+                           <td>51.1086/17.0454</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb224.html">London</a></td>
+                           <td>51.5085/-0.1257</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb330.html">London Zoo</a></td>
+                           <td>51.5347/-0.1541</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb85.html">Löwelstraße</a></td>
+                           <td>48.2101/16.3621</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb799.html">Löwelstraße</a></td>
+                           <td>48.2097/16.3622</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb884.html">Lübeck</a></td>
+                           <td>53.8689/10.6872</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb186.html">Lueg am Wolfgangsee</a></td>
+                           <td>47.7540/13.3722</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb885.html">Lugano</a></td>
+                           <td>46.0100/8.9600</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb786.html">Lugeck</a></td>
+                           <td>48.2098/16.3747</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb286.html">Luitpoldstraße</a></td>
+                           <td>52.4949/13.3429</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb941.html">Lunz am See</a></td>
+                           <td>47.8612/15.0299</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb185.html">Lusthaus</a></td>
+                           <td>48.1925/16.4389</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb494.html">Lutherkirche</a></td>
+                           <td>48.2204/16.3401</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb272.html">Lüttich</a></td>
+                           <td>50.6337/5.5674</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb46224.html">Lviv</a></td>
+                           <td>49.8382/24.0232</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb427.html">Madonna di Campiglio</a></td>
+                           <td>46.2267/10.8258</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb914.html">Madrid</a></td>
+                           <td>40.4165/-3.7025</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb340.html">Magdalenenstraße</a></td>
+                           <td>48.1951/16.3537</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb918.html">Magdeburg</a></td>
+                           <td>52.1416/11.6444</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb886.html">Mailand</a></td>
+                           <td>45.4642/9.1895</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb932.html">Malcesine</a></td>
+                           <td>45.7614/10.8086</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb702.html">Mandl Wäsche-Confektion</a></td>
+                           <td>48.2124/16.3696</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb881.html">Mannheim</a></td>
+                           <td>49.4891/8.4669</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb218.html">Marbach am Bodensee</a></td>
+                           <td>47.6667/8.9</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb276.html">Mariahilfer Gürtel</a></td>
+                           <td>48.1930/16.3386</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb302.html">Mariahilferstraße</a></td>
+                           <td>48.2007/16.3574</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb311.html">Mariannengasse</a></td>
+                           <td>48.2161/16.3477</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49120.html">Maria Plain</a></td>
+                           <td>47.8386/13.0397</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb431.html">Mariazell</a></td>
+                           <td>47.7730/15.3163</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb772.html">Marienbad</a></td>
+                           <td>49.9611/12.7287</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb959.html">Marienlyst</a></td>
+                           <td>56.0420/12.6019</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb463.html">Marienstraße</a></td>
+                           <td>52.5222/13.3835</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb646.html">Mark Brandenburg</a></td>
+                           <td>52.4590/13.0158</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb261.html">Markusplatz</a></td>
+                           <td>45.4341/12.3383</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb36523.html">Marokko</a></td>
+                           <td>32.0/-6.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb287.html">Martinstraße</a></td>
+                           <td>48.2224/16.3407</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb591.html">Matrei am Brenner</a></td>
+                           <td>47.1285/11.4522</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb364.html">Matrei in Osttirol</a></td>
+                           <td>47.0/12.5333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb942.html">Mauerbach</a></td>
+                           <td>48.2451/16.1679</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb200.html">Mauls</a></td>
+                           <td>46.8535/11.5213</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49234.html">Maxglan</a></td>
+                           <td>47.8025/13.0188</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb944.html">Meersburg am Bodensee</a></td>
+                           <td>47.6941/9.2711</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb343.html">Meinekestraße</a></td>
+                           <td>52.5022/13.3290</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb624.html">Meinl am Graben</a></td>
+                           <td>48.2095/16.3684</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb96.html">Meissl &amp; Schadn</a></td>
+                           <td>48.2022/16.3748</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb43520.html">Meran</a></td>
+                           <td>46.6681/11.1595</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb367.html">Mexiko</a></td>
+                           <td>23.0/-102.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb292.html">Michelbeuern-Kino</a></td>
+                           <td>48.2227/16.3486</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb713.html">Ministerium für Äußeres</a></td>
+                           <td>48.2090/16.3660</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb78.html">Ministerium für Inneres</a></td>
+                           <td>48.2120/16.3697</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb24.html">Ministerium für Unterricht</a></td>
+                           <td>48.2099/16.3635</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb180.html">Mirabell</a></td>
+                           <td>47.8055/13.0420</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb339.html">Mittelstraße</a></td>
+                           <td>47.3580/8.5516</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb968.html">Mödling</a></td>
+                           <td>48.0860/16.2892</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb582.html">Mohrenstraße</a></td>
+                           <td>52.5123/13.3928</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb366.html">Montenegro</a></td>
+                           <td>42.75/19.25</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49756.html">Morzg</a></td>
+                           <td>47.7666/13.0666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb869.html">Moskau</a></td>
+                           <td>55.7616/37.6066</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb999.html">Mostar</a></td>
+                           <td>43.3433/17.8080</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb375.html">Mozartdenkmal</a></td>
+                           <td>47.7988/13.0478</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb798.html">Mozarteum</a></td>
+                           <td>47.8038/13.0434</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb179.html">Mozartplatz</a></td>
+                           <td>47.7989/13.0479</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb358.html">Mühlgasse</a></td>
+                           <td>48.1973/16.3636</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb45258.html">München</a></td>
+                           <td>48.1374/11.5754</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb309.html">Museum Francisco-Carolinum</a></td>
+                           <td>48.3059/14.2937</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb571.html">Musikalienhandlung Albert J. Gutmann</a></td>
+                           <td>48.2031/16.3697</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb516.html">Musikverein</a></td>
+                           <td>48.2012/16.3725</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb92.html">Národní divadlo</a></td>
+                           <td>50.0809/14.4138</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb595.html">Neapel</a></td>
+                           <td>40.8521/14.2681</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb905.html">Neckarsulm</a></td>
+                           <td>49.1891/9.2252</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb457.html">Nederlinger Straße</a></td>
+                           <td>48.1695/11.5114</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb740.html">Neue Freie Volksbühne</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb101.html">Neue Pinakothek</a></td>
+                           <td>48.1497/11.5711</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb763.html">Neuer Markt</a></td>
+                           <td>48.2061/16.3706</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb91.html">Neues Deutsches Theater</a></td>
+                           <td>50.0805/14.4327</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb720.html">Neues Theater</a></td>
+                           <td>52.5216/13.3861</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb201.html">Neustift</a></td>
+                           <td>48.2493/16.3025</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb782.html">Neustrelitz</a></td>
+                           <td>53.3613/13.0729</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49113.html">Neu Travemünde</a></td>
+                           <td>53.9593/10.8565</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb170.html">Neuwaldegg</a></td>
+                           <td>48.2331/16.2861</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb241.html">Neuwaldegger Park</a></td>
+                           <td>48.2401/16.2783</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb111.html">Newaldhof</a></td>
+                           <td>48.2179/16.3587</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44053.html">New York City</a></td>
+                           <td>40.7142/-74.0059</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44016.html">Niederlande</a></td>
+                           <td>52.25/5.75</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1003.html">Niederösterreich</a></td>
+                           <td>48.3333/15.75</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb926.html">Nizza</a></td>
+                           <td>43.7031/7.2660</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb426.html">Nordbahnhof</a></td>
+                           <td>48.2291/16.3886</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb202.html">Nordwestbahnhof</a></td>
+                           <td>48.2300/16.3795</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb403.html">Nussdorf</a></td>
+                           <td>48.2594/16.3641</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb371.html">Nußwaldgasse</a></td>
+                           <td>48.2443/16.3524</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb121.html">Ny Carlsberg Glyptohek</a></td>
+                           <td>55.6722/12.5716</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb925.html">Oberammergau</a></td>
+                           <td>47.5981/11.0669</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb519.html">Oberösterreich</a></td>
+                           <td>48.25/14.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb165.html">Ober Sankt Veit</a></td>
+                           <td>48.1880/16.2663</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb792.html">Odéon</a></td>
+                           <td>48.8500/2.3389</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb420.html">Odessa</a></td>
+                           <td>46.4774/30.7326</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44176.html">Olomouc</a></td>
+                           <td>49.5955/17.2517</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb38096.html">Opatija</a></td>
+                           <td>45.3377/14.3051</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb15.html">Oper</a></td>
+                           <td>48.203/16.3691</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb717.html">Opernring</a></td>
+                           <td>48.2028/16.3669</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb250.html">Orthof</a></td>
+                           <td>47.6631/15.7929</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb911.html">Ostende</a></td>
+                           <td>51.2119/2.9271</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb41240.html">Österreich</a></td>
+                           <td>47.3333/13.3333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb230.html">Österreichischer Hof</a></td>
+                           <td>47.8020/13.0434</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb83.html">Österreichisches Museum für Kunst und Industrie</a></td>
+                           <td>48.2075/16.3816</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb304.html">Ottakringer Bräu</a></td>
+                           <td>48.1863/16.3020</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb300.html">Ottakringerstraße</a></td>
+                           <td>48.2141/16.3210</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb153.html">Otto-Wagner-Spital</a></td>
+                           <td>48.2087/16.2796</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44156.html">Padua</a></td>
+                           <td>45.4079/11.8858</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb712.html">Palais von Lola Montez</a></td>
+                           <td>48.1433/11.5680</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb88.html">Palasthotel Berlin</a></td>
+                           <td>52.5092/13.3769</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb90.html">Palasthotel Prag</a></td>
+                           <td>50.0839/14.4277</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb815.html">Palästina</a></td>
+                           <td>31.59/35.13</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb901.html">Palermo</a></td>
+                           <td>38.1320/13.3356</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44205.html">Pallanza</a></td>
+                           <td>45.9229/8.5504</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb588.html">Pan</a></td>
+                           <td>48.2068/16.3766</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb182.html">Paris</a></td>
+                           <td>48.8534/2.3488</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb514.html">Pariser Straße</a></td>
+                           <td>52.4984/13.3173</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb283.html">Parkhotel Schönbrunn</a></td>
+                           <td>48.1871/16.3020</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49759.html">Parsch</a></td>
+                           <td>47.8/13.0666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb469.html">Parsifalstraße</a></td>
+                           <td>49.9587/11.5763</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb2318.html">Partenkirchen</a></td>
+                           <td>47.4956/11.1097</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb675.html">Pavillon Henri IV</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb948.html">Payerbach</a></td>
+                           <td>47.6920/15.8634</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb198.html">Pelikangasse</a></td>
+                           <td>48.2163/16.3481</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb354.html">Pension City</a></td>
+                           <td>48.2077/16.3721</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb811.html">Pension Jaeger</a></td>
+                           <td>48.7601/8.2336</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb613.html">Pension Patak</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb756.html">Pension Quisisana</a></td>
+                           <td>45.3338/14.3018</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb640.html">Pension Quitta</a></td>
+                           <td>45.3294/14.3008</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb768.html">Pension Westpalast</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1017.html">Pension Zeppelin</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb316.html">Petersfriedhof</a></td>
+                           <td>47.7966/13.0453</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb580.html">Physiatrisches Sanatorium (Lahmann)</a></td>
+                           <td>51.0645/13.8208</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb139.html">Piaristenkloster</a></td>
+                           <td>48.1885/16.3643</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb553.html">Pilsen</a></td>
+                           <td>49.7474/13.3775</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb921.html">Poissy</a></td>
+                           <td>48.9290/2.0495</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb313.html">Polen</a></td>
+                           <td>52.0/20.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb148.html">Ponte di Rialto</a></td>
+                           <td>45.4379/12.3359</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb436.html">Porzellangasse</a></td>
+                           <td>48.2222/16.3624</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb34896.html">Possenhofen</a></td>
+                           <td>47.9594/11.3103</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb744.html">Postamt 68</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb385.html">Postgasse</a></td>
+                           <td>48.2096/16.3789</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb362.html">Potsdamerstraße</a></td>
+                           <td>52.5064/13.3686</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb169.html">Pötzleinsdorf</a></td>
+                           <td>48.2468/16.3000</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb652.html">Prag</a></td>
+                           <td>50.0833/14.4666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb8.html">Prater</a></td>
+                           <td>48.1945/16.4300</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb530.html">Praterstern</a></td>
+                           <td>48.2183/16.3913</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49072.html">Prein an der Rax</a></td>
+                           <td>47.6738/15.7645</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb206.html">Preußen</a></td>
+                           <td>52.0/13.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb524.html">Prinz-Eugen-Straße</a></td>
+                           <td>48.1929/16.3782</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb164.html">Prinz Louis Ferdinandstraße</a></td>
+                           <td>52.5191/13.3906</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49125.html">Province of Gorizia</a></td>
+                           <td>45.9343/13.6183</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb678.html">Pyrkergasse</a></td>
+                           <td>48.2411/16.3521</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb273.html">Radetzkybrücke</a></td>
+                           <td>48.2113/16.3836</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb845.html">Radolfzell am Bodensee</a></td>
+                           <td>47.7419/8.9709</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb77.html">Raimund-Theater</a></td>
+                           <td>48.1922/16.3397</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb656.html">Ramgut</a></td>
+                           <td>47.6149/13.7843</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb771.html">Rankestraße</a></td>
+                           <td>52.5033/13.3346</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb373.html">Rathaus</a></td>
+                           <td>48.2107/16.3576</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb561.html">Redaktion der »Zeit«</a></td>
+                           <td>48.2163/16.3582</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb483.html">Reichenau an der Rax</a></td>
+                           <td>47.7/15.8333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb439.html">Reichsbrücke</a></td>
+                           <td>48.2283/16.4097</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb360.html">Rembrandtstraße</a></td>
+                           <td>48.2219/16.3720</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb635.html">Residenztheater München</a></td>
+                           <td>48.1399/11.5787</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb172.html">Restaurant Deutsches Haus</a></td>
+                           <td>48.2076/16.3731</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb419.html">Restaurant Obenaus</a></td>
+                           <td>48.2099/16.3754</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb460.html">Restaurant zur Bellaria (Inh. Johann Seidel)</a></td>
+                           <td>48.2054/16.3580</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb74.html">Restauration Türkenschanz-Park</a></td>
+                           <td>48.2342/16.3315</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb806.html">Rheinischer Hof</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb384.html">Richard-Kralik-Platz</a></td>
+                           <td>48.2203/16.3565</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44.html">Riedhof</a></td>
+                           <td>48.2134/16.3538</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb40253.html">Riedlingen</a></td>
+                           <td>48.1545/9.4755</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb551.html">Rieglerhütte</a></td>
+                           <td>48.2399/16.2387</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb674.html">Rigi</a></td>
+                           <td>47.0510/8.4912</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44246.html">Rijeka</a></td>
+                           <td>45.3267/14.4424</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb112.html">Ringstraße</a></td>
+                           <td>48.2024/16.3712</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb465.html">Riva del Garda</a></td>
+                           <td>45.8857/10.8411</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb173.html">Rodaun</a></td>
+                           <td>48.1327/16.2561</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb456.html">Rohrerhütte</a></td>
+                           <td>48.2461/16.2626</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb445.html">Rom</a></td>
+                           <td>41.8919/12.5113</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb709.html">Rotenturmstraße</a></td>
+                           <td>48.2107/16.3747</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb856.html">Rothenburg ob der Tauber</a></td>
+                           <td>49.3788/10.1871</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb538.html">Rothschild-Spital (Spital der Israelitischen Kultusgemeinde) </a></td>
+                           <td>48.2265/16.3492</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49141.html">Rottenburg</a></td>
+                           <td>48.4762/8.9352</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb920.html">Rüdesheim</a></td>
+                           <td>49.9789/7.9244</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb35.html">Rudolfsplatz</a></td>
+                           <td>48.2142/16.3719</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb450.html">rue de l’Assomption</a></td>
+                           <td>48.8535/2.2731</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb592.html">rue de Maubeuge</a></td>
+                           <td>48.8763/2.3406</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb347.html">rue du Faubourg-Poissonière</a></td>
+                           <td>48.8714/2.3478</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb378.html">Rumänien</a></td>
+                           <td>46.0/25.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb34438.html">Russland</a></td>
+                           <td>60.0/100.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb816.html">Rzeszów</a></td>
+                           <td>50.0054/21.9884</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb209.html">Sachsen</a></td>
+                           <td>51.0/13.25</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49089.html">Sadová</a></td>
+                           <td>50.2974/15.6999</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb927.html">Saint-Briac</a></td>
+                           <td>48.6218/-2.1343</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb982.html">Saint-Germain-en-Laye</a></td>
+                           <td>48.9/2.0833</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb76.html">Salesianergasse</a></td>
+                           <td>48.1992/16.3806</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb242.html">Salmannsdorf</a></td>
+                           <td>48.2561/16.3025</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb30.html">Salzburg</a></td>
+                           <td>47.8006/13.0453</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb697.html">Salzburg (Land)</a></td>
+                           <td>47.4166/13.25</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb429.html">Salzkammergut</a></td>
+                           <td>47.75/13.5</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb235.html">Sanatorium Hera</a></td>
+                           <td>48.2266/16.3516</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb89.html">Sanatorium Loew</a></td>
+                           <td>48.2162/16.3474</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb219.html">Sanatorium Schloss Marbach am Bodensee</a></td>
+                           <td>47.6698/8.9503</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb857.html">San Domenico</a></td>
+                           <td>43.8011/11.2859</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb329.html">Sankt Paul im Lavanttal</a></td>
+                           <td>46.7005/14.8755</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb433.html">Sankt Petersburg</a></td>
+                           <td>59.9386/30.3141</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb980.html">Sárvár</a></td>
+                           <td>47.2539/16.9352</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb99.html">Schack-Galerie</a></td>
+                           <td>48.1424/11.5931</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb128.html">Schall und Rauch</a></td>
+                           <td>52.5174/13.3891</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb11.html">Schauspielhaus</a></td>
+                           <td>48.1381/11.5824</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb784.html">Schauspielhaus</a></td>
+                           <td>52.5136/13.3922</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb341.html">Schellinggasse</a></td>
+                           <td>48.2040/16.3748</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb192.html">Schillerhaus</a></td>
+                           <td>50.9789/11.3277</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb334.html">Schillertheater</a></td>
+                           <td>52.5117/13.3180</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb936.html">Schliersee</a></td>
+                           <td>47.7362/11.8593</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb160.html">Schloss Arenberg</a></td>
+                           <td>47.8000/13.0585</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb237.html">Schloss Leopoldskron</a></td>
+                           <td>47.7883/13.0386</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb32.html">Schlosspark Hellbrunn</a></td>
+                           <td>47.7622/13.0608</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb21799.html">Schloß Schönbrunn</a></td>
+                           <td>48.1847/16.3122</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb233.html">Schloßtheater</a></td>
+                           <td>48.1868/16.3069</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb194.html">Schloss Tiefurt</a></td>
+                           <td>50.9938/11.3636</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb657.html">Schloss Weiherburg</a></td>
+                           <td>47.2809/11.3982</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb759.html">Schönberg im Stubaital</a></td>
+                           <td>47.1833/11.4166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb557.html">Schottengymnasium</a></td>
+                           <td>48.2121/16.3644</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb576.html">Schottland</a></td>
+                           <td>56.0/-4.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb307.html">Schumannstraße</a></td>
+                           <td>52.5240/13.3818</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb115.html">Schwarzenberggarten</a></td>
+                           <td>48.1955/16.3771</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb295.html">Schwarzer Adler</a></td>
+                           <td>48.2136/16.3794</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44335.html">Schweden</a></td>
+                           <td>62.0/15.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb43435.html">Schweiz</a></td>
+                           <td>47.0001/8.0142</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb256.html">Schweizergarten</a></td>
+                           <td>48.1867/16.3852</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb47.html">Schweizerhaus</a></td>
+                           <td>48.2139/16.4016</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb813.html">Schweizerhof</a></td>
+                           <td>48.2068/16.3658</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb108.html">Schwenders Colosseum</a></td>
+                           <td>48.1913/16.3308</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb7.html">Secession</a></td>
+                           <td>48.2003/16.3655</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb106.html">Seewirt</a></td>
+                           <td>47.6417/13.7718</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb730.html">Seidlgasse</a></td>
+                           <td>48.2067/16.3896</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb189.html">Semmering</a></td>
+                           <td>47.6422/15.8241</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb264.html">Serbien</a></td>
+                           <td>43.9515/20.9333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49077.html">Sibirien</a></td>
+                           <td>62.4051/17.3637</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb566.html">Siebenbrunnengasse</a></td>
+                           <td>48.1853/16.3542</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb288.html">Sievering</a></td>
+                           <td>48.2565/16.3115</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb787.html">Sinapalais</a></td>
+                           <td>48.2111/16.3727</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb353.html">Singerstraße</a></td>
+                           <td>48.2070/16.3743</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb451.html">Sizilien</a></td>
+                           <td>37.75/14.25</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb745.html">Skandinavien</a></td>
+                           <td>63.0/25.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb647.html">Skodawerke</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb958.html">Skodsborg</a></td>
+                           <td>55.8225/12.5732</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb544.html">Slowenien</a></td>
+                           <td>46.0833/15.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb107.html">Sofiensäle</a></td>
+                           <td>48.2066/16.3912</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb950.html">Soissons</a></td>
+                           <td>49.3816/3.3236</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb243.html">Sommerhaidenweg</a></td>
+                           <td>48.2489/16.2967</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb539.html">Sophienalpe</a></td>
+                           <td>48.2467/16.2303</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb629.html">Sorrent</a></td>
+                           <td>40.6267/14.3777</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb388.html">Spanien</a></td>
+                           <td>40.0/-4.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb212.html">St. Anton am Arlberg</a></td>
+                           <td>47.0825/10.2234</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb754.html">St. Bonifaz</a></td>
+                           <td>48.1440/11.5642</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb33.html">St. Gilgen</a></td>
+                           <td>47.7666/13.3666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb996.html">St. Johann im Pongau</a></td>
+                           <td>47.35/13.2</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb711.html">St. Ludwig (München)</a></td>
+                           <td>48.1488/11.5813</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb317.html">St. Peterskeller</a></td>
+                           <td>47.7971/13.0441</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb665.html">St. Veit</a></td>
+                           <td>48.1880/16.2663</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb642.html">Staatliche Graphische Sammlung München</a></td>
+                           <td>48.1444/11.5666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb693.html">Staatsgewerbeschule</a></td>
+                           <td>48.2031/16.3740</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb695.html">Städtische Oper</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb575.html">Stadtpark</a></td>
+                           <td>48.2048/16.3796</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb777.html">Stadttheater</a></td>
+                           <td>47.365/8.5469</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb778.html">Stadttheater</a></td>
+                           <td>53.8697/10.6863</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb781.html">Stadttheater</a></td>
+                           <td>51.5111/7.4616</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb247.html">Stallmann</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb27.html">Ständetheater</a></td>
+                           <td>50.0861/14.4239</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb409.html">Stargard</a></td>
+                           <td>53.3367/15.0499</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb552.html">Station Stadtpark</a></td>
+                           <td>48.2028/16.3796</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb977.html">Steckborn</a></td>
+                           <td>47.6666/8.9833</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb17.html">Steiermark</a></td>
+                           <td>47.38/15.7925</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb405.html">Steinfeld</a></td>
+                           <td>47.7163/13.6170</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb746.html">Steinhof</a></td>
+                           <td>48.1544/16.3293</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb803.html">Steinlechner</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49210.html">Steinriegl</a></td>
+                           <td>48.2666/16.2333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49212.html">Stellingen</a></td>
+                           <td>53.5922/9.9287</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb567.html">Stephansdom</a></td>
+                           <td>48.2085/16.3730</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb150.html">Sternwartestraße</a></td>
+                           <td>48.2309/16.3401</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb683.html">Steyrerhof</a></td>
+                           <td>48.2111/16.3760</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb556.html">Stiftsgymnasium Kremsmünster</a></td>
+                           <td>48.0556/14.131</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb319.html">Straßburg</a></td>
+                           <td>48.5839/7.7455</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb895.html">Strobl</a></td>
+                           <td>47.7166/13.4833</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb607.html">Stubaital</a></td>
+                           <td>47.1/11.3166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb658.html">Stübbenstraße</a></td>
+                           <td>52.4895/13.3379</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb349.html">Stubenring</a></td>
+                           <td>48.2090/16.3817</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb872.html">Stuttgart</a></td>
+                           <td>48.7823/9.1770</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb132.html">Südbahnhof</a></td>
+                           <td>48.1874/16.3798</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb413.html">Südbahnhotel</a></td>
+                           <td>47.6472/15.83</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb969.html">Südtirol</a></td>
+                           <td>46.7166/11.5</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb541.html">Taborstraße</a></td>
+                           <td>48.2212/16.3870</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb951.html">Tanger</a></td>
+                           <td>35.59/-5.9</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb906.html">Taormina</a></td>
+                           <td>37.8535/15.2885</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb823.html">Taubenstraße</a></td>
+                           <td>52.5127/13.3861</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb670.html">Tegel</a></td>
+                           <td>52.5760/13.2938</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb549.html">Tegetthoff-Denkmal</a></td>
+                           <td>48.2183/16.3913</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb764.html">Tegetthoffstraße</a></td>
+                           <td>48.2052/16.3698</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb955.html">Teplice</a></td>
+                           <td>50.6404/13.8245</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb796.html">Thalhof</a></td>
+                           <td>47.7046/15.8470</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb780.html">Thalia-Theater</a></td>
+                           <td>53.5519/9.9982</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb686.html">Thalia-Theater Berlin</a></td>
+                           <td>52.5099/13.4104</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb37.html">Theater an der Wien</a></td>
+                           <td>48.1994/16.3642</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb692.html">Theater des Westens</a></td>
+                           <td>52.5059/13.3290</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb40.html">Theater in der Josefstadt</a></td>
+                           <td>48.2095/16.3511</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb610.html">Théâtre Antoine</a></td>
+                           <td>48.8705/2.3553</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb612.html">Théâtre de l'Œuvre</a></td>
+                           <td>48.8809/2.3285</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb560.html">Théâtre libre</a></td>
+                           <td>48.8705/2.3553</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb432.html">Thüringen</a></td>
+                           <td>50.9166/11.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb423.html">Tirol</a></td>
+                           <td>47.25/11.3333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb636.html">Tlumatsch</a></td>
+                           <td>48.8640/25.0032</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49222.html">Toggenburg</a></td>
+                           <td>47.3085/9.1529</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb898.html">Toulon</a></td>
+                           <td>43.1244/5.9283</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb954.html">Trient</a></td>
+                           <td>46.0678/11.1210</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb873.html">Triest</a></td>
+                           <td>45.6666/13.7666</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49084.html">Troja</a></td>
+                           <td>39.9573/26.2390</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb38444.html">Tschechoslowakei</a></td>
+                           <td>50.0829/14.4667</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1020.html">Tschita</a></td>
+                           <td>52.0317/113.5008</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb917.html">Turin</a></td>
+                           <td>45.0704/7.6868</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb773.html">Türkei</a></td>
+                           <td>39.0/35.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb113.html">Türkenschanzpark</a></td>
+                           <td>48.2351/16.3335</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb970.html">Uffizien</a></td>
+                           <td>43.7684/11.2559</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb666.html">Ukraine</a></td>
+                           <td>49.0/32.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb351.html">Ulica Powstańców Śląskich</a></td>
+                           <td>51.0944/17.0215</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb35512.html">Ungarn</a></td>
+                           <td>47.0/20.0</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb617.html">Universität Innsbruck</a></td>
+                           <td>47.2630/11.3838</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb805.html">Universität Tokio</a></td>
+                           <td>35.7133/139.7622</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb386.html">Universität Wien</a></td>
+                           <td>48.2130/16.3608</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb877.html">Unterach am Attersee</a></td>
+                           <td>47.8049/13.4872</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb216.html">Unter den Linden</a></td>
+                           <td>52.5169/13.3883</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb630.html">Untere Augartenstraße</a></td>
+                           <td>48.2210/16.3732</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb619.html">Unter Sankt Veit</a></td>
+                           <td>48.1869/16.2844</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1013.html">Urania</a></td>
+                           <td>48.2114/16.3839</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49091.html">Urfahr-Umgebung</a></td>
+                           <td>48.4251/14.2745</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb946.html">Vahrn</a></td>
+                           <td>46.7390/11.6374</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb928.html">Varese</a></td>
+                           <td>45.8290/8.8219</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb1002.html">Vatikan</a></td>
+                           <td>41.9022/12.4533</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb220.html">Veitlissengasse</a></td>
+                           <td>48.1866/16.2597</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb909.html">Velden</a></td>
+                           <td>46.6190/14.0312</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb590.html">Veldes</a></td>
+                           <td>46.3691/14.1136</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb462.html">Venedig</a></td>
+                           <td>45.4371/12.3326</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb422.html">Venedig in Wien</a></td>
+                           <td>48.2169/16.3946</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49118.html">Vent</a></td>
+                           <td>46.8666/10.9333</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb43406.html">Vereinigte Staaten von Amerika (USA)</a></td>
+                           <td>39.76/-98.5</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb322.html">Vereinshaus</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44153.html">Verona</a></td>
+                           <td>45.4299/10.9844</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb515.html">Verwaltungsgerichtshof</a></td>
+                           <td>48.2057/16.375</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb56.html">VI., Mariahilf</a></td>
+                           <td>48.1952/16.3503</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44151.html">Vicenza</a></td>
+                           <td>45.5467/11.5475</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb660.html">Victoria Embankment</a></td>
+                           <td>51.5117/-0.1057</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb144.html">Villa Mauthner-Markhof</a></td>
+                           <td>47.6506/15.8214</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb749.html">Villa Schäffler</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb156.html">Villa Trieste</a></td>
+                           <td>45.5051/12.6402</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb376.html">Villa Wahnfried</a></td>
+                           <td>49.9411/11.5822</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb123.html">Villenes-sur-Seine</a></td>
+                           <td>48.9413/1.9913</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb280.html">Volksbühne</a></td>
+                           <td>48.2011/16.3492</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb103.html">Volksgarten</a></td>
+                           <td>48.2080/16.3615</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb599.html">Volkshochschule Ottakring</a></td>
+                           <td>48.2066/16.3339</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb28.html">Volksoper</a></td>
+                           <td>48.2244/16.3503</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb20.html">Volkstheater</a></td>
+                           <td>48.2051/16.3566</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb39.html">Volkstheater in Rudolphsheim</a></td>
+                           <td>48.1903/16.3247</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb957.html">Vorderbrühl</a></td>
+                           <td>48.0815/16.2610</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb526.html">Votivkirche</a></td>
+                           <td>48.2152/16.3591</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb531.html">Wachau</a></td>
+                           <td>48.3333/15.4166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb533.html">Währinger Cottage</a></td>
+                           <td>48.2330/16.3419</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb727.html">Währinger Gürtel</a></td>
+                           <td>48.2247/16.3479</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb312.html">Währingerstraße</a></td>
+                           <td>48.2224/16.3452</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb701.html">Waldandacht</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb440.html">Wallgasse</a></td>
+                           <td>48.1915/16.3396</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb888.html">Warschau</a></td>
+                           <td>52.2297/21.0117</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb931.html">Weer</a></td>
+                           <td>47.3099/11.6559</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb141.html">Weidenplan</a></td>
+                           <td>51.4886/11.9726</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44392.html">Weidling</a></td>
+                           <td>48.291/16.3086</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb44394.html">Weidlingbach</a></td>
+                           <td>48.2666/16.25</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb197.html">Weimar</a></td>
+                           <td>50.9736/11.3380</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb342.html">Weimarer Straße</a></td>
+                           <td>48.2203/16.3565</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb125.html">Weinrestaurant Christian Hansen</a></td>
+                           <td>51.1052/17.0314</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb221.html">Weinrestaurant zum Treppchen</a></td>
+                           <td>52.5170/13.3842</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb601.html">Weißhappel Fleischselchwaren</a></td>
+                           <td>48.2091/16.3701</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb428.html">Welsberg-Taisten</a></td>
+                           <td>46.7577/12.1055</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb438.html">Westbahnhof-Restaurant</a></td>
+                           <td>48.1965/16.3378</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb50.html">Wien</a></td>
+                           <td>48.2066/16.3734</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb633.html">Wiener Kammerspiele</a></td>
+                           <td>48.2111/16.3758</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb587.html">Wiener Neustadt</a></td>
+                           <td>47.8/16.25</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb883.html">Wiesbaden</a></td>
+                           <td>50.0825/8.2493</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb723.html">Wildbad Waldbrunn</a></td>
+                           <td>46.7512/12.1012</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb594.html">Wilhelmsaue</a></td>
+                           <td>52.4854/13.3224</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb593.html">Wilmersdorf</a></td>
+                           <td>52.4833/13.3166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb998.html">Winterbierhaus</a></td>
+                           <td>48.2120/16.3698</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb620.html">Winzerstraße</a></td>
+                           <td>48.1861/16.2617</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb382.html">Wohllebengasse</a></td>
+                           <td>48.1964/16.3740</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb338.html">Wollzeile</a></td>
+                           <td>48.2085/16.3759</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb685.html">Wurstelprater</a></td>
+                           <td>48.2147/16.4022</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb852.html">Würzburg</a></td>
+                           <td>49.7939/9.9512</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb63.html">XIII., Hietzing</a></td>
+                           <td>48.1754/16.2910</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb64.html">XIV., Penzing</a></td>
+                           <td>48.2/16.3</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb69.html">XIX., Döbling</a></td>
+                           <td>48.25/16.3330</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb66.html">XVI., Ottakring</a></td>
+                           <td>48.2166/16.3</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb68.html">XVIII., Währing</a></td>
+                           <td>48.2333/16.3166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb73.html">XXIII., Liesing</a></td>
+                           <td>48.1333/16.3</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb134.html">Zell am Ziller</a></td>
+                           <td>47.2298/11.8853</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb584.html">Zentralkino</a></td>
+                           <td>48.2136/16.3799</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb49106.html">Zinkenbach</a></td>
+                           <td>47.7333/13.4166</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb762.html">Zistelalm</a></td>
+                           <td>47.7950/13.1144</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb122.html">Zoologischer Garten</a></td>
+                           <td>55.6728/12.5211</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb625.html">Zum goldenen Stern</a></td>
+                           <td>48.0812/16.2611</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb36.html">Zum grünen Anker</a></td>
+                           <td>48.2072/16.3750</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb527.html">Zum Lothringer</a></td>
+                           <td>48.2082/16.3667</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb79.html">Zum Paradiesgarten (Inh. Joh. Hauswirth)</a></td>
+                           <td>48.2176/16.4005</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb116.html">Zum rothen Igel</a></td>
+                           <td>48.2101/16.3713</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb110.html">Zum rothen Rössel</a></td>
+                           <td>48.1950/16.3672</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb227.html">Zum Schutzengel</a></td>
+                           <td></td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb97.html">Zum Weingartl</a></td>
+                           <td>48.2005/16.3647</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb38.html">Zur goldenen Glocke</a></td>
+                           <td>48.1988/16.3495</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb484.html">Zürich</a></td>
+                           <td>47.3717/8.5422</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb705.html">Zur Linde</a></td>
+                           <td>48.2104/16.3747</td>
+                        </tr>
+                        <tr>
+                           <td><a href="pmb688.html">Zur Stadt Pilsen (Inh. Johann Wedel)</a></td>
+                           <td>52.5168/13.3916</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div class="wrapper fundament-default-footer" id="wrapper-footer-full" style="margin-top: 4em;">
+            <div class="container" id="footer-full-content" tabindex="-1">
+               <div class="footer-separator">
+                  CONTACT
+                  </div>
+               <div class="row">
+                  <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6  ml-auto  text-center ">
+                     <div class="textwidget custom-html-widget"><a href="/"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo" /></a></div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-3 col-sm-3">
+                     <div class="textwidget custom-html-widget">
+                        <p>
+                           ACDH-CH OEAW
+                           <br />
+                           Austrian Centre for Digital Humanities and Cultural Heritage
+                           <br />
+                           Austrian Academy of Sciences
+                           </p>
+                        <p>
+                           Bäckerstraße 13
+                           <br />
+                           1010 Vienna
+                           </p>
+                        <p>
+                           T: +43 1 51581-2200
+                           <br />
+                           E: <a href="mailto:acdh@oeaw.ac.at">acdh@oeaw.ac.at</a></p>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto">
+                     <div class="row">
+                        <div class="textwidget custom-html-widget">
+                           <h6 class="font-weight-bold">HELPDESK</h6>
+                           <p>ACDH-CH runs a helpdesk offering advice for questions related to various digital humanities
+                              topics.</p>
+                           <p><a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a></p>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto" style="margin-left:0 !important;">
+                           <div class="textwidget custom-html-widget">
+                              <p style="margin-bottom:0 !important;">Social: </p>
+                           </div>
+                           <div class="row">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                                       <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum/Imprint</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script>
+                        $(document).ready(function () {
+                        createDataTable('tocTable')
+                        });
+                    </script></div>
+   </body>
+</html>
