@@ -105,7 +105,7 @@
                                     select="concat(substring-after(child::tei:idno[@type = 'pmb'][1], 'https://pmb.acdh.oeaw.ac.at/entity/'), '/detail')"/>
                                 <xsl:attribute name="href">
                                     <xsl:value-of
-                                        select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/person/', $pmb-path-ende)"
+                                        select="concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/institution/', $pmb-path-ende)"
                                     />
                                 </xsl:attribute>
                                 <xsl:attribute name="target">
@@ -176,13 +176,6 @@
             </div>
         </div>
     </xsl:template>
-    <xsl:function name="mam:pmbChange">
-        <xsl:param name="url" as="xs:string"/>
-        <xsl:param name="entitytyp" as="xs:string"/>
-        <xsl:value-of select="
-                concat('https://pmb.acdh.oeaw.ac.at/apis/entities/entity/', $entitytyp, '/',
-                substring-after($url, 'https://pmb.acdh.oeaw.ac.at/entity/'), '/detail')"/>
-    </xsl:function>
     <xsl:function name="mam:ahref-namen">
         <xsl:param name="typityp" as="xs:string"/>
         <xsl:choose>
