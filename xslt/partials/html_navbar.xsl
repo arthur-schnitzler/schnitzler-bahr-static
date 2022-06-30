@@ -11,7 +11,7 @@
                 <div class="container-fluid">
                     <!-- Your site title as branding in the menu -->
                     <a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url">
-                        <img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/favicon.png" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo"/>
+                        <img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/as_hb_briefe.jpg" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo"/>
                     </a><!-- end custom logo -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"/>
@@ -19,8 +19,21 @@
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <!-- Your menu goes here -->
                         <ul id="main-menu" class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">Zur Edition</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Zur Edition
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="zum-projekt.html">Zum Projekt</a>
+                                    <a class="dropdown-item" href="buchausgaben.html">Buchausgaben</a>
+                                    <a class="dropdown-item" href="theaterbesuche.html">Theaterbesuche</a>
+                                    <a class="dropdown-item" href="tagebuchausz++ge.html">Aus Schnitzlers Tagebuch</a>
+                                    <a class="dropdown-item" href="richtlinien.html">Editorische Richtlinien</a>
+                                    <a class="dropdown-item" href="korrespondenz.html">Zur Korrespondenz</a>
+                                    <a class="dropdown-item" href="nachwort.html">Nachwort</a>
+                                    <a class="dropdown-item" href="dank.html">Danksagung</a>
+                                    <a class="dropdown-item" href="errata.html">Errata</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="calendar.html">Kalender</a>
