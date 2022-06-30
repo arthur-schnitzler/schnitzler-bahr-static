@@ -24,7 +24,6 @@
                                     Zur Edition
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="zum-projekt.html">Zum Projekt</a>
                                     <a class="dropdown-item" href="buchausgaben.html">Buchausgaben</a>
                                     <a class="dropdown-item" href="theaterbesuche.html">Theaterbesuche</a>
                                     <a class="dropdown-item" href="tagebuchausz++ge.html">Aus Schnitzlers Tagebuch</a>

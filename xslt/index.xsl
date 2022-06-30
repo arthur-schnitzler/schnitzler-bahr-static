@@ -37,8 +37,8 @@
                                         <h1>
                                             <xsl:value-of select="$project_title"/>
                                         </h1>
-                                        <h2>Herausgegeben von Kurt Ifkovits, 
-                                          Martin Anton Müller</h2>
+                                        <h2>Herausgegeben von Kurt Ifkovits, Martin Anton
+                                            Müller</h2>
                                         <p>Digitale Edition</p>
                                     </div>
                                 </div>
@@ -50,21 +50,23 @@
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
                             <div class="col-md-8" style="margin: 0 auto; ">
-                                <p style="font-size:18px;line-heigth:27px;"></p>
-                                <p style="font-size:18px;line-heigth:27px;">Diese Website ist ein Nebenprodukt jener Daten, 
-                                    die für die Buchedition »Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931« erstellt wurden. 
-                                    Auf die im Buch vorgenommenen Kürzungen von bereits publizierten Texten wie Schnitzlers Tagebuch und Bahrs Aufzeichnungen 
-                                    aber auch der Briefe von und an Dritte wird in der Online-Präsentation verzichtet. 
-                                    Das hat den großen Vorteil, einen größeren durchsuchbaren Textkorpus zur Verfügung stellen zu können. 
-                                    Zugleich ist es uns aber ein Anliegen darauf hinzuweisen, dass bei jenen Teilen, die nicht im Buch erscheinen, 
-                                    auch nicht die gleiche Sorgfalt bei der Erfassung der Texte angewandt wurde. Für die Mitteilung von Scanfehlern 
-                                    und sonstigen Errata sind wir dankbar.</p>
+                                <p style="font-size:18px;line-heigth:27px;"/>
+                                <p style="font-size:18px;line-heigth:27px;">Diese Website ist ein
+                                    Nebenprodukt jener Daten, die für die Buchedition »<hi rends="italics">Arthur
+                                    Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente
+                                    1891–1931</hi>« erstellt wurden. Auf die im Buch vorgenommenen
+                                    Kürzungen von bereits publizierten Texten wie Schnitzlers
+                                    Tagebuch und Bahrs Aufzeichnungen aber auch der Briefe von und
+                                    an Dritte wird in der Online-Präsentation verzichtet. Das hat
+                                    den großen Vorteil, ein größeres durchsuchbares Textkorpus zur
+                                    Verfügung stellen zu können.</p>
                                 <p style="font-size:18px;line-heigth:27px;">Die <a target="_blank"
-                                    href="https://www.wallstein-verlag.de/9783835332287-hermann-bahr-arthur-schnitzler-briefwechsel-aufzeichnungen-dokumente-1891-1931.html">Buchausgabe</a>
-                                    erschien 2018 im Wallstein-Verlag.</p>
+                                        href="https://www.wallstein-verlag.de/9783835332287-hermann-bahr-arthur-schnitzler-briefwechsel-aufzeichnungen-dokumente-1891-1931.html"
+                                        >Buchausgabe</a> erschien 2018 im Wallstein-Verlag.</p>
                                 <p>Ein <a target="_blank"
-                                    href="https://www.oapen.org/search?identifier=647851">PDF</a> (Open Access) des Buches kann
-                                    auf oapen.org heruntergeladen werden</p>
+                                        href="https://www.oapen.org/search?identifier=647851"
+                                        >PDF</a> (Open Access) des Buches kann auf oapen.org
+                                    heruntergeladen werden</p>
                             </div>
                         </div>
                     </div>
@@ -128,13 +130,12 @@
                                         </div>
                                         <div class="card-header">
                                             <h3>
-                                                <i class="fa-solid fa-user-group"/> Institutionsregister
-                                            </h3>
+                                                <i class="fa-solid fa-user-group"/>
+                                                Institutionsregister </h3>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            
                         </div>
                     </div>
                     <xsl:call-template name="html_footer"/>
