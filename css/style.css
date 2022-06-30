@@ -545,14 +545,14 @@ div.col-md-2 {
     color: black
 }
 
-.yearbtn {
+/*.yearbtn {
     padding: 2px;
     border-radius: 0;
     background-color: transparent;
     border: none;
     font-size: 0.9rem;
 }
-
+*/
 .mb-2 {
     color: black;
     max-width: 850px}
@@ -1137,3 +1137,19 @@ a.black-workbutton {
     border: 0;
 }
 
+
+/*** calendar ***/
+
+
+#years-table .btn-light:focus, #years-table .btn-light.focus {
+    text-decoration: underline;
+    text-decoration-color: #F9bd63;
+    text-decoration-thickness: 4px
+}
+
+.yearbtn {
+    padding: 2px;
+    font-size: 0.9rem;
+    border: none;
+    background-color: transparent;
+}
