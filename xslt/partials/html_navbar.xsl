@@ -26,7 +26,7 @@
                                 <div class="dropdown-menu">
                                     <a class="dropdown-item" href="buchausgaben.html">Buchausgaben</a>
                                     <a class="dropdown-item" href="theaterbesuche.html">Theaterbesuche</a>
-                                    <a class="dropdown-item" href="tagebuchausz++ge.html">Aus Schnitzlers Tagebuch</a>
+                                    <a class="dropdown-item" href="tagebuchauszuege.html">Aus Schnitzlers Tagebuch</a>
                                     <a class="dropdown-item" href="richtlinien.html">Editorische Richtlinien</a>
                                     <a class="dropdown-item" href="korrespondenz.html">Zur Korrespondenz</a>
                                     <a class="dropdown-item" href="nachwort.html">Nachwort</a>

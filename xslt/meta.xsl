@@ -28,7 +28,7 @@
                     <div class="container-fluid">                        
                         <div class="card">
                             <div class="card-header">
-                                <h1 style="display:inline-block;margin-bottom:0;padding-right:5px;"><xsl:value-of select="$doc_title"/></h1>
+                                <h2 align="center"><xsl:value-of select="$doc_title"/></h2>
                             </div>
                             <div class="card-body-index">                                
                                 <xsl:apply-templates select=".//tei:body"></xsl:apply-templates>
