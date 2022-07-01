@@ -23,7 +23,7 @@
         />
     </xsl:variable>
     <xsl:variable name="teiSource">
-        <xsl:value-of select="data(tei:TEI/@xml:id)"/>
+        <xsl:value-of select="concat(data(tei:TEI/@xml:id),'.xml')"/>
     </xsl:variable>
     <xsl:variable name="link">
         <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
@@ -451,7 +451,7 @@
                                                   Hermann Bahr, Arthur Schnitzler: Briefwechsel,
                                                   Aufzeichnungen, Dokumente (1891–1931). Digitale
                                                   Edition Hg. Kurt Ifkovits, Martin Anton Müller,
-                                                  (Stand <xsl:value-of select="$currentDate"/>),
+                                                  (Stand <xsl:value-of select="$currentDate"/>) 
                                                   <xsl:value-of select="$handle"/>.</p>
                                                   <h4>Quellcode</h4>
                                                   <p>Code als <a class="ml-3" data-toggle="tooltip"
@@ -481,7 +481,7 @@
                             </div>
                         </div>
                     </div>
-                    <xsl:variable name="back-element" select="tei:TEI/tei:back" as="node()"/>
+                    <xsl:variable name="back-element" select="tei:TEI/tei:text/tei:back" as="node()"/>
                     <xsl:for-each
                         select="descendant::tei:rs[descendant::tei:rs or contains(@ref, ' ')]">
                         <xsl:variable name="modalId">
