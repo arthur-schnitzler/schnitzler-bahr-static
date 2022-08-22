@@ -136,14 +136,14 @@
                             </div>
                         </div>
                     </div>
+                    <xsl:call-template name="html_footer"/>
+                    <script>
+                        $(document).ready(function () {
+                        createDataTable('tocTable')
+                        });
+                    </script>
                 </div>
             </body>
-            <xsl:call-template name="html_footer"/>
-            <script>
-                $(document).ready(function () {
-                createDataTable('tocTable')
-                });
-            </script>
         </html>
         <xsl:for-each select=".//tei:person[@xml:id]">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
