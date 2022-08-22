@@ -12,7 +12,7 @@
     <xsl:key name="work-day-lookup" match="item/@when" use="ref"/>
     <xsl:variable name="teiSource" select="'listwork.xml'"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Verzeichnis erwähnter (literarischer) Werke'"/>
+        <xsl:variable name="doc_title" select="'Verzeichnis erwähnter Werke'"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
             <xsl:call-template name="html_head">
@@ -30,7 +30,7 @@
                                 <h3>
                                     <a>
                                         <i class="fas fa-info"
-                                            title="Info zum Verzeichnis der Arbeiten von Arthur Schnitzler und anderer im Tagebuch erwähnter (literarischer) Werke"
+                                            title="Info zum Verzeichnis der Arbeiten von Arthur Schnitzler, Hermann Bahr und anderer"
                                             data-toggle="modal" data-target="#exampleModal"/>
                                     </a>
                                     <xsl:text> | </xsl:text>

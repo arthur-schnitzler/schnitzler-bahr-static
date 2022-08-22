@@ -11,11 +11,9 @@
     <xsl:import href="./partials/person.xsl"/>
     <xsl:variable name="teiSource" select="'listperson.xml'"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title">
-            <xsl:value-of select="'Personen'"/>
-        </xsl:variable>
+        <xsl:variable name="doc_title" select="'Verzeichnis erwähnter Werke'"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
-        <html xmlns="http://www.w3.org/1999/xhtml">
+        <html lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
@@ -43,7 +41,7 @@
                             <div class="card">
                                 <div class="w-100 text-center">
                                     <div class="spinner-grow table-loader" role="status">
-                                        <span class="sr-only">Lade…</span>
+                                        <span class="sr-only">Wird geladen…</span>
                                     </div>
                                 </div>
                                 <table class="table table-striped display" id="tocTable"
