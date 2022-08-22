@@ -21,7 +21,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     <div class="container-fluid">
-                        <div class="card" style="width: 100%;">
+                        <div class="card">
                             <div class="card-header" style="text-align:center">
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
@@ -38,12 +38,7 @@
                                     </a>
                                 </h3>
                             </div>
-                            <div class="card">
-                                <div class="w-100 text-center">
-                                    <div class="spinner-grow table-loader" role="status">
-                                        <span class="sr-only">Wird geladen…</span>
-                                    </div>
-                                </div>
+                            <div class="card-body">
                                 <table class="table table-striped display" id="tocTable"
                                     style="width:100%">
                                     <thead>
@@ -135,17 +130,19 @@
                                 </table>
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
-            </body>
+            
             <xsl:call-template name="html_footer"/>
             <script>
                 $(document).ready(function () {
                 createDataTable('tocTable')
                 });
             </script>
+                </div>
+            </body>
         </html>
-        <xsl:for-each select=".//tei:person[@xml:id]">
+        <!--<xsl:for-each select=".//tei:person[@xml:id]">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
             <xsl:variable name="name">
                 <xsl:choose>
@@ -197,7 +194,7 @@
                     </body>
                 </html>
             </xsl:result-document>
-        </xsl:for-each>
+        </xsl:for-each>-->
     </xsl:template>
     <xsl:function name="mam:normalize-date">
         <xsl:param name="date-string-mit-spitze" as="xs:string?"/>
