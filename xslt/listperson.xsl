@@ -142,7 +142,7 @@
                 </div>
             </body>
         </html>
-        <!--<xsl:for-each select=".//tei:person[@xml:id]">
+        <xsl:for-each select=".//tei:person[@xml:id]">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
             <xsl:variable name="name">
                 <xsl:choose>
@@ -194,7 +194,7 @@
                     </body>
                 </html>
             </xsl:result-document>
-        </xsl:for-each>-->
+        </xsl:for-each>
     </xsl:template>
     <xsl:function name="mam:normalize-date">
         <xsl:param name="date-string-mit-spitze" as="xs:string?"/>
