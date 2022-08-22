@@ -6,7 +6,7 @@
     exclude-result-prefixes="xsl tei xs" version="2.0">
     <xsl:template match="/" name="nav_bar">
         <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite">
-            <a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a>
+            <a class="skip-link screen-reader-text sr-only" href="#content">Zum Inhalt</a>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
                     <!-- Your site title as branding in the menu -->
@@ -62,7 +62,7 @@
                                 </div>
                             </li>-->
                         </ul>
-                        <a target="search.html">
+                        <a href="search.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
                                     <circle cx="11" cy="11" r="8"/>
                                     <line x1="21" y1="21" x2="16.65" y2="16.65"/>

@@ -27,17 +27,6 @@
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
                                 </h1>
-                                <h3>
-                                    <a>
-                                        <i class="fas fa-info"
-                                            title="Info zum Verzeichnis der Arbeiten von Arthur Schnitzler, Hermann Bahr und anderer"
-                                            data-toggle="modal" data-target="#exampleModal"/>
-                                    </a>
-                                    <xsl:text> | </xsl:text>
-                                    <a href="{$teiSource}">
-                                        <i class="fas fa-download" title="Download XML/TEI"/>
-                                    </a>
-                                </h3>
                             </div>
                             <div class="card">
                                 <div class="w-100 text-center">
