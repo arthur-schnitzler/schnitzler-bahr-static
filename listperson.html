@@ -28,11 +28,9 @@
                         <li class="nav-item"><a class="nav-link" href="listwork.html">Werke</a></li>
                         <li class="nav-item"><a class="nav-link" href="listplace.html">Orte</a></li>
                         <li class="nav-item"><a class="nav-link" href="listorg.html">Institutionen</a></li>
-                     </ul>
-                     <form class="form-inline my-2 my-lg-0 navbar-search-form" method="get" action="search.html" role="search"><input class="form-control navbar-search" name="q" type="text" placeholder="Suche" aria-label="Suche" /><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+                     </ul><a target="search.html"><button type="submit" class="navbar-search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
                               <circle cx="11" cy="11" r="8"></circle>
-                              <line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button></form>
-                  </div>
+                              <line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg></button></a></div>
                </div>
             </nav>
          </div>
@@ -42,7 +40,10 @@
                   <h1>Verzeichnis erwähnter Personen</h1>
                   <h3><a><i class="fas fa-info" title="Info zu diesem Personenregister" data-toggle="modal" data-target="#exampleModal"></i></a> | <a href="listperson.xml"><i class="fas fa-download" title="Download XML/TEI"></i></a></h3>
                </div>
-               <div class="card-body">
+               <div class="card">
+                  <div class="w-100 text-center">
+                     <div class="spinner-grow table-loader" role="status"><span class="sr-only">Wird geladen…</span></div>
+                  </div>
                   <table class="table table-striped display" id="tocTable" style="width:100%">
                      <thead>
                         <tr>
@@ -12352,9 +12353,9 @@
             </div>
          </div>
          <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;"><a href="https://www.oeaw.ac.at/oeaw/impressum">Impressum</a></div><script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"></script><script type="text/javascript" src="dist/fundament/js/fundament.min.js"></script><script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.11.0/b-2.0.0/b-html5-2.0.0/cr-1.5.4/r-2.2.9/sp-1.4.0/datatables.min.js"></script><script type="text/javascript" src="js/dt.js"></script><script>
-                $(document).ready(function () {
-                createDataTable('tocTable')
-                });
-            </script></div>
+                        $(document).ready(function () {
+                        createDataTable('tocTable')
+                        });
+                    </script></div>
    </body>
 </html>
