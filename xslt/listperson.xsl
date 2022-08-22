@@ -11,7 +11,7 @@
     <xsl:import href="./partials/person.xsl"/>
     <xsl:variable name="teiSource" select="'listperson.xml'"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Verzeichnis erwähnter Werke'"/>
+        <xsl:variable name="doc_title" select="'Verzeichnis erwähnter Personen'"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
             <xsl:call-template name="html_head">
@@ -21,7 +21,7 @@
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     <div class="container-fluid">
-                        <div class="card">
+                        <div class="card" style="width: 100%;">
                             <div class="card-header" style="text-align:center">
                                 <h1>
                                     <xsl:value-of select="$doc_title"/>
