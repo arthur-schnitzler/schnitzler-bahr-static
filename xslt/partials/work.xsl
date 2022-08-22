@@ -23,6 +23,7 @@
                     </xsl:if>
                 </span>
             </div>
+            <xsl:if test="tei:author">
             <div id="autor_innen" class="mt-2">
                 <span class="infodesc mr-2">
                     <legend>Geschaffen von</legend>
@@ -131,7 +132,8 @@
                     </xsl:choose>
                 </span>
             </div>
-            <p/>
+                <p/>
+            </xsl:if>
             <div>
                 <xsl:for-each
                     select="child::tei:idno[not(@type = 'schnitzler-bahr') and not(@type = 'pmb')]">
@@ -219,10 +221,9 @@
                 test="tei:title[@type = 'bibliografische_angabe' or @type = 'uri_worklink' or @type = 'uri_anno']">
                 <div id="labels" class="mt-2">
                     <span class="infodesc mr-2">
-                        <legend>Links</legend>
                         <ul>
                             <xsl:for-each select="tei:title[@type = 'bibliografische_angabe']">
-                                <li>
+                                <li><xsl:text>Bibliografische Angabe: </xsl:text>
                                     <xsl:value-of select="."/>
                                 </li>
                             </xsl:for-each>
