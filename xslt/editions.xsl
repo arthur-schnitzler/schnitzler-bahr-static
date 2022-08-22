@@ -112,32 +112,50 @@
                                             onclick="toggleVisibility()"> ANHANG </a>
                                     </div>
                                     <div id="registerDiv" class="d-none">
+                                        <xsl:variable name="kommentar" as="xs:boolean">
+                                            <xsl:choose>
+                                                <xsl:when test="descendant::tei:note[@type='commentary'] or descendant::tei:note[@type='textConst'] or descendant::tei:hi[@type='underline' and @n &gt; 2]">
+                                                    <xsl:value-of select="true()"/>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:value-of select="false()"/>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:variable>
                                         <nav>
                                             <div class="nav nav-tabs active" id="nav-tab" role="tablist">
-                                                <a class="nav-item nav-link" id="nav-kommentar-tab"
+                                                <xsl:if test="$kommentar"><a class="nav-item nav-link" id="nav-kommentar-tab"
                                                   data-toggle="tab" href="#nav-kommentar" role="tab"
                                                   aria-controls="nav-kommentar" aria-selected="true"
-                                                  >Kommentar</a>
+                                                  >Kommentar</a></xsl:if>
                                                 <a class="nav-item nav-link" id="nav-archiv-tab"
                                                   data-toggle="tab" href="#nav-archiv" role="tab"
                                                   aria-controls="nav-archiv" aria-selected="true"
                                                   >Archiv</a>
+                                                <xsl:if test="descendant::tei:back/tei:listPerson">
                                                 <a class="nav-item nav-link" id="nav-person-tab"
                                                   data-toggle="tab" href="#nav-person" role="tab"
                                                   aria-controls="nav-person" aria-selected="true"
                                                   >Personen</a>
+                                                </xsl:if>
+                                                <xsl:if test="descendant::tei:back/tei:listBibl">
                                                 <a class="nav-item nav-link" id="nav-werk-tab"
                                                   data-toggle="tab" href="#nav-werk" role="tab"
                                                   aria-controls="nav-werk" aria-selected="false"
                                                   >Werke</a>
+                                                </xsl:if>
+                                                <xsl:if test="descendant::tei:back/tei:listOrg">
                                                 <a class="nav-item nav-link" id="nav-org-tab"
                                                   data-toggle="tab" href="#nav-org" role="tab"
                                                   aria-controls="nav-org" aria-selected="false"
                                                   >Institutionen</a>
+                                                </xsl:if>
+                                                <xsl:if test="descendant::tei:back/tei:listPlace">
                                                 <a class="nav-item nav-link" id="nav-ort-tab"
                                                   data-toggle="tab" href="#nav-ort" role="tab"
                                                   aria-controls="nav-ort" aria-selected="false"
                                                   >Orte</a>
+                                                </xsl:if>
                                                 <a class="nav-item nav-link"
                                                   id="nav-verschiedenes-tab" data-toggle="tab"
                                                   href="#nav-verschiedenes" role="tab"
@@ -481,7 +499,7 @@
                             </div>
                         </div>
                     </div>
-                    <xsl:variable name="back-element" select="tei:TEI/tei:text/tei:back" as="node()"/>
+                    <xsl:variable name="back-element" select="tei:TEI/tei:text/tei:back" as="node()?"/>
                     <xsl:for-each
                         select="descendant::tei:rs[descendant::tei:rs or contains(@ref, ' ')]">
                         <xsl:variable name="modalId">

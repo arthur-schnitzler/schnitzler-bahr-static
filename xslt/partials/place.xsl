@@ -186,10 +186,10 @@
             
 
             <hr/>
-            <div id="mentions">
-                <h3>Erwähnungen</h3>
+            <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                <legend>Erwähnungen</legend>
                 <ul>
-                    <xsl:for-each select=".//tei:event">
+                    <xsl:for-each select=".//tei:note[@type='mentions']">
                         <xsl:variable name="linkToDocument">
                             <xsl:value-of
                                 select="replace(tokenize(data(.//@target), '/')[last()], '.xml', '.html')"
@@ -198,7 +198,7 @@
                         <xsl:choose>
                             <xsl:when test="position() lt $showNumberOfMentions + 1">
                                 <li>
-                                    <xsl:value-of select=".//tei:title"/>
+                                    <xsl:value-of select="."/>
                                     <xsl:text> </xsl:text>
                                     <a href="{$linkToDocument}">
                                         <i class="fas fa-external-link-alt"/>
@@ -208,10 +208,10 @@
                         </xsl:choose>
                     </xsl:for-each>
                 </ul>
-                <xsl:if test="count(.//tei:event) gt $showNumberOfMentions + 1">
+                <xsl:if test="count(.//tei:note[@type='mentions']) gt $showNumberOfMentions + 1">
                     <p>Anzahl der Erwähnungen limitiert, klicke <a href="{$selfLink}">hier</a> für
                         eine vollständige Auflistung</p>
-                </xsl:if>
+                </xsl:if></span>
             </div>
         </div>
         </div>

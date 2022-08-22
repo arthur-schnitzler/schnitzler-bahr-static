@@ -23,11 +23,11 @@ for x in indices:
         node_id = node.attrib['{http://www.w3.org/XML/1998/namespace}id']
         for mention in d[node_id]:
             file_name, doc_title = mention.split('_____')
-            ptr = ET.Element('{http://www.tei-c.org/ns/1.0}ptr')
-            ptr.attrib['target'] = file_name
-            ptr.attrib['type'] = "erwähnt in"
-            ptr.attrib['source'] = doc_title
-            node.append(ptr)
+            note = ET.Element('{http://www.tei-c.org/ns/1.0}note')
+            note.attrib['target'] = file_name
+            note.attrib['type'] = "mentions"
+            note.text = doc_title
+            node.append(note)
     doc.tree_to_file(file=x)
 
 print("DONE")
