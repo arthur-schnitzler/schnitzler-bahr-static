@@ -11,13 +11,12 @@
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/org.xsl"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Institutionenregister'"/>
-        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-        <html>
+        <xsl:variable name="doc_title" select="'Erwähnte Institutionen, Einrichtungen und Redaktionen'"/>
+        <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
+        <html lang="de">
             <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
-            
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>

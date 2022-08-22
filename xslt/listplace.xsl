@@ -10,9 +10,9 @@
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/place.xsl"/>
     <xsl:template match="/">
-        <xsl:variable name="doc_title" select="'Ortsregister'"/>
+        <xsl:variable name="doc_title" select="'Erwähnte Orte'"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
-        <html>
+        <html lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
             </xsl:call-template>
