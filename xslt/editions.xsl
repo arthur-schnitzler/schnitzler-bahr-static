@@ -23,7 +23,14 @@
         />
     </xsl:variable>
     <xsl:variable name="teiSource">
-        <xsl:value-of select="concat(data(tei:TEI/@xml:id),'.xml')"/>
+        <xsl:choose>
+            <xsl:when test="ends-with(tei:TEI/@xml:id, '.xml')">
+                <xsl:value-of select="data(tei:TEI/@xml:id)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="concat(data(tei:TEI/@xml:id),'.xml')"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:variable>
     <xsl:variable name="link">
         <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
