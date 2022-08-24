@@ -23,7 +23,7 @@
                     
                     <div class="container-fluid">
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header" style="text-align:center">
                                 <h1><xsl:value-of select="$doc_title"/></h1>
                             </div>
                             <div class="card-body">
@@ -32,9 +32,8 @@
                                         <div class="col-md-4">
                                             <div id="stats-container"></div>
                                             <div id="searchbox"></div>
+                                            <div id="current-refinements"></div>
                                             <div id="clear-refinements"></div>
-                                            <ul id="current-refinements"></ul>
-                                            
                                             <h4>Personen</h4>
                                             <div id="refinement-list-persons"></div>
                                             <h4>Orte</h4>
