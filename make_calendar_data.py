@@ -15,8 +15,12 @@ for x in tqdm(files, total=len(files)):
         item['startDate'] = doc.any_xpath('//tei:title[@type="iso-date"]/text()')[0]
     except:
         continue
-    item['id'] = tail.replace('.xml', '.html')
-    data.append(item)
+    try:
+        item['tageszaheler'] = doc.any_xpath('//tei:title[@type="iso-date"]/@n')[0]
+        item['id'] = tail.replace('.xml', '.html')
+        data.append(item)
+    except:
+        continue
 
 print(f"writing calendar data to {out_file}")
 with open(out_file, 'w',  encoding='utf8') as f:
