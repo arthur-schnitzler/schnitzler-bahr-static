@@ -57,24 +57,24 @@
                             </div>
                         </div>
                     </div>
-                    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+                     <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title">Die Kalenderansicht</h5>
+                                    <h5 class="modal-title">Die Briefe in Kalenderansicht</h5>
                                 </div>
                                 <div class="modal-body">
-                                    <p>Über die Kalenderansicht können bestimmte Tage direkt aufgefunden werden.
+                                    <p>Briefe eines bestimmten Tages suchen.
                                     </p>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                     <script type="text/javascript" src="js/calendar.js" charset="UTF-8"/>
+                    <div id="loadModal"/>
                     <xsl:call-template name="html_footer"/>
                 </div>
             </body>
