@@ -202,7 +202,7 @@
                             <xsl:choose>
                                 <xsl:when test="tei:author[2]">
                                     <xsl:text>(mit </xsl:text>
-                                    <xsl:for-each select="tei:author[not(@ref = $author-ref)]">
+                                    <xsl:for-each select="tei:author[not(replace(@ref,'#','') = $author-ref)]">
                                         <xsl:choose>
                                             <xsl:when
                                                 test="tei:persName/tei:forename and tei:persName/tei:surname">
