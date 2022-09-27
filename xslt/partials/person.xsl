@@ -221,6 +221,11 @@
                                                     select="concat(substring-after(tei:persName, ', '), ' ', substring-before(tei:persName, ', '))"
                                                 />
                                             </xsl:when>
+                                            <xsl:when test="contains(., ', ')">
+                                                <xsl:value-of
+                                                    select="concat(substring-after(., ', '), ' ', substring-before(., ', '))"
+                                                />
+                                            </xsl:when>
                                             <xsl:otherwise>
                                                 <xsl:value-of select="."/>
                                             </xsl:otherwise>
@@ -238,9 +243,7 @@
                                             <xsl:text> [Illustration]</xsl:text>
                                         </xsl:if>
                                         <xsl:choose>
-                                            <xsl:when test="position() = last()">
-                                                <xsl:text>: </xsl:text>
-                                            </xsl:when>
+                                            <xsl:when test="position() = last()"/>
                                             <xsl:otherwise>
                                                 <xsl:text>, </xsl:text>
                                             </xsl:otherwise>
