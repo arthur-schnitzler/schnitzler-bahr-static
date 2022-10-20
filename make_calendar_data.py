@@ -12,7 +12,7 @@ for x in tqdm(files, total=len(files)):
     doc = TeiReader(x)
     item['name'] = doc.any_xpath('//tei:title[@level="a"]/text()')[0]
     try:
-        item['startDate'] = doc.any_xpath('//tei:title[@type="iso-date"]/text()')[0]
+        item['startDate'] = doc.any_xpath('//tei:title[@type="iso-date"]/@when-iso')[0]
     except:
         continue
     try:
