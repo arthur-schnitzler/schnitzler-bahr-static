@@ -43,7 +43,7 @@
    <body class="page">
       <div class="hfeed site" id="page">
          <div class="wrapper-fluid wrapper-navbar sticky-navbar" id="wrapper-navbar" itemscope="" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Zum Inhalt</a><nav class="navbar navbar-expand-lg navbar-light">
-               <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-bahr/as_hb_briefe.jpg" class="img-fluid" alt="Schnitzler-Bahr" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+               <div class="container-fluid"><a href="index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="https://shared.acdh.oeaw.ac.at//schnitzler-briefe/project-logo.svg" class="img-fluid" alt="schnitzler-briefe" itemprop="logo" /></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                      <ul id="main-menu" class="navbar-nav">
                         <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Zur Edition
@@ -69,17 +69,17 @@
                   <h1 align="center">Entgegen</h1>
                </div>
                <div class="card-body">
-                  <div xmlns:df="http://example.com/df" xmlns:mam="personalShit" class="card-body-tagebuch w-75">
-                     <div id="erscheinungsdatum" class="mt-2"><span class="infodesc mr-2">
-                           <legend>Erschienen</legend>1. 7. 1902.</span></div>
-                     <div id="autor_innen" class="mt-2"><span class="infodesc mr-2">
-                           <legend>Geschaffen von</legend><a href=".html">Hermann Bahr</a></span></div>
+                  <div xmlns:df="http://example.com/df" xmlns:mam="whatever" class="card-body-index">
+                     <div id="mentions"></div>
+                     <div id="autor_innen">
+                        <p>
+                           <legend>Geschaffen von</legend><a href="pmb10815.html">Hermann Bahr</a></p>
+                     </div>
+                     <div id="erscheinungsdatum" class="mt-2">
+                        <p>
+                           <legend>Erschienen</legend>1. 7. 1902.</p>
+                     </div>
                      <p></p>
-                     <div> <span class="color-inactive"> exemplar</span> <span><a class="briefe-button" href="https://schnitzler-briefe.acdh.oeaw.ac.at/pages/hits.html?searchkey=pmb32332" target="_blank"><span class="color-schnitzler-briefe"> Briefe</span></a></span>   <a class="pmb-button" href="https://pmb.acdh.oeaw.ac.at/apis/entities/entity/work/32332/detail"><span class="color-pmb"> PMB</span></a></div>
-                     <div id="labels" class="mt-2"><span class="infodesc mr-2">
-                           <ul>
-                              <li>Bibliografische Angabe: Neues Wiener Tagblatt, 1. 7. 1902</li>
-                           </ul></span></div>
                      <div id="mentions" class="mt-2"><span class="infodesc mr-2">
                            <legend>Erwähnungen</legend>
                            <ul>
@@ -120,6 +120,14 @@
                   </div>
                   <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto">
                      <div class="row">
+                        <div class="textwidget custom-html-widget"><img src="https://shared.acdh.oeaw.ac.at/schnitzler-briefe/img/fwf-logo_var2.jpg" class="image" alt="ACDH Logo" style="max-width: 70%; height: auto;" title="FWF Logo" /><p></p>
+                           <p>Gefördert aus Mitteln des Wissenschaftsfonds FWF, P31277 (2018–2021) und
+                              P34792 (2021–[2024])</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-3 col-md-4 col-sm-3 ml-auto">
+                     <div class="row">
                         <div class="textwidget custom-html-widget">
                            <h6 class="font-weight-bold">HELPDESK</h6>
                            <p>ACDH-CH betreibt einen Helpdesk mit Rat und Hilfestellung zu verschiedensten Fragen
@@ -133,7 +141,7 @@
                               <p style="margin-bottom:0 !important;">Social: </p>
                            </div>
                            <div class="row">
-                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-bahr-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                              <div class="textwidget custom-html-widget col-md-4"><a id="github-logo" title="GitHub" href="https://github.com/arthur-schnitzler/schnitzler-briefe-static" class="nav-link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
                                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"></path></svg></a></div>
                            </div>
                         </div>
