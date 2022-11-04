@@ -50,39 +50,50 @@
                                             </xsl:variable>
                                             <xsl:variable name="titel"
                                                 select="normalize-space(tei:title[1]/text())"/>
+                                            <xsl:variable name="datum">
+                                                <xsl:choose>
+                                                    <xsl:when test="contains(tei:date/text(), '>&lt;')">
+                                                        <xsl:value-of select="substring-before(tei:date/text(), '>&lt;')"/>
+                                                    </xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:value-of select="tei:date"/>
+                                                    </xsl:otherwise>
+                                                </xsl:choose>
+                                            </xsl:variable>
+                                            select="normalize-space(tei:date[1]/text())"
                                             <xsl:for-each select="tei:author">
                                                 <tr>
-                                                  <td>
-                                                  <xsl:element name="a">
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat($id, '.html')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="$titel"/>
-                                                  </xsl:element>
-                                                  </td>
-                                                  <td>
-                                                  <a>
-                                                  <xsl:attribute name="href">
-                                                  <xsl:value-of select="concat(@ref, '.html')"/>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="."/>
-                                                  </a>
-                                                  <xsl:if
-                                                  test="@role = 'editor' or @role = 'hat-herausgegeben'">
-                                                  <xsl:text> (Hrsg.)</xsl:text>
-                                                  </xsl:if>
-                                                  <xsl:if
-                                                  test="@role = 'translator' or @role = 'hat-ubersetzt'">
-                                                  <xsl:text> (Übersetzung)</xsl:text>
-                                                  </xsl:if>
-                                                  <xsl:if
-                                                  test="@role = 'illustrator' or @role = 'hat-illustriert'">
-                                                  <xsl:text> (Illustrationen)</xsl:text>
-                                                  </xsl:if>
-                                                  </td>
-                                                  <td>
-                                                  <xsl:value-of select="tei:date"/>
-                                                  </td>
+                                                    <td>
+                                                        <xsl:element name="a">
+                                                            <xsl:attribute name="href">
+                                                                <xsl:value-of select="concat($id, '.html')"/>
+                                                            </xsl:attribute>
+                                                            <xsl:value-of select="$titel"/>
+                                                        </xsl:element>
+                                                    </td>
+                                                    <td>
+                                                        <a>
+                                                            <xsl:attribute name="href">
+                                                                <xsl:value-of select="concat(@ref, '.html')"/>
+                                                            </xsl:attribute>
+                                                            <xsl:value-of select="."/>
+                                                        </a>
+                                                        <xsl:if
+                                                            test="@role = 'editor' or @role = 'hat-herausgegeben'">
+                                                            <xsl:text> (Hrsg.)</xsl:text>
+                                                        </xsl:if>
+                                                        <xsl:if
+                                                            test="@role = 'translator' or @role = 'hat-ubersetzt'">
+                                                            <xsl:text> (Übersetzung)</xsl:text>
+                                                        </xsl:if>
+                                                        <xsl:if
+                                                            test="@role = 'illustrator' or @role = 'hat-illustriert'">
+                                                            <xsl:text> (Illustrationen)</xsl:text>
+                                                        </xsl:if>
+                                                    </td>
+                                                    <td>
+                                                        <xsl:value-of select="$datum"/>
+                                                    </td>
                                                 </tr>
                                             </xsl:for-each>
                                         </xsl:for-each>
@@ -98,7 +109,7 @@
                                             Arbeiten</h5>
                                     </div>
                                     <div class="modal-body">
-                                        <p>Das Register verzeichnet alle - unter Einschluß der
+                                        <p>Das Register verzeichnet alle - unter Einschluss der
                                             indirekten Erwähnungen, wie etwa durch die Namen
                                             einzelner Figuren oder durch Verweise auf Proben,
                                             Vorlesungen u. a. – identifizierte Kunstwerke. </p>
@@ -120,7 +131,7 @@
                 </div>
             </body>
         </html>
-        <xsl:for-each select=".//tei:bibl">
+        <xsl:for-each select="descendant::tei:bibl[@xml:id]">
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
             <xsl:variable name="name" select="./tei:title[1]/text()"/>
             <xsl:result-document href="{$filename}">

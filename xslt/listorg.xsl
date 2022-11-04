@@ -99,26 +99,24 @@
             <xsl:variable name="filename" select="concat(./@xml:id, '.html')"/>
             <xsl:variable name="name" select="normalize-space(child::tei:orgName[1]/text())"/>
             <xsl:result-document href="{$filename}">
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <html xmlns="http://www.w3.org/1999/xhtml" lang="de">
                     <xsl:call-template name="html_head">
-                        <xsl:with-param name="html_title" select="$name"></xsl:with-param>
+                        <xsl:with-param name="html_title" select="$name"/>
                     </xsl:call-template>
-                    
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            
                             <div class="container-fluid">
-                                <div class="card-index">
+                                <div class="card">
                                     <div class="card-header">
-                                        <h1>
-                                            <xsl:value-of select="$name"/>
+                                        <h1 align="center">
+                                            <xsl:value-of select="$name"/><xsl:text> </xsl:text><small><xsl:text> (Institution)</xsl:text></small>
                                         </h1>
                                     </div>
+                                    <div class="card-body">
+                                        <xsl:call-template name="org_detail"/>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="card-body">
-                                <xsl:call-template name="org_detail"/>
                             </div>
                             <xsl:call-template name="html_footer"/>
                         </div>

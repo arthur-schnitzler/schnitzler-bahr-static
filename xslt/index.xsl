@@ -7,6 +7,7 @@
     <xsl:import href="./partials/html_navbar.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:import href="./partials/html_footer.xsl"/>
+    <xsl:import href="./partials/params.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">
             <xsl:value-of select="'Hermann Bahr – Arthur Schnitzler'"/>
@@ -30,15 +31,15 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img
-                                        src="https://shared.acdh.oeaw.ac.at/schnitzler-bahr/schnitzler-bahr.jpg"
+                                        src="https://shared.acdh.oeaw.ac.at/schnitzler-briefe/img/hero-bg.jpg"
                                         class="d-block w-100" alt="..."/>
                                     <div class="carousel-caption d-none d-md-block"
                                         style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
                                         <h1>
                                             <xsl:value-of select="$project_title"/>
                                         </h1>
-                                        <h2>Herausgegeben von Kurt Ifkovits, Martin Anton
-                                            Müller</h2>
+                                        <h2>Herausgegeben von Martin Anton
+                                            Müller, Gerd-Hermann Susen und Laura Untner</h2>
                                         <p>Digitale Edition</p>
                                     </div>
                                 </div>
@@ -51,35 +52,11 @@
                         <div class="row">
                             <div class="col-md-8" style="margin: 0 auto; ">
                                 <p style="font-size:18px;line-heigth:27px;"/>
-                                <p style="font-size:18px;line-heigth:27px;">Diese Website ist ein
-                                    Begleitprodukt zur Buchedition »<hi rends="italics">Arthur
-                                    Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente
-                                    1891–1931</hi>«. Auf die im Buch vorgenommenen
-                                    Kürzungen von bereits publizierten Texten wie Schnitzlers
-                                    Tagebuch und Bahrs Aufzeichnungen aber auch der Briefe von und
-                                    an Dritte wird in der Online-Präsentation verzichtet. Das hat
-                                    den großen Vorteil, ein größeres durchsuchbares Textkorpus zur
-                                    Verfügung stellen zu können.</p>
-                                <p style="font-size:18px;line-heigth:27px;">Die <a target="_blank"
-                                        href="https://www.wallstein-verlag.de/9783835332287-hermann-bahr-arthur-schnitzler-briefwechsel-aufzeichnungen-dokumente-1891-1931.html"
-                                        >Buchausgabe</a> erschien 2018 im Wallstein-Verlag.</p>
-                                <p>Ein <a target="_blank"
-                                        href="https://www.oapen.org/search?identifier=647851"
-                                        >PDF</a> (Open Access) des Buches kann auf oapen.org
-                                    heruntergeladen werden</p>
-                                <p/>
-                                <p><hi rend="italics">Warum ist diese Seite weiterhin aktuell?</hi> 
-                                    Teile der vorliegenden Edition finden sich auch anderswo im Netz. Das <a target="_blank"
-                                        href="https://schnitzler-tagebuch.acdh.oeaw.ac.at">Tagebuch</a> Schnitzlers ist vollständig online –
-                                    doch nur bei den von uns herausgegebenen Daten sind indirekte Erwähnungen (»Bahr und Frau«)
-                                    und Organisationen indiziert. Die Edition der beruflichen Korrespondenz Schnitzlers (<a target="_blank" href="https://schnitzler-briefe.acdh.oeaw.ac.at">Briefe</a>)
-                                    enthält nicht nur den Briefwechsel
-                                    Bahr – Schnitzler, sondern auch weitere Briefe, aus denen hier noch 
-                                    aus Buchausgaben zitiert wird, dort aber nach den Originalen in Archiven (beispielsweise Hofmannsthal, Beer-Hofmann).
-                                    Trotzdem enthält unsere Edition einige Briefe, die sich anderswo
-                                    nicht finden, etwa von Schnitzler und seiner Frau oder von Dritten an Bahr. 
-                                    Dazu kommen noch weitere Texte, wie Kritiken und Erinnerungen, die hier
-                                exklusiv vorliegen.</p>
+                                <p style="font-size:18px;line-heigth:27px;">Diese Website bringt über 38 vollständige Korrespondenzen mit über 2.700 Briefen
+                                 von und an Arthur Schnitzler (1862–1931). Viele davon werden erstmals veröffentlicht. Alle sind nach den Originalen in Archiven in Europa und Amerika durchgesehen und korrigiert.
+                                
+                                </p>
+                               
                             </div>
                         </div>
                     </div>

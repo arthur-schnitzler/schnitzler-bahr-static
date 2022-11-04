@@ -22,7 +22,7 @@
                 <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
                 <script src="https://unpkg.com/js-year-calendar@latest/locales/js-year-calendar.de.js"></script>
                 <link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" />
-                <script src="calendarData.js"></script>
+                <script src="js-data/calendarData.js"></script>
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
                     
@@ -34,7 +34,7 @@
                                 <a>
                                     <i class="fas fa-info" title="Info" data-toggle="modal" data-target="#exampleModal"/>
                                 </a>
-                                <a style="padding-left:5px;" href="calendar.json">
+                                <a style="padding-left:5px;" href="js-data/calendarData.js">
                                     <i class="fas fa-download" title="Data"/>
                                 </a>
                             </div>
