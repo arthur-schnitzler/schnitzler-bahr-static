@@ -19,33 +19,19 @@
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                    <div class="wrapper" id="wrapper-hero">
-                        <!--<div class="wrapper" id="wrapper-hero-content" >
-                            <div class="container hero-dark" id="wrapper-hero-inner" tabindex="-1">-->
-                        <div id="audenIndexCarousel" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#audenIndexCarousel" data-slide-to="0"
-                                    class="active"/>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img
-                                        src="https://shared.acdh.oeaw.ac.at/schnitzler-bahr/schnitzler-bahr.jpg"
-                                        class="d-block w-100" alt="..."/>
-                                    <div class="carousel-caption d-none d-md-block"
-                                        style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));">
+                  <div class="wrapper" id="wrapper-hero">
+                      <div class="jumbotron" style="background-image: url(https://shared.acdh.oeaw.ac.at/schnitzler-bahr/schnitzler-bahr.jpg); background-size: 100%;">
+                            <div class="carousel-caption" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));position: static;">
+                                    
                                         <h1>
                                             <xsl:value-of select="$project_title"/>
                                         </h1>
                                         <h2>Herausgegeben von Kurt Ifkovits, Martin Anton
                                             Müller</h2>
                                         <p>Digitale Edition</p>
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                        <!--</div>
-                        </div>-->
+                       
                     </div>
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
