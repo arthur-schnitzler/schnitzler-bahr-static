@@ -29,7 +29,7 @@ for (var i = 0; i <= years.length; i++) {
 //document.getElementById("ybtn1900").classList.add("focus");
 
 const calendar = new Calendar('#calendar', {
-  startYear: 1900,
+  startYear: 1890,
   language: "de",
   dataSource: data,
   displayHeader: false,
@@ -101,7 +101,7 @@ function updateyear(year) {
     endDate: new Date(r.startDate),
     name: r.name,
     linkId: r.id,
-    color: '#F9bd63'
+    color: '#A63437'
   })).filter(r => r.startDate.getFullYear() === parseInt(year));
   calendar.setDataSource(dataSource);
 }
