@@ -4,7 +4,7 @@ import json
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
 files = sorted(glob.glob('./data/editions/*.xml'))
-out_file = "./html/calendarData.js"
+out_file = "./html/js-data/calendarData.js"
 data = []
 for x in tqdm(files, total=len(files)):
     item = {}
@@ -16,7 +16,7 @@ for x in tqdm(files, total=len(files)):
     except:
         continue
     try:
-        item['tageszaheler'] = doc.any_xpath('//tei:title[@type="iso-date"]/@n')[0]
+        item['tageszaehler'] = doc.any_xpath('//tei:title[@type="iso-date"]/@n')[0]
         item['id'] = tail.replace('.xml', '.html')
         data.append(item)
     except:
