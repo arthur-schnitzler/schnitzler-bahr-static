@@ -954,22 +954,22 @@
                 <xsl:when test="starts-with(@target, 'KD')">
                     <xsl:variable name="dateiname"
                         select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('D041', $dateiname, '.html/#bottom')"/>
+                    <xsl:value-of select="concat('D041', $dateiname, '.html#bottom')"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'KK')">
                     <xsl:variable name="dateiname"
                         select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('L041', $dateiname, '.html/#bottom')"/>
+                    <xsl:value-of select="concat('L041', $dateiname, '.html#bottom')"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'KI')">
                     <xsl:variable name="dateiname"
                         select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('I041', $dateiname, '.html/#bottom')"/>
+                    <xsl:value-of select="concat('I041', $dateiname, '.html#bottom')"/>
                 </xsl:when>
                 <xsl:when test="starts-with(@target, 'KT')">
                     <xsl:variable name="dateiname"
                         select="substring-before(substring(@target, 3), '-')"/>
-                    <xsl:value-of select="concat('T003', $dateiname, '.html/#bottom')"/>
+                    <xsl:value-of select="concat('T003', $dateiname, '.html#bottom')"/>
                 </xsl:when>
             </xsl:choose>
         </xsl:variable>
