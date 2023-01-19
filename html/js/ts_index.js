@@ -1,6 +1,6 @@
 const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
     server: {
-      apiKey: "q1jDFeqfOj47rJD14NxWFVyQZj7FL7Xj",
+      apiKey: "LwgBWMJQ1Zm679fPXAk59NP6T8kifCq7",
       nodes: [
         {
           host: "typesense.acdh-dev.oeaw.ac.at",
@@ -18,7 +18,7 @@ const typesenseInstantsearchAdapter = new TypesenseInstantSearchAdapter({
 
 const searchClient = typesenseInstantsearchAdapter.searchClient;
 const search = instantsearch({
-    indexName: 'schnitzler-bahr',
+    indexName: 'bahr-static',
     searchClient,
 });
 
