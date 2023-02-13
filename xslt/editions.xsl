@@ -448,8 +448,8 @@
                                                   <legend>Verschiedenes</legend>
                                                   <h4>Zitiervorschlag</h4>
                                                   <p><xsl:value-of select="$doc_title"/>. In:
-                                                  Fünf Briefe an Anton E. Schönbach. Digitale
-                                                  Edition Austrian Centre for Digital Humanities and Cultural Heritage, November 2022,
+                                                  Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931). Hg. Kurt
+                                                  Ifkovits, Martin Anton Müller,
                                                   Stand <xsl:value-of select="$currentDate"/><xsl:if test="$handle != ''">
                                                       <xsl:text> </xsl:text>
                                                       <xsl:value-of select="$handle"/>
