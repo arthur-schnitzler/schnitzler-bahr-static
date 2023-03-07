@@ -19,20 +19,29 @@
             <body class="page">
                 <div class="hfeed site" id="page">
                     <xsl:call-template name="nav_bar"/>
-                  <div class="wrapper" id="wrapper-hero">
-                      <div class="jumbotron" style="background-image: url(https://shared.acdh.oeaw.ac.at/schnitzler-bahr/schnitzler-bahr.jpg); background-size: 100%;">
-                            <div class="carousel-caption" style="background-image: linear-gradient(rgba(38.0, 35.3, 37.6, 0.5), rgba(38.0, 35.3, 37.6, 0.5));position: static;">
-                                    
-                                        <h1>
-                                            <xsl:value-of select="$project_title"/>
-                                        </h1>
-                                        <h2>Herausgegeben von Kurt Ifkovits, Martin Anton
-                                            Müller</h2>
-                                        <p>Digitale Edition</p>
+                    <div class="wrapper" id="wrapper-hero">
+                        <!-- ******************* The Hero Area ******************* -->
+                        <div class="wrapper" id="wrapper-hero-content"
+                            style="background-image:url(https://shared.acdh.oeaw.ac.at/schnitzler-bahr/schnitzler-bahr.jpg);">
+                            <div class="container-fluid-empty hero-light" id="wrapper-hero-inner"
+                                tabindex="-1">
+                                <div>
+                                    <h3 class="mt-3">Hermann Bahr – Arthur Schnitzler</h3>
+                                    <h1 class="mt-3">Briefwechsel.  Aufzeichnungen, Dokumente (1891–1931)</h1>
+                                    <h3 class="mt-3">Herausgegeben von Kurt Ifkovits, Martin Anton
+                                        Müller</h3>
+                                </div>
+                                <a
+                                    href="D041003.html">
+                                    <button class="btn btn-round">Lesen</button>
+                                </a>
+                                <span>&#160;&#160;</span>
+                                <a
+                                    href="korrespondenz.html">
+                                    <button class="btn btn-round">Weiter</button>
+                                </a>
                             </div>
-                        </div>
-                       
-                    </div>
+                        </div></div>
                     <div class="container" style="margin-top:1em;">
                         <div class="row">
                             <div class="col-md-8" style="margin: 0 auto; ">
