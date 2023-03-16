@@ -23,13 +23,13 @@ jobs:
     - name: install python things
       run: |
         pip install -r requirements.txt
-    - name: build TS index
-      run: |
-        python make_typesense_index.py
     - name: Build Static Sites
       run: |
         ./fetch_data.sh
         ant
+    - name: build TS index
+      run: |
+        python make_typesense_index.py
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
