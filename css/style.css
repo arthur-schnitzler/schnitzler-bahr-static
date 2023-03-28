@@ -254,18 +254,40 @@ h5 {
 #srcbuttons a:hover {
     text-decoration: none}
 
+    #wrapper-hero-amp > .row {
+        padding-top: 2em;
+    /*    background: url("../images/letter-background.png") 0 0 repeat;*/
+    }
 
-#wrapper-hero-content {
-    background-position: top;
-    padding: 4rem 0}
+    #wrapper-hero-amp {
+        background-color: #fff;
+        padding-top:5.5%;
+        padding-bottom:3%;
+    }
+        
+
+#wrapper-content-amp {
+    margin-bottom:2%;
+    background-color: #F1F1F1;
+}
+
+#wrapper-content-amp > .row.scroll-link {
+    margin-top: 3%;
+}
 
 #wrapper-hero-content::after {
-    background-color: rgba(166, 52, 55, 0.1)}
+    background-color: rgba(250,250,250,.5);
+}
 
+#wrapper-hero-content {
+    padding: 2em 0;
+    background-position: top;
+}
 #wrapper-hero-content > #wrapper-hero-inner > p {
     font-size: 1.25rem}
 #wrapper-hero-inner {
     padding: 0 35% 0 15px}
+
 
 div[type = "level5"] {
     padding-left: 80px;
