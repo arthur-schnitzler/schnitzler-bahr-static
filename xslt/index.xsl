@@ -24,7 +24,7 @@
                         <div class="wrapper" id="wrapper-hero-content"
                             style="background-image:url(https://shared.acdh.oeaw.ac.at/schnitzler-bahr/schnitzler-bahr.jpg);">
                             <div class="container-fluid-empty hero-light" id="wrapper-hero-inner"
-                                tabindex="-1">
+                                tabindex="-1" >
                                 <div>
                                     <h3 class="mt-3">Hermann Bahr – Arthur Schnitzler</h3>
                                     <h1 class="mt-3">Briefwechsel.  Aufzeichnungen, Dokumente (1891–1931)</h1>
