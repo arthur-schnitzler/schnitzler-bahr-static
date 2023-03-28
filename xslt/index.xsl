@@ -30,6 +30,11 @@
                                     <h1 class="mt-3">Briefwechsel.  Aufzeichnungen, Dokumente (1891–1931)</h1>
                                     <h3 class="mt-3">Herausgegeben von Kurt Ifkovits, Martin Anton
                                         Müller</h3>
+                                        <p/>
+                                        <p/>
+                                         <p/>
+                                        <p/>
+                                         <p/>
                                 </div>
                                 <a
                                     href="D041003.html">
