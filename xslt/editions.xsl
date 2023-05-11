@@ -1237,7 +1237,7 @@
                         select="foo:editor-rekursion($analytic, 1, count($analytic/tei:editor))"/>
                 </xsl:when>
                 <xsl:when
-                    test="$analytic/tei:editor[1] and contains($analytic/tei:editor[1], ', ') and not(count(contains($analytic/tei:editor[1], ' ')) &gt; 2) and not(contains($analytic/tei:editor[1], 'Hg') or contains($analytic/tei:editor[1], 'Hrsg'))">
+                    test="$analytic/tei:editor[1] and contains($analytic/tei:editor[1], ', ') and not(count(contains($analytic/tei:editor[1], ' ')) &gt; 2) and not(contains($analytic/tei:editor[1], 'Hg') or contains($analytic/tei:editor[1], 'Hrsg') or not(contains($analytic/tei:editor[1], 'Mitwirkung')))">
                     <xsl:text>Hg. </xsl:text>
                     <xsl:value-of select="foo:vorname-vor-nachname($analytic/tei:editor/text())"/>
                 </xsl:when>
