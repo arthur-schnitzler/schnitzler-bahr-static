@@ -214,9 +214,9 @@
                                 />
                             </xsl:attribute>
                         </xsl:element>
-                        <xsl:text/>
                         <xsl:value-of
-                            select="key('only-relevant-uris', $e-type, $relevant-uris)/*:caption"/>
+                            select="key('only-relevant-uris', $e-type, $relevant-uris)/normalize-space(*:caption)"
+                        />
                     </xsl:element>
                     <xsl:apply-templates select="$current-group/tei:event[tei:idno/@type = $e-type]"
                     />
