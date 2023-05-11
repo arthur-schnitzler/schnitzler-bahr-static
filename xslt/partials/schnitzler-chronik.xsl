@@ -12,7 +12,7 @@
         <xsl:param name="datum-iso" as="xs:date"/>
         <xsl:param name="teiSource" as="xs:string"/>
         <xsl:variable name="link">
-            <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
+            <xsl:value-of select="concat(replace($teiSource, '.xml', ''), '.html')"/>
         </xsl:variable>
         <!--<xsl:variable name="fetchUrl"
             select="document(concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum-iso, '.xml'))"
@@ -23,7 +23,7 @@
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
                     <xsl:copy-of
-                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), $teiSource))]"
+                        select="$fetchUrl/descendant::tei:listEvent/tei:event[not(contains(tei:idno[1]/text(), replace($teiSource, '.xml', '')))]"
                     />
                 </xsl:element>
             </xsl:variable>
