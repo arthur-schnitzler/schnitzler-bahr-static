@@ -72,6 +72,11 @@
                                 </xsl:when>
                                 <xsl:when
                                     test="@type = 'person_geburtsname-nachname' and $namensformen/descendant::tei:persName[@type = 'person_geburtsname_vorname'][1]"/>
+                                <xsl:when
+                                    test="@type = 'person_geburtsname-nachname'">
+                                    <xsl:text>geboren </xsl:text>
+                                    <xsl:value-of select="."/>
+                                </xsl:when>
                                 <xsl:when test="@type = 'person_adoptierter-nachname'">
                                     <xsl:text>Nachname durch Adoption </xsl:text>
                                     <xsl:value-of select="."/>
