@@ -1157,11 +1157,11 @@ a.black-workbutton {
 
 /*** calendar ***/
 
-
 #years-table .btn-light:focus, #years-table .btn-light.focus {
-    text-decoration: underline;
-    text-decoration-color: #F9bd63;
-    text-decoration-thickness: 4px
+    background: #F9bd63;
+    text-decoration-thickness: 4px;
+    color: white;
+    font-weight: bolder;
 }
 
 .yearbtn {
