@@ -6,6 +6,6 @@
     <xsl:param name="project_short_title">schnitzler-bahr</xsl:param>
     <xsl:param name="github_url">https://github.com/arthur-schnitzler/schnitzler-bahr-static</xsl:param>
     <xsl:param name="html_title">schnitzler-bahr</xsl:param>
-    <xsl:param name="project_logo">dist/fundament/images/fundament_logo.svg</xsl:param>
+    <xsl:param name="project_logo">../../html/img/schnitzler-bahr.svg</xsl:param>
     <xsl:param name="base_url">https://schnitzler-bahr.acdh.oeaw.ac.at</xsl:param>
 </xsl:stylesheet>
