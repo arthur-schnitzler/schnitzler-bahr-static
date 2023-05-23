@@ -31,13 +31,13 @@
         <xsl:variable name="link">
             <xsl:value-of select="replace($teiSource, '.xml', '.html')"/>
         </xsl:variable>
-        <xsl:variable name="fetchUrl"
+        <!-- <xsl:variable name="fetchUrl"
             select="document(concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum-iso, '.xml'))"
-            as="node()?"/>
+            as="node()?"/> -->
         <!-- If the whole chronik-repo is cloned during the github-action the processing time is smaller. Use the line above.
-        For smaller projects comment out the line above and use: -->
-        <!--<xsl:variable name="fetchUrl"
-            select="document(concat('../../chronik-data/', $datum-iso, '.xml'))" as="node()?"/>-->
+        For larger projects comment out the line above and use: -->
+        <xsl:variable name="fetchUrl"
+            select="document(concat('../../chronik-data/', $datum-iso, '.xml'))" as="node()?"/>
         <xsl:if test="$fetchUrl/*[1]">
             <xsl:variable name="fetchURLohneTeiSource" as="node()">
                 <xsl:element name="listEvent" namespace="http://www.tei-c.org/ns/1.0">
