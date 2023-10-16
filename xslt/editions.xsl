@@ -1038,17 +1038,6 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    <!--<xsl:template match="tei:add[@place and not(parent::tei:subst)]"><span class="steuerzeichen">↓</span><span class="add"><xsl:apply-templates/></span><span class="steuerzeichen">↓</span></xsl:template>
-    -->
-    <!-- Streichung -->
-    <!--<xsl:template match="tei:del[not(parent::tei:subst)]"><span class="del"><xsl:apply-templates/></span></xsl:template><xsl:template match="tei:del[parent::tei:subst]"><xsl:apply-templates/></xsl:template>
-    -->
-    <!-- Substi -->
-    <!--<xsl:template match="tei:subst"><span class="steuerzeichen">↑</span><span class="superscript"><xsl:apply-templates select="tei:del"/></span><span class="subst-add"><xsl:apply-templates select="tei:add"/></span><span class="steuerzeichen">↓</span></xsl:template>
-    -->
-    <!-- Wechsel der Schreiber <handShift -->
-    <!--<xsl:template match="tei:handShift[not(@scribe)]"><xsl:choose><xsl:when test="@medium = 'typewriter'"><xsl:text>[ms.:] </xsl:text></xsl:when><xsl:otherwise><xsl:text>[hs.:] </xsl:text></xsl:otherwise></xsl:choose></xsl:template><xsl:template match="tei:handShift[@scribe]"><xsl:variable name="scribe"><xsl:value-of select="@scribe"/></xsl:variable><xsl:text>[hs. </xsl:text><xsl:value-of select="foo:vorname-vor-nachname(//tei:correspDesc//tei:persName[@ref  = $scribe])"/><xsl:text>:] </xsl:text></xsl:template>
-    -->
     <xsl:template match="tei:salute[parent::tei:opener]">
         <p>
             <div class="editionText salute">
@@ -1570,9 +1559,13 @@
         </p>
     </xsl:template>
     <!-- Streichung -->
-    <xsl:template match="tei:del[not(ancestor::tei:physDesc)]"/>
-    <xsl:template match="tei:del[(ancestor::tei:physDesc)]">
+    <xsl:template match="tei:del[not(ancestor::tei:subst)]">
         <span class="del">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:del[(ancestor::tei:subst)]">
+        <span class="subst-del">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
