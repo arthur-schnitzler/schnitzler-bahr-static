@@ -66,7 +66,7 @@
         <!-- #wrapper-footer-full -->
         <div class="footer-imprint-bar" id="wrapper-footer-secondary"
             style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
-            <a href="impressum.html">Impressum</a>
+            <a href="imprint.html">Impressum</a>
         </div>
         <script type="text/javascript" src="dist/fundament/vendor/jquery/jquery.min.js"/>
         <script type="text/javascript" src="dist/fundament/js/fundament.min.js"/>
