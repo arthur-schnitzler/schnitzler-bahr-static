@@ -38,7 +38,7 @@
                                     Juristische Person öffentlichen Rechts (BGBl 569/1921 idF BGBl I 130/2003) <br />
                                         <a href="https://acdh.oeaw.ac.at">Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</a> <br />
                                             Dr. Ignaz Seipel-Platz 2, 1010 Wien, Österreich <br />
-                                                E-Mail: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk@oeaw.ac.at</a></p>
+                                                E-Mail: <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">acdh-ch-helpdesk(at)oeaw.ac.at</a></p>
                                 <h3>Unternehmensgegenstand:</h3>
                                 <p>Die Österreichische Akademie der Wissenschaften (ÖAW) hat den gesetzlichen Auftrag, die Wissenschaft
                                     in jeder Hinsicht zu fördern. Als Gelehrtengesellschaft pflegt die ÖAW den Diskurs und die
@@ -80,7 +80,7 @@
                                     <a href="https://www.oeaw.ac.at/oeaw/datenschutz">hier</a>. Die im Rahmen der Impressumspflicht
                                     veröffentlichten Kontaktdaten dürfen von Dritten nicht zur Übersendung von nicht ausdrücklich
                                     angeforderter Werbung und Informationsmaterialien verwendet werden. Einer derartigen Verwendung wird
-                                    hiermit ausdrücklich widersprochen.</p>% 
+                                    hiermit ausdrücklich widersprochen.</p>
                             </div>
                         </div>
                     </div>
