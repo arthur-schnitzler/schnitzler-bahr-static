@@ -48,9 +48,9 @@
                             <div class="col-md-8" style="margin: 0 auto; ">
                                 <p style="font-size:18px;line-heigth:27px;"/>
                                 <p style="font-size:18px;line-heigth:27px;">Diese Website ist ein
-                                    Begleitprodukt zur Buchedition »<hi rends="italics">Arthur
+                                    Begleitprodukt zur Buchedition <hi rends="italics">»Arthur
                                     Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente
-                                    1891–1931</hi>«. Auf die im Buch vorgenommenen
+                                    1891–1931«</hi>. Auf die im Buch vorgenommenen
                                     Kürzungen von bereits publizierten Texten wie Schnitzlers
                                     Tagebuch und Bahrs Aufzeichnungen aber auch der Briefe von und
                                     an Dritte wird in der Online-Präsentation verzichtet. Das hat
