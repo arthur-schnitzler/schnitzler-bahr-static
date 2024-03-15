@@ -59,11 +59,7 @@
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
     <mkdir dir="${target}/images"/>
-    <copy todir="${target}/images" flatten="true">
-        <fileset dir="./html/images">
-            <include name="**/*.jpg"/>
-        </fileset>
-    </copy>
+    
     <replace dir="${target}" value="">
         <include name="*.html"/>
         <replacetoken> xmlns=""</replacetoken>
@@ -71,6 +67,11 @@
     <copy todir="${target}" flatten="true">
         <fileset dir="./data/">
             <include name="**/*.xml"/>
+        </fileset>
+    </copy>
+    <copy todir="${target}/images" flatten="true">
+        <fileset dir="./data/images">
+            <include name="**/*.jpg"/>
         </fileset>
     </copy>
 </project>
