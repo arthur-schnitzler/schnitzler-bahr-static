@@ -58,6 +58,11 @@
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
         <classpath location="${basedir}/saxon/saxon9he.jar"/>
     </xslt>
+    <copy todir="${target}/images" flatten="true">
+        <fileset dir="./images">
+            <include name="**/*.jpg"/>
+        </fileset>
+    </copy>
     <replace dir="${target}" value="">
         <include name="*.html"/>
         <replacetoken> xmlns=""</replacetoken>
