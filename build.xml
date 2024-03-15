@@ -60,7 +60,7 @@
     </xslt>
     <mkdir dir="${target}/images"/>
     <copy todir="${target}/images" flatten="true">
-        <fileset dir="./images">
+        <fileset dir="./html/images">
             <include name="**/*.jpg"/>
         </fileset>
     </copy>
