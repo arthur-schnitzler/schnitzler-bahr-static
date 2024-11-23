@@ -318,9 +318,6 @@
                                                   <xsl:when test="child::tei:surname[1]">
                                                   <xsl:value-of select="child::tei:surname[1]"/>
                                                   </xsl:when>
-                                                  <xsl:otherwise>
-                                                  <xsl:value-of select="."/>
-                                                  </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:variable>
                                             <li>
