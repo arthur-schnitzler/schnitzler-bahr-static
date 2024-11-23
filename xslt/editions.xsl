@@ -318,8 +318,12 @@
                                                   <xsl:when test="child::tei:surname[1]">
                                                   <xsl:value-of select="child::tei:surname[1]"/>
                                                   </xsl:when>
+                                                   <xsl:otherwise>
+                                                       <xsl:text></xsl:text>
+                                                   </xsl:otherwise>
                                                 </xsl:choose>
                                             </xsl:variable>
+                                            <xsl:if test="$naname!=''">
                                             <li>
                                                 <a>
                                                   <xsl:attribute name="href">
@@ -329,6 +333,7 @@
                                                   <xsl:value-of select="$naname"/>
                                                 </a>
                                             </li>
+                                            </xsl:if>
                                         </xsl:for-each>
                                     </ul>
                                 </xsl:if>
