@@ -14,7 +14,7 @@
     <xsl:import href="./partials/tei-facsimile.xsl"/>
     <xsl:import href="./partials/person.xsl"/>
     <xsl:import href="./partials/place.xsl"/>
-    <xsl:import href="./partials/schnitzler-chronik.xsl"/>
+    <xsl:import href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
     <xsl:param name="quotationURL"/>
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"
@@ -609,11 +609,15 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Schließen"/>
                             </div>
+                            <xsl:variable name="relevant-eventtypes" as="xs:string" select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
                             <div class="modal-body">
                                 <div id="chronik-modal-body"/>
                                 <xsl:call-template name="mam:schnitzler-chronik">
                                     <xsl:with-param name="datum-iso" select="$datum"/>
                                     <xsl:with-param name="teiSource" select="$teiSource"/>
+                                    <xsl:with-param name="fetch-locally" select="false()"/>
+                                    <xsl:with-param name="schnitzler-tagebuch" select="false()"/>
+                                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
                                 </xsl:call-template>
                             </div>
                             <div class="modal-footer">
