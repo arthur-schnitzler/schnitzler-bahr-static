@@ -14,7 +14,13 @@
     <xsl:import href="./partials/tei-facsimile.xsl"/>
     <xsl:import href="./partials/person.xsl"/>
     <xsl:import href="./partials/place.xsl"/>
+    
+    <!-- Einstellungen für die Schnitzler-Chronik. Das entfernte XSL wird nur benützt, wenn fetch-locally auf  -->
     <xsl:import href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
+    <!--<xsl:import href="../../schnitzler-chronik-static/xslt/export/schnitzler-chronik.xsl"/>-->
+    <xsl:param name="schnitzler-chronik_fetch-locally" as="xs:boolean" select="false()"/>
+    <xsl:param name="schnitzler-chronik_current-type" as="xs:string" select="'schnitzler-bahr'"/>
+    
     <xsl:param name="quotationURL"/>
     <xsl:variable name="prev">
         <xsl:value-of select="replace(tokenize(data(tei:TEI/@prev), '/')[last()], '.xml', '.html')"
@@ -611,14 +617,29 @@
                             </div>
                             <xsl:variable name="relevant-eventtypes" as="xs:string" select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
                             <div class="modal-body">
-                                <div id="chronik-modal-body"/>
-                                <xsl:call-template name="mam:schnitzler-chronik">
-                                    <xsl:with-param name="datum-iso" select="$datum"/>
-                                    <xsl:with-param name="current-type" select="'schnitzler-bahr'"/>
-                                    <xsl:with-param name="teiSource" select="substring-before($teiSource, '.')"/>
-                                    <xsl:with-param name="fetch-locally" select="false()"/>
-                                    <xsl:with-param name="relevant-eventtypes" select="$relevant-eventtypes"/>
-                                </xsl:call-template>
+                                <div id="chronik-modal-body">
+                                    <!-- SCHNITZLER-CHRONIK. Zuerst wird der Eintrag geladen, weil das schneller ist, wenn er lokal vorliegt -->
+                                    <xsl:variable name="fetchContentsFromURL" as="node()?">
+                                        <xsl:choose>
+                                            <xsl:when test="$schnitzler-chronik_fetch-locally">
+                                                <xsl:copy-of
+                                                    select="document(concat('../chronik-data/', $datum, '.xml'))"/>
+                                                <!-- das geht davon aus, dass das schnitzler-chronik-repo lokal vorliegt -->
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <xsl:copy-of
+                                                    select="document(concat('https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-data/refs/heads/main/editions/data/', $datum, '.xml'))"
+                                                />
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:variable>
+                                    <xsl:call-template name="mam:schnitzler-chronik">
+                                        <xsl:with-param name="datum-iso" select="$datum"/>
+                                        <xsl:with-param name="current-type" select="$schnitzler-chronik_current-type"/>
+                                        <xsl:with-param name="teiSource" select="$teiSource"/>
+                                        <xsl:with-param name="fetchContentsFromURL" select="$fetchContentsFromURL" as="node()?"/>
+                                    </xsl:call-template>
+                                </div>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary"
