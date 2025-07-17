@@ -22,9 +22,9 @@
                     <div class="footer-widget col-lg-4 col-md-4 col-sm-6 col-9">
                         <div class="textwidget custom-html-widget">
                             <p>
-                                ACDH-CH
+                                ACDH
                                 <br/>
-                                Austrian Centre for Digital Humanities and Cultural Heritage
+                                Austrian Centre for Digital Humanities
                                 <br/>
                                 Österreichische Akademie der Wissenschaften
                             </p>
@@ -38,21 +38,22 @@
                                 <br/>
                                 E: <a
                                     href="mailto:acdh-ch-helpdesk@oeaw.ac.at"
-                                    >acdh-ch-helpdesk(at)oeaw.ac.at</a>
+                                    >acdh-helpdesk(at)oeaw.ac.at</a>
                             </p>
                         </div>
                     </div>
                     <!-- .footer-widget -->
                     <div class="footer-widget col-lg-3 col-md-4 col-sm-4 ml-auto">
-                        <div class="textwidget custom-html-widget">
-                            <h6>Work in Progress</h6>
-                            <p>Bei Fragen, Anmerkungen, Kritik, aber gerne auch Lob, wenden Sie sich bitte an den <a href="mailto:acdh-ch-helpdesk@oeaw.ac.at">ACDH-CH Helpdesk</a>
-                            </p>
-                            <p>
-                                <a class="helpdesk-button"
-                                    href="mailto:acdh-ch-helpdesk@oeaw.ac.at">e-Mail</a>
-                            </p>
-                            <p/>
+                        <div class="row">
+                            <div class="textwidget custom-html-widget">
+                                <h6 class="font-weight-bold">KONTAKT</h6>
+                                <p>Bei Fragen, Anmerkungen, Kritik, aber gerne auch Lob, kontaktieren Sie
+                                    bitte Martin Anton Müller.</p>
+                                <p>
+                                    <a class="helpdesk-button"
+                                        href="mailto:martin.anton.mueller@encore.at">e-Mail</a>
+                                </p>
+                            </div>
                         </div>
                         <div class="textwidget custom-html-widget">
                             <a href="https://github.com/arthur-schnitzler/schnitzler-bahr-static">
