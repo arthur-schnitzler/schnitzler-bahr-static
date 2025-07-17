@@ -238,7 +238,7 @@
                <div class="modal-body">
                   <p>Arthur Schnitzler an Hermann Bahr, [1]3. 9. 1901. In: Hermann Bahr – Arthur
                      Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931).
-                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 22. 5. 2025, https://hdl.handle.net/21.11115/0000-000E-8599-F.</p>
+                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 17. 7. 2025, https://hdl.handle.net/21.11115/0000-000E-8599-F.</p>
                </div>
                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button></div>
             </div>
@@ -263,10 +263,28 @@
                   <h5 class="modal-title" id="exampleModalLongTitle3"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1901-09-13.html" target="_blank" style="color: #C67F53; font-style: normal">Freitag, 13. 9. 1901</a></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
                <div class="modal-body">
                   <div id="chronik-modal-body">
-                     <div id="chronik-modal-body">
-                        <div class="card mb-3" style="background-color: rgba(3, 122, 51, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(3, 122, 51, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #037a33; " href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-09-13.html">Tagebuch</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-tagebuch" aria-expanded="true" aria-controls="content1">−</span></div>
-                           <div class="collapse show" id="schnitzler-tagebuch">
+                     <div id="chronik-modal-body"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+                        <div id="collapseMap">
+                           <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="1901-09-13"></div>
+                        </div><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script><script>
+            $('#tagfuertag').on('shown.bs.modal', function () {
+            console.log('Modal shown event triggered');
+            // Kurz warten, dann initialisieren
+            setTimeout(function() {
+            if (!window._wienerschnitzlerMapInitialized) {
+            window.initWienerschnitzlerMap();
+            window._wienerschnitzlerMapInitialized = true;
+            }
+            }, 100);
+            });
+            
+            // Zusätzlich: Map zurücksetzen beim Schließen
+            $('#tagfuertag').on('hidden.bs.modal', function () {
+            window._wienerschnitzlerMapInitialized = false;
+            });
+        </script><div class="card mb-3" style="background-color: rgba(3, 122, 51, 0.1)">
+                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(3, 122, 51, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #037a33; " href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-09-13.html">Tagebuch</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-tagebuch" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
+                           <div class="collapse" id="schnitzler-tagebuch">
                               <div class="card-body">
                                  <p><a class="entry-title" style="color: #037a33" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1901-09-13.html" target="_blank">Tagebuch, 13. September 1901</a></p>
                                  <ul style="list-style-type: none; padding-left: 0px;">
@@ -287,8 +305,8 @@
                            </div>
                         </div>
                         <div class="card mb-3" style="background-color: rgba(166, 52, 55, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(166, 52, 55, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #A63437; " href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01173.html">Briefe mit Autorinnen und Autoren</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-briefe" aria-expanded="true" aria-controls="content1">−</span></div>
-                           <div class="collapse show" id="schnitzler-briefe">
+                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(166, 52, 55, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #A63437; " href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01173.html">Briefe mit Autorinnen und Autoren</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-briefe" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
+                           <div class="collapse" id="schnitzler-briefe">
                               <div class="card-body">
                                  <p><a class="entry-title" style="color: #A63437" href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01173.html" target="_blank">Arthur Schnitzler an Hermann Bahr, [1]3. 9. 1901</a></p>
                                  <ul style="list-style-type: none; padding-left: 0px;">
@@ -335,8 +353,8 @@
                            </div>
                         </div>
                         <div class="card mb-3" style="background-color: rgba(99, 159, 249, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(99, 159, 249, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #639FF9; " href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041040.html">Schnitzler/Bahr</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-bahr" aria-expanded="true" aria-controls="content1">−</span></div>
-                           <div class="collapse show" id="schnitzler-bahr">
+                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(99, 159, 249, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #639FF9; " href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041040.html">Schnitzler/Bahr</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-bahr" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
+                           <div class="collapse" id="schnitzler-bahr">
                               <div class="card-body">
                                  <p><a class="entry-title" style="color: #639FF9" href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041040.html" target="_blank">Schnitzler an Bahr, [1]3. 9. 1901</a></p>
                                  <ul style="list-style-type: none; padding-left: 0px;">
@@ -374,26 +392,26 @@
                               </div>
                            </div>
                         </div>
-                        <div class="card mb-3" style="background-color: rgba(4, 83, 68, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(4, 83, 68, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #045344; " href="">Aufenthaltsorte</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-orte" aria-expanded="true" aria-controls="content1">−</span></div>
-                           <div class="collapse show" id="schnitzler-orte">
+                        <div class="card mb-3" style="background-color: rgba(236, 218, 152, 0.1)">
+                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(236, 218, 152, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #ECDA98; " href="https://wienerschnitzler.org/tag.html#1901-09-13">Wiener Schnitzler</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#wienerschnitzler" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
+                           <div class="collapse" id="wienerschnitzler">
                               <div class="card-body">
-                                 <p><a class="entry-title" href="https://pmb.acdh.oeaw.ac.at/entity/50/" target="_blank">Wien</a></p>
+                                 <p><a class="entry-title" style="color: #ECDA98" href="https://wienerschnitzler.org/tag.html#1901-09-13" target="_blank">Wien</a></p>
                                  <ul style="list-style-type: none; padding-left: 0px;">
                                     <li>
                                        <ul style="list-style-type: none; padding-left: 0px;">
                                           <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
                                              <div class="list-container">
-                                                <ul style="--dot-color: #045344;">
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/51/" target="_blank">I., Innere Stadt</a><div class="list-container">
-                                                         <ul style="--dot-color: #045344;">
-                                                            <li><a href="https://pmb.acdh.oeaw.ac.at/entity/47660/" target="_blank">Kunsthistorisches Museum</a></li>
+                                                <ul style="--dot-color: #ECDA98;">
+                                                   <li><a href="https://www.wienerschnitzler.org/pmb51.html" target="_blank">I., Innere Stadt</a><div class="list-container">
+                                                         <ul style="--dot-color: #ECDA98;">
+                                                            <li><a href="https://www.wienerschnitzler.org/pmbpmb47660.html" target="_blank">Kunsthistorisches Museum</a></li>
                                                          </ul>
                                                       </div>
                                                    </li>
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/59/" target="_blank">IX., Alsergrund</a><div class="list-container">
-                                                         <ul style="--dot-color: #045344;">
-                                                            <li><a href="https://pmb.acdh.oeaw.ac.at/entity/168934/" target="_blank">Frankgasse 1</a></li>
+                                                   <li><a href="https://www.wienerschnitzler.org/pmb59.html" target="_blank">IX., Alsergrund</a><div class="list-container">
+                                                         <ul style="--dot-color: #ECDA98;">
+                                                            <li><a href="https://www.wienerschnitzler.org/pmbpmb168934.html" target="_blank">Frankgasse 1</a></li>
                                                          </ul>
                                                       </div>
                                                    </li>
@@ -407,8 +425,8 @@
                            </div>
                         </div>
                         <div class="card mb-3" style="background-color: rgba(101, 67, 33, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(101, 67, 33, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #654321; " href="">Gedruckte Briefwechsel</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-cmif" aria-expanded="true" aria-controls="content1">−</span></div>
-                           <div class="collapse show" id="schnitzler-cmif">
+                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(101, 67, 33, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #654321; " href="">Gedruckte Briefwechsel</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-cmif" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
+                           <div class="collapse" id="schnitzler-cmif">
                               <div class="card-body">
                                  <p><span class="entry-title" style="color: #654321">Otto Brahm an Arthur Schnitzler, 13.9.1901</span></p>
                                  <ul style="list-style-type: none; padding-left: 0px;">

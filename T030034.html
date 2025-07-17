@@ -233,7 +233,7 @@
                <div class="modal-body">
                   <p>Hermann Bahr: Persönliche Erinnerungen an Arthur Schnitzler, 6. 11. 1931. In: Hermann Bahr – Arthur
                      Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931).
-                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 22. 5. 2025, https://hdl.handle.net/21.11115/0000-000E-8A90-3.</p>
+                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 17. 7. 2025, https://hdl.handle.net/21.11115/0000-000E-8A90-3.</p>
                </div>
                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button></div>
             </div>
@@ -258,10 +258,28 @@
                   <h5 class="modal-title" id="exampleModalLongTitle3"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1931-11-06.html" target="_blank" style="color: #C67F53; font-style: normal">Freitag, 6. 11. 1931</a></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
                <div class="modal-body">
                   <div id="chronik-modal-body">
-                     <div id="chronik-modal-body">
-                        <div class="card mb-3" style="background-color: rgba(99, 159, 249, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(99, 159, 249, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #639FF9; " href="https://schnitzler-bahr.acdh.oeaw.ac.at/D041607.html">Schnitzler/Bahr</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-bahr" aria-expanded="true" aria-controls="content1">−</span></div>
-                           <div class="collapse show" id="schnitzler-bahr">
+                     <div id="chronik-modal-body"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+                        <div id="collapseMap">
+                           <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="1931-11-06"></div>
+                        </div><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script><script>
+            $('#tagfuertag').on('shown.bs.modal', function () {
+            console.log('Modal shown event triggered');
+            // Kurz warten, dann initialisieren
+            setTimeout(function() {
+            if (!window._wienerschnitzlerMapInitialized) {
+            window.initWienerschnitzlerMap();
+            window._wienerschnitzlerMapInitialized = true;
+            }
+            }, 100);
+            });
+            
+            // Zusätzlich: Map zurücksetzen beim Schließen
+            $('#tagfuertag').on('hidden.bs.modal', function () {
+            window._wienerschnitzlerMapInitialized = false;
+            });
+        </script><div class="card mb-3" style="background-color: rgba(99, 159, 249, 0.1)">
+                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(99, 159, 249, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #639FF9; " href="https://schnitzler-bahr.acdh.oeaw.ac.at/D041607.html">Schnitzler/Bahr</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-bahr" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
+                           <div class="collapse" id="schnitzler-bahr">
                               <div class="card-body">
                                  <p><a class="entry-title" style="color: #639FF9" href="https://schnitzler-bahr.acdh.oeaw.ac.at/D041607.html" target="_blank">Aufzeichnung von Bahr, 6. 11. 1931</a></p>
                                  <ul style="list-style-type: none; padding-left: 0px;">
