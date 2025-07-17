@@ -169,7 +169,7 @@
                                                   class="fas fa-solid fa-download"/> DOWNLOAD
                                             </a>&#160; </li>
                                         <li class="nav-item"> &#160;<a href="#"
-                                                data-bs-target="#chronik-modal" type="button"
+                                                data-bs-target="#schnitzler-chronik-modal" type="button"
                                                 data-bs-toggle="modal">
                                                 <i class="fas fa-calendar-day"/> CHRONIK</a>&#160;
                                         </li>
@@ -536,7 +536,7 @@
                     </div>
                 </div>
                 <!-- Chronik -->
-                <div class="modal fade" id="chronik-modal" tabindex="-1"
+                <div class="modal fade" id="schnitzler-chronik-modal" tabindex="-1"
                     aria-labelledby="downloadModalLabel2" aria-hidden="true">
                     <xsl:variable name="datum"
                         select="descendant::tei:title[@type = 'iso-date'][1]/text()" as="xs:date"/>
@@ -615,7 +615,7 @@
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Schließen"/>
                             </div>
-                            <xsl:variable name="relevant-eventtypes" as="xs:string" select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume-buch,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
+                            <xsl:variable name="relevant-eventtypes" as="xs:string" select="'Arthur-Schnitzler-digital,schnitzler-tagebuch,schnitzler-briefe,pollaczek,schnitzler-interviews,schnitzler-bahr,schnitzler-orte,schnitzler-chronik-manuell,pmb,schnitzler-events,schnitzler-cmif,schnitzler-mikrofilme-daten,schnitzler-traeume,schnitzler-kino-buch,schnitzler-kempny-buch,kalliope-verbund'"/>
                             <div class="modal-body">
                                 <div id="chronik-modal-body">
                                     <!-- SCHNITZLER-CHRONIK. Zuerst wird der Eintrag geladen, weil das schneller ist, wenn er lokal vorliegt -->
