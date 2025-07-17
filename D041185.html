@@ -101,7 +101,7 @@
                         <li class="nav-item">  <a href="#" data-bs-target="#zitat-modal" type="button" data-bs-toggle="modal"><i class="fas fa-quote-right"></i> ZITIEREN</a>  </li>
                         <li class="nav-item">  <a href="#" data-bs-target="#download-modal" type="button" data-bs-toggle="modal"><i class="fas fa-solid fa-download"></i> DOWNLOAD
                               </a>  </li>
-                        <li class="nav-item">  <a href="#" data-bs-target="#chronik-modal" type="button" data-bs-toggle="modal"><i class="fas fa-calendar-day"></i> CHRONIK</a> 
+                        <li class="nav-item">  <a href="#" data-bs-target="#schnitzler-chronik-modal" type="button" data-bs-toggle="modal"><i class="fas fa-calendar-day"></i> CHRONIK</a> 
                            </li>
                      </ul>
                   </div>
@@ -231,7 +231,7 @@
             </div>
          </div>
       </div>
-      <div class="modal fade" id="chronik-modal" tabindex="-1" aria-labelledby="downloadModalLabel2" aria-hidden="true">
+      <div class="modal fade" id="schnitzler-chronik-modal" tabindex="-1" aria-labelledby="downloadModalLabel2" aria-hidden="true">
          <div class="modal-dialog">
             <div class="modal-content">
                <div class="modal-header">
@@ -242,7 +242,7 @@
                         <div id="collapseMap">
                            <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="1899-07-04"></div>
                         </div><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script><script>
-            $('#tagfuertag').on('shown.bs.modal', function () {
+            $('#schnitzler-chronik-modal').on('shown.bs.modal', function () {
             console.log('Modal shown event triggered');
             // Kurz warten, dann initialisieren
             setTimeout(function() {
@@ -254,7 +254,7 @@
             });
             
             // Zusätzlich: Map zurücksetzen beim Schließen
-            $('#tagfuertag').on('hidden.bs.modal', function () {
+            $('#schnitzler-chronik-modal').on('hidden.bs.modal', function () {
             window._wienerschnitzlerMapInitialized = false;
             });
         </script><div class="card mb-3" style="background-color: rgba(3, 122, 51, 0.1)">
