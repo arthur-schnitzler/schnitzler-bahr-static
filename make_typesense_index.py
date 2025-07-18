@@ -84,7 +84,7 @@ for x in tqdm(files, total=len(files)):
     cfts_record['resolver'] = f"https://acdh-oeaw.github.io/bahr-static/{record['id']}.html"
     record['rec_id'] = os.path.split(x)[-1]
     cfts_record['rec_id'] = record['rec_id']
-    record['title'] = " ".join(" ".join(doc.any_xpath('.//tei:titleStmt/tei:title[@level='a']//text()')).split())
+    record['title'] = " ".join(" ".join(doc.any_xpath('.//tei:titleStmt/tei:title[2]//text()')).split())
     cfts_record['title'] = record['title']
     date_str = doc.any_xpath('.//@when')[0]
     try:
