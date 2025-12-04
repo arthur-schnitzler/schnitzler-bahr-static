@@ -8,4 +8,6 @@
     <xsl:param name="html_title">schnitzler-bahr</xsl:param>
     <xsl:param name="project_logo">../../html/img/schnitzler-bahr.svg</xsl:param>
     <xsl:param name="base_url">https://schnitzler-bahr.acdh.oeaw.ac.at</xsl:param>
+    <xsl:param name="current-edition" select="'schnitzler-bahr'"/>
+    <xsl:param name="current-colour" select="'#639FF9'"/>
 </xsl:stylesheet>

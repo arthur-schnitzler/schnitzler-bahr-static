@@ -6,6 +6,7 @@
     version="2.0" exclude-result-prefixes="xsl tei xs">
     <xsl:output encoding="UTF-8" media-type="text/html" method="xhtml" version="1.0" indent="no" omit-xml-declaration="yes"/>
 
+    <xsl:import href="./partials/params.xsl"/>
     <xsl:import href="./partials/html_head.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title">

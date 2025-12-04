@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for:*)",
+      "Bash(do echo \"\")",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(do grep -q 'html_head.xsl' \"$f\")",
+      "Bash(! grep -q 'entities.xsl' \"$f\")",
+      "Bash(chmod:*)",
+      "Bash(python make_sitemap.py:*)",
+      "Bash(python3:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -12,8 +12,7 @@
     <xsl:import href="./partials/html_footer.xsl"/>
     <xsl:import href="./partials/osd-container.xsl"/>
     <xsl:import href="./partials/tei-facsimile.xsl"/>
-    <xsl:import href="./partials/person.xsl"/>
-    <xsl:import href="./partials/place.xsl"/>
+    <xsl:import href="./partials/entities.xsl"/>
     
     <!-- Einstellungen für die Schnitzler-Chronik. Das entfernte XSL wird nur benützt, wenn fetch-locally auf  -->
     <xsl:import href="https://raw.githubusercontent.com/arthur-schnitzler/schnitzler-chronik-static/refs/heads/main/xslt/export/schnitzler-chronik.xsl"/>
@@ -607,7 +606,7 @@
                                 <h5 class="modal-title" id="exampleModalLongTitle3">
                                     <a
                                         href="{concat('https://schnitzler-chronik.acdh.oeaw.ac.at/', $datum, '.html')}"
-                                        target="_blank" style="color: #C67F53; font-style: normal">
+                                        target="_blank" style="color: #008B8B; font-style: normal">
                                         <xsl:value-of
                                             select="concat($wochentag, ', ', $datum-written)"/>
                                     </a>
