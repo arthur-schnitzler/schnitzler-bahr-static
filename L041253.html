@@ -7,6 +7,7 @@
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-title" content="Hermann Bahr an Arthur Schnitzler, 22. 2. 1903" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <meta name="google-site-verification" content="dc888ZmCroA0_VKEB86Vss7wy4Jbkaro0j2QfM8GOak" />
       <title>Hermann Bahr an Arthur Schnitzler, 22. 2. 1903</title>
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-TileImage" content="../../html/img/schnitzler-bahr.svg" />
@@ -246,7 +247,7 @@
                <div class="modal-body">
                   <p>Hermann Bahr an Arthur Schnitzler, 22. 2. 1903. In: Hermann Bahr – Arthur
                      Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931).
-                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 18. 7. 2025, https://hdl.handle.net/21.11115/0000-000E-866E-0.</p>
+                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 4. 12. 2025, https://hdl.handle.net/21.11115/0000-000E-866E-0.</p>
                </div>
                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button></div>
             </div>
@@ -268,14 +269,14 @@
          <div class="modal-dialog">
             <div class="modal-content">
                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle3"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1903-02-22.html" target="_blank" style="color: #C67F53; font-style: normal">Sonntag, 22. 2. 1903</a></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
+                  <h5 class="modal-title" id="exampleModalLongTitle3"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1903-02-22.html" target="_blank" style="color: #008B8B; font-style: normal">Sonntag, 22. 2. 1903</a></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
                <div class="modal-body">
                   <div id="chronik-modal-body">
                      <div id="chronik-modal-body"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
                         <div id="collapseMap">
                            <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="1903-02-22"></div>
                         </div><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script><script>
-            $('#schnitzler-chronik-modal').on('shown.bs.modal', function () {
+            document.getElementById('schnitzler-chronik-modal').addEventListener('shown.bs.modal', function () {
             console.log('Modal shown event triggered');
             // Kurz warten, dann initialisieren
             setTimeout(function() {
@@ -285,9 +286,9 @@
             }
             }, 100);
             });
-            
+
             // Zusätzlich: Map zurücksetzen beim Schließen
-            $('#schnitzler-chronik-modal').on('hidden.bs.modal', function () {
+            document.getElementById('schnitzler-chronik-modal').addEventListener('hidden.bs.modal', function () {
             window._wienerschnitzlerMapInitialized = false;
             });
         </script><div class="card mb-3" style="background-color: rgba(3, 122, 51, 0.1)">
@@ -330,6 +331,8 @@
                                           <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
                                              <div class="list-container">
                                                 <ul class="horizontal-list" style="--dot-color: #A63437;">
+                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Bahr, Hermann</a></li>
+                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12698.html" target="_blank">Julius Schnitzler</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12968.html" target="_blank">Siegfried Trebitsch</a></li>
@@ -345,13 +348,6 @@
                                                 </ul>
                                              </div>
                                           </li>
-                                          <li><i class="fa-solid fa-building-columns" title="Organisationen"></i>  Organisationen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29639.html" target="_blank">S. Fischer Verlag</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
                                           <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
                                              <div class="list-container">
                                                 <ul class="horizontal-list" style="--dot-color: #A63437;">
@@ -359,6 +355,13 @@
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li> 
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168.html" target="_blank">Berlin</a></li> 
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb88.html" target="_blank">Palasthotel Berlin</a></li> </ul>
+                                             </div>
+                                          </li>
+                                          <li><i class="fa-solid fa-building-columns" title="Organisationen"></i>  Organisationen 
+                                             <div class="list-container">
+                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
+                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29639.html" target="_blank">S. Fischer Verlag</a></li>
+                                                </ul>
                                              </div>
                                           </li>
                                        </ul>
@@ -408,17 +411,17 @@
                               </div>
                            </div>
                         </div>
-                        <div class="card mb-3" style="background-color: rgba(236, 218, 152, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(236, 218, 152, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #ECDA98; " href="https://wienerschnitzler.org/tag.html#1903-02-22">Wiener Schnitzler</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#wienerschnitzler" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
+                        <div class="card mb-3" style="background-color: rgba(111, 81, 6, 0.1)">
+                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(111, 81, 6, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #6F5106; " href="https://wienerschnitzler.org/tag.html#1903-02-22">Wiener Schnitzler</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#wienerschnitzler" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
                            <div class="collapse" id="wienerschnitzler">
                               <div class="card-body">
-                                 <p><a class="entry-title" href="http://wienerschnitzler.org/pmb.html" target="_blank">Berlin</a></p>
+                                 <p><a class="entry-title" href="http://wienerschnitzler.org/pmb168.html" target="_blank">Berlin</a></p>
                                  <ul style="list-style-type: none; padding-left: 0px;">
                                     <li>
                                        <ul style="list-style-type: none; padding-left: 0px;">
                                           <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
                                              <div class="list-container">
-                                                <ul style="--dot-color: #ECDA98;">
+                                                <ul style="--dot-color: #6F5106;">
                                                    <li><a href="https://www.wienerschnitzler.org/pmb88.html" target="_blank">Palasthotel Berlin</a></li>
                                                    <li><a href="https://www.wienerschnitzler.org/pmb199492.html" target="_blank">Restaurant Hiller</a></li>
                                                 </ul>
@@ -446,9 +449,8 @@
                                              </div>
                                           </li>
                                        </ul>
-                                       <p>Quelle: <i>Der Briefwechsel Arthur
-                                             Schnitzler – Otto Brahm. Vollständige Ausgabe. Hg., eingel. und erl. von Oskar
-                                             Seidlin. Tübingen: Niemeyer, 1975.</i></p>
+                                       <p>Quelle: <i>Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe.
+                                             Hg., eingel. und erl. von Oskar Seidlin. Tübingen: Niemeyer, 1975.</i></p>
                                     </li>
                                  </ul>
                               </div>

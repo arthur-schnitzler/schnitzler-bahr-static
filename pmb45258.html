@@ -7,6 +7,7 @@
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-title" content="München" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <meta name="google-site-verification" content="dc888ZmCroA0_VKEB86Vss7wy4Jbkaro0j2QfM8GOak" />
       <title>München</title>
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-TileImage" content="../../html/img/schnitzler-bahr.svg" />
@@ -73,33 +74,9 @@
                <div class="card-body">
                   <div xmlns:mam="whatever" class="container-fluid">
                      <div class="card-body-index">
-                        <div id="mentions">
+                        <div id="lod-mentions">
                            <p class="buttonreihe"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb45258.html" target="_blank"><span class="badge rounded-pill" style="background-color: #A63437; color: white; margin-top: 4px;">Briefe mit Autorinnen und Autoren</span></a> <a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb45258.html" target="_blank"><span class="badge rounded-pill" style="background-color: #037a33; color: white; margin-top: 4px;">Tagebuch</span></a> <a href="https://schnitzler-interviews.acdh.oeaw.ac.at/pmb45258.html" target="_blank"><span class="badge rounded-pill" style="background-color: #3D5A80; color: white; margin-top: 4px;">Interviews, Meinungen, Proteste</span></a> <a href="https://kraus.wienbibliothek.at/register/orte/pmb45258" target="_blank"><span class="badge rounded-pill" style="background-color: #c85545; color: white; margin-top: 4px;">Rechtsakten</span></a> <a href="https://de.wikipedia.org/wiki/M%C3%BCnchen" target="_blank"><span class="badge rounded-pill" style="background-color: #36c; color: white; margin-top: 4px;">Wikipedia</span></a> <a href="http://www.wikidata.org/entity/Q1726" target="_blank"><span class="badge rounded-pill" style="background-color: #0645ad; color: white; margin-top: 4px;">Wikidata</span></a> <a href="https://pmb.acdh.oeaw.ac.at/entity/38129/" target="_blank"><span class="badge rounded-pill" style="background-color: #9B5F98; color: white; margin-top: 4px;">PMB</span></a> <a href="https://d-nb.info/gnd/4127793-4" target="_blank"><span class="badge rounded-pill" style="background-color: #006AB3; color: white; margin-top: 4px;">GND</span></a> <a href="https://sws.geonames.org/2867714/" target="_blank"><span class="badge rounded-pill" style="background-color: #363; color: white; margin-top: 4px;">geoNames</span></a> 
                               <div xmlns:tei="http://www.tei-c.org/ns/1.0" class="modal fade modal-sm" id="Mikroverfilmung des Nachlasses" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Mikroverfilmung des Nachlasses" aria-hidden="true" data-bs-backdrop="true">
-                                 <div class="modal-dialog">
-                                    <div class="modal-content">
-                                       <div class="modal-header">
-                                          <h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
-                                       <div class="modal-body">
-                                          <p>Mehrfaches Vorkommen auf der angesteuerten Website: </p>
-                                          <ol style="list-style-type: none; padding: 0px;"></ol>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div xmlns:tei="http://www.tei-c.org/ns/1.0" class="modal fade modal-sm" id="Ereignisse in der PMB" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Ereignisse in der PMB" aria-hidden="true" data-bs-backdrop="true">
-                                 <div class="modal-dialog">
-                                    <div class="modal-content">
-                                       <div class="modal-header">
-                                          <h5 class="modal-title" id="exampleModalLabel">Mehrfache Links</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
-                                       <div class="modal-body">
-                                          <p>Mehrfaches Vorkommen auf der angesteuerten Website: </p>
-                                          <ol style="list-style-type: none; padding: 0px;"></ol>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div xmlns:tei="http://www.tei-c.org/ns/1.0" class="modal fade modal-sm" id="Kulturveranstaltungen" tabindex="-1" focus="true" keyboard="true" aria-labelledby="Kulturveranstaltungen" aria-hidden="true" data-bs-backdrop="true">
                                  <div class="modal-dialog">
                                     <div class="modal-content">
                                        <div class="modal-header">
@@ -139,122 +116,310 @@
                         </div>
                         <div id="mapid" style="height: 400px; width:100%; clear: both;"></div>
                         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""></link><script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script><script>
-                                                    
-                                                    var mymap = L.map('mapid').setView([50, 12], 5);
-                                                    
-                                                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                                    attribution: 'Map data &amp;copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-                                                    maxZoom: 18,
-                                                    zIndex: 1
-                                                    }).addTo(mymap);
-                                                    48.13743, 11.57549
-                                                        L.marker([48.13743, 11.57549]).addTo(mymap)
-                                                        .bindPopup("<b>München</b>").openPopup();
-                                                </script><div class="card"></div>
-                        <div id="mentions" class="mt-2"><span class="infodesc mr-2">
+                        
+                        var mymap = L.map('mapid').setView([48.13743, 11.57549], 14);
+                        
+                        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+                        maxZoom: 18
+                        }).addTo(mymap);
+                        
+                        L.marker([48.13743, 11.57549])
+                        .addTo(mymap)
+                        .bindPopup("<b>München</b>")
+                        .openPopup();
+                    </script><div id="mentions"><span class="infodesc mr-2">
                               <legend>Erwähnungen</legend>
-                              <ul>
-                                 <li>Scofield Thayer an Arthur Schnitzler, 9. 7. 1922 <a href="L041368.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Felix Salten an Arthur Schnitzler, 18. 2. 1895 <a href="L041370.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hermann Bahr, 5. 9. 1931 <a href="L041142.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 7. 3. 1914 <a href="L041340.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hugo von Hofmannsthal, 2. 8. 1893 <a href="L041428.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Heinrich Schnitzler an Anna Bahr-Mildenburg, 5. 3. 1936 <a href="L041200.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 10. 2. 1915 <a href="L041342.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Stefan Zweig an Hermann Bahr, 2. 6. 1922 <a href="L041610.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hermann Bahr, 17. 11. 1910 <a href="L041120.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Elisabeth Steinrück, 13. 12. 1915 <a href="L041456.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Josef Redlich, 17. 1. 1927 <a href="L041571.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hermann Bahr, 14. 12. 1909 <a href="L041114.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga Schnitzler an Anna Bahr-Mildenburg, 24. 3. 1936 <a href="L041144.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, 29. 8. 1919 <a href="L041660.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur an Olga Schnitzler, 7. 9. 1919 <a href="L041652.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 30. 5. 1894 <a href="L041168.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga Schnitzler an Anna Bahr-Mildenburg, 24. 11. 1932 <a href="L041197.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Richard Beer-Hofmann und Arthur Schnitzler an Hugo von Hofmannsthal, [5. 6. 1894] <a href="L041527.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Richard Beer-Hofmann an Arthur Schnitzler, 24. 9. 1895 <a href="L041516.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr: A Letter From Germany, Dezember 1922 <a href="T030038.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Felix Salten an Hermann Bahr, 9. 2. 1904 <a href="L041572.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Stefan Zweig an Hermann Bahr, 29. 5. 1922 <a href="L041611.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler: [Brief an Hermann Bahr], [Anfang Juli] 1923 <a href="T030044.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Anna Bahr-Mildenburg an Olga Schnitzler, 5. 3. 1936 <a href="L041199.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Aufzeichnung von Hermann Bahr, [Juli 1922?] <a href="D041606.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hermann Bahr, 16. 2. 1930 <a href="L041140.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 26. 2. 1921 <a href="D041566.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, 3. 12. 1921 <a href="L041670.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Albert von Speidel an Hermann Bahr, 26. 1. 1906 <a href="L041193.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Kalendereintrag von Hermann Bahr, [Adressnotizen], Oktober 1903 <a href="D041454.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Stefan Zweig an Hermann Bahr, 4. 8. 1923 <a href="L041612.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr: [Lektüredatum Der Gang zum Weiher], 7. 3. 1926 <a href="D041594.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 5. 8. 1905 <a href="L041293.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr: Der Grillparzerpreis, 23. 1. 1902 <a href="T030035.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hermann Bahr, 14. 9. 1918 <a href="L041698.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 9. 6. 1922 <a href="L041347.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 24. 9. 1918 <a href="D041554.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 7. 9. 1931 <a href="L041363.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Scofield Thayer an Hermann Bahr, 7. 11. 1922 <a href="L041647.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga Schnitzler: Spiegelbild der Freundschaft, 4. Kapitel, 1962 <a href="T030004.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Stefan Zweig an Arthur Schnitzler, 28. 7. 1923 <a href="L041615.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 20. 3. 1930 <a href="L041351.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Karl Rosner auf Karte von Karl Kraus an Arthur Schnitzler, 30. 9. 1893 <a href="L041524.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, 23. 9. 1919 <a href="L041666.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr beim Ministerpräsidenten, 5. 11. 1903 <a href="T030068.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 22. 9. 1911 <a href="D041072.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga Schnitzler an Anna Bahr-Mildenburg, 24. 1. 1934 <a href="L041198.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 29. 1. 1906 <a href="L041145.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, 23. 2. 1923 <a href="L041674.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Felix Salten an Arthur Schnitzler, 12. 6. 1901 <a href="L041359.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur an Olga Schnitzler, 22. 8. 1918 <a href="L041654.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Max Reinhardt, 24. 12. 1909 <a href="L041397.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Adele Sandrock, [5.] 6. 1894 <a href="L041534.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hugo von Hofmannsthal, 20. 8. 1904 <a href="L041448.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Otto Brahm, 4. 1. 1898 <a href="L041540.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, 13. 9. 1919 <a href="L041663.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 21. 5. 1903 <a href="L041259.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Anna Bahr-Mildenburg an Olga Schnitzler, 7. 4. 1936 <a href="L041033.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hugo von Hofmannsthal an Arthur Schnitzler, 19. 7. 1893 <a href="L041427.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur an Olga Schnitzler, 29. 11. 1921 <a href="L041457.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Aufzeichnung von Hermann Bahr, 16. 1. 1906 <a href="D041484.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 27. 7. [1904] <a href="L041280.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr: [»Der zerbrochene Krug« und »Der grüne Kakadu«], 15. 10. 1905 <a href="T030022.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr: Lebendige Stunden, 7. 5. 1902 <a href="T030020.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 7. 6. 1894 <a href="D041105.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, 18. 2. 1930 <a href="L041350.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hermann Bahr, 17. 3. 1930 <a href="L041141.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an Arthur Schnitzler, [19. 6. 1895] <a href="L041175.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Kalendereintrag von Hermann Bahr, 21. 9. 1896 <a href="D041393.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hermann Bahr, 6. 6. 1922 <a href="L041139.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Richard Beer-Hofmann an Hugo von Hofmannsthal, 10. 6. 1894 <a href="L041528.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Aufzeichnung von Hermann Bahr, 18. 2. 1922 <a href="D041579.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Hermann Bahr, 28. 8. 1909 <a href="L041111.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga Schnitzler an Anna Bahr-Mildenburg, 11. 5. 1921 <a href="L041195.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, 23. 11. 1921 <a href="L041669.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Anna Bahr-Mildenburg an Heinrich Schnitzler, 29. 2. 1936 <a href="L041194.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Otto Brahm, 14. 8. 1909 <a href="L041405.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Aufzeichnung von Hermann Bahr, 18. 1. 1906 <a href="D041485.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur an Olga Schnitzler, 26. 6. 1922 <a href="L041657.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 5. 11. 1918 <a href="D041556.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 21. 3. 1928 <a href="D041384.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Siegfried Trebitsch an Hermann Bahr, [zwischen 27. und 30. 1. 1904] <a href="L041641.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, 13. 2. 1922 <a href="L041672.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 5. 6. 1894 <a href="D041104.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, 21. 11. 1921 <a href="L041668.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Aufzeichnung von Hermann Bahr, 10. 11. 1903 <a href="D041443.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur und Olga Schnitzler an Hermann Bahr, 6. 5. 1908 <a href="L041106.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 2. 6. 1922 <a href="D041346.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 14. 1. 1906 <a href="D041266.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, 26. 4. 1922 <a href="L041673.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr an S. Fischer, [6.] 5. 1923 <a href="L041348.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 19. 9. 1920 <a href="D041564.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr, Julius Bauer, J. J. David, Robert Hirschfeld, Felix Salten, Ludwig Speidel:
-                                    Erklärung, 14. 9. 1900 <a href="T030017.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Adele Sandrock, [4.] 6. 1894 <a href="L041533.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Hermann Bahr: Wie schafft man eine Wiener Sommersaison?, 21. 10. 1909 <a href="T030027.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Olga an Arthur Schnitzler, [20. 12. 1921] <a href="L041671.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Tagebuch von Arthur Schnitzler, 3. 7. 1924 <a href="D041335.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Berliner Tageblatt: Hermann Bahr über Arthur Schnitzler, 14. 12. 1903 <a href="T030036.html"><i class="fas fa-external-link-alt"></i></a></li>
-                                 <li>Arthur Schnitzler an Otto Brahm, 23. 12. 1910 <a href="L041404.html"><i class="fas fa-external-link-alt"></i></a></li>
-                              </ul></span></div>
+                              <div id="mentions-chart" class="mt-3 mb-3"><svg viewBox="0 0 600 200" width="100%" height="300px" preserveAspectRatio="xMidYMid meet" aria-label="Balkendiagramm der Erwähnungen pro Jahr" role="img">
+                                    <line x1="50" y1="10" x2="50" y2="160" stroke="black" stroke-width="2"></line>
+                                    <line x1="50" y1="160" x2="580" y2="160" stroke="black" stroke-width="2"></line>
+                                    <text x="30" y="165" font-size="10" text-anchor="end">0</text>
+                                    <text x="30" y="115" font-size="10" text-anchor="end">10</text>
+                                    <text x="30" y="65" font-size="10" text-anchor="end">20</text>
+                                    <text x="30" y="15" font-size="10" text-anchor="end">30</text>
+                                    <text x="60" y="175" font-size="10" text-anchor="middle">1880</text>
+                                    <text x="160" y="175" font-size="10" text-anchor="middle">1890</text>
+                                    <text x="260" y="175" font-size="10" text-anchor="middle">1900</text>
+                                    <text x="360" y="175" font-size="10" text-anchor="middle">1910</text>
+                                    <text x="460" y="175" font-size="10" text-anchor="middle">1920</text>
+                                    <text x="560" y="175" font-size="10" text-anchor="middle">1930</text>
+                                    <rect x="48" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1879: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="58" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1880: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="68" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1881: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="78" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1882: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="88" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1883: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="98" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1884: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="108" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1885: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="118" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1886: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="128" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1887: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="138" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1888: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="148" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1889: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="158" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1890: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="168" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1891: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="178" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1892: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="188" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1893: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="198" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1894: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="208" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1895: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="218" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1896: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="228" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1897: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="238" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1898: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="248" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1899: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="258" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1900: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="268" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1901: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="278" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1902: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="288" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1903: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="298" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1904: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="308" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1905: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="318" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1906: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="328" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1907: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="338" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1908: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="348" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1909: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="358" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1910: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="368" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1911: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="378" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1912: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="388" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1913: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="398" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1914: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="408" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1915: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="418" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1916: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="428" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1917: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="438" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1918: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="448" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1919: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="458" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1920: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="468" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1921: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="478" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1922: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="488" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1923: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="498" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1924: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="508" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1925: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="518" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1926: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="528" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1927: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="538" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1928: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="548" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1929: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="558" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1930: 0 Erwähnungen</title>
+                                    </rect>
+                                    <rect x="568" y="160" width="4" height="0" fill="#639FF9">
+                                       <title>1931: 0 Erwähnungen</title>
+                                    </rect></svg></div>
+                              <div id="mentions-liste" class="mt-2">
+                                 <div id="mentions-liste" class="mt-2">
+                                    <div class="mentions-by-year">
+                                       <details class="year-details mb-3">
+                                          <summary class="year-summary"> (99 Einträge)</summary>
+                                          <div class="year-content">
+                                             <details class="month-details ms-4 mb-3 bg-light rounded p-2" open="open">
+                                                <summary class="month-summary p-2 bg-light rounded fw-medium"></summary>
+                                                <div class="month-content py-2">
+                                                   <ul class="dashed">
+                                                      <li><a href="L041114.html">Arthur Schnitzler an Hermann Bahr, 14. 12. 1909 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041556.html">Tagebuch von Arthur Schnitzler, 5. 11. 1918 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041144.html">Olga Schnitzler an Anna Bahr-Mildenburg, 24. 3. 1936 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041193.html">Albert von Speidel an Hermann Bahr, 26. 1. 1906 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041571.html">Hermann Bahr an Josef Redlich, 17. 1. 1927 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041346.html">Tagebuch von Arthur Schnitzler, 2. 6. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041359.html">Felix Salten an Arthur Schnitzler, 12. 6. 1901 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041554.html">Tagebuch von Arthur Schnitzler, 24. 9. 1918 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041527.html">Richard Beer-Hofmann und Arthur Schnitzler an Hugo von Hofmannsthal, [5. 6. 1894] <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041140.html">Arthur Schnitzler an Hermann Bahr, 16. 2. 1930 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041443.html">Aufzeichnung von Hermann Bahr, 10. 11. 1903 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041139.html">Arthur Schnitzler an Hermann Bahr, 6. 6. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041534.html">Arthur Schnitzler an Adele Sandrock, [5.] 6. 1894 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041145.html">Hermann Bahr an Arthur Schnitzler, 29. 1. 1906 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041671.html">Olga an Arthur Schnitzler, [20. 12. 1921] <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041660.html">Olga an Arthur Schnitzler, 29. 8. 1919 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041641.html">Siegfried Trebitsch an Hermann Bahr, [zwischen 27. und 30. 1. 1904] <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041670.html">Olga an Arthur Schnitzler, 3. 12. 1921 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041673.html">Olga an Arthur Schnitzler, 26. 4. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041142.html">Arthur Schnitzler an Hermann Bahr, 5. 9. 1931 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041666.html">Olga an Arthur Schnitzler, 23. 9. 1919 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041615.html">Stefan Zweig an Arthur Schnitzler, 28. 7. 1923 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041200.html">Heinrich Schnitzler an Anna Bahr-Mildenburg, 5. 3. 1936 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041175.html">Hermann Bahr an Arthur Schnitzler, [19. 6. 1895] <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041612.html">Stefan Zweig an Hermann Bahr, 4. 8. 1923 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041106.html">Arthur und Olga Schnitzler an Hermann Bahr, 6. 5. 1908 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041611.html">Stefan Zweig an Hermann Bahr, 29. 5. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041198.html">Olga Schnitzler an Anna Bahr-Mildenburg, 24. 1. 1934 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041427.html">Hugo von Hofmannsthal an Arthur Schnitzler, 19. 7. 1893 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041698.html">Arthur Schnitzler an Hermann Bahr, 14. 9. 1918 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041141.html">Arthur Schnitzler an Hermann Bahr, 17. 3. 1930 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041370.html">Felix Salten an Arthur Schnitzler, 18. 2. 1895 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041347.html">Hermann Bahr an Arthur Schnitzler, 9. 6. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041342.html">Hermann Bahr an Arthur Schnitzler, 10. 2. 1915 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030035.html">Hermann Bahr: Der Grillparzerpreis, 23. 1. 1902 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041516.html">Richard Beer-Hofmann an Arthur Schnitzler, 24. 9. 1895 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030038.html">Hermann Bahr: A Letter From Germany, Dezember 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041397.html">Arthur Schnitzler an Max Reinhardt, 24. 12. 1909 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041654.html">Arthur an Olga Schnitzler, 22. 8. 1918 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041405.html">Arthur Schnitzler an Otto Brahm, 14. 8. 1909 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041647.html">Scofield Thayer an Hermann Bahr, 7. 11. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041484.html">Aufzeichnung von Hermann Bahr, 16. 1. 1906 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041566.html">Tagebuch von Arthur Schnitzler, 26. 2. 1921 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041485.html">Aufzeichnung von Hermann Bahr, 18. 1. 1906 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041194.html">Anna Bahr-Mildenburg an Heinrich Schnitzler, 29. 2. 1936 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041572.html">Felix Salten an Hermann Bahr, 9. 2. 1904 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041657.html">Arthur an Olga Schnitzler, 26. 6. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030022.html">Hermann Bahr: [»Der zerbrochene Krug« und »Der grüne Kakadu«], 15. 10. 1905 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030044.html">Arthur Schnitzler: [Brief an Hermann Bahr], [Anfang Juli] 1923 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041111.html">Arthur Schnitzler an Hermann Bahr, 28. 8. 1909 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041674.html">Olga an Arthur Schnitzler, 23. 2. 1923 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041672.html">Olga an Arthur Schnitzler, 13. 2. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041280.html">Hermann Bahr an Arthur Schnitzler, 27. 7. [1904] <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041540.html">Arthur Schnitzler an Otto Brahm, 4. 1. 1898 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041579.html">Aufzeichnung von Hermann Bahr, 18. 2. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041594.html">Hermann Bahr: [Lektüredatum Der Gang zum Weiher], 7. 3. 1926 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041457.html">Arthur an Olga Schnitzler, 29. 11. 1921 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041335.html">Tagebuch von Arthur Schnitzler, 3. 7. 1924 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041669.html">Olga an Arthur Schnitzler, 23. 11. 1921 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041072.html">Tagebuch von Arthur Schnitzler, 22. 9. 1911 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041393.html">Kalendereintrag von Hermann Bahr, 21. 9. 1896 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041363.html">Hermann Bahr an Arthur Schnitzler, 7. 9. 1931 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041368.html">Scofield Thayer an Arthur Schnitzler, 9. 7. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041350.html">Hermann Bahr an Arthur Schnitzler, 18. 2. 1930 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041105.html">Tagebuch von Arthur Schnitzler, 7. 6. 1894 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041524.html">Karl Rosner auf Karte von Karl Kraus an Arthur Schnitzler, 30. 9. 1893 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041384.html">Tagebuch von Arthur Schnitzler, 21. 3. 1928 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041606.html">Aufzeichnung von Hermann Bahr, [Juli 1922?] <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041340.html">Hermann Bahr an Arthur Schnitzler, 7. 3. 1914 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041454.html">Kalendereintrag von Hermann Bahr, [Adressnotizen], Oktober 1903 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030027.html">Hermann Bahr: Wie schafft man eine Wiener Sommersaison?, 21. 10. 1909 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041351.html">Hermann Bahr an Arthur Schnitzler, 20. 3. 1930 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041033.html">Anna Bahr-Mildenburg an Olga Schnitzler, 7. 4. 1936 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030020.html">Hermann Bahr: Lebendige Stunden, 7. 5. 1902 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041533.html">Arthur Schnitzler an Adele Sandrock, [4.] 6. 1894 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041199.html">Anna Bahr-Mildenburg an Olga Schnitzler, 5. 3. 1936 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041168.html">Hermann Bahr an Arthur Schnitzler, 30. 5. 1894 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041104.html">Tagebuch von Arthur Schnitzler, 5. 6. 1894 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041197.html">Olga Schnitzler an Anna Bahr-Mildenburg, 24. 11. 1932 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041259.html">Hermann Bahr an Arthur Schnitzler, 21. 5. 1903 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041293.html">Hermann Bahr an Arthur Schnitzler, 5. 8. 1905 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030036.html">Berliner Tageblatt: Hermann Bahr über Arthur Schnitzler, 14. 12. 1903 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041610.html">Stefan Zweig an Hermann Bahr, 2. 6. 1922 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041652.html">Arthur an Olga Schnitzler, 7. 9. 1919 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030068.html">Hermann Bahr beim Ministerpräsidenten, 5. 11. 1903 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041564.html">Tagebuch von Arthur Schnitzler, 19. 9. 1920 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041428.html">Arthur Schnitzler an Hugo von Hofmannsthal, 2. 8. 1893 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041404.html">Arthur Schnitzler an Otto Brahm, 23. 12. 1910 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="D041266.html">Tagebuch von Arthur Schnitzler, 14. 1. 1906 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041348.html">Hermann Bahr an S. Fischer, [6.] 5. 1923 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041448.html">Arthur Schnitzler an Hugo von Hofmannsthal, 20. 8. 1904 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030004.html">Olga Schnitzler: Spiegelbild der Freundschaft, 4. Kapitel, 1962 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041456.html">Arthur Schnitzler an Elisabeth Steinrück, 13. 12. 1915 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="T030017.html">Hermann Bahr, Julius Bauer, J. J. David, Robert Hirschfeld, Felix Salten, Ludwig Speidel:
+                                                            Erklärung, 14. 9. 1900 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041120.html">Arthur Schnitzler an Hermann Bahr, 17. 11. 1910 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041528.html">Richard Beer-Hofmann an Hugo von Hofmannsthal, 10. 6. 1894 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041668.html">Olga an Arthur Schnitzler, 21. 11. 1921 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041195.html">Olga Schnitzler an Anna Bahr-Mildenburg, 11. 5. 1921 <i class="fas fa-external-link-alt"></i></a></li>
+                                                      <li><a href="L041663.html">Olga an Arthur Schnitzler, 13. 9. 1919 <i class="fas fa-external-link-alt"></i></a></li>
+                                                   </ul>
+                                                </div>
+                                             </details>
+                                          </div>
+                                       </details>
+                                    </div>
+                                 </div>
+                              </div></span></div>
                      </div>
                   </div>
                </div>

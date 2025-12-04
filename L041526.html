@@ -7,6 +7,7 @@
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-title" content="Richard Beer-Hofmann an Hermann Bahr, 9. 8. 1904" />
       <link rel="profile" href="http://gmpg.org/xfn/11" />
+      <meta name="google-site-verification" content="dc888ZmCroA0_VKEB86Vss7wy4Jbkaro0j2QfM8GOak" />
       <title>Richard Beer-Hofmann an Hermann Bahr, 9. 8. 1904</title>
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="msapplication-TileImage" content="../../html/img/schnitzler-bahr.svg" />
@@ -305,7 +306,7 @@
                <div class="modal-body">
                   <p>Richard Beer-Hofmann an Hermann Bahr, 9. 8. 1904. In: Hermann Bahr – Arthur
                      Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931).
-                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 18. 7. 2025, https://hdl.handle.net/21.11115/0000-000E-877F-C.</p>
+                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 4. 12. 2025, https://hdl.handle.net/21.11115/0000-000E-877F-C.</p>
                </div>
                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button></div>
             </div>
@@ -327,14 +328,14 @@
          <div class="modal-dialog">
             <div class="modal-content">
                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle3"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1904-08-09.html" target="_blank" style="color: #C67F53; font-style: normal">Dienstag, 9. 8. 1904</a></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
+                  <h5 class="modal-title" id="exampleModalLongTitle3"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1904-08-09.html" target="_blank" style="color: #008B8B; font-style: normal">Dienstag, 9. 8. 1904</a></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
                <div class="modal-body">
                   <div id="chronik-modal-body">
                      <div id="chronik-modal-body"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
                         <div id="collapseMap">
                            <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="1904-08-09"></div>
                         </div><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script><script>
-            $('#schnitzler-chronik-modal').on('shown.bs.modal', function () {
+            document.getElementById('schnitzler-chronik-modal').addEventListener('shown.bs.modal', function () {
             console.log('Modal shown event triggered');
             // Kurz warten, dann initialisieren
             setTimeout(function() {
@@ -344,9 +345,9 @@
             }
             }, 100);
             });
-            
+
             // Zusätzlich: Map zurücksetzen beim Schließen
-            $('#schnitzler-chronik-modal').on('hidden.bs.modal', function () {
+            document.getElementById('schnitzler-chronik-modal').addEventListener('hidden.bs.modal', function () {
             window._wienerschnitzlerMapInitialized = false;
             });
         </script><div class="card mb-3" style="background-color: rgba(3, 122, 51, 0.1)">
@@ -392,11 +393,15 @@
                                           <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
                                              <div class="list-container">
                                                 <ul class="horizontal-list" style="--dot-color: #A63437;">
+                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
+                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11740.html" target="_blank">Hofmannsthal, Hugo von</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11740.html" target="_blank">Hugo von Hofmannsthal</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11673.html" target="_blank">Theodor Herzl</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb27903.html" target="_blank">Karl Eduard Vehse</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3986.html" target="_blank"> Karl V. </a></li>
+                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb3986.html" target="_blank">
+                                                         Karl V.
+                                                         </a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2412.html" target="_blank">William Shakespeare</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2404.html" target="_blank">Friedrich Hebbel</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb13055.html" target="_blank">Jakob Wassermann</a></li>
@@ -408,8 +413,7 @@
                                              
                                              <div class="list-container">
                                                 <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb31315.html" target="_blank">Geschichte der deutschen Höfe seit der
-                                                         Reformation</a></li>
+                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb31315.html" target="_blank">Geschichte der deutschen Höfe seit der Reformation</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30609.html" target="_blank">Tagebücher</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30377.html" target="_blank">Das Los der Juden</a></li>
                                                    <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30233.html" target="_blank">Der Graf von Charolais. Ein Trauerspiel</a></li>
@@ -520,21 +524,21 @@
                               </div>
                            </div>
                         </div>
-                        <div class="card mb-3" style="background-color: rgba(236, 218, 152, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(236, 218, 152, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #ECDA98; " href="https://wienerschnitzler.org/tag.html#1904-08-09">Wiener Schnitzler</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#wienerschnitzler" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
+                        <div class="card mb-3" style="background-color: rgba(111, 81, 6, 0.1)">
+                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: rgba(111, 81, 6, 0.1)"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #6F5106; " href="https://wienerschnitzler.org/tag.html#1904-08-09">Wiener Schnitzler</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#wienerschnitzler" aria-expanded="false" aria-controls="content1" style="cursor: pointer; user-select: none;">+</span></div>
                            <div class="collapse" id="wienerschnitzler">
                               <div class="card-body">
-                                 <p><a class="entry-title" href="http://wienerschnitzler.org/pmb.html" target="_blank">Wien</a></p>
+                                 <p><a class="entry-title" href="http://wienerschnitzler.org/pmb50.html" target="_blank">Wien</a></p>
                                  <ul style="list-style-type: none; padding-left: 0px;">
                                     <li>
                                        <ul style="list-style-type: none; padding-left: 0px;">
                                           <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
                                              <div class="list-container">
-                                                <ul style="--dot-color: #ECDA98;">
+                                                <ul style="--dot-color: #6F5106;">
                                                    <li><a href="https://www.wienerschnitzler.org/pmb52.html" target="_blank">II., Leopoldstadt</a><div class="list-container">
-                                                         <ul style="--dot-color: #ECDA98;">
+                                                         <ul style="--dot-color: #6F5106;">
                                                             <li><a href="https://www.wienerschnitzler.org/pmb8.html" target="_blank">Prater</a><div class="list-container">
-                                                                  <ul style="--dot-color: #ECDA98;">
+                                                                  <ul style="--dot-color: #6F5106;">
                                                                      <li><a href="https://www.wienerschnitzler.org/pmb234204.html" target="_blank">Konstantinhügel</a></li>
                                                                      <li><a href="https://www.wienerschnitzler.org/pmb685.html" target="_blank">Wurstelprater</a></li>
                                                                   </ul>
@@ -544,13 +548,13 @@
                                                       </div>
                                                    </li>
                                                    <li><a href="https://www.wienerschnitzler.org/pmb69.html" target="_blank">XIX., Döbling</a><div class="list-container">
-                                                         <ul style="--dot-color: #ECDA98;">
+                                                         <ul style="--dot-color: #6F5106;">
                                                             <li><a href="https://www.wienerschnitzler.org/pmb225.html" target="_blank">Grinzing</a></li>
                                                          </ul>
                                                       </div>
                                                    </li>
                                                    <li><a href="https://www.wienerschnitzler.org/pmb68.html" target="_blank">XVIII., Währing</a><div class="list-container">
-                                                         <ul style="--dot-color: #ECDA98;">
+                                                         <ul style="--dot-color: #6F5106;">
                                                             <li><a href="https://www.wienerschnitzler.org/pmb168940.html" target="_blank">Edmund-Weiß-Gasse 7</a></li>
                                                          </ul>
                                                       </div>
