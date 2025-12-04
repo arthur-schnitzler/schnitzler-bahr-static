@@ -9,7 +9,8 @@
       "Bash(! grep -q 'entities.xsl' \"$f\")",
       "Bash(chmod:*)",
       "Bash(python make_sitemap.py:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(bash dl_saxon.sh:*)"
     ],
     "deny": [],
     "ask": []
