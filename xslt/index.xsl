@@ -13,10 +13,19 @@
         <xsl:variable name="doc_title">
             <xsl:value-of select="'Hermann Bahr – Arthur Schnitzler'"/>
         </xsl:variable>
+        <xsl:variable name="meta_desc">
+            <xsl:value-of select="'Digitale Edition des Briefwechsels, der Aufzeichnungen und Dokumente zwischen Hermann Bahr und Arthur Schnitzler (1891–1931). Ein Projekt des Austrian Centre for Digital Humanities and Cultural Heritage.'"/>
+        </xsl:variable>
+        <xsl:variable name="keywords">
+            <xsl:value-of select="'Hermann Bahr, Arthur Schnitzler, Briefwechsel, Tagebücher, digitale Edition, österreichische Literatur, Wiener Moderne, ACDH-CH'"/>
+        </xsl:variable>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="meta_description" select="$meta_desc"/>
+                <xsl:with-param name="meta_keywords" select="$keywords"/>
+                <xsl:with-param name="current_page" select="'index.html'"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">

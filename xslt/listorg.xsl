@@ -13,10 +13,15 @@
 
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Erwähnte Institutionen, Einrichtungen und Redaktionen'"/>
+        <xsl:variable name="meta_desc" select="'Alphabetisches Verzeichnis aller im Briefwechsel zwischen Hermann Bahr und Arthur Schnitzler erwähnten Institutionen, Einrichtungen, Verlage und Redaktionen.'"/>
+        <xsl:variable name="keywords" select="'Institutionen, Hermann Bahr, Arthur Schnitzler, Theater, Verlage, Zeitschriften, Redaktionen'"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="meta_description" select="$meta_desc"/>
+                <xsl:with-param name="meta_keywords" select="$keywords"/>
+                <xsl:with-param name="current_page" select="'listorg.html'"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">

@@ -13,10 +13,15 @@
 
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Erwähnte Orte'"/>
+        <xsl:variable name="meta_desc" select="'Alphabetisches Verzeichnis aller im Briefwechsel zwischen Hermann Bahr und Arthur Schnitzler erwähnten Orte mit geographischen Koordinaten und Kartendarstellung.'"/>
+        <xsl:variable name="keywords" select="'Ortsregister, Hermann Bahr, Arthur Schnitzler, Reisen, Orte, Wien, Geographie'"/>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="meta_description" select="$meta_desc"/>
+                <xsl:with-param name="meta_keywords" select="$keywords"/>
+                <xsl:with-param name="current_page" select="'listplace.html'"/>
             </xsl:call-template>
             <body class="page">
                 <div class="hfeed site" id="page">

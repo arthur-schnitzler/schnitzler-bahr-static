@@ -12,10 +12,15 @@
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Inhaltsverzeichnis'"/>
+        <xsl:variable name="meta_desc" select="'Chronologisches Inhaltsverzeichnis aller Briefe, Dokumente und Tagebucheinträge im Briefwechsel zwischen Hermann Bahr und Arthur Schnitzler (1891–1931).'"/>
+        <xsl:variable name="keywords" select="'Inhaltsverzeichnis, Hermann Bahr, Arthur Schnitzler, Briefwechsel, Chronologie'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="meta_description" select="$meta_desc"/>
+                <xsl:with-param name="meta_keywords" select="$keywords"/>
+                <xsl:with-param name="current_page" select="'toc.html'"/>
             </xsl:call-template>
             
             <body class="page">

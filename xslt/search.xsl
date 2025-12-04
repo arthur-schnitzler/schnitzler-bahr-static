@@ -12,10 +12,15 @@
     <xsl:import href="partials/html_footer.xsl"/>
     <xsl:template match="/">
         <xsl:variable name="doc_title" select="'Volltextsuche'"/>
+        <xsl:variable name="meta_desc" select="'Durchsuchen Sie den gesamten Briefwechsel zwischen Hermann Bahr und Arthur Schnitzler. Volltextsuche in allen Briefen, Tagebüchern und Dokumenten (1891–1931).'"/>
+        <xsl:variable name="keywords" select="'Volltextsuche, Suche, Hermann Bahr, Arthur Schnitzler, Briefwechsel, Recherche'"/>
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
         <html xmlns="http://www.w3.org/1999/xhtml">
             <xsl:call-template name="html_head">
-                <xsl:with-param name="html_title" select="$doc_title"></xsl:with-param>
+                <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="meta_description" select="$meta_desc"/>
+                <xsl:with-param name="meta_keywords" select="$keywords"/>
+                <xsl:with-param name="current_page" select="'search.html'"/>
             </xsl:call-template>
             
             <body class="page">

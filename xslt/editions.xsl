@@ -76,10 +76,24 @@
         <xsl:variable name="doc_title">
             <xsl:value-of select="descendant::tei:titleStmt[1]/tei:title[@level = 'a'][1]/text()"/>
         </xsl:variable>
+        <xsl:variable name="authors">
+            <xsl:value-of select="string-join(descendant::tei:titleStmt/tei:author, ', ')"/>
+        </xsl:variable>
+        <xsl:variable name="meta_desc">
+            <xsl:value-of select="concat($doc_title, '. Digitale Edition im Rahmen des Projekts Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931).')"/>
+        </xsl:variable>
+        <xsl:variable name="keywords">
+            <xsl:value-of select="concat('Hermann Bahr, Arthur Schnitzler, Briefwechsel, ', format-date($entryDate, '[Y]'), ', digitale Edition')"/>
+        </xsl:variable>
         <xsl:text disable-output-escaping="yes">&lt;!DOCTYPE html&gt;</xsl:text>
         <html lang="de">
             <xsl:call-template name="html_head">
                 <xsl:with-param name="html_title" select="$doc_title"/>
+                <xsl:with-param name="meta_description" select="$meta_desc"/>
+                <xsl:with-param name="meta_keywords" select="$keywords"/>
+                <xsl:with-param name="meta_author" select="$authors"/>
+                <xsl:with-param name="doc_date" select="$entryDate"/>
+                <xsl:with-param name="current_page" select="$link"/>
             </xsl:call-template>
             <body class="page">
                 <link rel="stylesheet" href="css/cslink.css"/>

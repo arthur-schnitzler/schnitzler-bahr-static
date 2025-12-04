@@ -4,6 +4,11 @@
     exclude-result-prefixes="xsl xs" version="2.0">
     <xsl:template match="/" name="html_head">
         <xsl:param name="html_title" select="$project_short_title"/>
+        <xsl:param name="meta_description" select="''"/>
+        <xsl:param name="meta_keywords" select="''"/>
+        <xsl:param name="meta_author" select="''"/>
+        <xsl:param name="doc_date" select="''"/>
+        <xsl:param name="current_page" select="'index.html'"/>
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -16,6 +21,26 @@
             <title>
                 <xsl:value-of select="$html_title"/>
             </title>
+            <xsl:if test="$meta_description != ''">
+                <meta name="description" content="{$meta_description}"/>
+            </xsl:if>
+            <xsl:if test="$meta_keywords != ''">
+                <meta name="keywords" content="{$meta_keywords}"/>
+            </xsl:if>
+            <xsl:if test="$meta_author != ''">
+                <meta name="author" content="{$meta_author}"/>
+            </xsl:if>
+            <xsl:if test="$doc_date != ''">
+                <meta name="date" content="{$doc_date}"/>
+            </xsl:if>
+            <!-- Open Graph Tags -->
+            <meta property="og:title" content="{$html_title}"/>
+            <meta property="og:type" content="article"/>
+            <meta property="og:url" content="{$base_url}/{$current_page}"/>
+            <xsl:if test="$meta_description != ''">
+                <meta property="og:description" content="{$meta_description}"/>
+            </xsl:if>
+            <meta property="og:site_name" content="{$project_title}"/>
             <meta name="msapplication-TileColor" content="#ffffff"/>
             <meta name="msapplication-TileImage" content="{$project_logo}"/>
             <link rel="icon" type="image/svg+xml" href="{$project_logo}" sizes="any"/>
