@@ -6,6 +6,7 @@ from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
 from acdh_cfts_pyutils import CFTS_COLLECTION
 from acdh_tei_pyutils.tei import TeiReader
 from tqdm import tqdm
+from requests.exceptions import ReadTimeout
 
 
 files = glob.glob('./data/editions/*.xml')
@@ -14,6 +15,9 @@ files = glob.glob('./data/editions/*.xml')
 try:
     client.collections['bahr-static'].delete()
 except ObjectNotFound:
+    pass
+except ReadTimeout:
+    print("Warning: Timeout while trying to delete collection. Continuing anyway...")
     pass
 
 current_schema = {
@@ -68,7 +72,15 @@ current_schema = {
     ]
 }
 
-client.collections.create(current_schema)
+try:
+    client.collections.create(current_schema)
+    print('Created collection schema successfully')
+except ReadTimeout:
+    print("Warning: Timeout while creating collection schema.")
+    raise
+except Exception as e:
+    print(f"Error creating collection schema: {e}")
+    raise
 
 records = []
 cfts_records = []
@@ -113,8 +125,19 @@ for x in tqdm(files, total=len(files)):
     records.append(record)
     cfts_records.append(cfts_record)
 
-make_index = client.collections['bahr-static'].documents.import_(records)
-print('done with indexing bahr-static')
+try:
+    make_index = client.collections['bahr-static'].documents.import_(records)
+    print('done with indexing bahr-static')
+except ReadTimeout:
+    print("Warning: Timeout while indexing bahr-static. The index may be incomplete.")
+except Exception as e:
+    print(f"Error while indexing bahr-static: {e}")
 
-make_index = CFTS_COLLECTION.documents.import_(cfts_records)
+try:
+    make_index = CFTS_COLLECTION.documents.import_(cfts_records)
+    print('done with indexing CFTS collection')
+except ReadTimeout:
+    print("Warning: Timeout while indexing CFTS collection. The index may be incomplete.")
+except Exception as e:
+    print(f"Error while indexing CFTS collection: {e}")
 
