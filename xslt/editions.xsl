@@ -1677,10 +1677,11 @@
         </xsl:element>
     </xsl:template>
     <xsl:template match="tei:rs[.//tei:rs or contains(@ref, ' ')]">
+        <xsl:variable name="modalId1" as="xs:string">
+            <xsl:value-of select=".//@ref"/>
+        </xsl:variable>
         <xsl:variable name="modalId">
-            <xsl:value-of
-                select="replace(normalize-space(string-join(.//@ref[starts-with(., '#')], '___')), '#', '')"
-            />
+            <xsl:value-of select="xs:string(replace(replace($modalId1, ' #', ''), '#', ''))"/>
         </xsl:variable>
         <xsl:element name="a">
             <xsl:attribute name="class">
