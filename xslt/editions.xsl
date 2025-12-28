@@ -661,6 +661,36 @@
                         </div>
                     </div>
                 </div>
+                <!-- Hier die Modals für mehrere rs/@refs in einem -->
+                <xsl:for-each
+                    select="descendant::tei:rs[(not(ancestor::tei:note) and contains(@ref, ' ')) or descendant::tei:rs[not(ancestor::tei:note)]]">
+                    <xsl:variable name="modalId1" as="xs:string">
+                        <xsl:value-of select="string-join(.//@ref[not(ancestor::tei:note)], '')"/>
+                    </xsl:variable>
+                    <xsl:variable name="modalId">
+                        <xsl:value-of
+                            select="xs:string(replace(replace($modalId1, ' #', ''), '#', ''))"/>
+                    </xsl:variable>
+                    <xsl:call-template name="rsmodal">
+                        <xsl:with-param name="modalId" select="replace($modalId, '#', '')"/>
+                        <xsl:with-param name="back" select="$back"/>
+                    </xsl:call-template>
+                </xsl:for-each>
+                <!--  rs/@refs in notes brauchen eigenes modal -->
+                <xsl:for-each
+                    select="descendant::tei:rs[((ancestor::tei:note) and contains(@ref, ' ')) or descendant::tei:rs[(ancestor::tei:note)]]">
+                    <xsl:variable name="modalId1" as="xs:string">
+                        <xsl:value-of select="string-join(.//@ref[(ancestor::tei:note)], '')"/>
+                    </xsl:variable>
+                    <xsl:variable name="modalId">
+                        <xsl:value-of
+                            select="xs:string(replace(replace($modalId1, ' #', ''), '#', ''))"/>
+                    </xsl:variable>
+                    <xsl:call-template name="rsmodal">
+                        <xsl:with-param name="modalId" select="replace($modalId, '#', '')"/>
+                        <xsl:with-param name="back" select="$back"/>
+                    </xsl:call-template>
+                </xsl:for-each>
                 <script src="https://unpkg.com/de-micro-editor@0.2.6/dist/de-editor.min.js"/>
                 <script type="text/javascript" src="js/run.js"/>
             </body>
@@ -1655,8 +1685,8 @@
             <xsl:attribute name="class">
                 <xsl:text>reference-black</xsl:text>
             </xsl:attribute>
-            <xsl:attribute name="data-toggle">modal</xsl:attribute>
-            <xsl:attribute name="data-target">
+            <xsl:attribute name="data-bs-toggle">modal</xsl:attribute>
+            <xsl:attribute name="data-bs-target">
                 <xsl:value-of select="concat('#', $modalId)"/>
             </xsl:attribute>
             <xsl:value-of select="."/>
@@ -2655,4 +2685,88 @@
         </xsl:if>
         <xsl:text>.</xsl:text>
     </xsl:function>
+    <xsl:template name="rsmodal">
+        <xsl:param name="modalId" as="xs:string"/>
+        <xsl:param name="back" as="node()?"/>
+        <div class="modal fade" id="{$modalId}" tabindex="-1" aria-labelledby="{$modalId}"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle4">Auswahl</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                            aria-label="Schließen"/>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <xsl:for-each select="tokenize($modalId, 'pmb')">
+                                <xsl:variable name="current" select="concat('pmb', .)"
+                                    as="xs:string"/>
+                                <xsl:if test=". != ''">
+                                    <li>
+                                        <xsl:variable name="eintrag"
+                                            select="$back//tei:*[@xml:id = $current][1]"
+                                            as="node()?"/>
+                                        <xsl:variable name="typ" select="$eintrag/name()"
+                                            as="xs:string?"/>
+                                        <xsl:element name="a">
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of select="concat($current, '.html')"/>
+                                            </xsl:attribute>
+                                            <!-- Add entity-specific CSS class for colored modal links -->
+                                            <xsl:attribute name="class">
+                                                <xsl:choose>
+                                                  <xsl:when test="$typ = 'place'">places</xsl:when>
+                                                  <xsl:when test="$typ = 'bibl'">works</xsl:when>
+                                                  <xsl:when test="$typ = 'org'">orgs</xsl:when>
+                                                  <xsl:when test="$typ = 'event'">events</xsl:when>
+                                                  <xsl:when test="$typ = 'person'"
+                                                  >persons</xsl:when>
+                                                  <xsl:otherwise/>
+                                                </xsl:choose>
+                                            </xsl:attribute>
+                                            <xsl:choose>
+                                                <xsl:when test="$typ = 'place'">
+                                                  <xsl:value-of select="$eintrag/tei:placeName[1]"/>
+                                                </xsl:when>
+                                                <xsl:when test="$typ = 'bibl'">
+                                                  <xsl:value-of select="$eintrag/tei:title[1]"/>
+                                                </xsl:when>
+                                                <xsl:when test="$typ = 'org'">
+                                                  <xsl:value-of select="$eintrag/tei:orgName[1]"/>
+                                                </xsl:when>
+                                                <xsl:when test="$typ = 'event'">
+                                                  <xsl:value-of select="$eintrag/tei:eventName[1]"/>
+                                                </xsl:when>
+                                                <xsl:when test="$typ = 'person'">
+                                                  <xsl:choose>
+                                                  <xsl:when
+                                                  test="$eintrag/tei:persName[1]/tei:forename and $eintrag/tei:persName[1]/tei:surname">
+                                                  <xsl:value-of
+                                                  select="concat($eintrag/tei:persName[1]/tei:forename, ' ', $eintrag/tei:persName[1]/tei:surname)"
+                                                  />
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <xsl:value-of select="$eintrag/tei:persName[1]"/>
+                                                  </xsl:otherwise>
+                                                  </xsl:choose>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                  <xsl:text>offen</xsl:text>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                        </xsl:element>
+                                    </li>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                            >Schließen</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </xsl:template>
 </xsl:stylesheet>
