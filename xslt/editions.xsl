@@ -53,6 +53,7 @@
             select="descendant::tei:teiHeader[1]/tei:fileDesc[1]/tei:publicationStmt[1]/tei:idno[@type = 'handle'][1]/text()"
         />
     </xsl:variable>
+    <xsl:param name="back" select="tei:TEI/tei:text/tei:back" as="node()?"/>
     <xsl:param name="chronik-dir">../chronik-data</xsl:param>
     <xsl:variable name="chronik-data"
         select="collection(concat($chronik-dir, '/?select=L0*.xml;recurse=yes'))"/>
