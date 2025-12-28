@@ -2732,7 +2732,17 @@
                                                   <xsl:value-of select="$eintrag/tei:placeName[1]"/>
                                                 </xsl:when>
                                                 <xsl:when test="$typ = 'bibl'">
+                                                  <xsl:choose>
+                                                  <xsl:when
+                                                  test="$eintrag/tei:title[@type = 'bibliografische_angabe']">
+                                                  <xsl:value-of
+                                                  select="$eintrag/tei:title[@type = 'bibliografische_angabe']"
+                                                  />
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
                                                   <xsl:value-of select="$eintrag/tei:title[1]"/>
+                                                  </xsl:otherwise>
+                                                  </xsl:choose>
                                                 </xsl:when>
                                                 <xsl:when test="$typ = 'org'">
                                                   <xsl:value-of select="$eintrag/tei:orgName[1]"/>
