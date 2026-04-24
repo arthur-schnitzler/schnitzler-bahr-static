@@ -114,13 +114,8 @@
                     <body class="page">
                         <div class="hfeed site" id="page">
                             <xsl:call-template name="nav_bar"/>
-                            <div class="container-fluid">
+                            <div class="container">
                                 <div class="card">
-                                    <div class="card-header">
-                                        <h1 align="center">
-                                            <xsl:value-of select="$name"/><xsl:text> </xsl:text><small><xsl:text> (Institution)</xsl:text></small>
-                                        </h1>
-                                    </div>
                                     <div class="card-body">
                                         <xsl:call-template name="org_detail"/>
                                     </div>
