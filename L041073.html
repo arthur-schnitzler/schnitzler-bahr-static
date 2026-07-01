@@ -256,7 +256,7 @@
                <div class="modal-body">
                   <p>Arthur Schnitzler u. a. an Hermann Bahr, 7. 9. 1904. In: Hermann Bahr – Arthur
                      Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931).
-                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 24. 4. 2026, https://hdl.handle.net/21.11115/0000-000E-85BA-A.</p>
+                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 1. 7. 2026, https://hdl.handle.net/21.11115/0000-000E-85BA-A.</p>
                </div>
                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button></div>
             </div>
@@ -281,286 +281,396 @@
                   <h5 class="modal-title" id="exampleModalLongTitle3"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1904-09-07.html" target="_blank" style="color: #008B8B; font-style: normal">Mittwoch, 7. 9. 1904</a></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
                <div class="modal-body">
                   <div id="chronik-modal-body">
-                     <div id="chronik-modal-body"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-                        <div id="collapseMap">
-                           <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="1904-09-07"></div>
-                        </div><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script><script>
-            document.getElementById('schnitzler-chronik-modal').addEventListener('shown.bs.modal', function () {
-            console.log('Modal shown event triggered');
-            // Kurz warten, dann initialisieren
-            setTimeout(function() {
-            if (!window._wienerschnitzlerMapInitialized) {
-            window.initWienerschnitzlerMap();
-            window._wienerschnitzlerMapInitialized = true;
-            }
-            }, 100);
-            });
-
-            // Zusätzlich: Map zurücksetzen beim Schließen
-            document.getElementById('schnitzler-chronik-modal').addEventListener('hidden.bs.modal', function () {
-            window._wienerschnitzlerMapInitialized = false;
-            });
-        </script><div class="card mb-3" style="background-color: rgba(3, 122, 51, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #037a33; " href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-07.html">Tagebuch</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-tagebuch" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-tagebuch">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #037a33" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-07.html" target="_blank">Tagebuch, 7. September 1904</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #037a33;">
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_13551.html" target="_blank">Richard Beer-Hofmann</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_17834.html" target="_blank">Heinrich Mann</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_13550.html" target="_blank">Paula Beer-Hofmann</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16293.html" target="_blank">Hugo von Hofmannsthal</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #037a33;">
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30233.html" target="_blank">Der Graf von Charolais. Ein Trauerspiel</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31091.html" target="_blank">Das gerettete Venedig. Trauerspiel in fünf Aufzüge…</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31981.html" target="_blank">Die Jagd nach Liebe</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #037a33;">
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91173.html" target="_blank">Pass Lueg</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb415.html" target="_blank">Bad Aussee</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb969.html" target="_blank">Südtirol</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb462.html" target="_blank">Venedig</a></li>
-                                                </ul>
-                                             </div>
+                     <div id="chronik-modal-body" class="chronik-embed"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+                        <style>
+                    .chronik-embed {
+                        font-size: .85rem;
+                        line-height: 1.35;
+                    }
+                    /* prominente, klar als Link erkennbare Datums-Überschrift */
+                    .chronik-embed .chronik-date-heading {
+                        margin: 0 0 .7rem 0;
+                        text-align: center;
+                        line-height: 1.2;
+                    }
+                    .chronik-embed .chronik-date-heading a {
+                        display: inline-block;
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                        color: #008B8B;
+                        text-decoration: underline;
+                        text-decoration-thickness: .08em;
+                        text-underline-offset: .18em;
+                    }
+                    .chronik-embed .chronik-date-heading a::after {
+                        content: "\00A0\2197";
+                        font-size: .7em;
+                        text-decoration: none;
+                        vertical-align: .15em;
+                    }
+                    .chronik-embed .chronik-date-heading a:hover {
+                        color: #006d6d;
+                        text-decoration: underline;
+                    }
+                    /* Masonry über CSS-Spalten: packt die Kacheln platzsparend,
+                       im schmalen Modal einspaltig, im Querformat mehrspaltig */
+                    .chronik-embed .chronik-cards {
+                        column-width: 17rem;
+                        column-gap: .6rem;
+                    }
+                    /* inline-block statt block: verhindert, dass der untere Außenabstand
+                       am Spaltenumbruch in die nächste Spalte »blutet« und deren erste
+                       Kachel nach unten schiebt */
+                    .chronik-embed .chronik-card {
+                        display: inline-block;
+                        width: 100%;
+                        vertical-align: top;
+                        break-inside: avoid;
+                        -webkit-column-break-inside: avoid;
+                        margin: 0 0 .6rem 0;
+                        border-radius: .45rem;
+                        overflow: hidden;
+                        background-color: #f4f4f4;
+                        background-color: color-mix(in srgb, var(--c, #595959) 9%, white);
+                    }
+                    .chronik-embed .chronik-card-head {
+                        background-color: var(--c, #595959);
+                        padding: .2rem .65rem .25rem .65rem;
+                        line-height: 1.2;
+                    }
+                    .chronik-embed .chronik-card-head a,
+                    .chronik-embed .chronik-card-head span {
+                        color: #fff;
+                        text-decoration: none;
+                        font-size: .72rem;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        letter-spacing: .04em;
+                    }
+                    /* Kachel-Überschrift klar als Link kennzeichnen: dezenter
+                       Unterstrich plus Pfeil-Symbol (nur am echten Link, nicht am span) */
+                    .chronik-embed .chronik-card-head a {
+                        text-decoration: underline;
+                        text-decoration-thickness: .06em;
+                        text-underline-offset: .18em;
+                    }
+                    .chronik-embed .chronik-card-head a::after {
+                        content: "\00A0\2197";
+                        font-size: .9em;
+                        text-decoration: none;
+                        vertical-align: .1em;
+                    }
+                    .chronik-embed .chronik-card-head a:hover {
+                        color: #fff;
+                        text-decoration: underline;
+                    }
+                    .chronik-embed .chronik-card-body {
+                        padding: .45rem .65rem .55rem .65rem;
+                    }
+                    .chronik-embed .chronik-event p {
+                        margin: 0 0 .2rem 0;
+                    }
+                    .chronik-embed .entry-title {
+                        color: var(--c, inherit);
+                        font-weight: 600;
+                        text-decoration: none;
+                    }
+                    .chronik-embed a.entry-title:hover {
+                        text-decoration: underline;
+                    }
+                    .chronik-embed .chronik-entities {
+                        margin: 0 0 .2rem 0;
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-entities &gt; i {
+                        color: var(--c, #595959);
+                        margin-right: .3rem;
+                        font-size: .75em;
+                    }
+                    .chronik-embed ul.horizontal-list {
+                        display: inline;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                    .chronik-embed ul.horizontal-list li {
+                        display: inline;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .chronik-embed ul.horizontal-list li::before {
+                        content: none;
+                    }
+                    .chronik-embed ul.horizontal-list li:not(:last-child)::after {
+                        content: ' · ';
+                        color: var(--c, #888);
+                    }
+                    .chronik-embed ul.horizontal-list a {
+                        color: inherit;
+                    }
+                    .chronik-embed .chronik-card-body a {
+                        text-decoration: none;
+                    }
+                    .chronik-embed .chronik-card-body a:hover {
+                        text-decoration: underline;
+                    }
+                    .chronik-embed ul.chronik-place-list {
+                        margin: 0;
+                        padding-left: 1.1em;
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-text {
+                        margin: 0 0 .2rem 0;
+                    }
+                    .chronik-embed .chronik-quelle {
+                        font-size: .75rem;
+                        opacity: .75;
+                    }
+                    .chronik-embed .chronik-links {
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-card-map .chronik-card-body {
+                        padding: 0;
+                    }
+                    .chronik-embed #wienerschnitzler-map {
+                        height: 240px;
+                        width: 100%;
+                    }
+                    .chronik-embed ul.chronik-misc-list {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                    .chronik-embed ul.chronik-misc-list li + li {
+                        margin-top: .2rem;
+                    }
+                </style>
+                        <h2 class="chronik-date-heading"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1904-09-07.html" target="_blank">Mittwoch, 7. 9. 1904</a></h2>
+                        <div class="chronik-cards">
+                           <section class="chronik-card chronik-card-map" id="chronik-card-karte" style="--c: #595959;">
+                              <header class="chronik-card-head"><span>Aufenthaltsorte</span></header>
+                              <div class="chronik-card-body">
+                                 <div id="wienerschnitzler-map" data-datum="1904-09-07"></div>
+                              </div>
+                           </section><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@57de659/xslt/export/wienerschnitzler-map.js?v=5"></script><script>
+            (function () {
+                function initMap() {
+                    var el = document.getElementById('wienerschnitzler-map');
+                    if (!el || el._leaflet_id) { return; }
+                    if (window.initWienerschnitzlerMap) { window.initWienerschnitzlerMap(); }
+                }
+                var modal = document.getElementById('schnitzler-chronik-modal');
+                if (modal) {
+                    modal.addEventListener('shown.bs.modal', function () {
+                        setTimeout(initMap, 100);
+                        window.dispatchEvent(new Event('resize'));
+                    });
+                } else {
+                    document.addEventListener('drawer:open', function () {
+                        setTimeout(initMap, 100);
+                        window.dispatchEvent(new Event('resize'));
+                    });
+                    var el = document.getElementById('wienerschnitzler-map');
+                    if (!el) {
+                        initMap();
+                    } else if ('IntersectionObserver' in window) {
+                        new IntersectionObserver(function (entries, obs) {
+                            entries.forEach(function (entry) {
+                                if (entry.isIntersecting) {
+                                    obs.disconnect();
+                                    initMap();
+                                }
+                            });
+                        }).observe(el);
+                    } else {
+                        initMap();
+                    }
+                }
+            })();
+        </script><section class="chronik-card" id="chronik-card-schnitzler-tagebuch-1" style="--c: #037a33;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-07.html" target="_blank">Tagebuch</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1904-09-07.html" target="_blank">Tagebucheintrag zum 7. September 1904</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #037a33;">
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb10863.html" target="_blank">Richard Beer-Hofmann</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb12170.html" target="_blank">Heinrich Mann</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb10860.html" target="_blank">Paula Beer-Hofmann</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb11740.html" target="_blank">Hugo von Hofmannsthal</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #037a33;">
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30233.html" target="_blank">Der Graf von Charolais. Ein Trauerspiel</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31091.html" target="_blank">Das gerettete Venedig. Trauerspiel in fünf Aufzüge…</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb31981.html" target="_blank">Die Jagd nach Liebe</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #037a33;">
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb91173.html" target="_blank"></a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb415.html" target="_blank">Bad Aussee</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb969.html" target="_blank">Südtirol</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb462.html" target="_blank">Venedig</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-briefe-1" style="--c: #A63437;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01438.html" target="_blank">Briefe mit Autorinnen und Autoren</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01438.html" target="_blank">Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo Hofmannsthal,
+                                          Max Burckhard, Gerty Hofmannsthal an Hermann Bahr, 7. 9. 1904</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #A63437;">
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2173.html" target="_blank">Schnitzler, Olga</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11737.html" target="_blank">Hofmannsthal, Hugo von (sen.)</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11740.html" target="_blank">Hofmannsthal, Hugo</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11036.html" target="_blank">Burckhard, Max</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2292.html" target="_blank">Hofmannsthal, Gerty</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Bahr, Hermann</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #A63437;">
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb165.html" target="_blank">Ober Sankt Veit</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb220.html" target="_blank">Veitlissengasse</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30.html" target="_blank">Salzburg</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb33.html" target="_blank">St. Gilgen</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb63.html" target="_blank">XIII., Hietzing</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb824.html" target="_blank">Hotel und Pension Lueg</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-building-columns" role="img" title="Organisationen" aria-label="Organisationen"></i><ul class="horizontal-list" style="--dot-color: #A63437;">
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29547.html" target="_blank">Stiegl-Brauerei</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-briefe-2" style="--c: #A63437;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01439.html" target="_blank">Briefe mit Autorinnen und Autoren</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01439.html" target="_blank">Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo Hofmannsthal,
+                                          Max Burckhard, Gerty Hofmannsthal an Gerhart Hauptmann, 7. 9. 1904</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #A63437;">
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2173.html" target="_blank">Schnitzler, Olga</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11737.html" target="_blank">Hofmannsthal, Hugo von (sen.)</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11740.html" target="_blank">Hofmannsthal, Hugo</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11036.html" target="_blank">Burckhard, Max</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2292.html" target="_blank">Hofmannsthal, Gerty</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11617.html" target="_blank">Hauptmann, Gerhart</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #A63437;">
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb1122.html" target="_blank">Schlesien</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb1150.html" target="_blank">Bahn- und Dampfschiffstation St. Gilgen</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30.html" target="_blank">Salzburg</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb33.html" target="_blank">St. Gilgen</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb735.html" target="_blank">Jagniątków</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb824.html" target="_blank">Hotel und Pension Lueg</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-building-columns" role="img" title="Organisationen" aria-label="Organisationen"></i><ul class="horizontal-list" style="--dot-color: #A63437;">
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29547.html" target="_blank">Stiegl-Brauerei</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-bahr-1" style="--c: #639FF9;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041073.html" target="_blank">Schnitzler/Bahr</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041073.html" target="_blank">Schnitzler u. a. an Bahr, 7. 9. 1904</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2173.html" target="_blank">Olga Schnitzler</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11737.html" target="_blank">Hugo August von Hofmannsthal</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11740.html" target="_blank">Hugo von Hofmannsthal</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11036.html" target="_blank">Max Eugen Burckhard</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2292.html" target="_blank">Gertrude von Hofmannsthal</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb33.html" target="_blank">St. Gilgen</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb824.html" target="_blank">Hotel und Pension Lueg</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb165.html" target="_blank">Ober Sankt Veit</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb220.html" target="_blank">Veitlissengasse</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-wienerschnitzler" style="--c: #6F5106;">
+                              <header class="chronik-card-head"><a href="https://wienerschnitzler.org/tag.html#1904-09-07" target="_blank">Wiener Schnitzler</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://wienerschnitzler.org/pmb33.html" target="_blank">St. Gilgen</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="chronik-place-list" style="--dot-color: #6F5106;">
+                                          <li><a href="https://www.wienerschnitzler.org/pmb186.html" target="_blank">Lueg</a><ul class="chronik-place-list" style="--dot-color: #6F5106;">
+                                                <li><a href="https://www.wienerschnitzler.org/pmb824.html" target="_blank">Hotel und Pension Lueg</a></li>
+                                             </ul>
                                           </li>
                                        </ul>
-                                    </li>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-cmif-1" style="--c: #654321;">
+                              <header class="chronik-card-head"><span>Gedruckte Briefwechsel</span></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><span class="entry-title">Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo
+                                          Hofmannsthal, Max Burckhard, Gerty Hofmannsthal an Hermann Bahr,
+                                          7. 9. 1904</span></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #654321;">
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116848723" target="_blank">Schnitzler, Olga</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116952202" target="_blank">Hofmannsthal, Hugo von (sen.)</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118552759" target="_blank">Hofmannsthal, Hugo</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/117161144" target="_blank">Burckhard, Max</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116952199" target="_blank">Hofmannsthal, Gerty</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118505955" target="_blank">Bahr, Hermann</a></li>
+                                       </ul>
+                                    </div>
+                                    <p class="chronik-quelle">Quelle: <i>Hugo und Gerty von Hofmannsthal - Hermann Bahr: Briefwechsel. 1891-1934.
+                                          Hg. und kommentiert von Elsbeth Dangel-Pelloquin. Göttingen: Wallstein
+                                          2013.</i></p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-kalliope-verbund-1" style="--c: #003574;">
+                              <header class="chronik-card-head"><a href="http://kalliope-verbund.info/DE-611-HS-1912794" target="_blank">Kalliope Verbundkatalog</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="http://kalliope-verbund.info/DE-611-HS-1912794" target="_blank">Brief von Hugo von Hofmannsthal, Gerty von Hofmannsthal, Hugo August Peter von Hofmannsthal,
+                                          Arthur Schnitzler, Olga Schnitzler und Unbekannt an Gerhart Hauptmann</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #003574;">
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118552759" target="_blank">Hofmannsthal, Hugo von (1874-1929)</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118546937" target="_blank">Hauptmann, Gerhart (1862-1946)</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116952199" target="_blank">Hofmannsthal, Gerty von (1880-1959)</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116952202" target="_blank">Hofmannsthal, Hugo August Peter von (1841-1915)</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/126794855" target="_blank">Schnitzler, Arthur (1862-1931)</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116848723" target="_blank">Schnitzler, Olga</a></li>
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/128972920" target="_blank">Unbekannt</a></li>
+                                       </ul>
+                                    </div>
+                                    <p class="chronik-text">1 Postkarte, 1 Bl.</p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-weiteres" style="--c: #595959;">
+                              <header class="chronik-card-head"><span>Weiteres</span></header>
+                              <div class="chronik-card-body">
+                                 <ul class="chronik-misc-list">
+                                    <li>Zeitungen vom <a href="https://anno.onb.ac.at/cgi-content/anno?datum=19040907" target="_blank">Mittwoch, 7. 9. 1904</a> (ANNO)</li>
+                                    <li>Briefe vom <a href="https://correspsearch.net/de/suche.html?d=1904-09-07&amp;x=1&amp;w=0" target="_blank">Mittwoch, 7. 9. 1904</a> (correspSearch)</li>
                                  </ul>
                               </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(166, 52, 55, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #A63437; " href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01438.html">Briefe mit Autorinnen und Autoren</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-briefe" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-briefe">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #A63437" href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01438.html" target="_blank">Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo Hofmannsthal,
-                                       Max Burckhard, Gerty Hofmannsthal an Hermann Bahr, 7. 9. 1904</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2173.html" target="_blank">Schnitzler, Olga</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11737.html" target="_blank">Hofmannsthal, Hugo von (sen.)</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11740.html" target="_blank">Hofmannsthal, Hugo</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11036.html" target="_blank">Burckhard, Max</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2292.html" target="_blank">Hofmannsthal, Gerty</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Bahr, Hermann</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb165.html" target="_blank">Ober Sankt Veit</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb220.html" target="_blank">Veitlissengasse</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30.html" target="_blank">Salzburg</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb33.html" target="_blank">St. Gilgen</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb63.html" target="_blank">XIII., Hietzing</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb824.html" target="_blank">Hotel und Pension Lueg</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i class="fa-solid fa-building-columns" title="Organisationen"></i>  Organisationen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29547.html" target="_blank">Stiegl-Brauerei</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                    </li>
-                                 </ul>
-                                 <p><a class="entry-title" style="color: #A63437" href="https://schnitzler-briefe.acdh.oeaw.ac.at/L01439.html" target="_blank">Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo Hofmannsthal,
-                                       Max Burckhard, Gerty Hofmannsthal an Gerhart Hauptmann, 7. 9. 1904</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2173.html" target="_blank">Schnitzler, Olga</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11737.html" target="_blank">Hofmannsthal, Hugo von (sen.)</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11740.html" target="_blank">Hofmannsthal, Hugo</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11036.html" target="_blank">Burckhard, Max</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2292.html" target="_blank">Hofmannsthal, Gerty</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11617.html" target="_blank">Hauptmann, Gerhart</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb1122.html" target="_blank">Schlesien</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb1150.html" target="_blank">Bahn- und Dampfschiffstation</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30.html" target="_blank">Salzburg</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb33.html" target="_blank">St. Gilgen</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb735.html" target="_blank">Jagniątków</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb824.html" target="_blank">Hotel und Pension Lueg</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i class="fa-solid fa-building-columns" title="Organisationen"></i>  Organisationen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29547.html" target="_blank">Stiegl-Brauerei</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(99, 159, 249, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #639FF9; " href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041073.html">Schnitzler/Bahr</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-bahr" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-bahr">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #639FF9" href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041073.html" target="_blank">Schnitzler u. a. an Bahr, 7. 9. 1904</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2173.html" target="_blank">Olga Schnitzler</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11737.html" target="_blank">Hugo August von Hofmannsthal</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11740.html" target="_blank">Hugo von Hofmannsthal</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11036.html" target="_blank">Max Eugen Burckhard</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2292.html" target="_blank">Gertrude von Hofmannsthal</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb33.html" target="_blank">St. Gilgen</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb824.html" target="_blank">Hotel und Pension Lueg</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb165.html" target="_blank">Ober Sankt Veit</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb220.html" target="_blank">Veitlissengasse</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(111, 81, 6, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #6F5106; " href="https://wienerschnitzler.org/tag.html#1904-09-07">Wiener Schnitzler</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#wienerschnitzler" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="wienerschnitzler">
-                              <div class="card-body">
-                                 <p><a class="entry-title" href="http://wienerschnitzler.org/pmb33.html" target="_blank">St. Gilgen</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul style="--dot-color: #6F5106;">
-                                                   <li><a href="https://www.wienerschnitzler.org/pmb186.html" target="_blank">Lueg</a><div class="list-container">
-                                                         <ul style="--dot-color: #6F5106;">
-                                                            <li><a href="https://www.wienerschnitzler.org/pmb824.html" target="_blank">Hotel und Pension Lueg</a></li>
-                                                         </ul>
-                                                      </div>
-                                                   </li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(101, 67, 33, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #654321; " href="">Gedruckte Briefwechsel</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-cmif" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-cmif">
-                              <div class="card-body">
-                                 <p><span class="entry-title">Arthur Schnitzler, Olga Schnitzler, Hugo von (sen.) Hofmannsthal, Hugo
-                                       Hofmannsthal, Max Burckhard, Gerty Hofmannsthal an Hermann Bahr,
-                                       7. 9. 1904</span></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #654321;">
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116848723" target="_blank">Schnitzler, Olga</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116952202" target="_blank">Hofmannsthal, Hugo von (sen.)</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118552759" target="_blank">Hofmannsthal, Hugo</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/117161144" target="_blank">Burckhard, Max</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116952199" target="_blank">Hofmannsthal, Gerty</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118505955" target="_blank">Bahr, Hermann</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                       <p>Quelle: <i>Hugo und Gerty von Hofmannsthal - Hermann Bahr: Briefwechsel. 1891-1934.
-                                             Hg. und kommentiert von Elsbeth Dangel-Pelloquin. Göttingen: Wallstein
-                                             2013.</i></p>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(0, 53, 116, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #003574; " href="http://kalliope-verbund.info/DE-611-HS-1912794">Kalliope Verbundkatalog</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#kalliope-verbund" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="kalliope-verbund">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #003574" href="http://kalliope-verbund.info/DE-611-HS-1912794" target="_blank">Brief von Hugo von Hofmannsthal, Gerty von Hofmannsthal, Hugo August Peter von Hofmannsthal,
-                                       Arthur Schnitzler, Olga Schnitzler und Unbekannt an Gerhart Hauptmann</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #003574;">
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118552759" target="_blank">Hofmannsthal, Hugo von (1874-1929)</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118546937" target="_blank">Hauptmann, Gerhart (1862-1946)</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116952199" target="_blank">Hofmannsthal, Gerty von (1880-1959)</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116952202" target="_blank">Hofmannsthal, Hugo August Peter von (1841-1915)</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/126794855" target="_blank">Schnitzler, Arthur (1862-1931)</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116848723" target="_blank">Schnitzler, Olga</a></li>
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/128972920" target="_blank">Unbekannt</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                       </ul>
-                                       <p>1 Postkarte, 1 Bl.</p>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="weiteres" style="margin-top:2.5em;">
-                           <h3>Weiteres</h3>
-                           <ul>
-                              <li>Zeitungen vom <a href="https://anno.onb.ac.at/cgi-content/anno?datum=19040907" target="_blank">Mittwoch, 7. 9. 1904</a> bei <a style="color: black;" href="https://anno.onb.ac.at/cgi-content/anno?datum=19040907" target="_blank">ANNO</a></li>
-                              <li>Briefe vom <a href="https://correspsearch.net/de/suche.html?d=1904-09-07&amp;x=1&amp;w=0" target="_blank">Mittwoch, 7. 9. 1904</a> bei <a style="color: black;" href="https://correspsearch.net/de/suche.html?d=1904-09-07&amp;x=1&amp;w=0" target="_blank">correspSearch</a></li>
-                           </ul>
+                           </section>
                         </div>
                      </div>
                   </div>

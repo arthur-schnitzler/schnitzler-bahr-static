@@ -246,7 +246,7 @@
                <div class="modal-body">
                   <p>Albert von Speidel an Hermann Bahr, 26. 1. 1906. In: Hermann Bahr – Arthur
                      Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931).
-                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 24. 4. 2026, https://hdl.handle.net/21.11115/0000-000E-8632-2.</p>
+                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 1. 7. 2026, https://hdl.handle.net/21.11115/0000-000E-8632-2.</p>
                </div>
                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button></div>
             </div>
@@ -271,198 +271,323 @@
                   <h5 class="modal-title" id="exampleModalLongTitle3"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1906-01-26.html" target="_blank" style="color: #008B8B; font-style: normal">Freitag, 26. 1. 1906</a></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
                <div class="modal-body">
                   <div id="chronik-modal-body">
-                     <div id="chronik-modal-body"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-                        <div id="collapseMap">
-                           <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="1906-01-26"></div>
-                        </div><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script><script>
-            document.getElementById('schnitzler-chronik-modal').addEventListener('shown.bs.modal', function () {
-            console.log('Modal shown event triggered');
-            // Kurz warten, dann initialisieren
-            setTimeout(function() {
-            if (!window._wienerschnitzlerMapInitialized) {
-            window.initWienerschnitzlerMap();
-            window._wienerschnitzlerMapInitialized = true;
-            }
-            }, 100);
-            });
-
-            // Zusätzlich: Map zurücksetzen beim Schließen
-            document.getElementById('schnitzler-chronik-modal').addEventListener('hidden.bs.modal', function () {
-            window._wienerschnitzlerMapInitialized = false;
-            });
-        </script><div class="card mb-3" style="background-color: rgba(3, 122, 51, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #037a33; " href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-26.html">Tagebuch</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-tagebuch" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-tagebuch">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #037a33" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-26.html" target="_blank">Tagebuch, 26. Januar 1906</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #037a33;">
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16222.html" target="_blank">Georg Hirschfeld</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_16647.html" target="_blank">Margarethe Kainz</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_19986.html" target="_blank">Gustav Schwarzkopf</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_20242.html" target="_blank">Felix Speidel</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_19411.html" target="_blank">Peter Rotenstern</a></li>
-                                                </ul>
-                                             </div>
+                     <div id="chronik-modal-body" class="chronik-embed"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+                        <style>
+                    .chronik-embed {
+                        font-size: .85rem;
+                        line-height: 1.35;
+                    }
+                    /* prominente, klar als Link erkennbare Datums-Überschrift */
+                    .chronik-embed .chronik-date-heading {
+                        margin: 0 0 .7rem 0;
+                        text-align: center;
+                        line-height: 1.2;
+                    }
+                    .chronik-embed .chronik-date-heading a {
+                        display: inline-block;
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                        color: #008B8B;
+                        text-decoration: underline;
+                        text-decoration-thickness: .08em;
+                        text-underline-offset: .18em;
+                    }
+                    .chronik-embed .chronik-date-heading a::after {
+                        content: "\00A0\2197";
+                        font-size: .7em;
+                        text-decoration: none;
+                        vertical-align: .15em;
+                    }
+                    .chronik-embed .chronik-date-heading a:hover {
+                        color: #006d6d;
+                        text-decoration: underline;
+                    }
+                    /* Masonry über CSS-Spalten: packt die Kacheln platzsparend,
+                       im schmalen Modal einspaltig, im Querformat mehrspaltig */
+                    .chronik-embed .chronik-cards {
+                        column-width: 17rem;
+                        column-gap: .6rem;
+                    }
+                    /* inline-block statt block: verhindert, dass der untere Außenabstand
+                       am Spaltenumbruch in die nächste Spalte »blutet« und deren erste
+                       Kachel nach unten schiebt */
+                    .chronik-embed .chronik-card {
+                        display: inline-block;
+                        width: 100%;
+                        vertical-align: top;
+                        break-inside: avoid;
+                        -webkit-column-break-inside: avoid;
+                        margin: 0 0 .6rem 0;
+                        border-radius: .45rem;
+                        overflow: hidden;
+                        background-color: #f4f4f4;
+                        background-color: color-mix(in srgb, var(--c, #595959) 9%, white);
+                    }
+                    .chronik-embed .chronik-card-head {
+                        background-color: var(--c, #595959);
+                        padding: .2rem .65rem .25rem .65rem;
+                        line-height: 1.2;
+                    }
+                    .chronik-embed .chronik-card-head a,
+                    .chronik-embed .chronik-card-head span {
+                        color: #fff;
+                        text-decoration: none;
+                        font-size: .72rem;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        letter-spacing: .04em;
+                    }
+                    /* Kachel-Überschrift klar als Link kennzeichnen: dezenter
+                       Unterstrich plus Pfeil-Symbol (nur am echten Link, nicht am span) */
+                    .chronik-embed .chronik-card-head a {
+                        text-decoration: underline;
+                        text-decoration-thickness: .06em;
+                        text-underline-offset: .18em;
+                    }
+                    .chronik-embed .chronik-card-head a::after {
+                        content: "\00A0\2197";
+                        font-size: .9em;
+                        text-decoration: none;
+                        vertical-align: .1em;
+                    }
+                    .chronik-embed .chronik-card-head a:hover {
+                        color: #fff;
+                        text-decoration: underline;
+                    }
+                    .chronik-embed .chronik-card-body {
+                        padding: .45rem .65rem .55rem .65rem;
+                    }
+                    .chronik-embed .chronik-event p {
+                        margin: 0 0 .2rem 0;
+                    }
+                    .chronik-embed .entry-title {
+                        color: var(--c, inherit);
+                        font-weight: 600;
+                        text-decoration: none;
+                    }
+                    .chronik-embed a.entry-title:hover {
+                        text-decoration: underline;
+                    }
+                    .chronik-embed .chronik-entities {
+                        margin: 0 0 .2rem 0;
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-entities &gt; i {
+                        color: var(--c, #595959);
+                        margin-right: .3rem;
+                        font-size: .75em;
+                    }
+                    .chronik-embed ul.horizontal-list {
+                        display: inline;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                    .chronik-embed ul.horizontal-list li {
+                        display: inline;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .chronik-embed ul.horizontal-list li::before {
+                        content: none;
+                    }
+                    .chronik-embed ul.horizontal-list li:not(:last-child)::after {
+                        content: ' · ';
+                        color: var(--c, #888);
+                    }
+                    .chronik-embed ul.horizontal-list a {
+                        color: inherit;
+                    }
+                    .chronik-embed .chronik-card-body a {
+                        text-decoration: none;
+                    }
+                    .chronik-embed .chronik-card-body a:hover {
+                        text-decoration: underline;
+                    }
+                    .chronik-embed ul.chronik-place-list {
+                        margin: 0;
+                        padding-left: 1.1em;
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-text {
+                        margin: 0 0 .2rem 0;
+                    }
+                    .chronik-embed .chronik-quelle {
+                        font-size: .75rem;
+                        opacity: .75;
+                    }
+                    .chronik-embed .chronik-links {
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-card-map .chronik-card-body {
+                        padding: 0;
+                    }
+                    .chronik-embed #wienerschnitzler-map {
+                        height: 240px;
+                        width: 100%;
+                    }
+                    .chronik-embed ul.chronik-misc-list {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                    .chronik-embed ul.chronik-misc-list li + li {
+                        margin-top: .2rem;
+                    }
+                </style>
+                        <h2 class="chronik-date-heading"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1906-01-26.html" target="_blank">Freitag, 26. 1. 1906</a></h2>
+                        <div class="chronik-cards">
+                           <section class="chronik-card chronik-card-map" id="chronik-card-karte" style="--c: #595959;">
+                              <header class="chronik-card-head"><span>Aufenthaltsorte</span></header>
+                              <div class="chronik-card-body">
+                                 <div id="wienerschnitzler-map" data-datum="1906-01-26"></div>
+                              </div>
+                           </section><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@57de659/xslt/export/wienerschnitzler-map.js?v=5"></script><script>
+            (function () {
+                function initMap() {
+                    var el = document.getElementById('wienerschnitzler-map');
+                    if (!el || el._leaflet_id) { return; }
+                    if (window.initWienerschnitzlerMap) { window.initWienerschnitzlerMap(); }
+                }
+                var modal = document.getElementById('schnitzler-chronik-modal');
+                if (modal) {
+                    modal.addEventListener('shown.bs.modal', function () {
+                        setTimeout(initMap, 100);
+                        window.dispatchEvent(new Event('resize'));
+                    });
+                } else {
+                    document.addEventListener('drawer:open', function () {
+                        setTimeout(initMap, 100);
+                        window.dispatchEvent(new Event('resize'));
+                    });
+                    var el = document.getElementById('wienerschnitzler-map');
+                    if (!el) {
+                        initMap();
+                    } else if ('IntersectionObserver' in window) {
+                        new IntersectionObserver(function (entries, obs) {
+                            entries.forEach(function (entry) {
+                                if (entry.isIntersecting) {
+                                    obs.disconnect();
+                                    initMap();
+                                }
+                            });
+                        }).observe(el);
+                    } else {
+                        initMap();
+                    }
+                }
+            })();
+        </script><section class="chronik-card" id="chronik-card-schnitzler-tagebuch-1" style="--c: #037a33;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-26.html" target="_blank">Tagebuch</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1906-01-26.html" target="_blank">Tagebucheintrag zum 26. Januar 1906</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #037a33;">
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb11701.html" target="_blank">Georg Hirschfeld</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb2273.html" target="_blank">Margarethe Kainz</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb12740.html" target="_blank">Gustav Schwarzkopf</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb2646.html" target="_blank">Felix Speidel</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb2992.html" target="_blank">Peter Rotenstern</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #037a33;">
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29905.html" target="_blank">Der Ruf des Lebens. Schauspiel in drei Akten</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29923.html" target="_blank">Der Weg ins Freie. Roman</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76653.html" target="_blank">Nebeneinander. Schauspiel in drei Akten</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #037a33;">
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb169.html" target="_blank">Pötzleinsdorf</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb170.html" target="_blank">Neuwaldegg</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb433.html" target="_blank">Sankt Petersburg</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-bahr-1" style="--c: #639FF9;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041193.html" target="_blank">Schnitzler/Bahr</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041193.html" target="_blank">Albert von Speidel an Bahr, 26. 1. 1906</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12813.html" target="_blank">Albert von Speidel</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2323.html" target="_blank">Maxim Gorkij</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29905.html" target="_blank">Der Ruf des Lebens. Schauspiel in drei Akten</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30059.html" target="_blank">Kinder der Sonne</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb45258.html" target="_blank">München</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb9.html" target="_blank">Königlich Bayerische Hoftheater</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb703.html" target="_blank">Prinzregenten-Theater</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-wienerschnitzler" style="--c: #6F5106;">
+                              <header class="chronik-card-head"><a href="https://wienerschnitzler.org/tag.html#1906-01-26" target="_blank">Wiener Schnitzler</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://wienerschnitzler.org/pmb50.html" target="_blank">Wien</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="chronik-place-list" style="--dot-color: #6F5106;">
+                                          <li><a href="https://www.wienerschnitzler.org/pmb51.html" target="_blank">I., Innere Stadt</a><ul class="chronik-place-list" style="--dot-color: #6F5106;">
+                                                <li><a href="https://www.wienerschnitzler.org/pmb246874.html" target="_blank">Stefanskeller [II]</a></li>
+                                             </ul>
                                           </li>
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #037a33;">
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29905.html" target="_blank">Der Ruf des Lebens. Schauspiel in drei Akten</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb29923.html" target="_blank">Der Weg ins Freie. Roman</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb76653.html" target="_blank">Nebeneinander</a></li>
-                                                </ul>
-                                             </div>
+                                          <li><a href="https://www.wienerschnitzler.org/pmb52.html" target="_blank">II., Leopoldstadt</a><ul class="chronik-place-list" style="--dot-color: #6F5106;">
+                                                <li><a href="https://www.wienerschnitzler.org/pmb1209.html" target="_blank">Lustspieltheater [Wien]</a></li>
+                                             </ul>
                                           </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #037a33;">
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb169.html" target="_blank">Pötzleinsdorf</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb170.html" target="_blank">Neuwaldegg</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb433.html" target="_blank">Sankt Petersburg</a></li>
-                                                </ul>
-                                             </div>
+                                          <li><a href="https://www.wienerschnitzler.org/pmb68.html" target="_blank">XVIII., Währing</a><ul class="chronik-place-list" style="--dot-color: #6F5106;">
+                                                <li><a href="https://www.wienerschnitzler.org/pmb169.html" target="_blank">Pötzleinsdorf</a></li>
+                                                <li><a href="https://www.wienerschnitzler.org/pmb168940.html" target="_blank">Edmund-Weiß-Gasse 7</a></li>
+                                             </ul>
+                                          </li>
+                                          <li><a href="https://www.wienerschnitzler.org/pmb67.html" target="_blank">XVII., Hernals</a><ul class="chronik-place-list" style="--dot-color: #6F5106;">
+                                                <li><a href="https://www.wienerschnitzler.org/pmb170.html" target="_blank">Neuwaldegg</a></li>
+                                             </ul>
                                           </li>
                                        </ul>
-                                    </li>
-                                 </ul>
+                                    </div>
+                                 </div>
                               </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(99, 159, 249, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #639FF9; " href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041193.html">Schnitzler/Bahr</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-bahr" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-bahr">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #639FF9" href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041193.html" target="_blank">Albert von Speidel an Bahr, 26. 1. 1906</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12813.html" target="_blank">Albert von Speidel</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2323.html" target="_blank">Maxim Gorkij</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29905.html" target="_blank">Der Ruf des Lebens. Schauspiel in drei Akten</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30059.html" target="_blank">Kinder der Sonne</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb45258.html" target="_blank">München</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb9.html" target="_blank">Königlich Bayerische Hoftheater</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb703.html" target="_blank">Prinzregenten-Theater</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-kultur-1" style="--c: #6B4C5A;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209410.html" target="_blank">Kulturveranstaltungen</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209410.html" target="_blank">Premiere von Nebeneinander, 26.1.1906</a></p>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #6B4C5A;">
+                                          <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb76653.html" target="_blank">Nebeneinander. Schauspiel in drei Akten</a></li>
                                        </ul>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(111, 81, 6, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #6F5106; " href="https://wienerschnitzler.org/tag.html#1906-01-26">Wiener Schnitzler</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#wienerschnitzler" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="wienerschnitzler">
-                              <div class="card-body">
-                                 <p><a class="entry-title" href="http://wienerschnitzler.org/pmb50.html" target="_blank">Wien</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul style="--dot-color: #6F5106;">
-                                                   <li><a href="https://www.wienerschnitzler.org/pmb51.html" target="_blank">I., Innere Stadt</a><div class="list-container">
-                                                         <ul style="--dot-color: #6F5106;">
-                                                            <li><a href="https://www.wienerschnitzler.org/pmb246874.html" target="_blank">Stefanskeller [II]</a></li>
-                                                         </ul>
-                                                      </div>
-                                                   </li>
-                                                   <li><a href="https://www.wienerschnitzler.org/pmb52.html" target="_blank">II., Leopoldstadt</a><div class="list-container">
-                                                         <ul style="--dot-color: #6F5106;">
-                                                            <li><a href="https://www.wienerschnitzler.org/pmb1209.html" target="_blank">Lustspieltheater [Wien]</a></li>
-                                                         </ul>
-                                                      </div>
-                                                   </li>
-                                                   <li><a href="https://www.wienerschnitzler.org/pmb68.html" target="_blank">XVIII., Währing</a><div class="list-container">
-                                                         <ul style="--dot-color: #6F5106;">
-                                                            <li><a href="https://www.wienerschnitzler.org/pmb169.html" target="_blank">Pötzleinsdorf</a></li>
-                                                            <li><a href="https://www.wienerschnitzler.org/pmb168940.html" target="_blank">Edmund-Weiß-Gasse 7</a></li>
-                                                         </ul>
-                                                      </div>
-                                                   </li>
-                                                   <li><a href="https://www.wienerschnitzler.org/pmb67.html" target="_blank">XVII., Hernals</a><div class="list-container">
-                                                         <ul style="--dot-color: #6F5106;">
-                                                            <li><a href="https://www.wienerschnitzler.org/pmb170.html" target="_blank">Neuwaldegg</a></li>
-                                                         </ul>
-                                                      </div>
-                                                   </li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #6B4C5A;">
+                                          <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
                                        </ul>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(107, 76, 90, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #6B4C5A; " href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209410.html">Kulturveranstaltungen</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-kultur" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-kultur">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #6B4C5A" href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb209410.html" target="_blank">Premiere von Nebeneinander, 26.1.1906</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #6B4C5A;">
-                                                   <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb76653.html" target="_blank">Nebeneinander. Schauspiel in drei Akten</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #6B4C5A;">
-                                                   <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #6B4C5A;">
-                                                   <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb1209.html" target="_blank">Lustspieltheater [Wien]</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #6B4C5A;">
+                                          <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb1209.html" target="_blank">Lustspieltheater [Wien]</a></li>
                                        </ul>
-                                    </li>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-weiteres" style="--c: #595959;">
+                              <header class="chronik-card-head"><span>Weiteres</span></header>
+                              <div class="chronik-card-body">
+                                 <ul class="chronik-misc-list">
+                                    <li>Zeitungen vom <a href="https://anno.onb.ac.at/cgi-content/anno?datum=19060126" target="_blank">Freitag, 26. 1. 1906</a> (ANNO)</li>
+                                    <li>Briefe vom <a href="https://correspsearch.net/de/suche.html?d=1906-01-26&amp;x=1&amp;w=0" target="_blank">Freitag, 26. 1. 1906</a> (correspSearch)</li>
                                  </ul>
                               </div>
-                           </div>
-                        </div>
-                        <div class="weiteres" style="margin-top:2.5em;">
-                           <h3>Weiteres</h3>
-                           <ul>
-                              <li>Zeitungen vom <a href="https://anno.onb.ac.at/cgi-content/anno?datum=19060126" target="_blank">Freitag, 26. 1. 1906</a> bei <a style="color: black;" href="https://anno.onb.ac.at/cgi-content/anno?datum=19060126" target="_blank">ANNO</a></li>
-                              <li>Briefe vom <a href="https://correspsearch.net/de/suche.html?d=1906-01-26&amp;x=1&amp;w=0" target="_blank">Freitag, 26. 1. 1906</a> bei <a style="color: black;" href="https://correspsearch.net/de/suche.html?d=1906-01-26&amp;x=1&amp;w=0" target="_blank">correspSearch</a></li>
-                           </ul>
+                           </section>
                         </div>
                      </div>
                   </div>

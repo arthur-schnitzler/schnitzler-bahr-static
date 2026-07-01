@@ -10,6 +10,7 @@
    dieser Farbe berechnet, sodass Lightness/Chroma konsistent bleiben,
    die Hue aber aus der Projektfarbe kommt. */
 .entity-page {
+    padding: 0 1rem;
     --red: var(--project-color);
     --red-ink: oklch(from var(--project-color) 0.34 calc(c * 0.85) h);
     --red-soft: oklch(from var(--project-color) 0.94 0.04 h);
@@ -43,7 +44,13 @@
 
 .container-fluid:has(.entity-page) {
     max-width: 100%;
-    padding: 0 1rem;
+    padding: 0;
+}
+
+/* Der Wrapper in den list*.xsl zentriert per Inline-Style
+   (max-width + margin: 0 auto); Entitätsseiten sollen linksbündig sein. */
+div:has(> .entity-page) {
+    margin: 0 !important;
 }
 
 .card-body-index.entity-layout {
@@ -103,9 +110,8 @@
 
 .entity-portrait-frame img {
     width: 100%;
-    min-width: 
-    height: auto; /* Ändere 100% auf auto, damit das Verhältnis gewahrt bleibt */
-    min-height: 100%; /* Stellt sicher, dass der Frame gefüllt wird */
+    height: auto;
+    min-height: 100%;
     object-fit: cover;
 }
 
@@ -196,7 +202,11 @@
     display: flex;
     align-items: center;
     gap: 6px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+}
+.normdaten-list .meta-row .label {
+    min-width: 5em;
+    flex-shrink: 0;
 }
 .gnd-badge {
     font-family: ui-monospace, "JetBrains Mono", Menlo, monospace;
@@ -369,9 +379,17 @@
     to   { opacity: 1; transform: translateY(0); }
 }
 
-/* Erwähnungen: Legend im Tab ausblenden (Tab-Titel reicht) */
-.entity-tab-panel #mentions > .infodesc > legend {
-    display: none;
+/* Visuell versteckt, aber für Screenreader sichtbar */
+.visually-hidden {
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
 }
 
 /* Erwähnungen: Toolbar (Toggle + Summary) über dem Chart */

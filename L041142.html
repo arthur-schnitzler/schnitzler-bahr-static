@@ -273,7 +273,7 @@
                <div class="modal-body">
                   <p>Arthur Schnitzler an Hermann Bahr, 5. 9. 1931. In: Hermann Bahr – Arthur
                      Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931).
-                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 24. 4. 2026, https://hdl.handle.net/21.11115/0000-000E-85FF-D.</p>
+                     Hg. Kurt Ifkovits, Martin Anton Müller, Stand 1. 7. 2026, https://hdl.handle.net/21.11115/0000-000E-85FF-D.</p>
                </div>
                <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button></div>
             </div>
@@ -298,447 +298,513 @@
                   <h5 class="modal-title" id="exampleModalLongTitle3"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1931-09-05.html" target="_blank" style="color: #008B8B; font-style: normal">Samstag, 5. 9. 1931</a></h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Schließen"></button></div>
                <div class="modal-body">
                   <div id="chronik-modal-body">
-                     <div id="chronik-modal-body"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-                        <div id="collapseMap">
-                           <div id="wienerschnitzler-map" style="height: 300px; width: 100%;" data-datum="1931-09-05"></div>
-                        </div><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@e250eac/xslt/export/wienerschnitzler-map.js?v=4"></script><script>
-            document.getElementById('schnitzler-chronik-modal').addEventListener('shown.bs.modal', function () {
-            console.log('Modal shown event triggered');
-            // Kurz warten, dann initialisieren
-            setTimeout(function() {
-            if (!window._wienerschnitzlerMapInitialized) {
-            window.initWienerschnitzlerMap();
-            window._wienerschnitzlerMapInitialized = true;
-            }
-            }, 100);
-            });
-
-            // Zusätzlich: Map zurücksetzen beim Schließen
-            document.getElementById('schnitzler-chronik-modal').addEventListener('hidden.bs.modal', function () {
-            window._wienerschnitzlerMapInitialized = false;
-            });
-        </script><div class="card mb-3" style="background-color: rgba(128, 30, 35, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #801e23; " href="https://www.schnitzler-edition.net">Arthur Schnitzler digital (Werke 1905–1931)</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#Arthur-Schnitzler-digital" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="Arthur-Schnitzler-digital">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #801e23" href="https://www.schnitzler-edition.net" target="_blank">Der Sekundant, Typoskript</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>Publikation in Vorbereitung</li>
-                                 </ul>
+                     <div id="chronik-modal-body" class="chronik-embed"><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+                        <style>
+                    .chronik-embed {
+                        font-size: .85rem;
+                        line-height: 1.35;
+                    }
+                    /* prominente, klar als Link erkennbare Datums-Überschrift */
+                    .chronik-embed .chronik-date-heading {
+                        margin: 0 0 .7rem 0;
+                        text-align: center;
+                        line-height: 1.2;
+                    }
+                    .chronik-embed .chronik-date-heading a {
+                        display: inline-block;
+                        font-size: 1.25rem;
+                        font-weight: 700;
+                        color: #008B8B;
+                        text-decoration: underline;
+                        text-decoration-thickness: .08em;
+                        text-underline-offset: .18em;
+                    }
+                    .chronik-embed .chronik-date-heading a::after {
+                        content: "\00A0\2197";
+                        font-size: .7em;
+                        text-decoration: none;
+                        vertical-align: .15em;
+                    }
+                    .chronik-embed .chronik-date-heading a:hover {
+                        color: #006d6d;
+                        text-decoration: underline;
+                    }
+                    /* Masonry über CSS-Spalten: packt die Kacheln platzsparend,
+                       im schmalen Modal einspaltig, im Querformat mehrspaltig */
+                    .chronik-embed .chronik-cards {
+                        column-width: 17rem;
+                        column-gap: .6rem;
+                    }
+                    /* inline-block statt block: verhindert, dass der untere Außenabstand
+                       am Spaltenumbruch in die nächste Spalte »blutet« und deren erste
+                       Kachel nach unten schiebt */
+                    .chronik-embed .chronik-card {
+                        display: inline-block;
+                        width: 100%;
+                        vertical-align: top;
+                        break-inside: avoid;
+                        -webkit-column-break-inside: avoid;
+                        margin: 0 0 .6rem 0;
+                        border-radius: .45rem;
+                        overflow: hidden;
+                        background-color: #f4f4f4;
+                        background-color: color-mix(in srgb, var(--c, #595959) 9%, white);
+                    }
+                    .chronik-embed .chronik-card-head {
+                        background-color: var(--c, #595959);
+                        padding: .2rem .65rem .25rem .65rem;
+                        line-height: 1.2;
+                    }
+                    .chronik-embed .chronik-card-head a,
+                    .chronik-embed .chronik-card-head span {
+                        color: #fff;
+                        text-decoration: none;
+                        font-size: .72rem;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        letter-spacing: .04em;
+                    }
+                    /* Kachel-Überschrift klar als Link kennzeichnen: dezenter
+                       Unterstrich plus Pfeil-Symbol (nur am echten Link, nicht am span) */
+                    .chronik-embed .chronik-card-head a {
+                        text-decoration: underline;
+                        text-decoration-thickness: .06em;
+                        text-underline-offset: .18em;
+                    }
+                    .chronik-embed .chronik-card-head a::after {
+                        content: "\00A0\2197";
+                        font-size: .9em;
+                        text-decoration: none;
+                        vertical-align: .1em;
+                    }
+                    .chronik-embed .chronik-card-head a:hover {
+                        color: #fff;
+                        text-decoration: underline;
+                    }
+                    .chronik-embed .chronik-card-body {
+                        padding: .45rem .65rem .55rem .65rem;
+                    }
+                    .chronik-embed .chronik-event p {
+                        margin: 0 0 .2rem 0;
+                    }
+                    .chronik-embed .entry-title {
+                        color: var(--c, inherit);
+                        font-weight: 600;
+                        text-decoration: none;
+                    }
+                    .chronik-embed a.entry-title:hover {
+                        text-decoration: underline;
+                    }
+                    .chronik-embed .chronik-entities {
+                        margin: 0 0 .2rem 0;
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-entities &gt; i {
+                        color: var(--c, #595959);
+                        margin-right: .3rem;
+                        font-size: .75em;
+                    }
+                    .chronik-embed ul.horizontal-list {
+                        display: inline;
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                    .chronik-embed ul.horizontal-list li {
+                        display: inline;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .chronik-embed ul.horizontal-list li::before {
+                        content: none;
+                    }
+                    .chronik-embed ul.horizontal-list li:not(:last-child)::after {
+                        content: ' · ';
+                        color: var(--c, #888);
+                    }
+                    .chronik-embed ul.horizontal-list a {
+                        color: inherit;
+                    }
+                    .chronik-embed .chronik-card-body a {
+                        text-decoration: none;
+                    }
+                    .chronik-embed .chronik-card-body a:hover {
+                        text-decoration: underline;
+                    }
+                    .chronik-embed ul.chronik-place-list {
+                        margin: 0;
+                        padding-left: 1.1em;
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-text {
+                        margin: 0 0 .2rem 0;
+                    }
+                    .chronik-embed .chronik-quelle {
+                        font-size: .75rem;
+                        opacity: .75;
+                    }
+                    .chronik-embed .chronik-links {
+                        font-size: .8rem;
+                    }
+                    .chronik-embed .chronik-card-map .chronik-card-body {
+                        padding: 0;
+                    }
+                    .chronik-embed #wienerschnitzler-map {
+                        height: 240px;
+                        width: 100%;
+                    }
+                    .chronik-embed ul.chronik-misc-list {
+                        margin: 0;
+                        padding: 0;
+                        list-style: none;
+                    }
+                    .chronik-embed ul.chronik-misc-list li + li {
+                        margin-top: .2rem;
+                    }
+                </style>
+                        <h2 class="chronik-date-heading"><a href="https://schnitzler-chronik.acdh.oeaw.ac.at/1931-09-05.html" target="_blank">Samstag, 5. 9. 1931</a></h2>
+                        <div class="chronik-cards">
+                           <section class="chronik-card chronik-card-map" id="chronik-card-karte" style="--c: #595959;">
+                              <header class="chronik-card-head"><span>Aufenthaltsorte</span></header>
+                              <div class="chronik-card-body">
+                                 <div id="wienerschnitzler-map" data-datum="1931-09-05"></div>
                               </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(3, 122, 51, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #037a33; " href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-09-05.html">Tagebuch</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-tagebuch" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-tagebuch">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #037a33" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-09-05.html" target="_blank">Tagebuch, 5. September 1931</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #037a33;">
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18137.html" target="_blank">Dora Michaelis</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_19822.html" target="_blank">Heinrich Schnitzler</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_13374.html" target="_blank">Hermann Bahr</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/person_18881.html" target="_blank">Frieda Pollak</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #037a33;">
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30953.html" target="_blank">Der Sekundant</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb80399.html" target="_blank">Komparserie</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30957.html" target="_blank">Das gelbe Haus von Rio</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #037a33;">
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html" target="_blank">Berlin</a></li>
-                                                   <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb415.html" target="_blank">Bad Aussee</a></li>
-                                                </ul>
-                                             </div>
+                           </section><script src="https://cdn.jsdelivr.net/gh/arthur-schnitzler/schnitzler-chronik-static@57de659/xslt/export/wienerschnitzler-map.js?v=5"></script><script>
+            (function () {
+                function initMap() {
+                    var el = document.getElementById('wienerschnitzler-map');
+                    if (!el || el._leaflet_id) { return; }
+                    if (window.initWienerschnitzlerMap) { window.initWienerschnitzlerMap(); }
+                }
+                var modal = document.getElementById('schnitzler-chronik-modal');
+                if (modal) {
+                    modal.addEventListener('shown.bs.modal', function () {
+                        setTimeout(initMap, 100);
+                        window.dispatchEvent(new Event('resize'));
+                    });
+                } else {
+                    document.addEventListener('drawer:open', function () {
+                        setTimeout(initMap, 100);
+                        window.dispatchEvent(new Event('resize'));
+                    });
+                    var el = document.getElementById('wienerschnitzler-map');
+                    if (!el) {
+                        initMap();
+                    } else if ('IntersectionObserver' in window) {
+                        new IntersectionObserver(function (entries, obs) {
+                            entries.forEach(function (entry) {
+                                if (entry.isIntersecting) {
+                                    obs.disconnect();
+                                    initMap();
+                                }
+                            });
+                        }).observe(el);
+                    } else {
+                        initMap();
+                    }
+                }
+            })();
+        </script><section class="chronik-card" id="chronik-card-Arthur-Schnitzler-digital-1" style="--c: #801e23;">
+                              <header class="chronik-card-head"><a href="https://www.schnitzler-edition.net" target="_blank">Arthur Schnitzler digital (Werke 1905–1931)</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://www.schnitzler-edition.net" target="_blank">Der Sekundant, Typoskript</a></p>
+                                    <p class="chronik-text">Publikation in Vorbereitung</p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-tagebuch-1" style="--c: #037a33;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-09-05.html" target="_blank">Tagebuch</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/entry__1931-09-05.html" target="_blank">Tagebucheintrag zum 5. September 1931</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #037a33;">
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb2774.html" target="_blank">Dora Michaelis</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb12692.html" target="_blank">Heinrich Schnitzler</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb22728.html" target="_blank">Frieda Pollak</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #037a33;">
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30953.html" target="_blank">Der Sekundant</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb80399.html" target="_blank">Komparserie. Ein Theaterstück in drei Akten</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb30957.html" target="_blank">Das gelbe Haus von Rio</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #037a33;">
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb168.html" target="_blank">Berlin</a></li>
+                                          <li><a href="https://schnitzler-tagebuch.acdh.oeaw.ac.at/pmb415.html" target="_blank">Bad Aussee</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-briefe-1" style="--c: #A63437;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/L02546.html" target="_blank">Briefe mit Autorinnen und Autoren</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-briefe.acdh.oeaw.ac.at/L02546.html" target="_blank">Arthur Schnitzler an Hermann Bahr, 5. 9. 1931</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #A63437;">
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Bahr, Hermann</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11131.html" target="_blank">Paul Czinner</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11334.html" target="_blank">Luise Fleck</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12271.html" target="_blank">Leo Mittler</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb28356.html" target="_blank">Jacob Julius Fleck</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb28938.html" target="_blank">Holger-Madsen</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb4609.html" target="_blank">Victor Schertzinger</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb5042.html" target="_blank">August Blom</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb5045.html" target="_blank">Cecil B. DeMille</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10818.html" target="_blank">Anna Bahr-Mildenburg</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #A63437;">
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29917.html" target="_blank">Liebelei. Schauspiel in drei Akten</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29933.html" target="_blank">Das Konzert. Lustspiel in drei Akten</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29935.html" target="_blank">Anatol</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29941.html" target="_blank">Fräulein Else</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30711.html" target="_blank">Fräulein Else</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32330.html" target="_blank">The Concert</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32600.html" target="_blank">Fashions in Love</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32800.html" target="_blank">Elskovsleg</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32806.html" target="_blank">Liebelei [Film, 1927]</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32808.html" target="_blank">The Affairs of Anatol</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb33243.html" target="_blank">Tagebuch</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30055.html" target="_blank">Das Konzert</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #A63437;">
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168815.html" target="_blank">Sternwartestraße 71</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb45258.html" target="_blank">München</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb487.html" target="_blank">Hotel Riessersee</a></li>
+                                          <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-bahr-1" style="--c: #639FF9;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041142.html" target="_blank">Schnitzler/Bahr</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041142.html" target="_blank">Schnitzler an Bahr, 5. 9. 1931</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10818.html" target="_blank">Anna Bahr-Mildenburg</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29933.html" target="_blank">Das Konzert. Lustspiel in drei Akten</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30055.html" target="_blank">Das Konzert</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32330.html" target="_blank">The Concert</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html" target="_blank">Liebelei. Schauspiel in drei Akten</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html" target="_blank">Anatol</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29941.html" target="_blank">Fräulein Else</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb45258.html" target="_blank">München</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb150.html" target="_blank">Sternwartestraße</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb487.html" target="_blank">Hotel Riessersee</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-bahr-2" style="--c: #639FF9;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/D041388.html" target="_blank">Schnitzler/Bahr</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-bahr.acdh.oeaw.ac.at/D041388.html" target="_blank">Tagebuch von Schnitzler, 5. 9. 1931</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2774.html" target="_blank">Dora Michaelis</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb22728.html" target="_blank">Frieda Pollak</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11324.html" target="_blank">Samuel Fischer</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12692.html" target="_blank">Heinrich Schnitzler</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30953.html" target="_blank">Der Sekundant</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30957.html" target="_blank">Das gelbe Haus von Rio</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html" target="_blank">Berlin</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb415.html" target="_blank">Bad Aussee</a></li>
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb291.html" target="_blank">Gersthof</a></li>
+                                       </ul>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-building-columns" role="img" title="Organisationen" aria-label="Organisationen"></i><ul class="horizontal-list" style="--dot-color: #639FF9;">
+                                          <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29648.html" target="_blank">Simon &amp; Schuster</a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-wienerschnitzler" style="--c: #6F5106;">
+                              <header class="chronik-card-head"><a href="https://wienerschnitzler.org/tag.html#1931-09-05" target="_blank">Wiener Schnitzler</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://wienerschnitzler.org/pmb50.html" target="_blank">Wien</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="chronik-place-list" style="--dot-color: #6F5106;">
+                                          <li><a href="https://www.wienerschnitzler.org/pmb68.html" target="_blank">XVIII., Währing</a><ul class="chronik-place-list" style="--dot-color: #6F5106;">
+                                                <li><a href="https://www.wienerschnitzler.org/pmb190567.html" target="_blank">Gersthofer Elitetheater</a></li>
+                                                <li><a href="https://www.wienerschnitzler.org/pmb168815.html" target="_blank">Sternwartestraße 71</a></li>
+                                             </ul>
                                           </li>
                                        </ul>
-                                    </li>
-                                 </ul>
+                                    </div>
+                                 </div>
                               </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(166, 52, 55, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #A63437; " href="https://schnitzler-briefe.acdh.oeaw.ac.at/L02546.html">Briefe mit Autorinnen und Autoren</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-briefe" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-briefe">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #A63437" href="https://schnitzler-briefe.acdh.oeaw.ac.at/L02546.html" target="_blank">Arthur Schnitzler an Hermann Bahr, 5. 9. 1931</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Bahr, Hermann</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11131.html" target="_blank">Paul Czinner</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb11334.html" target="_blank">Luise Fleck</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb12271.html" target="_blank">Leo Mittler</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb28356.html" target="_blank">Jacob Julius Fleck</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb28938.html" target="_blank">Holger-Madsen</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb4609.html" target="_blank">Victor Schertzinger</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb5042.html" target="_blank">August Blom</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb5045.html" target="_blank">Cecil B. DeMille</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb10818.html" target="_blank">Anna Bahr-Mildenburg</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29917.html" target="_blank">Liebelei. Schauspiel in drei Akten</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29933.html" target="_blank">Das Konzert. Lustspiel in drei Akten</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29935.html" target="_blank">Anatol</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb29941.html" target="_blank">Fräulein Else</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30711.html" target="_blank">Fräulein Else</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32330.html" target="_blank">The Concert</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32600.html" target="_blank">Fashions in Love</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32800.html" target="_blank">Elskovsleg</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32806.html" target="_blank">Liebelei [Film, 1927]</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb32808.html" target="_blank">The Affairs of Anatol</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb33243.html" target="_blank">Tagebuch</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb30055.html" target="_blank">Das Konzert</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #A63437;">
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb168815.html" target="_blank">Sternwartestraße 71</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb45258.html" target="_blank">München</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb487.html" target="_blank">Hotel Riessersee</a></li>
-                                                   <li><a href="https://schnitzler-briefe.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-kultur-1" style="--c: #6B4C5A;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb211258.html" target="_blank">Kulturveranstaltungen</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb211258.html" target="_blank">Filmvorführung von Das gelbe Haus von Rio, 5.9.1931</a></p>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #6B4C5A;">
+                                          <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30957.html" target="_blank">Das gelbe Haus von Rio</a></li>
                                        </ul>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(99, 159, 249, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #639FF9; " href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041142.html">Schnitzler/Bahr</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-bahr" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-bahr">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #639FF9" href="https://schnitzler-bahr.acdh.oeaw.ac.at/L041142.html" target="_blank">Schnitzler an Bahr, 5. 9. 1931</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10818.html" target="_blank">Anna Bahr-Mildenburg</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29933.html" target="_blank">Das Konzert. Lustspiel in drei Akten</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30055.html" target="_blank">Das Konzert</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb32330.html" target="_blank">The Concert</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29917.html" target="_blank">Liebelei. Schauspiel in drei Akten</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29935.html" target="_blank">Anatol</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29941.html" target="_blank">Fräulein Else</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb50.html" target="_blank">Wien</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb45258.html" target="_blank">München</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb150.html" target="_blank">Sternwartestraße</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb487.html" target="_blank">Hotel Riessersee</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #6B4C5A;">
+                                          <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
                                        </ul>
-                                    </li>
-                                 </ul>
-                                 <p><a class="entry-title" style="color: #639FF9" href="https://schnitzler-bahr.acdh.oeaw.ac.at/D041388.html" target="_blank">Tagebuch von Schnitzler, 5. 9. 1931</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb2774.html" target="_blank">Dora Michaelis</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb22728.html" target="_blank">Frieda Pollak</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb11324.html" target="_blank">Samuel Fischer</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb10815.html" target="_blank">Hermann Bahr</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb12692.html" target="_blank">Heinrich Schnitzler</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30953.html" target="_blank">Der Sekundant</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb30957.html" target="_blank">Das gelbe Haus von Rio</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb168.html" target="_blank">Berlin</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb415.html" target="_blank">Bad Aussee</a></li>
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb291.html" target="_blank">Gersthof</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i class="fa-solid fa-building-columns" title="Organisationen"></i>  Organisationen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #639FF9;">
-                                                   <li><a href="https://schnitzler-bahr.acdh.oeaw.ac.at/pmb29648.html" target="_blank">Simon &amp; Schuster</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #6B4C5A;">
+                                          <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb190567.html" target="_blank">Gersthofer Elitetheater</a></li>
                                        </ul>
-                                    </li>
-                                 </ul>
+                                    </div>
+                                 </div>
                               </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(111, 81, 6, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #6F5106; " href="https://wienerschnitzler.org/tag.html#1931-09-05">Wiener Schnitzler</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#wienerschnitzler" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="wienerschnitzler">
-                              <div class="card-body">
-                                 <p><a class="entry-title" href="http://wienerschnitzler.org/pmb50.html" target="_blank">Wien</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul style="--dot-color: #6F5106;">
-                                                   <li><a href="https://www.wienerschnitzler.org/pmb68.html" target="_blank">XVIII., Währing</a><div class="list-container">
-                                                         <ul style="--dot-color: #6F5106;">
-                                                            <li><a href="https://www.wienerschnitzler.org/pmb190567.html" target="_blank">Gersthofer Elitetheater</a></li>
-                                                            <li><a href="https://www.wienerschnitzler.org/pmb168815.html" target="_blank">Sternwartestraße 71</a></li>
-                                                         </ul>
-                                                      </div>
-                                                   </li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-fischer-1" style="--c: #3D4F9F;">
+                              <header class="chronik-card-head"><a href="https://biblio.ub.uni-freiburg.de/sf/details/11700" target="_blank">Schnitzler – S. Fischer</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://biblio.ub.uni-freiburg.de/sf/details/11700" target="_blank">Arthur Schnitzler an Samuel Fischer, Gottfried Bermann, 1931-09-05</a></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #3D4F9F;">
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/2121/" target="_blank">Schnitzler, Arthur</a></li>
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/11324/" target="_blank">Fischer, Samuel</a></li>
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/10889/" target="_blank">Bermann, Gottfried</a></li>
                                        </ul>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(107, 76, 90, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #6B4C5A; " href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb211258.html">Kulturveranstaltungen</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-kultur" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-kultur">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #6B4C5A" href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb211258.html" target="_blank">Filmvorführung von Das gelbe Haus von Rio, 5.9.1931</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #6B4C5A;">
-                                                   <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb30957.html" target="_blank">Das gelbe Haus von Rio</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #6B4C5A;">
-                                                   <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb2121.html" target="_blank">Schnitzler, Arthur</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #6B4C5A;">
-                                                   <li><a href="https://schnitzler-kultur.acdh.oeaw.ac.at/pmb190567.html" target="_blank">Gersthofer Elitetheater</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #3D4F9F;">
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/10889/" target="_blank">Gottfried Bermann Fischer</a></li>
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/11324/" target="_blank">Samuel Fischer</a></li>
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/7141/" target="_blank">Walter Firner</a></li>
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/8885/" target="_blank">Hans Meid</a></li>
                                        </ul>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(61, 79, 159, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #3D4F9F; " href="https://biblio.ub.uni-freiburg.de/sf/details/11700">Schnitzler – S. Fischer</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-fischer" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-fischer">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #3D4F9F" href="https://biblio.ub.uni-freiburg.de/sf/details/11700" target="_blank">Arthur Schnitzler an Samuel Fischer, Gottfried Bermann, 1931-09-05</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #3D4F9F;">
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/2121/" target="_blank">Schnitzler, Arthur</a></li>
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/11324/" target="_blank">Fischer, Samuel</a></li>
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/10889/" target="_blank">Bermann, Gottfried</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #3D4F9F;">
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/10889/" target="_blank">Gottfried Bermann Fischer</a></li>
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/11324/" target="_blank">Samuel Fischer</a></li>
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/7141/" target="_blank">Walter Firner</a></li>
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/8885/" target="_blank">Hans Meid</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Werke" class="fa-regular fa-image"></i> Werke
-                                             
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #3D4F9F;">
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/30775/" target="_blank">Der Gang zum Weiher. Dramatische Dichtung</a></li>
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/30863/" target="_blank">Flucht in die Finsternis</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
-                                          <li><i title="Orte" class="fa-solid fa-location-dot"></i> Orte 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #3D4F9F;">
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/168/" target="_blank">Berlin</a></li>
-                                                   <li><a href="https://pmb.acdh.oeaw.ac.at/entity/50/" target="_blank">Wien</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-regular fa-image" role="img" title="Werke" aria-label="Werke"></i><ul class="horizontal-list" style="--dot-color: #3D4F9F;">
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/30775/" target="_blank">Der Gang zum Weiher. Dramatische Dichtung</a></li>
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/30863/" target="_blank">Flucht in die Finsternis</a></li>
                                        </ul>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(101, 67, 33, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #654321; " href="">Gedruckte Briefwechsel</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-cmif" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-cmif">
-                              <div class="card-body">
-                                 <p><span class="entry-title">Arthur Schnitzler an Bermann Fischer, Gottfried, 5.9.1931</span></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #654321;">
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118509683" target="_blank">Bermann Fischer, Gottfried</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                                    </div>
+                                    <div class="chronik-entities"><i class="fa-solid fa-location-dot" role="img" title="Orte" aria-label="Orte"></i><ul class="horizontal-list" style="--dot-color: #3D4F9F;">
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/168/" target="_blank">Berlin</a></li>
+                                          <li><a href="https://pmb.acdh.oeaw.ac.at/entity/50/" target="_blank">Wien</a></li>
                                        </ul>
-                                       <p>Quelle: <i>Hans Peter Buohler: Arthur Schnitzlers »Medardus Affairen« Teil 1:
-                                             Korrespondenzen. In: Hofmannsthal-Jahrbuch ⋅ Zur europäischen Moderne, Jg.
-                                             19 (2011), S. 79–215. </i></p>
-                                    </li>
-                                 </ul>
-                                 <p><span class="entry-title">Arthur Schnitzler an Hedy Kempny, 5.9.1931</span></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #654321;">
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/11872181X" target="_blank">Kempny, Hedy</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                                    </div>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-cmif-1" style="--c: #654321;">
+                              <header class="chronik-card-head"><span>Gedruckte Briefwechsel</span></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><span class="entry-title">Arthur Schnitzler an Bermann Fischer, Gottfried, 5.9.1931</span></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #654321;">
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118509683" target="_blank">Bermann Fischer, Gottfried</a></li>
                                        </ul>
-                                       <p>Quelle: <i>Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen.
-                                             Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie
-                                             durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei
-                                             Hamburg: Rowohlt 1984. (Neue Frau)</i></p>
-                                    </li>
-                                 </ul>
-                                 <p><span class="entry-title">Arthur Schnitzler an Heinrich Schnitzler, 5. 9. 1931</span></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <ul style="list-style-type: none; padding-left: 0px;">
-                                          <li><i class="fa-solid fa-users" title="Personen"></i> Personen 
-                                             <div class="list-container">
-                                                <ul class="horizontal-list" style="--dot-color: #654321;">
-                                                   <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116848510" target="_blank">Schnitzler, Heinrich</a></li>
-                                                </ul>
-                                             </div>
-                                          </li>
+                                    </div>
+                                    <p class="chronik-quelle">Quelle: <i>Hans Peter Buohler: Arthur Schnitzlers »Medardus Affairen« Teil 1:
+                                          Korrespondenzen. In: Hofmannsthal-Jahrbuch ⋅ Zur europäischen Moderne, Jg.
+                                          19 (2011), S. 79–215. </i></p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-cmif-2" style="--c: #654321;">
+                              <header class="chronik-card-head"><span>Gedruckte Briefwechsel</span></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><span class="entry-title">Arthur Schnitzler an Hedy Kempny, 5.9.1931</span></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #654321;">
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/11872181X" target="_blank">Kempny, Hedy</a></li>
                                        </ul>
-                                       <p>Quelle: <i>Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth,
-                                             Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main:
-                                             S. Fischer 1984. (PDF unter:
-                                             https://schnitzler-briefe.acdh.oeaw.ac.at/)</i></p>
-                                    </li>
+                                    </div>
+                                    <p class="chronik-quelle">Quelle: <i>Hedy Kempny und Arthur Schnitzler: Das Mädchen mit den dreizehn Seelen.
+                                          Eine Korrespondenz ergänzt durch Blätter aus Hedy Kempnys Tagebuch sowie
+                                          durch eine Auswahl ihrer Erzählungen. Hg. v. Heinz P. Adamek. Reinbek bei
+                                          Hamburg: Rowohlt 1984. (Neue Frau)</i></p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-cmif-3" style="--c: #654321;">
+                              <header class="chronik-card-head"><span>Gedruckte Briefwechsel</span></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><span class="entry-title">Arthur Schnitzler an Heinrich Schnitzler, 5. 9. 1931</span></p>
+                                    <div class="chronik-entities"><i class="fa-solid fa-users" role="img" title="Personen" aria-label="Personen"></i><ul class="horizontal-list" style="--dot-color: #654321;">
+                                          <li><a href="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/116848510" target="_blank">Schnitzler, Heinrich</a></li>
+                                       </ul>
+                                    </div>
+                                    <p class="chronik-quelle">Quelle: <i>Arthur Schnitzler: Briefe 1913–1931. Hrsg. v. Peter Michael Braunwarth,
+                                          Richard Miklin, Susanne Pertlik und Heinrich Schnitzler. Frankfurt am Main:
+                                          S. Fischer 1984. (PDF unter:
+                                          https://schnitzler-briefe.acdh.oeaw.ac.at/)</i></p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-mikrofilme-daten-1" style="--c: #6e7b8b;">
+                              <header class="chronik-card-head"><a href="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428130_0002.html" target="_blank">Mikroverfilmung des Nachlasses</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428130_0002.html" target="_blank">Mappe A26c</a></p>
+                                    <p class="chronik-text">Datumsangabe auf Blatt von Der Sekundant: »Sie hatten sich entschlossen…«</p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-schnitzler-kino-buch-1" style="--c: #B43C9C;">
+                              <header class="chronik-card-head"><span>Kino</span></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><span class="entry-title">Schnitzler im Gersthofer Elitetheater, 5. September 1931</span></p>
+                                    <p class="chronik-quelle">Quelle: <i>»A. ist
+                                          manchmal wie ein kleines Kind«. Clara Katharina Pollaczek und Arthur Schnitzler gehen
+                                          ins Kino. Herausgegeben von Stephan Kurz und Michael Rohrwasser unter Mitarbeit von
+                                          Daniel Schopper. Wien, Köln, Weimar: Böhlau Verlag 2012.</i></p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-kalliope-verbund-1" style="--c: #003574;">
+                              <header class="chronik-card-head"><a href="http://kalliope-verbund.info/DE-2498-HS00080194" target="_blank">Kalliope Verbundkatalog</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="http://kalliope-verbund.info/DE-2498-HS00080194" target="_blank">Schnitzler, Arthur: Der Sekundant [Prosa] (Drucktitel)</a></p>
+                                    <p class="chronik-text">Erstes Objekt aus der Mappe. 20 Bl.</p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-kalliope-verbund-2" style="--c: #003574;">
+                              <header class="chronik-card-head"><a href="http://kalliope-verbund.info/DE-2498-HS00080463" target="_blank">Kalliope Verbundkatalog</a></header>
+                              <div class="chronik-card-body">
+                                 <div class="chronik-event">
+                                    <p><a class="entry-title" href="http://kalliope-verbund.info/DE-2498-HS00080463" target="_blank">Schnitzler, Arthur: Der Sekundant [Prosa] (Drucktitel)</a></p>
+                                    <p class="chronik-text">Erstes Objekt aus der Mappe. 19 Bl.</p>
+                                 </div>
+                              </div>
+                           </section>
+                           <section class="chronik-card" id="chronik-card-weiteres" style="--c: #595959;">
+                              <header class="chronik-card-head"><span>Weiteres</span></header>
+                              <div class="chronik-card-body">
+                                 <ul class="chronik-misc-list">
+                                    <li>Zeitungen vom <a href="https://anno.onb.ac.at/cgi-content/anno?datum=19310905" target="_blank">Samstag, 5. 9. 1931</a> (ANNO)</li>
+                                    <li>Briefe vom <a href="https://correspsearch.net/de/suche.html?d=1931-09-05&amp;x=1&amp;w=0" target="_blank">Samstag, 5. 9. 1931</a> (correspSearch)</li>
                                  </ul>
                               </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(110, 123, 139, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #6e7b8b; " href="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428130_0002.html">Mikroverfilmung des Nachlasses</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-mikrofilme-daten" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-mikrofilme-daten">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #6e7b8b" href="https://schnitzler-mikrofilme.acdh.oeaw.ac.at/1428130_0002.html" target="_blank">Mappe A26c</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>Datumsangabe auf Blatt von Der Sekundant: »Sie hatten sich entschlossen…«</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(180, 60, 156, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #B43C9C; " href="">Kino</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#schnitzler-kino-buch" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="schnitzler-kino-buch">
-                              <div class="card-body">
-                                 <p><span class="entry-title">Schnitzler im Gersthofer Elitetheater, 5. September 1931</span></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>
-                                       <p>Quelle: <i>»A. ist
-                                             manchmal wie ein kleines Kind«. Clara Katharina Pollaczek und Arthur Schnitzler gehen
-                                             ins Kino. Herausgegeben von Stephan Kurz und Michael Rohrwasser unter Mitarbeit von
-                                             Daniel Schopper. Wien, Köln, Weimar: Böhlau Verlag 2012.</i></p>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="card mb-3" style="background-color: rgba(0, 53, 116, 0.1)">
-                           <div class="card-header d-flex justify-content-between align-items-center" style="background-color: transparent;"><a class="badge cornered-pill" target="_blank" style="color: white; text-decoration: none;background-color: #003574; " href="http://kalliope-verbund.info/DE-2498-HS00080194">Kalliope Verbundkatalog</a><span class="toggle-icon" data-bs-toggle="collapse" data-bs-target="#kalliope-verbund" aria-expanded="true" aria-controls="content1" style="cursor: pointer; user-select: none;">−</span></div>
-                           <div class="collapse show" id="kalliope-verbund">
-                              <div class="card-body">
-                                 <p><a class="entry-title" style="color: #003574" href="http://kalliope-verbund.info/DE-2498-HS00080194" target="_blank">Schnitzler, Arthur: Der Sekundant [Prosa] (Drucktitel)</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>Erstes Objekt aus der Mappe. 20 Bl.</li>
-                                 </ul>
-                                 <p><a class="entry-title" style="color: #003574" href="http://kalliope-verbund.info/DE-2498-HS00080463" target="_blank">Schnitzler, Arthur: Der Sekundant [Prosa] (Drucktitel)</a></p>
-                                 <ul style="list-style-type: none; padding-left: 0px;">
-                                    <li>Erstes Objekt aus der Mappe. 19 Bl.</li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="weiteres" style="margin-top:2.5em;">
-                           <h3>Weiteres</h3>
-                           <ul>
-                              <li>Zeitungen vom <a href="https://anno.onb.ac.at/cgi-content/anno?datum=19310905" target="_blank">Samstag, 5. 9. 1931</a> bei <a style="color: black;" href="https://anno.onb.ac.at/cgi-content/anno?datum=19310905" target="_blank">ANNO</a></li>
-                              <li>Briefe vom <a href="https://correspsearch.net/de/suche.html?d=1931-09-05&amp;x=1&amp;w=0" target="_blank">Samstag, 5. 9. 1931</a> bei <a style="color: black;" href="https://correspsearch.net/de/suche.html?d=1931-09-05&amp;x=1&amp;w=0" target="_blank">correspSearch</a></li>
-                           </ul>
+                           </section>
                         </div>
                      </div>
                   </div>
