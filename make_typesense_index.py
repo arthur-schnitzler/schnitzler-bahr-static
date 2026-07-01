@@ -1,7 +1,7 @@
 import glob
 import os
 
-from typesense.api_call import ObjectNotFound
+from typesense.exceptions import ObjectNotFound
 from acdh_cfts_pyutils import TYPESENSE_CLIENT as client
 from acdh_cfts_pyutils import CFTS_COLLECTION
 from acdh_tei_pyutils.tei import TeiReader
@@ -22,6 +22,11 @@ except ReadTimeout:
 
 current_schema = {
     "name": "bahr-static",
+    "metadata": {
+        "owners": ["Peter Andorfer", "Martin Anton Müller"],
+        "description": "https://schnitzler-bahr.acdh.oeaw.ac.at/",
+        "service_ids": [10694],
+    },
     "fields": [
         {"name": "id", "type": "string"},
         {"name": "rec_id", "type": "string"},
